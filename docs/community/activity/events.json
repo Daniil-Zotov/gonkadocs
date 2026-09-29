@@ -1,5 +1,137 @@
 [
   {
+    "id": "evt_20260929205758_1dbf0e0d",
+    "timestamp": "2026-09-29T20:57:58.763334+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1200 — Independent review of PoC-decode results",
+      "url": "/community/issues/01200-independent-review-of-poc-decode-results/",
+      "file": "01200-independent-review-of-poc-decode-results.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st",
+      "new_comments": [
+        "Hey @Ryanchen911, I've updated the issue description, you are welcome to review"
+      ],
+      "comment_count": 2
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260929205758_07f0ba96",
+    "timestamp": "2026-09-29T20:57:58.763425+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1539 — Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)",
+      "url": "/community/issues/01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n/",
+      "file": "01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)\n    <span class=\"issues-number\">#1539</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-03 19:33 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)\n    <span class=\"issues-number\">#1539</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-03 19:33 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div c"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260929205758_2032586f",
+    "timestamp": "2026-09-29T20:57:58.763448+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1570 — Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)",
+      "url": "/community/issues/01570-devshard-timeout-vote-threshold-unreachable-under-skewed-slo/",
+      "file": "01570-devshard-timeout-vote-threshold-unreachable-under-skewed-slo.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)\n    <span class=\"issues-number\">#1570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-09 16:18 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)\n    <span class=\"issues-number\">#1570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-09 16:18 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260929205758_242196ec",
+    "timestamp": "2026-09-29T20:57:58.763469+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1671 — chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)",
+      "url": "/community/issues/01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-/",
+      "file": "01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)\n    <span class=\"issues-number\">#1671</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-28 20:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labe",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)\n    <span class=\"issues-number\">#1671</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-28 20:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260929205758_b9cc1da7",
+    "timestamp": "2026-09-29T20:57:58.763488+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1725 — x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty",
+      "url": "/community/issues/01725-xinference-getallmodelcapacities-keys-the-epoch-group-map-wi/",
+      "file": "01725-xinference-getallmodelcapacities-keys-the-epoch-group-map-wi.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty\n    <span class=\"issues-number\">#1725</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty\n    <span class=\"issues-number\">#1725</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\""
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260929205758_279c4ce6",
+    "timestamp": "2026-09-29T20:57:58.763500+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform",
+      "url": "/community/issues/01726-xinference-collateralparamsdowntimemissedpercentagethreshold/",
+      "file": "01726-xinference-collateralparamsdowntimemissedpercentagethreshold.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</s",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n   "
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260929205758_d740b797",
+    "timestamp": "2026-09-29T20:57:58.763515+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig",
+      "url": "/community/issues/01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t/",
+      "file": "01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-m"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20260929205758_17633498",
+    "timestamp": "2026-09-29T20:57:58.763535+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1810 — `devshard`: Tool-calling / protocol errors → INVALID",
+      "url": "/community/issues/01810-devshard-tool-calling-protocol-errors-invalid/",
+      "file": "01810-devshard-tool-calling-protocol-errors-invalid.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260929160346_7dc56735",
     "timestamp": "2026-09-29T16:03:46.814852+00:00",
     "section": "issues",
@@ -7993,125 +8125,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    \"Request timestamp is in the future\" leads to missed inferences for hosts\n    <span class=\"issues-number\">#518</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-01-02 06:22 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
     },
     "ai_description": "The issue #518 \"Request timestamp is in the future\" has been closed and removed from the feed. This bug previously caused hosts to miss valid inference requests due to clock skew, so its resolution means smoother operations for the network. Thanks to @akup for flagging it and to everyone who contributed to the fix."
-  },
-  {
-    "id": "evt_20260910143102_3e48df4a",
-    "timestamp": "2026-09-10T14:31:02.672268+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#520 — Fix gRPC Endpoint for Cosmostation wallet and Mintscan explorer dashboard",
-      "url": null,
-      "file": "00520-fix-grpc-endpoint-for-cosmostation-wallet-and-mintscan-explo.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Fix gRPC Endpoint for Cosmostation wallet and Mintscan explorer dashboard\n    <span class=\"issues-number\">#520</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues"
-    },
-    "ai_description": "Issue #520, which proposed fixing the gRPC endpoint for Cosmostation wallet and Mintscan explorer, has been closed and removed from the active feed. This means the proposed change is no longer under consideration, so the community should watch for an alternative solution or updated proposal. If you relied on this fix, keep an eye out for follow-up discussions on endpoint reliability."
-  },
-  {
-    "id": "evt_20260910143102_dea5e48f",
-    "timestamp": "2026-09-10T14:31:02.672275+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#521 — Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)",
-      "url": null,
-      "file": "00521-create-a-proxy-endpoint-that-aggregates-multiple-internal-rp.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)\n    <span class=\"issues-number\">#521</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"i"
-    },
-    "ai_description": "Issue #521 on creating a unified RPC proxy endpoint for crypto wallets has been removed from the community feed. The proposal aimed to aggregate internal nodes behind a single public address, which would have simplified wallet connectivity and improved reliability. Its removal means this particular infrastructure improvement is no longer under active community consideration. Stay tuned for alternative proposals or updates on RPC access improvements."
-  },
-  {
-    "id": "evt_20260910143102_2464cac4",
-    "timestamp": "2026-09-10T14:31:02.672282+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#522 — Add support for text-to-video models and inference to the network",
-      "url": null,
-      "file": "00522-add-support-for-text-to-video-models-and-inference-to-the-ne.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Add support for text-to-video models and inference to the network\n    <span class=\"issues-number\">#522</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div"
-    },
-    "ai_description": "Issue #522 proposing text-to-video model support has been removed from the community feed. This means the network will not be expanding into video generation inference at this time, so current text and image capabilities remain the focus for contributors. Keep an eye out for any future proposals on this topic.Issue #522, which proposed adding text-to-video model support and inference to the network, has been removed from the community feed. This means the initiative is no longer being tracked, so the network's current focus remains on existing text and image capabilities. If you were interested in video inference, watch for any future proposals on this topic."
-  },
-  {
-    "id": "evt_20260910143102_748acb66",
-    "timestamp": "2026-09-10T14:31:02.672288+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#527 — Node resync from snapshot caused missed inference tasks due to large application.db",
-      "url": null,
-      "file": "00527-node-resync-from-snapshot-caused-missed-inference-tasks-due-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Node resync from snapshot caused missed inference tasks due to large application.db\n    <span class=\"issues-number\">#527</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/bingcongxihaha\">@bingcongxihaha</a> opened 2026-01-06 16:35 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  "
-    },
-    "ai_description": "Issue #527 has been closed and removed from the tracker. The report highlighted how node resyncs from snapshots caused missed inference tasks due to a large application.db, but the matter is now resolved)Skip. No further action is needed from the community on this front. Keep your nodes synced.Issue #527 has been closed and removed from the tracker. The report highlighted how node resyncs from snapshots caused missed inference tasks due to a large application.db, but the matter is now resolved. No further action is needed from the community on this front. Keep your nodes synced."
-  },
-  {
-    "id": "evt_20260910143102_f85f373d",
-    "timestamp": "2026-09-10T14:31:02.672296+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "1. Stop crashed node",
-      "url": null,
-      "file": "00546-node-crash-decimal-precision-panic-in-reputation-calculation.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Node crash: Decimal precision panic in reputation calculation (v0.2.7-post1)\n    <span class=\"issues-number\">#546</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Olena\">@Olena</a> opened 2026-01-12 10:29 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
-    },
-    "ai_description": "A crash report about a decimal precision panic in the reputation calculation (issue #546) has been removed from the tracker. Since the issue is now closed and gone, this likely means the bug was resolved in a patch or deemed no longer relevant. Cleanup like this helps keep the community feed focused on active problems and actionable improvements."
-  },
-  {
-    "id": "evt_20260910143102_d8ab8de5",
-    "timestamp": "2026-09-10T14:31:02.672304+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "Inference Request Processing: Security Architecture and Fix",
-      "url": null,
-      "file": "00554-p2-free-inference-exploit.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P2] Free inference exploit\n    <span class=\"issues-number\">#554</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-01-14 12:30 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-lab"
-    },
-    "ai_description": "Issue #554 on free inference exploit has been closed and removed from the feed. The security concern around unauthorized inference request processing has been resolved, keeping the network's resource allocation fair and protected. Thanks to everyone who contributed to addressing this vulnerability. Stay vigilant, Gonka community.Issue #554 on the free inference exploit has been closed and removed from the active feed, marking the resolution of a P2 security concern that could have allowed unauthorized resource usage. This cleanup keeps our issue tracker focused on open problems and confirms the fix is in place. Thanks to @akup for reporting it and to all who helped harden the network."
-  },
-  {
-    "id": "evt_20260910143102_b1e05e56",
-    "timestamp": "2026-09-10T14:31:02.672311+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#557 — Remove extraneous community account",
-      "url": null,
-      "file": "00557-remove-extraneous-community-account.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Remove extraneous community account\n    <span class=\"issues-number\">#557</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/patimen\">@patimen</a> opened 2026-01-14 20:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</"
-    },
-    "ai_description": "Issue #557 about removing an extraneous community account has been closed and removed from the feed. This cleanup helps streamline our governance and keeps the network focused on active contributors. Thanks to @patimen for flagging it.Issue #557 on removing an extraneous community account has been closed and removed from our feed. This cleanup keeps our governance structure lean and ensures only active contributors remain in the loop. Thanks to @patimen for raising it."
-  },
-  {
-    "id": "evt_20260910143102_c189325b",
-    "timestamp": "2026-09-10T14:31:02.672317+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#558 — [P2] URLs with `/chat/completions` and `/completions` for Open Router",
-      "url": null,
-      "file": "00558-p2-urls-with-chatcompletions-and-completions-for-open-router.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P2] URLs with `/chat/completions` and `/completions` for Open Router\n    <span class=\"issues-number\">#558</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-14 20:40 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la"
-    },
-    "ai_description": "Issue #558 about supporting both /chat/completions and /completions URL paths for Open Router has been closed and removed from the feed. The proposal to add flexibility for different API endpoint formats is no longer under active consideration, so keep using the standard paths as documented. Thanks to everyone who weighed in on the discussion."
   }
 ]

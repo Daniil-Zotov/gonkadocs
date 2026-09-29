@@ -2,7 +2,7 @@
 title: "#1200 — Independent review of PoC-decode results"
 source: https://github.com/gonka-ai/gonka/issues/1200
 issue_number: 1200
-synced_at: 2026-09-29T15:58:58Z
+synced_at: 2026-09-29T20:53:14Z
 template: issues-main.html
 ---
 
@@ -16,94 +16,84 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>
     <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-28 21:41 UTC</span>
+    <span class="issues-meta-item">Updated 2026-09-29 16:23 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
 
 <div class="issues-content" markdown="1">
-Independently review and re-check the PoC-decode approach from https://github.com/gonka-ai/gonka/issues/1135 and the Axel-T experiments.
+Independently review and re-check the PoC-decode approach
 
-Current PoC correlates reasonably well with inference compute, but memory-usage coverage can be improved. The concern is that specialized versions could significantly accelerate PoC without equivalently improving real inference.
+# Gonka Proof-of-Compute: the prefill scheme and the decode scheme
 
-PoC-decode proposes extending Proof-of-Compute from prefill to decode steps.
+What a prover computes per nonce, what it sends, and what a validator recomputes and compares. Source of truth: `gonka-ai/gonka-vllm-plugins` branch `decode-poc-int` (2ca7cd7), engine seams `gonka-ai/vllm#100` / `#113`, chain `gonka-ai/gonka#1743`. Both schemes are served by the same plugin; the chain picks one per PoC stage (`PocParams.poc_scheme`).
 
-Context
+**Why decode instead of prefill.** A host that optimizes its node for decode PoC also optimizes it for inference: decode nonces are ordinary engine requests that go through the same scheduler, KV cache and compiled graphs as chat. A host that optimizes for prefill PoC optimizes only the prefill phase, which can even hurt inference: e.g. on MiniMax, compile mode speeds up both inference and decode PoC, while prefill PoC runs faster without it.
 
-Relevant materials:
+Example on DeepSeek-V4-Flash with cudagraph on and off (`--enforce-eager`); billed = prompt incl. cache hits + output, tokens/s per instance, 256 agentic sessions with high cache hit (`session_bench` from gonka#1839):
 
-* Main issue: https://github.com/gonka-ai/gonka/issues/1135
-* Presentation: https://docs.google.com/presentation/d/11zXgKd8q3t7SZ_wqfiMvCqTWqiKxJw65AFmAWDnMcL8/edit
-* Experiment artifacts: https://drive.google.com/drive/folders/1tVh6mTsazMfjtSz-J0MTN8KYD5B9g1Bq
-* Implementation branch: https://github.com/axeltec-software/vllm/tree/axeltec/poc-decode-proposal
+| | eager | cudagraph | cudagraph vs eager | eager vs cudagraph |
+|---|---:|---:|---:|---:|
+| decode PoC, nonces/min | 1,253 | 2,047 | +63.4% | −38.8% |
+| prefill PoC, nonces/min | 1,728 | 1,350 | −21.9% | +28.0% |
+| billed, tokens/s | 45,382 | 222,808 | +391.0% | −79.6% |
 
-Please use these materials as the source of truth.
+Notation. `H` is the model hidden size, `L` the number of decoder layers. `seed(s) = int(sha256(s)[:8], 16)`; `normal(seed, n)` is a deterministic standard-normal vector of length `n` (murmur3 counter stream + Box–Muller); `murmur(keys, seed)` is murmur3-32. All of this is integer arithmetic plus elementary float ops, identical on every node.
 
-## Task
+---
 
-Review the PoC-decode proposal and independently re-check the results.
+## 1. Prefill scheme (in production, `POC_SCHEME_PREFILL`)
 
-The task should be treated as a critical review, not just a confirmation that the implementation runs.
+One forward pass per nonce; the artifact is a 12-dimensional vector.
 
-## Review scope
+**Prover, per nonce `n` with `(block_hash, public_key)`:**
 
-Please check:
+1. **Input.** `X = normal(seed(f"{block_hash}_{public_key}_nonce{n}"), seq_len·H)` reshaped to `[seq_len, H]` (`seq_len` = 1024 on mainnet), cast to the model dtype. It is fed as `inputs_embeds`, bypassing the token embedding. Token-id-routed models (DeepSeek-V4 hash-MoE) also get pseudo token ids `murmur(position, seed(...+"_input_ids")) mod vocab`. With `poc_stronger_rng` the normal stream is split over 8 sub-seeds of the full sha256.
+2. **Forward with per-layer reflections.** A forward hook on every decoder layer `i` applies a Householder reflection to the layer's output hidden state and residual: `x ← x − 2 (x·v_i) v_i`, `v_i = normalize(normal(seed(f"{block_hash}_layer_{i}_householder"), H))`. Same `v_i` for every nonce of the block; MoE routing is the model's own.
+3. **Fingerprint.** `h = normalize(hidden[last position])` (`[H]`, fp32). Pick `k_dim = 12` coordinates: `idx = 12 smallest of murmur(0..H−1, seed(f"{block_hash}_{public_key}_nonce_{n}_pick_12"))`; `x = h[idx]`. Apply a Haar-random rotation as 11 Householder reflections in R¹²: for `j = 0..10`, `u_j = normalize(normal(seed(f"..._haar_hh_12_{j}"), 12))`, `x ← x − 2 (x·u_j) u_j`. Normalize again.
+4. **Artifact.** `vector_b64` = the 12 values as fp16 little-endian, base64 (24 bytes). A nonce whose hidden state or fp16 vector is non-finite is dropped, not sent.
 
-1. Whether the results from #1135 are reproducible.
-2. Whether the hypothesis is confirmed beyond the initial experiments.
-3. Whether the method should be tested on different models.
-4. Whether the implementation can be integrated into the current vLLM path if the results are confirmed.
-5. What makes migration painful and how to reduce that pain.
-6. Whether a safer rollout can start only with new models.
+**Validator, for a sampled set of nonces:** recompute 1–3 on its own model, `d = ‖x_validator − x_prover‖₂`. A nonce mismatches if `d > dist_threshold` (per model on chain, e.g. 0.41 for DeepSeek-V4-Flash), if the received vector is not 12 fp16 values, or if it contains NaN/Inf. Over the sample: binomial test of the mismatch count against `p_mismatch` with `alternative='greater'`; `fraud = p_value < fraud_threshold`. A nonce the validator itself failed to compute (non-finite state, engine failure) leaves the sample.
 
-## Review points
+---
 
-1. Re-check the reported results
+## 2. Decode scheme (`POC_SCHEME_DECODE`)
 
-Review the experiments from #1135 and the linked Axel-T materials.
+A prefill of 256 positions followed by 256 decode steps per nonce, run as an ordinary engine request that shares the scheduler and batch with chat. The artifact is a chain of 257 codebook indices.
 
-Confirm whether the reported PoC-decode results hold under independent review.
+**Fixed constants.** Codebook `C`: 16 unit vectors in R²⁵⁶ (`SPHERE_POINTS = 16`, `SPHERE_DIM = 256`), built once (Halton init + Thomson repulsion), shipped as `sphere_codebook.pt` and checked against a frozen sha256 at load. MoE logit baseline `LADDER_BASE = 100`. It's using to make a top-k expert sampling smoothier, just adding for the top-k experts value LADDER_BASE + 1, LADDER_BASE + 2 etc.
 
-2. Validate on different models
+**Per-nonce seeds.** `base = seed(f"{block_hash}_{public_key}_nonce{n}")`. Per step, `step_seed(step, prev_k, salt) = murmur((prev_k·A + step·B + salt) mod 2³², base)` with fixed odd constants `A, B` and three salts: `0x0D` input embedding, `0x91` coordinate pick, `0x57` pseudo token id. `prev_k` is the codebook index of the previous step, so every stream of step `t+1` depends on the fingerprint of step `t`.
 
-The current experiments provide the first confirmation of the hypothesis, but independent confirmation on different models is required before integration decisions.
+**Model transforms (installed once, inside the compiled/captured graph, applied only to PoC rows via a per-row mask; chat rows are untouched):**
 
-Please identify and run, or define, the minimum additional model checks needed.
+- *Embedding.* PoC rows bypass the token embedding: prefill rows take `X` exactly as in the prefill scheme (step 1 above, `seq_len = 256`); decode row at step `t` takes `e_t = normal(step_seed(t, k_{t−1}, 0x0D), H)`.
+- *Per-layer reflection.* Every decoder layer's output hidden and residual are reflected on PoC rows, `x ← x − 2 (x·v_i) v_i`, with `v_i` from `f"{block_hash}_layer_{i}_householder"` (or `f"{block_hash}_nonce{n}_layer_{i}_householder"` when the request sets `per_nonce_reflection`). Same reflection family as the prefill scheme, step-independent.
+- *Seeded MoE routing.* On every MoE layer `ℓ` the router logits of PoC rows are replaced: `r = murmur(step, seed(f"{block_hash}_n{n}_route_layer_{ℓ}"))`, `start = r mod n_experts`, experts `start … start+top_k−1 (mod n_experts)` get logits `100+top_k … 101`, all others `−10⁴`; the engine's top-k then selects exactly these experts with softmax-of-ladder weights. Expert choice never reads the hidden state (cross-hardware routing noise is removed). Hash-MoE models (DeepSeek-V4) keep their token-id routing and get a per-step pseudo id `murmur(0, step_seed(t, k_{t−1}, 0x57)) mod vocab` instead.
+- *Snap (the "sampler").* After the final norm, for each PoC row: `h = normalize(hidden)`; `idx = 256 smallest of murmur(0..H−1, step_seed(t, k_{t−1}, 0x91))` (prefill step: `t = 0`, no `prev_k` term); `q = normalize(h[idx])` ∈ S²⁵⁵; scores `s_j = q·C_j`, `j = 0..15`; `k_t = argmax_j s_j`. A non-finite `q` yields `k = −1` (compute fault marker). No token is sampled; PoC rows never enter the LM head or sampler.
 
-3. Review the implementation branch
+**Prover, per nonce:** prefill on the 256 seeded embeddings → `k_0`; then for `t = 1..256`: build `e_t` from `k_{t−1}`, one decode step, snap → `k_t`. The KV cache grows as in normal generation (512 tokens per nonce at the end). Artifact: `k_points_steps = [k_0 … k_256]`, 257 values in `0..15`, packed on chain as one byte per step. A nonce with any `k = −1` is dropped, not sent; the chain rejects any byte outside `0..15`.
 
-Review the Axel-T vLLM branch:
+**Validator, for a sampled set of nonces (teacher-forced):** run the same request with the prover's chain as reference. At every step the validator computes its own snap from its own hidden state, but seeds step `t+1` with the prover's `k_t`, so both sides follow one trajectory and a disagreement at one step does not propagate. For each disagreeing step it keeps the score row `s` of its own `q` and measures the claim against it: `margin_t = max_j s_j − s[k_t^prover]` (0 when the claim is its own snap; the top1−top2 gap when the claim is its runner-up, i.e. boundary jitter; ≈0.7 for a far cell on this codebook; 2.0 for a claim outside `0..15`). The nonce's distance is `max_t margin_t` over disagreeing steps, and the nonce mismatches if it exceeds `τ = dist_threshold` (per model on chain, e.g. 0.025 for DeepSeek-V4-Flash, 0.025–0.03 for GLM-5.3-Flash, 0.04–0.05 for MiniMax-M2.7). Then the same binomial test over nonces as in the prefill scheme. Nonces the validator could not compute (non-finite step) leave the sample; a reference with a value outside the codebook is a mismatch, not an error.
 
-https://github.com/axeltec-software/vllm/tree/axeltec/poc-decode-proposal
+---
 
-Check whether the implementation matches the method described in #1135 and whether it can be prepared for integration into the current vLLM path if the hypothesis is confirmed.
+## 3. What differs
 
-4. Review migration impact
-
-Migration may be painful.
-
-Please identify:
-
-* what makes migration difficult;
-* what can be done to reduce migration pain;
-* whether rollout can start only with new models;
-* what should be avoided during initial rollout.
-
-5. Critical risk review
-
-Risk level is medium: there is an initial positive signal, but the method still needs an honest critical review.
-
-Please document:
-
-* what is confirmed;
-* what is not confirmed yet;
-* what requires more experiments;
-* what could block integration.
+| | prefill | decode |
+|---|---|---|
+| work per nonce | 1 forward over 1024 positions | prefill 256 + 256 decode steps (512 KV tokens held) |
+| model transforms | reflections on every layer | reflections on every layer + seeded MoE routing + seeded embedding per step + in-graph snap |
+| artifact | 12 fp16 values (24 B) | 257 codebook indices (257 B) |
+| chaining | none | `k_t` seeds the input embedding, the coordinate pick and the pseudo id of step `t+1` |
+| observations per nonce | 1 L2 distance | 257 index comparisons, scored by claimed-cell margin |
+| validator replay | independent recompute | teacher-forced on the prover's chain |
+| verdict | L2 > `dist_threshold` per nonce → binomial | `max` claimed margin > `τ` per nonce → binomial |
+| execution | eager, separate forward outside the scheduler | ordinary engine requests, cudagraph/compiled, batched with chat |
 
 ## Notes
 
-This task is about independent verification and critical review.
-If the results are confirmed on different models, the next step can be integration into the current vLLM path.
+This task is about independent verification and critical review. 
 </div>
 
 ---
@@ -122,78 +112,10 @@ If the results are confirmed on different models, the next step can be integrati
 <div class="issues-comment">
   <div class="issues-comment-header">
     <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
-    <span class="issues-meta-item">commented 2026-09-28 21:41 UTC</span>
+    <span class="issues-meta-item">commented 2026-09-29 16:23 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">
-    <p>Scope addendum, so a review of this issue matches the code as of 2026-09-28. The materials listed above (issue #1135, the April <code>axeltec-software/vllm</code> branch <code>axeltec/poc-decode-proposal</code>, the slides, and the Drive folder) are the original proposal. They are not the current integration target.</p>
-<h2>What is already in production</h2>
-<p><code>gonka</code> main runs PoC v2, not the prefill-only procedure this issue was written against.</p>
-<ul>
-<li>Method and rollout: <code>proposals/poc/README.md</code>. Random <code>inputs_embeds</code>, per-layer Householder transforms, a <code>k_dim=12</code> FP16 vector, L2 distance plus a binomial test, off-chain MMR commits. Model: <code>Qwen/Qwen3-235B-A22B-Instruct-2507-FP8</code>.</li>
-<li>MLNode image base: <code>ghcr.io/gonka-ai/vllm:v0.25.1-poc-v4</code> (<code>mlnode/packages/api/Dockerfile</code>).</li>
-<li>The chain stores commits, weight distribution, and validations. It has no decode scheme and no <code>k_point_ids</code> artifact. <code>docs/gonka_poc.md</code> still describes the older on-chain batch flow and is not the baseline.</li>
-</ul>
-<p>A review that only re-checks the April branch will miss the protocol a decode scheme has to fit.</p>
-<h2>Where decode PoC actually lives</h2>
-<p>Compute is the out-of-tree <code>gonka-poc</code> plugin (<code>gonka-ai/gonka-vllm-plugins</code>). The vLLM tree only has engine seams. Latest published plugin tag is <code>v0.1.6</code>. Tag <code>v0.2.0</code> is referenced by the 0.30 image recipe and is not cut yet.</p>
-<table>
-<thead>
-<tr>
-<th>Line</th>
-<th>Engine</th>
-<th>Plugin</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>vLLM 0.25.1, shared batch</td>
-<td><a href="https://github.com/gonka-ai/vllm/pull/100">gonka-ai/vllm#100</a> (open)</td>
-<td><a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-vllm-plugins#8</a> (merged 2026-09-21)</td>
-</tr>
-<tr>
-<td>vLLM 0.28, GLM-5.3-Flash</td>
-<td><a href="https://github.com/gonka-ai/vllm/pull/113">gonka-ai/vllm#113</a> (open)</td>
-<td><a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/12">gonka-vllm-plugins#12</a> (merged)</td>
-</tr>
-<tr>
-<td>vLLM 0.30.0, v1 runner</td>
-<td><a href="https://github.com/gonka-ai/vllm/pull/115">gonka-ai/vllm#115</a> (open; includes #114)</td>
-<td><a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/20">gonka-vllm-plugins#20</a> (open)</td>
-</tr>
-</tbody>
-</table>
-<p><code>params.scheme</code> selects the proof. Omitting it keeps <code>prefill</code>, artifact-compatible with plugin <code>v0.1.3</code>. <code>decode</code> is the chained sphere-k trajectory. Both schemes are in scope: a decode change that moves prefill artifacts is a production break.</p>
-<h2>What the review still has to cover</h2>
-<p>These are already measured or already written, and they are not in the original task list.</p>
-<ol>
-<li>
-<p><strong>Reproducibility is no longer only Qwen2.5-7B.</strong> #1135 comments add Qwen3-235B on A100 and H100. <a href="https://github.com/gonka-ai/vllm/pull/115">vllm#115</a> reports DeepSeek-V4-Flash-0731 FP8 on 1×B300: honest rerun 0/64 with margin 0.022 on the v1 runner, matching 0.25.1; the default v2 runner is 5/64 with margin 0.153 because artifacts depend on batch shape. <code>cudagraph_mode: PIECEWISE</code> does not fix that. <code>VLLM_USE_V2_MODEL_RUNNER</code> is forced to 0 on that branch. GLM-5.3-Flash is a third line. Production consensus model is still Qwen3-235B-FP8, and that pair is not in the 0.30 table.</p>
-</li>
-<li>
-<p><strong>Fraud checks that exist, and the ones that do not.</strong> On the 0.30 image: one tampered step is 63/64, a wrong block hash is 64/64, and a <code>k=16</code> reference is a mismatch rather than a 400. The open question from #1135 still stands: with 16 points in 256 dimensions, a near-miss model (same base, different quant, or a close fine-tune) can stay inside the same cell as honest cross-hardware noise. A <code>SPHERE_POINTS</code> × fraud-distance sweep is still required before an integration decision.</p>
-</li>
-<li>
-<p><strong>Validator cost.</strong> Validation is teacher-forced over the host's k-point chain, so per-nonce cost is a real decode, not a single prefill. Sampling nonces reduces the count, not the cost of each nonce. The parallel-prefill alternative (embeddings are a function of the chain, which validation already has) is unconfirmed, because prefill and decode kernels are not bit-identical and that delta adds to the honest-mismatch baseline.</p>
-</li>
-<li>
-<p><strong>Engine hazards already found.</strong></p>
-</li>
-<li>A preempted PoC row whose artifact arrives later kills the next <code>schedule()</code> unless it is finished through the waiting queue (#115; missing on the earlier 0.28/0.30 ports).</li>
-<li>Decode-chain cache keys must include every seed input. Keying on the nonce alone made a validator reuse the previous round's seeds: step 0 matched, later steps diverged, artifacts looked normal (plugin #8).</li>
-<li>Prefill mining writes KV in place and was leaving those blocks cached. The next chat then read PoC KV: inference validation on MiniMax-M2.7 went from 16/16 to 0/16. Plugin #20 restores the prefix-cache reset for the prefill scheme only. Decode rows go through the scheduler and leave the cache alone.</li>
-<li>KV capacity for DeepSeek on 0.30 is about half of 0.25.1 at the same flags (1.18M vs 2.41M tokens).</li>
-<li>
-<p>Prefill-scheme L2 against 0.25.1 artifacts has median 0.182 on that image. "Same scheme" is not "same bytes" across vLLM versions.</p>
-</li>
-<li>
-<p><strong>Migration is a scheme switch inside v2, not a port of the April branch.</strong> A chain that never sends <code>scheme</code> stays on prefill, so decode can ship in the image before it affects weight. Weight, slashing, and the MMR artifact (<code>k_dim</code> vector, not a k-point sequence) do not change until the chain grows a decode artifact and a validation rule. The existing pattern for that is confirmation-PoC tracking plus a grace epoch (<code>poc_v2_enabled</code>, <code>confirmation_poc_v2_enabled</code>), not a flag day. "Start with new models only" has to be checked against multi-model PoC (<code>proposals/multi-model-poc/</code>): Qwen3-235B-FP8 is still the only consensus-eligible group.</p>
-</li>
-<li>
-<p><strong>Mixed batch vs mining round.</strong> The plugin design runs PoC nonces and chat in one scheduler and one batch. The 0.30 measurement still reports chat <code>503</code> for the duration of <code>init/generate</code> (2048 nonces) and <code>200</code> after. Those two statements need to be reconciled in the review: shared-batch admission is not the same as an exclusive mining round.</p>
-</li>
-</ol>
-<p>Please treat <a href="https://github.com/gonka-ai/vllm/pull/100">gonka-ai/vllm#100</a>, <a href="https://github.com/gonka-ai/vllm/pull/115">gonka-ai/vllm#115</a>, <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-vllm-plugins#8</a>, and <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/20">gonka-vllm-plugins#20</a> as in scope, together with #1135. The April branch is the origin of the method, not the tree to review for integration.</p>
-<p>@Ryanchen911 this is the current scope if you take the review.</p>
+    <p>Hey @Ryanchen911, I've updated the issue description, you are welcome to review</p>
   </div>
 </div>
 

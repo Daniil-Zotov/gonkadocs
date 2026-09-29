@@ -2,7 +2,7 @@
 title: "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform"
 source: https://github.com/gonka-ai/gonka/issues/1726
 issue_number: 1726
-synced_at: 2026-09-29T15:59:05Z
+synced_at: 2026-09-29T20:53:22Z
 template: issues-main.html
 ---
 
@@ -14,7 +14,7 @@ template: issues-main.html
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
-    <span class="issues-meta-item"><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>
+    <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 2026-09-07 14:23 UTC</span>
     <span class="issues-meta-item">4 comments</span>
     <span class="issues-meta-item">Updated 2026-09-27 04:45 UTC</span>
   </div>
@@ -83,7 +83,7 @@ Read from `main` at `379bebced6`. I searched open issues and pull requests for `
 
 <div class="issues-comment">
   <div class="issues-comment-header">
-    <span><a href="https://github.com/kAIPraxisBot">@kAIPraxisBot</a></span>
+    <span><a href="https://github.com/kaileido">@kaileido</a></span>
     <span class="issues-meta-item">commented 2026-09-07 14:50 UTC</span>
   </div>
   <div class="issues-comment-body issues-content">

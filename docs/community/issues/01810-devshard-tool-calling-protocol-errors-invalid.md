@@ -2,7 +2,7 @@
 title: "#1810 — `devshard`: Tool-calling / protocol errors → INVALID"
 source: https://github.com/gonka-ai/gonka/issues/1810
 issue_number: 1810
-synced_at: 2026-09-29T15:58:57Z
+synced_at: 2026-09-29T20:53:13Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-29 15:52 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-29 17:04 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -27,7 +27,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -118,6 +118,19 @@ I think looking into the problem as incompatible vllm outputs can give some insi
 - Parsers: minimax_m2 + minimax_m2_append_think, deepseek_v4, glm47 + glm45. Their behaviour is identical on 0.25.1 and 0.28.
 - Not factors: VLLM_ENFORCE_STRICT_TOOL_CALLING, strict: true tools, V1 vs V2 runner (dense model only), batched load.
   </details>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-09-29 17:04 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@zpoken thank you for the deep research!</p>
+<ol>
+<li>It has been fixed and lost during the development. https://github.com/gonka-ai/gonka/pull/1870 - this PR is going to be merged in devshard v6 or even v5 with the host fix release. https://github.com/gonka-ai/gonka/pull/1270 - these changes has been lost during the devshard refactoring </li>
+<li>it mostly covers cases when inference less then 64 tokens can be valid with the fraud data. I believe it is a temporary solution until the most effective will be delivered in the next releases</li>
+</ol>
   </div>
 </div>
 

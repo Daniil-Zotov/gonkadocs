@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-29T16:06:53.317592+00:00",
+  "snapshot_time": "2026-09-29T21:15:10.390953+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -2657,12 +2657,12 @@
       "title": "#1200 — Independent review of PoC-decode results",
       "status": null,
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st",
-      "comment_checksum": "a2be4a7712c977dafd905ccf377329f0b2a4eb782241e08d4eb45301f08495fb",
+      "comment_checksum": "8dca45ad8954b9e10ed0d258c00c5ef918e532c4753937105da28659a7125e2b",
       "comment_bodies": [
         "hi @tcharchian , do you need help with this? Maybe I can take on this task.",
-        "Scope addendum, so a review of this issue matches the code as of 2026-09-28. The materials listed above (issue #1135, the April axeltec-software/vllm branch axeltec/poc-decode-proposal, the slides, and the Drive folder) are the original proposal. They are not the current integration target. What is already in production gonka main runs PoC v2, not the prefill-only procedure this issue was written "
+        "Hey @Ryanchen911, I've updated the issue description, you are welcome to review"
       ],
-      "checksum": "92ed638b3955393f2cc0ff012e199092dc8fe1978978c99d8768c51efd1e41ab"
+      "checksum": "8abe1daeb3b2ec39fc9229db9b37ebf98a9b9905d6c916ec5c66fb40adea5c60"
     },
     "01201-p0-training-on-gonka.md": {
       "title": "#1201 — [P0] Training on Gonka",
@@ -3296,12 +3296,12 @@
     "01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n.md": {
       "title": "#1539 — Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)\n    <span class=\"issues-number\">#1539</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-03 19:33 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)\n    <span class=\"issues-number\">#1539</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-03 19:33 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div c",
       "comment_checksum": "48e82e9d81c5ac474f309781aa1f2149d7f07d097ad4110d03c6d1edb9c8a9bf",
       "comment_bodies": [
         "I verified this end-to-end against upgrade-v0.2.16 (6e92e9089) and can confirm the report. I'd like to take it. Confirmed Ante ordering. In NewAnteHandler (inference-chain/app/ante.go:195) NetworkDutyFeeBypassDecorator sits at index 11 and ante.NewSigVerificationDecorator at index 19 — the fee-waiver decision is made before the signature is verified, so the exemption is granted on unauthenticated "
       ],
-      "checksum": "029ecb697d375dd6e71250249722fe8cd826b3a5bdbf244e597ffc2be042ce25"
+      "checksum": "3c7a34d7961f778247f8d01579b944f5071c6cd8e888afcc28028d793ff4aaa2"
     },
     "01542-devshardctl-parseprotocolversion-rejects-route-v4-noisy-rota.md": {
       "title": "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)",
@@ -3330,12 +3330,12 @@
     "01570-devshard-timeout-vote-threshold-unreachable-under-skewed-slo.md": {
       "title": "#1570 — Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)\n    <span class=\"issues-number\">#1570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-09 16:18 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)\n    <span class=\"issues-number\">#1570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-09 16:18 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div",
       "comment_checksum": "8ff85adbb39e5c12d380d04e40888a1cc66604e02b289b287036cbc3bb969c68",
       "comment_bodies": [
         "I traced this on current main (f040d0a5b). The report holds, and there is one property worth recording before anyone picks a direction. Confirmed: Per-participant vote weight is the escrow slot count — AddressSlotCount, devshard/state/machine.go:1431-1433, accumulated at devshard/user/session.go:2123. The threshold is ComputeVoteThreshold(groupSize, VoteThresholdFactor) (devshard/types/config.go:7"
       ],
-      "checksum": "d52eb3fe11b601af195dd557a3ffb0b042e9106666b73e6f310ceeeaf0f2363b"
+      "checksum": "5b5b8c4052aad2573e62dbeb4de574a9538afe43476807fea4e4a3853e7cc7c2"
     },
     "01572-bug-unauthenticated-mlnode-trainstart-accepts-a-raw-dict-let.md": {
       "title": "#1572 — [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers",
@@ -3470,10 +3470,10 @@
     "01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-.md": {
       "title": "#1671 — chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)\n    <span class=\"issues-number\">#1671</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-08-28 20:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labe",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)\n    <span class=\"issues-number\">#1671</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-28 20:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "1e8bce0e05cc16e301381cc4530f0e61f1797909c563a2e5584f21cd5f89f140"
+      "checksum": "a741fa073b97985c642bc303f7bbe96a0a6d6c837178f1b343974daed44a99a3"
     },
     "01677-bug-gatewaymlnode-agent-sized-prefill-hangs-or-fails-with-no.md": {
       "title": "#1677 — [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error",
@@ -3644,17 +3644,17 @@
     "01725-xinference-getallmodelcapacities-keys-the-epoch-group-map-wi.md": {
       "title": "#1725 — x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty\n    <span class=\"issues-number\">#1725</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty\n    <span class=\"issues-number\">#1725</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"",
       "comment_checksum": "eff4af344bfbc79c12ed26bcd3639bbf0b949de61623c55350ce0ddf2ff2cbdf",
       "comment_bodies": [
         "Closing the caveat I left at the end of the report: the live confirmation now exists. node1.gonka.ai was returning nginx 503 while I was writing, and it is intermittent rather than down — it answered on a retry. Mainnet, epoch 386: GET /productscience/inference/inference/all_model_capacities {&quot;model_capacities&quot;:[]} GET /productscience/inference/inference/current_epoch_group_data epoch_in"
       ],
-      "checksum": "921810085931c53dcad6329bef519f4d00b5619056f9ec14f3e869e94aee6d93"
+      "checksum": "9de59c97c1eeef761cbb23398ca16ae31d3c9685a15e102706580543730f4631"
     },
     "01726-xinference-collateralparamsdowntimemissedpercentagethreshold.md": {
       "title": "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</s",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n   ",
       "comment_checksum": "dd8ae9b176a4c3c9ae15e03751c49f027078744324dbf28e62d21b12fd2e2f46",
       "comment_bodies": [
         "Correcting my own framing above, having since read the live parameters rather than the code defaults. The core claim is unaffected — DowntimeMissedPercentageThreshold is still read by nothing — but the section headed \"Why this looks like residue rather than a bug\" describes the SPRT as what shipped in its place, and on mainnet that test cannot currently fire. Live validation_params, epoch 386: par",
@@ -3662,7 +3662,7 @@
         "Will fix the misleading documentation in SlashForDowntime and mark the parameter as deprecated in the relevant places.",
         "I'm taking this one. Following the suggested documentation fix approach since removing the parameter would require a state-breaking change and upgrade handler. PR: #1835 Changes: - Mark downtime_missed_percentage_threshold as deprecated in proto - Correct SlashForDowntime doc comment to reflect that the threshold decision happens upstream in the INACTIVE transition (SPRT-based) - Update design doc"
       ],
-      "checksum": "77618b85b969111fb1e35c8892ebe24c707502cfc33185f8ee7150dbecd95c82"
+      "checksum": "376ec6f3f6aa3dc1a80396daea54db0d424b28b5387b83b415a8379b9157acea"
     },
     "01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-.md": {
       "title": "#1733 — Extend e2e for HA devshard config with multiple routers and multiple versiond",
@@ -3701,7 +3701,7 @@
     "01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t.md": {
       "title": "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kAIPraxisBot\">@kAIPraxisBot</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-m",
       "comment_checksum": "5dea9e8c4a5aed7b3154773ef5943fe5ab20a6b2f0459e20b07e7418257d0a03",
       "comment_bodies": [
         "@tcharchian yo, mind sanity-checking this one? tl;dr: the gateway's bridge maps refusal_timeout/execution_timeout off the escrow row, devshardd's ChainBridge doesn't, so the host silently falls back to the compiled 60/1920 while the gateway runs the real governance values. No-op on mainnet today purely because governance happens to sit exactly on the defaults — but bump execution_timeout to 1200 o",
@@ -3711,7 +3711,7 @@
         "@a-kuprin can we close this one?",
         "Let's merge v5 to main and close then"
       ],
-      "checksum": "5a5912a63e1a89473a0069ba0e0fd7f01827d7a300a4061638a821bce31088a9"
+      "checksum": "d2811e1f5dbd8d741b43953ffa17743175c868a697698d2aee8bf4bb9babefce"
     },
     "01769-fix-warm-key-verification-across-height-sync-acknowledgement.md": {
       "title": "#1769 — Fix warm-key verification across height-sync acknowledgement and repair paths",
@@ -3838,15 +3838,16 @@
     "01810-devshard-tool-calling-protocol-errors-invalid.md": {
       "title": "#1810 — `devshard`: Tool-calling / protocol errors → INVALID",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d",
-      "comment_checksum": "cd0a47df6ccbc75756ece184e2026c7426d419e2b2ce6bcaaba6b0393b68660c",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Tool-calling / protocol errors → INVALID\n    <span class=\"issues-number\">#1810</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d",
+      "comment_checksum": "d110992e57a0bc579cf8945ec599bcf464a410a501c55d86fb085ba0e164547a",
       "comment_bodies": [
         "Hi @a-kuprin We are interested in resolving this issue, but there’s currently no description for it. Here’s what we’ve found in the code so far, and we are wondering whether the issue was created around this: Responses containing tool calls are not structurally validated: there is no validation of the JSON in arguments, no check that the tool name exists in the request’s tools, and no consistency ",
         "It is mostly @qdanik theme @zpoken could you please hold on it, because I just can't deeply explain what is the failure and how we should detect it. Also it is possible that there is hosts with vllm V2, that can give different output. I think looking into the problem as incompatible vllm outputs can give some inside. For my opinion we anyway need validator to identify is it valid or invalid respon",
         "@a-kuprin Thanks for the information. We’ll investigate this issue further, try different vLLM versions, and analyze the logs to get closer to the root cause.",
-        "Hi @qdanik, We reproduced devshard's execute → replay → verdict path on the gonka vLLM builds used on mainnet: 0.25.1 (MLNode 3.0.16), 0.28 (3.1.0) and 0.20. Requests were shaped like devshard's, and verdicts came from the real ExecuteValidation at on-chain thresholds. The model was Qwen3-4B; the mainnet parsers were also tested on CPU. We found several ways honest hosts get INVALID regardless of "
+        "Hi @qdanik, We reproduced devshard's execute → replay → verdict path on the gonka vLLM builds used on mainnet: 0.25.1 (MLNode 3.0.16), 0.28 (3.1.0) and 0.20. Requests were shaped like devshard's, and verdicts came from the real ExecuteValidation at on-chain thresholds. The model was Qwen3-4B; the mainnet parsers were also tested on CPU. We found several ways honest hosts get INVALID regardless of ",
+        "@zpoken thank you for the deep research! It has been fixed and lost during the development. https://github.com/gonka-ai/gonka/pull/1870 - this PR is going to be merged in devshard v6 or even v5 with the host fix release. https://github.com/gonka-ai/gonka/pull/1270 - these changes has been lost during the devshard refactoring it mostly covers cases when inference less then 64 tokens can be valid wi"
       ],
-      "checksum": "19560fc13463fca153c7ac04a4e50d9c840883dd15323954862462d83a9d72b6"
+      "checksum": "b369ab6c3a5f2af1fdcb5afdaab89f900a6034c7ffc45d45b15863f79373bd16"
     },
     "01812-devshard-challenge-create-instance.md": {
       "title": "#1812 — `devshard`: challenge create instance",
