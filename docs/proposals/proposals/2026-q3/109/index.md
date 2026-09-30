@@ -62,15 +62,15 @@ The full technical scope, contributor list, individual contributions, PR referen
     <div class="prop-tally-yes" style="width:0.3%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.0%"></div>
+    <div class="prop-tally-abstain" style="width:2.3%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,772)</span>
+    <span class="prop-tally-yes-text">Yes <strong>10.6%</strong> (1,772)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 1,772 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>0.3%</strong> (1,772 / 642,120) · Quorum <strong>25%</strong> (160,530)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>89.4%</strong> (14,904)</span>
+    <span class="prop-tally-total-text">Total 16,676 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>2.6%</strong> (16,676 / 642,120) · Quorum <strong>25%</strong> (160,530)</span>
   </div>
 </div>
 
@@ -83,6 +83,7 @@ The full technical scope, contributor list, individual contributions, PR referen
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-abstain">Abstain 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
