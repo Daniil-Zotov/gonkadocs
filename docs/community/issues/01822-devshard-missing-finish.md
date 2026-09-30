@@ -2,7 +2,7 @@
 title: "#1822 — `devshard`: Missing Finish"
 source: https://github.com/gonka-ai/gonka/issues/1822
 issue_number: 1822
-synced_at: 2026-09-30T19:28:03Z
+synced_at: 2026-09-30T23:56:49Z
 template: issues-main.html
 ---
 
