@@ -13,7 +13,7 @@
       "status": null,
       "content": "# H100 equivalent on dashboards\nPlease read this before the v0.2.16 upgrade. If proposal 109 passes, the upgrade height is 6,353,400, expected around 2 October 2026, 07:05 UTC.\n## What the number is\nH100 equivalent is the current network weight divided by the weight one H100 receives in that same epoch:\n```text\nH100_eq = total_weight / weight_per_h100\n```\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this metric uses that numerator. The published figures differ because the denominator differs.\n## What dashboards show on epoch 410\n| Dashboard | Shown figure | Denominator |\n| --- | --- | --- |\n| [gonka.gg](https://gonka.gg/) | 1,1"
     },
-    "ai_description": "Added: H100 equivalent on dashboards. # H100 equivalent on dashboards Please read this before the v0.2.16 upgrade. If proposal 109 passes, the upgrade height is 6,353,400, expected around 2 October 2026, 07:05 UTC. ## What the number is H100 equivalent is the current network weight divided by the weight one H100 receives in that same ep"
+    "ai_description": "The H100 equivalent metric is now documented ahead of the v0.2.16 upgrade, with proposal 109 expected to pass at block height 6,353,400 around 2 October 2026. It is calculated as total network weight divided by the weight of a single H100, and dashboards differ only in their denominator choice. This clarity helps the community compare reported figures accurately across platforms."
   },
   {
     "id": "evt_20260930193131_029676eb",
