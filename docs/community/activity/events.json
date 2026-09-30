@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20260930071351_bb07f55c",
+    "timestamp": "2026-09-30T07:13:51.198640+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #109 – Upgrade Proposal: v0.2.16",
+      "url": "/proposals/proposals/2026-q3/109/",
+      "file": "f7f54892cadc6f9650e2c877515c8a99dcb49721d0a1c98627303e5a932534a1"
+    },
+    "details": {
+      "status": null,
+      "content": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.\n\nTrusted Weight. Befor…",
+      "date": "2026-10-02",
+      "time": "02:40 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/109/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260930065333_aa3d497c",
     "timestamp": "2026-09-30T06:53:33.023753+00:00",
     "section": "issues",
@@ -8122,20 +8142,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Move payload off chain\n    <span class=\"issues-number\">#470</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-04 20:08 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
     },
     "ai_description": "Issue #470 \"Move payload off chain\" has been removed from the tracker. The proposal, which aimed to reduce on-chain data load by relocating payloads, is no longer under consideration, so the community can focus on other optimization paths. If you were tracking this for a related PR, check the repo for any linked discussions."
-  },
-  {
-    "id": "evt_20260910143102_a45d3f6f",
-    "timestamp": "2026-09-10T14:31:02.672239+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "Bug Report: Race Condition in Epoch Initialization",
-      "url": null,
-      "file": "00491-race-condition-in-epoch-initialization-causes-random-node-ex.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Race Condition in Epoch Initialization Causes Random Node Exclusion\n    <span class=\"issues-number\">#491</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/baychak\">@baychak</a> opened 2025-12-13 17:25 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
-    },
-    "ai_description": "Issue #491 has been removed from the tracker. The bug report about a race condition in epoch initialization causing random node exclusion has been closed with no comments, meaning the issue was resolved without further community discussion. With it gone, the team can now focus on more active problems in the network.The bug report #491 on the race condition in epoch initialization has been removed from the tracker. Since it was closed with no comments, the issue was likely resolved internally or deemed non-reproducible. This cleanup helps keep the activity feed focused on actionable items for the community."
   }
 ]

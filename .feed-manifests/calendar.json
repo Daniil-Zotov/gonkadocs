@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-09-30T03:12:31.606492+00:00",
+  "snapshot_time": "2026-09-30T07:13:51.223250+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2314,6 +2314,15 @@
       "url": "/proposals/proposals/2026-q3/108/",
       "content_preview": "Update DevShard v5 to v5.0.2 and retire v3 and v4\n\nThis proposal is a critical fix for the overall Devshard deployment. Each running Devshard version opened a Postgres pool sized to the host CPU count…",
       "checksum": "db857b78cecbdbb4f498e77db00b19dc3da158dc8f73b07a896ca15d9fa8e277"
+    },
+    "f7f54892cadc6f9650e2c877515c8a99dcb49721d0a1c98627303e5a932534a1": {
+      "title": "Voting ends: #109 – Upgrade Proposal: v0.2.16",
+      "date": "2026-10-02",
+      "time": "02:40 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q3/109/",
+      "content_preview": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.\n\nTrusted Weight. Befor…",
+      "checksum": "e012f66d9a6c444871a74f3b3e38a49fae56edfae15f3b8418d6bfeebe6ecd60"
     }
   }
 }
