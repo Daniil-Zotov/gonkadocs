@@ -2,7 +2,7 @@
 title: "#1810 — `devshard`: Tool-calling / protocol errors → INVALID"
 source: https://github.com/gonka-ai/gonka/issues/1810
 issue_number: 1810
-synced_at: 2026-09-29T20:53:13Z
+synced_at: 2026-09-30T00:33:28Z
 template: issues-main.html
 ---
 

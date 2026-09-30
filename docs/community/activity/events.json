@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260930003645_d2706199",
+    "timestamp": "2026-09-30T00:36:45.790599+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1881 — The Gateway That Never Forgets",
+      "url": "/community/issues/01881-the-gateway-that-never-forgets/",
+      "file": "01881-the-gateway-that-never-forgets.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" "
+    },
+    "ai_description": "New issue #1881 \"The Gateway That Never Forgets\" has been opened by @paranjko, proposing a gateway with persistent memory capabilities. This could be a meaningful step toward more context-aware inference routing in the Gonka network. Check it out and share your thoughts if this direction interests you.New issue #1881 \"The Gateway That Never Forgets\" is now open, submitted by @paranjko. It explores the idea of a gateway with persistent memory, which could bring more context-aware routing to our inference network. Jump in and share your perspective if this resonates with you."
+  },
+  {
     "id": "evt_20260929205758_1dbf0e0d",
     "timestamp": "2026-09-29T20:57:58.763334+00:00",
     "section": "issues",
@@ -8110,20 +8126,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bug in claim recovery\n    <span class=\"issues-number\">#511</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-26 21:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
     },
     "ai_description": "Issue #511 about a bug in claim recovery has been removed from the feed. The report, which was closed without any comments, is no longer tracked here, so the community can focus on active topics. If you were following it, check the original repo for any archived details.Issue #511 about a bug in claim recovery has been removed from the feed. The report was closed without any comments, so this cleanup keeps the activity board focused on actionable items. If you were tracking it, the details remain in the original repository."
-  },
-  {
-    "id": "evt_20260910143102_48d890a0",
-    "timestamp": "2026-09-10T14:31:02.672262+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "Problem",
-      "url": null,
-      "file": "00518-request-timestamp-is-in-the-future-leads-to-missed-inference.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    \"Request timestamp is in the future\" leads to missed inferences for hosts\n    <span class=\"issues-number\">#518</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-01-02 06:22 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
-    },
-    "ai_description": "The issue #518 \"Request timestamp is in the future\" has been closed and removed from the feed. This bug previously caused hosts to miss valid inference requests due to clock skew, so its resolution means smoother operations for the network. Thanks to @akup for flagging it and to everyone who contributed to the fix."
   }
 ]

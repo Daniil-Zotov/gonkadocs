@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-29T21:15:10.390953+00:00",
+  "snapshot_time": "2026-09-30T00:37:35.676088+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3949,6 +3949,14 @@
         "Thanks so much for the quick and insightful feedback, @niktverd! This is super helpful. Here are the specifics regarding our use case: Weight type (ParticipantRewardWeight vs compute weight): ParticipantRewardWeight (the final weight used for rewards) is exactly what GonkaWeightSwap needs. The core purpose of the escrow is to ensure the investor pays for actual, rewarded network contribution. If a"
       ],
       "checksum": "74e94a4635686dc6fbc88289f48d950ca0d86b96533b5d545ec7f516c84cd3e4"
+    },
+    "01881-the-gateway-that-never-forgets.md": {
+      "title": "#1881 — The Gateway That Never Forgets",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" ",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "00c198d61995a35db7dc13a581824cccae16a9133d23bb17dcd622f9f72cbb68"
     }
   }
 }
