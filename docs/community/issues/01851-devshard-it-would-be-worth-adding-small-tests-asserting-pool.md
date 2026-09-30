@@ -2,7 +2,7 @@
 title: "#1851 — `devshard`: It would be worth adding small tests asserting `pool.Config().MaxConns` for both payload storage constructors. `ConfigureMaxConns` itself is well tested, but the current tests wouldn’t catch the helper being accidentally removed from either constructor."
 source: https://github.com/gonka-ai/gonka/issues/1851
 issue_number: 1851
-synced_at: 2026-09-30T13:53:05Z
+synced_at: 2026-09-30T19:27:45Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-09-25 16:19 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-25 16:19 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-09-30 14:48 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -26,6 +26,26 @@ Looks good overall, approved. It would be worth adding small tests asserting `po
 
 _Originally posted by @aikuznetsov in https://github.com/gonka-ai/gonka/pull/1840#pullrequestreview-5312588423_
             
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/zpoken">@zpoken</a></span>
+    <span class="issues-meta-item">commented 2026-09-30 14:48 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Added in #1883 : tests for both payload constructors, <code>newPostgresStorage</code> (<code>common/storage/payloads</code>) and <code>NewPostgresStorage</code> (<code>decentralized-api/payloadstorage</code>).</p>
+<ul>
+<li>An invalid <code>PG_POOL_MAX_CONNS</code> must fail the constructor with the helper's error before any connection is made. Runs in <code>-short</code>, no Docker.</li>
+<li>testcontainers: <code>pool.Config().MaxConns</code> is the default when the variable is unset and <code>3</code> when it is set. <code>3</code> is below pgx's floor of 4, so the check does not depend on the CPU count.</li>
+</ul>
+<p>Verified by removing the <code>ConfigureMaxConns</code> call from both constructors: every new test fails, on hosts pinned to 3, 4 and 8 CPUs.</p>
+<p>@akup </p>
+  </div>
 </div>
 
 ---
