@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260930032216_4fc02a2d",
+    "timestamp": "2026-09-30T03:22:16.942133+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 27, 2026\n\n**PROPOSAL PASSED: DevShard v5.0.2**\n\nThe on-chain governance vote for proposal id 108 has concluded.\n\nThe proposal was APPROVED.\n\nDevShard v5 is updated to v5.0.2, which caps the Postgres payload pools that were exhausting connection",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 30, 2026\n\n**v0.2.16 Upgrade Proposal Enters Governance**\n\n[The v0.2.16 proposal](https://gonkascan.com/?page=governance&proposal_id=109) (proposal id 109) is now on-chain and open for voting.\n\nThe mainnet chain/API work focuses on trusted weigh"
+    },
+    "ai_description": "The community docs have been updated with a new announcement: proposal id 109, the v0.2.16 upgrade, is now live on-chain and open for voting. This mainnet chain and API work focuses on trusted weight improvements, so head over to the governance page to cast your vote. Stay tuned for updates as the community decides on this next step."
+  },
+  {
     "id": "evt_20260930004154_022de30a",
     "timestamp": "2026-09-30T00:41:54.483675+00:00",
     "section": "calendar",
@@ -21,7 +37,7 @@
       ],
       "count": 1
     },
-    "ai_description": "Today: Today: 1 events — TheSoul — Weekly Report Call (#60–#65)."
+    "ai_description": "Today marks the 60th through 65th Weekly Report Call for TheSoul, a key checkpoint for the community to sync on progress. Join the call to stay updated on the latest developments and keep the momentum going. Your participation keeps the network healthy and transparent.Today brings the 60th through 65th Weekly Report Call for TheSoul, a regular checkpoint for the community to align on progress and decisions. Tune in to stay informed on recent developments and help keep the network's momentum going. Your engagement keeps our decentralized inference efforts transparent and on track."
   },
   {
     "id": "evt_20260930003645_d2706199",
@@ -8120,20 +8136,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Unable to start baecon node\n    <span class=\"issues-number\">#498</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Knoxpix\">@Knoxpix</a> opened 2025-12-19 08:41 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<di"
     },
     "ai_description": "Issue #498 about being unable to start a baecon node has been closed and removed from the feed. The problem was reported by @Knoxpix and is now resolved, so it no longer needs community attention. Thanks to everyone who helped troubleshoot this startup issue.Issue #498, which reported trouble starting a baecon node, has been closed and removed from our activity feed. The problem reported by @Knoxpix is now resolved, clearing the way for smoother node operations. Thanks to everyone who helped get this sorted out."
-  },
-  {
-    "id": "evt_20260910143102_1f3485b1",
-    "timestamp": "2026-09-10T14:31:02.672251+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#499 — Chat Completions aren't working",
-      "url": null,
-      "file": "00499-chat-completions-arent-working.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Chat Completions aren't working\n    <span class=\"issues-number\">#499</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/pentoxine\">@pentoxine</a> opened 2025-12-20 02:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</d"
-    },
-    "ai_description": "Issue #499 about Chat Completions not working has been removed from the feed. The closed report from @pentoxine is no longer listed, which likely means the underlying problem was resolved or the discussion was cleaned up. Keep an eye on the network to confirm stable inference performance.Issue #499, the closed report about Chat Completions not working, has been removed from the feed. This cleanup suggests the underlying problem was resolved or deemed no longer relevant to track. The community can move forward knowing the issue is no longer on our radar."
   }
 ]

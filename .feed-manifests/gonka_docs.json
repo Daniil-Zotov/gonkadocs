@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-29T23:19:27.998478+00:00",
+  "snapshot_time": "2026-09-30T03:25:35.315435+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -317,8 +317,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 27, 2026\n\n**PROPOSAL PASSED: DevShard v5.0.2**\n\nThe on-chain governance vote for proposal id 108 has concluded.\n\nThe proposal was APPROVED.\n\nDevShard v5 is updated to v5.0.2, which caps the Postgres payload pools that were exhausting connection",
-      "checksum": "979d59a0dd060f91ec86d15110e26f35f6f8345c00bda9a511e762eeee0ae3fc"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 30, 2026\n\n**v0.2.16 Upgrade Proposal Enters Governance**\n\n[The v0.2.16 proposal](https://gonkascan.com/?page=governance&proposal_id=109) (proposal id 109) is now on-chain and open for voting.\n\nThe mainnet chain/API work focuses on trusted weigh",
+      "checksum": "9f4d85268d273b929ad812f657d3810141bdf60fb8d940cfecccdf30987a8492"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
