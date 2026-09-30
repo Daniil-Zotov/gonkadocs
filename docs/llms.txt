@@ -21,6 +21,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
 - 2026-09-30 15:00 UTC — TheSoul — Weekly Report Call (#60–#65): https://gonkadocs.com/proposals/proposals/2026-q2/60/
+- 2026-10-02 02:40 UTC — Voting ends: #109 – Upgrade Proposal: v0.2.16: https://gonkadocs.com/proposals/proposals/2026-q3/109/
 
 ## Protocol Documentation
 
@@ -177,6 +178,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Kimi cPoC Validation Failure, Epochs 306–309](/proposals/proposals/2026-q3/81/full-proposal/): Auto-synced content
 - [#81 – Kimi cPoC Restitution (epochs 306-309)](/proposals/proposals/2026-q3/81/): Auto-synced content
 - [#96 – Stabilize in-epoch invalid SPRT on small samples](/proposals/proposals/2026-q3/96/): Auto-synced content
+- [#109 – Upgrade Proposal: v0.2.16](/proposals/proposals/2026-q3/109/): Auto-synced content
 - [#102 – Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](/proposals/proposals/2026-q3/102/): Auto-synced content
 - [Upgrade Proposal: v0.2.15](/proposals/proposals/2026-q3/92/full-proposal/): Auto-synced content
 - [#92 – Upgrade Proposal: v0.2.15](/proposals/proposals/2026-q3/92/): Auto-synced content
