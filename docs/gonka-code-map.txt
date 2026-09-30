@@ -6,7 +6,7 @@
 When answering questions about Gonka internals, use this map to find the relevant
 files, then fetch the raw source from the /gonka-code/ URLs below.
 
-- Source files: 2730 (Go/proto: 1505, markdown design docs: 325)
+- Source files: 2732 (Go/proto: 1506, markdown design docs: 326)
 
 ## Inference Chain (Cosmos SDK blockchain)
 
@@ -2281,6 +2281,7 @@ Shared Go libraries: chain, completionapi, logging, nodemanager, observability, 
 - `common/storage/payloads/migrate_file.go` → https://gonkadocs.com/gonka-code/common/storage/payloads/migrate_file.go
 - `common/storage/payloads/storage.go` → https://gonkadocs.com/gonka-code/common/storage/payloads/storage.go
 - `common/storage/payloads/store.go` → https://gonkadocs.com/gonka-code/common/storage/payloads/store.go
+- `common/storage/pgpool/maxconns.go` → https://gonkadocs.com/gonka-code/common/storage/pgpool/maxconns.go
 - `common/tools.go` → https://gonkadocs.com/gonka-code/common/tools.go
 - `common/utils/api_headers.go` → https://gonkadocs.com/gonka-code/common/utils/api_headers.go
 - `common/utils/hashing.go` → https://gonkadocs.com/gonka-code/common/utils/hashing.go
@@ -2795,6 +2796,7 @@ Protocol design docs and governance artifacts — one dir per feature/upgrade. G
 - `proposals/governance-artifacts/update-v0.2.14/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.14/README.md
 - `proposals/governance-artifacts/update-v0.2.15/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.15/README.md
 - `proposals/governance-artifacts/update-v0.2.15-devshard-v5/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.15-devshard-v5/README.md
+- `proposals/governance-artifacts/update-v0.2.15-devshard-v5.0.2/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.15-devshard-v5.0.2/README.md
 - `proposals/governance-artifacts/update-v0.2.2/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.2/README.md
 - `proposals/governance-artifacts/update-v0.2.3/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.3/README.md
 - `proposals/governance-artifacts/update-v0.2.4/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.4/README.md
