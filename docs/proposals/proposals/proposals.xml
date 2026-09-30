@@ -7,6 +7,20 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#109 – Upgrade Proposal: v0.2.16</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q3/109/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/109/</guid>
+      <pubDate>Wed, 30 Sep 2026 02:40:38 +0000</pubDate>
+      <category>Voting</category>
+      <description>Upgrade Proposal: v0.2.16
+
+The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.
+
+Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately increased a participant's power in governance, BLS, and PoC validation. The upgrade limits that power to compute confirmed in the previous epoch. New or returning participants start with zero voting power but still earn rewards.
+
+Dynamic Co</description>
+    </item>
+    <item>
       <title>#108 – Update DevShard v5 to v5.0.2</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/108/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/108/</guid>

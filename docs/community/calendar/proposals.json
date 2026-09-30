@@ -1462,5 +1462,17 @@
     "tags": [
       "passed"
     ]
+  },
+  {
+    "date": "2026-10-02",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #109 – Upgrade Proposal: v0.2.16",
+    "url": "/proposals/proposals/2026-q3/109/",
+    "time": "02:40 UTC",
+    "description": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.\n\nTrusted Weight. Befor…",
+    "tags": [
+      "voting"
+    ]
   }
 ]
