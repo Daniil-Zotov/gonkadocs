@@ -13,7 +13,7 @@
       "status": null,
       "content": "> 🔄 **Auto-sync:** from [Discussion #1884](https://github.com/gonka-ai/gonka/discussions/1884) every hour. \n\n# SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)\n\n**Автор:** [@privatedeskai](https://github.com/privatedeskai) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-30 18:07 UTC · \n\n---\n\n## 📝 Описание\n\nThe core idea: any single Gonka broker can have rough periods, but a cascade across several of them doesn't have to. That's the whole premise behind SAGG — take inherently volatile, individually unreliable brokers and turn them into a consistently reliable API on the output side, by holding several at once and switching automatically the moment one degrades.\n\nWe didn't just build this and claim it works — we measur"
     },
-    "ai_description": null
+    "ai_description": "Added: #1884 — SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data). > 🔄 **Auto-sync:** from [Discussion #1884](https://github.com/gonka-ai/gonka/discussions/1884) every hour. # SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data) **Автор:** [@privatedeskai](https://github.com/privatedeskai) · **Категория:** :raised_ha"
   },
   {
     "id": "evt_20260930135712_ae745ef8",
