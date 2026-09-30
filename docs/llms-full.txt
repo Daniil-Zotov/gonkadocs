@@ -21334,7 +21334,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-09-30 13:16 UTC
+2026-09-30 18:46 UTC
 
 ---
 
@@ -30672,8 +30672,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-02
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…
-  Yes 100.0% (1,772) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 0.3% (1,772 / 642,120) · Quorum 25% (160,530)
+  Yes 59.1% (21,518) · No 0.0% (0) · Veto 0.0% (0) · Abstain 40.9% (14,904)
+  ✗ Turnout 5.7% (36,422 / 642,120) · Quorum 25% (160,530)
 
   
     #108 – Update DevShard v5 to v5.0.2
@@ -31908,7 +31908,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-108 proposals across 5 quarters. Last updated: 2026-09-30 16:20 UTC
+108 proposals across 5 quarters. Last updated: 2026-09-30 19:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -69603,8 +69603,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-10-02
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…
-  Yes 100.0% (1,772) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 0.3% (1,772 / 642,120) · Quorum 25% (160,530)
+  Yes 59.1% (21,518) · No 0.0% (0) · Veto 0.0% (0) · Abstain 40.9% (14,904)
+  ✗ Turnout 5.7% (36,422 / 642,120) · Quorum 25% (160,530)
 
   
     #108 – Update DevShard v5 to v5.0.2
@@ -73307,12 +73307,12 @@ The full technical scope, contributor list, individual contributions, PR referen
     
   
   
-    Yes 100.0% (1,772)
+    Yes 59.1% (21,518)
     No 0.0% (0)
     Veto 0.0% (0)
-    Abstain 0.0% (0)
-    Total 1,772 votes
-    ✗ Turnout 0.3% (1,772 / 642,120) · Quorum 25% (160,530)
+    Abstain 40.9% (14,904)
+    Total 36,422 votes
+    ✗ Turnout 5.7% (36,422 / 642,120) · Quorum 25% (160,530)
   
 
 Voters
@@ -73320,6 +73320,9 @@ Voters
 VoterVote
 
 gonka1p2lhgn…k6h26mYes 100.0%
+gonka1pd5vx9…7mytchYes 100.0%
+gonka1rqm2u7…mgd53tYes 100.0%
+gonka168rtjf…lnkns2Abstain 100.0%
 
 ---
 ## Messages

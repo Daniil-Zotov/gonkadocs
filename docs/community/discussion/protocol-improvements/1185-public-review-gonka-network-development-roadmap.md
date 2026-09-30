@@ -3,7 +3,7 @@ title: "#1185 — [Public Review] Gonka Network Development Roadmap"
 source: https://github.com/gonka-ai/gonka/discussions/1185
 discussion_number: 1185
 category: protocol-improvements
-synced_at: 2026-09-30T13:36:47Z
+synced_at: 2026-09-30T19:09:33Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1185](https://github.com/gonka-ai/gonka/discussions/1185) every hour. 

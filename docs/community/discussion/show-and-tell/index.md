@@ -4,12 +4,13 @@ title: ":raised_hands: Show and Tell"
 
 # :raised_hands: Show and Tell
 
-Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **24**. Обновлено: `2026-09-30 13:37 UTC`.
+Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **25**. Обновлено: `2026-09-30 19:10 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1884](1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md) | [SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)](1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md) | [@privatedeskai](https://github.com/privatedeskai) | 2026-09-30 |
 | [1711](1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka](1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
 | [1710](1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | [Gonka Labs: x402 on Gonka - payments for Agents](1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
 | [1476](1476-unposted.md) | [unposted](1476-unposted.md) | [@nsvdev](https://github.com/nsvdev) | 2026-07-18 |

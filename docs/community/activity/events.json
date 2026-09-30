@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260930191000_3c46f353",
+    "timestamp": "2026-09-30T19:10:00.780677+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#1884 — SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)",
+      "url": "/community/discussion/show-and-tell/1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere/",
+      "file": "show-and-tell/1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1884](https://github.com/gonka-ai/gonka/discussions/1884) every hour. \n\n# SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)\n\n**Автор:** [@privatedeskai](https://github.com/privatedeskai) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-30 18:07 UTC · \n\n---\n\n## 📝 Описание\n\nThe core idea: any single Gonka broker can have rough periods, but a cascade across several of them doesn't have to. That's the whole premise behind SAGG — take inherently volatile, individually unreliable brokers and turn them into a consistently reliable API on the output side, by holding several at once and switching automatically the moment one degrades.\n\nWe didn't just build this and claim it works — we measur"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260930135712_ae745ef8",
     "timestamp": "2026-09-30T13:57:12.248615+00:00",
     "section": "issues",
@@ -8128,20 +8144,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Unit tests for making sure node version is always a part of endpoint and it's updated when version changes on chain\n    <span class=\"issues-number\">#467</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 22:52 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-"
     },
     "ai_description": "Issue #467 on unit tests for keeping the node version in endpoints in sync with the on-chain version has been closed and removed from our feed. The proposal aimed to add test coverage ensuring version consistency, and its closure suggests the team has resolved it or decided it's no longer needed. Stay tuned for the next activity update."
-  },
-  {
-    "id": "evt_20260910143102_4725a5f6",
-    "timestamp": "2026-09-10T14:31:02.672228+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#468 — [P1] Certik (finalization)",
-      "url": null,
-      "file": "00468-p1-certik-finalization.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Certik (finalization)\n    <span class=\"issues-number\">#468</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 23:32 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
-    },
-    "ai_description": "Issue #468 on the Certik audit finalization has been closed and removed from the active feed. This marks the completion of that priority-one security review task, clearing the way for the team to focus on other outstanding items. Thanks to everyone involved in wrapping this up.Issue #468 on the Certik audit finalization has been closed and removed from the active feed, marking the completion of that priority-one security review. This clears a key milestone for the network, freeing up focus for the next set of tasks. Thanks to all who contributed to seeing it through."
   }
 ]
