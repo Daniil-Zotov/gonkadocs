@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20260930004154_022de30a",
+    "timestamp": "2026-09-30T00:41:54.483675+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — TheSoul — Weekly Report Call (#60–#65)",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "TheSoul — Weekly Report Call (#60–#65)",
+          "date": "2026-09-30",
+          "time": "15:00 UTC",
+          "event_type": "committee_call",
+          "url": "/proposals/proposals/2026-q2/60/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260930003645_d2706199",
     "timestamp": "2026-09-30T00:36:45.790599+00:00",
     "section": "issues",
@@ -8111,20 +8135,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Chat Completions aren't working\n    <span class=\"issues-number\">#499</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/pentoxine\">@pentoxine</a> opened 2025-12-20 02:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</d"
     },
     "ai_description": "Issue #499 about Chat Completions not working has been removed from the feed. The closed report from @pentoxine is no longer listed, which likely means the underlying problem was resolved or the discussion was cleaned up. Keep an eye on the network to confirm stable inference performance.Issue #499, the closed report about Chat Completions not working, has been removed from the feed. This cleanup suggests the underlying problem was resolved or deemed no longer relevant to track. The community can move forward knowing the issue is no longer on our radar."
-  },
-  {
-    "id": "evt_20260910143102_a6e5605e",
-    "timestamp": "2026-09-10T14:31:02.672256+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#511 — Bug in claim recovery",
-      "url": null,
-      "file": "00511-bug-in-claim-recovery.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bug in claim recovery\n    <span class=\"issues-number\">#511</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-26 21:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
-    },
-    "ai_description": "Issue #511 about a bug in claim recovery has been removed from the feed. The report, which was closed without any comments, is no longer tracked here, so the community can focus on active topics. If you were following it, check the original repo for any archived details.Issue #511 about a bug in claim recovery has been removed from the feed. The report was closed without any comments, so this cleanup keeps the activity board focused on actionable items. If you were tracking it, the details remain in the original repository."
   }
 ]
