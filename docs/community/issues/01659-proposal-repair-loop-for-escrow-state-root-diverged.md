@@ -2,7 +2,7 @@
 title: "#1659 — Proposal: Repair loop for `escrow_state_root_diverged`"
 source: https://github.com/gonka-ai/gonka/issues/1659
 issue_number: 1659
-synced_at: 2026-09-30T00:33:29Z
+synced_at: 2026-09-30T06:50:04Z
 template: issues-main.html
 ---
 

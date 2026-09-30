@@ -2,7 +2,7 @@
 title: "#1200 — Independent review of PoC-decode results"
 source: https://github.com/gonka-ai/gonka/issues/1200
 issue_number: 1200
-synced_at: 2026-09-30T00:33:28Z
+synced_at: 2026-09-30T06:50:02Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-29 16:23 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-30 02:59 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
@@ -98,7 +98,7 @@ This task is about independent verification and critical review.
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -116,6 +116,23 @@ This task is about independent verification and critical review.
   </div>
   <div class="issues-comment-body issues-content">
     <p>Hey @Ryanchen911, I've updated the issue description, you are welcome to review</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-09-30 02:59 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @tcharchian Thanks for writing this out, it's much easier to review against than what we had before. I've been reading it alongside <code>gonka-vllm-plugins@decode-poc-int</code> (2ca7cd7), the two vllm PRs, and the chain branch behind #1743.</p>
+<p>Four things I'd like to settle before starting. The first is the one I'm least sure I'm reading correctly.</p>
+<p>1.The decode threshold.The description gives τ as 0.025–0.03 for GLM-5.3-Flash and 0.04–0.05 for MiniMax, per model on chain. I tried to trace where those get set, and I couldn't find them, so I suspect I'm looking in the wrong place. What I can see on the branch is this: the validator sends <code>stat_test</code> from <code>StatTestForScheme(scheme, modelConfig)</code> (<code>decentralized-api/poc/validator.go:968</code>), which returns the scheme block's <code>StatTest</code> — and for DECODE there's no fallback block, which the comment at <code>poc_scheme.go:44-64</code> says is deliberate while the scheme isn't deployed. A nil then resolves to <code>0.4</code> in <code>StatTestParamsFromChain</code> (<code>mlnodeclient/poc_v2_requests.go:86-98</code>). I also can't find any model with a populated <code>Schemes[]</code> list, so as far as I can tell the flat prefill values are what's live: 0.4 by default (<code>params.go:282</code>), 0.4 for Kimi in v0_2_12, 0.75 for MiniMax in v0_2_13. Since the plugin takes whatever <code>stat_test</code> it's handed (<code>routes.py:714</code>) and only falls back to its own <code>DEFAULT_MARGIN_TAU = 0.025</code> when the field is absent (<code>routes.py:593-595</code>), I'd expect decode validation to run against 0.4 for every model right now. If the per-model τ values are meant to ship as <code>PocSchemeParams.stat_test</code> blocks in a later upgrade, that answers it — I just want to know that's the plan rather than assume it. Same question for the 0.41 in the prefill section, which I also couldn't find (I only see 0.4 and 0.75).</p>
+<p>2.The step seed formula. This one may be a doc typo rather than anything real. The description has <code>step_seed(step, prev_k, salt) = murmur((prev_k·A + step·B + salt) mod 2³², base)</code>, but the code puts the salt inside the step term, masks <code>prev_k</code> before the multiply rather than <code>step</code>, and masks after the sum (<code>poc/decode_random.py:97-103</code>). Someone reimplementing from the prose would land on different seeds and every step would disagree. I assume the code is normative, but if it's the other way round that's worth knowing before anyone builds against it.</p>
+<p>3.What the argument is optimizing against.The table makes the case that a host tuned for decode is also tuned for serving — 1,253 to 2,047 nonces/min under cudagraph while prefill PoC goes the other way, and billed throughput up 391%. That's convincing for a host that wants to serve well. The host I'd expect this design to be judged against is one that wants the reward and doesn't care about serving, and the two schemes differ in what such a host can do: decode holds 512 KV tokens per nonce and rides the chat scheduler, prefill runs eager on its own. Is there a measurement on that side, intended or existing, or is that out of scope here?</p>
+<p>4.Confirmation PoC. <code>params.proto</code> carries <code>confirmation_poc_scheme</code> and <code>confirmation_scheme_events</code> next to <code>poc_scheme</code>, and <code>SchemeForStage</code> does route CPoC events to slot 17. The description covers the regular PoC only. Should I treat CPoC as out of scope for this review, or is that part of what you want checked?</p>
+<p>Two process things, I need to confirm that:</p>
+<p>I couldn't find a deliverable format anywhere in the issue, so — what would you like out of this? Comments per finding on the issue, or one writeup somewhere? And on the <code>SPHERE_POINTS</code> × fraud-distance sweep, is running that yours or mine?if it's theirs and I'm assessing the result, that's a different shape of work. If it is mine, which near-miss pairs should it cover — an INT4/FP8 pair on Qwen3-235B, a fine-tune delta, or both?</p>
+<p>If the sweep stays with the team, I can start on the four points above straight away.</p>
   </div>
 </div>
 
