@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-09-30T16:35:31.319902+00:00",
+  "snapshot_time": "2026-09-30T21:08:28.640121+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -121,6 +121,12 @@
       "status": null,
       "content_preview": "# Dashboard Maintainer Memo — Gonka v0.2.15\n\nv0.2.15 changed the wire format of a few `/v1` query endpoints as a side effect of an internal API refactor. A follow-up patch will restore the previous shapes; once it ships, hosts upgrade independently: **for a transition period, the endpoints below can answer in either shape depending on which host you query.** Please accept both. This ambiguity is limited to the endpoints and fields listed here — no need to generalize it; everything else is unchanged and single-shape.\n\nBelow, \"v0.2.15 shape\" is what hosts return today; \"restored shape\" is the pre-0.2.15 format that patched hosts will return.\n\n## 1. `/v1/epochs/latest` — params nested and stringified\n\nAffected field: `epoch_params`.\n\n- restored shape: `epoch_params.epoch_length` = `40320` (nu",
       "checksum": "705b5e3875d74b7b2937ba7757ace7459a4fd6014dc76813850a5d7ee9c11e52"
+    },
+    "dashboard-maintainer-memo-v0.2.16-h100.md": {
+      "title": "H100 equivalent on dashboards",
+      "status": null,
+      "content_preview": "# H100 equivalent on dashboards\nPlease read this before the v0.2.16 upgrade. If proposal 109 passes, the upgrade height is 6,353,400, expected around 2 October 2026, 07:05 UTC.\n## What the number is\nH100 equivalent is the current network weight divided by the weight one H100 receives in that same epoch:\n```text\nH100_eq = total_weight / weight_per_h100\n```\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this metric uses that numerator. The published figures differ because the denominator differs.\n## What dashboards show on epoch 410\n| Dashboard | Shown figure | Denominator |\n| --- | --- | --- |\n| [gonka.gg](https://gonka.gg/) | 1,1",
+      "checksum": "ef77d13ae7ae631f1234146d713d7e32ce7e0a77da1c12befb30be697c6257ab"
     },
     "developer/gateway-developer-quickstart.md": {
       "title": "Run your own gateway",

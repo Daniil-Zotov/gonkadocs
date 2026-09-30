@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20260930210811_2b90d760",
+    "timestamp": "2026-09-30T21:08:11.903818+00:00",
+    "section": "gonka_docs",
+    "action": "new",
+    "item": {
+      "title": "H100 equivalent on dashboards",
+      "url": "/gonka/docs/dashboard-maintainer-memo-v0.2.16-h100/",
+      "file": "dashboard-maintainer-memo-v0.2.16-h100.md"
+    },
+    "details": {
+      "status": null,
+      "content": "# H100 equivalent on dashboards\nPlease read this before the v0.2.16 upgrade. If proposal 109 passes, the upgrade height is 6,353,400, expected around 2 October 2026, 07:05 UTC.\n## What the number is\nH100 equivalent is the current network weight divided by the weight one H100 receives in that same epoch:\n```text\nH100_eq = total_weight / weight_per_h100\n```\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this metric uses that numerator. The published figures differ because the denominator differs.\n## What dashboards show on epoch 410\n| Dashboard | Shown figure | Denominator |\n| --- | --- | --- |\n| [gonka.gg](https://gonka.gg/) | 1,1"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20260930193131_029676eb",
     "timestamp": "2026-09-30T19:31:31.704597+00:00",
     "section": "issues",
@@ -8134,20 +8150,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Add a transaction for deleting the governance model. It needs to be added and verified to ensure it does not affect operations in the current epoch\n    <span class=\"issues-number\">#465</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 22:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span"
     },
     "ai_description": "Issue #465 on deleting the governance model has been removed from the community activity feed. The proposal, which sought to add and verify a transaction for removing the governance model without disrupting current epoch operations, was closed after receiving one comment. Its removal means the topic is no longer under active community consideration.Issue #465 on adding a transaction for deleting the governance model has been removed from the community feed. The closed proposal aimed to verify the deletion wouldn't disrupt current epoch operations, but it's now off the table for active discussion. This cleanup keeps the activity feed focused on actionable items."
-  },
-  {
-    "id": "evt_20260910143102_848359cc",
-    "timestamp": "2026-09-10T14:31:02.672214+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#466 — Stop rewriting static config at each app start",
-      "url": null,
-      "file": "00466-stop-rewriting-static-config-at-each-app-start.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Stop rewriting static config at each app start\n    <span class=\"issues-number\">#466</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 22:47 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top"
-    },
-    "ai_description": "Issue #466 about stopping static config rewrites at app startup has been closed and removed from the feed. The proposal, opened by @tcharchian, aimed to eliminate unnecessary file writes that could cause wear and race conditions. With the issue now closed, the community can move forward on cleaner config handling approaches. 🚀"
   }
 ]
