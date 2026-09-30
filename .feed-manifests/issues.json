@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-09-30T06:56:49.666617+00:00",
+  "snapshot_time": "2026-09-30T14:00:09.790661+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3331,12 +3331,13 @@
     "01570-devshard-timeout-vote-threshold-unreachable-under-skewed-slo.md": {
       "title": "#1570 — Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)\n    <span class=\"issues-number\">#1570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-09 16:18 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div",
-      "comment_checksum": "8ff85adbb39e5c12d380d04e40888a1cc66604e02b289b287036cbc3bb969c68",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)\n    <span class=\"issues-number\">#1570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-09 16:18 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <di",
+      "comment_checksum": "f34c0c6f7993fe83355a9abe212890ebc9a28df9ddbb848c4afcc27b0b3935e0",
       "comment_bodies": [
-        "I traced this on current main (f040d0a5b). The report holds, and there is one property worth recording before anyone picks a direction. Confirmed: Per-participant vote weight is the escrow slot count — AddressSlotCount, devshard/state/machine.go:1431-1433, accumulated at devshard/user/session.go:2123. The threshold is ComputeVoteThreshold(groupSize, VoteThresholdFactor) (devshard/types/config.go:7"
+        "I traced this on current main (f040d0a5b). The report holds, and there is one property worth recording before anyone picks a direction. Confirmed: Per-participant vote weight is the escrow slot count — AddressSlotCount, devshard/state/machine.go:1431-1433, accumulated at devshard/user/session.go:2123. The threshold is ComputeVoteThreshold(groupSize, VoteThresholdFactor) (devshard/types/config.go:7",
+        "Looked into this after @redstartechno's trace, and spent some time measuring how often the skewed case comes up on mainnet rather than just reasoning about it. Short version: the mechanism is right, and the skew is far more common than the one example in the report suggests. I sampled a few dozen live escrows from the current epoch and looked at the slot distribution in each (the escrow query retu"
       ],
-      "checksum": "5b5b8c4052aad2573e62dbeb4de574a9538afe43476807fea4e4a3853e7cc7c2"
+      "checksum": "9e70da9c25b9f3a13275ac2664ae67ed525d3ec3c8bf761bea11444bd8ba9507"
     },
     "01572-bug-unauthenticated-mlnode-trainstart-accepts-a-raw-dict-let.md": {
       "title": "#1572 — [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers",

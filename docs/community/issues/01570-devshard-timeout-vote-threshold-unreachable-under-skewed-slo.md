@@ -2,7 +2,7 @@
 title: "#1570 — Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)"
 source: https://github.com/gonka-ai/gonka/issues/1570
 issue_number: 1570
-synced_at: 2026-09-30T06:50:31Z
+synced_at: 2026-09-30T13:52:54Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 2026-08-09 16:18 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-09-18 21:42 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-09-30 09:17 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -63,7 +63,7 @@ Two verifiers responded with combined weight 3; the threshold is 8; the remainin
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -83,6 +83,20 @@ Two verifiers responded with combined weight 3; the threshold is 8; the remainin
 <p><strong>The property worth noting:</strong> <code>VoteThreshold</code> is frozen into <code>SessionConfig</code> at session creation and pinned by <code>devshard/state/vote_threshold_freeze_test.go</code> ("bind-time freeze … for protocol compatibility"), as part of <code>EscrowState</code> / <code>StateRootAndProtocolVersion</code>. So a change to the threshold formula would only affect sessions created under a new approved version name — it cannot unstick escrows that are already bound, and those would still need a resolution path of their own. That puts this in protocol-version territory rather than a self-contained fix.</p>
 <p>For completeness: #1569 (merged) and #1549 (open) both harden how votes are <em>verified</em> before being counted, but neither changes the threshold semantics.</p>
 <p>Posting this as reference material rather than a proposal — the tradeoff between liveness and the safety margin (threshold over reachable weight, a per-participant weight cap, or an explicit resolution path for exhausted verifiers) seems like yours to make. If you settle on a direction, I am happy to implement it with regression coverage for the skewed-slot case.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-09-30 09:17 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Looked into this after @redstartechno's trace, and spent some time measuring how often the skewed case comes up on mainnet rather than just reasoning about it. Short version: the mechanism is right, and the skew is far more common than the one example in the report suggests.</p>
+<p>I sampled a few dozen live escrows from the current epoch and looked at the slot distribution in each (the escrow query returns slots[], so counting addresses gives vote weight directly). Groups where a single participant holds half the slots or more are not rare — they show up in roughly two out of five. A fair number go higher than that, and the two-participant groups ([9,7], [10,6] type splits) are common enough that they look like normal sampling behaviour rather than an anomaly.</p>
+<p>That puts it a bit differently than "a large-share participant can strand a nonce" — with 16 slots as the group size, the threshold being computed over the full group, and weights on this network concentrated in relatively few hosts, the geometry for this looks like what a 16-draw sample of those weights tends to produce. Nothing has to go wrong for an escrow to end up in this shape.</p>
+<p>Concretely I'm interested in the third direction in the report — bounding slot-share skew at escrow create, or spreading the same weights over finer slots so the sampling tail is smaller. Both stay at create time and avoid touching the frozen session state @redstartechno flagged, which is why they appeal to me over anything on the threshold side. I don't have a strong preference between the two yet, and I'd rather not pick one before knowing whether either is acceptable here.</p>
+<p>I also want to avoid stepping on #1844, which looks like it covers the threshold-value half of this. Happy to leave that alone.</p>
+<p>Is the skew side something worth pursuing, and if so would you have a preference between capping the share and increasing slot granularity? I'm glad to put up a PR with a skewed-case regression test if it's wanted — but I'd rather check first than assume, and I'd also defer to whoever's closer to the escrow creation path if someone else is already thinking about it.</p>
   </div>
 </div>
 
