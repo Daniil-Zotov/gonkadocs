@@ -2,7 +2,7 @@
 title: "#1352 — Bridge: auto-refund does not run when BLS signing expires (EXPIRED)"
 source: https://github.com/gonka-ai/gonka/issues/1352
 issue_number: 1352
-synced_at: 2026-10-01T13:30:26Z
+synced_at: 2026-10-01T19:36:59Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-06-19 16:47 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-22 02:34 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-01 14:40 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -78,7 +78,7 @@ Silent `(false, nil)` if hooks empty or pending not found — **no retry queue**
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -397,6 +397,23 @@ export BLS_ID='7Zr3ERnMcKniqxDd9eEqnM91iVLtvrrY+uAYUIIEOdg='
     <p>at the moment all filfox servers are down </p>
 <p><img width="597" height="87" alt="Image" src="https://github.com/user-attachments/assets/38a75e11-eb3d-4c65-a54f-dc9e98227a2b" /></p>
 <p>when they come back, i will need to take back and restore the environment to continue with testing. The data above will be gone. But we can simulate again on request</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/zpoken">@zpoken</a></span>
+    <span class="issues-meta-item">commented 2026-10-01 14:38 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@maria-mitina @GLiberman 
+Fixed in #1891.</p>
+<p><strong>Root cause</strong> (as in #1749): <code>InvokeSetBlsHooks</code> asked depinject for <code>*keeper.Keeper</code> while the BLS module provides <code>keeper.Keeper</code>, so the invoker got <code>nil</code> and never installed the hooks. <code>AfterThresholdSigningFailed</code> never ran, so an <code>EXPIRED</code> mint was never refunded. This matches both testnet runs here.</p>
+<p><strong>Changes:</strong>
+- the invoker now takes the keeper by value, so the inference hooks are installed;
+- an auto-refund runs only when the signing request is <code>FAILED</code> or <code>EXPIRED</code>;
+- a failed request that no hook handles is now logged instead of passing silently.</p>
+<p><strong>Tests:</strong> the app built through <code>app.New</code> has the hooks installed, and a mint pending before its deadline is refunded through the real deadline sweep, emits <code>bridge_operation_auto_refunded</code>, and ends <code>CANCELLED</code>.</p>
+<p><strong>Not included:</strong> a retry queue for the failure hook, and cleanup of pending entries left over from operations that completed while the hooks were off. The fix reaches a chain only with an upgrade that ships it; until then the <code>cancel-bridge-operation</code> workaround still applies.</p>
   </div>
 </div>
 

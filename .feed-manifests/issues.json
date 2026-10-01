@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-01T13:33:28.928338+00:00",
+  "snapshot_time": "2026-10-01T19:40:51.355883+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -2978,13 +2978,14 @@
     "01352-bridge-auto-refund-does-not-run-when-bls-signing-expires-exp.md": {
       "title": "#1352 — Bridge: auto-refund does not run when BLS signing expires (EXPIRED)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: auto-refund does not run when BLS signing expires (EXPIRED)\n    <span class=\"issues-number\">#1352</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-19 16:47 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;",
-      "comment_checksum": "3583d7559809dcdfb03d3817fc364ccfef905d3f4747ee23b3415ba7bf53c04f",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: auto-refund does not run when BLS signing expires (EXPIRED)\n    <span class=\"issues-number\">#1352</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-19 16:47 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;",
+      "comment_checksum": "bf8ada10eca0f114a8b72b3390e79ccd2469dba421c93e562d767e8b30905ba2",
       "comment_bodies": [
         "Testnet evidence retrieval (gonka-testnet-4) Run on seed host 702111: ssh decentai@xj7-5.s.filfox.io -p 18222 cd /srv/dai Environment export NODE=http://localhost:8000/chain-rpc/ export INF_HOME=/srv/dai/.inference export CHAIN_ID=gonka-testnet-4 export BIN=/srv/dai/inferenced # Run B (primary reproduction) export MINT_HEIGHT=36114 export FAIL_HEIGHT=36144 export BLS_ID='KDTcSiJ3Jrv45kvMOivlDDznH4",
-        "at the moment all filfox servers are down when they come back, i will need to take back and restore the environment to continue with testing. The data above will be gone. But we can simulate again on request"
+        "at the moment all filfox servers are down when they come back, i will need to take back and restore the environment to continue with testing. The data above will be gone. But we can simulate again on request",
+        "@maria-mitina @GLiberman Fixed in #1891. Root cause (as in #1749): InvokeSetBlsHooks asked depinject for *keeper.Keeper while the BLS module provides keeper.Keeper, so the invoker got nil and never installed the hooks. AfterThresholdSigningFailed never ran, so an EXPIRED mint was never refunded. This matches both testnet runs here. Changes: - the invoker now takes the keeper by value, so the infer"
       ],
-      "checksum": "1047439d38afcb13f03200b4fcb361bf2aa03d880e3ddc46891dc5075b20cd75"
+      "checksum": "d0cc658620ccfe28a39618294f4193e20f064b3b412f628e5d176d0963157f90"
     },
     "01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav.md": {
       "title": "#1358 — Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING",

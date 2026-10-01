@@ -2,7 +2,7 @@
 title: "#1867 — Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)"
 source: https://github.com/gonka-ai/gonka/issues/1867
 issue_number: 1867
-synced_at: 2026-10-01T13:30:16Z
+synced_at: 2026-10-01T19:37:06Z
 template: issues-main.html
 ---
 

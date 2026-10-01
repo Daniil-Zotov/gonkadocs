@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261001194034_82a64d5c",
+    "timestamp": "2026-10-01T19:40:34.882756+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1352 — Bridge: auto-refund does not run when BLS signing expires (EXPIRED)",
+      "url": "/community/issues/01352-bridge-auto-refund-does-not-run-when-bls-signing-expires-exp/",
+      "file": "01352-bridge-auto-refund-does-not-run-when-bls-signing-expires-exp.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: auto-refund does not run when BLS signing expires (EXPIRED)\n    <span class=\"issues-number\">#1352</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-19 16:47 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: auto-refund does not run when BLS signing expires (EXPIRED)\n    <span class=\"issues-number\">#1352</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-19 16:47 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261001134632_c8fa5391",
     "timestamp": "2026-10-01T13:46:32.125466+00:00",
     "section": "calendar",
@@ -8143,20 +8159,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    All the old keys from the cluster entered the new epoch, even though that cluster was deleted\n    <span class=\"issues-number\">#440</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-11-17 20:12 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>"
     },
     "ai_description": "Issue #440 has been closed and removed from the feed. The report flagged that old cluster keys were persisting into a new epoch after the cluster was deleted, a bug that could compromise network security. Its closure signals the matter was addressedholistically, keeping our inference network clean and trustworthy. Thanks to everyone involved in resolving it."
-  },
-  {
-    "id": "evt_20260910143102_087fbe40",
-    "timestamp": "2026-09-10T14:31:02.672184+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#447 — Node Registration Does Not Update After Migration (API stuck using old on-chain config)",
-      "url": null,
-      "file": "00447-node-registration-does-not-update-after-migration-api-stuck-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Node Registration Does Not Update After Migration (API stuck using old on-chain config)\n    <span class=\"issues-number\">#447</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Asplana92\">@Asplana92</a> opened 2025-11-20 03:02 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar"
-    },
-    "ai_description": "Issue #447 has been closed, as the bug where node registration continued using the old on-chain config after migration has been resolved. This fix ensures the API now correctly picks up updated registration details, keeping the network in sync. Thanks to everyone who helped track this down. 🛠️✅ (Note: No funding amount was involved as this was a bug fix.)"
   }
 ]
