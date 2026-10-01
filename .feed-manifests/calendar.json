@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-10-01T06:24:48.682479+00:00",
+  "snapshot_time": "2026-10-01T13:46:32.144590+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2323,6 +2323,15 @@
       "url": "/proposals/proposals/2026-q3/109/",
       "content_preview": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.\n\nTrusted Weight. Befor…",
       "checksum": "e012f66d9a6c444871a74f3b3e38a49fae56edfae15f3b8418d6bfeebe6ecd60"
+    },
+    "9e3f9f1e49cd2eac76d677b515c876f54cb0b391ec3b0ea0ee1b684c6d22121c": {
+      "title": "Voting ends: #110 – GRC Proposal #4 - Restitution",
+      "date": "2026-10-03",
+      "time": "07:00 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/110/",
+      "content_preview": "Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…",
+      "checksum": "b080e97acf9e0155721c7b36b8c8e9f7552a364c21d64c1d1fe0861592d27e4f"
     }
   }
 }
