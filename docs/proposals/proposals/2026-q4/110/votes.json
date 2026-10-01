@@ -4,7 +4,7 @@
     "voter": "gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk",
     "options": [
       {
-        "option": "VOTE_OPTION_NO_WITH_VETO",
+        "option": "VOTE_OPTION_NO",
         "weight": "1.000000000000000000"
       }
     ],
