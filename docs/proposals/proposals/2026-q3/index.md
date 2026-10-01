@@ -68,8 +68,8 @@ hide:
     <span>Voting ends 2026-10-02</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>44.7%</strong> (23,120)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>55.3%</strong> (28,655)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>9.6%</strong> (51,775 / 537,486) · Quorum <strong>25%</strong> (134,371)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>75.3%</strong> (87,222)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>24.7%</strong> (28,655)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>21.6%</strong> (115,877 / 537,486) · Quorum <strong>25%</strong> (134,371)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
