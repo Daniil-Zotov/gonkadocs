@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-10-01T00:58:18.357367+00:00",
+  "snapshot_time": "2026-10-01T06:56:31.552270+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -125,8 +125,8 @@
     "dashboard-maintainer-memo-v0.2.16-h100.md": {
       "title": "H100 equivalent on dashboards",
       "status": null,
-      "content_preview": "# H100 equivalent on dashboards\nPlease read this before the v0.2.16 upgrade. If proposal 109 passes, the upgrade height is 6,353,400, expected around 2 October 2026, 07:05 UTC.\n## What the number is\nH100 equivalent is the current network weight divided by the weight one H100 receives in that same epoch:\n```text\nH100_eq = total_weight / weight_per_h100\n```\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this metric uses that numerator. The published figures differ because the denominator differs.\n## What dashboards show on epoch 410\n| Dashboard | Shown figure | Denominator |\n| --- | --- | --- |\n| [gonka.gg](https://gonka.gg/) | 1,1",
-      "checksum": "ef77d13ae7ae631f1234146d713d7e32ce7e0a77da1c12befb30be697c6257ab"
+      "content_preview": "# H100 equivalent on dashboards\nPlease read this before the v0.2.16 upgrade. If proposal 109 passes, the upgrade height is 6,353,400, expected around 2 October 2026, 07:05 UTC.\n## What the number is\n\nH100 equivalent is the current network reward weight divided by the reward weight one reference H100 receives in that same epoch:\n\n```text\nH100_eq = total_weight / weight_per_h100\n```\n\nIt is a reward-weight equivalent. It is not a count of physical GPUs, and it is not difficulty-normalized compute.\n\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this metric uses that numerator. The published figures differ because the denominator dif",
+      "checksum": "706e81c04b771d25b61499c43051ff1cb61f9848508d101529bf65a868b1ba57"
     },
     "developer/gateway-developer-quickstart.md": {
       "title": "Run your own gateway",

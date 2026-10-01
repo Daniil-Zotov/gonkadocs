@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261001065623_a4049416",
+    "timestamp": "2026-10-01T06:56:23.803366+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "H100 equivalent on dashboards",
+      "url": "/gonka/docs/dashboard-maintainer-memo-v0.2.16-h100/",
+      "file": "dashboard-maintainer-memo-v0.2.16-h100.md"
+    },
+    "details": {
+      "content_before": "# H100 equivalent on dashboards\nPlease read this before the v0.2.16 upgrade. If proposal 109 passes, the upgrade height is 6,353,400, expected around 2 October 2026, 07:05 UTC.\n## What the number is\nH100 equivalent is the current network weight divided by the weight one H100 receives in that same epoch:\n```text\nH100_eq = total_weight / weight_per_h100\n```\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this metric uses that numerator. The published figures differ because the denominator differs.\n## What dashboards show on epoch 410\n| Dashboard | Shown figure | Denominator |\n| --- | --- | --- |\n| [gonka.gg](https://gonka.gg/) | 1,1",
+      "content_after": "# H100 equivalent on dashboards\nPlease read this before the v0.2.16 upgrade. If proposal 109 passes, the upgrade height is 6,353,400, expected around 2 October 2026, 07:05 UTC.\n## What the number is\n\nH100 equivalent is the current network reward weight divided by the reward weight one reference H100 receives in that same epoch:\n\n```text\nH100_eq = total_weight / weight_per_h100\n```\n\nIt is a reward-weight equivalent. It is not a count of physical GPUs, and it is not difficulty-normalized compute.\n\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this metric uses that numerator. The published figures differ because the denominator dif"
+    },
+    "ai_description": "The H100 equivalent metric in our protocol docs has been clarified to emphasize it represents reward-weight equivalence, not physical GPU counts or difficulty-normalized compute. This distinction matters for accurate interpretation of network capacity across dashboards. Community members should note this correction before the v0.2.16 upgrade window.The H100 equivalent metric in our protocol docs has been clarified to emphasize it represents reward-weight equivalence, not physical GPU counts or difficulty-normalized compute. This distinction matters for accurate interpretation of network capacity across dashboards. Community members should note this correction before the v0.2.16 upgrade window."
+  },
+  {
     "id": "evt_20260930210811_2b90d760",
     "timestamp": "2026-09-30T21:08:11.903818+00:00",
     "section": "gonka_docs",
@@ -8135,20 +8151,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Difficulty with PoC, defined by `RTarget`\n    <span class=\"issues-number\">#464</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 21:23 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px"
     },
     "ai_description": "Issue #464 about the difficulty with Proof of Concept defined by RTarget has been removed from the feed. The report was closed with no comments, so its removal cleans up the tracker for the community. Stay tuned for the next update on network consensus parameters.Issue #464, which reported difficulties with the Proof of Concept defined by RTarget, has been removed from the tracker. The closed issue had no discussion, so its cleanup keeps the feed focused on active matters for the community. Thanks for keeping the network running smoothly."
-  },
-  {
-    "id": "evt_20260910143102_ad508953",
-    "timestamp": "2026-09-10T14:31:02.672208+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#465 — Add a transaction for deleting the governance model. It needs to be added and verified to ensure it does not affect operations in the current epoch",
-      "url": null,
-      "file": "00465-add-a-transaction-for-deleting-the-governance-model-it-needs.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Add a transaction for deleting the governance model. It needs to be added and verified to ensure it does not affect operations in the current epoch\n    <span class=\"issues-number\">#465</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 22:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span"
-    },
-    "ai_description": "Issue #465 on deleting the governance model has been removed from the community activity feed. The proposal, which sought to add and verify a transaction for removing the governance model without disrupting current epoch operations, was closed after receiving one comment. Its removal means the topic is no longer under active community consideration.Issue #465 on adding a transaction for deleting the governance model has been removed from the community feed. The closed proposal aimed to verify the deletion wouldn't disrupt current epoch operations, but it's now off the table for active discussion. This cleanup keeps the activity feed focused on actionable items."
   }
 ]
