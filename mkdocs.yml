@@ -72,6 +72,9 @@ nav:
       - Expired: proposals/preproposals/index.md
     - On-Chain Governance Proposals:
       - On-Chain Governance: proposals/proposals/index.md
+      - 2026-Q4:
+        - Overview: proposals/proposals/2026-q4/index.md
+        - "#110 – GRC Proposal #4 - Restitution": proposals/proposals/2026-q4/110/index.md
       - 2026-Q3:
         - Overview: proposals/proposals/2026-q3/index.md
         - "#109 – Upgrade Proposal: v0.2.16": proposals/proposals/2026-q3/109/index.md

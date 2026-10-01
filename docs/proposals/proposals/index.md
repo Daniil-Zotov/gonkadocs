@@ -34,16 +34,16 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">108</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">72</span><span class="qs-desc">Passed (67%)</span></div>
+<div class="qs-stat total"><span class="qs-num">109</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">72</span><span class="qs-desc">Passed (66%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">34</span><span class="qs-desc">Rejected (31%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:41%"></span></span><span class="qs-value">44</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:41%"></span></span><span class="qs-value">45</span></div>
 <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:33%"></span></span><span class="qs-value">36</span></div>
-<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:18%"></span></span><span class="qs-value">19</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">19</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">4</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">3</span></div>
 <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">2</span></div>
@@ -55,6 +55,26 @@ hide:
 
 </div>
 
+<div class="prop-quarter" id="2026-q4" markdown="1">
+## 2026-Q4
+
+*1 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-03T07:00:10.758222205Z">
+  <div class="prop-card-header">
+    <a href="2026-q4/110/" class="prop-card-title">#110 – GRC Proposal #4 - Restitution</a>
+    <span class="prop-vote-countdown" data-deadline="2026-10-03T07:00:10.758222205Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-10-01</span>
+    <span>Voting ends 2026-10-03</span>
+  </div>
+  <div class="prop-card-desc">Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$2,100 · Community Pool · 132,896 GNK · Gov Module</span></div>
+</div>
+
+</div>
 <div class="prop-quarter" id="2026-q3" markdown="1">
 ## 2026-Q3
 
@@ -1532,7 +1552,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>108 proposals across 5 quarters. Last updated: 2026-10-01 06:40 UTC</em>
+<em>109 proposals across 6 quarters. Last updated: 2026-10-01 07:00 UTC</em>
 </div>
 
 <script>

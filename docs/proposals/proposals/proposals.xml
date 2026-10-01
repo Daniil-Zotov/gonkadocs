@@ -7,6 +7,14 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#110 – GRC Proposal #4 - Restitution</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q4/110/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/110/</guid>
+      <pubDate>Thu, 01 Oct 2026 07:00:10 +0000</pubDate>
+      <category>Voting</category>
+      <description>Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Proposal #3 with proposal 67 overlap deductions kept), and the epoch 366 in-epoch SPRT false invalidation (direct victims only, per the GRC vote). Victim payouts are GNK vesting transfers; vesting per case equals the 180-epoch default minus epochs already elapsed since the incident. Committee bounties fo</description>
+    </item>
+    <item>
       <title>#109 – Upgrade Proposal: v0.2.16</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/109/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/109/</guid>

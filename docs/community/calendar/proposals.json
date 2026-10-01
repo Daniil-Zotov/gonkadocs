@@ -1474,5 +1474,17 @@
     "tags": [
       "voting"
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #110 – GRC Proposal #4 - Restitution",
+    "url": "/proposals/proposals/2026-q4/110/",
+    "time": "07:00 UTC",
+    "description": "Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…",
+    "tags": [
+      "voting"
+    ]
   }
 ]
