@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261001133326_8501cede",
+    "timestamp": "2026-10-01T13:33:26.498416+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1222 — [P1] Int overflow",
+      "url": "/community/issues/01222-p1-int-overflow/",
+      "file": "01222-p1-int-overflow.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P1] Int overflow\n    <span class=\"issues-number\">#1222</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 22:30 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color: ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P1] Int overflow\n    <span class=\"issues-number\">#1222</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 22:30 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color: "
+    },
+    "ai_description": "Issue #1222 on integer overflow just got a new comment, bringing the discussion to seven. If you're tracking this P1 bug, it's worth checking the thread for the latest input from the community. Stay tuned for any resolution updates.Issue #1222 on the integer overflow bug just got a new comment, bringing the discussion to seven. The community is actively digging into this P1 — check the thread if you want to weigh in or track the latest technical insights."
+  },
+  {
     "id": "evt_20261001130259_1fc882ed",
     "timestamp": "2026-10-01T13:02:59.096486+00:00",
     "section": "discussions",
@@ -8137,20 +8153,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    ML node model management edge cases\n    <span class=\"issues-number\">#461</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-02 20:12 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
     },
     "ai_description": "Issue #461 on ML node model management edge cases was closed and removed from the feed. The discussion wrapped up without any new updates, so this item is no longer active for the community. Thanks to everyone who weighed in on it. Keep an eye out for related improvements in upcoming releases.Issue #461 on ML node model management edge cases has been closed and removed from the feed. This wraps up the discussion on those tricky scenarios, so no further action is needed from the community. Thanks to everyone who contributed to refining our node handling."
-  },
-  {
-    "id": "evt_20260910143102_5838b9b9",
-    "timestamp": "2026-09-10T14:31:02.672196+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#463 — Nodes always available",
-      "url": null,
-      "file": "00463-nodes-always-available.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Nodes always available\n    <span class=\"issues-number\">#463</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 21:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<"
-    },
-    "ai_description": "Issue #463 \"Nodes always available\" has been removed from the community feed. The closed issue, which had no comments, is no longer tracked, keeping the board focused on active discussions. This cleanup helps reduce noise for contributors monitoring node availability topics.Issue #463 \"Nodes always available\" has been removed from the feed. The closed issue with no comments is no longer tracked, helping keep the board focused on active discussions and reducing noise for contributors."
   }
 ]

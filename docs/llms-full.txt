@@ -30808,7 +30808,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…
   Yes 75.1% (99,629) · No 3.4% (4,465) · Veto 0.0% (0) · Abstain 21.6% (28,655)$2,100 · Community Pool · 132,896 GNK · Gov Module
-  ✗ Turnout 24.7% (132,749 / 537,486) · Quorum 25% (134,371)
+  ✗ Turnout 24.7% (132,749 / 537,291) · Quorum 25% (134,322)
 
 ## 2026-Q3
 
@@ -30825,7 +30825,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…
   Yes 75.5% (88,116) · No 0.0% (0) · Veto 0.0% (0) · Abstain 24.5% (28,655)
-  ✗ Turnout 21.7% (116,771 / 537,486) · Quorum 25% (134,371)
+  ✗ Turnout 21.7% (116,771 / 537,291) · Quorum 25% (134,322)
 
   
     #108 – Update DevShard v5 to v5.0.2
@@ -32060,7 +32060,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-109 proposals across 6 quarters. Last updated: 2026-10-01 13:01 UTC
+109 proposals across 6 quarters. Last updated: 2026-10-01 13:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -69756,7 +69756,7 @@ $90,075 USDT · Bounty Reward
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…
   Yes 75.5% (88,116) · No 0.0% (0) · Veto 0.0% (0) · Abstain 24.5% (28,655)
-  ✗ Turnout 21.7% (116,771 / 537,486) · Quorum 25% (134,371)
+  ✗ Turnout 21.7% (116,771 / 537,291) · Quorum 25% (134,322)
 
   
     #108 – Update DevShard v5 to v5.0.2
@@ -73464,7 +73464,7 @@ The full technical scope, contributor list, individual contributions, PR referen
     Veto 0.0% (0)
     Abstain 24.5% (28,655)
     Total 116,771 votes
-    ✗ Turnout 21.7% (116,771 / 537,486) · Quorum 25% (134,371)
+    ✗ Turnout 21.7% (116,771 / 537,291) · Quorum 25% (134,322)
   
 
 Voters
@@ -81216,7 +81216,7 @@ Funding / Grants1
   
   Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…
   Yes 75.1% (99,629) · No 3.4% (4,465) · Veto 0.0% (0) · Abstain 21.6% (28,655)$2,100 · Community Pool · 132,896 GNK · Gov Module
-  ✗ Turnout 24.7% (132,749 / 537,486) · Quorum 25% (134,371)
+  ✗ Turnout 24.7% (132,749 / 537,291) · Quorum 25% (134,322)
 
 ← Back to all proposals
 
@@ -81262,7 +81262,7 @@ Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 26
     Veto 0.0% (0)
     Abstain 21.6% (28,655)
     Total 132,749 votes
-    ✗ Turnout 24.7% (132,749 / 537,486) · Quorum 25% (134,371)
+    ✗ Turnout 24.7% (132,749 / 537,291) · Quorum 25% (134,322)
   
 
 Voters

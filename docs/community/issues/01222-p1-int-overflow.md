@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-10-01T06:08:38Z
+synced_at: 2026-10-01T13:30:09Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 22:30 UTC</span>
-    <span class="issues-meta-item">6 comments</span>
-    <span class="issues-meta-item">Updated 2026-07-22 05:01 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-01 10:39 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">nice-to-have</span></div>
 </div>
@@ -27,7 +27,7 @@ The goal of this is to have in place after this a standard way of handling possi
 
 ---
 
-## 💬 Comments (6)
+## 💬 Comments (7)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -110,6 +110,19 @@ The goal of this is to have in place after this a standard way of handling possi
 <p>re</p>
 </blockquote>
 <p>Got it. </p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/zpoken">@zpoken</a></span>
+    <span class="issues-meta-item">commented 2026-10-01 10:39 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@tcharchian, following your request, here is the detailed proposal: 
+- Proposal: https://github.com/zpoken/gonka/blob/zpoken/int-overflow-proposal/int-overflow-proposal.md
+- Community discussion: https://github.com/gonka-ai/gonka/discussions/1886</p>
+<p>In short: rules by execution context with code examples, a shared stdlib-only <code>safemath</code> package with SDK/decimal adapters, and a CI check (gosec G115 + <code>nolintlint</code>, new lines only) for chain, devshard, decentralized-api and common.</p>
+<p>@olegsuhoparov @Mayveskii, the proposal coordinates with #1379 and #1017 rather than replacing them; your feedback is very welcome.</p>
   </div>
 </div>
 
