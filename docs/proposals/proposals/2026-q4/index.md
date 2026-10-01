@@ -62,8 +62,8 @@ hide:
     <span>Voting ends 2026-10-03</span>
   </div>
   <div class="prop-card-desc">Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>75.1%</strong> (99,629)</span> · <span class="prop-tally-no-text">No <strong>3.4%</strong> (4,465)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.6%</strong> (28,655)</span><span class="prop-card-funding prop-card-funding-voting">$2,100 · Community Pool · 132,896 GNK · Gov Module</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>24.7%</strong> (132,749 / 537,291) · Quorum <strong>25%</strong> (134,322)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>75.7%</strong> (103,233)</span> · <span class="prop-tally-no-text">No <strong>3.3%</strong> (4,465)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.0%</strong> (28,655)</span><span class="prop-card-funding prop-card-funding-voting">$2,100 · Community Pool · 132,896 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>25.4%</strong> (136,353 / 537,228) · Quorum <strong>25%</strong> (134,307)</span></div>
 </div>
 
 </div>

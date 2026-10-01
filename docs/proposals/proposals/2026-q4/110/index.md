@@ -38,18 +38,18 @@ Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 26
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:18.5%"></div>
+    <div class="prop-tally-yes" style="width:19.2%"></div>
     <div class="prop-tally-no" style="width:0.8%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:5.3%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>75.1%</strong> (99,629)</span>
-    <span class="prop-tally-no-text">No <strong>3.4%</strong> (4,465)</span>
+    <span class="prop-tally-yes-text">Yes <strong>75.7%</strong> (103,233)</span>
+    <span class="prop-tally-no-text">No <strong>3.3%</strong> (4,465)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>21.6%</strong> (28,655)</span>
-    <span class="prop-tally-total-text">Total 132,749 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>24.7%</strong> (132,749 / 537,291) · Quorum <strong>25%</strong> (134,322)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>21.0%</strong> (28,655)</span>
+    <span class="prop-tally-total-text">Total 136,353 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>25.4%</strong> (136,353 / 537,228) · Quorum <strong>25%</strong> (134,307)</span>
   </div>
 </div>
 
@@ -61,6 +61,7 @@ Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 26
 <table class="prop-voters">
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
+<tr><td><a href="https://gonka.gg/address/gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl" target="_blank" class="prop-voter-addr">gonka1qwfrtz…33xdkl</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk" target="_blank" class="prop-voter-addr">gonka1xvlfsh…z8c3uk</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5" target="_blank" class="prop-voter-addr">gonka1gyk0aa…k8svc5</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1gvpv7vhk5gyxhmf9u8sc8pw5j8fr6lzalyrmkx" target="_blank" class="prop-voter-addr">gonka1gvpv7v…lyrmkx</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>

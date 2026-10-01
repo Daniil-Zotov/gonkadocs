@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-10-03</span>
   </div>
   <div class="prop-card-desc">Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>75.1%</strong> (99,629)</span> · <span class="prop-tally-no-text">No <strong>3.4%</strong> (4,465)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.6%</strong> (28,655)</span><span class="prop-card-funding prop-card-funding-voting">$2,100 · Community Pool · 132,896 GNK · Gov Module</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>24.7%</strong> (132,749 / 537,291) · Quorum <strong>25%</strong> (134,322)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>75.7%</strong> (103,233)</span> · <span class="prop-tally-no-text">No <strong>3.3%</strong> (4,465)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.0%</strong> (28,655)</span><span class="prop-card-funding prop-card-funding-voting">$2,100 · Community Pool · 132,896 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>25.4%</strong> (136,353 / 537,228) · Quorum <strong>25%</strong> (134,307)</span></div>
 </div>
 
 </div>
@@ -92,8 +92,8 @@ hide:
     <span>Voting ends 2026-10-02</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>75.5%</strong> (88,116)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>24.5%</strong> (28,655)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>21.7%</strong> (116,771 / 537,291) · Quorum <strong>25%</strong> (134,322)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>76.2%</strong> (91,720)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>23.8%</strong> (28,655)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>22.4%</strong> (120,375 / 537,228) · Quorum <strong>25%</strong> (134,307)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1553,7 +1553,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>109 proposals across 6 quarters. Last updated: 2026-10-01 13:40 UTC</em>
+<em>109 proposals across 6 quarters. Last updated: 2026-10-01 14:00 UTC</em>
 </div>
 
 <script>
