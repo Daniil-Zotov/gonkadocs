@@ -4,12 +4,13 @@ title: ":gear: Protocol Improvements"
 
 # :gear: Protocol Improvements
 
-Дискуссии в категории **:gear: Protocol Improvements**. Всего: **47**. Обновлено: `2026-10-01 05:41 UTC`.
+Дискуссии в категории **:gear: Protocol Improvements**. Всего: **48**. Обновлено: `2026-10-01 13:02 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1886](1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md) | [Proposal: a consistent integer-overflow policy for Gonka (#1222)](1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md) | [@zpoken](https://github.com/zpoken) | 2026-10-01 |
 | [1748](1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)](1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [@akup](https://github.com/akup) | 2026-09-11 |
 | [1721](1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?](1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-09-08 |
 | [1685](1685-devshard-load-testing.md) | [Devshard Load Testing](1685-devshard-load-testing.md) | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-10 |

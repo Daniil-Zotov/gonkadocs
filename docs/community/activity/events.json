@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261001130259_1fc882ed",
+    "timestamp": "2026-10-01T13:02:59.096486+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#1886 — Proposal: a consistent integer-overflow policy for Gonka (#1222)",
+      "url": "/community/discussion/protocol-improvements/1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222/",
+      "file": "protocol-improvements/1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1886](https://github.com/gonka-ai/gonka/discussions/1886) every hour. \n\n# Proposal: a consistent integer-overflow policy for Gonka (#1222)\n\n**Автор:** [@zpoken](https://github.com/zpoken) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-10-01 10:37 UTC · \n\n---\n\n## 📝 Описание\n\nWe prepared proposal describing a standard way to handle integer overflow, applied consistently across the codebase, with an automated check.\n\n**Full proposal:** https://github.com/zpoken/gonka/blob/zpoken/int-overflow-proposal/int-overflow-proposal.md\n\n## What we propose\n\n1. Rules by execution context.  What happens on overflow depends on where the code runs. \n2.  Implement and use one shared package.\n3. Add a CI check. gosec G115 and `nolintlint` run in all four "
+    },
+    "ai_description": "The community has opened a new discussion proposing a consistent integer-overflow policy for Gonka. The plan introduces context-based overflow rules, a shared package for unified handling, and automated CI checks using gosec G115 and nolintlint across all four build targets. This matters because it will eliminate silent bugs and make overflow behavior predictable throughout the codebase."
+  },
+  {
     "id": "evt_20261001065623_a4049416",
     "timestamp": "2026-10-01T06:56:23.803366+00:00",
     "section": "gonka_docs",
@@ -8136,20 +8152,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Nodes always available\n    <span class=\"issues-number\">#463</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 21:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<"
     },
     "ai_description": "Issue #463 \"Nodes always available\" has been removed from the community feed. The closed issue, which had no comments, is no longer tracked, keeping the board focused on active discussions. This cleanup helps reduce noise for contributors monitoring node availability topics.Issue #463 \"Nodes always available\" has been removed from the feed. The closed issue with no comments is no longer tracked, helping keep the board focused on active discussions and reducing noise for contributors."
-  },
-  {
-    "id": "evt_20260910143102_984dab5e",
-    "timestamp": "2026-09-10T14:31:02.672202+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#464 — Difficulty with PoC, defined by `RTarget`",
-      "url": null,
-      "file": "00464-difficulty-with-poc-defined-by-rtarget.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Difficulty with PoC, defined by `RTarget`\n    <span class=\"issues-number\">#464</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 21:23 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px"
-    },
-    "ai_description": "Issue #464 about the difficulty with Proof of Concept defined by RTarget has been removed from the feed. The report was closed with no comments, so its removal cleans up the tracker for the community. Stay tuned for the next update on network consensus parameters.Issue #464, which reported difficulties with the Proof of Concept defined by RTarget, has been removed from the tracker. The closed issue had no discussion, so its cleanup keeps the feed focused on active matters for the community. Thanks for keeping the network running smoothly."
   }
 ]

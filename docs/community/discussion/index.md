@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **105**. Обновлено: `2026-10-01 05:41 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **106**. Обновлено: `2026-10-01 13:02 UTC`.
 
 ## 📂 Категории
 
@@ -14,7 +14,7 @@ title: "GitHub Discussions"
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 10 |
 | [:speech_balloon: General](general/index.md) | 7 |
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 11 |
-| [:gear: Protocol Improvements](protocol-improvements/index.md) | 47 |
+| [:gear: Protocol Improvements](protocol-improvements/index.md) | 48 |
 | [:interrobang: Q&A](q-a/index.md) | 4 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 25 |
 
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1886](protocol-improvements/1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md) | [Proposal: a consistent integer-overflow policy for Gonka (#1222)](protocol-improvements/1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md) | :gear: Protocol Improvements | [@zpoken](https://github.com/zpoken) | 2026-10-01 |
 | [1884](show-and-tell/1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md) | [SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)](show-and-tell/1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md) | :raised_hands: Show and Tell | [@privatedeskai](https://github.com/privatedeskai) | 2026-09-30 |
 | [951](protocol-improvements/0951-tee-implementation.md) | [TEE Implementation](protocol-improvements/0951-tee-implementation.md) | :gear: Protocol Improvements | [@mtvnastya](https://github.com/mtvnastya) | 2026-09-29 |
 | [1815](governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md) | [Proposal #74: Gonka Labs - Monthly Report No.3](governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-28 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-09-07 |
 | [1704](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-07 |
 | [1711](show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka](show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
-| [1710](show-and-tell/1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | [Gonka Labs: x402 on Gonka - payments for Agents](show-and-tell/1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |

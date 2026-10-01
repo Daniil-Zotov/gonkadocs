@@ -21,6 +21,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
 - 2026-10-02 02:40 UTC — Voting ends: #109 – Upgrade Proposal: v0.2.16: https://gonkadocs.com/proposals/proposals/2026-q3/109/
+- 2026-10-03 07:00 UTC — Voting ends: #110 – GRC Proposal #4 - Restitution: https://gonkadocs.com/proposals/proposals/2026-q4/110/
 
 ## Protocol Documentation
 
@@ -211,6 +212,8 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#90 – Partnerships with Inference Resellers, B2C users acquisition and conversion funnels analytics setup](/proposals/proposals/2026-q3/90/): Auto-synced content
 - [#88 – Restore Kimi K2.6 and remove v1, v2](/proposals/proposals/2026-q3/88/): Auto-synced content
 - [#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%](/proposals/proposals/2026-q3/86/): Auto-synced content
+- [2026-Q4 Proposals](/proposals/proposals/2026-q4/): Auto-synced content
+- [#110 – GRC Proposal #4 - Restitution](/proposals/proposals/2026-q4/110/): Auto-synced content
 - [2025-Q3 Proposals](/proposals/proposals/2025-q3/): Auto-synced content
 - [Adjust Params According to real block length](/proposals/proposals/2025-q3/1/full-proposal/): Auto-synced content
 - [#1 – Correct Epoch Length](/proposals/proposals/2025-q3/1/): Auto-synced content
