@@ -11,7 +11,17 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ## 🟢 Active Proposals
 
-*No active proposals.*
+<div class="quarter-summary" markdown="1">
+<div class="qs-stats">
+<div class="qs-stat passed"><span class="qs-num">1</span><span class="qs-desc">Active</span></div>
+<div class="qs-stat"><span class="qs-num">0</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">0</span><span class="qs-desc">Total Bid</span></div>
+</div>
+</div>
+
+| Status | Title | Author | Votes | Avg. Bid | Closes |
+| :----- | :----- | :----- | ----: | -------: | :----- |
+| 🟢 | [Bringing AMD and AI ASICs to Gonka](./b81b582e-3777-4ec3-8017-0db538670f9f/) | David | 0 | 0.00 GNK | 2026-10-08 |
 
 
 ---
@@ -76,4 +86,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-01 23:07 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-02 02:11 UTC*
