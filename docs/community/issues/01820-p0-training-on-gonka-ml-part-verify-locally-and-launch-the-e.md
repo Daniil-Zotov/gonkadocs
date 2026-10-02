@@ -2,7 +2,7 @@
 title: "#1820 — [P0] Training on Gonka. ML part / verify locally and launch the experiment"
 source: https://github.com/gonka-ai/gonka/issues/1820
 issue_number: 1820
-synced_at: 2026-10-02T05:51:16Z
+synced_at: 2026-10-02T12:49:20Z
 template: issues-main.html
 ---
 

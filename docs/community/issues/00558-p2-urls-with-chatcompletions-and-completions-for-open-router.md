@@ -2,7 +2,7 @@
 title: "#558 — [P2] URLs with `/chat/completions` and `/completions` for Open Router"
 source: https://github.com/gonka-ai/gonka/issues/558
 issue_number: 558
-synced_at: 2026-10-02T05:53:16Z
+synced_at: 2026-10-02T12:50:38Z
 template: issues-main.html
 ---
 
