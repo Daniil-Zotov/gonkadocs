@@ -30824,8 +30824,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-02
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…
-  Yes 76.2% (91,720) · No 0.0% (0) · Veto 0.0% (0) · Abstain 23.8% (28,655)
-  ✗ Turnout 22.4% (120,375 / 537,228) · Quorum 25% (134,307)
+  Yes 78.2% (102,985) · No 0.0% (0) · Veto 0.0% (0) · Abstain 21.8% (28,655)
+  ✗ Turnout 24.5% (131,640 / 537,228) · Quorum 25% (134,307)
 
   
     #108 – Update DevShard v5 to v5.0.2
@@ -32060,7 +32060,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-109 proposals across 6 quarters. Last updated: 2026-10-01 20:34 UTC
+109 proposals across 6 quarters. Last updated: 2026-10-02 00:10 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -69755,8 +69755,8 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-10-02
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…
-  Yes 76.2% (91,720) · No 0.0% (0) · Veto 0.0% (0) · Abstain 23.8% (28,655)
-  ✗ Turnout 22.4% (120,375 / 537,228) · Quorum 25% (134,307)
+  Yes 78.2% (102,985) · No 0.0% (0) · Veto 0.0% (0) · Abstain 21.8% (28,655)
+  ✗ Turnout 24.5% (131,640 / 537,228) · Quorum 25% (134,307)
 
   
     #108 – Update DevShard v5 to v5.0.2
@@ -73459,12 +73459,12 @@ The full technical scope, contributor list, individual contributions, PR referen
     
   
   
-    Yes 76.2% (91,720)
+    Yes 78.2% (102,985)
     No 0.0% (0)
     Veto 0.0% (0)
-    Abstain 23.8% (28,655)
-    Total 120,375 votes
-    ✗ Turnout 22.4% (120,375 / 537,228) · Quorum 25% (134,307)
+    Abstain 21.8% (28,655)
+    Total 131,640 votes
+    ✗ Turnout 24.5% (131,640 / 537,228) · Quorum 25% (134,307)
   
 
 Voters
@@ -73483,6 +73483,7 @@ gonka10eg5wa…ht38c5Yes 100.0%
 gonka1346p2h…nd55fhYes 100.0%
 gonka168rtjf…lnkns2Abstain 100.0%
 gonka1mta5n6…dzz63gYes 100.0%
+gonka1u60wtn…u7w0qqYes 100.0%
 gonka17z6au3…taggdzYes 100.0%
 
 ---
