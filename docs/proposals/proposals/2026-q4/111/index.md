@@ -56,16 +56,16 @@ Wayfaster, wayfaster.org, hi@wayfaster.org
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
     <div class="prop-tally-no" style="width:0.7%"></div>
-    <div class="prop-tally-veto" style="width:20.3%"></div>
+    <div class="prop-tally-veto" style="width:24.7%"></div>
     <div class="prop-tally-abstain" style="width:1.2%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-no-text">No <strong>3.1%</strong> (5,462)</span>
-    <span class="prop-tally-veto-text">Veto <strong>91.4%</strong> (160,994)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>5.5%</strong> (9,664)</span>
-    <span class="prop-tally-total-text">Total 176,120 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>22.2%</strong> (176,120 / 792,396) · Quorum <strong>25%</strong> (198,099)</span>
+    <span class="prop-tally-no-text">No <strong>2.6%</strong> (5,462)</span>
+    <span class="prop-tally-veto-text">Veto <strong>92.8%</strong> (195,521)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>4.6%</strong> (9,664)</span>
+    <span class="prop-tally-total-text">Total 210,647 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>26.6%</strong> (210,647 / 792,396) · Quorum <strong>25%</strong> (198,099)</span>
   </div>
 </div>
 
@@ -85,6 +85,7 @@ Wayfaster, wayfaster.org, hi@wayfaster.org
 <tr><td><a href="https://gonka.gg/address/gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8" target="_blank" class="prop-voter-addr">gonka147qfck…4gpvz8</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum" target="_blank" class="prop-voter-addr">gonka1kvmerz…lzldum</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk" target="_blank" class="prop-voter-addr">gonka16dgkvx…6j0skk</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939" target="_blank" class="prop-voter-addr">gonka1ajmhqg…z8s939</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
