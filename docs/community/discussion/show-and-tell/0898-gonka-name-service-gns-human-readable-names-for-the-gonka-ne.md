@@ -3,7 +3,7 @@ title: "#898 — Gonka Name Service (GNS) - Human Readable names for the Gonka N
 source: https://github.com/gonka-ai/gonka/discussions/898
 discussion_number: 898
 category: show-and-tell
-synced_at: 2026-10-02T18:21:36Z
+synced_at: 2026-10-02T22:56:25Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #898](https://github.com/gonka-ai/gonka/discussions/898) every hour. 
