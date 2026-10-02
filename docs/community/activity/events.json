@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20261002000426_ccc8afe8",
+    "timestamp": "2026-10-02T00:04:26.561812+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Voting ends: #109 – Upgrade Proposal: v0.2.16",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #109 – Upgrade Proposal: v0.2.16",
+          "date": "2026-10-02",
+          "time": "02:40 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q3/109/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261001194034_82a64d5c",
     "timestamp": "2026-10-01T19:40:34.882756+00:00",
     "section": "issues",
@@ -8144,20 +8168,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Stack traces\n    <span class=\"issues-number\">#439</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-11-17 20:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
     },
     "ai_description": "Issue #439 about stack traces has been removed from the community feed. The closed issue, opened by @tcharchian with no comments, is no longer listed, so any related discussion or tracking has been cleared from the active board. This keeps our issue list tidy and focused on current, actionable items. If you were following this thread, it’s now archived and no longer available for reference here."
-  },
-  {
-    "id": "evt_20260910143102_c09eb54a",
-    "timestamp": "2026-09-10T14:31:02.672178+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#440 — All the old keys from the cluster entered the new epoch, even though that cluster was deleted",
-      "url": null,
-      "file": "00440-all-the-old-keys-from-the-cluster-entered-the-new-epoch-even.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    All the old keys from the cluster entered the new epoch, even though that cluster was deleted\n    <span class=\"issues-number\">#440</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-11-17 20:12 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>"
-    },
-    "ai_description": "Issue #440 has been closed and removed from the feed. The report flagged that old cluster keys were persisting into a new epoch after the cluster was deleted, a bug that could compromise network security. Its closure signals the matter was addressedholistically, keeping our inference network clean and trustworthy. Thanks to everyone involved in resolving it."
   }
 ]
