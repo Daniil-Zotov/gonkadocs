@@ -17,7 +17,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/109/"
     },
-    "ai_description": null
+    "ai_description": "Added: Rejected: #109 – Upgrade Proposal: v0.2.16. Upgrade Proposal: v0.2.16 The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds. Trusted Weight. Befor…"
   },
   {
     "id": "evt_20261002060301_627d468b",
@@ -37,7 +37,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q4/111/"
     },
-    "ai_description": null
+    "ai_description": "Added: Voting ends: #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification. # Bringing AMD and AI ASICs to Gonka Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …"
   },
   {
     "id": "evt_20261002055531_178b440c",
@@ -53,7 +53,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: per-diff full-state copies and per-request scans grow with the escrow's live set under load\n    <span class=\"issues-number\">#1899</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-02 04:10 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
     },
-    "ai_description": null
+    "ai_description": "New issue #1899 from @cyberdelamain flags a scalability concern in devshard: under load, the escrow's growing live set forces full-state copies per diff and per-request scans, which can become a bottleneck. This is an important heads-up for anyone running high-volume inference, as it directly impacts operational cost and latency as the network expands. Worth a read and a discussion on potential optimizations."
   },
   {
     "id": "evt_20261002000426_ccc8afe8",
