@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-02T18:34:45.530782+00:00",
+  "snapshot_time": "2026-10-02T23:06:22.293554+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3974,6 +3974,14 @@
         "Related: #1900 removes one more full-state copy of the same kind, outside the list above: on the gateway side, the pooled GET /v1/status in devshardctl (two or more escrow runtimes) called SnapshotState() for every runtime on every request just to read two scalars (unauthenticated endpoint; per runtime at 20k live: 2.93 ms / 5.55 MB → 90 ns / 0 B)."
       ],
       "checksum": "d7ba361ce3f52e267966cc1effd0416a44f0e3dc6990d96cee83a13f1ef58332"
+    },
+    "01906-preserve-settlement-decision-across-restart-for-pending-escr.md": {
+      "title": "#1906 — Preserve settlement decision across restart for pending escrows",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Preserve settlement decision across restart for pending escrows\n    <span class=\"issues-number\">#1906</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/qdanik\">@qdanik</a> opened 2026-10-02 18:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "cf5dbbecec9f04b2d9568790814e839f9705d38c39b365c74b7c4543b44bb7be"
     }
   }
 }

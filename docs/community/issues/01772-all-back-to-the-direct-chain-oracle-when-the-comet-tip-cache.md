@@ -2,7 +2,7 @@
 title: "#1772 — all back to the direct chain oracle when the Comet tip cache becomes stale"
 source: https://github.com/gonka-ai/gonka/issues/1772
 issue_number: 1772
-synced_at: 2026-10-02T18:31:23Z
+synced_at: 2026-10-02T23:03:27Z
 template: issues-main.html
 ---
 
