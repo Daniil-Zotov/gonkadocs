@@ -55,17 +55,17 @@ Wayfaster, wayfaster.org, hi@wayfaster.org
 <div class="prop-tally">
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
-    <div class="prop-tally-no" style="width:21.6%"></div>
+    <div class="prop-tally-no" style="width:29.5%"></div>
     <div class="prop-tally-veto" style="width:24.7%"></div>
     <div class="prop-tally-abstain" style="width:1.2%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-no-text">No <strong>45.4%</strong> (170,882)</span>
-    <span class="prop-tally-veto-text">Veto <strong>52.0%</strong> (195,521)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>2.6%</strong> (9,664)</span>
-    <span class="prop-tally-total-text">Total 376,067 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>47.5%</strong> (376,067 / 792,396) · Quorum <strong>25%</strong> (198,099)</span>
+    <span class="prop-tally-no-text">No <strong>53.2%</strong> (233,683)</span>
+    <span class="prop-tally-veto-text">Veto <strong>44.6%</strong> (195,521)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>2.2%</strong> (9,664)</span>
+    <span class="prop-tally-total-text">Total 438,868 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>55.4%</strong> (438,868 / 792,396) · Quorum <strong>25%</strong> (198,099)</span>
   </div>
 </div>
 
@@ -82,6 +82,7 @@ Wayfaster, wayfaster.org, hi@wayfaster.org
 <tr><td><a href="https://gonka.gg/address/gonka1xvlfshxznnuftsv2lke98rv9eqkjr0v6z8c3uk" target="_blank" class="prop-voter-addr">gonka1xvlfsh…z8c3uk</a></td><td><span class="prop-voter-option prop-vote-abstain">Abstain 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1gvpv7vhk5gyxhmf9u8sc8pw5j8fr6lzalyrmkx" target="_blank" class="prop-voter-addr">gonka1gvpv7v…lyrmkx</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1gvrrhjmy4w4mayvs2s5l23edj8ertcmtd2v4zr" target="_blank" class="prop-voter-addr">gonka1gvrrhj…d2v4zr</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1w63xj0j6wxn5w4yuquuckqwmmdyf930pwdy5wh" target="_blank" class="prop-voter-addr">gonka1w63xj0…wdy5wh</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1scskt6wpnjnumsah6kjphmdu87vjgvcxmn4rxv" target="_blank" class="prop-voter-addr">gonka1scskt6…mn4rxv</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst" target="_blank" class="prop-voter-addr">gonka1nurzpp…9rggst</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8" target="_blank" class="prop-voter-addr">gonka147qfck…4gpvz8</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
