@@ -62,8 +62,8 @@ hide:
     <span>Voting ends 2026-10-04</span>
   </div>
   <div class="prop-card-desc"># Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>49.3%</strong> (3,471)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>50.7%</strong> (3,571)</span><span class="prop-card-funding prop-card-funding-voting">$160,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>1.3%</strong> (7,042 / 537,228) · Quorum <strong>25%</strong> (134,307)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>3.1%</strong> (5,462)</span> · <span class="prop-tally-veto-text">Veto <strong>91.4%</strong> (160,994)</span> · <span class="prop-tally-abstain-text">Abstain <strong>5.5%</strong> (9,664)</span><span class="prop-card-funding prop-card-funding-voting">$160,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>22.2%</strong> (176,120 / 792,396) · Quorum <strong>25%</strong> (198,099)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-03T07:00:10.758222205Z">
@@ -77,8 +77,8 @@ hide:
     <span>Voting ends 2026-10-03</span>
   </div>
   <div class="prop-card-desc">Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>75.7%</strong> (103,233)</span> · <span class="prop-tally-no-text">No <strong>0.7%</strong> (894)</span> · <span class="prop-tally-veto-text">Veto <strong>2.6%</strong> (3,571)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.0%</strong> (28,655)</span><span class="prop-card-funding prop-card-funding-voting">$2,100 · Community Pool · 132,896 GNK · Gov Module</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>25.4%</strong> (136,353 / 537,228) · Quorum <strong>25%</strong> (134,307)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>77.8%</strong> (160,994)</span> · <span class="prop-tally-no-text">No <strong>0.5%</strong> (932)</span> · <span class="prop-tally-veto-text">Veto <strong>4.7%</strong> (9,664)</span> · <span class="prop-tally-abstain-text">Abstain <strong>17.0%</strong> (35,230)</span><span class="prop-card-funding prop-card-funding-voting">$2,100 · Community Pool · 132,896 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>26.1%</strong> (206,820 / 792,396) · Quorum <strong>25%</strong> (198,099)</span></div>
 </div>
 
 </div>
