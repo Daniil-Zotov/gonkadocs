@@ -4,7 +4,7 @@ title: ":gear: Protocol Improvements"
 
 # :gear: Protocol Improvements
 
-Дискуссии в категории **:gear: Protocol Improvements**. Всего: **48**. Обновлено: `2026-10-02 12:23 UTC`.
+Дискуссии в категории **:gear: Protocol Improvements**. Всего: **48**. Обновлено: `2026-10-02 18:21 UTC`.
 
 [← ко всем категориям](../index.md)
 
@@ -16,7 +16,7 @@ title: ":gear: Protocol Improvements"
 | [1685](1685-devshard-load-testing.md) | [Devshard Load Testing](1685-devshard-load-testing.md) | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-10 |
 | [1668](1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [Proposal: raise the DeepSeek coefficient to 0.400](1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [@knyazev741](https://github.com/knyazev741) | 2026-09-08 |
 | [1636](1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](1636-proposal-cache-served-token-pricing.md) | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-08-24 |
-| [1502](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [@bitcompool](https://github.com/bitcompool) | 2026-07-26 |
+| [1502](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [@bitcompool](https://github.com/bitcompool) | 2026-10-02 |
 | [1500](1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [More compute from the same Gonka hardware: two-phase cooling pilot](1500-more-compute-from-the-same-gonka-hardware-two-phase-cooling-.md) | [@bitcompool](https://github.com/bitcompool) | 2026-07-25 |
 | [1464](1464-dev-team-funding.md) | [Dev Team Funding](1464-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-09-08 |
 | [1445](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [The missing first mile: onboarding Gonka from a newcomer’s perspective](1445-the-missing-first-mile-onboarding-gonka-from-a-newcomers-per.md) | [@julb1992](https://github.com/julb1992) | 2026-07-25 |

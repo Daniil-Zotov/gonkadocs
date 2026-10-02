@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **106**. Обновлено: `2026-10-02 12:23 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **106**. Обновлено: `2026-10-02 18:21 UTC`.
 
 ## 📂 Категории
 
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1502](protocol-improvements/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](protocol-improvements/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | :gear: Protocol Improvements | [@bitcompool](https://github.com/bitcompool) | 2026-10-02 |
 | [1886](protocol-improvements/1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md) | [Proposal: a consistent integer-overflow policy for Gonka (#1222)](protocol-improvements/1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md) | :gear: Protocol Improvements | [@zpoken](https://github.com/zpoken) | 2026-10-01 |
 | [1884](show-and-tell/1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md) | [SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)](show-and-tell/1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md) | :raised_hands: Show and Tell | [@privatedeskai](https://github.com/privatedeskai) | 2026-09-30 |
 | [951](protocol-improvements/0951-tee-implementation.md) | [TEE Implementation](protocol-improvements/0951-tee-implementation.md) | :gear: Protocol Improvements | [@mtvnastya](https://github.com/mtvnastya) | 2026-09-29 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1668](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [Proposal: raise the DeepSeek coefficient to 0.400](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | :gear: Protocol Improvements | [@knyazev741](https://github.com/knyazev741) | 2026-09-08 |
 | [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-09-07 |
 | [1704](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-07 |
-| [1711](show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka](show-and-tell/1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | :raised_hands: Show and Tell | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-03 |
