@@ -31079,12 +31079,12 @@ HardCore Arena позволит протестировать модель на �
 
 ## Overview
 
-109Total Proposals
-72Passed (66%)
-34Rejected (31%)
+110Total Proposals
+72Passed (65%)
+35Rejected (32%)
 1Failed (1%)
 
-Funding / Grants45
+Funding / Grants46
 Governance Parameters36
 Software Upgrade19
 Other4
@@ -31096,7 +31096,20 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q4
 
-*1 proposals*
+*2 proposals*
+
+  
+    #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
+    
+    Voting
+  
+  
+    Submitted 2026-10-02
+    Voting ends 2026-10-04
+  
+  # Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …
+  Yes 0.0% (0) · No 49.3% (3,471) · Veto 0.0% (0) · Abstain 50.7% (3,571)$160,000 · Community Pool
+  ✗ Turnout 1.3% (7,042 / 537,228) · Quorum 25% (134,307)
 
   
     #110 – GRC Proposal #4 - Restitution
@@ -31108,7 +31121,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-03
   
   Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…
-  Yes 75.7% (103,233) · No 3.3% (4,465) · Veto 0.0% (0) · Abstain 21.0% (28,655)$2,100 · Community Pool · 132,896 GNK · Gov Module
+  Yes 75.7% (103,233) · No 0.7% (894) · Veto 2.6% (3,571) · Abstain 21.0% (28,655)$2,100 · Community Pool · 132,896 GNK · Gov Module
   ✓ Turnout 25.4% (136,353 / 537,228) · Quorum 25% (134,307)
 
 ## 2026-Q3
@@ -31117,8 +31130,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #109 – Upgrade Proposal: v0.2.16
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-09-30
@@ -32361,7 +32373,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-109 proposals across 6 quarters. Last updated: 2026-10-02 00:10 UTC
+110 proposals across 6 quarters. Last updated: 2026-10-02 05:32 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -70032,7 +70044,7 @@ Contract Details
 
 30Total Proposals
 20Passed (67%)
-9Rejected (30%)
+10Rejected (33%)
 
 Governance Parameters15
 Funding / Grants10
@@ -70048,8 +70060,7 @@ $90,075 USDT · Bounty Reward
 
   
     #109 – Upgrade Proposal: v0.2.16
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-09-30
@@ -73713,7 +73724,7 @@ Contract Details
 
 # #109 – Upgrade Proposal: v0.2.16
 
-Voting
+Rejected
 
 **Proposal ID:** `109`
 
@@ -73726,6 +73737,8 @@ Voting
 **Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/beb159be59e1b980f63e1caffcb51c89fce7bc23/proposals/governance-artifacts/update-v0.2.16/README.md](https://github.com/gonka-ai/gonka/blob/beb159be59e1b980f63e1caffcb51c89fce7bc23/proposals/governance-artifacts/update-v0.2.16/README.md)
+
+**Failed reason:** proposal did not get enough votes to pass
 
 [View on gonka.gg](https://gonka.gg/network/proposals/109){:target="_blank"}
 
@@ -81500,14 +81513,27 @@ Contract Details
 
 ## 2026-Q4 Summary
 
-1Total Proposals
+2Total Proposals
 0Passed (0%)
 0Rejected (0%)
 
-Funding / Grants1
+Funding / Grants2
 
 2026-Q4
-1 proposals
+2 proposals
+
+  
+    #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
+    
+    Voting
+  
+  
+    Submitted 2026-10-02
+    Voting ends 2026-10-04
+  
+  # Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …
+  Yes 0.0% (0) · No 49.3% (3,471) · Veto 0.0% (0) · Abstain 50.7% (3,571)$160,000 · Community Pool
+  ✗ Turnout 1.3% (7,042 / 537,228) · Quorum 25% (134,307)
 
   
     #110 – GRC Proposal #4 - Restitution
@@ -81519,7 +81545,7 @@ Funding / Grants1
     Voting ends 2026-10-03
   
   Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…
-  Yes 75.7% (103,233) · No 3.3% (4,465) · Veto 0.0% (0) · Abstain 21.0% (28,655)$2,100 · Community Pool · 132,896 GNK · Gov Module
+  Yes 75.7% (103,233) · No 0.7% (894) · Veto 2.6% (3,571) · Abstain 21.0% (28,655)$2,100 · Community Pool · 132,896 GNK · Gov Module
   ✓ Turnout 25.4% (136,353 / 537,228) · Quorum 25% (134,307)
 
 ← Back to all proposals
@@ -81562,8 +81588,8 @@ Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 26
   
   
     Yes 75.7% (103,233)
-    No 3.3% (4,465)
-    Veto 0.0% (0)
+    No 0.7% (894)
+    Veto 2.6% (3,571)
     Abstain 21.0% (28,655)
     Total 136,353 votes
     ✓ Turnout 25.4% (136,353 / 537,228) · Quorum 25% (134,307)
@@ -81574,7 +81600,7 @@ Voters
 VoterVote
 
 gonka1qwfrtz…33xdklYes 100.0%
-gonka1xvlfsh…z8c3ukNo 100.0%
+gonka1xvlfsh…z8c3ukNo_With_Veto 100.0%
 gonka1gyk0aa…k8svc5No 100.0%
 gonka1gvpv7v…lyrmkxYes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
@@ -81915,6 +81941,99 @@ Contract Details
         "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
         "amount": "450000000",
         "recipient": "gonka1337v0tk0ng0dhmz2pk9qv0gsvpe48eafppc6u8"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+---
+
+## #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
+
+# #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
+
+Voting
+
+**Proposal ID:** `111`
+
+**Type:** Execute Contract
+
+**Submit:** 2026-10-02 00:26 UTC
+
+**Voting:** 2026-10-02 00:26 UTC → 2026-10-04 00:26 UTC
+
+**Proposer:** [`gonka1ycfuz72tutxra27x47ukqye8zmxyuygx8gdh0m`](https://gonka.gg/address/gonka1ycfuz72tutxra27x47ukqye8zmxyuygx8gdh0m){:target="_blank"}
+
+**Metadata:** [https://gonka.vote/proposal/k58ptx](https://gonka.vote/proposal/k58ptx)
+
+$160,000 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/111){:target="_blank"}
+
+# Bringing AMD and AI ASICs to Gonka
+
+Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the fastest-growing segment of AI compute.
+
+Wayfaster proposes to change that in 20 weeks. The work delivers hardware classes, the mechanism that lets governance approve any accelerator by vote without further protocol work; AMD support end to end as the first vendor through that mechanism; verification conformance on Tenstorrent and Intel Gaudi 3 silicon; a Furiosa adapter design; Qualcomm and Positron fit assessments; a measured class for NVIDIA's Vera Rubin generation; and written assessments for four further ASIC platforms. This is Track 3, Project 1 of the Gonka roadmap, currently unassigned.
+
+Verification today permits one margin across every model and card, so admitting new hardware means widening that margin for everyone. Per-class margins remove that trade-off. Existing hosts are unaffected on day one: the current fleet maps into NVIDIA classes carrying exactly today's values, and no existing margin is widened.
+
+Total cost is 480,000 USDT, covering four engineers and a project manager for 20 weeks, hardware and vendor programmes, an independent security review, and a month of support after delivery.
+
+This proposal executes the first tranche only: 160,000 USDT to [gonka1ycfuz72tutxra27x47ukqye8zmxyuygx8gdh0m](https://gonka.gg/address/gonka1ycfuz72tutxra27x47ukqye8zmxyuygx8gdh0m). The remaining 320,000 USDT is contingent on delivery and is not authorised by this vote. It requires a separate proposal once the work is complete, less any GNK mined by our nodes during the project. All work is public from week one, a spend report with invoices is published, and hardware bought with grant funds transfers to the network on completion.
+
+Full proposal, with the complete budget, phase plan and sources: 
+
+Wayfaster, wayfaster.org, hi@wayfaster.org
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 0.0% (0)
+    No 49.3% (3,471)
+    Veto 0.0% (0)
+    Abstain 50.7% (3,571)
+    Total 7,042 votes
+    ✗ Turnout 1.3% (7,042 / 537,228) · Quorum 25% (134,307)
+  
+
+Voters
+
+VoterVote
+
+gonka1ym3np7…0e4a2pNo 100.0%
+gonka1xvlfsh…z8c3ukAbstain 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "160000000000",
+        "recipient": "gonka1ycfuz72tutxra27x47ukqye8zmxyuygx8gdh0m"
       }
     },
     "funds": []

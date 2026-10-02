@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261002055531_178b440c",
+    "timestamp": "2026-10-02T05:55:31.081482+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1899 — devshard: per-diff full-state copies and per-request scans grow with the escrow's live set under load",
+      "url": "/community/issues/01899-devshard-per-diff-full-state-copies-and-per-request-scans-gr/",
+      "file": "01899-devshard-per-diff-full-state-copies-and-per-request-scans-gr.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: per-diff full-state copies and per-request scans grow with the escrow's live set under load\n    <span class=\"issues-number\">#1899</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-02 04:10 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261002000426_ccc8afe8",
     "timestamp": "2026-10-02T00:04:26.561812+00:00",
     "section": "calendar",
@@ -8153,20 +8169,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures\n    <span class=\"issues-number\">#438</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Asplana92\">@Asplana92</a> opened 2025-11-15 23:53 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la"
     },
     "ai_description": "Issue #438 about governance model matching causing registration failures has been closed and removed from the feed. The bug, which impacted user sign-ups, is resolved, keeping the network stable for everyone. Thanks to @Asplana92 for reporting it. Onward! 🚀.Issue #438, which reported a bug causing registration failures due to incorrect governance model matching, has been closed and removed from the feed. This cleanup keeps the activity board focused on active, actionable items for the community. Thanks to @Asplana92 for surfacing the issue."
-  },
-  {
-    "id": "evt_20260910143102_7018f4ac",
-    "timestamp": "2026-09-10T14:31:02.672172+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#439 — Stack traces",
-      "url": null,
-      "file": "00439-stack-traces.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Stack traces\n    <span class=\"issues-number\">#439</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-11-17 20:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
-    },
-    "ai_description": "Issue #439 about stack traces has been removed from the community feed. The closed issue, opened by @tcharchian with no comments, is no longer listed, so any related discussion or tracking has been cleared from the active board. This keeps our issue list tidy and focused on current, actionable items. If you were following this thread, it’s now archived and no longer available for reference here."
   }
 ]
