@@ -2,7 +2,7 @@
 title: "#498 — Unable to start baecon node"
 source: https://github.com/gonka-ai/gonka/issues/498
 issue_number: 498
-synced_at: 2026-10-01T19:39:50Z
+synced_at: 2026-10-01T23:59:11Z
 template: issues-main.html
 ---
 
