@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-10-02T03:20:14.955038+00:00",
+  "snapshot_time": "2026-10-02T06:03:01.162108+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2315,14 +2315,14 @@
       "content_preview": "Update DevShard v5 to v5.0.2 and retire v3 and v4\n\nThis proposal is a critical fix for the overall Devshard deployment. Each running Devshard version opened a Postgres pool sized to the host CPU count…",
       "checksum": "db857b78cecbdbb4f498e77db00b19dc3da158dc8f73b07a896ca15d9fa8e277"
     },
-    "f7f54892cadc6f9650e2c877515c8a99dcb49721d0a1c98627303e5a932534a1": {
-      "title": "Voting ends: #109 – Upgrade Proposal: v0.2.16",
+    "3d4e3531cf330d24729c19ef0992211104e5a5ba682b8d7bf8b032d87b4e1b68": {
+      "title": "Rejected: #109 – Upgrade Proposal: v0.2.16",
       "date": "2026-10-02",
       "time": "02:40 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q3/109/",
       "content_preview": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.\n\nTrusted Weight. Befor…",
-      "checksum": "e012f66d9a6c444871a74f3b3e38a49fae56edfae15f3b8418d6bfeebe6ecd60"
+      "checksum": "17e33dd0e621dde4895fcd88791b1a038ee31b3d5ffaab2d57aea4a4fa5c059e"
     },
     "9e3f9f1e49cd2eac76d677b515c876f54cb0b391ec3b0ea0ee1b684c6d22121c": {
       "title": "Voting ends: #110 – GRC Proposal #4 - Restitution",
@@ -2332,6 +2332,15 @@
       "url": "/proposals/proposals/2026-q4/110/",
       "content_preview": "Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…",
       "checksum": "b080e97acf9e0155721c7b36b8c8e9f7552a364c21d64c1d1fe0861592d27e4f"
+    },
+    "7acc34d7194f1ff8a75a2706936bf21301c99863a2e0f43587d1135d2b9b9c53": {
+      "title": "Voting ends: #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification",
+      "date": "2026-10-04",
+      "time": "00:26 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/111/",
+      "content_preview": "# Bringing AMD and AI ASICs to Gonka\n\nGonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …",
+      "checksum": "5d52bf6b95c0f315df2097d7b545655341d3b6a9d93d3e35371df920a21b979e"
     }
   }
 }
