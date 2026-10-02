@@ -38,7 +38,7 @@ Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 26
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:54.2%"></div>
+    <div class="prop-tally-yes" style="width:54.3%"></div>
     <div class="prop-tally-no" style="width:0.1%"></div>
     <div class="prop-tally-veto" style="width:1.3%"></div>
     <div class="prop-tally-abstain" style="width:4.9%"></div>
@@ -49,7 +49,7 @@ Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 26
     <span class="prop-tally-veto-text">Veto <strong>2.2%</strong> (9,664)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>8.1%</strong> (35,230)</span>
     <span class="prop-tally-total-text">Total 435,041 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>60.6%</strong> (435,041 / 717,948) · Quorum <strong>25%</strong> (179,487)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>60.7%</strong> (435,041 / 717,123) · Quorum <strong>25%</strong> (179,280)</span>
   </div>
 </div>
 
