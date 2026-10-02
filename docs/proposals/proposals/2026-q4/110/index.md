@@ -38,18 +38,18 @@ Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 26
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:49.2%"></div>
+    <div class="prop-tally-yes" style="width:54.2%"></div>
     <div class="prop-tally-no" style="width:0.1%"></div>
-    <div class="prop-tally-veto" style="width:1.2%"></div>
-    <div class="prop-tally-abstain" style="width:8.8%"></div>
+    <div class="prop-tally-veto" style="width:1.3%"></div>
+    <div class="prop-tally-abstain" style="width:4.9%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>82.9%</strong> (389,215)</span>
+    <span class="prop-tally-yes-text">Yes <strong>89.5%</strong> (389,215)</span>
     <span class="prop-tally-no-text">No <strong>0.2%</strong> (932)</span>
-    <span class="prop-tally-veto-text">Veto <strong>2.1%</strong> (9,664)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>14.9%</strong> (69,757)</span>
-    <span class="prop-tally-total-text">Total 469,568 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>59.3%</strong> (469,568 / 791,472) · Quorum <strong>25%</strong> (197,868)</span>
+    <span class="prop-tally-veto-text">Veto <strong>2.2%</strong> (9,664)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>8.1%</strong> (35,230)</span>
+    <span class="prop-tally-total-text">Total 435,041 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>60.6%</strong> (435,041 / 717,948) · Quorum <strong>25%</strong> (179,487)</span>
   </div>
 </div>
 
