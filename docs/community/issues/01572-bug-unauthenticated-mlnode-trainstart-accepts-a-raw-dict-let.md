@@ -2,7 +2,7 @@
 title: "#1572 — [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers"
 source: https://github.com/gonka-ai/gonka/issues/1572
 issue_number: 1572
-synced_at: 2026-10-02T12:49:18Z
+synced_at: 2026-10-02T18:31:16Z
 template: issues-main.html
 ---
 

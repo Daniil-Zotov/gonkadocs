@@ -2,7 +2,7 @@
 title: "#1222 — [P1] Int overflow"
 source: https://github.com/gonka-ai/gonka/issues/1222
 issue_number: 1222
-synced_at: 2026-10-02T12:49:04Z
+synced_at: 2026-10-02T18:30:57Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 22:30 UTC</span>
-    <span class="issues-meta-item">7 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-01 10:39 UTC</span>
+    <span class="issues-meta-item">8 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-02 15:11 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #12a6e8; color: #24292f; border-color: #12a6e8;">Priority: Medium</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">nice-to-have</span></div>
 </div>
@@ -27,7 +27,7 @@ The goal of this is to have in place after this a standard way of handling possi
 
 ---
 
-## 💬 Comments (7)
+## 💬 Comments (8)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -123,6 +123,17 @@ The goal of this is to have in place after this a standard way of handling possi
 - Community discussion: https://github.com/gonka-ai/gonka/discussions/1886</p>
 <p>In short: rules by execution context with code examples, a shared stdlib-only <code>safemath</code> package with SDK/decimal adapters, and a CI check (gosec G115 + <code>nolintlint</code>, new lines only) for chain, devshard, decentralized-api and common.</p>
 <p>@olegsuhoparov @Mayveskii, the proposal coordinates with #1379 and #1017 rather than replacing them; your feedback is very welcome.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/olegsuhoparov">@olegsuhoparov</a></span>
+    <span class="issues-meta-item">commented 2026-10-02 15:11 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Thanks @zpoken. I have the smaller #1379 patch ready locally on upgrade-v0.2.16: checked payout conversions and weight-sum overflow handling, with boundary and atomicity tests. The full inference-chain suite, including keeper, and the API -short tests passed. I haven't run Docker builds or the full integration tests, and the patch isn't pushed yet.</p>
+<p>The proposal linked in https://github.com/gonka-ai/gonka/discussions/1886 puts chain behavior changes after v0.2.16. Could the maintainers confirm which base and release #1379 should target before I update the PR?</p>
+<p>Also, would you prefer keeping the small keeper-local helpers for now, or adopting the shared safemath package once it's available? I'd keep the patch limited to the remaining claim-path guards.</p>
   </div>
 </div>
 
