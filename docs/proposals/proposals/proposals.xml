@@ -7,6 +7,18 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q4/111/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/111/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:26:22 +0000</pubDate>
+      <category>Voting</category>
+      <description># Bringing AMD and AI ASICs to Gonka
+
+Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the fastest-growing segment of AI compute.
+
+Wayfaster proposes to change that in 20 weeks. The work delivers hardware classes, the mechanism that lets governance approve any accelerator by vote without further protocol work; AMD support end to end as the first vendor through that mechanism; verification</description>
+    </item>
+    <item>
       <title>#110 – GRC Proposal #4 - Restitution</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q4/110/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/110/</guid>
@@ -19,7 +31,7 @@
       <link>https://gonkadocs.com/proposals/proposals/2026-q3/109/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q3/109/</guid>
       <pubDate>Wed, 30 Sep 2026 02:40:38 +0000</pubDate>
-      <category>Voting</category>
+      <category>Rejected</category>
       <description>Upgrade Proposal: v0.2.16
 
 The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.

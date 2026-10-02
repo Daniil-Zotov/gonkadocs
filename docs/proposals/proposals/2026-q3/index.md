@@ -36,7 +36,7 @@ hide:
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">30</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">20</span><span class="qs-desc">Passed (67%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">9</span><span class="qs-desc">Rejected (30%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">10</span><span class="qs-desc">Rejected (33%)</span></div>
 
 </div>
 
@@ -57,11 +57,10 @@ hide:
 <div class="prop-quarter">
 <h2>2026-Q3</h2>
 <p>30 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-02T02:40:38.717572024Z">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="109/" class="prop-card-title">#109 – Upgrade Proposal: v0.2.16</a>
-    <span class="prop-vote-countdown" data-deadline="2026-10-02T02:40:38.717572024Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-09-30</span>

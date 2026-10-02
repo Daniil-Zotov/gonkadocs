@@ -1466,13 +1466,13 @@
   {
     "date": "2026-10-02",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #109 – Upgrade Proposal: v0.2.16",
+    "type": "proposal_report",
+    "title": "Rejected: #109 – Upgrade Proposal: v0.2.16",
     "url": "/proposals/proposals/2026-q3/109/",
     "time": "02:40 UTC",
     "description": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.\n\nTrusted Weight. Befor…",
     "tags": [
-      "voting"
+      "rejected"
     ]
   },
   {
@@ -1483,6 +1483,18 @@
     "url": "/proposals/proposals/2026-q4/110/",
     "time": "07:00 UTC",
     "description": "Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…",
+    "tags": [
+      "voting"
+    ]
+  },
+  {
+    "date": "2026-10-04",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification",
+    "url": "/proposals/proposals/2026-q4/111/",
+    "time": "00:26 UTC",
+    "description": "# Bringing AMD and AI ASICs to Gonka\n\nGonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …",
     "tags": [
       "voting"
     ]

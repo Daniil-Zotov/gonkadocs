@@ -12,7 +12,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-10-02T02:40:38.717572024Z"></span></div>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `109`
 
@@ -25,6 +25,8 @@ template: proposals-proposals-main.html
 **Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/beb159be59e1b980f63e1caffcb51c89fce7bc23/proposals/governance-artifacts/update-v0.2.16/README.md](https://github.com/gonka-ai/gonka/blob/beb159be59e1b980f63e1caffcb51c89fce7bc23/proposals/governance-artifacts/update-v0.2.16/README.md)
+
+**Failed reason:** proposal did not get enough votes to pass
 
 
 
