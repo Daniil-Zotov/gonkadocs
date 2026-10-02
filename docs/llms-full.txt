@@ -21469,7 +21469,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-10-02 13:29 UTC
+2026-10-02 18:55 UTC
 
 ---
 
@@ -21922,7 +21922,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-02 16:14 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-02 21:18 UTC*
 
 ---
 
@@ -31108,8 +31108,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-04
   
   # Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …
-  Yes 0.0% (0) · No 57.8% (233,683) · Veto 39.8% (160,994) · Abstain 2.4% (9,664)$160,000 · Community Pool
-  ✓ Turnout 56.3% (404,341 / 717,948) · Quorum 25% (179,487)
+  Yes 0.0% (0) · No 61.2% (268,913) · Veto 36.6% (160,994) · Abstain 2.2% (9,664)$160,000 · Community Pool
+  ✓ Turnout 61.3% (439,571 / 717,123) · Quorum 25% (179,280)
 
   
     #110 – GRC Proposal #4 - Restitution
@@ -31122,7 +31122,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…
   Yes 89.5% (389,215) · No 0.2% (932) · Veto 2.2% (9,664) · Abstain 8.1% (35,230)$2,100 · Community Pool · 132,896 GNK · Gov Module
-  ✓ Turnout 60.6% (435,041 / 717,948) · Quorum 25% (179,487)
+  ✓ Turnout 60.7% (435,041 / 717,123) · Quorum 25% (179,280)
 
 ## 2026-Q3
 
@@ -32373,7 +32373,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-110 proposals across 6 quarters. Last updated: 2026-10-02 16:42 UTC
+110 proposals across 6 quarters. Last updated: 2026-10-02 21:02 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -81532,8 +81532,8 @@ Funding / Grants2
     Voting ends 2026-10-04
   
   # Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …
-  Yes 0.0% (0) · No 57.8% (233,683) · Veto 39.8% (160,994) · Abstain 2.4% (9,664)$160,000 · Community Pool
-  ✓ Turnout 56.3% (404,341 / 717,948) · Quorum 25% (179,487)
+  Yes 0.0% (0) · No 61.2% (268,913) · Veto 36.6% (160,994) · Abstain 2.2% (9,664)$160,000 · Community Pool
+  ✓ Turnout 61.3% (439,571 / 717,123) · Quorum 25% (179,280)
 
   
     #110 – GRC Proposal #4 - Restitution
@@ -81546,7 +81546,7 @@ Funding / Grants2
   
   Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…
   Yes 89.5% (389,215) · No 0.2% (932) · Veto 2.2% (9,664) · Abstain 8.1% (35,230)$2,100 · Community Pool · 132,896 GNK · Gov Module
-  ✓ Turnout 60.6% (435,041 / 717,948) · Quorum 25% (179,487)
+  ✓ Turnout 60.7% (435,041 / 717,123) · Quorum 25% (179,280)
 
 ← Back to all proposals
 
@@ -81592,7 +81592,7 @@ Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 26
     Veto 2.2% (9,664)
     Abstain 8.1% (35,230)
     Total 435,041 votes
-    ✓ Turnout 60.6% (435,041 / 717,948) · Quorum 25% (179,487)
+    ✓ Turnout 60.7% (435,041 / 717,123) · Quorum 25% (179,280)
   
 
 Voters
@@ -82006,11 +82006,11 @@ Wayfaster, wayfaster.org, hi@wayfaster.org
   
   
     Yes 0.0% (0)
-    No 57.8% (233,683)
-    Veto 39.8% (160,994)
-    Abstain 2.4% (9,664)
-    Total 404,341 votes
-    ✓ Turnout 56.3% (404,341 / 717,948) · Quorum 25% (179,487)
+    No 61.2% (268,913)
+    Veto 36.6% (160,994)
+    Abstain 2.2% (9,664)
+    Total 439,571 votes
+    ✓ Turnout 61.3% (439,571 / 717,123) · Quorum 25% (179,280)
   
 
 Voters
@@ -82027,6 +82027,7 @@ gonka1scskt6…mn4rxvNo 100.0%
 gonka1nurzpp…9rggstNo_With_Veto 100.0%
 gonka147qfck…4gpvz8No_With_Veto 100.0%
 gonka1kvmerz…lzldumNo_With_Veto 100.0%
+gonka168rtjf…lnkns2No 100.0%
 gonka16dgkvx…6j0skkNo_With_Veto 100.0%
 gonka1ajmhqg…z8s939No_With_Veto 100.0%
 
