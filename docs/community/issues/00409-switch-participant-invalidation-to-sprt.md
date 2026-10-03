@@ -2,7 +2,7 @@
 title: "#409 — Switch participant invalidation to SPRT"
 source: https://github.com/gonka-ai/gonka/issues/409
 issue_number: 409
-synced_at: 2026-10-02T23:05:30Z
+synced_at: 2026-10-03T02:08:15Z
 template: issues-main.html
 ---
 

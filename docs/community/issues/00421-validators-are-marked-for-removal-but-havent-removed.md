@@ -2,7 +2,7 @@
 title: "#421 — Validators are marked for removal but haven't removed"
 source: https://github.com/gonka-ai/gonka/issues/421
 issue_number: 421
-synced_at: 2026-10-02T23:05:18Z
+synced_at: 2026-10-03T02:07:59Z
 template: issues-main.html
 ---
 

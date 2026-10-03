@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261003020918_6b2aa84c",
+    "timestamp": "2026-10-03T02:09:18.146260+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1909 — Devshard work-coin payouts bypass WorkVestingPeriod on late-settle and unsettled-prune paths (diverges from tokenomics.md)",
+      "url": "/community/issues/01909-devshard-work-coin-payouts-bypass-workvestingperiod-on-late-/",
+      "file": "01909-devshard-work-coin-payouts-bypass-workvestingperiod-on-late-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard work-coin payouts bypass WorkVestingPeriod on late-settle and unsettled-prune paths (diverges from tokenomics.md)\n    <span class=\"issues-number\">#1909</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-10-03 00:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <di"
+    },
+    "ai_description": "New issue #1909 flags a bug where devshard work-coin payouts skip the WorkVestingPeriod on late-settle and unsettled-prune paths, which contradicts the tokenomics.md spec. This matters because it could let rewards vest immediately instead of following the intended schedule, potentially affecting fair distribution. Worth a look for anyone working on payout logic."
+  },
+  {
     "id": "evt_20261002230620_01123588",
     "timestamp": "2026-10-02T23:06:20.306168+00:00",
     "section": "issues",
@@ -8166,20 +8182,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    DAPI  nil pointer dereference crash when chain RPC is unavailable\n    <span class=\"issues-number\">#422</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mfursov\">@mfursov</a> opened 2025-11-10 02:37 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
     },
     "ai_description": "Issue #422 has been removed from our tracking. This was a closed report about a DAPI nil pointer dereference crash that occurred when the chain RPC was unavailable, opened by @mfursov with two comments. Since it's no longer listed, the team has likely resolved or archived the matter, keeping our issue tracker clean and focused on active work."
-  },
-  {
-    "id": "evt_20260910143102_45b0cab0",
-    "timestamp": "2026-09-10T14:31:02.672141+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#424 — Privacy and Reliability: IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts",
-      "url": null,
-      "file": "00424-privacy-and-reliability-ip-layer-denials-tls-termination-on-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Privacy and Reliability: IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts\n    <span class=\"issues-number\">#424</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vvv-tech\">@vvv-tech</a> opened 2025-11-10 12:43 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n "
-    },
-    "ai_description": "Issue #424 on privacy and reliability improvements has been removed from the community activity feed. The proposal covered IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts, but it is no longer being tracked here. Community members can reach out to @vvv-tech directly if they want to follow up on these topics."
   }
 ]
