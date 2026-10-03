@@ -3,7 +3,7 @@ title: "#1710 — Gonka Labs: x402 on Gonka - payments for Agents"
 source: https://github.com/gonka-ai/gonka/discussions/1710
 discussion_number: 1710
 category: show-and-tell
-synced_at: 2026-10-03T13:18:09Z
+synced_at: 2026-10-03T17:53:23Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1710](https://github.com/gonka-ai/gonka/discussions/1710) every hour. 
