@@ -72,7 +72,7 @@ hide:
   </div>
   <div class="prop-card-desc"># Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>57.7%</strong> (370,400)</span> · <span class="prop-tally-veto-text">Veto <strong>41.0%</strong> (263,118)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.3%</strong> (8,495)</span><span class="prop-card-funding prop-card-funding-voting">$160,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>60.7%</strong> (642,013 / 1,058,548) · Quorum <strong>25%</strong> (264,637)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>64.4%</strong> (642,013 / 997,498) · Quorum <strong>25%</strong> (249,374)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1566,7 +1566,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>110 proposals across 6 quarters. Last updated: 2026-10-03 08:00 UTC</em>
+<em>110 proposals across 6 quarters. Last updated: 2026-10-03 10:20 UTC</em>
 </div>
 
 <script>
