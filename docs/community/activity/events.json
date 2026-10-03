@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261003133326_27367d40",
+    "timestamp": "2026-10-03T13:33:26.051060+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1911 — Epoch model arguments can be overridden by equivalent local CLI spellings",
+      "url": "/community/issues/01911-epoch-model-arguments-can-be-overridden-by-equivalent-local-/",
+      "file": "01911-epoch-model-arguments-can-be-overridden-by-equivalent-local-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Epoch model arguments can be overridden by equivalent local CLI spellings\n    <span class=\"issues-number\">#1911</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-03 11:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
+    },
+    "ai_description": "A new issue (#1911) has been opened by @vitaly-andr highlighting a potential configuration conflict where epoch model arguments can be silently overridden by equivalent local CLI spellings. This matters because it could lead to unexpected behavior when running inference tasks with mixed parameter sources. The issue is currently open for community discussion and input."
+  },
+  {
     "id": "evt_20261003082846_0ff7bfb8",
     "timestamp": "2026-10-03T08:28:46.309462+00:00",
     "section": "calendar",
@@ -8181,20 +8197,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Caching of node-config.json\n    <span class=\"issues-number\">#415</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DePunk-eth\">@DePunk-eth</a> opened 2025-11-01 18:06 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
     },
     "ai_description": "Issue #415 on caching of node-config.json has been removed from the feed. The closed discussion is no longer tracked, so the community can focus on active proposals. Thanks to everyone who contributed to that thread.Issue #415 about caching node-config.json has been removed from our activity feed. This closed discussion is no longer tracked, keeping the board focused on active topics. Thanks to everyone who participated in the thread."
-  },
-  {
-    "id": "evt_20260910143102_64ed5ddf",
-    "timestamp": "2026-09-10T14:31:02.672123+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#419 — New Issue → Request Access to Inference Image",
-      "url": null,
-      "file": "00419-new-issue-request-access-to-inference-image.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    New Issue → Request Access to Inference Image\n    <span class=\"issues-number\">#419</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/rumirzayev-max\">@rumirzayev-max</a> opened 2025-11-06 12:53 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"marg"
-    },
-    "ai_description": "Issue #419 requesting access to the inference image has been closed and removed from the feed. The request from @rumirzayev-max is no longer active, so any pending discussion on it is now concluded. Thanks to everyone who weighed in.Issue #419 requesting access to the inference image has been closed and removed from the feed. The request from @rumirzayev-max is no longer active, so any pending discussion on it is now concluded. Thanks to everyone who weighed in."
   }
 ]
