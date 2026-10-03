@@ -21923,7 +21923,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-03 06:26 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-03 12:28 UTC*
 
 ---
 
@@ -31110,7 +31110,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   # Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …
   Yes 0.0% (0) · No 57.7% (370,400) · Veto 41.0% (263,118) · Abstain 1.3% (8,495)$160,000 · Community Pool
-  ✓ Turnout 60.7% (642,013 / 1,058,548) · Quorum 25% (264,637)
+  ✓ Turnout 64.4% (642,013 / 997,498) · Quorum 25% (249,374)
 
   
     #110 – GRC Proposal #4 - Restitution
@@ -32373,7 +32373,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-110 proposals across 6 quarters. Last updated: 2026-10-03 08:00 UTC
+110 proposals across 6 quarters. Last updated: 2026-10-03 12:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -81535,7 +81535,7 @@ $2,100 · Community Pool · 132,896 GNK · Gov Module
   
   # Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …
   Yes 0.0% (0) · No 57.7% (370,400) · Veto 41.0% (263,118) · Abstain 1.3% (8,495)$160,000 · Community Pool
-  ✓ Turnout 60.7% (642,013 / 1,058,548) · Quorum 25% (264,637)
+  ✓ Turnout 64.4% (642,013 / 997,498) · Quorum 25% (249,374)
 
   
     #110 – GRC Proposal #4 - Restitution
@@ -82011,7 +82011,7 @@ Wayfaster, wayfaster.org, hi@wayfaster.org
     Veto 41.0% (263,118)
     Abstain 1.3% (8,495)
     Total 642,013 votes
-    ✓ Turnout 60.7% (642,013 / 1,058,548) · Quorum 25% (264,637)
+    ✓ Turnout 64.4% (642,013 / 997,498) · Quorum 25% (249,374)
   
 
 Voters
