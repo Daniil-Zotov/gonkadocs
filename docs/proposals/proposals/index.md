@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">110</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">72</span><span class="qs-desc">Passed (65%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">73</span><span class="qs-desc">Passed (66%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">35</span><span class="qs-desc">Rejected (32%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
@@ -49,7 +49,7 @@ hide:
 <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">2</span></div>
 </div>
 
-<div class="qs-funding-line">20,302,572 GNK · $1,188,750 · Community Pool · 4,691,460 GNK · Gov Module</div>
+<div class="qs-funding-line">20,302,572 GNK · $1,190,850 · Community Pool · 4,824,356 GNK · Gov Module</div>
 <div class="qs-bounty-line">$144,150 USDT · 203,750 GNK · Bounty Reward</div>
 
 
@@ -75,18 +75,17 @@ hide:
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>60.6%</strong> (642,013 / 1,059,370) · Quorum <strong>25%</strong> (264,842)</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-03T07:00:10.758222205Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="2026-q4/110/" class="prop-card-title">#110 – GRC Proposal #4 - Restitution</a>
-    <span class="prop-vote-countdown" data-deadline="2026-10-03T07:00:10.758222205Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-10-01</span>
     <span>Voting ends 2026-10-03</span>
   </div>
   <div class="prop-card-desc">Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>79.6%</strong> (507,134)</span> · <span class="prop-tally-no-text">No <strong>0.1%</strong> (941)</span> · <span class="prop-tally-veto-text">Veto <strong>1.3%</strong> (8,495)</span> · <span class="prop-tally-abstain-text">Abstain <strong>19.0%</strong> (120,922)</span><span class="prop-card-funding prop-card-funding-voting">$2,100 · Community Pool · 132,896 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>79.6%</strong> (507,134)</span> · <span class="prop-tally-no-text">No <strong>0.1%</strong> (941)</span> · <span class="prop-tally-veto-text">Veto <strong>1.3%</strong> (8,495)</span> · <span class="prop-tally-abstain-text">Abstain <strong>19.0%</strong> (120,922)</span><span class="prop-card-funding">$2,100 · Community Pool · 132,896 GNK · Gov Module</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>60.2%</strong> (637,492 / 1,059,370) · Quorum <strong>25%</strong> (264,842)</span></div>
 </div>
 
@@ -1567,7 +1566,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>110 proposals across 6 quarters. Last updated: 2026-10-03 05:33 UTC</em>
+<em>110 proposals across 6 quarters. Last updated: 2026-10-03 07:01 UTC</em>
 </div>
 
 <script>

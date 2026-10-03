@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-10-03T07:00:10.758222205Z"></span></div>
+<span class="prop-badge prop-passed">Passed</span>
 
 **Proposal ID:** `110`
 
@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/votkon/grc-proposal-4](https://github.com/votkon/grc-proposal-4)
 
-<div class="prop-funding-line prop-funding-line-voting">$2,100 · Community Pool · 132,896 GNK · Gov Module</div>
+<div class="prop-funding-line">$2,100 · Community Pool · 132,896 GNK · Gov Module</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/110){:target="_blank"}
