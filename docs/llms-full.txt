@@ -31080,7 +31080,7 @@ HardCore Arena позволит протестировать модель на �
 ## Overview
 
 110Total Proposals
-72Passed (65%)
+73Passed (66%)
 35Rejected (32%)
 1Failed (1%)
 
@@ -31091,7 +31091,7 @@ Other4
 GRC / Restitution3
 Models / IBC2
 
-20,302,572 GNK · $1,188,750 · Community Pool · 4,691,460 GNK · Gov Module
+20,302,572 GNK · $1,190,850 · Community Pool · 4,824,356 GNK · Gov Module
 $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q4
@@ -31113,8 +31113,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #110 – GRC Proposal #4 - Restitution
-    
-    Voting
+    Passed
   
   
     Submitted 2026-10-01
@@ -32373,7 +32372,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-110 proposals across 6 quarters. Last updated: 2026-10-03 05:33 UTC
+110 proposals across 6 quarters. Last updated: 2026-10-03 07:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -81514,10 +81513,12 @@ Contract Details
 ## 2026-Q4 Summary
 
 2Total Proposals
-0Passed (0%)
+1Passed (50%)
 0Rejected (0%)
 
 Funding / Grants2
+
+$2,100 · Community Pool · 132,896 GNK · Gov Module
 
 2026-Q4
 2 proposals
@@ -81537,8 +81538,7 @@ Funding / Grants2
 
   
     #110 – GRC Proposal #4 - Restitution
-    
-    Voting
+    Passed
   
   
     Submitted 2026-10-01
@@ -81556,7 +81556,7 @@ Funding / Grants2
 
 # #110 – GRC Proposal #4 - Restitution
 
-Voting
+Passed
 
 **Proposal ID:** `110`
 
@@ -82024,6 +82024,7 @@ gonka1gvpv7v…lyrmkxNo_With_Veto 100.0%
 gonka1gvrrhj…d2v4zrNo 100.0%
 gonka1w63xj0…wdy5whNo 100.0%
 gonka1scskt6…mn4rxvNo 100.0%
+gonka1nwkzws…3qjnqxYes 100.0%
 gonka1nurzpp…9rggstNo_With_Veto 100.0%
 gonka147qfck…4gpvz8No_With_Veto 100.0%
 gonka1kvmerz…lzldumNo_With_Veto 100.0%
