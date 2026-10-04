@@ -14,7 +14,7 @@ template: proposals-main.html
 **Closes:** 2026-08-14 18:52 UTC
 **Language:** EN
 **Votes:** 3
-**Avg. Bid:** 431.90 GNK
+**Avg. Bid:** 461.80 GNK
 
 </div>
 
