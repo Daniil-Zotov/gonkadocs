@@ -2,7 +2,7 @@
 title: "#1914 — pplying a diff copies the whole escrow state, and the copy grows for the life of the escrow"
 source: https://github.com/gonka-ai/gonka/issues/1914
 issue_number: 1914
-synced_at: 2026-10-04T13:17:26Z
+synced_at: 2026-10-04T17:38:57Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 2026-10-04 13:06 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-04 13:06 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-04 13:30 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
@@ -87,6 +87,87 @@ Any of these keeps the trial apply off the live maps and has to leave `post_stat
 - Leaving `sealedNonces` out of the full snapshot if its only mutation on apply is insertion.
 
 `Inferences` is still mutated in place and still needs a real copy or a copy-on-write map. That part stays proportional to the live set.
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/cyberdelamain">@cyberdelamain</a></span>
+    <span class="issues-meta-item">commented 2026-10-04 13:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Measurements for the <code>sealedNonces</code> / <code>heartbeatAt</code> part, in case they help size the fix. On a host it is three copies per diff, not two: <code>pre</code> (<code>machine.go:318</code>), the rollback copy in <code>applyCore</code> (<code>:709</code>) and <code>post</code> (<code>:330</code>). <code>devshard/v5</code> 99c9ae9f4, Apple M1, <code>go test -bench</code>, those three copies with an empty live set:</p>
+<table>
+<thead>
+<tr>
+<th>state</th>
+<th>time per diff</th>
+<th>allocated per diff</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>empty</td>
+<td>1.3 µs</td>
+<td>2 KB</td>
+</tr>
+<tr>
+<td>7,810 sealed</td>
+<td>0.56 ms</td>
+<td>0.89 MB</td>
+</tr>
+<tr>
+<td>25,307 sealed</td>
+<td>1.7 ms</td>
+<td>1.8 MB</td>
+</tr>
+<tr>
+<td>96,676 sealed</td>
+<td>6.5 ms</td>
+<td>7.1 MB</td>
+</tr>
+<tr>
+<td>25,307 heartbeat nonces</td>
+<td>1.7 ms</td>
+<td>1.8 MB</td>
+</tr>
+</tbody>
+</table>
+<p>So about 67 ns and 73 B per entry per diff, the same for either map. The sealed counts are the median, the v5 median and the largest escrow among the last 1000 <code>devshard_escrow_settled</code> events on mainnet (25–26 Sep, nonces = fees / fee_per_nonce; at most one inference per nonce, so these are upper bounds). Summed over an escrow's life, where diff k copies about k entries, that is roughly 21 s of CPU and 23 GB allocated per host for a 25k-nonce escrow, and 310 s and 340 GB for the largest one.</p>
+<p>Nothing deletes from <code>sealedNonces</code> (only <code>restoreMutable</code> and <code>RestoreSealedNonces</code> replace it), which supports recording the inserted ids instead of copying. #1905 cuts the gateway path to one copy but still copies <code>sealedNonces</code> in full and does not touch the host's <code>ValidateDiff</code>.</p>
+<details><summary>benchmark (devshard/state)</summary>
+
+
+<pre><code class="language-go">func BenchmarkSnapshotMutableSealed(b *testing.B) {
+    hb := []*types.DevshardTx{{Tx: &amp;types.DevshardTx_Heartbeat{Heartbeat: &amp;types.MsgHeartbeat{}}}}
+    for _, c := range []struct{ sealed, heartbeats int }{
+        {0, 0}, {7_810, 0}, {25_307, 0}, {96_676, 0}, {0, 25_307},
+    } {
+        b.Run(fmt.Sprintf(&quot;sealed=%d/heartbeats=%d&quot;, c.sealed, c.heartbeats), func(b *testing.B) {
+            sm, _ := benchFillSQLite(b, &quot;bench-copy&quot;)
+            nonces, _ := benchSealedNonces(c.sealed)
+            sm.RestoreSealedNonces(nonces)
+            for i := 1; i &lt;= c.heartbeats; i++ {
+                sm.turnTracker.Observe(uint64(i), hb, 0)
+            }
+            b.ReportAllocs()
+            b.ResetTimer()
+            for i := 0; i &lt; b.N; i++ {
+                pre := sm.snapshotMutable()
+                _ = sm.snapshotMutable()
+                _ = sm.snapshotMutable()
+                sm.restoreMutable(pre)
+            }
+        })
+    }
+}
+</code></pre>
+
+</details>
+  </div>
 </div>
 
 ---
