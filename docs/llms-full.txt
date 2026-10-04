@@ -31082,7 +31082,7 @@ HardCore Arena позволит протестировать модель на �
 
 110Total Proposals
 73Passed (66%)
-35Rejected (32%)
+36Rejected (33%)
 1Failed (1%)
 
 Funding / Grants46
@@ -31101,8 +31101,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-10-02
@@ -31110,7 +31109,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   # Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …
   Yes 0.0% (0) · No 53.7% (314,609) · Veto 44.9% (263,118) · Abstain 1.4% (8,495)$160,000 · Community Pool
-  ✓ Turnout 59.6% (586,222 / 983,440) · Quorum 25% (245,860)
+  ✓ Turnout 51.1% (586,222 / 1,147,939) · Quorum 25% (286,984)
 
   
     #110 – GRC Proposal #4 - Restitution
@@ -32373,7 +32372,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-110 proposals across 6 quarters. Last updated: 2026-10-04 00:06 UTC
+110 proposals across 6 quarters. Last updated: 2026-10-04 05:45 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -81515,7 +81514,7 @@ Contract Details
 
 2Total Proposals
 1Passed (50%)
-0Rejected (0%)
+1Rejected (50%)
 
 Funding / Grants2
 
@@ -81526,8 +81525,7 @@ $2,100 · Community Pool · 132,896 GNK · Gov Module
 
   
     #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-10-02
@@ -81535,7 +81533,7 @@ $2,100 · Community Pool · 132,896 GNK · Gov Module
   
   # Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …
   Yes 0.0% (0) · No 53.7% (314,609) · Veto 44.9% (263,118) · Abstain 1.4% (8,495)$160,000 · Community Pool
-  ✓ Turnout 59.6% (586,222 / 983,440) · Quorum 25% (245,860)
+  ✓ Turnout 51.1% (586,222 / 1,147,939) · Quorum 25% (286,984)
 
   
     #110 – GRC Proposal #4 - Restitution
@@ -81961,7 +81959,7 @@ Contract Details
 
 # #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
 
-Voting
+Rejected
 
 **Proposal ID:** `111`
 
@@ -81974,6 +81972,8 @@ Voting
 **Proposer:** [`gonka1ycfuz72tutxra27x47ukqye8zmxyuygx8gdh0m`](https://gonka.gg/address/gonka1ycfuz72tutxra27x47ukqye8zmxyuygx8gdh0m){:target="_blank"}
 
 **Metadata:** [https://gonka.vote/proposal/k58ptx](https://gonka.vote/proposal/k58ptx)
+
+**Failed reason:** proposal did not get enough votes to pass
 
 $160,000 · Community Pool
 
@@ -82011,7 +82011,7 @@ Wayfaster, wayfaster.org, hi@wayfaster.org
     Veto 44.9% (263,118)
     Abstain 1.4% (8,495)
     Total 586,222 votes
-    ✓ Turnout 59.6% (586,222 / 983,440) · Quorum 25% (245,860)
+    ✓ Turnout 51.1% (586,222 / 1,147,939) · Quorum 25% (286,984)
   
 
 Voters

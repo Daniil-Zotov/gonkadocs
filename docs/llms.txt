@@ -20,7 +20,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- 2026-10-04 00:26 UTC — Voting ends: #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification: https://gonkadocs.com/proposals/proposals/2026-q4/111/
+- 2026-10-04 00:26 UTC — Rejected: #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification: https://gonkadocs.com/proposals/proposals/2026-q4/111/
 
 ## Protocol Documentation
 
