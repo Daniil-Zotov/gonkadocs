@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20261004015511_1b14515e",
+    "timestamp": "2026-10-04T01:55:11.740245+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Voting ends: #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification",
+          "date": "2026-10-04",
+          "time": "00:26 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q4/111/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261003133326_27367d40",
     "timestamp": "2026-10-03T13:33:26.051060+00:00",
     "section": "issues",
@@ -8182,20 +8206,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Explore SPRT for missed inferences\n    <span class=\"issues-number\">#410</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-30 17:03 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div"
     },
     "ai_description": "Issue #410 on exploring SPRT for missed inferences has been closed and removed from the feed. This means the discussion on applying sequential probability ratio testing to handle missed inference cases is no longer active, so the team has likely moved past this exploration. Community members should refer to the latest issues for current priorities on inference reliability."
-  },
-  {
-    "id": "evt_20260910143102_722c41ca",
-    "timestamp": "2026-09-10T14:31:02.672117+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#415 — Caching of node-config.json",
-      "url": null,
-      "file": "00415-caching-of-node-configjson.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Caching of node-config.json\n    <span class=\"issues-number\">#415</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DePunk-eth\">@DePunk-eth</a> opened 2025-11-01 18:06 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
-    },
-    "ai_description": "Issue #415 on caching of node-config.json has been removed from the feed. The closed discussion is no longer tracked, so the community can focus on active proposals. Thanks to everyone who contributed to that thread.Issue #415 about caching node-config.json has been removed from our activity feed. This closed discussion is no longer tracked, keeping the board focused on active topics. Thanks to everyone who participated in the thread."
   }
 ]
