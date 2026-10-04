@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261004132038_e846154d",
+    "timestamp": "2026-10-04T13:20:38.586078+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1914 — pplying a diff copies the whole escrow state, and the copy grows for the life of the escrow",
+      "url": "/community/issues/01914-pplying-a-diff-copies-the-whole-escrow-state-and-the-copy-gr/",
+      "file": "01914-pplying-a-diff-copies-the-whole-escrow-state-and-the-copy-gr.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    pplying a diff copies the whole escrow state, and the copy grows for the life of the escrow\n    <span class=\"issues-number\">#1914</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-04 13:06 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
+    },
+    "ai_description": "New issue #1914 has been opened by @a-kuprin, highlighting a performance problem where applying a diff to an escrow copies the entire state, and that copy keeps growing for the escrow's whole lifetime. This is worth a look for anyone working on efficiency — it could mean unnecessary memory and storage bloat over time. Head over to the issue to share your thoughts or propose a fix."
+  },
+  {
     "id": "evt_20261004084102_27b7b0f4",
     "timestamp": "2026-10-04T08:41:02.006173+00:00",
     "section": "calendar",
@@ -8196,20 +8212,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Removing participants for inactivity\n    <span class=\"issues-number\">#405</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-23 19:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px"
     },
     "ai_description": "Issue #405 about removing inactive participants has been closed and removed from the feed. The proposal, which was opened without any community discussion, is no longer on the table, so no action is needed from the community at this time. We will keep an eye out for any updates if this topic resurfaces.Issue #405 on removing inactive participants has been closed and removed from the feed with no community discussion. This means the proposal is no longer active, so no action is needed from the community right now. If the topic resurfaces, we will be sure to flag it for your input."
-  },
-  {
-    "id": "evt_20260910143102_6bb50e2e",
-    "timestamp": "2026-09-10T14:31:02.672105+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#409 — Switch participant invalidation to SPRT",
-      "url": null,
-      "file": "00409-switch-participant-invalidation-to-sprt.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Switch participant invalidation to SPRT\n    <span class=\"issues-number\">#409</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-30 17:02 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\">"
-    },
-    "ai_description": "Issue #409, which proposed switching participant invalidation to SPRT, has been removed from the activity feed. The proposal is no longer tracked, so any related discussion or implementation plans are now off the community's radar. If you were following this change, keep an eye out for a potential re-submission or alternative approach."
   }
 ]
