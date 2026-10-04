@@ -36,7 +36,7 @@ hide:
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">110</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">73</span><span class="qs-desc">Passed (66%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">35</span><span class="qs-desc">Rejected (32%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">36</span><span class="qs-desc">Rejected (33%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
@@ -60,19 +60,18 @@ hide:
 
 *2 proposals*
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-04T00:26:22.750300831Z">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="2026-q4/111/" class="prop-card-title">#111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification</a>
-    <span class="prop-vote-countdown" data-deadline="2026-10-04T00:26:22.750300831Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-10-02</span>
     <span>Voting ends 2026-10-04</span>
   </div>
   <div class="prop-card-desc"># Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>53.7%</strong> (314,609)</span> · <span class="prop-tally-veto-text">Veto <strong>44.9%</strong> (263,118)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.4%</strong> (8,495)</span><span class="prop-card-funding prop-card-funding-voting">$160,000 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>59.6%</strong> (586,222 / 983,440) · Quorum <strong>25%</strong> (245,860)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>53.7%</strong> (314,609)</span> · <span class="prop-tally-veto-text">Veto <strong>44.9%</strong> (263,118)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.4%</strong> (8,495)</span><span class="prop-card-funding prop-card-funding-rejected">$160,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>51.1%</strong> (586,222 / 1,147,939) · Quorum <strong>25%</strong> (286,984)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1566,7 +1565,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>110 proposals across 6 quarters. Last updated: 2026-10-04 00:06 UTC</em>
+<em>110 proposals across 6 quarters. Last updated: 2026-10-04 05:45 UTC</em>
 </div>
 
 <script>

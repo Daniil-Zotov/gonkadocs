@@ -10,7 +10,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-10-04T00:26:22.750300831Z"></span></div>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `111`
 
@@ -24,7 +24,9 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://gonka.vote/proposal/k58ptx](https://gonka.vote/proposal/k58ptx)
 
-<div class="prop-funding-line prop-funding-line-voting">$160,000 · Community Pool</div>
+**Failed reason:** proposal did not get enough votes to pass
+
+<div class="prop-funding-line prop-funding-line-rejected">$160,000 · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/111){:target="_blank"}
@@ -55,9 +57,9 @@ Wayfaster, wayfaster.org, hi@wayfaster.org
 <div class="prop-tally">
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
-    <div class="prop-tally-no" style="width:32.0%"></div>
-    <div class="prop-tally-veto" style="width:26.8%"></div>
-    <div class="prop-tally-abstain" style="width:0.9%"></div>
+    <div class="prop-tally-no" style="width:27.4%"></div>
+    <div class="prop-tally-veto" style="width:22.9%"></div>
+    <div class="prop-tally-abstain" style="width:0.7%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
@@ -65,7 +67,7 @@ Wayfaster, wayfaster.org, hi@wayfaster.org
     <span class="prop-tally-veto-text">Veto <strong>44.9%</strong> (263,118)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>1.4%</strong> (8,495)</span>
     <span class="prop-tally-total-text">Total 586,222 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>59.6%</strong> (586,222 / 983,440) · Quorum <strong>25%</strong> (245,860)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>51.1%</strong> (586,222 / 1,147,939) · Quorum <strong>25%</strong> (286,984)</span>
   </div>
 </div>
 

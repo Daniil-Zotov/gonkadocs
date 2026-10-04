@@ -1490,13 +1490,13 @@
   {
     "date": "2026-10-04",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification",
+    "type": "proposal_report",
+    "title": "Rejected: #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification",
     "url": "/proposals/proposals/2026-q4/111/",
     "time": "00:26 UTC",
     "description": "# Bringing AMD and AI ASICs to Gonka\n\nGonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …",
     "tags": [
-      "voting"
+      "rejected"
     ]
   }
 ]

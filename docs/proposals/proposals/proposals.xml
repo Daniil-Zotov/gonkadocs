@@ -11,7 +11,7 @@
       <link>https://gonkadocs.com/proposals/proposals/2026-q4/111/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/111/</guid>
       <pubDate>Fri, 02 Oct 2026 00:26:22 +0000</pubDate>
-      <category>Voting</category>
+      <category>Rejected</category>
       <description># Bringing AMD and AI ASICs to Gonka
 
 Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the fastest-growing segment of AI compute.
