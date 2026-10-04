@@ -55,17 +55,17 @@ Wayfaster, wayfaster.org, hi@wayfaster.org
 <div class="prop-tally">
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
-    <div class="prop-tally-no" style="width:35.0%"></div>
-    <div class="prop-tally-veto" style="width:24.9%"></div>
-    <div class="prop-tally-abstain" style="width:0.8%"></div>
+    <div class="prop-tally-no" style="width:32.0%"></div>
+    <div class="prop-tally-veto" style="width:26.8%"></div>
+    <div class="prop-tally-abstain" style="width:0.9%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-no-text">No <strong>57.7%</strong> (370,400)</span>
-    <span class="prop-tally-veto-text">Veto <strong>41.0%</strong> (263,118)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>1.3%</strong> (8,411)</span>
-    <span class="prop-tally-total-text">Total 641,929 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>60.7%</strong> (641,929 / 1,057,744) · Quorum <strong>25%</strong> (264,436)</span>
+    <span class="prop-tally-no-text">No <strong>53.7%</strong> (314,609)</span>
+    <span class="prop-tally-veto-text">Veto <strong>44.9%</strong> (263,118)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>1.4%</strong> (8,495)</span>
+    <span class="prop-tally-total-text">Total 586,222 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>59.6%</strong> (586,222 / 983,440) · Quorum <strong>25%</strong> (245,860)</span>
   </div>
 </div>
 
