@@ -17,7 +17,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q4/111/"
     },
-    "ai_description": null
+    "ai_description": "The Gonka calendar now marks Proposal #111 as rejected. This proposal aimed to expand the approved hardware list beyond NVIDIA GPUs to include AMD and specialized AI ASICs for verification, but it did not pass. This means the network's hardware support remains limited to the six NVIDIA models for now, keeping the ecosystem focused on a single vendor."
   },
   {
     "id": "evt_20261004015511_1b14515e",
