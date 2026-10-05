@@ -2,7 +2,7 @@
 title: "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them"
 source: https://github.com/gonka-ai/gonka/issues/1798
 issue_number: 1798
-synced_at: 2026-10-05T01:02:12Z
+synced_at: 2026-10-05T07:10:56Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/aikuznetsov">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-25 17:54 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-05 05:54 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -76,7 +76,7 @@ The existing 30-minute `StreamingAttemptHardTimeout` should remain as an absolut
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -100,6 +100,15 @@ The existing 30-minute `StreamingAttemptHardTimeout` should remain as an absolut
   </div>
   <div class="issues-comment-body issues-content">
     <p>@Ryanchen911 ok, I think #1841 will be in work on this weekends</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-10-05 05:54 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Implemented in #1917 (base <code>devshard-0.2.x-v6</code>), following the approach above: the 30s/60s pair is now two deadlines on one <code>lastChunkAt</code> anchor, expiry cancels the upstream, and a typed <code>errStreamStalled</code> makes the stall retryable on another host when nothing had reached the client yet.</p>
   </div>
 </div>
 

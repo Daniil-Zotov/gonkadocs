@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-05T01:05:46.088452+00:00",
+  "snapshot_time": "2026-10-05T07:14:54.179369+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3756,13 +3756,14 @@
     "01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream.md": {
       "title": "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style",
-      "comment_checksum": "cecd783de13254f4173d23bb1ed8c12bd70b061d1879e3b1f07aa696eee9e8ea",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style",
+      "comment_checksum": "97cfe81a33285cb79ba56cc543d7f3fa8db5d241724f8ca79158ed6f7a623a87",
       "comment_bodies": [
         "Taking this. The inter-chunk timeout currently only logs but doesn't cancel stalled streams — need to make it actually abort and retry. Approach: 1. Use InterChunkStallTimeout (not just LogThreshold) as a sliding deadline based on meaningful SSE events 2. Cancel the upstream request when the deadline expires 3. Return a typed retryable error so redundancy can try another host 4. Keep the 30min har",
-        "@Ryanchen911 ok, I think #1841 will be in work on this weekends"
+        "@Ryanchen911 ok, I think #1841 will be in work on this weekends",
+        "Implemented in #1917 (base devshard-0.2.x-v6), following the approach above: the 30s/60s pair is now two deadlines on one lastChunkAt anchor, expiry cancels the upstream, and a typed errStreamStalled makes the stall retryable on another host when nothing had reached the client yet."
       ],
-      "checksum": "a78d8a2b8567130f3793b9887f4a5046a0dae90a24bda99dfdca5a811c7c0cc2"
+      "checksum": "a9ca799319b8dc1d1f7f2715299c9504574c60375b8dc7dacea2b1b932d7a506"
     },
     "01799-devshard-gateway-request-specific-insufficient-balance-deact.md": {
       "title": "#1799 — devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow",
@@ -3960,10 +3961,12 @@
     "01881-the-gateway-that-never-forgets.md": {
       "title": "#1881 — The Gateway That Never Forgets",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" ",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "00c198d61995a35db7dc13a581824cccae16a9133d23bb17dcd622f9f72cbb68"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" m",
+      "comment_checksum": "ca5ec079f0f925407d9b3e75b23bacaf153a7a3259c76eedee41acb170a6723c",
+      "comment_bodies": [
+        "Hi, I’d like to work on this issue. Is it still available, and does the work in #1905 overlap with the session-file cleanup? My proposed approach is to clean up expired session storage on epoch changes, retaining the current epoch and two previous epochs while protecting live sessions and any state still needed for settlement or recovery. I would include regression tests for retention boundaries, "
+      ],
+      "checksum": "b61319bdf30f36a3cd066483ad83f138d7579abf55d15874f7573a46ccb96407"
     },
     "01899-devshard-per-diff-full-state-copies-and-per-request-scans-gr.md": {
       "title": "#1899 — devshard: per-diff full-state copies and per-request scans grow with the escrow's live set under load",

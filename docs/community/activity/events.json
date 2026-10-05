@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261005071450_3240a410",
+    "timestamp": "2026-10-05T07:14:50.902756+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them",
+      "url": "/community/issues/01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream/",
+      "file": "01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
+    },
+    "ai_description": "Issue #1798 on the devshard gateway got a new comment, bringing the total to three. The discussion continues around the problem that stalled SSE streams are only logged on inter-chunk timeout but never actually cancelled, leaving resources hanging. As the issue remains open, the community is still weighing in on how to properly handle these stuck streams."
+  },
+  {
+    "id": "evt_20261005071450_ee7f262a",
+    "timestamp": "2026-10-05T07:14:50.902818+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1881 — The Gateway That Never Forgets",
+      "url": "/community/issues/01881-the-gateway-that-never-forgets/",
+      "file": "01881-the-gateway-that-never-forgets.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" m"
+    },
+    "ai_description": "Issue #1881 \"The Gateway That Never Forgets\" now has its first comment, marking the start of community discussion on this open proposal. Head over to the thread to see what's been added and join the conversation.Issue #1881 \"The Gateway That Never Forgets\" has received its first comment, moving from an untouched proposal to an active discussion. Head over to the thread to see what's been added and weigh in on the conversation."
+  },
+  {
     "id": "evt_20261004174134_943fce68",
     "timestamp": "2026-10-04T17:41:34.037453+00:00",
     "section": "issues",
@@ -8184,35 +8216,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Invalid participants in the `ActiveParticipant` list\n    <span class=\"issues-number\">#394</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-16 00:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
     },
     "ai_description": "Issue #394 about invalid participants in the ActiveParticipant list has been closed and removed from the feed. The fix for this P0 bug has been resolvedhare, so the community can move past this blocker and focus on the next priorities. Thanks to everyone who helped track it down.Issue #394, a P0 bug about invalid entries in the ActiveParticipant list, has been closed and removed from the active feed. This signals the fix is resolved and no longer requires community attention, clearing the way for work on remaining priorities. Thanks to @tcharchian for flagging it and to all who contributed to the resolution."
-  },
-  {
-    "id": "evt_20260910143102_7105748e",
-    "timestamp": "2026-09-10T14:31:02.672079+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#396 — [P0] Future timestamp investigation",
-      "url": null,
-      "file": "00396-p0-future-timestamp-investigation.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Future timestamp investigation\n    <span class=\"issues-number\">#396</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-17 17:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d"
-    },
-    "ai_description": "Issue #396 about investigating future timestamps has been closed and removed from the active feed. This P0 item is no longer tracked, so the team has likely resolved or deprioritized the underlying concern. Community members should watch for any follow-up updates if this topic resurfaces.Issue #396 on future timestamp investigation has been closed and removed from the active feed. This P0 item is no longer tracked, signaling the team has wrapped up the investigation. Community members should keep an eye out for any related findings in future updates."
-  },
-  {
-    "id": "evt_20260910143102_e0f62c65",
-    "timestamp": "2026-09-10T14:31:02.672085+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "1. Too large HTTP body:",
-      "url": null,
-      "file": "00398-api-node-connection-issues.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    API -> Node Connection Issues\n    <span class=\"issues-number\">#398</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-10-19 05:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span cla"
-    },
-    "ai_description": "Issue #398 about API to Node connection problems has been closed and removed from our tracking. This means the underlying concern has been resolved, so no further action is needed from the community. Thanks to everyone who helped address it. Keep building! 🚀 (Note: The issue was closed, not fixed — if you were affected, please verify your own setup.)"
   }
 ]

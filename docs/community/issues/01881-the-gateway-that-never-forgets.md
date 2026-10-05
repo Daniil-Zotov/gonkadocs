@@ -2,7 +2,7 @@
 title: "#1881 — The Gateway That Never Forgets"
 source: https://github.com/gonka-ai/gonka/issues/1881
 issue_number: 1881
-synced_at: 2026-10-05T01:02:04Z
+synced_at: 2026-10-05T07:10:57Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/paranjko">@paranjko</a> opened 2026-09-29 23:35 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-29 23:35 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-05 02:04 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -59,6 +59,24 @@ Given enough epochs, the ending is predictable: the disk fills up.
 ## Expected behavior
 
 On epoch change, the gateway removes session directories older than the host horizon (current + two previous), with the same skip for anything still live.
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/danielhubersstorm">@danielhubersstorm</a></span>
+    <span class="issues-meta-item">commented 2026-10-05 02:04 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi, I’d like to work on this issue. Is it still available, and does the work in #1905 overlap with the session-file cleanup?</p>
+<p>My proposed approach is to clean up expired session storage on epoch changes, retaining the current epoch and two previous epochs while protecting live sessions and any state still needed for settlement or recovery. I would include regression tests for retention boundaries, active-session protection, and repeated cleanup.</p>
+<p>Could you confirm the preferred target branch and any additional acceptance criteria?</p>
+<p>Also, is this task eligible for a contributor reward? If so, I’d appreciate clarification on the proposed amount, payment currency, and approval process before starting substantial implementation.</p>
+<p>Thanks!</p>
+  </div>
 </div>
 
 ---
