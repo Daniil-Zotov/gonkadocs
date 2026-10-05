@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20261005171914_f1d9b851",
+    "timestamp": "2026-10-05T17:19:14.399468+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Ежемесячная AMA GONKA | Monthly AMA GONKA",
+      "url": "https://us06web.zoom.us/j/81184942251",
+      "file": "1db59eb5dee9b03f537947b024463b6d81fec7049b1cd2efc3918a57a2eeee17"
+    },
+    "details": {
+      "status": null,
+      "content": "Продолжается серия ежемесячных AMA-сессий с создателями Gonka. Давид Либерман при участии Вадима Крутова, COO Bitfury, расскажет, как прошёл сентябрь и что ждёт протокол в октябре, а также ответит на вопросы комьюнити.\n\nВ программе:\n• Итоги сентября: результаты, цифры, выводы\n• Token2049: участие Gonka и ключевые встречи\n• Foundation: назначение, роль в экосистеме и изменения для сообщества\n• Ответы на вопросы в прямом эфире\n\n🗣️ Язык: русский\n🎙️ Участники: Давид Либерман, Вадим Крутов (COO Bitfury)\n🎙️ Хост: @sultee\n\n📅 Вторник, 6 октября\n🕣 05:30–06:30 PDT (LA) · 12:30–13:30 UTC · 15:30–16:30 МСК\n📍 Присоединиться в Zoom: https://us06web.zoom.us/j/81184942251",
+      "date": "2026-10-06",
+      "time": "12:30 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/81184942251"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261005071450_3240a410",
     "timestamp": "2026-10-05T07:14:50.902756+00:00",
     "section": "issues",
@@ -8201,20 +8221,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0]: Cuda failure + other small fixed\n    <span class=\"issues-number\">#388</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-09 18:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\">"
     },
     "ai_description": "Issue #388 about a CUDA failure and other small fixes has been removed from the community activity feed. The issue was closed with no comments, so this cleanup likely reflects that the problem has been resolved and no further discussion is needed. Keeping the feed tidy helps us focus on active topics that still need attention. Thanks to everyone who worked on it."
-  },
-  {
-    "id": "evt_20260910143102_bdbd0633",
-    "timestamp": "2026-09-10T14:31:02.672074+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#394 — [P0] Invalid participants in the `ActiveParticipant` list",
-      "url": null,
-      "file": "00394-p0-invalid-participants-in-the-activeparticipant-list.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Invalid participants in the `ActiveParticipant` list\n    <span class=\"issues-number\">#394</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-16 00:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
-    },
-    "ai_description": "Issue #394 about invalid participants in the ActiveParticipant list has been closed and removed from the feed. The fix for this P0 bug has been resolvedhare, so the community can move past this blocker and focus on the next priorities. Thanks to everyone who helped track it down.Issue #394, a P0 bug about invalid entries in the ActiveParticipant list, has been closed and removed from the active feed. This signals the fix is resolved and no longer requires community attention, clearing the way for work on remaining priorities. Thanks to @tcharchian for flagging it and to all who contributed to the resolution."
   }
 ]

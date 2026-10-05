@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-10-05T07:34:35.229097+00:00",
+  "snapshot_time": "2026-10-05T17:19:14.415280+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -154,6 +154,15 @@
       "url": "None",
       "content_preview": "One hundred proposals in, what has the Gonka community achieved, and what have we learned along the way? Join us for a conversation about the results so far and how the proposal process is evolving.\n\nTopics:\n• Which proposals made a difference;\n• How ideas move from voting to delivery;\n• Execution, accountability and reporting.\n\n📅 Friday, September 25\n🕣 09:30 LA · 16:30 UTC · 19:30 MSK\n💻 Zoom\n🗣 Language: English\n🎙 Speakers: @pavelp221, @sultee, @paranko + special guest",
       "checksum": "e5b94d6aa7e1516c54a48d1d622da044110b40ecf5471e042993b2309b927194"
+    },
+    "1db59eb5dee9b03f537947b024463b6d81fec7049b1cd2efc3918a57a2eeee17": {
+      "title": "Ежемесячная AMA GONKA | Monthly AMA GONKA",
+      "date": "2026-10-06",
+      "time": "12:30 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/81184942251",
+      "content_preview": "Продолжается серия ежемесячных AMA-сессий с создателями Gonka. Давид Либерман при участии Вадима Крутова, COO Bitfury, расскажет, как прошёл сентябрь и что ждёт протокол в октябре, а также ответит на вопросы комьюнити.\n\nВ программе:\n• Итоги сентября: результаты, цифры, выводы\n• Token2049: участие Gonka и ключевые встречи\n• Foundation: назначение, роль в экосистеме и изменения для сообщества\n• Ответы на вопросы в прямом эфире\n\n🗣️ Язык: русский\n🎙️ Участники: Давид Либерман, Вадим Крутов (COO Bitfury)\n🎙️ Хост: @sultee\n\n📅 Вторник, 6 октября\n🕣 05:30–06:30 PDT (LA) · 12:30–13:30 UTC · 15:30–16:30 МСК\n📍 Присоединиться в Zoom: https://us06web.zoom.us/j/81184942251",
+      "checksum": "3bea81d5dc39f2425c74d2c20025dad9458b54a3eb95fc97bef437071e7cca43"
     },
     "60130ca155a868e409b7aa0642525df006c4e05da481ba6f8787253101992676": {
       "title": "Migrate community-sale and wrapped-token contracts",
