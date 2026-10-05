@@ -3,7 +3,7 @@ title: "#1619 — Phase out Kimi K2.6"
 source: https://github.com/gonka-ai/gonka/discussions/1619
 discussion_number: 1619
 category: general
-synced_at: 2026-10-04T22:18:13Z
+synced_at: 2026-10-05T01:51:40Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1619](https://github.com/gonka-ai/gonka/discussions/1619) every hour. 

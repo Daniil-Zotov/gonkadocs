@@ -3,7 +3,7 @@ title: "#1636 — Proposal: Cache-Served Token Pricing"
 source: https://github.com/gonka-ai/gonka/discussions/1636
 discussion_number: 1636
 category: protocol-improvements
-synced_at: 2026-10-04T22:18:15Z
+synced_at: 2026-10-05T01:51:41Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1636](https://github.com/gonka-ai/gonka/discussions/1636) every hour. 
