@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-05T16:14:01.753704+00:00",
+  "snapshot_time": "2026-10-05T22:48:14.963202+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3949,14 +3949,15 @@
     "01867-feature-expose-lightweight-participantweight-query-to-cosmwa.md": {
       "title": "#1867 — Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)\n    <span class=\"issues-number\">#1867</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DmitriyVoronov00\">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label",
-      "comment_checksum": "fc6e0d966dfc920a1ec5e8af2ecefb426a2152b393b43113d593d25a6f3453d4",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)\n    <span class=\"issues-number\">#1867</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DmitriyVoronov00\">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label",
+      "comment_checksum": "e7a525903ec13b34e559b8520693edb53cc0b63ea1a9d314122872e6d503f8cf",
       "comment_bodies": [
         "Following up on this: I noticed that PR #1758, merged into upgrade-v0.2.16, already exposes GetCurrentEpoch and EpochPerformanceSummaryByParticipant to CosmWasm. This is a very important step for marketplace and escrow-style contracts. Looking at the current protobuf definition, EpochPerformanceSummary already provides per-participant stats for a completed epoch, including inference counts, reward",
         "Yes, this looks feasible. The summary is created during epoch settlement, so it is a good place to store the final weight. We can use the existing query. No new endpoint is needed. We already calculate ParticipantRewardWeight after caps, penalties, and delegation reward transfers. We should confirm if this is the weight GonkaWeightSwap needs. The query uses the participant address. A separate rewa",
-        "Thanks so much for the quick and insightful feedback, @niktverd! This is super helpful. Here are the specifics regarding our use case: Weight type (ParticipantRewardWeight vs compute weight): ParticipantRewardWeight (the final weight used for rewards) is exactly what GonkaWeightSwap needs. The core purpose of the escrow is to ensure the investor pays for actual, rewarded network contribution. If a"
+        "Thanks so much for the quick and insightful feedback, @niktverd! This is super helpful. Here are the specifics regarding our use case: Weight type (ParticipantRewardWeight vs compute weight): ParticipantRewardWeight (the final weight used for rewards) is exactly what GonkaWeightSwap needs. The core purpose of the escrow is to ensure the investor pays for actual, rewarded network contribution. If a",
+        "Hi @niktverd! As discussed, I opened a PR targeting upgrade-v0.2.16 to record ParticipantRewardWeight in EpochPerformanceSummary: https://github.com/gonka-ai/gonka/pull/#1925 Looking forward to your review and feedback!"
       ],
-      "checksum": "74e94a4635686dc6fbc88289f48d950ca0d86b96533b5d545ec7f516c84cd3e4"
+      "checksum": "70169be596a8567edd3a5b1998b0fb43a69601646474b6a9f080139eafbcc2cc"
     },
     "01881-the-gateway-that-never-forgets.md": {
       "title": "#1881 — The Gateway That Never Forgets",

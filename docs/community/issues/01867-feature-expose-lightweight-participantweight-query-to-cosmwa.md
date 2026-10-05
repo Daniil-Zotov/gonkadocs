@@ -2,7 +2,7 @@
 title: "#1867 — Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)"
 source: https://github.com/gonka-ai/gonka/issues/1867
 issue_number: 1867
-synced_at: 2026-10-05T16:09:56Z
+synced_at: 2026-10-05T22:44:40Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/DmitriyVoronov00">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-28 16:55 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-05 18:47 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -85,7 +85,7 @@ I am happy to collaborate with the core team, share more details on the product 
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -171,6 +171,17 @@ I am happy to collaborate with the core team, share more details on the product 
 </ol>
 <p>Would you prefer to include this field update directly in <code>upgrade-v0.2.16</code>, or would it help if I opened a PR against the upgrade branch?</p>
 <p>Really appreciate your help and guidance on this!</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/DmitriyVoronov00">@DmitriyVoronov00</a></span>
+    <span class="issues-meta-item">commented 2026-10-05 18:47 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @niktverd! As discussed, I opened a PR targeting <code>upgrade-v0.2.16</code> to record <code>ParticipantRewardWeight</code> in <code>EpochPerformanceSummary</code>:
+https://github.com/gonka-ai/gonka/pull/#1925</p>
+<p>Looking forward to your review and feedback!</p>
   </div>
 </div>
 
