@@ -302,5 +302,25 @@
     "duration_minutes": 60,
     "location": null,
     "uid": "gonka-2026-09-25-fbbdf8b09660@gonkadocs.com"
+  },
+  {
+    "date": "2026-10-06",
+    "category": "community",
+    "type": "ama",
+    "title": "Ежемесячная AMA GONKA | Monthly AMA GONKA",
+    "url": null,
+    "time": "12:30 UTC",
+    "description": "Продолжается серия ежемесячных AMA-сессий с создателями Gonka. Давид Либерман при участии Вадима Крутова, COO Bitfury, расскажет, как прошёл сентябрь и что ждёт протокол в октябре, а также ответит на вопросы комьюнити.\n\nВ программе:\n• Итоги сентября: результаты, цифры, выводы\n• Token2049: участие Gonka и ключевые встречи\n• Foundation: назначение, роль в экосистеме и изменения для сообщества\n• Ответы на вопросы в прямом эфире\n\n🗣️ Язык: русский\n🎙️ Участники: Давид Либерман, Вадим Крутов (COO Bitfury)\n🎙️ Хост: @sultee\n\n📅 Вторник, 6 октября\n🕣 05:30–06:30 PDT (LA) · 12:30–13:30 UTC · 15:30–16:30 МСК\n📍 Присоединиться в Zoom",
+    "tags": [
+      "ama",
+      "monthly-ama",
+      "bitfury",
+      "libermans",
+      "community"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "location": null,
+    "uid": "gonka-2026-10-06-ecd22369e477@gonkadocs.com"
   }
 ]
