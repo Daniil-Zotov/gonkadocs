@@ -2,7 +2,7 @@
 title: "#1714 — `devshard` bind the gateway stream to `MsgFinishInference` with a second hash"
 source: https://github.com/gonka-ai/gonka/issues/1714
 issue_number: 1714
-synced_at: 2026-10-04T21:37:23Z
+synced_at: 2026-10-05T01:02:17Z
 template: issues-main.html
 ---
 
