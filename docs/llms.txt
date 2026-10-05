@@ -20,7 +20,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- No upcoming events scheduled.
+- 2026-10-06 12:30 UTC — Ежемесячная AMA GONKA | Monthly AMA GONKA: https://us06web.zoom.us/j/81184942251
 
 ## Protocol Documentation
 

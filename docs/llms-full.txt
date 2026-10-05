@@ -21872,7 +21872,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 44Expired
 65Votes
-437.0K GNKTotal Bid
+437.1K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
@@ -21923,7 +21923,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-05 06:56 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-05 15:56 UTC*
 
 ---
 
@@ -32372,7 +32372,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-110 proposals across 6 quarters. Last updated: 2026-10-05 08:40 UTC
+110 proposals across 6 quarters. Last updated: 2026-10-05 15:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
