@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261005182033_67bacff4",
+    "timestamp": "2026-10-05T18:20:33.883209+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#1919 — Proposal #77: INPUT Global - Monthly Report || August",
+      "url": "/community/discussion/governance-proposal-reports/1919-proposal-77-input-global-monthly-report-august/",
+      "file": "governance-proposal-reports/1919-proposal-77-input-global-monthly-report-august.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1919](https://github.com/gonka-ai/gonka/discussions/1919) every hour. \n\n# Proposal #77: INPUT Global - Monthly Report || August\n\n**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-05 12:59 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b153e6ad-0a49-4b61-9df9-66434f0266a7\" />\n\n### August 2026 Monthly Report\n\nHi Team, happy to share our August 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: https://www.figma.com/deck/hRcRewSTyAGHq4ysWkkN4z\n\nThis month we delivered **3** unique pieces across AI and crypto media, reaching **a combined UVM of 10.11M"
+    },
+    "ai_description": "A new governance report has been posted by @apakhtina for Proposal #77, covering INPUT Global's August 2026 results. The report highlights 3 media pieces that reached a combined unique viewership of 10.11M across AI and crypto outlets. This keeps the community updated on the impact of funded proposals, so be sure to check the full breakdown in the linked deck."
+  },
+  {
+    "id": "evt_20261005182033_781048e6",
+    "timestamp": "2026-10-05T18:20:33.883229+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#1920 — Proposal #77: INPUT Global - Monthly Report || September",
+      "url": "/community/discussion/governance-proposal-reports/1920-proposal-77-input-global-monthly-report-september/",
+      "file": "governance-proposal-reports/1920-proposal-77-input-global-monthly-report-september.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1920](https://github.com/gonka-ai/gonka/discussions/1920) every hour. \n\n# Proposal #77: INPUT Global - Monthly Report || September\n\n**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-05 13:03 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/690d0bce-933f-4f51-b1ff-9c0c63290073\" />\n\n### September 2026 Monthly Report\n\nHi Team, happy to share our September 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: https://www.figma.com/deck/aw7NcLbh42UhyJ8feOcd7Q\n\nThis month we delivered **4** unique pieces across US business, AI and crypto media and broadcast,"
+    },
+    "ai_description": "New monthly report from INPUT Global is in for September, covering 4 unique pieces of coverage across US business, AI, and crypto media. Head over to the discussion to check out the full breakdown of their results and see how the outreach is landing. Good to see consistent visibility for the network in key sectors. Link to the full deck is in the post for anyone who wants the details."
+  },
+  {
     "id": "evt_20261005171914_f1d9b851",
     "timestamp": "2026-10-05T17:19:14.399468+00:00",
     "section": "calendar",
@@ -8191,35 +8223,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] How to change `inference_url`\n    <span class=\"issues-number\">#381</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-30 16:43 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div"
     },
     "ai_description": "Issue #381 about changing the inference_url has been removed from the tracker. The question is now resolved, so the community feed is cleaner and focused on active topics. Thanks to everyone who helped close this out. 🚀\nIssue #381 about changing the inference_url has been removed from the tracker. The question is now resolved, so the community feed is cleaner and focused on active topics. Thanks to everyone who helped close this out."
-  },
-  {
-    "id": "evt_20260910143102_7721d87f",
-    "timestamp": "2026-09-10T14:31:02.672061+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#387 — Bug: fatal error: too many concurrent timer firings",
-      "url": null,
-      "file": "00387-bug-fatal-error-too-many-concurrent-timer-firings.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bug: fatal error: too many concurrent timer firings\n    <span class=\"issues-number\">#387</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-10-09 05:51 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi"
-    },
-    "ai_description": "Issue #387 about a fatal error from too many concurrent timer firings has been removed from our tracker. The report was closed, and cleaning it up keeps our issue list focused on active problems. Thanks to everyone who helped investigate it.Issue #387 about the fatal error from too many concurrent timer firings has been removed from our tracker. The report was already closed, so this cleanup keeps our issue list focused on active problems. Thanks to everyone who helped investigate it."
-  },
-  {
-    "id": "evt_20260910143102_d01f7a44",
-    "timestamp": "2026-09-10T14:31:02.672068+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#388 — [P0]: Cuda failure + other small fixed",
-      "url": null,
-      "file": "00388-p0-cuda-failure-other-small-fixed.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0]: Cuda failure + other small fixed\n    <span class=\"issues-number\">#388</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-09 18:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\">"
-    },
-    "ai_description": "Issue #388 about a CUDA failure and other small fixes has been removed from the community activity feed. The issue was closed with no comments, so this cleanup likely reflects that the problem has been resolved and no further discussion is needed. Keeping the feed tidy helps us focus on active topics that still need attention. Thanks to everyone who worked on it."
   }
 ]

@@ -4,12 +4,14 @@ title: ":bookmark_tabs: Governance Proposal Reports"
 
 # :bookmark_tabs: Governance Proposal Reports
 
-Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **11**. Обновлено: `2026-10-05 08:52 UTC`.
+Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **13**. Обновлено: `2026-10-05 18:20 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1920](1920-proposal-77-input-global-monthly-report-september.md) | [Proposal #77: INPUT Global - Monthly Report \|\| September](1920-proposal-77-input-global-monthly-report-september.md) | [@apakhtina](https://github.com/apakhtina) | 2026-10-05 |
+| [1919](1919-proposal-77-input-global-monthly-report-august.md) | [Proposal #77: INPUT Global - Monthly Report \|\| August](1919-proposal-77-input-global-monthly-report-august.md) | [@apakhtina](https://github.com/apakhtina) | 2026-10-05 |
 | [1815](1815-proposal-74-gonka-labs-monthly-report-no3.md) | [Proposal #74: Gonka Labs - Monthly Report No.3](1815-proposal-74-gonka-labs-monthly-report-no3.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-28 |
 | [1764](1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | [Proposal #82: External Test Lab & Community DevNet — M2 Report](1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | [@paranjko](https://github.com/paranjko) | 2026-09-13 |
 | [1742](1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |

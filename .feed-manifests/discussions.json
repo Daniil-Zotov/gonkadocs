@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-05T08:52:47.210718+00:00",
+  "snapshot_time": "2026-10-05T18:20:54.282680+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -175,6 +175,18 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1815](https://github.com/gonka-ai/gonka/discussions/1815) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.3\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-19 09:57 UTC · \n\n---\n\n## 📝 Описание\n\n# Proposal #74: Gonka Labs - Monthly Report No.3\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/612d6724-aa9f-4868-aaac-b10b6cdfbe88\" />\n\nHey! Gonka Labs here.\n\nLast updates: [Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) (Jul 18) and [Report No.2](https://github.com/gonka-ai/gonka/discussions/1612) (Aug 18).\n\nOn June 12 the community passed [Proposal #74](https://gonka.gg/network/proposals/74) ([f",
       "checksum": "ba565f7779d66d30742c1d9980e0144cb39de147f13501aaf7d1829818053204"
+    },
+    "governance-proposal-reports/1919-proposal-77-input-global-monthly-report-august.md": {
+      "title": "#1919 — Proposal #77: INPUT Global - Monthly Report || August",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1919](https://github.com/gonka-ai/gonka/discussions/1919) every hour. \n\n# Proposal #77: INPUT Global - Monthly Report || August\n\n**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-05 12:59 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/b153e6ad-0a49-4b61-9df9-66434f0266a7\" />\n\n### August 2026 Monthly Report\n\nHi Team, happy to share our August 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: https://www.figma.com/deck/hRcRewSTyAGHq4ysWkkN4z\n\nThis month we delivered **3** unique pieces across AI and crypto media, reaching **a combined UVM of 10.11M",
+      "checksum": "48ef98d8ee2ac78998464cabe1b6f8626a2f392fd29ea1b4c1e53315aa661cd2"
+    },
+    "governance-proposal-reports/1920-proposal-77-input-global-monthly-report-september.md": {
+      "title": "#1920 — Proposal #77: INPUT Global - Monthly Report || September",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1920](https://github.com/gonka-ai/gonka/discussions/1920) every hour. \n\n# Proposal #77: INPUT Global - Monthly Report || September\n\n**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-05 13:03 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/690d0bce-933f-4f51-b1ff-9c0c63290073\" />\n\n### September 2026 Monthly Report\n\nHi Team, happy to share our September 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: https://www.figma.com/deck/aw7NcLbh42UhyJ8feOcd7Q\n\nThis month we delivered **4** unique pieces across US business, AI and crypto media and broadcast,",
+      "checksum": "91fc98800c6ca5d2e6f6f75cd29d941f51e37d84e50ff3fccb022123b4118915"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "#795 — Welcome to Proposals 👋",

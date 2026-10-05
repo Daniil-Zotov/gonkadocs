@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **106**. Обновлено: `2026-10-05 08:52 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **108**. Обновлено: `2026-10-05 18:20 UTC`.
 
 ## 📂 Категории
 
@@ -13,7 +13,7 @@ title: "GitHub Discussions"
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 10 |
 | [:speech_balloon: General](general/index.md) | 7 |
-| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 11 |
+| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 13 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 48 |
 | [:interrobang: Q&A](q-a/index.md) | 4 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 25 |
@@ -22,6 +22,8 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1920](governance-proposal-reports/1920-proposal-77-input-global-monthly-report-september.md) | [Proposal #77: INPUT Global - Monthly Report \|\| September](governance-proposal-reports/1920-proposal-77-input-global-monthly-report-september.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-10-05 |
+| [1919](governance-proposal-reports/1919-proposal-77-input-global-monthly-report-august.md) | [Proposal #77: INPUT Global - Monthly Report \|\| August](governance-proposal-reports/1919-proposal-77-input-global-monthly-report-august.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-10-05 |
 | [1502](protocol-improvements/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | [Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar](protocol-improvements/1502-обратная-связь-от-разработчика-почему-текущий-модельный-ряд-.md) | :gear: Protocol Improvements | [@bitcompool](https://github.com/bitcompool) | 2026-10-02 |
 | [1886](protocol-improvements/1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md) | [Proposal: a consistent integer-overflow policy for Gonka (#1222)](protocol-improvements/1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md) | :gear: Protocol Improvements | [@zpoken](https://github.com/zpoken) | 2026-10-01 |
 | [1884](show-and-tell/1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md) | [SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)](show-and-tell/1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md) | :raised_hands: Show and Tell | [@privatedeskai](https://github.com/privatedeskai) | 2026-09-30 |
@@ -40,5 +42,3 @@ title: "GitHub Discussions"
 | [1464](protocol-improvements/1464-dev-team-funding.md) | [Dev Team Funding](protocol-improvements/1464-dev-team-funding.md) | :gear: Protocol Improvements | [@gmorgachev](https://github.com/gmorgachev) | 2026-09-08 |
 | [1721](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | :gear: Protocol Improvements | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-09-08 |
 | [1668](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | [Proposal: raise the DeepSeek coefficient to 0.400](protocol-improvements/1668-proposal-raise-the-deepseek-coefficient-to-0400.md) | :gear: Protocol Improvements | [@knyazev741](https://github.com/knyazev741) | 2026-09-08 |
-| [1619](general/1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](general/1619-phase-out-kimi-k26.md) | :speech_balloon: General | [@paranjko](https://github.com/paranjko) | 2026-09-07 |
-| [1704](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](governance-proposal-reports/1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-07 |
