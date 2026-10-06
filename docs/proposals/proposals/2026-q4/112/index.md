@@ -70,7 +70,7 @@ The full technical scope, contributor list, individual contributions, PR referen
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 129,889 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>12.0%</strong> (129,889 / 1,085,079) · Quorum <strong>25%</strong> (271,269)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>12.0%</strong> (129,889 / 1,084,611) · Quorum <strong>25%</strong> (271,152)</span>
   </div>
 </div>
 

@@ -130,7 +130,7 @@ This work covers assessment of incoming security reports, review of the v0.2.16 
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>90.1%</strong> (117,056)</span>
     <span class="prop-tally-total-text">Total 129,889 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>12.0%</strong> (129,889 / 1,085,079) · Quorum <strong>25%</strong> (271,269)</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>12.0%</strong> (129,889 / 1,084,611) · Quorum <strong>25%</strong> (271,152)</span>
   </div>
 </div>
 
