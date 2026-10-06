@@ -21469,7 +21469,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-10-05 23:38 UTC
+2026-10-06 04:30 UTC
 
 ---
 
@@ -21523,7 +21523,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 5,688,695 GNK
+Current balance: 5,731,015 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -31109,8 +31109,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-08
   
   Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…
-  Yes 90.5% (8,707) · No 9.5% (911) · Veto 0.0% (0) · Abstain 0.0% (0)$104,150 · Community Pool
-  ✗ Turnout 0.9% (9,618 / 1,085,079) · Quorum 25% (271,269)
+  Yes 92.9% (11,922) · No 7.1% (911) · Veto 0.0% (0) · Abstain 0.0% (0)$104,150 · Community Pool
+  ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
 
   
     #112 – Upgrade Proposal: v0.2.16
@@ -31122,8 +31122,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-08
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …
-  Yes 100.0% (9,618) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 0.9% (9,618 / 1,085,079) · Quorum 25% (271,269)
+  Yes 100.0% (12,833) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
 
   
     #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
@@ -32398,7 +32398,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-112 proposals across 6 quarters. Last updated: 2026-10-06 03:40 UTC
+112 proposals across 6 quarters. Last updated: 2026-10-06 07:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -81560,8 +81560,8 @@ $2,100 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-10-08
   
   Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…
-  Yes 90.5% (8,707) · No 9.5% (911) · Veto 0.0% (0) · Abstain 0.0% (0)$104,150 · Community Pool
-  ✗ Turnout 0.9% (9,618 / 1,085,079) · Quorum 25% (271,269)
+  Yes 92.9% (11,922) · No 7.1% (911) · Veto 0.0% (0) · Abstain 0.0% (0)$104,150 · Community Pool
+  ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
 
   
     #112 – Upgrade Proposal: v0.2.16
@@ -81573,8 +81573,8 @@ $2,100 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-10-08
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …
-  Yes 100.0% (9,618) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 0.9% (9,618 / 1,085,079) · Quorum 25% (271,269)
+  Yes 100.0% (12,833) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
 
   
     #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
@@ -82166,18 +82166,19 @@ The full technical scope, contributor list, individual contributions, PR referen
     
   
   
-    Yes 100.0% (9,618)
+    Yes 100.0% (12,833)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 9,618 votes
-    ✗ Turnout 0.9% (9,618 / 1,085,079) · Quorum 25% (271,269)
+    Total 12,833 votes
+    ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
   
 
 Voters
 
 VoterVote
 
+gonka1qwfrtz…33xdklYes 100.0%
 gonka1gyk0aa…k8svc5Yes 100.0%
 gonka1ajmhqg…z8s939Yes 100.0%
 
@@ -82321,18 +82322,19 @@ This work covers assessment of incoming security reports, review of the v0.2.16 
     
   
   
-    Yes 90.5% (8,707)
-    No 9.5% (911)
+    Yes 92.9% (11,922)
+    No 7.1% (911)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 9,618 votes
-    ✗ Turnout 0.9% (9,618 / 1,085,079) · Quorum 25% (271,269)
+    Total 12,833 votes
+    ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
   
 
 Voters
 
 VoterVote
 
+gonka1qwfrtz…33xdklYes 100.0%
 gonka1gyk0aa…k8svc5No 100.0%
 gonka1ajmhqg…z8s939Yes 100.0%
 
