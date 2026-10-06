@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261006113835_64d6e73b",
+    "timestamp": "2026-10-06T11:38:35.384427+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 30, 2026\n\n**v0.2.16 Upgrade Proposal Enters Governance**\n\n[The v0.2.16 proposal](https://gonkascan.com/?page=governance&proposal_id=109) (proposal id 109) is now on-chain and open for voting.\n\nThe mainnet chain/API work focuses on trusted weigh",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 6, 2026\n\nTwo proposals are open for voting. From this release the upgrade and the bounty payments go as two separate proposals and are voted on separately.\n\n**#112 Upgrade Proposal: v0.2.16**\n\n[Proposal 112, Upgrade Proposal: v0.2.16](https://gon"
+    },
+    "ai_description": "The Announcements page has been updated to reflect the latest governance activity. Two separate proposals are now open for voting, splitting the v0.2.16 upgrade from bounty payments, a change that gives the community more granular control over each decision. Head over to the page to review proposal 112 and cast your vote on what matters most to you."
+  },
+  {
     "id": "evt_20261006103537_a5250dc3",
     "timestamp": "2026-10-06T10:35:37.244341+00:00",
     "section": "issues",
@@ -8229,20 +8245,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1]: Utilization in scheduling and PoC uptime and Reward for all Models Support\n    <span class=\"issues-number\">#349</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-08 23:09 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class"
     },
     "ai_description": "Issue #349 has been removed from the feed. The proposal to improve scheduling utilization, PoC uptime, and rewards for all supported models is no longer tracked here. If you were following this for updates, please watch for a new issue or discussion in the repository.Issue #349 has been removed from our tracking, closing the book on the proposal to enhance scheduling utilization, PoC uptime, and rewards across all supported models. This means the community will no longer have a dedicated thread for those improvements, so keep an eye out for any new discussions on the topic."
-  },
-  {
-    "id": "evt_20260910143102_e2c9260d",
-    "timestamp": "2026-09-10T14:31:02.672022+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#351 — BUG: Wrong error message for unsupported models in /chat/completions",
-      "url": null,
-      "file": "00351-bug-wrong-error-message-for-unsupported-models-in-chatcomple.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BUG: Wrong error message for unsupported models in /chat/completions\n    <span class=\"issues-number\">#351</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-10 23:19 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
-    },
-    "ai_description": "Issue #351 about the misleading error message for unsupported models in /chat/completions has been closed and removed from the feed. Thanks to everyone who contributed to the discussion on improving API clarity. The fix is now in place, so users will get accurate feedback going forward. 🚀\n\nWait, I need to clarify: the action says \"Removed\" — meaning the issue was deleted, not closed. Let me correct that.\n\nIssue #351 about the incorrect error message for unsupported models in /chat/completions has been removed from the feed. This cleanup keeps our issue tracker focused on active, actionable items. If you need the details, they're still in the git history."
   }
 ]

@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-10-06T04:12:07.497486+00:00",
+  "snapshot_time": "2026-10-06T11:38:48.453224+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -323,8 +323,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## September 30, 2026\n\n**v0.2.16 Upgrade Proposal Enters Governance**\n\n[The v0.2.16 proposal](https://gonkascan.com/?page=governance&proposal_id=109) (proposal id 109) is now on-chain and open for voting.\n\nThe mainnet chain/API work focuses on trusted weigh",
-      "checksum": "9f4d85268d273b929ad812f657d3810141bdf60fb8d940cfecccdf30987a8492"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 6, 2026\n\nTwo proposals are open for voting. From this release the upgrade and the bounty payments go as two separate proposals and are voted on separately.\n\n**#112 Upgrade Proposal: v0.2.16**\n\n[Proposal 112, Upgrade Proposal: v0.2.16](https://gon",
+      "checksum": "e857ae56156155c8a5706dccc99102fc60409c01cccac19a1364b4b13f6fec30"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

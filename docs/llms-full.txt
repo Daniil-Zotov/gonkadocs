@@ -2990,6 +2990,55 @@ This page is a list of model licenses. It does not say whether a model is on Gon
    
     This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.
 
+## October 6, 2026
+
+Two proposals are open for voting. From this release the upgrade and the bounty payments go as two separate proposals and are voted on separately.
+
+**#112 Upgrade Proposal: v0.2.16**
+
+[Proposal 112, Upgrade Proposal: v0.2.16](https://gonka.gg/network/proposals/112)
+
+**Trusted Weight.** Before v0.2.16, a sudden increase in claimed compute immediately increased a participant's power in governance, BLS and PoC validation. The upgrade limits that power to compute confirmed in the previous epoch. New or returning participants start with zero voting power but still earn rewards.
+
+**Dynamic Coefficients v1.** Governance can set a target percentage of network compute and a coefficient range for each model. The protocol adjusts the coefficient inside that range to move compute toward the target. Compute above the target is scored at the minimum coefficient.
+
+**Fee.** Transaction types are grouped and per-message gas rules are added. The epoch and cosmos groups are enabled by default at 1 ngonka per gas, all other groups remain disabled. Before the upgrade, check that your cold-to-warm feegrant is valid and that the cold account has enough spendable GNK to cover fees.
+
+**PoC Challenge.** An approved challenger can require an active host to leave inference and run PoC at full capacity. The challenger locks a payment, which goes to the host if it passes or is refunded if it fails. Failure carries the same penalty as failed Confirmation PoC. Only allowlisted devshard escrow creators can open a challenge.
+
+**#113 Distribute v0.2.16 bounty rewards**
+
+[Proposal 113, Distribute v0.2.16 bounty rewards](https://gonka.gg/network/proposals/113)
+
+104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protocol. It covers contributions to v0.2.16 and larger projects spanning several upgrade cycles: Decode-PoC, the gonka-poc vLLM plugin, model benchmarking and integration, a vulnerability report, trainshards, and security and upgrade reviews. The per-recipient breakdown is in the proposal.
+
+**How to vote**
+
+Vote on each proposal separately, once with `112` and once with `113`.
+
+```shell
+# options: yes | no | no_with_veto | abstain
+inferenced tx gov vote 112 yes \
+  --from  \
+  --keyring-backend file \
+  --unordered --timeout-duration=60s \
+  --gas=2000000 --gas-adjustment=5.0 \
+  --node /chain-rpc/ \
+  --yes
+```
+
+You can change your vote until voting closes, the last one counts.
+
+Voting on both closes October 8, 02:40 UTC.
+
+[Full technical scope, contributor list and PR references](https://github.com/gonka-ai/gonka/blob/136041c81ea8ff38e7620d76af66a7c7fe7eec50/proposals/governance-artifacts/update-v0.2.16/README.md)
+
+## October 2, 2026
+
+**Proposal 109, Upgrade Proposal: v0.2.16, was rejected.**
+
+The proposal put the v0.2.16 upgrade and 104,150 USDT in bounty payments from community funds to the network as a single vote. It received no votes against and no vetoes. It was rejected because the votes cast did not reach the 25% quorum.
+
 ## September 30, 2026
 
 **v0.2.16 Upgrade Proposal Enters Governance**
@@ -31109,8 +31158,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-08
   
   Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…
-  Yes 92.9% (11,922) · No 7.1% (911) · Veto 0.0% (0) · Abstain 0.0% (0)$104,150 · Community Pool
-  ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
+  Yes 9.2% (11,922) · No 0.7% (911) · Veto 0.0% (0) · Abstain 90.1% (117,056)$104,150 · Community Pool
+  ✗ Turnout 12.0% (129,889 / 1,085,079) · Quorum 25% (271,269)
 
   
     #112 – Upgrade Proposal: v0.2.16
@@ -31122,8 +31171,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-08
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …
-  Yes 100.0% (12,833) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
+  Yes 100.0% (129,889) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 12.0% (129,889 / 1,085,079) · Quorum 25% (271,269)
 
   
     #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
@@ -32398,7 +32447,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-112 proposals across 6 quarters. Last updated: 2026-10-06 10:20 UTC
+112 proposals across 6 quarters. Last updated: 2026-10-06 11:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -81560,8 +81609,8 @@ $2,100 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-10-08
   
   Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…
-  Yes 92.9% (11,922) · No 7.1% (911) · Veto 0.0% (0) · Abstain 0.0% (0)$104,150 · Community Pool
-  ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
+  Yes 9.2% (11,922) · No 0.7% (911) · Veto 0.0% (0) · Abstain 90.1% (117,056)$104,150 · Community Pool
+  ✗ Turnout 12.0% (129,889 / 1,085,079) · Quorum 25% (271,269)
 
   
     #112 – Upgrade Proposal: v0.2.16
@@ -81573,8 +81622,8 @@ $2,100 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-10-08
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …
-  Yes 100.0% (12,833) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
+  Yes 100.0% (129,889) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 12.0% (129,889 / 1,085,079) · Quorum 25% (271,269)
 
   
     #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
@@ -82166,12 +82215,12 @@ The full technical scope, contributor list, individual contributions, PR referen
     
   
   
-    Yes 100.0% (12,833)
+    Yes 100.0% (129,889)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 12,833 votes
-    ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
+    Total 129,889 votes
+    ✗ Turnout 12.0% (129,889 / 1,085,079) · Quorum 25% (271,269)
   
 
 Voters
@@ -82180,6 +82229,7 @@ VoterVote
 
 gonka1qwfrtz…33xdklYes 100.0%
 gonka1gyk0aa…k8svc5Yes 100.0%
+gonka168rtjf…lnkns2Yes 100.0%
 gonka1ajmhqg…z8s939Yes 100.0%
 
 ---
@@ -82322,12 +82372,12 @@ This work covers assessment of incoming security reports, review of the v0.2.16 
     
   
   
-    Yes 92.9% (11,922)
-    No 7.1% (911)
+    Yes 9.2% (11,922)
+    No 0.7% (911)
     Veto 0.0% (0)
-    Abstain 0.0% (0)
-    Total 12,833 votes
-    ✗ Turnout 1.2% (12,833 / 1,085,079) · Quorum 25% (271,269)
+    Abstain 90.1% (117,056)
+    Total 129,889 votes
+    ✗ Turnout 12.0% (129,889 / 1,085,079) · Quorum 25% (271,269)
   
 
 Voters
@@ -82336,6 +82386,7 @@ VoterVote
 
 gonka1qwfrtz…33xdklYes 100.0%
 gonka1gyk0aa…k8svc5No 100.0%
+gonka168rtjf…lnkns2Abstain 100.0%
 gonka1ajmhqg…z8s939Yes 100.0%
 
 ---
