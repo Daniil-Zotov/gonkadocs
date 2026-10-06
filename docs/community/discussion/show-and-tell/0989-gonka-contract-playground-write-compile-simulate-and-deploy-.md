@@ -3,7 +3,7 @@ title: "#989 — Gonka Contract Playground - write, compile, simulate, and deplo
 source: https://github.com/gonka-ai/gonka/discussions/989
 discussion_number: 989
 category: show-and-tell
-synced_at: 2026-10-05T18:20:23Z
+synced_at: 2026-10-06T00:45:25Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #989](https://github.com/gonka-ai/gonka/discussions/989) every hour. 
