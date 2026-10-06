@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-10-05T23:18:10.743530+00:00",
+  "snapshot_time": "2026-10-06T03:15:50.371927+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2350,6 +2350,24 @@
       "url": "/proposals/proposals/2026-q4/111/",
       "content_preview": "# Bringing AMD and AI ASICs to Gonka\n\nGonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …",
       "checksum": "0fd039b3ca45cc41e56b8bb78a9de1caea22685ed8b14bcd051ca684cd85fda1"
+    },
+    "005cba5461f65f76629868b18d068ab8e57ba6882326e108494bd18df1e389dd": {
+      "title": "Voting ends: #113 – Distribute v0.2.16 bounty rewards",
+      "date": "2026-10-08",
+      "time": "02:43 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/113/",
+      "content_preview": "Bounty Payments Associated with v0.2.16\n\nThis proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…",
+      "checksum": "8ff944edb2218ab492e8e3032f9c2622a8fef3e10aa236dcdc429a5f2ee97014"
+    },
+    "0527a2b82a4815f13da1d45b5002251159b351a6da60d2584ee821652874d62c": {
+      "title": "Voting ends: #112 – Upgrade Proposal: v0.2.16",
+      "date": "2026-10-08",
+      "time": "02:40 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/112/",
+      "content_preview": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.\n\nTrusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …",
+      "checksum": "bb4bbe2c73512e54d31ace9b770ead4292566ac89c9fb2990f30359df100435a"
     }
   }
 }

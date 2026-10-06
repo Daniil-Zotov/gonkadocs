@@ -1,5 +1,69 @@
 [
   {
+    "id": "evt_20261006031550_4d0ce58f",
+    "timestamp": "2026-10-06T03:15:50.458240+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Ежемесячная AMA GONKA | Monthly AMA GONKA",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Ежемесячная AMA GONKA | Monthly AMA GONKA",
+          "date": "2026-10-06",
+          "time": "12:30 UTC",
+          "event_type": "ama",
+          "url": "https://us06web.zoom.us/j/81184942251"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261006031550_294867d5",
+    "timestamp": "2026-10-06T03:15:50.347269+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #113 – Distribute v0.2.16 bounty rewards",
+      "url": "/proposals/proposals/2026-q4/113/",
+      "file": "005cba5461f65f76629868b18d068ab8e57ba6882326e108494bd18df1e389dd"
+    },
+    "details": {
+      "status": null,
+      "content": "Bounty Payments Associated with v0.2.16\n\nThis proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…",
+      "date": "2026-10-08",
+      "time": "02:43 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/113/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261006031550_7a6f5fdd",
+    "timestamp": "2026-10-06T03:15:50.347305+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #112 – Upgrade Proposal: v0.2.16",
+      "url": "/proposals/proposals/2026-q4/112/",
+      "file": "0527a2b82a4815f13da1d45b5002251159b351a6da60d2584ee821652874d62c"
+    },
+    "details": {
+      "status": null,
+      "content": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.\n\nTrusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …",
+      "date": "2026-10-08",
+      "time": "02:40 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/112/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261005224813_fa2a5e7c",
     "timestamp": "2026-10-05T22:48:13.165452+00:00",
     "section": "issues",
@@ -8179,50 +8243,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0]: AI Developer onboarding: Aiden Chat integration\n    <span class=\"issues-number\">#359</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-16 20:30 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar"
     },
     "ai_description": "Issue #359 about integrating Aiden Chat for AI developer onboarding has been closed and removed from the active feed. This P0 task is no longer on the table, so the community can shift focus to other priorities. Thanks to @tcharchian for raising it, but it's now settled and off the radar."
-  },
-  {
-    "id": "evt_20260910143102_47751434",
-    "timestamp": "2026-09-10T14:31:02.672037+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#360 — [P0]: AI Developer onboarding: T-link integration",
-      "url": null,
-      "file": "00360-p0-ai-developer-onboarding-t-link-integration.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0]: AI Developer onboarding: T-link integration\n    <span class=\"issues-number\">#360</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-16 20:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div c"
-    },
-    "ai_description": "Issue #360 on T-link integration for AI developer onboarding has been removed from the tracker. The task is no longer active, so the community can focus on current priorities without this pending item. If you were tracking it, no further action is needed.Issue #360 on T-link integration for AI developer onboarding has been removed from the tracker. The task is no longer active, so the community can focus on current priorities without this pending item. If you were tracking it, no further action is needed."
-  },
-  {
-    "id": "evt_20260910143102_ba75f02e",
-    "timestamp": "2026-09-10T14:31:02.672043+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#361 — [P0] Threshold + Params for big model. Part 2.",
-      "url": null,
-      "file": "00361-p0-threshold-params-for-big-model-part-2.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Threshold + Params for big model. Part 2.\n    <span class=\"issues-number\">#361</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-16 22:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top"
-    },
-    "ai_description": "Issue #361 on threshold and parameter tuning for the big model has been closed and removed from our tracking. This P0 task is now resolved, which means the configuration work for large-scale inference is complete)Skip further maintenance. Thanks to everyone who contributed to nailing down those parameters. 🚀 — the network should run smoother for heavy workloads now."
-  },
-  {
-    "id": "evt_20260910143102_b45bbecc",
-    "timestamp": "2026-09-10T14:31:02.672049+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#365 — The variable `DAPI_API__POC_CALLBACK_URL` is causing a lot of issues. It might be simpler in the future to use `gRPC` and handle callbacks within the same connection instead.",
-      "url": null,
-      "file": "00365-the-variable-dapi-api-poc-callback-url-is-causing-a-lot-of-i.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    The variable `DAPI_API__POC_CALLBACK_URL` is causing a lot of issues. It might be simpler in the future to use `gRPC` and handle callbacks within the same connection instead.\n    <span class=\"issues-number\">#365</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-18 19:35 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n  "
-    },
-    "ai_description": "Issue #365 has been removed from the tracker. It previously proposed replacing the problematic DAPI_API__POC_CALLBACK_URL variable with gRPC to handle callbacks within a single connection. The cleanup helps keep our issue backlog focused on current priorities.Issue #365 has been removed from our tracker. It previously flagged the DAPI_API__POC_CALLBACK_URL variable as a recurring pain point and suggested pivoting to gRPC for in-connection callbacks. Cleaning this up keeps our backlog focused on actionable, current work."
   }
 ]
