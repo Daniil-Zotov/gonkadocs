@@ -122,15 +122,15 @@ This work covers assessment of incoming security reports, review of the v0.2.16 
     <div class="prop-tally-yes" style="width:1.1%"></div>
     <div class="prop-tally-no" style="width:0.1%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:0.0%"></div>
+    <div class="prop-tally-abstain" style="width:10.8%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>92.9%</strong> (11,922)</span>
-    <span class="prop-tally-no-text">No <strong>7.1%</strong> (911)</span>
+    <span class="prop-tally-yes-text">Yes <strong>9.2%</strong> (11,922)</span>
+    <span class="prop-tally-no-text">No <strong>0.7%</strong> (911)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 12,833 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>1.2%</strong> (12,833 / 1,085,079) · Quorum <strong>25%</strong> (271,269)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>90.1%</strong> (117,056)</span>
+    <span class="prop-tally-total-text">Total 129,889 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>12.0%</strong> (129,889 / 1,085,079) · Quorum <strong>25%</strong> (271,269)</span>
   </div>
 </div>
 
@@ -144,6 +144,7 @@ This work covers assessment of incoming security reports, review of the v0.2.16 
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl" target="_blank" class="prop-voter-addr">gonka1qwfrtz…33xdkl</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5" target="_blank" class="prop-voter-addr">gonka1gyk0aa…k8svc5</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-abstain">Abstain 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939" target="_blank" class="prop-voter-addr">gonka1ajmhqg…z8s939</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
 </table>
