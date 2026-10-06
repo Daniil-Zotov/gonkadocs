@@ -72,7 +72,7 @@ hide:
   </div>
   <div class="prop-card-desc">Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>10.0%</strong> (13,677)</span> · <span class="prop-tally-no-text">No <strong>4.6%</strong> (6,373)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>85.4%</strong> (117,056)</span><span class="prop-card-funding prop-card-funding-voting">$104,150 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>12.6%</strong> (137,106 / 1,084,611) · Quorum <strong>25%</strong> (271,152)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>13.0%</strong> (137,106 / 1,057,351) · Quorum <strong>25%</strong> (264,337)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-08T02:40:59.050603241Z">
@@ -87,7 +87,7 @@ hide:
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (176,557)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>16.3%</strong> (176,557 / 1,084,611) · Quorum <strong>25%</strong> (271,152)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>16.7%</strong> (176,557 / 1,057,351) · Quorum <strong>25%</strong> (264,337)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1595,7 +1595,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>112 proposals across 6 quarters. Last updated: 2026-10-06 16:00 UTC</em>
+<em>112 proposals across 6 quarters. Last updated: 2026-10-06 16:20 UTC</em>
 </div>
 
 <script>
