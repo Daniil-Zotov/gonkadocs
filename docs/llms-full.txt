@@ -21972,7 +21972,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-06 10:08 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-06 16:45 UTC*
 
 ---
 
@@ -31159,7 +31159,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   
   Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…
   Yes 10.0% (13,677) · No 4.6% (6,373) · Veto 0.0% (0) · Abstain 85.4% (117,056)$104,150 · Community Pool
-  ✗ Turnout 12.6% (137,106 / 1,084,611) · Quorum 25% (271,152)
+  ✗ Turnout 13.0% (137,106 / 1,057,351) · Quorum 25% (264,337)
 
   
     #112 – Upgrade Proposal: v0.2.16
@@ -31171,8 +31171,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-08
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …
-  Yes 100.0% (137,106) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 12.6% (137,106 / 1,084,611) · Quorum 25% (271,152)
+  Yes 100.0% (176,557) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 16.7% (176,557 / 1,057,351) · Quorum 25% (264,337)
 
   
     #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
@@ -32447,7 +32447,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-112 proposals across 6 quarters. Last updated: 2026-10-06 15:00 UTC
+112 proposals across 6 quarters. Last updated: 2026-10-06 16:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -81610,7 +81610,7 @@ $2,100 · Community Pool · 132,896 GNK · Gov Module
   
   Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…
   Yes 10.0% (13,677) · No 4.6% (6,373) · Veto 0.0% (0) · Abstain 85.4% (117,056)$104,150 · Community Pool
-  ✗ Turnout 12.6% (137,106 / 1,084,611) · Quorum 25% (271,152)
+  ✗ Turnout 13.0% (137,106 / 1,057,351) · Quorum 25% (264,337)
 
   
     #112 – Upgrade Proposal: v0.2.16
@@ -81622,8 +81622,8 @@ $2,100 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-10-08
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …
-  Yes 100.0% (137,106) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 12.6% (137,106 / 1,084,611) · Quorum 25% (271,152)
+  Yes 100.0% (176,557) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 16.7% (176,557 / 1,057,351) · Quorum 25% (264,337)
 
   
     #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
@@ -82215,12 +82215,12 @@ The full technical scope, contributor list, individual contributions, PR referen
     
   
   
-    Yes 100.0% (137,106)
+    Yes 100.0% (176,557)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 137,106 votes
-    ✗ Turnout 12.6% (137,106 / 1,084,611) · Quorum 25% (271,152)
+    Total 176,557 votes
+    ✗ Turnout 16.7% (176,557 / 1,057,351) · Quorum 25% (264,337)
   
 
 Voters
@@ -82231,6 +82231,7 @@ gonka1qwfrtz…33xdklYes 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
 gonka1ym3np7…0e4a2pYes 100.0%
 gonka1gyk0aa…k8svc5Yes 100.0%
+gonka133xdfv…ptfwuhYes 100.0%
 gonka168rtjf…lnkns2Yes 100.0%
 gonka1ajmhqg…z8s939Yes 100.0%
 
@@ -82379,7 +82380,7 @@ This work covers assessment of incoming security reports, review of the v0.2.16 
     Veto 0.0% (0)
     Abstain 85.4% (117,056)
     Total 137,106 votes
-    ✗ Turnout 12.6% (137,106 / 1,084,611) · Quorum 25% (271,152)
+    ✗ Turnout 13.0% (137,106 / 1,057,351) · Quorum 25% (264,337)
   
 
 Voters
