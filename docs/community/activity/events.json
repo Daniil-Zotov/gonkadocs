@@ -21,7 +21,7 @@
       ],
       "count": 1
     },
-    "ai_description": null
+    "ai_description": "Join us today for the monthly GONKA AMA! This is your chance to hear updates straight from the team and ask questions about the network's progress. Don't miss it — see you there! 🚀💬 #Gonka #AMA #CommunityEvent #DecentralizedAI #MonthlyAMA #JoinUs"
   },
   {
     "id": "evt_20261006031550_294867d5",
@@ -41,7 +41,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q4/113/"
     },
-    "ai_description": null
+    "ai_description": "The calendar now marks the end of voting for proposal #113, which seeks to distribute 104,150 USDT from community funds to reward development, research, infrastructure, security reporting, and code review work tied to the v0.2.16 release. This vote determines how contributors are compensated for their efforts, so make sure your voice is counted before the deadline."
   },
   {
     "id": "evt_20261006031550_7a6f5fdd",
@@ -61,7 +61,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q4/112/"
     },
-    "ai_description": null
+    "ai_description": "Voting for upgrade proposal v0.2.16 is now on the calendar, and the window closes soon. This proposal introduces protocol fixes, including a change to how Trusted Weight is calculated to prevent sudden compute spikes from skewing the network. Head over and cast your vote to shape the next iteration of the chain."
   },
   {
     "id": "evt_20261005224813_fa2a5e7c",
