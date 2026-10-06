@@ -2,7 +2,7 @@
 title: "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients"
 source: https://github.com/gonka-ai/gonka/issues/1690
 issue_number: 1690
-synced_at: 2026-10-06T17:16:48Z
+synced_at: 2026-10-06T21:42:57Z
 template: issues-main.html
 ---
 
