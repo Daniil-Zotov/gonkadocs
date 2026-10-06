@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261006103537_a5250dc3",
+    "timestamp": "2026-10-06T10:35:37.244341+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1881 — The Gateway That Never Forgets",
+      "url": "/community/issues/01881-the-gateway-that-never-forgets/",
+      "file": "01881-the-gateway-that-never-forgets.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" m",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" "
+    },
+    "ai_description": "Issue #1881 \"The Gateway That Never Forgets\" now has a second comment from the community, bringing the discussion to two contributions total. The issue remains open, so feel free to jump in and share your thoughts on this topic. New input could help shape the direction of this proposal.Issue #1881 \"The Gateway That Never Forgets\" just picked up a second comment, doubling the discussion on this open proposal. The issue remains open, so the new input could help shape how the community approaches this idea."
+  },
+  {
     "id": "evt_20261006031550_4d0ce58f",
     "timestamp": "2026-10-06T03:15:50.458240+00:00",
     "section": "calendar",
@@ -8228,20 +8244,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BUG: Wrong error message for unsupported models in /chat/completions\n    <span class=\"issues-number\">#351</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-10 23:19 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
     },
     "ai_description": "Issue #351 about the misleading error message for unsupported models in /chat/completions has been closed and removed from the feed. Thanks to everyone who contributed to the discussion on improving API clarity. The fix is now in place, so users will get accurate feedback going forward. 🚀\n\nWait, I need to clarify: the action says \"Removed\" — meaning the issue was deleted, not closed. Let me correct that.\n\nIssue #351 about the incorrect error message for unsupported models in /chat/completions has been removed from the feed. This cleanup keeps our issue tracker focused on active, actionable items. If you need the details, they're still in the git history."
-  },
-  {
-    "id": "evt_20260910143102_1895a2aa",
-    "timestamp": "2026-09-10T14:31:02.672028+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#359 — [P0]: AI Developer onboarding: Aiden Chat integration",
-      "url": null,
-      "file": "00359-p0-ai-developer-onboarding-aiden-chat-integration.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0]: AI Developer onboarding: Aiden Chat integration\n    <span class=\"issues-number\">#359</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-16 20:30 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar"
-    },
-    "ai_description": "Issue #359 about integrating Aiden Chat for AI developer onboarding has been closed and removed from the active feed. This P0 task is no longer on the table, so the community can shift focus to other priorities. Thanks to @tcharchian for raising it, but it's now settled and off the radar."
   }
 ]
