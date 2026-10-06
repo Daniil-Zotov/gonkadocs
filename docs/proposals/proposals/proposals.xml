@@ -7,6 +7,34 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#113 – Distribute v0.2.16 bounty rewards</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q4/113/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/113/</guid>
+      <pubDate>Tue, 06 Oct 2026 02:43:54 +0000</pubDate>
+      <category>Voting</category>
+      <description>Bounty Payments Associated with v0.2.16
+
+This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protocol. The work includes contributions to upgrade v0.2.16 and larger projects spanning multiple upgrade cycles.
+
+## 1. Decode-PoC: 38,000 USDT.
+
+Decode-PoC moves from prefill-only proof of compute covering token generation, aiming to make measured compute capacity better align with real inference worklo</description>
+    </item>
+    <item>
+      <title>#112 – Upgrade Proposal: v0.2.16</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q4/112/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/112/</guid>
+      <pubDate>Tue, 06 Oct 2026 02:40:59 +0000</pubDate>
+      <category>Voting</category>
+      <description>Upgrade Proposal: v0.2.16
+
+The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.
+
+Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately increased a participant's power in governance, BLS, and PoC validation. The upgrade limits that power to compute confirmed in the previous epoch. New or returning participants start with zero voting power but still earn rewards.
+
+Dynamic Coefficients v1. Governance can set a target percentage of net</description>
+    </item>
+    <item>
       <title>#111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q4/111/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/111/</guid>

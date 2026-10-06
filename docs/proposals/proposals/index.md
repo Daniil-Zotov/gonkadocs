@@ -34,16 +34,16 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">110</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">73</span><span class="qs-desc">Passed (66%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">36</span><span class="qs-desc">Rejected (33%)</span></div>
+<div class="qs-stat total"><span class="qs-num">112</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">73</span><span class="qs-desc">Passed (65%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">36</span><span class="qs-desc">Rejected (32%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:42%"></span></span><span class="qs-value">46</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:33%"></span></span><span class="qs-value">36</span></div>
-<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">19</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:42%"></span></span><span class="qs-value">47</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:32%"></span></span><span class="qs-value">36</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:18%"></span></span><span class="qs-value">20</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">4</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">3</span></div>
 <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">2</span></div>
@@ -58,7 +58,37 @@ hide:
 <div class="prop-quarter" id="2026-q4" markdown="1">
 ## 2026-Q4
 
-*2 proposals*
+*4 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-08T02:43:54.969935178Z">
+  <div class="prop-card-header">
+    <a href="2026-q4/113/" class="prop-card-title">#113 – Distribute v0.2.16 bounty rewards</a>
+    <span class="prop-vote-countdown" data-deadline="2026-10-08T02:43:54.969935178Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-10-06</span>
+    <span>Voting ends 2026-10-08</span>
+  </div>
+  <div class="prop-card-desc">Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>100.0%</strong> (911)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">$104,150 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>0.1%</strong> (911 / 1,085,079) · Quorum <strong>25%</strong> (271,269)</span></div>
+</div>
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-08T02:40:59.050603241Z">
+  <div class="prop-card-header">
+    <a href="2026-q4/112/" class="prop-card-title">#112 – Upgrade Proposal: v0.2.16</a>
+    <span class="prop-vote-countdown" data-deadline="2026-10-08T02:40:59.050603241Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-10-06</span>
+    <span>Voting ends 2026-10-08</span>
+  </div>
+  <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (9,618)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>0.9%</strong> (9,618 / 1,085,079) · Quorum <strong>25%</strong> (271,269)</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
@@ -1565,7 +1595,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>110 proposals across 6 quarters. Last updated: 2026-10-06 02:40 UTC</em>
+<em>112 proposals across 6 quarters. Last updated: 2026-10-06 03:00 UTC</em>
 </div>
 
 <script>

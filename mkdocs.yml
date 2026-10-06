@@ -74,6 +74,8 @@ nav:
       - On-Chain Governance: proposals/proposals/index.md
       - 2026-Q4:
         - Overview: proposals/proposals/2026-q4/index.md
+        - "#113 – Distribute v0.2.16 bounty rewards": proposals/proposals/2026-q4/113/index.md
+        - "#112 – Upgrade Proposal: v0.2.16": proposals/proposals/2026-q4/112/index.md
         - "#111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification": proposals/proposals/2026-q4/111/index.md
         - "#110 – GRC Proposal #4 - Restitution": proposals/proposals/2026-q4/110/index.md
       - 2026-Q3:
