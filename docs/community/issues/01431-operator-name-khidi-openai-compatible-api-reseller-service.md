@@ -2,7 +2,7 @@
 title: "#1431 — Operator name: Khidi — OpenAI-compatible API reseller service"
 source: https://github.com/gonka-ai/gonka/issues/1431
 issue_number: 1431
-synced_at: 2026-10-05T22:45:46Z
+synced_at: 2026-10-06T03:07:13Z
 template: issues-main.html
 ---
 

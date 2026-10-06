@@ -31080,14 +31080,14 @@ HardCore Arena позволит протестировать модель на �
 
 ## Overview
 
-110Total Proposals
-73Passed (66%)
-36Rejected (33%)
+112Total Proposals
+73Passed (65%)
+36Rejected (32%)
 1Failed (1%)
 
-Funding / Grants46
+Funding / Grants47
 Governance Parameters36
-Software Upgrade19
+Software Upgrade20
 Other4
 GRC / Restitution3
 Models / IBC2
@@ -31097,7 +31097,33 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q4
 
-*2 proposals*
+*4 proposals*
+
+  
+    #113 – Distribute v0.2.16 bounty rewards
+    
+    Voting
+  
+  
+    Submitted 2026-10-06
+    Voting ends 2026-10-08
+  
+  Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…
+  Yes 0.0% (0) · No 100.0% (911) · Veto 0.0% (0) · Abstain 0.0% (0)$104,150 · Community Pool
+  ✗ Turnout 0.1% (911 / 1,085,079) · Quorum 25% (271,269)
+
+  
+    #112 – Upgrade Proposal: v0.2.16
+    
+    Voting
+  
+  
+    Submitted 2026-10-06
+    Voting ends 2026-10-08
+  
+  Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …
+  Yes 100.0% (9,618) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 0.9% (9,618 / 1,085,079) · Quorum 25% (271,269)
 
   
     #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
@@ -32372,7 +32398,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-110 proposals across 6 quarters. Last updated: 2026-10-06 02:40 UTC
+112 proposals across 6 quarters. Last updated: 2026-10-06 03:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -81512,16 +81538,43 @@ Contract Details
 
 ## 2026-Q4 Summary
 
-2Total Proposals
-1Passed (50%)
-1Rejected (50%)
+4Total Proposals
+1Passed (25%)
+1Rejected (25%)
 
-Funding / Grants2
+Funding / Grants3
+Software Upgrade1
 
 $2,100 · Community Pool · 132,896 GNK · Gov Module
 
 2026-Q4
-2 proposals
+4 proposals
+
+  
+    #113 – Distribute v0.2.16 bounty rewards
+    
+    Voting
+  
+  
+    Submitted 2026-10-06
+    Voting ends 2026-10-08
+  
+  Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…
+  Yes 0.0% (0) · No 100.0% (911) · Veto 0.0% (0) · Abstain 0.0% (0)$104,150 · Community Pool
+  ✗ Turnout 0.1% (911 / 1,085,079) · Quorum 25% (271,269)
+
+  
+    #112 – Upgrade Proposal: v0.2.16
+    
+    Voting
+  
+  
+    Submitted 2026-10-06
+    Voting ends 2026-10-08
+  
+  Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …
+  Yes 100.0% (9,618) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 0.9% (9,618 / 1,085,079) · Quorum 25% (271,269)
 
   
     #111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification
@@ -82053,6 +82106,465 @@ Contract Details
         "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
         "amount": "160000000000",
         "recipient": "gonka1ycfuz72tutxra27x47ukqye8zmxyuygx8gdh0m"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+---
+
+## #112 – Upgrade Proposal: v0.2.16
+
+# #112 – Upgrade Proposal: v0.2.16
+
+Voting
+
+**Proposal ID:** `112`
+
+**Type:** Software Upgrade
+
+**Submit:** 2026-10-06 02:40 UTC
+
+**Voting:** 2026-10-06 02:40 UTC → 2026-10-08 02:40 UTC
+
+**Proposer:** [`gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d`](https://gonka.gg/address/gonka18lluv53n4h9z34qu20vxcvypgdkhsg6nn2cl2d){:target="_blank"}
+
+**Metadata:** [https://github.com/gonka-ai/gonka/blob/136041c81ea8ff38e7620d76af66a7c7fe7eec50/proposals/governance-artifacts/update-v0.2.16/README.md](https://github.com/gonka-ai/gonka/blob/136041c81ea8ff38e7620d76af66a7c7fe7eec50/proposals/governance-artifacts/update-v0.2.16/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/112){:target="_blank"}
+
+Upgrade Proposal: v0.2.16
+
+The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.
+
+Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately increased a participant's power in governance, BLS, and PoC validation. The upgrade limits that power to compute confirmed in the previous epoch. New or returning participants start with zero voting power but still earn rewards.
+
+Dynamic Coefficients v1. Governance can set a target percentage of network compute and a coefficient range for each model. The protocol adjusts the coefficient inside that range to move compute toward the target. Compute above the target is scored at the minimum coefficient.
+
+Fee. The upgrade groups transaction types and adds per-message gas rules. The epoch and cosmos groups are enabled by default at 1 ngonka per gas. All other groups remain disabled. Before the upgrade, hosts must check that their cold-to-warm feegrant is valid. The cold account must have enough spendable GNK to cover fees.
+
+PoC Challenge. An approved challenger can require an active host to leave inference and run PoC at full capacity. The challenger locks a payment, which goes to the host if it passes or is refunded if it fails. Failure carries the same penalty as failed Confirmation PoC. Only allowlisted devshard escrow creators can open a challenge. If the allowlist is empty, anyone can open one.
+
+Upgrade Plan. Existing hosts are not required to rebuild their api or node containers. Devshard binaries stay on the versions already approved. New hosts joining after the upgrade should use the deploy/join files published with the final v0.2.16 release.
+
+Migration. The handler extends cold-to-warm grants with PoC Challenge and model intent messages. It moves approved devshard versions into a separate store without changing the approved list. It starts dynamic coefficients from current model scales and initializes PoC Challenge with a payment ratio of 0.1, at most 4 active challenges, and a minimum punishable segment of 300 blocks.
+
+Testing. The upgrade from v0.2.15 to v0.2.16 was rehearsed on a testnet using alpha builds. Compatibility testing covered devshard v4.1 and v5 with both v0.2.15 and v0.2.16.
+
+The full technical scope, contributor list, individual contributions, PR references are available here: 
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 100.0% (9,618)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
+    Total 9,618 votes
+    ✗ Turnout 0.9% (9,618 / 1,085,079) · Quorum 25% (271,269)
+  
+
+Voters
+
+VoterVote
+
+gonka1gyk0aa…k8svc5Yes 100.0%
+gonka1ajmhqg…z8s939Yes 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "plan": {
+      "name": "v0.2.16",
+      "time": "0001-01-01T00:00:00Z",
+      "height": "6449400",
+      "info": "{\n        \"binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.16-post1/inferenced-amd64.zip?checksum=sha256:d2ef13374fb15518a02ae5fac83d139d66fb79a8c93d97f4e78b43ce30e14f98\"\n        },\n        \"api_binaries\": {\n            \"linux/amd64\": \"https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.16-post1/decentralized-api-amd64.zip?checksum=sha256:f64b9433cd27d9ee433f1aede89d6be910f6deb8df644d55e2dfe30b8f873802\"\n        }\n    }",
+      "upgraded_client_state": null
+    }
+  }
+]
+```
+
+---
+
+## #113 – Distribute v0.2.16 bounty rewards
+
+# #113 – Distribute v0.2.16 bounty rewards
+
+Voting
+
+**Proposal ID:** `113`
+
+**Type:** Execute Contract
+
+**Submit:** 2026-10-06 02:43 UTC
+
+**Voting:** 2026-10-06 02:43 UTC → 2026-10-08 02:43 UTC
+
+**Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
+
+$104,150 · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/113){:target="_blank"}
+
+Bounty Payments Associated with v0.2.16
+
+This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protocol. The work includes contributions to upgrade v0.2.16 and larger projects spanning multiple upgrade cycles.
+
+## 1. Decode-PoC: 38,000 USDT.
+
+Decode-PoC moves from prefill-only proof of compute covering token generation, aiming to make measured compute capacity better align with real inference workloads. Axel-t published the [original proposal]() in April 2026.
+
+The work covers CUDA graph support, vLLM porting, and testing across hardware configurations and models.
+
+Axel-t: 18,000 USDT for CUDA graph support. Technical details are available in the [PoC-decode documentation]().
+
+- Previously paid: 30,000 USDT on June 17, 2026, through governance proposal 76, for the scheme's design and experimental feasibility validation.
+
+- Upon completion, a final bounty of 12,000 USDT for Axel-t's contribution to the vLLM port, test suite, and on-chain integration will be proposed together with the upgrade that integrates decode-PoC on-chain. Both the previous payment and the planned final bounty are outside this proposal's total.
+
+Kaitaku.ai: 20,000 USDT for porting, experiments, validation, and integration work. The [initial report]() covers June 9-September 10, 2026, with [continued integration work]() documented through September 25, 2026.
+
+## 2. gonka-poc plugin: 5,000 USDT.
+
+This project packages PoC functionality as a vLLM plugin, reducing the work needed to support new vLLM releases.
+
+Kaitaku.ai: 5,000 USDT for plugin development and integration. The [report]() covers June 16-September 8, 2026.
+
+## 3. Model benchmarking and integration: 13,000 USDT.
+
+This work prepares candidate models for use on Gonka. It includes necessary vLLM updates, PoC benchmarks across common GPU types, and testing validation thresholds to detect model substitution while allowing different GPU types to validate each other. It also includes on-chain proposals with model parameters and coefficients.
+
+Kaitaku.ai:
+
+- DeepSeek-V4-Flash: 5,000 USDT for experiments, a vLLM update, an on-chain model proposal, and additional experiments for the 0731 version.
+
+- GLM-5.3-Flash: 4,000 USDT for experiments, a vLLM update, and an on-chain model proposal.
+
+- GLM-5.2: 2,000 USDT for experiments and deployment images for B300, B200, and H200.
+
+- Hy3: 2,000 USDT for experiments. This initial evaluation did not result in an on-chain proposal.
+
+> The proposed amounts use the following breakdown: 2,000 for a set of experiments; 1,000 for a vLLM update associated with a new model proposal; and 1,000 for preparing the on-chain proposal with model parameters and coefficients. DeepSeek includes an additional 1,000 for repeating experiments for the 0731 version, without any additional updates specific for that version.
+
+## 4. Vulnerability reporting: 5,000 USDT.
+
+This payment recognizes the report of a vulnerability that could halt the chain.
+
+@vitaly-andr: 5,000 USDT for the high-severity vulnerability report [#1205](), with a proposed fix in [cosmos-sdk#16]().
+
+## 5. Trainshards: 7,000 USDT.
+
+This work contributes to the development of the network's training capabilities, including contributions [#1350]() and [#1618]().
+
+@x0152: 7,000 USDT for eight weeks of part-time Trainshards v0 development.
+
+## 6. ML-node observability: 12,500 USDT.
+
+This project provides an ML-node metrics exporter, a DAPI federation endpoint, and Grafana dashboards for monitoring node performance, together with hosting and maintenance.
+
+Kaitaku.ai: 12,000 USDT, comprising 4,000 for development and 8,000 for hosting and maintenance, with a commitment to continued hosting and support. The [report]() covers July 6-September 8, 2026. Grafana hosting began in July, and the public community instance launched on September 4.
+
+@qdanik: 500 USDT for contributions to the same project.
+
+## 7. GPU rental reimbursement: 9,600 USDT.
+
+This covers GPUs rented for model and PoC experiments across different hardware configurations since June 1, 2026.
+
+Kaitaku.ai: 9,600 USDT for GPU rental expenses related to model and PoC experiments. Details of the experiments and GPU configurations are available in [Kaitaku.ai's technical reports]() covering June-September 2026.
+
+*These costs are listed separately from Kaitaku.ai's development and research bounties. Other teams' or projects' bounty amounts may already include their GPU costs.*
+
+## 8. Security reviews, upgrade reviews, fixes, and release management: 14,050 USDT.
+
+This work covers assessment of incoming security reports, review of the v0.2.16 upgrade, and fixes addressing identified issues.
+
+@staaason / @zpoken: 8,050 USDT jointly for reviewing 115 HackerOne reports and delivering fixes [#1767]() and [#1552](), the latter incorporated into [#1623](). The review work covered initial assessment of approximately 50% of incoming HackerOne reports over six weeks. The fixes address genesis-transfer status reporting and PoC submission permissions.
+
+@vitaly-andr: 1,000 USDT for upgrade review with valuable actionable comments.
+
+@bonujel: 1,000 USDT for upgrade review with valuable actionable comments.
+
+@cyberdelamain: 3,000 USDT, comprising 1,000 for upgrade review and 2,000 for fixes [#1828](), [#1846](), [#1845](), and [#1859]().
+
+@x0152: 1,000 USDT for upgrade review work under release management.
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 0.0% (0)
+    No 100.0% (911)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
+    Total 911 votes
+    ✗ Turnout 0.1% (911 / 1,085,079) · Quorum 25% (271,269)
+  
+
+Voters
+
+VoterVote
+
+gonka1gyk0aa…k8svc5No 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 2 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 3 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 4 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 5 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 6 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 7 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 8 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 9 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 10 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 11 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 12 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 13 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 14 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 15 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+| 16 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "12000000000",
+        "recipient": "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "500000000",
+        "recipient": "gonka1j3f2xkapx8cmczpjqcsrh7cc3peyj3ngkjv4p8"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "20000000000",
+        "recipient": "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "18000000000",
+        "recipient": "gonka1yhdhp4vwsvdsplv4acksntx0zxh8saueq6lj9m"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "5000000000",
+        "recipient": "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "5000000000",
+        "recipient": "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "4000000000",
+        "recipient": "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "2000000000",
+        "recipient": "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "2000000000",
+        "recipient": "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "9600000000",
+        "recipient": "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "8000000000",
+        "recipient": "gonka18enyz7h6hh5zjveee5wnhkhrcexamfz0zdxxqe"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "5000000000",
+        "recipient": "gonka1uqt4hue8tljwwgdkvtthyl3n8kkkqtydyns4cm"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "1000000000",
+        "recipient": "gonka1uqt4hue8tljwwgdkvtthyl3n8kkkqtydyns4cm"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "1000000000",
+        "recipient": "gonka1zqss46r6jf6dhhyaa777kc2ppvjhn0ufkx4y57"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "8050000000",
+        "recipient": "gonka1s8zggm642e3kncy48c7vxwmeclt2wxyyd8qtdt"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "3000000000",
+        "recipient": "gonka15u0r3mf6t7zsfuslusnyt7hsjrq357yumpe8st"
       }
     },
     "funds": []

@@ -21,6 +21,8 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
 - 2026-10-06 12:30 UTC — Ежемесячная AMA GONKA | Monthly AMA GONKA: https://us06web.zoom.us/j/81184942251
+- 2026-10-08 02:40 UTC — Voting ends: #112 – Upgrade Proposal: v0.2.16: https://gonkadocs.com/proposals/proposals/2026-q4/112/
+- 2026-10-08 02:43 UTC — Voting ends: #113 – Distribute v0.2.16 bounty rewards: https://gonkadocs.com/proposals/proposals/2026-q4/113/
 
 ## Protocol Documentation
 
@@ -213,7 +215,9 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#86 – Increase Kimi-K2.6 and GLM-5.2 weight_scale_factor by 5%](/proposals/proposals/2026-q3/86/): Auto-synced content
 - [2026-Q4 Proposals](/proposals/proposals/2026-q4/): Auto-synced content
 - [#110 – GRC Proposal #4 - Restitution](/proposals/proposals/2026-q4/110/): Auto-synced content
+- [#112 – Upgrade Proposal: v0.2.16](/proposals/proposals/2026-q4/112/): Auto-synced content
 - [#111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification](/proposals/proposals/2026-q4/111/): Auto-synced content
+- [#113 – Distribute v0.2.16 bounty rewards](/proposals/proposals/2026-q4/113/): Auto-synced content
 - [2025-Q3 Proposals](/proposals/proposals/2025-q3/): Auto-synced content
 - [Adjust Params According to real block length](/proposals/proposals/2025-q3/1/full-proposal/): Auto-synced content
 - [#1 – Correct Epoch Length](/proposals/proposals/2025-q3/1/): Auto-synced content
