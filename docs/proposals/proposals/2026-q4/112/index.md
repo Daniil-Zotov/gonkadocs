@@ -59,18 +59,18 @@ The full technical scope, contributor list, individual contributions, PR referen
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:42.1%"></div>
+    <div class="prop-tally-yes" style="width:41.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (390,602)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (451,109)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 390,602 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>42.1%</strong> (390,602 / 927,575) · Quorum <strong>25%</strong> (231,893)</span>
+    <span class="prop-tally-total-text">Total 451,109 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>41.0%</strong> (451,109 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span>
   </div>
 </div>
 

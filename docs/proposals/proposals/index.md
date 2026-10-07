@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-10-08</span>
   </div>
   <div class="prop-card-desc">Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>71.0%</strong> (277,326)</span> · <span class="prop-tally-no-text">No <strong>1.6%</strong> (6,416)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>27.4%</strong> (106,860)</span><span class="prop-card-funding prop-card-funding-voting">$104,150 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>42.1%</strong> (390,602 / 927,575) · Quorum <strong>25%</strong> (231,893)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>70.4%</strong> (279,771)</span> · <span class="prop-tally-no-text">No <strong>1.6%</strong> (6,416)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>28.0%</strong> (111,460)</span><span class="prop-card-funding prop-card-funding-voting">$104,150 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>36.2%</strong> (397,647 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-08T02:40:59.050603241Z">
@@ -86,8 +86,8 @@ hide:
     <span>Voting ends 2026-10-08</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (390,602)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>42.1%</strong> (390,602 / 927,575) · Quorum <strong>25%</strong> (231,893)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (451,109)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>41.0%</strong> (451,109 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1595,7 +1595,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>112 proposals across 6 quarters. Last updated: 2026-10-07 19:22 UTC</em>
+<em>112 proposals across 6 quarters. Last updated: 2026-10-07 23:40 UTC</em>
 </div>
 
 <script>
