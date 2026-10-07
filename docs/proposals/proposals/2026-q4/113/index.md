@@ -119,18 +119,18 @@ This work covers assessment of incoming security reports, review of the v0.2.16 
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:5.9%"></div>
+    <div class="prop-tally-yes" style="width:2.3%"></div>
     <div class="prop-tally-no" style="width:0.6%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
-    <div class="prop-tally-abstain" style="width:11.1%"></div>
+    <div class="prop-tally-abstain" style="width:9.7%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>33.5%</strong> (62,274)</span>
-    <span class="prop-tally-no-text">No <strong>3.4%</strong> (6,373)</span>
+    <span class="prop-tally-yes-text">Yes <strong>18.4%</strong> (25,620)</span>
+    <span class="prop-tally-no-text">No <strong>4.6%</strong> (6,416)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>63.0%</strong> (117,056)</span>
-    <span class="prop-tally-total-text">Total 185,703 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>17.6%</strong> (185,703 / 1,057,351) · Quorum <strong>25%</strong> (264,337)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>76.9%</strong> (106,860)</span>
+    <span class="prop-tally-total-text">Total 138,896 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>12.6%</strong> (138,896 / 1,099,979) · Quorum <strong>25%</strong> (274,994)</span>
   </div>
 </div>
 
