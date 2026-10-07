@@ -86,8 +86,8 @@ hide:
     <span>Voting ends 2026-10-08</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (228,572)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>23.9%</strong> (228,572 / 955,875) · Quorum <strong>25%</strong> (238,968)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (390,602)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>40.9%</strong> (390,602 / 955,875) · Quorum <strong>25%</strong> (238,968)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1595,7 +1595,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>112 proposals across 6 quarters. Last updated: 2026-10-07 12:20 UTC</em>
+<em>112 proposals across 6 quarters. Last updated: 2026-10-07 12:40 UTC</em>
 </div>
 
 <script>
