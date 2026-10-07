@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-10-07T15:57:25.310915+00:00",
+  "snapshot_time": "2026-10-07T21:00:44.941478+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -121,6 +121,12 @@
       "status": null,
       "content_preview": "# Dashboard Maintainer Memo — Gonka v0.2.15\n\nv0.2.15 changed the wire format of a few `/v1` query endpoints as a side effect of an internal API refactor. A follow-up patch will restore the previous shapes; once it ships, hosts upgrade independently: **for a transition period, the endpoints below can answer in either shape depending on which host you query.** Please accept both. This ambiguity is limited to the endpoints and fields listed here — no need to generalize it; everything else is unchanged and single-shape.\n\nBelow, \"v0.2.15 shape\" is what hosts return today; \"restored shape\" is the pre-0.2.15 format that patched hosts will return.\n\n## 1. `/v1/epochs/latest` — params nested and stringified\n\nAffected field: `epoch_params`.\n\n- restored shape: `epoch_params.epoch_length` = `40320` (nu",
       "checksum": "705b5e3875d74b7b2937ba7757ace7459a4fd6014dc76813850a5d7ee9c11e52"
+    },
+    "dashboard-maintainer-memo-v0.2.16-fee.md": {
+      "title": "v0.2.16 fee check for dashboard maintainers",
+      "status": null,
+      "content_preview": "# v0.2.16 fee check for dashboard maintainers\n\n## What pays the fee\n\nThe host node signs with the warm key and sets the cold account as `fee_granter`. The chain withdraws the fee from the cold account, and only up to the cold-to-warm feegrant.\n\nTwo numbers both have to be large enough. The usable amount is the smaller of them.\n\n| Number                 | What it is                                                            | Query                                                  |\n| ---------------------- | --------------------------------------------------------------------- | ------------------------------------------------------ |\n| Feegrant allowance     | Cap the warm key may charge to the cold account. It is not a balance. | `GET /cosmos/feegrant/v1beta1/allowance/{cold}/{warm}` |\n| ",
+      "checksum": "f8ea8efd3551b5c9ecfd1d3b53c9e7312fb58cc0071cc375153abb5dceccae8d"
     },
     "dashboard-maintainer-memo-v0.2.16-h100.md": {
       "title": "H100 equivalent on dashboards",
@@ -323,8 +329,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 6, 2026\n\nTwo proposals are open for voting. From this release the upgrade and the bounty payments go as two separate proposals and are voted on separately.\n\n**#112 Upgrade Proposal: v0.2.16**\n\n[Proposal 112, Upgrade Proposal: v0.2.16](https://gon",
-      "checksum": "e857ae56156155c8a5706dccc99102fc60409c01cccac19a1364b4b13f6fec30"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 7, 2026\n\n**Upgrade v0.2.16: Pre-download binaries**\n\nThe on-chain governance process for the v0.2.16 upgrade proposal is nearing its conclusion.\n\n- Voting ends: October 8, 2026 at 02:40 AM UTC\n- Proposed upgrade height: 6449400\n- Estimated upgrad",
+      "checksum": "0aa7d2fe9e5afcc947be1eac148d69d1c29d7b566791af476f596c6e52daffd2"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

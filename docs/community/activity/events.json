@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261007210040_ff23ac63",
+    "timestamp": "2026-10-07T21:00:40.361859+00:00",
+    "section": "gonka_docs",
+    "action": "new",
+    "item": {
+      "title": "v0.2.16 fee check for dashboard maintainers",
+      "url": "/gonka/docs/dashboard-maintainer-memo-v0.2.16-fee/",
+      "file": "dashboard-maintainer-memo-v0.2.16-fee.md"
+    },
+    "details": {
+      "status": null,
+      "content": "# v0.2.16 fee check for dashboard maintainers\n\n## What pays the fee\n\nThe host node signs with the warm key and sets the cold account as `fee_granter`. The chain withdraws the fee from the cold account, and only up to the cold-to-warm feegrant.\n\nTwo numbers both have to be large enough. The usable amount is the smaller of them.\n\n| Number                 | What it is                                                            | Query                                                  |\n| ---------------------- | --------------------------------------------------------------------- | ------------------------------------------------------ |\n| Feegrant allowance     | Cap the warm key may charge to the cold account. It is not a balance. | `GET /cosmos/feegrant/v1beta1/allowance/{cold}/{warm}` |\n| "
+    },
+    "ai_description": "Gonka v0.2.16 introduces a clear fee check for dashboard maintainers: host nodes sign with the warm key while the cold account acts as the fee granter, with the usable amount being the smaller of the feegrant allowance and the cold account balance. This matters because it prevents unexpected fee failures by making both limits explicit and queryable, so maintainers can verify their setup before transactions run."
+  },
+  {
+    "id": "evt_20261007210040_95e8421f",
+    "timestamp": "2026-10-07T21:00:40.361913+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 6, 2026\n\nTwo proposals are open for voting. From this release the upgrade and the bounty payments go as two separate proposals and are voted on separately.\n\n**#112 Upgrade Proposal: v0.2.16**\n\n[Proposal 112, Upgrade Proposal: v0.2.16](https://gon",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 7, 2026\n\n**Upgrade v0.2.16: Pre-download binaries**\n\nThe on-chain governance process for the v0.2.16 upgrade proposal is nearing its conclusion.\n\n- Voting ends: October 8, 2026 at 02:40 AM UTC\n- Proposed upgrade height: 6449400\n- Estimated upgrad"
+    },
+    "ai_description": "The announcements page has been updated with a new entry for October 7, 2026, detailing the upcoming v0.2.16 upgrade. The community is reminded that voting closes on October 8 at 02:40 AM UTC, with the proposed upgrade height set at 6449400, so make sure your node is ready for the transition."
+  },
+  {
     "id": "evt_20261007164110_201689d3",
     "timestamp": "2026-10-07T16:41:10.390848+00:00",
     "section": "issues",
@@ -8222,35 +8254,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P1] Check why we often see slashing in logs\n    <span class=\"issues-number\">#335</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
     },
     "ai_description": "Issue #335 about investigating frequent slashing events in logs has been removed from the tracker. This P1 priority item is no longer tracked, so the community should keep an eye on logs independently. If you're seeing slashing in your node logs, please bring it up in the chat or open a new issue.Issue #335, which flagged frequent slashing events in logs as a P1 priority, has been removed from the tracker. This means the investigation is no longer actively tracked, so operators should stay alert to slashing patterns on their own. If you spot recurring slashing, please raise it in the community chat or file a new issue to keep visibility."
-  },
-  {
-    "id": "evt_20260910143102_cc74c423",
-    "timestamp": "2026-09-10T14:31:02.671953+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#336 — [P1] Retry for inference + don’t send inference to inactive nodes",
-      "url": null,
-      "file": "00336-p1-retry-for-inference-dont-send-inference-to-inactive-nodes.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Retry for inference + don’t send inference to inactive nodes\n    <span class=\"issues-number\">#336</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels"
-    },
-    "ai_description": "Issue #336, which proposed adding retry logic for inference requests and preventing tasks from being sent to inactive nodes, has been closed and removed from the tracker. This means the team has likely addressed the underlying reliability concerns, paving the way for smoother and more efficient inference routing across the network. Thanks to everyone who weighed in on this important optimization."
-  },
-  {
-    "id": "evt_20260910143102_3ed4d86a",
-    "timestamp": "2026-09-10T14:31:02.671959+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#337 — [P1] Config update process",
-      "url": null,
-      "file": "00337-p1-config-update-process.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Config update process\n    <span class=\"issues-number\">#337</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:19 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
-    },
-    "ai_description": "Issue #337 on the config update process has been closed and removed from the community feed, as it is no longer active. This cleanup helps keep our tracking focused on current priorities organically. Thanks to everyone who contributed to that discussion.Issue #337 on the config update process has been closed and removed from the community feed, as it is no longer active. This cleanup helps keep our tracking focused on current priorities. Thanks to everyone who contributed to that discussion."
   }
 ]

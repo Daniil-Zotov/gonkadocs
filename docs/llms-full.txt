@@ -2734,6 +2734,111 @@ If you only display participants and weights, this section does not apply to you
 
 ---
 
+## v0.2.16 fee check for dashboard maintainers
+
+# v0.2.16 fee check for dashboard maintainers
+
+## What pays the fee
+
+The host node signs with the warm key and sets the cold account as `fee_granter`. The chain withdraws the fee from the cold account, and only up to the cold-to-warm feegrant.
+
+Two numbers both have to be large enough. The usable amount is the smaller of them.
+
+| Number                 | What it is                                                            | Query                                                  |
+| ---------------------- | --------------------------------------------------------------------- | ------------------------------------------------------ |
+| Feegrant allowance     | Cap the warm key may charge to the cold account. It is not a balance. | `GET /cosmos/feegrant/v1beta1/allowance/{cold}/{warm}` |
+| Cold spendable balance | Coins the cold account can actually spend                             | `GET /cosmos/bank/v1beta1/spendable_balances/{cold}`   |
+
+A 10 GNK allowance with 0 spendable GNK cannot pay a fee. Vesting coins cannot pay a fee. A balance on the warm key cannot pay a fee while the node sets the cold account as `fee_granter`. Show the warm balance so a misplaced transfer is visible, and do not add it into the usable amount.
+
+Denom on the wire is `ngonka`. Display GNK as `amount / 1_000_000_000`.
+
+## Whom to check
+
+Check members of the current epoch group. They submit the paid messages `MsgPoCV2StoreCommit` and `MsgSubmitHardwareDiff`. Registered participants outside that group do not submit those messages on a schedule.
+
+```http
+GET /productscience/inference/inference/current_epoch_group_data
+```
+
+Use each `epoch_group_data.validation_weights[].member_address` as the cold account.
+
+## Find the warm key that pays
+
+```http
+GET /cosmos/authz/v1beta1/grants/granter/{cold}
+```
+
+Page with `pagination.limit` and `pagination.key` until `pagination.next_key` is empty.
+
+A paying warm key is a grantee whose grant `authorization.msg` is either:
+
+- `/inference.inference.MsgPoCV2StoreCommit`
+- `/inference.inference.MsgSubmitHardwareDiff`
+
+`MsgClaimRewards` is not enough. That message stays free, and a cold account often has extra claim-only grants that are not the key the node uses to submit StoreCommit or HardwareDiff.
+
+## Read the allowance
+
+```http
+GET /cosmos/feegrant/v1beta1/allowance/{cold}/{warm}
+```
+
+`{cold}` is the granter and `{warm}` is the grantee. A missing grant comes back as `fee-grant not found`.
+
+For a `BasicAllowance`:
+
+- `spend_limit` is the remaining cap in `ngonka`. It shrinks as fees are charged. An empty `spend_limit` means unlimited.
+- `expiration` must be in the future. Compare it to the current block time, not to the clock on the dashboard server.
+
+Usable fee amount:
+
+```text
+usable = min(cold spendable ngonka, remaining allowance)
+```
+
+Use the cold spendable amount alone when the allowance is unlimited.
+
+Also list every grant the cold account has issued:
+
+```http
+GET /cosmos/feegrant/v1beta1/issued/{cold}
+```
+
+If this list names a different grantee than the StoreCommit or HardwareDiff key, the node may be signing with a key that has no allowance. Judge the key that holds those two message grants.
+
+## Read balances
+
+```http
+GET /cosmos/bank/v1beta1/spendable_balances/{address}
+GET /cosmos/bank/v1beta1/balances/{address}
+GET /productscience/inference/streamvesting/total_vesting/{address}
+```
+
+Run all three for the cold account and for each paying warm key.
+
+| Field                                  | Counts as able to pay                                                                                                                      |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Cold `spendable_balances` for `ngonka` | Yes. This is the fee source.                                                                                                               |
+| Cold `balances`                        | Display only. It can match spendable when nothing is locked in the bank module.                                                            |
+| Cold `total_vesting`                   | No. Rewards sit here until they unlock. A host can show millions of GNK vesting and still have 0 spendable.                                |
+| Warm `spendable_balances`              | No. Show it. If it is non-zero while the cold spendable amount is short, say the coins are on the warm key and the node will not use them. |
+
+## What to flag
+
+Flag the host when any of these is true:
+
+- No grantee is authorized for StoreCommit or HardwareDiff.
+- That grantee has no cold-to-warm feegrant, or the grant is expired.
+- The remaining allowance is below one epoch of fees.
+- The cold spendable balance is below one epoch of fees.
+
+Show cold spendable, cold vesting, warm spendable, and the remaining allowance on the same row. Do not collapse them into one "balance" figure.
+
+A typical epoch for a current host is well under 1 GNK. The 10 GNK default allowance is a sufficient cap when the cold account actually holds spendable coins. The failure mode seen on chain is a valid 10 GNK allowance with 0 cold spendable and 0 warm spendable, while vesting holds the rewards.
+
+---
+
 ## H100 equivalent on dashboards
 
 # H100 equivalent on dashboards
@@ -2989,6 +3094,52 @@ This page is a list of model licenses. It does not say whether a model is on Gon
     To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)
    
     This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.
+
+## October 7, 2026
+
+**Upgrade v0.2.16: Pre-download binaries**
+
+The on-chain governance process for the v0.2.16 upgrade proposal is nearing its conclusion.
+
+- Voting ends: October 8, 2026 at 02:40 AM UTC
+- Proposed upgrade height: 6449400
+- Estimated upgrade time: October 8, 2026 at ~ 05:48 AM UTC
+
+Hosts are encouraged to review the proposal on [GitHub](https://github.com/gonka-ai/gonka/blob/136041c81ea8ff38e7620d76af66a7c7fe7eec50/proposals/governance-artifacts/update-v0.2.16/README.md) and participate in the vote.
+
+Pre-downloading binaries in advance may help avoid relying on GitHub availability during the upgrade window.
+
+**Before the upgrade, hosts must check that their cold-to-warm feegrant is valid. The cold account must have enough spendable GNK to cover fees.**
+
+Run from the directory that already contains `.dapi` and `.inference`.
+```
+# 1. Create Directories
+sudo mkdir -p .dapi/cosmovisor/upgrades/v0.2.16/bin \
+              .inference/cosmovisor/upgrades/v0.2.16/bin && \
+
+# 2. DAPI: Download -> Verify -> Unzip directly to bin -> Make Executable
+wget -q -O decentralized-api.zip "https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.16-post1/decentralized-api-amd64.zip" && \
+echo "f64b9433cd27d9ee433f1aede89d6be910f6deb8df644d55e2dfe30b8f873802 decentralized-api.zip" | sha256sum --check && \
+sudo unzip -o -j decentralized-api.zip -d .dapi/cosmovisor/upgrades/v0.2.16/bin/ && \
+sudo chmod +x .dapi/cosmovisor/upgrades/v0.2.16/bin/decentralized-api && \
+echo "DAPI Installed and Verified" && \
+
+# 3. Inference: Download -> Verify -> Unzip directly to bin -> Make Executable
+sudo rm -rf inferenced.zip .inference/cosmovisor/upgrades/v0.2.16/bin/ && \
+wget -q -O inferenced.zip "https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.16-post1/inferenced-amd64.zip" && \
+echo "d2ef13374fb15518a02ae5fac83d139d66fb79a8c93d97f4e78b43ce30e14f98 inferenced.zip" | sha256sum --check && \
+sudo unzip -o -j inferenced.zip -d .inference/cosmovisor/upgrades/v0.2.16/bin/ && \
+sudo chmod +x .inference/cosmovisor/upgrades/v0.2.16/bin/inferenced && \
+echo "Inference Installed and Verified" && \
+
+# 4. Cleanup and Final Check
+rm decentralized-api.zip inferenced.zip && \
+echo "--- Final Verification ---" && \
+sudo ls -l .dapi/cosmovisor/upgrades/v0.2.16/bin/decentralized-api && \
+sudo ls -l .inference/cosmovisor/upgrades/v0.2.16/bin/inferenced && \
+echo "332699b4ec760569f5670c6e1feb9d579c2a0c4ec6e0cc5095bf74ea1a37007f .dapi/cosmovisor/upgrades/v0.2.16/bin/decentralized-api" | sudo sha256sum --check && \
+echo "2f6a31c3ecda063a84fcfd80782fe5b00908f9b678da9204d6c7acba602260de .inference/cosmovisor/upgrades/v0.2.16/bin/inferenced" | sudo sha256sum --check
+```
 
 ## October 6, 2026
 
@@ -32447,7 +32598,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-112 proposals across 6 quarters. Last updated: 2026-10-07 16:20 UTC
+112 proposals across 6 quarters. Last updated: 2026-10-07 19:22 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {

@@ -76,6 +76,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Dashboard Maintainer Memo For v0.2.13](/gonka/docs/dashboard-maintainer-memo-v0.2.13/): Auto-synced content
 - [Dashboard Maintainer Memo — Gonka v0.2.14](/gonka/docs/dashboard-maintainer-memo-v0.2.14/): Auto-synced content
 - [Dashboard Maintainer Memo — Gonka v0.2.15](/gonka/docs/dashboard-maintainer-memo-v0.2.15/): Auto-synced content
+- [v0.2.16 fee check for dashboard maintainers](/gonka/docs/dashboard-maintainer-memo-v0.2.16-fee/): Auto-synced content
 - [H100 equivalent on dashboards](/gonka/docs/dashboard-maintainer-memo-v0.2.16-h100/): Auto-synced content
 - [Disclaimer](/gonka/docs/disclaimer/): Auto-synced content
 - [Glossary](/gonka/docs/glossary/): Auto-synced content
