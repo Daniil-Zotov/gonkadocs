@@ -64,8 +64,8 @@ hide:
     <span>Voting ends 2026-10-08</span>
   </div>
   <div class="prop-card-desc">Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>9.9%</strong> (12,402)</span> · <span class="prop-tally-no-text">No <strong>5.1%</strong> (6,416)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>85.0%</strong> (106,860)</span><span class="prop-card-funding prop-card-funding-voting">$104,150 · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>13.5%</strong> (125,678 / 927,575) · Quorum <strong>25%</strong> (231,893)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>71.0%</strong> (277,326)</span> · <span class="prop-tally-no-text">No <strong>1.6%</strong> (6,416)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>27.4%</strong> (106,860)</span><span class="prop-card-funding prop-card-funding-voting">$104,150 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>42.1%</strong> (390,602 / 927,575) · Quorum <strong>25%</strong> (231,893)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-08T02:40:59.050603241Z">
