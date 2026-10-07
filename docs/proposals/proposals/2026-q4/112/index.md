@@ -59,7 +59,7 @@ The full technical scope, contributor list, individual contributions, PR referen
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:40.9%"></div>
+    <div class="prop-tally-yes" style="width:42.1%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
@@ -70,7 +70,7 @@ The full technical scope, contributor list, individual contributions, PR referen
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 390,602 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>40.9%</strong> (390,602 / 955,875) · Quorum <strong>25%</strong> (238,968)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>42.1%</strong> (390,602 / 927,575) · Quorum <strong>25%</strong> (231,893)</span>
   </div>
 </div>
 
