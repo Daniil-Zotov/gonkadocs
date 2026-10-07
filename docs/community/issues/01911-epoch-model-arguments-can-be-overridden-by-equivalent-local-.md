@@ -2,7 +2,7 @@
 title: "#1911 — Epoch model arguments can be overridden by equivalent local CLI spellings"
 source: https://github.com/gonka-ai/gonka/issues/1911
 issue_number: 1911
-synced_at: 2026-10-07T16:38:08Z
+synced_at: 2026-10-07T22:04:18Z
 template: issues-main.html
 ---
 

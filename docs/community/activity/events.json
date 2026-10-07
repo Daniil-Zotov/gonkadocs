@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261007220807_e6f36fac",
+    "timestamp": "2026-10-07T22:08:07.755306+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1943 — v0.2.17: Fail `/admin/v1/setup/report` when this node cannot pay one epoch of fees",
+      "url": "/community/issues/01943-v0217-fail-adminv1setupreport-when-this-node-cannot-pay-one-/",
+      "file": "01943-v0217-fail-adminv1setupreport-when-this-node-cannot-pay-one-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.17: Fail `/admin/v1/setup/report` when this node cannot pay one epoch of fees\n    <span class=\"issues-number\">#1943</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-07 21:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi"
+    },
+    "ai_description": "New issue #1943 proposes that the setup report endpoint should return an error if a node lacks funds for a single epoch of fees. This is an important safeguard to help operators catch financial shortfalls early before they impact network reliability. Thanks to @tcharchian for flagging this in the v0.2.17 roadmap."
+  },
+  {
     "id": "evt_20261007210040_ff23ac63",
     "timestamp": "2026-10-07T21:00:40.361859+00:00",
     "section": "gonka_docs",
@@ -8239,20 +8255,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Key Rotation & Validator info update (warm key, node-id / key,  public url)\n    <span class=\"issues-number\">#334</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class"
     },
     "ai_description": "Issue #334 on key rotation and validator info updates has been closed and removed from the feed. This means the proposed work is no longer tracked as an open action item for the community. Operators should note that any pending changes to warm keys, node IDs, or public URLs are not being actively coordinated through this channel.Issue #334 on key rotation and validator info updates has been closed and removed from the feed, meaning it's no longer an active task for the community. Validators should check with the team directly if they still need guidance on updating warm keys, node IDs, or public URLs."
-  },
-  {
-    "id": "evt_20260910143102_d47d67b3",
-    "timestamp": "2026-09-10T14:31:02.671947+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#335 — [P1] Check why we often see slashing in logs",
-      "url": null,
-      "file": "00335-p1-check-why-we-often-see-slashing-in-logs.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P1] Check why we often see slashing in logs\n    <span class=\"issues-number\">#335</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
-    },
-    "ai_description": "Issue #335 about investigating frequent slashing events in logs has been removed from the tracker. This P1 priority item is no longer tracked, so the community should keep an eye on logs independently. If you're seeing slashing in your node logs, please bring it up in the chat or open a new issue.Issue #335, which flagged frequent slashing events in logs as a P1 priority, has been removed from the tracker. This means the investigation is no longer actively tracked, so operators should stay alert to slashing patterns on their own. If you spot recurring slashing, please raise it in the community chat or file a new issue to keep visibility."
   }
 ]
