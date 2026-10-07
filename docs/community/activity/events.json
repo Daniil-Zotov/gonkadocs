@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20261007014228_45d8eb13",
+    "timestamp": "2026-10-07T01:42:28.203545+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1632 — OpenBroker strips provider prompt-cache metadata (prompt_tokens_details is always null)",
+      "url": "/community/issues/01632-openbroker-strips-provider-prompt-cache-metadata-prompt-toke/",
+      "file": "01632-openbroker-strips-provider-prompt-cache-metadata-prompt-toke.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    OpenBroker strips provider prompt-cache metadata (prompt_tokens_details is always null)\n    <span class=\"issues-number\">#1632</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/theaungmyatmoe\">@theaungmyatmoe</a> opened 2026-08-24 06:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\"",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    OpenBroker strips provider prompt-cache metadata (prompt_tokens_details is always null)\n    <span class=\"issues-number\">#1632</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/theaungmyatmoe\">@theaungmyatmoe</a> opened 2026-08-24 06:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </d"
+    },
+    "ai_description": "Issue #1632 on OpenBroker has been closed. The report about prompt-cache metadata being stripped, leaving prompt_tokens_details always null, has been resolved, which should improve cost transparency and caching visibility for providers. Thanks to @theaungmyatmoe for flagging it. Keep an eye on your token details to confirm the fix is working as expected."
+  },
+  {
+    "id": "evt_20261007014228_53972a67",
+    "timestamp": "2026-10-07T01:42:28.203572+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1637 — Gateway allowlist request: Fusion AI Gateway — production wholesale broker (DeepSeek Flash / MiniMax / Kimi)",
+      "url": "/community/issues/01637-gateway-allowlist-request-fusion-ai-gateway-production-whole/",
+      "file": "01637-gateway-allowlist-request-fusion-ai-gateway-production-whole.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Fusion AI Gateway — production wholesale broker (DeepSeek Flash / MiniMax / Kimi)\n    <span class=\"issues-number\">#1637</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/theaungmyatmoe\">@theaungmyatmoe</a> opened 2026-08-24 17:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request: Fusion AI Gateway — production wholesale broker (DeepSeek Flash / MiniMax / Kimi)\n    <span class=\"issues-number\">#1637</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/theaungmyatmoe\">@theaungmyatmoe</a> opened 2026-08-24 17:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-met"
+    },
+    "ai_description": "Issue #1637 has been closed, marking the end of the allowlist review for Fusion AI Gateway, a production wholesale broker offering DeepSeek Flash, MiniMax, and Kimi models. This means the proposal is no longer under active consideration in its current form. Thanks to everyone who followed along on this one."
+  },
+  {
+    "id": "evt_20261007014228_027578b5",
+    "timestamp": "2026-10-07T01:42:28.203591+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1909 — Devshard work-coin payouts bypass WorkVestingPeriod on late-settle and unsettled-prune paths (diverges from tokenomics.md)",
+      "url": "/community/issues/01909-devshard-work-coin-payouts-bypass-workvestingperiod-on-late-/",
+      "file": "01909-devshard-work-coin-payouts-bypass-workvestingperiod-on-late-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard work-coin payouts bypass WorkVestingPeriod on late-settle and unsettled-prune paths (diverges from tokenomics.md)\n    <span class=\"issues-number\">#1909</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-10-03 00:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <di",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard work-coin payouts bypass WorkVestingPeriod on late-settle and unsettled-prune paths (diverges from tokenomics.md)\n    <span class=\"issues-number\">#1909</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-10-03 00:14 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div"
+    },
+    "ai_description": "Issue #1909 now has a new comment from the community discussing how devshard work-coin payouts skip the WorkVestingPeriod on late-settle and unsettled-prune paths, which contradicts the tokenomics spec. This highlights a real divergence worth tracking for anyone relying on vesting schedules in the network."
+  },
+  {
     "id": "evt_20261006113835_64d6e73b",
     "timestamp": "2026-10-06T11:38:35.384427+00:00",
     "section": "gonka_docs",
@@ -8200,50 +8248,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BUG-3: Removing models from inference/model_list is not supported\n    <span class=\"issues-number\">#343</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-05 07:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels"
     },
     "ai_description": "Issue #343 about unsupported model removal from the inference list has been closed and removed from the feed. The bug was resolved, meaning the community can now cleanly manage their model configurations without workarounds. Thanks to everyone who helped track this down. Keep an eye on the feed for any follow-up improvements.Issue #343 about unsupported model removal from the inference list has been closed and removed from the feed. The bug was resolved, meaning the community can now cleanly manage their model configurations without workarounds. Thanks to everyone who helped track this down. Keep an eye on the feed for any follow-up improvements."
-  },
-  {
-    "id": "evt_20260910143102_d0624e58",
-    "timestamp": "2026-09-10T14:31:02.672004+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#344 — Intersection between update of `epoch_length` params and PoC procedure can lead to consensus failure",
-      "url": null,
-      "file": "00344-intersection-between-update-of-epoch-length-params-and-poc-p.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Intersection between update of `epoch_length` params and PoC procedure can lead to consensus failure\n    <span class=\"issues-number\">#344</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-05 17:52 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
-    },
-    "ai_description": "Issue #344 has been removed from the tracker. The report flagged a potential consensus failure when updating the epoch_length parameter during the Proof of Custody procedurehol, a critical edge case for network stability. Its removal suggests the concern was resolved or superseded, keeping the issue list focused on actionable items for the community.Issue #344 has been closed and removed from the tracker. The report highlighted a potential consensus failure when updating the epoch_length parameter during the Proof of Custody procedure, a critical edge case for network stability. Its removal signals the concern has been resolved or superseded, keeping our issue list focused on actionable items."
-  },
-  {
-    "id": "evt_20260910143102_e8a627ac",
-    "timestamp": "2026-09-10T14:31:02.672010+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#348 — [P0]: Add SSL (https) for our dashboard and API (we need it to add us to wallets)",
-      "url": null,
-      "file": "00348-p0-add-ssl-https-for-our-dashboard-and-api-we-need-it-to-add.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0]: Add SSL (https) for our dashboard and API (we need it to add us to wallets)\n    <span class=\"issues-number\">#348</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-08 23:06 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div clas"
-    },
-    "ai_description": "Issue #348 about adding SSL to our dashboard and API has been closed and removed from the feed, meaning the task is resolved. This was a P0 priority because HTTPS was needed to get us listed in wallets, so its completion is a key milestone for our integration efforts. Thanks to everyone who helped push this through."
-  },
-  {
-    "id": "evt_20260910143102_e068d9aa",
-    "timestamp": "2026-09-10T14:31:02.672016+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#349 — [P1]: Utilization in scheduling and PoC uptime and Reward for all Models Support",
-      "url": null,
-      "file": "00349-p1-utilization-in-scheduling-and-poc-uptime-and-reward-for-a.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1]: Utilization in scheduling and PoC uptime and Reward for all Models Support\n    <span class=\"issues-number\">#349</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-08 23:09 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class"
-    },
-    "ai_description": "Issue #349 has been removed from the feed. The proposal to improve scheduling utilization, PoC uptime, and rewards for all supported models is no longer tracked here. If you were following this for updates, please watch for a new issue or discussion in the repository.Issue #349 has been removed from our tracking, closing the book on the proposal to enhance scheduling utilization, PoC uptime, and rewards across all supported models. This means the community will no longer have a dedicated thread for those improvements, so keep an eye out for any new discussions on the topic."
   }
 ]

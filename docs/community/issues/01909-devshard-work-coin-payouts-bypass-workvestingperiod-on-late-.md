@@ -2,7 +2,7 @@
 title: "#1909 — Devshard work-coin payouts bypass WorkVestingPeriod on late-settle and unsettled-prune paths (diverges from tokenomics.md)"
 source: https://github.com/gonka-ai/gonka/issues/1909
 issue_number: 1909
-synced_at: 2026-10-06T21:42:28Z
+synced_at: 2026-10-07T01:38:36Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 2026-10-03 00:14 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-03 00:14 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-06 22:05 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -44,6 +44,21 @@ Vesting is applied only when a positive period is passed to `PayParticipantFromM
 
 Either route `payCoinsDirectly` and `distributeUnsettledEscrow` through `PayParticipantFromModule(..., &params.TokenomicsParams.WorkVestingPeriod)` so all devshard work income vests consistently, or update `docs/tokenomics.md` to state that late/unsettled devshard payouts are intentionally liquid.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/danielhubersstorm">@danielhubersstorm</a></span>
+    <span class="issues-meta-item">commented 2026-10-06 22:05 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Starting work, ETA 3 to 5 days.</p>
+<p>I will route the late-settle and unsettled-prune devshard payouts through PayParticipantFromModule with WorkVestingPeriod, so they match the on-time path and docs/tokenomics.md. I will not change the documented policy to "intentionally liquid" unless a maintainer says that is the intended behavior.</p>
+  </div>
 </div>
 
 ---

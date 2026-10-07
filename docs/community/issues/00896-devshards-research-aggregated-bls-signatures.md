@@ -2,7 +2,7 @@
 title: "#896 — `devshards`: Research aggregated BLS signatures"
 source: https://github.com/gonka-ai/gonka/issues/896
 issue_number: 896
-synced_at: 2026-10-06T21:44:21Z
+synced_at: 2026-10-07T01:40:16Z
 template: issues-main.html
 ---
 
