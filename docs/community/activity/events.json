@@ -1,5 +1,99 @@
 [
   {
+    "id": "evt_20261007164110_201689d3",
+    "timestamp": "2026-10-07T16:41:10.390848+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1914 — Applying a diff copies the whole escrow state, and the copy grows for the life of the escrow",
+      "url": "/community/issues/01914-applying-a-diff-copies-the-whole-escrow-state-and-the-copy-g/",
+      "file": "01914-applying-a-diff-copies-the-whole-escrow-state-and-the-copy-g.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Applying a diff copies the whole escrow state, and the copy grows for the life of the escrow\n    <span class=\"issues-number\">#1914</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-04 13:06 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
+    },
+    "ai_description": "A new issue was opened by @a-kuprin highlighting a performance concern in escrow handling: applying a diff duplicates the entire escrow state, and that copy keeps growing for the escrow's lifetime. This is worth a look because it could lead to unnecessary memory bloat over time. Head over to #1914 to weigh in on the proposed fix."
+  },
+  {
+    "id": "evt_20261007164110_674f93e9",
+    "timestamp": "2026-10-07T16:41:10.390881+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1935 — [BUG] devshardctl: attempt duration is measured when the request settles, not when the attempt ends",
+      "url": "/community/issues/01935-bug-devshardctl-attempt-duration-is-measured-when-the-reques/",
+      "file": "01935-bug-devshardctl-attempt-duration-is-measured-when-the-reques.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] devshardctl: attempt duration is measured when the request settles, not when the attempt ends\n    <span class=\"issues-number\">#1935</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-07 11:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-l"
+    },
+    "ai_description": "New bug report #1935 from @vitaly-andr flags that devshardctl measures attempt duration when the request settles rather than when the attempt actually ends, which can skew performance metrics and mislead debugging. This is an important accuracy fix for anyone relying on precise timing data in the inference network. The issue is open for discussion, so jump in if you have insights on the correct measurement point."
+  },
+  {
+    "id": "evt_20261007164110_9f1b1417",
+    "timestamp": "2026-10-07T16:41:10.390901+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1939 — Route `StateSignatureContent` through `CanonicalSignedBytes`",
+      "url": "/community/issues/01939-route-statesignaturecontent-through-canonicalsignedbytes/",
+      "file": "01939-route-statesignaturecontent-through-canonicalsignedbytes.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Route `StateSignatureContent` through `CanonicalSignedBytes`\n    <span class=\"issues-number\">#1939</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-07 14:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\""
+    },
+    "ai_description": "A new issue #1939 has been opened by @a-kuprin proposing to route the StateSignatureContent type through CanonicalSignedBytes. This change would standardize how state signatures are serialized and verified across the network, improving consistency and reducing edge cases in signature handling. Worth a look for anyone working on consensus or state sync."
+  },
+  {
+    "id": "evt_20261007164110_00c5dee8",
+    "timestamp": "2026-10-07T16:41:10.390940+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1940 — [Security Chore]: Gateway signing-key protection",
+      "url": "/community/issues/01940-security-chore-gateway-signing-key-protection/",
+      "file": "01940-security-chore-gateway-signing-key-protection.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [Security Chore]: Gateway signing-key protection\n    <span class=\"issues-number\">#1940</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-07 15:26 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label"
+    },
+    "ai_description": "New issue #1940 opened by @a-kuprin proposes a security chore to protect gateway signing keys, a critical piece of infrastructure for validating inference requests. This matters because it addresses a potential attack vector that could compromise the integrity of the network's data flow. Keep an eye on this one, folks — hardening our key management is essential as we scale."
+  },
+  {
+    "id": "evt_20261007164110_553f67da",
+    "timestamp": "2026-10-07T16:41:10.390978+00:00",
+    "section": "issues",
+    "action": "deleted",
+    "item": {
+      "title": "#1407 — Question about project background: Mikhail Chudinov and Natalia",
+      "url": null,
+      "file": "01407-question-about-project-background-mikhail-chudinov-and-natal.md"
+    },
+    "details": {
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Question about project background: Mikhail Chudinov and Natalia\n    <span class=\"issues-number\">#1407</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/phishdestroy\">@phishdestroy</a> opened 2026-07-06 09:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></"
+    },
+    "ai_description": "Issue #1407 has been removed from the community feed. This closes out the discussion thread regarding project background details, keeping the activity feed focused on actionable topics. Thanks to everyone who participated in that conversation. The space is now cleaner for ongoing project updates and proposals. Stay tuned for new initiatives. Have a great day."
+  },
+  {
+    "id": "evt_20261007164110_c17a8271",
+    "timestamp": "2026-10-07T16:41:10.390987+00:00",
+    "section": "issues",
+    "action": "deleted",
+    "item": {
+      "title": "#1914 — pplying a diff copies the whole escrow state, and the copy grows for the life of the escrow",
+      "url": null,
+      "file": "01914-pplying-a-diff-copies-the-whole-escrow-state-and-the-copy-gr.md"
+    },
+    "details": {
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    pplying a diff copies the whole escrow state, and the copy grows for the life of the escrow\n    <span class=\"issues-number\">#1914</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-04 13:06 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"m"
+    },
+    "ai_description": "Issue #1914 on applying a diff to escrow state was removed from the tracker. The concern about the copy growing over the escrow's lifetime is no longer being tracked. Community members should check the repo directly for any updates on this topic.Issue #1914 about diff application copying the entire escrow state has been removed from the tracker. The concern over unbounded state growth is no longer being tracked, so please check the repository directly for related updates."
+  },
+  {
     "id": "evt_20261007014228_45d8eb13",
     "timestamp": "2026-10-07T01:42:28.203545+00:00",
     "section": "issues",
@@ -8158,95 +8252,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Config update process\n    <span class=\"issues-number\">#337</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:19 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
     },
     "ai_description": "Issue #337 on the config update process has been closed and removed from the community feed, as it is no longer active. This cleanup helps keep our tracking focused on current priorities organically. Thanks to everyone who contributed to that discussion.Issue #337 on the config update process has been closed and removed from the community feed, as it is no longer active. This cleanup helps keep our tracking focused on current priorities. Thanks to everyone who contributed to that discussion."
-  },
-  {
-    "id": "evt_20260910143102_1da23ca4",
-    "timestamp": "2026-09-10T14:31:02.671965+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#338 — [P1] Cache for Github Actions",
-      "url": null,
-      "file": "00338-p1-cache-for-github-actions.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Cache for Github Actions\n    <span class=\"issues-number\">#338</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:19 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</"
-    },
-    "ai_description": "Issue #338 about caching for GitHub Actions has been removed from the feed. The proposal, which was already closed, is no longer tracked here, so the community can focus on active tasks. No action is needed from contributors on this one.Issue #338 on caching for GitHub Actions has been removed from the feed. The closed proposal is no longer tracked here, keeping the activity list focused on active work. No further action is needed on this one."
-  },
-  {
-    "id": "evt_20260910143102_5feb2788",
-    "timestamp": "2026-09-10T14:31:02.671971+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#339 — [P1] Distributed vs truly decentralized and trustless and where we there",
-      "url": null,
-      "file": "00339-p1-distributed-vs-truly-decentralized-and-trustless-and-wher.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Distributed vs truly decentralized and trustless and where we there\n    <span class=\"issues-number\">#339</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:20 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues"
-    },
-    "ai_description": "Issue #339 on distributed vs truly decentralized and trustless networks has been closed and removed from our activity feed. The discussion, opened by @tcharchian, explored where Gonka stands on the spectrum between mere distribution and full decentralization. Its closure signals that this topic has been resolved or deprioritized, keeping our issue tracker focused on actionable tasks."
-  },
-  {
-    "id": "evt_20260910143102_f8666efa",
-    "timestamp": "2026-09-10T14:31:02.671980+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#340 — [P0] Security: Training",
-      "url": null,
-      "file": "00340-p0-security-training.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Security: Training\n    <span class=\"issues-number\">#340</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-04 21:20 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n"
-    },
-    "ai_description": "Issue #340 on security training has been closed and removed from the feed, signaling that the reported concern has been fully addressed and is no longer an active priority. This cleanup helps keep the community's tracking board focused on current, unresolved tasks. Thanks to everyone involved in resolving it. 🛡️🚀\nIssue #340 on security training has been closed and removed from the feed, signaling that the reported concern has been fully addressed and is no longer an active priority. This cleanup helps keep the community's tracking board focused on current, unresolved tasks. Thanks to everyone involved in resolving it."
-  },
-  {
-    "id": "evt_20260910143102_d6fac674",
-    "timestamp": "2026-09-10T14:31:02.671986+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#341 — [P0] Security: Major",
-      "url": null,
-      "file": "00341-p0-security-major.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Security: Major\n    <span class=\"issues-number\">#341</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-04 21:20 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<di"
-    },
-    "ai_description": "Issue #341, a critical P0 security report, has been closed and removed from the tracker. This means the major vulnerability it flagged has been resolved or dismissed, clearing a top-priority blocker from the community's active workload. Thanks to everyone involved in seeing this through.Issue #341, a P0 security report flagged as major, has been closed and removed from the tracker. This clears a top-priority blocker, meaning the community's critical security concerns have been addressed. Good news for keeping the network safe and moving forward."
-  },
-  {
-    "id": "evt_20260910143102_9c63f57e",
-    "timestamp": "2026-09-10T14:31:02.671992+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#342 — [P0] Security: Minor",
-      "url": null,
-      "file": "00342-p0-security-minor.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Security: Minor\n    <span class=\"issues-number\">#342</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-04 21:21 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<di"
-    },
-    "ai_description": "Issue #342, a closed P0 security report marked as minor, has been removed from the community feed. This cleanup helps declutter the activity stream by clearing out resolved and non-actionable items)Skip. Keeping the feed focused on active discussions ensures the community stays on top of what truly needs attention.Issue #342, a minor P0 security report, has been removed from the feed as it was already closed and resolved. Keeping the activity stream clean of stale items helps us focus on actionable work and active discussions."
-  },
-  {
-    "id": "evt_20260910143102_e108108c",
-    "timestamp": "2026-09-10T14:31:02.671998+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#343 — BUG-3: Removing models from inference/model_list is not supported",
-      "url": null,
-      "file": "00343-bug-3-removing-models-from-inferencemodel-list-is-not-suppor.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BUG-3: Removing models from inference/model_list is not supported\n    <span class=\"issues-number\">#343</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-05 07:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels"
-    },
-    "ai_description": "Issue #343 about unsupported model removal from the inference list has been closed and removed from the feed. The bug was resolved, meaning the community can now cleanly manage their model configurations without workarounds. Thanks to everyone who helped track this down. Keep an eye on the feed for any follow-up improvements.Issue #343 about unsupported model removal from the inference list has been closed and removed from the feed. The bug was resolved, meaning the community can now cleanly manage their model configurations without workarounds. Thanks to everyone who helped track this down. Keep an eye on the feed for any follow-up improvements."
   }
 ]
