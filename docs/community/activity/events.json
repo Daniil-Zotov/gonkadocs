@@ -1,5 +1,36 @@
 [
   {
+    "id": "evt_20261008021226_fa2ee93e",
+    "timestamp": "2026-10-08T02:12:26.315579+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 2 events — Voting ends: #112 – Upgrade Proposal: v0.2.16, Voting ends: #113 – Distribute v0.2.16 bounty rewards",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #112 – Upgrade Proposal: v0.2.16",
+          "date": "2026-10-08",
+          "time": "02:40 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q4/112/"
+        },
+        {
+          "title": "Voting ends: #113 – Distribute v0.2.16 bounty rewards",
+          "date": "2026-10-08",
+          "time": "02:43 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q4/113/"
+        }
+      ],
+      "count": 2
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261008020701_e24769c3",
     "timestamp": "2026-10-08T02:07:01.150175+00:00",
     "section": "issues",
@@ -8246,20 +8277,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] PoC nonce performance improvements (H100 vs 8xH100) — define reasons\n    <span class=\"issues-number\">#324</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:03 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues"
     },
     "ai_description": "Issue #324 on PoC nonce performance improvements has been closed and removed from the active feed. The discussion comparing H100 versus 8xH100 setups is no longer tracked, so keep an eye on future updates if this topic resurfaces. Thanks to everyone who contributed to the conversation.Issue #324 on PoC nonce performance improvements has been closed and removed from the active feed. The discussion comparing H100 versus 8xH100 setups is no longer tracked, so keep an eye on future updates if this topic resurfaces. Thanks to everyone who contributed to the conversation."
-  },
-  {
-    "id": "evt_20260910143102_4b758c39",
-    "timestamp": "2026-09-10T14:31:02.671892+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#325 — [P0] No inference failures on the edge of PoC; Check for missed validation during epoch",
-      "url": null,
-      "file": "00325-p0-no-inference-failures-on-the-edge-of-poc-check-for-missed.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] No inference failures on the edge of PoC; Check for missed validation during epoch\n    <span class=\"issues-number\">#325</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:09 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <di"
-    },
-    "ai_description": "Issue #325 on inference validation at the proof-of-concept edge has been closed and removed from our tracking. This P0 concern about missed epoch validation is no longer active, so the team can focus on current priorities. Thanks to everyone who contributed to the discussion on this one.Issue #325 on inference validation at the proof-of-concept edge has been closed and removed from our tracking. This P0 concern about missed epoch validation is no longer active, so the team can focus on current priorities. Thanks to everyone who contributed to the discussion on this one."
   }
 ]
