@@ -1502,25 +1502,25 @@
   {
     "date": "2026-10-08",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #113 – Distribute v0.2.16 bounty rewards",
+    "type": "proposal_report",
+    "title": "Passed: #113 – Distribute v0.2.16 bounty rewards",
     "url": "/proposals/proposals/2026-q4/113/",
     "time": "02:43 UTC",
     "description": "Bounty Payments Associated with v0.2.16\n\nThis proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…",
     "tags": [
-      "voting"
+      "passed"
     ]
   },
   {
     "date": "2026-10-08",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #112 – Upgrade Proposal: v0.2.16",
+    "type": "proposal_report",
+    "title": "Passed: #112 – Upgrade Proposal: v0.2.16",
     "url": "/proposals/proposals/2026-q4/112/",
     "time": "02:40 UTC",
     "description": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.\n\nTrusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …",
     "tags": [
-      "voting"
+      "passed"
     ]
   }
 ]

@@ -11,7 +11,7 @@
       <link>https://gonkadocs.com/proposals/proposals/2026-q4/113/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/113/</guid>
       <pubDate>Tue, 06 Oct 2026 02:43:54 +0000</pubDate>
-      <category>Voting</category>
+      <category>Passed</category>
       <description>Bounty Payments Associated with v0.2.16
 
 This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protocol. The work includes contributions to upgrade v0.2.16 and larger projects spanning multiple upgrade cycles.
@@ -25,7 +25,7 @@ Decode-PoC moves from prefill-only proof of compute covering token generation, a
       <link>https://gonkadocs.com/proposals/proposals/2026-q4/112/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/112/</guid>
       <pubDate>Tue, 06 Oct 2026 02:40:59 +0000</pubDate>
-      <category>Voting</category>
+      <category>Passed</category>
       <description>Upgrade Proposal: v0.2.16
 
 The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.

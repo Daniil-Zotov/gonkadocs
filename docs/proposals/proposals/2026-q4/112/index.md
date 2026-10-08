@@ -12,7 +12,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-10-08T02:40:59.050603241Z"></span></div>
+<span class="prop-badge prop-passed">Passed</span>
 
 **Proposal ID:** `112`
 
@@ -59,18 +59,18 @@ The full technical scope, contributor list, individual contributions, PR referen
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:41.0%"></div>
+    <div class="prop-tally-yes" style="width:73.3%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (451,109)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (805,773)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 451,109 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>41.0%</strong> (451,109 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span>
+    <span class="prop-tally-total-text">Total 805,773 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>73.3%</strong> (805,773 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span>
   </div>
 </div>
 

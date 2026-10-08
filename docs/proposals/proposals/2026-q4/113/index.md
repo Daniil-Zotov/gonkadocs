@@ -10,7 +10,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-10-08T02:43:54.969935178Z"></span></div>
+<span class="prop-badge prop-passed">Passed</span>
 
 **Proposal ID:** `113`
 
@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
 
-<div class="prop-funding-line prop-funding-line-voting">$104,150 · Community Pool</div>
+<div class="prop-funding-line">$104,150 · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/113){:target="_blank"}
@@ -119,18 +119,18 @@ This work covers assessment of incoming security reports, review of the v0.2.16 
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:25.4%"></div>
+    <div class="prop-tally-yes" style="width:57.7%"></div>
     <div class="prop-tally-no" style="width:0.6%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:10.1%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>70.4%</strong> (279,771)</span>
-    <span class="prop-tally-no-text">No <strong>1.6%</strong> (6,416)</span>
+    <span class="prop-tally-yes-text">Yes <strong>84.3%</strong> (634,435)</span>
+    <span class="prop-tally-no-text">No <strong>0.9%</strong> (6,416)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-abstain-text">Abstain <strong>28.0%</strong> (111,460)</span>
-    <span class="prop-tally-total-text">Total 397,647 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>36.2%</strong> (397,647 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>14.8%</strong> (111,460)</span>
+    <span class="prop-tally-total-text">Total 752,311 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>68.4%</strong> (752,311 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span>
   </div>
 </div>
 
