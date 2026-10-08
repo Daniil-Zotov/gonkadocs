@@ -1,5 +1,36 @@
 [
   {
+    "id": "evt_20261008020701_e24769c3",
+    "timestamp": "2026-10-08T02:07:01.150175+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1943 — v0.2.17: Mark `/admin/v1/setup/report` failed when this node cannot pay one epoch of fees",
+      "url": "/community/issues/01943-v0217-mark-adminv1setupreport-failed-when-this-node-cannot-p/",
+      "file": "01943-v0217-mark-adminv1setupreport-failed-when-this-node-cannot-p.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.17: Mark `/admin/v1/setup/report` failed when this node cannot pay one epoch of fees\n    <span class=\"issues-number\">#1943</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-07 21:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
+    },
+    "ai_description": "A new issue has been opened for the v0.2.17 release, proposing that the setup report endpoint should clearly fail when a node lacks funds to cover one epoch of fees. This is an important safeguard to help operators catch financial shortfalls early. Head over to the issue if you want to weigh in on the approach."
+  },
+  {
+    "id": "evt_20261008020701_e5b8b16b",
+    "timestamp": "2026-10-08T02:07:01.150196+00:00",
+    "section": "issues",
+    "action": "deleted",
+    "item": {
+      "title": "#1943 — v0.2.17: Fail `/admin/v1/setup/report` when this node cannot pay one epoch of fees",
+      "url": null,
+      "file": "01943-v0217-fail-adminv1setupreport-when-this-node-cannot-pay-one-.md"
+    },
+    "details": {
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.17: Fail `/admin/v1/setup/report` when this node cannot pay one epoch of fees\n    <span class=\"issues-number\">#1943</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-07 21:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi"
+    },
+    "ai_description": "Issue #1943 has been removed from the activity feed. The proposal would have made the setup report fail when a node lacks funds for one epoch of fees, helping operators catch insolvency early. Its removal means this check won't be enforced in the current cycle. Stay tuned for any revised approach from the maintainers."
+  },
+  {
     "id": "evt_20261008012747_4ca3402f",
     "timestamp": "2026-10-08T01:27:47.872847+00:00",
     "section": "gonka_docs",
@@ -8230,35 +8261,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] No inference failures on the edge of PoC; Check for missed validation during epoch\n    <span class=\"issues-number\">#325</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:09 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <di"
     },
     "ai_description": "Issue #325 on inference validation at the proof-of-concept edge has been closed and removed from our tracking. This P0 concern about missed epoch validation is no longer active, so the team can focus on current priorities. Thanks to everyone who contributed to the discussion on this one.Issue #325 on inference validation at the proof-of-concept edge has been closed and removed from our tracking. This P0 concern about missed epoch validation is no longer active, so the team can focus on current priorities. Thanks to everyone who contributed to the discussion on this one."
-  },
-  {
-    "id": "evt_20260910143102_31d1b63f",
-    "timestamp": "2026-09-10T14:31:02.671898+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#327 — [P1] Performance: Measure chain performance",
-      "url": null,
-      "file": "00327-p1-performance-measure-chain-performance.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Performance: Measure chain performance\n    <span class=\"issues-number\">#327</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
-    },
-    "ai_description": "Issue #327 on measuring chain performance has been closed and removed from the tracker. The task, which was prioritized as P1, is no longer active, so the community can focus on other open performance work. Thanks to @tcharchian for flagging this area of interest.Issue #327 on measuring chain performance has been closed and removed from the tracker. The task, which was prioritized as P1, is no longer active, so the community can focus on other open performance work. Thanks to @tcharchian for flagging this area of interest."
-  },
-  {
-    "id": "evt_20260910143102_0807f614",
-    "timestamp": "2026-09-10T14:31:02.671905+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#328 — [P1] Off-chain validation data == on demand on-chain inference",
-      "url": null,
-      "file": "00328-p1-off-chain-validation-data-on-demand-on-chain-inference.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Off-chain validation data == on demand on-chain inference\n    <span class=\"issues-number\">#328</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" s"
-    },
-    "ai_description": "Issue #328 has been closed and removed from the tracking feed. The proposal to match off-chain validation data with on-demand on-chain inference is no longer active, so the community can shift focus to other priorities. Thanks to @tcharchian for raising it. Stay tuned for the next updates.Issue #328, which proposed aligning off-chain validation data with on-demand on-chain inference, has been closed and removed from the active feed. This means the topic is no longer under community consideration, freeing up focus for other tasks. Thanks to @tcharchian for initiating the discussion."
   }
 ]
