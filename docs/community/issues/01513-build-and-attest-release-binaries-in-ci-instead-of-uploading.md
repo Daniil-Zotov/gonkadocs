@@ -2,7 +2,7 @@
 title: "#1513 — Build and attest release binaries in CI instead of uploading them manually"
 source: https://github.com/gonka-ai/gonka/issues/1513
 issue_number: 1513
-synced_at: 2026-10-08T09:09:22Z
+synced_at: 2026-10-08T16:37:40Z
 template: issues-main.html
 ---
 

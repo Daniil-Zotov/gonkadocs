@@ -2,7 +2,7 @@
 title: "#1935 — [BUG] devshardctl: attempt duration is measured when the request settles, not when the attempt ends"
 source: https://github.com/gonka-ai/gonka/issues/1935
 issue_number: 1935
-synced_at: 2026-10-08T09:08:09Z
+synced_at: 2026-10-08T16:36:50Z
 template: issues-main.html
 ---
 
