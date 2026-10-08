@@ -2,7 +2,7 @@
 title: "#1513 — Build and attest release binaries in CI instead of uploading them manually"
 source: https://github.com/gonka-ai/gonka/issues/1513
 issue_number: 1513
-synced_at: 2026-10-08T16:37:40Z
+synced_at: 2026-10-08T22:11:08Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 2026-07-28 20:05 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-08-19 03:02 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-08 17:53 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -77,7 +77,7 @@ Given it has never worked, can't produce tagged releases by design, and fails on
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -110,6 +110,20 @@ could not locate your app's root dir: go.mod not found
   </div>
   <div class="issues-comment-body issues-content">
     <p>@redstartechno repeating what was already in the issue comment with ai is antisocial</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/PFU-Official">@PFU-Official</a></span>
+    <span class="issues-meta-item">commented 2026-10-08 17:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I'm interested in implementing #1513, subject to maintainer approval of scope.</p>
+<p>I'd propose a narrowly scoped, tag-triggered release pipeline for the supported Linux/macOS <code>inferenced</code> binaries, with checksums, GitHub build-provenance attestations, and a maintainer-controlled publish step. Ordinary pushes to <code>main</code> would not publish releases.</p>
+<p>Could a maintainer confirm:
+1. Whether this approach is wanted, and the exact supported release targets and acceptance criteria?
+2. Whether the work would be eligible for an agreed contributor reward or funded milestone, and the expected USDT reward range and approval process?</p>
+<p>I won't start implementation until scope and reward expectations are clarified.</p>
   </div>
 </div>
 

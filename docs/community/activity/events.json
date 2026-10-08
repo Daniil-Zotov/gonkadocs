@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20261008221601_0f5c274d",
+    "timestamp": "2026-10-08T22:16:01.624765+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1949 — [BUG] Upgrade zips are built without BLST_PORTABLE: SIGILL in blst_cgo_init on x86-64 CPUs without ADX",
+      "url": "/community/issues/01949-bug-upgrade-zips-are-built-without-blst-portable-sigill-in-b/",
+      "file": "01949-bug-upgrade-zips-are-built-without-blst-portable-sigill-in-b.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Upgrade zips are built without BLST_PORTABLE: SIGILL in blst_cgo_init on x86-64 CPUs without ADX\n    <span class=\"issues-number\">#1949</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-10-08 17:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issue"
+    },
+    "ai_description": "A new bug report has been filed highlighting that upgrade zips are built without the BLST_PORTABLE flag, causing SIGILL crashes on x86-64 CPUs that lack the ADX instruction set. This is a significant compatibility issue for users on older hardware, and the team will need to address the build configuration to ensure broader CPU support."
+  },
+  {
+    "id": "evt_20261008221601_db34e010",
+    "timestamp": "2026-10-08T22:16:01.624793+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1954 — Keplr transaction issues after Gonka chain upgrade v0.2.16",
+      "url": "/community/issues/01954-keplr-transaction-issues-after-gonka-chain-upgrade-v0216/",
+      "file": "01954-keplr-transaction-issues-after-gonka-chain-upgrade-v0216.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Keplr transaction issues after Gonka chain upgrade v0.2.16\n    <span class=\"issues-number\">#1954</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-08 21:54 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
+    },
+    "ai_description": "A new issue has been opened reporting transaction failures in Keplr wallet after the Gonka chain upgrade to v0.2.16. This is important for anyone using Keplr to interact with the network, as it may affect your ability to send transactions. The team will need to investigate compatibility between the upgraded chain and the wallet integration."
+  },
+  {
+    "id": "evt_20261008221601_3f59b621",
+    "timestamp": "2026-10-08T22:16:01.624966+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1513 — Build and attest release binaries in CI instead of uploading them manually",
+      "url": "/community/issues/01513-build-and-attest-release-binaries-in-ci-instead-of-uploading/",
+      "file": "01513-build-and-attest-release-binaries-in-ci-instead-of-uploading.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Build and attest release binaries in CI instead of uploading them manually\n    <span class=\"issues-number\">#1513</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-07-28 20:05 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Build and attest release binaries in CI instead of uploading them manually\n    <span class=\"issues-number\">#1513</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-07-28 20:05 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d"
+    },
+    "ai_description": "Issue #1513 about building and attesting release binaries in CI instead of manual uploads just got a new comment, bringing the total to three. This ongoing discussion is important for improving the transparency and security of our release process. Stay tuned as the community weighs in on automating this critical step.Issue #1513 on automating release binary builds and attestations in CI has gained a third comment, keeping the conversation active. This matters because moving away from manual uploads would make our release pipeline more secure and reproducible. Check the thread to see what's being discussed."
+  },
+  {
     "id": "evt_20261008211128_525a8689",
     "timestamp": "2026-10-08T21:11:28.737843+00:00",
     "section": "gonka_docs",
@@ -8244,50 +8292,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Epoch length\n    <span class=\"issues-number\">#317</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div c"
     },
     "ai_description": "Issue #317 about epoch length has been closed and removed from the activity feed. This cleanup reflects that the topic is no longer under active discussion, keeping the community board focused on current priorities. Thanks to @tcharchian for raising it.Issue #317 on epoch length has been closed and removed from the feed, signaling that this topic is no longer under active discussion. This cleanup helps keep our activity board focused on current priorities, and we appreciate @tcharchian for bringing it up."
-  },
-  {
-    "id": "evt_20260910143102_ab56c779",
-    "timestamp": "2026-09-10T14:31:02.671842+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#318 — [P0] Merge MLNode upgrades + docs",
-      "url": null,
-      "file": "00318-p0-merge-mlnode-upgrades-docs.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Merge MLNode upgrades + docs\n    <span class=\"issues-number\">#318</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>"
-    },
-    "ai_description": "Issue #318 on merging MLNode upgrades and documentation has been closed and removed from the feed. This wraps up the coordination work on that priority task, so the community can now move forward with the finalized upgrades. Thanks to everyone involved in pushing this one through.Issue #318 on merging MLNode upgrades and documentation has been closed and removed from the active feed. This marks the completion of that priority task, clearing the way for the community to focus on the next set of improvements. Thanks to all who contributed to wrapping this up."
-  },
-  {
-    "id": "evt_20260910143102_ba8900f7",
-    "timestamp": "2026-09-10T14:31:02.671853+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#319 — [P0] Merge enforced_tokens",
-      "url": null,
-      "file": "00319-p0-merge-enforced-tokens.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Merge enforced_tokens\n    <span class=\"issues-number\">#319</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
-    },
-    "ai_description": "Issue #319 on merging enforced_tokens has been removed from the tracker. This P0 item is no longer active, so the community can focus on current priorities without lingering noise. Cleanup like this keeps our issue board accurate and actionable.Issue #319 on merging enforced_tokens has been removed from the tracker, clearing a closed P0 item from our active view. This tidies up the board so we can focus on open work without stale entries. Keeping the issue list accurate helps everyone stay aligned on what actually needs attention."
-  },
-  {
-    "id": "evt_20260910143102_fc023f67",
-    "timestamp": "2026-09-10T14:31:02.671860+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#320 — [P0] Internal TestNet: k8 / another scripts with new servers",
-      "url": null,
-      "file": "00320-p0-internal-testnet-k8-another-scripts-with-new-servers.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Internal TestNet: k8 / another scripts with new servers\n    <span class=\"issues-number\">#320</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty"
-    },
-    "ai_description": "Issue #320 about setting up the internal TestNet with new server scripts has been closed and removed from the tracker. The task, which was marked as a P0 priority for infrastructure deployment, is no longer active, signaling that the work has either been completed or is being handled outside the issue queue. This cleanup keeps our community board focused on actionable items."
   }
 ]
