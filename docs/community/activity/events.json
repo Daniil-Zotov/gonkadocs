@@ -1,5 +1,85 @@
 [
   {
+    "id": "evt_20261008012747_4ca3402f",
+    "timestamp": "2026-10-08T01:27:47.872847+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "H100 equivalent on dashboards",
+      "url": "/gonka/docs/dashboard-maintainer-memo-v0.2.16-h100/",
+      "file": "dashboard-maintainer-memo-v0.2.16-h100.md"
+    },
+    "details": {
+      "content_before": "# H100 equivalent on dashboards\nPlease read this before the v0.2.16 upgrade. If proposal 109 passes, the upgrade height is 6,353,400, expected around 2 October 2026, 07:05 UTC.\n## What the number is\n\nH100 equivalent is the current network reward weight divided by the reward weight one reference H100 receives in that same epoch:\n\n```text\nH100_eq = total_weight / weight_per_h100\n```\n\nIt is a reward-weight equivalent. It is not a count of physical GPUs, and it is not difficulty-normalized compute.\n\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this metric uses that numerator. The published figures differ because the denominator dif",
+      "content_after": "# H100 equivalent on dashboards\n\nRead this for the v0.2.16 upgrade, proposal 112. If it passes, the upgrade height is 6,449,400, expected around 8 October 2026, 05:48 UTC. Proposal 109 did not pass. The coefficient and weight rules below are for proposal 112.\n\n## What the number is\n\nH100 equivalent is the current network reward weight divided by the reward weight one reference H100 receives in that same epoch:\n\n```text\nH100_eq = total_weight / weight_per_h100\n```\n\nIt is a reward-weight equivalent. It is not a count of physical GPUs, and it is not difficulty-normalized compute.\n\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this "
+    },
+    "ai_description": "The protocol docs were updated to reflect proposal 112 replacing the failed proposal 109 for the v0.2.16 upgrade, with new timing and weight rules. This ensures the community reads accurate guidance for the upcoming fork. Check the docs for the revised upgrade details before the next voting round.The protocol docs now reference proposal 112 after proposal 109 failed, with a new upgrade height of 6,449,400 expected around 8 October 2026. The H100 equivalent metric remains a reward-weight ratio, not physical hardware, so dashboards stay consistent. Review the updated coefficient and weight rules before the upgrade vote."
+  },
+  {
+    "id": "evt_20261008012747_9d276314",
+    "timestamp": "2026-10-08T01:27:47.872887+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Voting Power, Genesis Guardians and Delegation",
+      "url": "/gonka/docs/governance/voting-power-eligibility/",
+      "file": "governance/voting-power-eligibility.md"
+    },
+    "details": {
+      "content_before": "# Voting Power, Genesis Guardians and Delegation\n\n## Total bonded weight calculation\n\nThe total bonded weight is the sum of `validator.tokens` across all bonded validators with `tokens > 0`:\n\n```text\ntotal_bonded = Σ validator.tokens   (over all bonded validators with tokens > 0)\n```\n\nEach validator's `tokens` value is set on every epoch transition by the inference module via `Staking.SetComputeValidators()`.\nFor the vast majority of validators:\n\n```text\nvalidator.tokens = participant.weight   (their PoC weight in the current epoch)\n```\n\nFor the Genesis Guardians, an additional power-enhancement step is applied first (see below).\n\n### Guardian power boost calculation\n\nBefore `SetComputeValidators` runs, the inference module applies `applyEarlyNetworkProtection`, which computes enhanced pow",
+      "content_after": "# Voting Power, Genesis Guardians and Delegation\n\n## Total bonded weight calculation\n\nThe total bonded weight is the sum of `validator.tokens` across all bonded validators with `tokens > 0`:\n\n```text\ntotal_bonded = Σ validator.tokens   (over all bonded validators with tokens > 0)\n```\n\nEach validator's `tokens` value is set on every epoch transition by the inference module via `Staking.SetComputeValidators()`.\n\nFrom **v0.2.16**, an epoch formed by that release sets non-guardian `validator.tokens` from `cap_weight`, not from reward `weight`. `cap_weight` is on `active_participants.participants[]` at `$NODE_URL/v1/epochs/{epoch_id}/participants`. Use it when `cap_weight_applied` is true. When that flag is absent, the epoch was formed earlier and `tokens` still follow `weight`. A new or return"
+    },
+    "ai_description": "The protocol docs have been updated to clarify how validator tokens are calculated starting from v0.2.16, using cap_weight instead of reward weight for non-guardian validators. This is an important distinction for anyone building on the network, as it affects how voting power is derived in newer epochs. Make sure to check the cap_weight_applied flag to know which formula applies to your epoch."
+  },
+  {
+    "id": "evt_20261008012747_ed6c54a2",
+    "timestamp": "2026-10-08T01:27:47.872916+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "DeepSeek V4 Flash Bootstrap",
+      "url": "/gonka/docs/host/deepseek-bootstrap/",
+      "file": "host/deepseek-bootstrap.md"
+    },
+    "details": {
+      "content_before": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md), [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\n!!! note\n    The boots",
+      "content_after": "# DeepSeek V4 Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./"
+    },
+    "ai_description": "The DeepSeek V4 Flash bootstrap docs now include a v0.2.16 note clarifying that the listed coefficients are only registration-time scales, while the live reward calculation uses the new effective_coefficient field. This matters for operators and delegators because it prevents confusion when comparing static config values against actual on-chain rewards. Check the Multi-Model PoC page for the full breakdown of how the new coefficient system works."
+  },
+  {
+    "id": "evt_20261008012747_cf0ea464",
+    "timestamp": "2026-10-08T01:27:47.872937+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "GLM-5.3-Flash Bootstrap",
+      "url": "/gonka/docs/host/glm-bootstrap/",
+      "file": "host/glm-bootstrap.md"
+    },
+    "details": {
+      "content_before": "# GLM-5.3-Flash Bootstrap\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md",
+      "content_after": "# GLM-5.3-Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`"
+    },
+    "ai_description": "Protocol docs updated for GLM-5.3-Flash bootstrap with a new note for v0.2.16: the listed weight_scale_factor now reflects only registration-time values, while live rewards use the effective_coefficient parameter. This clarifies how to interpret model coefficients in the current PoC version, so operators can align their expectations with the actual reward mechanics."
+  },
+  {
+    "id": "evt_20261008012747_094f54ba",
+    "timestamp": "2026-10-08T01:27:47.872957+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "MiniMax-M2.7 Bootstrap",
+      "url": "/gonka/docs/host/minimax-bootstrap/",
+      "file": "host/minimax-bootstrap.md"
+    },
+    "details": {
+      "content_before": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md), [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md), and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\n!!!",
+      "content_after": "# MiniMax-M2.7 Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Mul"
+    },
+    "ai_description": "The MiniMax-M2.7 bootstrap docs were updated to reflect the v0.2.16 change where the reward coefficient is now the effective_coefficient, and the weight_scale_factor field is left empty at registration. This clarifies how live rewards are calculated for the community as the network evolves. Check the Multi-Model PoC page for the full mechanics."
+  },
+  {
     "id": "evt_20261007220807_e6f36fac",
     "timestamp": "2026-10-07T22:08:07.755306+00:00",
     "section": "issues",
@@ -8180,80 +8260,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Off-chain validation data == on demand on-chain inference\n    <span class=\"issues-number\">#328</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" s"
     },
     "ai_description": "Issue #328 has been closed and removed from the tracking feed. The proposal to match off-chain validation data with on-demand on-chain inference is no longer active, so the community can shift focus to other priorities. Thanks to @tcharchian for raising it. Stay tuned for the next updates.Issue #328, which proposed aligning off-chain validation data with on-demand on-chain inference, has been closed and removed from the active feed. This means the topic is no longer under community consideration, freeing up focus for other tasks. Thanks to @tcharchian for initiating the discussion."
-  },
-  {
-    "id": "evt_20260910143102_d6f709b6",
-    "timestamp": "2026-09-10T14:31:02.671915+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#329 — [P1] Check data limits for PoC",
-      "url": null,
-      "file": "00329-p1-check-data-limits-for-poc.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Check data limits for PoC\n    <span class=\"issues-number\">#329</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n<"
-    },
-    "ai_description": "Issue #329 on checking data limits for the proof of concept has been closed and removed from the feed, as the task is no longer active. This cleanup helps keep our issue tracker focused on current work items. Thanks to @tcharchian for flagging it originally.Issue #329 on verifying data limits for the proof of concept has been closed and removed from the active feed, signaling that this task is no longer pending. This cleanup keeps our issue tracker focused on current priorities, so the community can better track what still needs attention."
-  },
-  {
-    "id": "evt_20260910143102_e39e9708",
-    "timestamp": "2026-09-10T14:31:02.671922+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#331 — [P1] API for wallets (Keplr, Leap) / indexers (we do have the API, we need to get the thought process of adding Gonka to different wallets, and see what we are missing.",
-      "url": null,
-      "file": "00331-p1-api-for-wallets-keplr-leap-indexers-we-do-have-the-api-we.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] API for wallets (Keplr, Leap) / indexers (we do have the API, we need to get the thought process of adding Gonka to different wallets, and see what we are missing.\n    <span class=\"issues-number\">#331</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:17 UTC</span>\n    <span class=\"issues-meta-"
-    },
-    "ai_description": "Issue #331 on wallet and indexer API integration for Gonka has been closed and removed from the tracker. The task, which explored adding Gonka to Keplr and Leap walletsholistically, is no longer active, signaling a shift in priorities or completion of that discussion. Community members should watch for future updates on wallet support channels."
-  },
-  {
-    "id": "evt_20260910143102_c0ee7fbd",
-    "timestamp": "2026-09-10T14:31:02.671928+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#332 — [P1] Merge Bridge",
-      "url": null,
-      "file": "00332-p1-merge-bridge.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Merge Bridge\n    <span class=\"issues-number\">#332</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div c"
-    },
-    "ai_description": "Issue #332 [P1] Merge Bridge has been removed from the community feed. The task, which was already closed with no comments, is no longer tracked here, simplifying our issue list and keeping active work front and center. Thanks for keeping the board tidy.Issue #332 [P1] Merge Bridge has been removed from our activity feed. Since this closed task had no comments or pending action, clearing it keeps the board focused on active work. Thanks for helping streamline our tracking."
-  },
-  {
-    "id": "evt_20260910143102_4301ce60",
-    "timestamp": "2026-09-10T14:31:02.671935+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#333 — [P1] vLLM tools",
-      "url": null,
-      "file": "00333-p1-vllm-tools.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] vLLM tools\n    <span class=\"issues-number\">#333</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cla"
-    },
-    "ai_description": "Issue #333 about vLLM tools has been closed and removed from the feed. This means the proposal is no longer active, so the community can shift focus to other priorities. Thanks to everyone who reviewed it.Issue #333 on vLLM tools has been closed and removed from the active feed, signaling the proposal is no longer under consideration. This clears the way for the community to concentrate on other pending tasks. A clean slate for the next round of priorities."
-  },
-  {
-    "id": "evt_20260910143102_c0766a54",
-    "timestamp": "2026-09-10T14:31:02.671941+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#334 — [P1] Key Rotation & Validator info update (warm key, node-id / key,  public url)",
-      "url": null,
-      "file": "00334-p1-key-rotation-validator-info-update-warm-key-node-id-key-p.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Key Rotation & Validator info update (warm key, node-id / key,  public url)\n    <span class=\"issues-number\">#334</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class"
-    },
-    "ai_description": "Issue #334 on key rotation and validator info updates has been closed and removed from the feed. This means the proposed work is no longer tracked as an open action item for the community. Operators should note that any pending changes to warm keys, node IDs, or public URLs are not being actively coordinated through this channel.Issue #334 on key rotation and validator info updates has been closed and removed from the feed, meaning it's no longer an active task for the community. Validators should check with the team directly if they still need guidance on updating warm keys, node IDs, or public URLs."
   }
 ]

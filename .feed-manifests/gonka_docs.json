@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-10-07T21:00:44.941478+00:00",
+  "snapshot_time": "2026-10-08T01:28:15.942701+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "5aca21280538db6488a693d7d9b91fd277cf219191b592ef21cdb58a5ec57385"
+      "checksum": "e19427b1358fb2198df5f4ab0177e24228372a4116de7e0462550ffe7e576837"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -126,13 +126,13 @@
       "title": "v0.2.16 fee check for dashboard maintainers",
       "status": null,
       "content_preview": "# v0.2.16 fee check for dashboard maintainers\n\n## What pays the fee\n\nThe host node signs with the warm key and sets the cold account as `fee_granter`. The chain withdraws the fee from the cold account, and only up to the cold-to-warm feegrant.\n\nTwo numbers both have to be large enough. The usable amount is the smaller of them.\n\n| Number                 | What it is                                                            | Query                                                  |\n| ---------------------- | --------------------------------------------------------------------- | ------------------------------------------------------ |\n| Feegrant allowance     | Cap the warm key may charge to the cold account. It is not a balance. | `GET /cosmos/feegrant/v1beta1/allowance/{cold}/{warm}` |\n| ",
-      "checksum": "f8ea8efd3551b5c9ecfd1d3b53c9e7312fb58cc0071cc375153abb5dceccae8d"
+      "checksum": "30eb93d41314bf9e3bae80d09a92c7fd07ad43e90b637425241d0eb5753b5eb9"
     },
     "dashboard-maintainer-memo-v0.2.16-h100.md": {
       "title": "H100 equivalent on dashboards",
       "status": null,
-      "content_preview": "# H100 equivalent on dashboards\nPlease read this before the v0.2.16 upgrade. If proposal 109 passes, the upgrade height is 6,353,400, expected around 2 October 2026, 07:05 UTC.\n## What the number is\n\nH100 equivalent is the current network reward weight divided by the reward weight one reference H100 receives in that same epoch:\n\n```text\nH100_eq = total_weight / weight_per_h100\n```\n\nIt is a reward-weight equivalent. It is not a count of physical GPUs, and it is not difficulty-normalized compute.\n\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this metric uses that numerator. The published figures differ because the denominator dif",
-      "checksum": "706e81c04b771d25b61499c43051ff1cb61f9848508d101529bf65a868b1ba57"
+      "content_preview": "# H100 equivalent on dashboards\n\nRead this for the v0.2.16 upgrade, proposal 112. If it passes, the upgrade height is 6,449,400, expected around 8 October 2026, 05:48 UTC. Proposal 109 did not pass. The coefficient and weight rules below are for proposal 112.\n\n## What the number is\n\nH100 equivalent is the current network reward weight divided by the reward weight one reference H100 receives in that same epoch:\n\n```text\nH100_eq = total_weight / weight_per_h100\n```\n\nIt is a reward-weight equivalent. It is not a count of physical GPUs, and it is not difficulty-normalized compute.\n\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this ",
+      "checksum": "5ca215d34d7a6ac70e7532849a21c16ca2fd84104f3e690039c1024e973b8638"
     },
     "developer/gateway-developer-quickstart.md": {
       "title": "Run your own gateway",
@@ -156,7 +156,7 @@
       "title": "Glossary",
       "status": null,
       "content_preview": "# Glossary \n\n**AI Token** is a model-specific unit of compute that quantifies the computational cost required for training or inference operations. For instance, in the context of a QwQ-32B model (FP16, 32K context), one AI Token may represent the resources needed to process a fixed number of input and/or output tokens. AI Tokens are tightly coupled to the characteristics of the base model and reflect actual memory, FLOP, etc. \n\n**Collateral** mechanism allows participants to lock GNK coins in order to activate a portion of their already earned Proof of Compute (PoC) weight. Voting power is never derived solely from holding coins. GNK coins serve as economic collateral, not as a source of influence. Influence is earned through continuous computational contribution, while locking GNK collat",
-      "checksum": "b69ba05ab243cf7c4c203bed39991d8266021452d41ebe7007ee6781210e6f2c"
+      "checksum": "858759c1bb61068c5cf69cc1f8f5632096c269ae41275f853588b3f45c509cbd"
     },
     "governance/creating-proposals.md": {
       "title": "How to Create and Submit a Governance Proposal on Gonka",
@@ -179,8 +179,8 @@
     "governance/voting-power-eligibility.md": {
       "title": "Voting Power, Genesis Guardians and Delegation",
       "status": null,
-      "content_preview": "# Voting Power, Genesis Guardians and Delegation\n\n## Total bonded weight calculation\n\nThe total bonded weight is the sum of `validator.tokens` across all bonded validators with `tokens > 0`:\n\n```text\ntotal_bonded = Σ validator.tokens   (over all bonded validators with tokens > 0)\n```\n\nEach validator's `tokens` value is set on every epoch transition by the inference module via `Staking.SetComputeValidators()`.\nFor the vast majority of validators:\n\n```text\nvalidator.tokens = participant.weight   (their PoC weight in the current epoch)\n```\n\nFor the Genesis Guardians, an additional power-enhancement step is applied first (see below).\n\n### Guardian power boost calculation\n\nBefore `SetComputeValidators` runs, the inference module applies `applyEarlyNetworkProtection`, which computes enhanced pow",
-      "checksum": "2f26e7dd1b6a1ac9898ad0a383cfa28f0acf0461cd94253a9b3e7e7c8832a3b8"
+      "content_preview": "# Voting Power, Genesis Guardians and Delegation\n\n## Total bonded weight calculation\n\nThe total bonded weight is the sum of `validator.tokens` across all bonded validators with `tokens > 0`:\n\n```text\ntotal_bonded = Σ validator.tokens   (over all bonded validators with tokens > 0)\n```\n\nEach validator's `tokens` value is set on every epoch transition by the inference module via `Staking.SetComputeValidators()`.\n\nFrom **v0.2.16**, an epoch formed by that release sets non-guardian `validator.tokens` from `cap_weight`, not from reward `weight`. `cap_weight` is on `active_participants.participants[]` at `$NODE_URL/v1/epochs/{epoch_id}/participants`. Use it when `cap_weight_applied` is true. When that flag is absent, the epoch was formed earlier and `tokens` still follow `weight`. A new or return",
+      "checksum": "c923de6c7545a37c3c278f4019e80f56910f6f2f52cf37831b5e96155f60188b"
     },
     "help.md": {
       "title": "Get Support on Discord",
@@ -209,8 +209,8 @@
     "host/deepseek-bootstrap.md": {
       "title": "DeepSeek V4 Flash Bootstrap",
       "status": null,
-      "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Previous model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md), [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\n!!! note\n    The boots",
-      "checksum": "9c642b957844db830b5f5204c0e1ee4dfe79fc2a4869c9d63a817e2eadcc0b25"
+      "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./",
+      "checksum": "c7f2072666beae15a24ec184e76933fc53530ca13a6456205749b2554c1bc5ba"
     },
     "host/devshard-high-availability.md": {
       "title": "High-availability devshard host setup",
@@ -227,8 +227,8 @@
     "host/glm-bootstrap.md": {
       "title": "GLM-5.3-Flash Bootstrap",
       "status": null,
-      "content_preview": "# GLM-5.3-Flash Bootstrap\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md",
-      "checksum": "3ba9e46667a950f43a3f3d133b43c9c735d722e623de27230b65940b26e20c8c"
+      "content_preview": "# GLM-5.3-Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`",
+      "checksum": "097c3edb75656d0451ecfe684a4c23b07f08325a8767c0516c4fd9044c4d8945"
     },
     "host/hardware-specifications.md": {
       "title": "Hardware Specifications",
@@ -257,8 +257,8 @@
     "host/minimax-bootstrap.md": {
       "title": "MiniMax-M2.7 Bootstrap",
       "status": null,
-      "content_preview": "# MiniMax-M2.7 Bootstrap\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [Kimi K2.6 Bootstrap](./kimi-bootstrap.md), [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md), and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\n!!!",
-      "checksum": "6d77982924c275704008b9ac3b89f17cd7c3277a4eb0d5117368bd7983d1fd41"
+      "content_preview": "# MiniMax-M2.7 Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Mul",
+      "checksum": "2f71d182d01dd313c37450262b82b95e80a770d1c3e7ce746261569d5b22ab79"
     },
     "host/mlnode-management.md": {
       "title": "ML Node Management",
@@ -276,7 +276,7 @@
       "title": "Multi-Model PoC — Host Operations Guide",
       "status": null,
       "content_preview": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n!!! warning \"Delegation guidance update (July 2026)\"\n\n    After the epoch 328–329 incident, two rules apply when choosing a delegate:\n\n    - **Do not delegate to guardian nodes.** Guardians are the fallback mechanism\n      for PoC validation. Concentrating delegations on them ties the primary\n      voting mechanism and the fallback to the same hardware, so both fail\n      together. Earlier guidance that suggested a guardian node as a delegation\n      target is withdrawn. A protocol-level restriction is planned for v0.2.14.\n    - **Avoid concentrating delegations on any single host.** A delegation only\n      counts if the delegate submits a PoC store commit that e",
-      "checksum": "12b9711c9be2c8e431c6a3da7ac896c332b75583cf4f49cd3c2261b2f6658bcc"
+      "checksum": "6fdf4d14ec5c912fd8aff50af89d85aaa4675a8802dab0c189757d9c9dcc6718"
     },
     "host/multiple-nodes.md": {
       "title": "Multiple nodes",
@@ -288,7 +288,7 @@
       "title": "Network Node API",
       "status": null,
       "content_preview": "# Network Node API\n\nThis section describes the `Network Node API`, specifically the `/v1/epochs/{epoch_id}/participants` endpoint. This endpoint is used to retrieve:\n\n- Merkle proofs\n- Host data\n- Validator signatures\n\n## Usage\n\nCurrent Epoch Data\n```bash\ncurl -X GET http://<your_api_node_url:public_port>/v1/epochs/current/participants\n```\n\nSpecific Epoch Data\n```bash\ncurl -X GET http://<your_api_node_url:public_port>/v1/epochs/<epoch_id>/participants\n```\n---\n##Example response breakdown\n```bash linenums=\"1\"\n{\n  \"active_participants\": {\n\t\"participants\": [\n  \t{\n    \t\"index\": \"gonka17tvsmufmewvwfy3dfxz7l20jmlhhn6ekfcun7r\",\n    \t\"validator_key\": \"ljvRT9VScsxQKKX4S91yJRNppbz691ceD4sBYBRrAys=\",\n    \t\"weight\": 10,\n    \t\"inference_url\": \"http://genesis-api:8080\",\n    \t\"models\": [\n      \t\"unsloth/",
-      "checksum": "b87b8d6ba6bbc028bd089e4c6973aa089238c022f5d30cbf81269b77cf697b0c"
+      "checksum": "f6454fc3ef00af7dbcf52e25795a8db0e6685b61181f2f912e6100717dd1696d"
     },
     "host/optional-ssl-setup.md": {
       "title": "[Optional] SSL Setup",
@@ -306,7 +306,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "13b548f951981ca0649cbd11e36c4dfdc8c304fc41fcd88485c83fa165bd855d"
+      "checksum": "229e6844aee7e29cf35aec27024ce78797f5fd4e16542a55980fa666a8983828"
     },
     "introduction.md": {
       "title": "introduction",
@@ -330,7 +330,7 @@
       "title": "Announcements",
       "status": null,
       "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 7, 2026\n\n**Upgrade v0.2.16: Pre-download binaries**\n\nThe on-chain governance process for the v0.2.16 upgrade proposal is nearing its conclusion.\n\n- Voting ends: October 8, 2026 at 02:40 AM UTC\n- Proposed upgrade height: 6449400\n- Estimated upgrad",
-      "checksum": "0aa7d2fe9e5afcc947be1eac148d69d1c29d7b566791af476f596c6e52daffd2"
+      "checksum": "e44444237bc8c6989978d8f06181d47885a025f5124ce2651230d0e8535ff0e9"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
