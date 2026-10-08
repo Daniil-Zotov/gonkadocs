@@ -1,5 +1,45 @@
 [
   {
+    "id": "evt_20261008034508_49293846",
+    "timestamp": "2026-10-08T03:45:08.609552+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Passed: #112 – Upgrade Proposal: v0.2.16",
+      "url": "/proposals/proposals/2026-q4/112/",
+      "file": "3df9d92f3a87d63489fd795ef5c748bffc50b8b8aeaf99c83f0c807ac7195a34"
+    },
+    "details": {
+      "status": null,
+      "content": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.\n\nTrusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …",
+      "date": "2026-10-08",
+      "time": "02:40 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q4/112/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261008034508_1bd0c497",
+    "timestamp": "2026-10-08T03:45:08.609595+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Passed: #113 – Distribute v0.2.16 bounty rewards",
+      "url": "/proposals/proposals/2026-q4/113/",
+      "file": "c80309a71bfe0fcc085da3bca5e8e78b4678efd932c3e3d8c686e38950c61221"
+    },
+    "details": {
+      "status": null,
+      "content": "Bounty Payments Associated with v0.2.16\n\nThis proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…",
+      "date": "2026-10-08",
+      "time": "02:43 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q4/113/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261008021226_fa2ee93e",
     "timestamp": "2026-10-08T02:12:26.315579+00:00",
     "section": "calendar",
@@ -8247,35 +8287,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Dashboard (reward fix + vesting; poc stages; total power; gpu’s; participants with logos and contacts)\n    <span class=\"issues-number\">#322</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:01 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></s"
     },
     "ai_description": "Issue #322 on the dashboard improvements has been removed from the activity feed. The task covered reward fixes, vesting, PoC stages, total power, GPU listings, and participant details with logos and contacts. Its removal likely signals that the scope has been consolidated or is being handled elsewhere, so keep an eye out for updates on these dashboard features."
-  },
-  {
-    "id": "evt_20260910143102_f06d991a",
-    "timestamp": "2026-09-10T14:31:02.671879+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#323 — [P0] Replace model with non-dynamic quantization to avoid quantization mismatch",
-      "url": null,
-      "file": "00323-p0-replace-model-with-non-dynamic-quantization-to-avoid-quan.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Replace model with non-dynamic quantization to avoid quantization mismatch\n    <span class=\"issues-number\">#323</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:02 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class="
-    },
-    "ai_description": "Issue #323 about replacing the model with non-dynamic quantization has been closed and removed from the tracker. The proposed fix aimed to resolve a quantization mismatch, but with no comments or discussion, it was likely superseded or deemed unnecessary. The community can now focus on more active priorities.Issue #323 on non-dynamic quantization has been closed and removed from the tracker. The proposed fix aimed to prevent quantization mismatches, but with zero discussion it likely became moot or was resolved elsewhere. Cleaner board, one less distraction for the team."
-  },
-  {
-    "id": "evt_20260910143102_ed05c658",
-    "timestamp": "2026-09-10T14:31:02.671886+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#324 — [P0] PoC nonce performance improvements (H100 vs 8xH100) — define reasons",
-      "url": null,
-      "file": "00324-p0-poc-nonce-performance-improvements-h100-vs-8xh100-define-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] PoC nonce performance improvements (H100 vs 8xH100) — define reasons\n    <span class=\"issues-number\">#324</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:03 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues"
-    },
-    "ai_description": "Issue #324 on PoC nonce performance improvements has been closed and removed from the active feed. The discussion comparing H100 versus 8xH100 setups is no longer tracked, so keep an eye on future updates if this topic resurfaces. Thanks to everyone who contributed to the conversation.Issue #324 on PoC nonce performance improvements has been closed and removed from the active feed. The discussion comparing H100 versus 8xH100 setups is no longer tracked, so keep an eye on future updates if this topic resurfaces. Thanks to everyone who contributed to the conversation."
   }
 ]
