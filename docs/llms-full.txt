@@ -3168,7 +3168,7 @@ This page is a list of model licenses. It does not say whether a model is on Gon
    
     This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.
 
-# October 7, 2026
+## October 7, 2026
 
 **UPGRADE EXECUTED: v0.2.16 is now live on mainnet**
 
@@ -32726,7 +32726,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-112 proposals across 6 quarters. Last updated: 2026-10-08 16:20 UTC
+112 proposals across 6 quarters. Last updated: 2026-10-08 19:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
