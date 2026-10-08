@@ -6,7 +6,7 @@
 When answering questions about Gonka internals, use this map to find the relevant
 files, then fetch the raw source from the /gonka-code/ URLs below.
 
-- Source files: 2732 (Go/proto: 1506, markdown design docs: 326)
+- Source files: 2816 (Go/proto: 1544, markdown design docs: 338)
 
 ## Inference Chain (Cosmos SDK blockchain)
 
@@ -17,8 +17,11 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/Makefile` → https://gonkadocs.com/gonka-code/inference-chain/Makefile
 - `inference-chain/app/ante.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante.go
 - `inference-chain/app/ante_bridge_exchange.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_bridge_exchange.go
+- `inference-chain/app/ante_count_tx.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_count_tx.go
 - `inference-chain/app/ante_fee.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_fee.go
+- `inference-chain/app/ante_msg_exec.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_msg_exec.go
 - `inference-chain/app/ante_poc_period.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_poc_period.go
+- `inference-chain/app/ante_unordered_sim_gas.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_unordered_sim_gas.go
 - `inference-chain/app/app.go` → https://gonkadocs.com/gonka-code/inference-chain/app/app.go
 - `inference-chain/app/app_config.go` → https://gonkadocs.com/gonka-code/inference-chain/app/app_config.go
 - `inference-chain/app/export.go` → https://gonkadocs.com/gonka-code/inference-chain/app/export.go
@@ -41,6 +44,7 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/app/upgrades/v0_2_14/upgrades.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_14/upgrades.go
 - `inference-chain/app/upgrades/v0_2_15/constants.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_15/constants.go
 - `inference-chain/app/upgrades/v0_2_15/upgrades.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_15/upgrades.go
+- `inference-chain/app/upgrades/v0_2_16/bounties.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_16/bounties.go
 - `inference-chain/app/upgrades/v0_2_16/constants.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_16/constants.go
 - `inference-chain/app/upgrades/v0_2_16/upgrades.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_16/upgrades.go
 - `inference-chain/app/upgrades/v0_2_2/constants.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_2/constants.go
@@ -104,6 +108,15 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/contracts/wrapped-token/Makefile` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/Makefile
 - `inference-chain/contracts/wrapped-token/artifacts/checksums.txt` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/artifacts/checksums.txt
 - `inference-chain/contracts/wrapped-token/build.sh` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/build.sh
+- `inference-chain/contracts/wrapped-token/src/base/allowances.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/allowances.rs
+- `inference-chain/contracts/wrapped-token/src/base/contract.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/contract.rs
+- `inference-chain/contracts/wrapped-token/src/base/enumerable.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/enumerable.rs
+- `inference-chain/contracts/wrapped-token/src/base/logo.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/logo.rs
+- `inference-chain/contracts/wrapped-token/src/base/mod.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/mod.rs
+- `inference-chain/contracts/wrapped-token/src/base/msg.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/msg.rs
+- `inference-chain/contracts/wrapped-token/src/base/receiver.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/receiver.rs
+- `inference-chain/contracts/wrapped-token/src/base/state.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/state.rs
+- `inference-chain/contracts/wrapped-token/src/base/types.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/types.rs
 - `inference-chain/contracts/wrapped-token/src/contract.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/contract.rs
 - `inference-chain/contracts/wrapped-token/src/error.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/error.rs
 - `inference-chain/contracts/wrapped-token/src/lib.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/lib.rs
@@ -176,6 +189,7 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/proto/inference/inference/paramsv1.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/paramsv1.proto
 - `inference-chain/proto/inference/inference/partial_upgrade.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/partial_upgrade.proto
 - `inference-chain/proto/inference/inference/participant.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/participant.proto
+- `inference-chain/proto/inference/inference/poc_challenge.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/poc_challenge.proto
 - `inference-chain/proto/inference/inference/poc_delegation.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/poc_delegation.proto
 - `inference-chain/proto/inference/inference/poc_v2.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/poc_v2.proto
 - `inference-chain/proto/inference/inference/poc_validation_snapshot.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/poc_validation_snapshot.proto
@@ -294,6 +308,14 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/x/inference/calculations/stats_table.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/calculations/stats_table.go
 - `inference-chain/x/inference/calculations/status.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/calculations/status.go
 - `inference-chain/x/inference/calculations/status.md` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/calculations/status.md
+- `inference-chain/x/inference/coefficients/coefficients.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/coefficients.go
+- `inference-chain/x/inference/coefficients/sim/.gitignore` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/.gitignore
+- `inference-chain/x/inference/coefficients/sim/README.md` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/README.md
+- `inference-chain/x/inference/coefficients/sim/config.json` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/config.json
+- `inference-chain/x/inference/coefficients/sim/main.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/main.go
+- `inference-chain/x/inference/coefficients/sim/run.sh` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/run.sh
+- `inference-chain/x/inference/coefficients/sim/simulation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/simulation.go
+- `inference-chain/x/inference/coefficients/sim/svg.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/svg.go
 - `inference-chain/x/inference/epochgroup/epoch_group.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/epochgroup/epoch_group.go
 - `inference-chain/x/inference/epochgroup/random.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/epochgroup/random.go
 - `inference-chain/x/inference/epochgroup/unit_of_compute_price.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/epochgroup/unit_of_compute_price.go
@@ -315,6 +337,7 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/x/inference/keeper/delegation_reward_transfer.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/delegation_reward_transfer.go
 - `inference-chain/x/inference/keeper/developer_stats_aggregation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/developer_stats_aggregation.go
 - `inference-chain/x/inference/keeper/developer_stats_store.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/developer_stats_store.go
+- `inference-chain/x/inference/keeper/devshard_approved_version.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/devshard_approved_version.go
 - `inference-chain/x/inference/keeper/devshard_escrow.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/devshard_escrow.go
 - `inference-chain/x/inference/keeper/devshard_host_stats.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/devshard_host_stats.go
 - `inference-chain/x/inference/keeper/devshard_pruning.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/devshard_pruning.go
@@ -326,6 +349,8 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/x/inference/keeper/epoch_group_validations.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/epoch_group_validations.go
 - `inference-chain/x/inference/keeper/epoch_models.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/epoch_models.go
 - `inference-chain/x/inference/keeper/epoch_performance_summary.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/epoch_performance_summary.go
+- `inference-chain/x/inference/keeper/fee_gas.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/fee_gas.go
+- `inference-chain/x/inference/keeper/fee_params_migrate.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/fee_params_migrate.go
 - `inference-chain/x/inference/keeper/finished_inference_queue.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/finished_inference_queue.go
 - `inference-chain/x/inference/keeper/genesis_only_params.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/genesis_only_params.go
 - `inference-chain/x/inference/keeper/hardware_node.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/hardware_node.go
@@ -355,13 +380,16 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/x/inference/keeper/msg_server_claim_rewards.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_claim_rewards.go
 - `inference-chain/x/inference/keeper/msg_server_create_devshard_escrow.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_create_devshard_escrow.go
 - `inference-chain/x/inference/keeper/msg_server_create_partial_upgrade.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_create_partial_upgrade.go
+- `inference-chain/x/inference/keeper/msg_server_delete_devshard_approved_version.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_delete_devshard_approved_version.go
 - `inference-chain/x/inference/keeper/msg_server_delete_governance_model.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_delete_governance_model.go
 - `inference-chain/x/inference/keeper/msg_server_governance_cancel_bridge_operation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_governance_cancel_bridge_operation.go
 - `inference-chain/x/inference/keeper/msg_server_migrate_all_wrapped_tokens.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_migrate_all_wrapped_tokens.go
+- `inference-chain/x/inference/keeper/msg_server_poc_challenge.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_poc_challenge.go
 - `inference-chain/x/inference/keeper/msg_server_poc_delegation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_poc_delegation.go
 - `inference-chain/x/inference/keeper/msg_server_poc_v1.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_poc_v1.go
 - `inference-chain/x/inference/keeper/msg_server_poc_v2_commit.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_poc_v2_commit.go
 - `inference-chain/x/inference/keeper/msg_server_poc_validations_v2.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_poc_validations_v2.go
+- `inference-chain/x/inference/keeper/msg_server_put_devshard_approved_version.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_put_devshard_approved_version.go
 - `inference-chain/x/inference/keeper/msg_server_register_bridge_addresses.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_register_bridge_addresses.go
 - `inference-chain/x/inference/keeper/msg_server_register_ibc_token_metadata.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_register_ibc_token_metadata.go
 - `inference-chain/x/inference/keeper/msg_server_register_liquidity_pool.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_register_liquidity_pool.go
@@ -390,6 +418,7 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/x/inference/keeper/payment_handler.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/payment_handler.go
 - `inference-chain/x/inference/keeper/permissions.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/permissions.go
 - `inference-chain/x/inference/keeper/poc_batch.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/poc_batch.go
+- `inference-chain/x/inference/keeper/poc_challenge.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/poc_challenge.go
 - `inference-chain/x/inference/keeper/poc_delegation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/poc_delegation.go
 - `inference-chain/x/inference/keeper/poc_period_validation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/poc_period_validation.go
 - `inference-chain/x/inference/keeper/poc_v2.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/poc_v2.go
@@ -411,8 +440,10 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/x/inference/keeper/query_count_po_c_validations_at_height.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_count_po_c_validations_at_height.go
 - `inference-chain/x/inference/keeper/query_current_epoch_group_data.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_current_epoch_group_data.go
 - `inference-chain/x/inference/keeper/query_developer_stats_aggregation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_developer_stats_aggregation.go
+- `inference-chain/x/inference/keeper/query_devshard_approved_versions.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_devshard_approved_versions.go
 - `inference-chain/x/inference/keeper/query_devshard_escrow.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_devshard_escrow.go
 - `inference-chain/x/inference/keeper/query_devshard_host_stats.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_devshard_host_stats.go
+- `inference-chain/x/inference/keeper/query_dynamic_coefficients.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_dynamic_coefficients.go
 - `inference-chain/x/inference/keeper/query_dynamic_pricing.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_dynamic_pricing.go
 - `inference-chain/x/inference/keeper/query_epoch_group_data.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_epoch_group_data.go
 - `inference-chain/x/inference/keeper/query_epoch_group_validations.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_epoch_group_validations.go
@@ -446,6 +477,7 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/x/inference/keeper/query_participant_allow_list.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_participant_allow_list.go
 - `inference-chain/x/inference/keeper/query_participants_with_balances.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_participants_with_balances.go
 - `inference-chain/x/inference/keeper/query_poc_batches_for_stage.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_poc_batches_for_stage.go
+- `inference-chain/x/inference/keeper/query_poc_challenge.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_poc_challenge.go
 - `inference-chain/x/inference/keeper/query_poc_delegation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_poc_delegation.go
 - `inference-chain/x/inference/keeper/query_poc_v2.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_poc_v2.go
 - `inference-chain/x/inference/keeper/query_poc_v2_commit.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_poc_v2_commit.go
@@ -484,9 +516,10 @@ Core blockchain node (Go). Contains app/, x/ modules, proto/, contracts/.
 - `inference-chain/x/inference/module/inference_expiry.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/inference_expiry.go
 - `inference-chain/x/inference/module/inference_validation_endblock.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/inference_validation_endblock.go
 - `inference-chain/x/inference/module/model_assignment.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/model_assignment.go
-- `inference-chain/x/inference/module/model_coefficients.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/model_coefficients.go
 - `inference-chain/x/inference/module/module.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/module.go
+- `inference-chain/x/inference/module/poc_challenge.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/poc_challenge.go
 - `inference-chain/x/inference/module/power_capping.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/power_capping.go
+- `inference-chain/x/inference/module/previous_epoch_cap.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/previous_epoch_cap.go
 - `inference-chain/x/inference/module/simulation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/simulation.go
 - `inference-chain/x/inference/module/staking_hooks.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/staking_hooks.go
 - `inference-chain/x/inference/permissions.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/permissions.go
@@ -545,6 +578,14 @@ Proof of Compute, inference lifecycle, validation. keeper/ holds the business lo
 - `inference-chain/x/inference/calculations/stats_table.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/calculations/stats_table.go
 - `inference-chain/x/inference/calculations/status.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/calculations/status.go
 - `inference-chain/x/inference/calculations/status.md` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/calculations/status.md
+- `inference-chain/x/inference/coefficients/coefficients.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/coefficients.go
+- `inference-chain/x/inference/coefficients/sim/.gitignore` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/.gitignore
+- `inference-chain/x/inference/coefficients/sim/README.md` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/README.md
+- `inference-chain/x/inference/coefficients/sim/config.json` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/config.json
+- `inference-chain/x/inference/coefficients/sim/main.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/main.go
+- `inference-chain/x/inference/coefficients/sim/run.sh` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/run.sh
+- `inference-chain/x/inference/coefficients/sim/simulation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/simulation.go
+- `inference-chain/x/inference/coefficients/sim/svg.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/coefficients/sim/svg.go
 - `inference-chain/x/inference/epochgroup/epoch_group.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/epochgroup/epoch_group.go
 - `inference-chain/x/inference/epochgroup/random.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/epochgroup/random.go
 - `inference-chain/x/inference/epochgroup/unit_of_compute_price.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/epochgroup/unit_of_compute_price.go
@@ -566,6 +607,7 @@ Proof of Compute, inference lifecycle, validation. keeper/ holds the business lo
 - `inference-chain/x/inference/keeper/delegation_reward_transfer.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/delegation_reward_transfer.go
 - `inference-chain/x/inference/keeper/developer_stats_aggregation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/developer_stats_aggregation.go
 - `inference-chain/x/inference/keeper/developer_stats_store.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/developer_stats_store.go
+- `inference-chain/x/inference/keeper/devshard_approved_version.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/devshard_approved_version.go
 - `inference-chain/x/inference/keeper/devshard_escrow.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/devshard_escrow.go
 - `inference-chain/x/inference/keeper/devshard_host_stats.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/devshard_host_stats.go
 - `inference-chain/x/inference/keeper/devshard_pruning.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/devshard_pruning.go
@@ -577,6 +619,8 @@ Proof of Compute, inference lifecycle, validation. keeper/ holds the business lo
 - `inference-chain/x/inference/keeper/epoch_group_validations.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/epoch_group_validations.go
 - `inference-chain/x/inference/keeper/epoch_models.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/epoch_models.go
 - `inference-chain/x/inference/keeper/epoch_performance_summary.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/epoch_performance_summary.go
+- `inference-chain/x/inference/keeper/fee_gas.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/fee_gas.go
+- `inference-chain/x/inference/keeper/fee_params_migrate.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/fee_params_migrate.go
 - `inference-chain/x/inference/keeper/finished_inference_queue.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/finished_inference_queue.go
 - `inference-chain/x/inference/keeper/genesis_only_params.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/genesis_only_params.go
 - `inference-chain/x/inference/keeper/hardware_node.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/hardware_node.go
@@ -606,13 +650,16 @@ Proof of Compute, inference lifecycle, validation. keeper/ holds the business lo
 - `inference-chain/x/inference/keeper/msg_server_claim_rewards.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_claim_rewards.go
 - `inference-chain/x/inference/keeper/msg_server_create_devshard_escrow.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_create_devshard_escrow.go
 - `inference-chain/x/inference/keeper/msg_server_create_partial_upgrade.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_create_partial_upgrade.go
+- `inference-chain/x/inference/keeper/msg_server_delete_devshard_approved_version.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_delete_devshard_approved_version.go
 - `inference-chain/x/inference/keeper/msg_server_delete_governance_model.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_delete_governance_model.go
 - `inference-chain/x/inference/keeper/msg_server_governance_cancel_bridge_operation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_governance_cancel_bridge_operation.go
 - `inference-chain/x/inference/keeper/msg_server_migrate_all_wrapped_tokens.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_migrate_all_wrapped_tokens.go
+- `inference-chain/x/inference/keeper/msg_server_poc_challenge.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_poc_challenge.go
 - `inference-chain/x/inference/keeper/msg_server_poc_delegation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_poc_delegation.go
 - `inference-chain/x/inference/keeper/msg_server_poc_v1.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_poc_v1.go
 - `inference-chain/x/inference/keeper/msg_server_poc_v2_commit.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_poc_v2_commit.go
 - `inference-chain/x/inference/keeper/msg_server_poc_validations_v2.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_poc_validations_v2.go
+- `inference-chain/x/inference/keeper/msg_server_put_devshard_approved_version.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_put_devshard_approved_version.go
 - `inference-chain/x/inference/keeper/msg_server_register_bridge_addresses.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_register_bridge_addresses.go
 - `inference-chain/x/inference/keeper/msg_server_register_ibc_token_metadata.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_register_ibc_token_metadata.go
 - `inference-chain/x/inference/keeper/msg_server_register_liquidity_pool.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/msg_server_register_liquidity_pool.go
@@ -641,6 +688,7 @@ Proof of Compute, inference lifecycle, validation. keeper/ holds the business lo
 - `inference-chain/x/inference/keeper/payment_handler.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/payment_handler.go
 - `inference-chain/x/inference/keeper/permissions.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/permissions.go
 - `inference-chain/x/inference/keeper/poc_batch.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/poc_batch.go
+- `inference-chain/x/inference/keeper/poc_challenge.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/poc_challenge.go
 - `inference-chain/x/inference/keeper/poc_delegation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/poc_delegation.go
 - `inference-chain/x/inference/keeper/poc_period_validation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/poc_period_validation.go
 - `inference-chain/x/inference/keeper/poc_v2.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/poc_v2.go
@@ -662,8 +710,10 @@ Proof of Compute, inference lifecycle, validation. keeper/ holds the business lo
 - `inference-chain/x/inference/keeper/query_count_po_c_validations_at_height.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_count_po_c_validations_at_height.go
 - `inference-chain/x/inference/keeper/query_current_epoch_group_data.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_current_epoch_group_data.go
 - `inference-chain/x/inference/keeper/query_developer_stats_aggregation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_developer_stats_aggregation.go
+- `inference-chain/x/inference/keeper/query_devshard_approved_versions.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_devshard_approved_versions.go
 - `inference-chain/x/inference/keeper/query_devshard_escrow.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_devshard_escrow.go
 - `inference-chain/x/inference/keeper/query_devshard_host_stats.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_devshard_host_stats.go
+- `inference-chain/x/inference/keeper/query_dynamic_coefficients.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_dynamic_coefficients.go
 - `inference-chain/x/inference/keeper/query_dynamic_pricing.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_dynamic_pricing.go
 - `inference-chain/x/inference/keeper/query_epoch_group_data.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_epoch_group_data.go
 - `inference-chain/x/inference/keeper/query_epoch_group_validations.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_epoch_group_validations.go
@@ -697,6 +747,7 @@ Proof of Compute, inference lifecycle, validation. keeper/ holds the business lo
 - `inference-chain/x/inference/keeper/query_participant_allow_list.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_participant_allow_list.go
 - `inference-chain/x/inference/keeper/query_participants_with_balances.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_participants_with_balances.go
 - `inference-chain/x/inference/keeper/query_poc_batches_for_stage.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_poc_batches_for_stage.go
+- `inference-chain/x/inference/keeper/query_poc_challenge.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_poc_challenge.go
 - `inference-chain/x/inference/keeper/query_poc_delegation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_poc_delegation.go
 - `inference-chain/x/inference/keeper/query_poc_v2.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_poc_v2.go
 - `inference-chain/x/inference/keeper/query_poc_v2_commit.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/keeper/query_poc_v2_commit.go
@@ -735,9 +786,10 @@ Proof of Compute, inference lifecycle, validation. keeper/ holds the business lo
 - `inference-chain/x/inference/module/inference_expiry.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/inference_expiry.go
 - `inference-chain/x/inference/module/inference_validation_endblock.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/inference_validation_endblock.go
 - `inference-chain/x/inference/module/model_assignment.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/model_assignment.go
-- `inference-chain/x/inference/module/model_coefficients.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/model_coefficients.go
 - `inference-chain/x/inference/module/module.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/module.go
+- `inference-chain/x/inference/module/poc_challenge.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/poc_challenge.go
 - `inference-chain/x/inference/module/power_capping.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/power_capping.go
+- `inference-chain/x/inference/module/previous_epoch_cap.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/previous_epoch_cap.go
 - `inference-chain/x/inference/module/simulation.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/simulation.go
 - `inference-chain/x/inference/module/staking_hooks.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/module/staking_hooks.go
 - `inference-chain/x/inference/permissions.go` → https://gonkadocs.com/gonka-code/inference-chain/x/inference/permissions.go
@@ -874,8 +926,11 @@ app.go, ante handlers, upgrade_tracking, upgrades registry.
 
 - `inference-chain/app/ante.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante.go
 - `inference-chain/app/ante_bridge_exchange.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_bridge_exchange.go
+- `inference-chain/app/ante_count_tx.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_count_tx.go
 - `inference-chain/app/ante_fee.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_fee.go
+- `inference-chain/app/ante_msg_exec.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_msg_exec.go
 - `inference-chain/app/ante_poc_period.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_poc_period.go
+- `inference-chain/app/ante_unordered_sim_gas.go` → https://gonkadocs.com/gonka-code/inference-chain/app/ante_unordered_sim_gas.go
 - `inference-chain/app/app.go` → https://gonkadocs.com/gonka-code/inference-chain/app/app.go
 - `inference-chain/app/app_config.go` → https://gonkadocs.com/gonka-code/inference-chain/app/app_config.go
 - `inference-chain/app/export.go` → https://gonkadocs.com/gonka-code/inference-chain/app/export.go
@@ -898,6 +953,7 @@ app.go, ante handlers, upgrade_tracking, upgrades registry.
 - `inference-chain/app/upgrades/v0_2_14/upgrades.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_14/upgrades.go
 - `inference-chain/app/upgrades/v0_2_15/constants.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_15/constants.go
 - `inference-chain/app/upgrades/v0_2_15/upgrades.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_15/upgrades.go
+- `inference-chain/app/upgrades/v0_2_16/bounties.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_16/bounties.go
 - `inference-chain/app/upgrades/v0_2_16/constants.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_16/constants.go
 - `inference-chain/app/upgrades/v0_2_16/upgrades.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_16/upgrades.go
 - `inference-chain/app/upgrades/v0_2_2/constants.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_2/constants.go
@@ -937,6 +993,7 @@ One dir per protocol version (v0_2_2 .. v0_2_15). Each upgrades.go contains the 
 - `inference-chain/app/upgrades/v0_2_14/upgrades.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_14/upgrades.go
 - `inference-chain/app/upgrades/v0_2_15/constants.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_15/constants.go
 - `inference-chain/app/upgrades/v0_2_15/upgrades.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_15/upgrades.go
+- `inference-chain/app/upgrades/v0_2_16/bounties.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_16/bounties.go
 - `inference-chain/app/upgrades/v0_2_16/constants.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_16/constants.go
 - `inference-chain/app/upgrades/v0_2_16/upgrades.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_16/upgrades.go
 - `inference-chain/app/upgrades/v0_2_2/constants.go` → https://gonkadocs.com/gonka-code/inference-chain/app/upgrades/v0_2_2/constants.go
@@ -1021,6 +1078,7 @@ Source .proto files for all modules.
 - `inference-chain/proto/inference/inference/paramsv1.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/paramsv1.proto
 - `inference-chain/proto/inference/inference/partial_upgrade.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/partial_upgrade.proto
 - `inference-chain/proto/inference/inference/participant.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/participant.proto
+- `inference-chain/proto/inference/inference/poc_challenge.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/poc_challenge.proto
 - `inference-chain/proto/inference/inference/poc_delegation.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/poc_delegation.proto
 - `inference-chain/proto/inference/inference/poc_v2.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/poc_v2.proto
 - `inference-chain/proto/inference/inference/poc_validation_snapshot.proto` → https://gonkadocs.com/gonka-code/inference-chain/proto/inference/inference/poc_validation_snapshot.proto
@@ -1076,6 +1134,15 @@ Solidity/Wasm contracts (community-sale, wrapped-token).
 - `inference-chain/contracts/wrapped-token/Makefile` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/Makefile
 - `inference-chain/contracts/wrapped-token/artifacts/checksums.txt` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/artifacts/checksums.txt
 - `inference-chain/contracts/wrapped-token/build.sh` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/build.sh
+- `inference-chain/contracts/wrapped-token/src/base/allowances.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/allowances.rs
+- `inference-chain/contracts/wrapped-token/src/base/contract.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/contract.rs
+- `inference-chain/contracts/wrapped-token/src/base/enumerable.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/enumerable.rs
+- `inference-chain/contracts/wrapped-token/src/base/logo.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/logo.rs
+- `inference-chain/contracts/wrapped-token/src/base/mod.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/mod.rs
+- `inference-chain/contracts/wrapped-token/src/base/msg.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/msg.rs
+- `inference-chain/contracts/wrapped-token/src/base/receiver.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/receiver.rs
+- `inference-chain/contracts/wrapped-token/src/base/state.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/state.rs
+- `inference-chain/contracts/wrapped-token/src/base/types.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/base/types.rs
 - `inference-chain/contracts/wrapped-token/src/contract.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/contract.rs
 - `inference-chain/contracts/wrapped-token/src/error.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/error.rs
 - `inference-chain/contracts/wrapped-token/src/lib.rs` → https://gonkadocs.com/gonka-code/inference-chain/contracts/wrapped-token/src/lib.rs
@@ -1616,6 +1683,7 @@ OpenAI-compatible API layer, broker, event listener, node manager.
 - `decentralized-api/apiconfig/accounts.go` → https://gonkadocs.com/gonka-code/decentralized-api/apiconfig/accounts.go
 - `decentralized-api/apiconfig/config.go` → https://gonkadocs.com/gonka-code/decentralized-api/apiconfig/config.go
 - `decentralized-api/apiconfig/config_manager.go` → https://gonkadocs.com/gonka-code/decentralized-api/apiconfig/config_manager.go
+- `decentralized-api/apiconfig/devshard_version_overrides.go` → https://gonkadocs.com/gonka-code/decentralized-api/apiconfig/devshard_version_overrides.go
 - `decentralized-api/apiconfig/devshard_versions_from_params.go` → https://gonkadocs.com/gonka-code/decentralized-api/apiconfig/devshard_versions_from_params.go
 - `decentralized-api/apiconfig/epoch_change_listeners.go` → https://gonkadocs.com/gonka-code/decentralized-api/apiconfig/epoch_change_listeners.go
 - `decentralized-api/apiconfig/host_event_ring.go` → https://gonkadocs.com/gonka-code/decentralized-api/apiconfig/host_event_ring.go
@@ -1625,6 +1693,7 @@ OpenAI-compatible API layer, broker, event listener, node manager.
 - `decentralized-api/apiconfig/sqlite_store.go` → https://gonkadocs.com/gonka-code/decentralized-api/apiconfig/sqlite_store.go
 - `decentralized-api/broker/README.md` → https://gonkadocs.com/gonka-code/decentralized-api/broker/README.md
 - `decentralized-api/broker/broker.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/broker.go
+- `decentralized-api/broker/challenge_overlay.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/challenge_overlay.go
 - `decentralized-api/broker/commands.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/commands.go
 - `decentralized-api/broker/escrow_load.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/escrow_load.go
 - `decentralized-api/broker/lock_helpers.go` → https://gonkadocs.com/gonka-code/decentralized-api/broker/lock_helpers.go
@@ -1647,7 +1716,10 @@ OpenAI-compatible API layer, broker, event listener, node manager.
 - `decentralized-api/cosmosclient/rpcclient.go` → https://gonkadocs.com/gonka-code/decentralized-api/cosmosclient/rpcclient.go
 - `decentralized-api/cosmosclient/tx_manager/batch_consumer.go` → https://gonkadocs.com/gonka-code/decentralized-api/cosmosclient/tx_manager/batch_consumer.go
 - `decentralized-api/cosmosclient/tx_manager/errors.go` → https://gonkadocs.com/gonka-code/decentralized-api/cosmosclient/tx_manager/errors.go
+- `decentralized-api/cosmosclient/tx_manager/fee_tree.go` → https://gonkadocs.com/gonka-code/decentralized-api/cosmosclient/tx_manager/fee_tree.go
 - `decentralized-api/cosmosclient/tx_manager/gas_estimate.go` → https://gonkadocs.com/gonka-code/decentralized-api/cosmosclient/tx_manager/gas_estimate.go
+- `decentralized-api/cosmosclient/tx_manager/sim_afford.go` → https://gonkadocs.com/gonka-code/decentralized-api/cosmosclient/tx_manager/sim_afford.go
+- `decentralized-api/cosmosclient/tx_manager/spendable.go` → https://gonkadocs.com/gonka-code/decentralized-api/cosmosclient/tx_manager/spendable.go
 - `decentralized-api/cosmosclient/tx_manager/transaction_error.go` → https://gonkadocs.com/gonka-code/decentralized-api/cosmosclient/tx_manager/transaction_error.go
 - `decentralized-api/cosmosclient/tx_manager/tx_deadline_config.go` → https://gonkadocs.com/gonka-code/decentralized-api/cosmosclient/tx_manager/tx_deadline_config.go
 - `decentralized-api/cosmosclient/tx_manager/tx_manager.go` → https://gonkadocs.com/gonka-code/decentralized-api/cosmosclient/tx_manager/tx_manager.go
@@ -1682,7 +1754,9 @@ OpenAI-compatible API layer, broker, event listener, node manager.
 - `decentralized-api/internal/seed/seed.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/seed/seed.go
 - `decentralized-api/internal/server/admin/bls_handlers.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/admin/bls_handlers.go
 - `decentralized-api/internal/server/admin/bridge_handlers.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/admin/bridge_handlers.go
+- `decentralized-api/internal/server/admin/devshard_version_handlers.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/admin/devshard_version_handlers.go
 - `decentralized-api/internal/server/admin/entity.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/admin/entity.go
+- `decentralized-api/internal/server/admin/epoch_fee_budget.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/admin/epoch_fee_budget.go
 - `decentralized-api/internal/server/admin/errors.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/admin/errors.go
 - `decentralized-api/internal/server/admin/node_handlers.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/admin/node_handlers.go
 - `decentralized-api/internal/server/admin/payload_handlers.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/admin/payload_handlers.go
@@ -1699,6 +1773,7 @@ OpenAI-compatible API layer, broker, event listener, node manager.
 - `decentralized-api/internal/server/mlnode/server.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/mlnode/server.go
 - `decentralized-api/internal/server/public/app_info_handlers.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/public/app_info_handlers.go
 - `decentralized-api/internal/server/public/bridge_handlers.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/public/bridge_handlers.go
+- `decentralized-api/internal/server/public/chainoracle.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/public/chainoracle.go
 - `decentralized-api/internal/server/public/deprecated_queryapi.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/public/deprecated_queryapi.go
 - `decentralized-api/internal/server/public/entities.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/public/entities.go
 - `decentralized-api/internal/server/public/errors.go` → https://gonkadocs.com/gonka-code/decentralized-api/internal/server/public/errors.go
@@ -1764,6 +1839,8 @@ OpenAI-compatible API layer, broker, event listener, node manager.
 - `decentralized-api/poc/artifacts/smst_store.go` → https://gonkadocs.com/gonka-code/decentralized-api/poc/artifacts/smst_store.go
 - `decentralized-api/poc/artifacts/smst_verify.go` → https://gonkadocs.com/gonka-code/decentralized-api/poc/artifacts/smst_verify.go
 - `decentralized-api/poc/artifacts/snapshot_cache.go` → https://gonkadocs.com/gonka-code/decentralized-api/poc/artifacts/snapshot_cache.go
+- `decentralized-api/poc/challenge.go` → https://gonkadocs.com/gonka-code/decentralized-api/poc/challenge.go
+- `decentralized-api/poc/challenge_validate.go` → https://gonkadocs.com/gonka-code/decentralized-api/poc/challenge_validate.go
 - `decentralized-api/poc/commit_worker.go` → https://gonkadocs.com/gonka-code/decentralized-api/poc/commit_worker.go
 - `decentralized-api/poc/early_guard.go` → https://gonkadocs.com/gonka-code/decentralized-api/poc/early_guard.go
 - `decentralized-api/poc/earlyshare/config.go` → https://gonkadocs.com/gonka-code/decentralized-api/poc/earlyshare/config.go
@@ -2126,8 +2203,10 @@ Kotlin testing framework for the chain (consensus, PoC).
 - `testermint/src/test/kotlin/DevsharddRuntimeConfigTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/DevsharddRuntimeConfigTests.kt
 - `testermint/src/test/kotlin/EmptyEpochFallbackTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/EmptyEpochFallbackTests.kt
 - `testermint/src/test/kotlin/EpochSchedulingHelpersTest.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/EpochSchedulingHelpersTest.kt
+- `testermint/src/test/kotlin/FeeParamsSerializationTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/FeeParamsSerializationTests.kt
 - `testermint/src/test/kotlin/GenesisTransferTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/GenesisTransferTests.kt
 - `testermint/src/test/kotlin/GovernanceTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/GovernanceTests.kt
+- `testermint/src/test/kotlin/HardwareRelabelTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/HardwareRelabelTests.kt
 - `testermint/src/test/kotlin/InferenceAccountingTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/InferenceAccountingTests.kt
 - `testermint/src/test/kotlin/InferenceFailureAccountingTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/InferenceFailureAccountingTests.kt
 - `testermint/src/test/kotlin/InferenceRetryTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/InferenceRetryTests.kt
@@ -2143,6 +2222,13 @@ Kotlin testing framework for the chain (consensus, PoC).
 - `testermint/src/test/kotlin/NodeManagerTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/NodeManagerTests.kt
 - `testermint/src/test/kotlin/ParticipantPowerTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/ParticipantPowerTests.kt
 - `testermint/src/test/kotlin/ParticipantTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/ParticipantTests.kt
+- `testermint/src/test/kotlin/PoCChallengeAccumulateTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/PoCChallengeAccumulateTests.kt
+- `testermint/src/test/kotlin/PoCChallengeFailTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/PoCChallengeFailTests.kt
+- `testermint/src/test/kotlin/PoCChallengeHaircutTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/PoCChallengeHaircutTests.kt
+- `testermint/src/test/kotlin/PoCChallengeHelpers.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/PoCChallengeHelpers.kt
+- `testermint/src/test/kotlin/PoCChallengeNormalizeFailTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/PoCChallengeNormalizeFailTests.kt
+- `testermint/src/test/kotlin/PoCChallengePassTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/PoCChallengePassTests.kt
+- `testermint/src/test/kotlin/PoCChallengeRotateIsolationTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/PoCChallengeRotateIsolationTests.kt
 - `testermint/src/test/kotlin/PoCOffChainTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/PoCOffChainTests.kt
 - `testermint/src/test/kotlin/PromptHashingTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/PromptHashingTests.kt
 - `testermint/src/test/kotlin/PruningTests.kt` → https://gonkadocs.com/gonka-code/testermint/src/test/kotlin/PruningTests.kt
@@ -2400,6 +2486,7 @@ Edge API gateway components.
 - `edge-api/Makefile` → https://gonkadocs.com/gonka-code/edge-api/Makefile
 - `edge-api/cmd/edge-api/main.go` → https://gonkadocs.com/gonka-code/edge-api/cmd/edge-api/main.go
 - `edge-api/go.mod` → https://gonkadocs.com/gonka-code/edge-api/go.mod
+- `edge-api/internal/server/readiness.go` → https://gonkadocs.com/gonka-code/edge-api/internal/server/readiness.go
 - `edge-api/internal/server/server.go` → https://gonkadocs.com/gonka-code/edge-api/internal/server/server.go
 - `edge-api/observability/init.go` → https://gonkadocs.com/gonka-code/edge-api/observability/init.go
 - `edge-api/observability/middleware.go` → https://gonkadocs.com/gonka-code/edge-api/observability/middleware.go
@@ -2727,6 +2814,8 @@ Additional design docs and papers (whitepaper, tokenomics).
 - `docs/prepare_join_image.md` → https://gonkadocs.com/gonka-code/docs/prepare_join_image.md
 - `docs/proposal/compressed-payloads.md` → https://gonkadocs.com/gonka-code/docs/proposal/compressed-payloads.md
 - `docs/release-candidate-gpu-profile.md` → https://gonkadocs.com/gonka-code/docs/release-candidate-gpu-profile.md
+- `docs/release.md` → https://gonkadocs.com/gonka-code/docs/release.md
+- `docs/security-model.md` → https://gonkadocs.com/gonka-code/docs/security-model.md
 - `docs/specs/genesistransfer/genesistransfer-cli-guide.md` → https://gonkadocs.com/gonka-code/docs/specs/genesistransfer/genesistransfer-cli-guide.md
 - `docs/specs/genesistransfer/genesistransfer-deployment.md` → https://gonkadocs.com/gonka-code/docs/specs/genesistransfer/genesistransfer-deployment.md
 - `docs/specs/inference-validation-flow.md` → https://gonkadocs.com/gonka-code/docs/specs/inference-validation-flow.md
@@ -2797,6 +2886,8 @@ Protocol design docs and governance artifacts — one dir per feature/upgrade. G
 - `proposals/governance-artifacts/update-v0.2.15/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.15/README.md
 - `proposals/governance-artifacts/update-v0.2.15-devshard-v5/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.15-devshard-v5/README.md
 - `proposals/governance-artifacts/update-v0.2.15-devshard-v5.0.2/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.15-devshard-v5.0.2/README.md
+- `proposals/governance-artifacts/update-v0.2.16/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.16/README.md
+- `proposals/governance-artifacts/update-v0.2.16/bounty.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.16/bounty.md
 - `proposals/governance-artifacts/update-v0.2.2/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.2/README.md
 - `proposals/governance-artifacts/update-v0.2.3/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.3/README.md
 - `proposals/governance-artifacts/update-v0.2.4/README.md` → https://gonkadocs.com/gonka-code/proposals/governance-artifacts/update-v0.2.4/README.md
@@ -2838,8 +2929,19 @@ Protocol design docs and governance artifacts — one dir per feature/upgrade. G
 - `proposals/mlnode-autodownload/README.md` → https://gonkadocs.com/gonka-code/proposals/mlnode-autodownload/README.md
 - `proposals/mlnode-upgrade/README.md` → https://gonkadocs.com/gonka-code/proposals/mlnode-upgrade/README.md
 - `proposals/multi-model-poc/README.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/README.md
+- `proposals/multi-model-poc/data/models.csv` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/data/models.csv
+- `proposals/multi-model-poc/data/snapshot-2026-09-23/.gitignore` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/data/snapshot-2026-09-23/.gitignore
+- `proposals/multi-model-poc/data/snapshot-2026-09-23/benchmarks_8gpu.csv` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/data/snapshot-2026-09-23/benchmarks_8gpu.csv
+- `proposals/multi-model-poc/data/snapshot-2026-09-23/chain_models.csv` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/data/snapshot-2026-09-23/chain_models.csv
+- `proposals/multi-model-poc/data/snapshot-2026-09-23/chain_node_hardware.csv` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/data/snapshot-2026-09-23/chain_node_hardware.csv
+- `proposals/multi-model-poc/data/snapshot-2026-09-23/chain_poc_nodes.csv` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/data/snapshot-2026-09-23/chain_poc_nodes.csv
 - `proposals/multi-model-poc/design-1.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/design-1.md
 - `proposals/multi-model-poc/design-2.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/design-2.md
+- `proposals/multi-model-poc/dynamic-coeff-impl.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/dynamic-coeff-impl.md
+- `proposals/multi-model-poc/dynamic-coeff-init.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/dynamic-coeff-init.md
+- `proposals/multi-model-poc/dynamic-coeff.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/dynamic-coeff.md
+- `proposals/multi-model-poc/long-poc-challenge.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/long-poc-challenge.md
+- `proposals/multi-model-poc/per-model-punishment.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/per-model-punishment.md
 - `proposals/node-identification/README.md` → https://gonkadocs.com/gonka-code/proposals/node-identification/README.md
 - `proposals/offchain-payloads/README.md` → https://gonkadocs.com/gonka-code/proposals/offchain-payloads/README.md
 - `proposals/offchain-payloads/batching.md` → https://gonkadocs.com/gonka-code/proposals/offchain-payloads/batching.md
@@ -2894,6 +2996,7 @@ Protocol design docs and governance artifacts — one dir per feature/upgrade. G
 - `proposals/poc/smst-phase-5.md` → https://gonkadocs.com/gonka-code/proposals/poc/smst-phase-5.md
 - `proposals/poc/smst-phase-6.md` → https://gonkadocs.com/gonka-code/proposals/poc/smst-phase-6.md
 - `proposals/poc-schedule-v2/README.md` → https://gonkadocs.com/gonka-code/proposals/poc-schedule-v2/README.md
+- `proposals/previous-epoch-weight-cap/README.md` → https://gonkadocs.com/gonka-code/proposals/previous-epoch-weight-cap/README.md
 - `proposals/pruning_v1/pruning_design.md` → https://gonkadocs.com/gonka-code/proposals/pruning_v1/pruning_design.md
 - `proposals/pruning_v1/pruning_testing.md` → https://gonkadocs.com/gonka-code/proposals/pruning_v1/pruning_testing.md
 - `proposals/pruning_v1/pruning_testing_todo.md` → https://gonkadocs.com/gonka-code/proposals/pruning_v1/pruning_testing_todo.md
@@ -3011,6 +3114,11 @@ One README per feature. Fetch these for rationale before reading code:
 - `proposals/multi-model-poc/README.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/README.md
 - `proposals/multi-model-poc/design-1.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/design-1.md
 - `proposals/multi-model-poc/design-2.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/design-2.md
+- `proposals/multi-model-poc/dynamic-coeff-impl.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/dynamic-coeff-impl.md
+- `proposals/multi-model-poc/dynamic-coeff-init.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/dynamic-coeff-init.md
+- `proposals/multi-model-poc/dynamic-coeff.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/dynamic-coeff.md
+- `proposals/multi-model-poc/long-poc-challenge.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/long-poc-challenge.md
+- `proposals/multi-model-poc/per-model-punishment.md` → https://gonkadocs.com/gonka-code/proposals/multi-model-poc/per-model-punishment.md
 - `proposals/node-identification/README.md` → https://gonkadocs.com/gonka-code/proposals/node-identification/README.md
 - `proposals/offchain-payloads/README.md` → https://gonkadocs.com/gonka-code/proposals/offchain-payloads/README.md
 - `proposals/offchain-payloads/batching.md` → https://gonkadocs.com/gonka-code/proposals/offchain-payloads/batching.md
@@ -3038,6 +3146,7 @@ One README per feature. Fetch these for rationale before reading code:
 - `proposals/poc/smst-phase-5.md` → https://gonkadocs.com/gonka-code/proposals/poc/smst-phase-5.md
 - `proposals/poc/smst-phase-6.md` → https://gonkadocs.com/gonka-code/proposals/poc/smst-phase-6.md
 - `proposals/poc-schedule-v2/README.md` → https://gonkadocs.com/gonka-code/proposals/poc-schedule-v2/README.md
+- `proposals/previous-epoch-weight-cap/README.md` → https://gonkadocs.com/gonka-code/proposals/previous-epoch-weight-cap/README.md
 - `proposals/pruning_v1/pruning_design.md` → https://gonkadocs.com/gonka-code/proposals/pruning_v1/pruning_design.md
 - `proposals/pruning_v1/pruning_testing.md` → https://gonkadocs.com/gonka-code/proposals/pruning_v1/pruning_testing.md
 - `proposals/pruning_v1/pruning_testing_todo.md` → https://gonkadocs.com/gonka-code/proposals/pruning_v1/pruning_testing_todo.md
