@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-10-08T01:28:15.942701+00:00",
+  "snapshot_time": "2026-10-08T08:14:21.290703+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -168,7 +168,7 @@
       "title": "Transactions & Governance",
       "status": null,
       "content_preview": "# Transactions & Governance\n\nAll governance actions are performed from your **Cold Account Machine**, using the **<COLD_KEY_NAME>** stored in your file keyring. This is the governance key you created when joining the network ([see quickstart](https://gonka.ai/host/quickstart/#local-machine-install-the-cli-tool)).\n\nTransactions are sent through an RPC endpoint (here referred to as `<NODE_URL>/chain-rpc/`). If you do not specify `--node`, the CLI defaults to `tcp://localhost:26657`. Unless you run your own node locally, always provide `--node <NODE_URL>/chain-rpc/`.\n\nUnordered transactions are supported and recommended here to avoid sequence contention. ([docs.cosmos.network](https://docs.cosmos.network/sdk/v0.53/learn/beginner/tx-lifecycle))\n\n???+ note \"Always include these flags in transac",
-      "checksum": "1790d5449ce7ee033042beb3a91456a14fdedb4f54eed16ef03fe05449945aac"
+      "checksum": "ba4dd3798a845e0c41ed3360d97b3d328bf1785b58053df4496b56595d5ee3c1"
     },
     "governance/voting-on-proposals.md": {
       "title": "Voting on Proposals",
@@ -306,7 +306,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "229e6844aee7e29cf35aec27024ce78797f5fd4e16542a55980fa666a8983828"
+      "checksum": "fdaa8de51f4aa11dde6ca1e954bbd4fa26689ffd899f883bad3bc5388ac24e50"
     },
     "introduction.md": {
       "title": "introduction",
@@ -329,8 +329,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 7, 2026\n\n**Upgrade v0.2.16: Pre-download binaries**\n\nThe on-chain governance process for the v0.2.16 upgrade proposal is nearing its conclusion.\n\n- Voting ends: October 8, 2026 at 02:40 AM UTC\n- Proposed upgrade height: 6449400\n- Estimated upgrad",
-      "checksum": "e44444237bc8c6989978d8f06181d47885a025f5124ce2651230d0e8535ff0e9"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n# October 7, 2026\n\n**UPGRADE EXECUTED: v0.2.16 is now live on mainnet**\n\nThe on-chain governance vote for [Upgrade Proposal v0.2.16](https://github.com/gonka-ai/gonka/blob/136041c81ea8ff38e7620d76af66a7c7fe7eec50/proposals/governance-artifacts/update-v0.2.1",
+      "checksum": "1177fbfaaea74898f5df7b20824fce0a49ada8d87bd81534c0e06b77291628e4"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
