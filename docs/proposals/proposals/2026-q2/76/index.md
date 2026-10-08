@@ -208,7 +208,8 @@ Register devshard approved version v2.
               "value": "3593",
               "exponent": -4
             },
-            "penalty_start_epoch": "0"
+            "penalty_start_epoch": "0",
+            "dynamic_coefficient": null
           },
           {
             "model_id": "moonshotai/Kimi-K2.6",
@@ -231,7 +232,8 @@ Register devshard approved version v2.
               "value": "78",
               "exponent": -2
             },
-            "penalty_start_epoch": "251"
+            "penalty_start_epoch": "251",
+            "dynamic_coefficient": null
           },
           {
             "model_id": "MiniMaxAI/MiniMax-M2.7",
@@ -254,10 +256,12 @@ Register devshard approved version v2.
               "value": "3024",
               "exponent": -4
             },
-            "penalty_start_epoch": "278"
+            "penalty_start_epoch": "278",
+            "dynamic_coefficient": null
           }
         ],
-        "validation_vote_threshold_bps": 0
+        "validation_vote_threshold_bps": 0,
+        "dynamic_coefficient_params": null
       },
       "tokenomics_params": {
         "subsidy_reduction_interval": {
@@ -469,7 +473,9 @@ Register devshard approved version v2.
       "fee_params": {
         "min_gas_price_ngonka": "0",
         "base_validation_gas": "500000",
-        "gas_per_poc_count": "100"
+        "gas_per_poc_count": "100",
+        "enabled_fee_groups": [],
+        "groups": []
       },
       "delegation_params": {
         "deploy_window": "500",
@@ -500,7 +506,8 @@ Register devshard approved version v2.
           "exponent": -1
         }
       },
-      "maintenance_params": null
+      "maintenance_params": null,
+      "poc_challenge_params": null
     }
   },
   {

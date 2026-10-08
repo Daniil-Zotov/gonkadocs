@@ -200,7 +200,8 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
               "value": "3593",
               "exponent": -4
             },
-            "penalty_start_epoch": "0"
+            "penalty_start_epoch": "0",
+            "dynamic_coefficient": null
           },
           {
             "model_id": "moonshotai/Kimi-K2.6",
@@ -223,10 +224,12 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
               "value": "12620856201975851",
               "exponent": -16
             },
-            "penalty_start_epoch": "251"
+            "penalty_start_epoch": "251",
+            "dynamic_coefficient": null
           }
         ],
-        "validation_vote_threshold_bps": 0
+        "validation_vote_threshold_bps": 0,
+        "dynamic_coefficient_params": null
       },
       "tokenomics_params": {
         "subsidy_reduction_interval": {
@@ -429,7 +432,9 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
       "fee_params": {
         "min_gas_price_ngonka": "0",
         "base_validation_gas": "500000",
-        "gas_per_poc_count": "100"
+        "gas_per_poc_count": "100",
+        "enabled_fee_groups": [],
+        "groups": []
       },
       "delegation_params": {
         "deploy_window": "500",
@@ -460,7 +465,8 @@ During the Kimi-K2.6 bootstrap, the 30% direct participation threshold proved ha
           "exponent": -1
         }
       },
-      "maintenance_params": null
+      "maintenance_params": null,
+      "poc_challenge_params": null
     }
   }
 ]

@@ -17,7 +17,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q4/112/"
     },
-    "ai_description": null
+    "ai_description": "The v0.2.16 upgrade proposal has passed, bringing protocol changes and bug fixes across the chain and API node. Notably, it addresses the \"Trusted Weight\" issue, preventing sudden compute spikes from destabilizing the network. This marks a key stability improvement for the community. 🎉 The upgrade is now scheduled to take effect."
   },
   {
     "id": "evt_20261008034508_1bd0c497",
@@ -37,7 +37,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q4/113/"
     },
-    "ai_description": null
+    "ai_description": "The community has approved proposal #113, allocating 104,150 USDT from Gonka funds to reward development, research, infrastructure, security reporting, and code review tied to v0.2.16. This payout now moves forward, ensuring contributors are fairly compensated for their work on the protocol. A solid step in keeping the network healthy and motivated."
   },
   {
     "id": "evt_20261008021226_fa2ee93e",

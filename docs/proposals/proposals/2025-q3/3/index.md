@@ -151,7 +151,8 @@ Proposal updates poc_validation_duration from 20 to 100.
         "poc_normalization_enabled": false,
         "poc_stronger_rng_enabled": false,
         "models": [],
-        "validation_vote_threshold_bps": 0
+        "validation_vote_threshold_bps": 0,
+        "dynamic_coefficient_params": null
       },
       "tokenomics_params": {
         "subsidy_reduction_interval": {
@@ -256,7 +257,8 @@ Proposal updates poc_validation_duration from 20 to 100.
       "devshard_escrow_params": null,
       "fee_params": null,
       "delegation_params": null,
-      "maintenance_params": null
+      "maintenance_params": null,
+      "poc_challenge_params": null
     }
   }
 ]

@@ -202,10 +202,12 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
               "value": "3024",
               "exponent": -4
             },
-            "penalty_start_epoch": "278"
+            "penalty_start_epoch": "278",
+            "dynamic_coefficient": null
           }
         ],
-        "validation_vote_threshold_bps": 0
+        "validation_vote_threshold_bps": 0,
+        "dynamic_coefficient_params": null
       },
       "tokenomics_params": {
         "subsidy_reduction_interval": {
@@ -417,7 +419,9 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
       "fee_params": {
         "min_gas_price_ngonka": "0",
         "base_validation_gas": "500000",
-        "gas_per_poc_count": "100"
+        "gas_per_poc_count": "100",
+        "enabled_fee_groups": [],
+        "groups": []
       },
       "delegation_params": {
         "deploy_window": "500",
@@ -448,7 +452,8 @@ Set delegation initial_model_id to MiniMaxAI/MiniMax-M2.7, keep only MiniMaxAI/M
           "exponent": -1
         }
       },
-      "maintenance_params": null
+      "maintenance_params": null,
+      "poc_challenge_params": null
     }
   },
   {

@@ -220,7 +220,8 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
               "value": "3024",
               "exponent": -4
             },
-            "penalty_start_epoch": "278"
+            "penalty_start_epoch": "278",
+            "dynamic_coefficient": null
           },
           {
             "model_id": "moonshotai/Kimi-K2.6",
@@ -243,7 +244,8 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
               "value": "945",
               "exponent": -3
             },
-            "penalty_start_epoch": "332"
+            "penalty_start_epoch": "332",
+            "dynamic_coefficient": null
           },
           {
             "model_id": "zai-org/GLM-5.2-FP8",
@@ -266,10 +268,12 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
               "value": "25935",
               "exponent": -4
             },
-            "penalty_start_epoch": "500"
+            "penalty_start_epoch": "500",
+            "dynamic_coefficient": null
           }
         ],
-        "validation_vote_threshold_bps": 5000
+        "validation_vote_threshold_bps": 5000,
+        "dynamic_coefficient_params": null
       },
       "tokenomics_params": {
         "subsidy_reduction_interval": {
@@ -482,7 +486,9 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
       "fee_params": {
         "min_gas_price_ngonka": "0",
         "base_validation_gas": "500000",
-        "gas_per_poc_count": "100"
+        "gas_per_poc_count": "100",
+        "enabled_fee_groups": [],
+        "groups": []
       },
       "delegation_params": {
         "deploy_window": "500",
@@ -521,7 +527,8 @@ Replace the existing devshard v4 runtime with v4.0.1. This performance and resou
         "maintenance_max_concurrent_power_bps": 1000,
         "maintenance_credit_cap_blocks": "400",
         "maintenance_credit_earn_per_successful_epoch_blocks": "20"
-      }
+      },
+      "poc_challenge_params": null
     }
   }
 ]

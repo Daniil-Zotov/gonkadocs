@@ -241,7 +241,8 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
               "value": "3024",
               "exponent": -4
             },
-            "penalty_start_epoch": "278"
+            "penalty_start_epoch": "278",
+            "dynamic_coefficient": null
           },
           {
             "model_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
@@ -264,7 +265,8 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
               "value": "246",
               "exponent": -3
             },
-            "penalty_start_epoch": "360"
+            "penalty_start_epoch": "360",
+            "dynamic_coefficient": null
           },
           {
             "model_id": "zai-org/GLM-5.3-Flash",
@@ -287,10 +289,12 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
               "value": "62",
               "exponent": -2
             },
-            "penalty_start_epoch": "394"
+            "penalty_start_epoch": "394",
+            "dynamic_coefficient": null
           }
         ],
-        "validation_vote_threshold_bps": 5000
+        "validation_vote_threshold_bps": 5000,
+        "dynamic_coefficient_params": null
       },
       "tokenomics_params": {
         "subsidy_reduction_interval": {
@@ -508,7 +512,9 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
       "fee_params": {
         "min_gas_price_ngonka": "0",
         "base_validation_gas": "500000",
-        "gas_per_poc_count": "100"
+        "gas_per_poc_count": "100",
+        "enabled_fee_groups": [],
+        "groups": []
       },
       "delegation_params": {
         "deploy_window": "500",
@@ -547,7 +553,8 @@ The activation epoch (penalty_start_epoch) for GLM-5.3-Flash is 394.
         "maintenance_max_concurrent_power_bps": 1000,
         "maintenance_credit_cap_blocks": "400",
         "maintenance_credit_earn_per_successful_epoch_blocks": "20"
-      }
+      },
+      "poc_challenge_params": null
     }
   },
   {
