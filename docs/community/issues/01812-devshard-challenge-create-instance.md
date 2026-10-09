@@ -2,7 +2,7 @@
 title: "#1812 — `devshard`: challenge create instance"
 source: https://github.com/gonka-ai/gonka/issues/1812
 issue_number: 1812
-synced_at: 2026-10-09T16:20:06Z
+synced_at: 2026-10-09T21:00:12Z
 template: issues-main.html
 ---
 
