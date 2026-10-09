@@ -2,7 +2,7 @@
 title: "#839 — LogInfo tests on testnet for StartInference and FinishInference"
 source: https://github.com/gonka-ai/gonka/issues/839
 issue_number: 839
-synced_at: 2026-10-09T02:19:45Z
+synced_at: 2026-10-09T09:16:58Z
 template: issues-main.html
 ---
 
