@@ -2,7 +2,7 @@
 title: "#1688 — Decode PoC: integration support"
 source: https://github.com/gonka-ai/gonka/issues/1688
 issue_number: 1688
-synced_at: 2026-10-09T09:15:07Z
+synced_at: 2026-10-09T16:19:35Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>
-    <span class="issues-meta-item">6 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-22 00:26 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-09 12:04 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -43,7 +43,7 @@ DeepSeek seeding is more complex than MiniMax. This issue covers the integration
 
 ---
 
-## 💬 Comments (6)
+## 💬 Comments (7)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -160,6 +160,21 @@ DeepSeek seeding is more complex than MiniMax. This issue covers the integration
 <li><a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-ai/gonka-vllm-plugins#8</a> (refreshed 09-16 with the ports of <code>plugins#10</code>/<code>#11</code>), <a href="https://github.com/gonka-ai/vllm/pull/100">gonka-ai/vllm#100</a> and <a href="https://github.com/gonka-ai/gonka/pull/1743">#1743</a> are open, no review. The external review @vbgd0 requested on 09-11 has not answered yet.</li>
 </ul>
 <p><strong>Next:</strong> smoke of <code>#113</code> on hardware — boot, acceptance check, one replay validation — needs a box; then review of <code>#113</code>/<code>#12</code> by @vbgd0. Design questions: 2 is answered by the note on <a href="https://github.com/gonka-ai/gonka/issues/1690">#1690</a>; 1 and 3 unchanged. Update here 2026-09-21.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-10-09 12:04 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> done on our side.</p>
+<ul>
+<li>The decode-PoC code is merged on the release branches: <a href="https://github.com/gonka-ai/vllm/pull/116">gonka-ai/vllm#116</a> and <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/21">gonka-ai/gonka-vllm-plugins#21</a> with its follow-ups.</li>
+<li>Hardware, models and results are written up in <a href="https://github.com/kaitakuai/experiments">kaitakuai/experiments</a> (<code>2026-09</code> and <code>2026-10</code>).</li>
+<li>The chain side and the release are <a href="https://github.com/gonka-ai/gonka/pull/1743">#1743</a> in v0.2.17. It also answers design question 1: one node serves both schemes, and the chain picks the scheme per model.</li>
+</ul>
+<p><strong>Next:</strong> @tcharchian — please close, or keep it open until the v0.2.17 release if you prefer.</p>
   </div>
 </div>
 

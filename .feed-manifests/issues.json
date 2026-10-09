@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-09T09:18:30.176078+00:00",
+  "snapshot_time": "2026-10-09T16:30:31.117247+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3495,47 +3495,50 @@
     "01688-decode-poc-integration-support.md": {
       "title": "#1688 — Decode PoC: integration support",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC: integration support\n    <span class=\"issues-number\">#1688</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
-      "comment_checksum": "36bb88453e6f2d91202d19cf4bfa315fc94200fc063b2f1484748de57689b348",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC: integration support\n    <span class=\"issues-number\">#1688</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
+      "comment_checksum": "85dc1acd4c10a945bb3d1d5405363e93629042d0c11735378b819cfea612c7ba",
       "comment_bodies": [
         "TY!",
         "ty",
         "Status: in progress. The code lives on our forks as a residual/plugin pair; the design questions were still off-thread, and this comment moves them here. Where the work is branch on our fork PR lands in residual kaitakuai/vllm : mixed-poc-vllm-0.25.1-dev gonka-ai/vllm#100 release/v0.25.1-decode-int plugin kaitakuai/gonka-vllm-plugins : mixed-poc-vllm-0.25.1-dev gonka-ai/gonka-vllm-plugins#8 decode",
         "Status: in progress. Since last gonka-ai/gonka-vllm-plugins#8 refreshed on 2026-09-06 to the current plugin branch (a346bb7, 108 commits); gonka-ai/vllm#100 unchanged. Promised for 09-05, done 09-06. 2026-09-05, on @vbgd0's advice: the admission layer is removed rather than patched. The scheduler makes one PoC step call; nonce pacing moved to the client. Golden checks on B300 reproduce after the c",
         "Status: in progress. Since last @vbgd0 opened #1743 — the chain picks the PoC scheme per model, built on the branches behind gonka-ai/gonka-vllm-plugins#8 and gonka-ai/vllm#100. Both are still open and unreviewed. The admission-layer removal is merged into their heads (#8 at 140 commits, #100 at 14). The removal is measured on a frozen revision across 11 configurations: R spread ×1.107 on MiniMax,",
-        "Status: in progress. The 09-14 update was missed. Since last decode-PoC on GLM-5.3-Flash is done and measured on all four cards; the report went up on 09-16: kaitakuai/experiments/2026-09/decode-poc-0281-glm-freeze. Nonces per minute on 8 GPUs: 2×B300 5,050; 4×B200 4,202; 4×H200 1,702; 8×H100 921. The GLM line moved to the vendor upstream base: gonka-ai/vllm#112 merged by @vbgd0 on 09-16; the engi"
+        "Status: in progress. The 09-14 update was missed. Since last decode-PoC on GLM-5.3-Flash is done and measured on all four cards; the report went up on 09-16: kaitakuai/experiments/2026-09/decode-poc-0281-glm-freeze. Nonces per minute on 8 GPUs: 2×B300 5,050; 4×B200 4,202; 4×H200 1,702; 8×H100 921. The GLM line moved to the vendor upstream base: gonka-ai/vllm#112 merged by @vbgd0 on 09-16; the engi",
+        "Status: done on our side. The decode-PoC code is merged on the release branches: gonka-ai/vllm#116 and gonka-ai/gonka-vllm-plugins#21 with its follow-ups. Hardware, models and results are written up in kaitakuai/experiments (2026-09 and 2026-10). The chain side and the release are #1743 in v0.2.17. It also answers design question 1: one node serves both schemes, and the chain picks the scheme per "
       ],
-      "checksum": "57371ce8649f8e49fe99f7291bd48c6c951a2479e6f2e4eed6fdf0a20bc9aa41"
+      "checksum": "969792ba225874f35357f0d6be27115ce490eb3e22c14b5e5086678aeb6f9e14"
     },
     "01689-first-full-mnode-image-for-decode-poc-minimax-testing.md": {
       "title": "#1689 — First full MNode image for Decode PoC (MiniMax): testing",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>",
-      "comment_checksum": "ea38963e49137e7a02349f12f620dbaa3c5781585aaed83abe067ea3f7647fb8",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>",
+      "comment_checksum": "5fda341c710bdef111ec63483e833747efff4a6351dd67f4068d20b8b8151f16",
       "comment_bodies": [
         "TY!",
         "ty",
         "Dependency: blocked by #1688. @tcharchian — this changes the ordering. Why Acceptance here is the acceptance of a frozen algorithm: 19 scenarios, each in self-validation and cross-device validation. Cross-device results depend on every consensus constant (expert seeding, ladder base, artifact payload, admission behaviour) — a change after the run invalidates the whole matrix. Two items on #1688 wo",
         "Status: paused on our side. @vbgd0 built the decode-PoC image himself (tag decode-poc-int, #1743) and handed testing to another team, so we are not working on this issue right now. We may come back to it if the images turn out to need building per hardware configuration.",
         "Status: paused on our side, unchanged since 09-11. The image and its testing are with @vbgd0 and the other team; nothing for us to run. Next update on change.",
-        "Status: resumed on our side. The 11.09 pause was our mistake: this matrix was not handed to another team; the 11.09 request to MIL was a review of the implementation. @vbgd0 found regressions on the 0.30 line that this matrix covers: the prefix cache after a prefill round (gonka-ai/gonka-vllm-plugins#20), the preempted PoC row and the v2 runner (gonka-ai/vllm#115). We run the matrix on the image b"
+        "Status: resumed on our side. The 11.09 pause was our mistake: this matrix was not handed to another team; the 11.09 request to MIL was a review of the implementation. @vbgd0 found regressions on the 0.30 line that this matrix covers: the prefix cache after a prefill round (gonka-ai/gonka-vllm-plugins#20), the preempted PoC row and the v2 runner (gonka-ai/vllm#115). We run the matrix on the image b",
+        "Status: done on our side. The 2026-09-28 resumption did not go ahead: @vbgd0 runs the checks of the release image himself, and we did not get confirmation that our matrix run is needed there. His check is the prefill → decode → inference sequence with inference validation replayed after every round, in gonka-ai/vllm#116, on B300, for all three models. On 2026-10-09 @vbgd0 said nothing more is need"
       ],
-      "checksum": "46cf7535f489b58668551d30d06966f9bdb4dfa645595f65cd765358b2a92194"
+      "checksum": "357413a4c087d35673ccf5ff861f88fee31df3928128fcae4f28d72d49300683"
     },
     "01690-first-full-mnode-image-for-decode-poc-deepseek-testing-coeff.md": {
       "title": "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (DeepSeek): testing + coefficients\n    <span class=\"issues-number\">#1690</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px",
-      "comment_checksum": "f4dfc533ed4f847e8bcca61740c59024b119f063b94c7167ead07655a8943c71",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (DeepSeek): testing + coefficients\n    <span class=\"issues-number\">#1690</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px",
+      "comment_checksum": "9f9ba332772c09a980f52c10528eafae5e039b45a84b58991ca758d5e9b071ab",
       "comment_bodies": [
         "TY!",
         "ty",
         "Dependency: not blocked by #1688. @tcharchian — for the ordering. The DeepSeek seeding scheme lives on this issue. #1688 says so: the scheme fix itself is #1690. Blocking this issue on it would be circular: #1689 waits on the algorithm freeze, and that freeze includes this scheme. The work is not blocked; publishing the numbers is. The scheme change for the hash-routed layers (pseudo token ids for",
         "Status: in progress. The seeding-scheme note is written; the 2026-09-08 date was missed. Since last The scheme is fixed and described: pseudo token ids are always on for every model, hash-MoE gates keep their natural weights, an explicit model list guards that branch, and a model outside the list carrying an integer table on its gate is refused at attach. The note follows in a separate comment. Wh",
         "Seeding scheme for DeepSeek-V4-Flash under decode-PoC 1. How the seeding works today A nonce is 256 prompt tokens and 256 decode steps. Each step stores the index of the nearest of 12 reflection vectors; the chain of those indices is the artifact. Two things are seeded from the block hash and the nonce, so that a prover cannot choose what the model computes: the reflection vectors, drawn per block",
-        "Status: in progress. The 09-14 update was missed. Since last No questions or objections on the seeding-scheme note (09-11). The per-layer histogram of attested experts after the fix is still not measured: one instrumented run on one card, and no box is up for our work right now. DeepSeek thresholds still wait on two decisions — the choice of statistic and the sm80 policy; neither is taken. In the "
+        "Status: in progress. The 09-14 update was missed. Since last No questions or objections on the seeding-scheme note (09-11). The per-layer histogram of attested experts after the fix is still not measured: one instrumented run on one card, and no box is up for our work right now. DeepSeek thresholds still wait on two decisions — the choice of statistic and the sm80 policy; neither is taken. In the ",
+        "Status: done on our side. The seeding-scheme note is on this issue (2026-09-11). DeepSeek data for the decode thresholds went to @vbgd0 on 2026-10-09; he sets the thresholds for the release. Next: @tcharchian — please close."
       ],
-      "checksum": "257971507b75f28982081155f3e0572540f75d446ade32bc5e781d4488364773"
+      "checksum": "288523844cc8cdd867a987736441c92be7bdf62e68860a35a5e7229abdca24cb"
     },
     "01691-glm-53-flash-vllm-028-image-poc-fix.md": {
       "title": "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix",
@@ -3555,17 +3558,18 @@
     "01692-monitoring-public-repository.md": {
       "title": "#1692 — Monitoring: public repository",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten",
-      "comment_checksum": "b19301c0bca848bcad1ec5cad4eb65b1883238566f9e7483f1ac91009c3c7a99",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten",
+      "comment_checksum": "fdc9aeac8c3fc898e2dee111bed64fd3b49d5c980af2d81f1666c35e3453b540",
       "comment_bodies": [
         "TY!",
         "ty",
         "Status: in progress Since last Repo is ready and was renamed: kaitakuai/gonka-grafana → kaitakuai/gonka-monitoring. The link in the description still points to the old name. Configuration only — compose file, two dashboards, scrape config. No code to build. Next: switching it to public after confirming with @clanster on today's sync — by 2026-09-05. Q: the two boxes are a review, not a self-check ",
         "Status: done Delivered: https://github.com/kaitakuai/gonka-monitoring (c88f04f). Hosted instance of the same stack, open to anyone: https://monitoring.kaitaku.ai/. Clean deploy on a fresh host: docker compose up -d, overview populated in ~3 min; 30 epoch participants discovered, 26 scraped, all panels on the three dashboards return data. Limitations: repo flips to public once @baychak switches vis",
         "Status: done Delivered: repo is public now — https://github.com/kaitakuai/gonka-monitoring. Whole-network view via epoch auto-discovery landed today, so the stack is no longer limited to our own nodes. Limitations: the link in the description still points to the old repo name.",
-        "@baychak @clanster thank you! @vbgd0 please review"
+        "@baychak @clanster thank you! @vbgd0 please review",
+        "Status: done. monitoring.kaitaku.ai is up and public; the code is in kaitakuai/gonka-monitoring (the gonka-grafana link in the description redirects there). We keep hosting and maintaining it, as agreed with the core team. The review requested on 2026-09-07 did not take place. Next: @tcharchian — please close."
       ],
-      "checksum": "0a0a1e5006bfed425614b221b01b3e98eefe781399f5fcfe00e277782a370182"
+      "checksum": "1e37d452d49737bc206d8a0c1d1aa98515fbf329e79ef455ffd13e1db22e7815"
     },
     "01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum.md": {
       "title": "#1695 — Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose",
@@ -3931,10 +3935,12 @@
     "01852-decode-poc-move-to-vllm-0300-one-base-for-minimax-deepseek-a.md": {
       "title": "#1852 — Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM\n    <span class=\"issues-number\">#1852</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/baychak\">@baychak</a> opened 2026-09-25 16:52 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "83b50306582d4ed8fb481a900f79d0a9750a96a33e5f82d8d82537505a962bfc"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM\n    <span class=\"issues-number\">#1852</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/baychak\">@baychak</a> opened 2026-09-25 16:52 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label",
+      "comment_checksum": "909b318b81a12c4637ee3665d3f8285aaf478e3ee5c5b6d6ff411570b5b98cc6",
+      "comment_bodies": [
+        "Status: done; closing. Delivered: the decode-PoC move to vLLM 0.30 landed through @vbgd0's PRs: gonka-ai/vllm#116 and gonka-ai/gonka-vllm-plugins#21 on 2026-09-29, with follow-ups gonka-ai/gonka-vllm-plugins#25 and gonka-ai/gonka-vllm-plugins#26 on 2026-10-06. Our gonka-ai/vllm#114 and gonka-ai/gonka-vllm-plugins#19 are closed as superseded. Limitations GLM runs with --language-model-only. The GLM"
+      ],
+      "checksum": "59a00fc44a69d83215847d28c66c09c1e852cccc4140188f422d056a22af2b1f"
     },
     "01867-feature-expose-lightweight-participantweight-query-to-cosmwa.md": {
       "title": "#1867 — Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)",
@@ -4057,10 +4063,12 @@
     "01954-keplr-transaction-issues-after-gonka-chain-upgrade-v0216.md": {
       "title": "#1954 — Keplr transaction issues after Gonka chain upgrade v0.2.16",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Keplr transaction issues after Gonka chain upgrade v0.2.16\n    <span class=\"issues-number\">#1954</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-08 21:54 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "05fda665609c8805e6f41f9ca97f218564b31ab3a6f565405384a9c9810b6e21"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Keplr transaction issues after Gonka chain upgrade v0.2.16\n    <span class=\"issues-number\">#1954</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-08 21:54 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div",
+      "comment_checksum": "acac6bb70c20bf585561750f7fa028ef70657da34b962ac0c35dbe3630aa9b42",
+      "comment_bodies": [
+        "@tcharchian successfully merged and fixed"
+      ],
+      "checksum": "04b858095c1ebf9f68208087aaf3f6ce1a7fd6208313a8efa72cdaff982f1b94"
     },
     "01955-bug-min-tokens-floor-mintokensfloor64-breaks-tool-calling-ru.md": {
       "title": "#1955 — [BUG] `min_tokens` floor (MinTokensFloor=64) breaks tool calling: runaway garbage, fabricated tool results, up to max_tokens billed per turn",

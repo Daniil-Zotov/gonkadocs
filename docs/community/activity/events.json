@@ -1,5 +1,101 @@
 [
   {
+    "id": "evt_20261009162349_fd29f0aa",
+    "timestamp": "2026-10-09T16:23:49.115526+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1688 — Decode PoC: integration support",
+      "url": "/community/issues/01688-decode-poc-integration-support/",
+      "file": "01688-decode-poc-integration-support.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC: integration support\n    <span class=\"issues-number\">#1688</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC: integration support\n    <span class=\"issues-number\">#1688</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
+    },
+    "ai_description": "Issue #1688 on Decode PoC integration support just got a new comment, bringing the total to seven. The discussion is still open, so the community continues to shape how this proof of concept will fit into our ecosystem. Worth a look if you are tracking integration progress.Issue #1688 on Decode PoC integration support just picked up a new comment, bringing the thread to seven total. The issue remains open, so the conversation around integration support is still actively developing."
+  },
+  {
+    "id": "evt_20261009162349_8c4739dd",
+    "timestamp": "2026-10-09T16:23:49.115576+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1689 — First full MNode image for Decode PoC (MiniMax): testing",
+      "url": "/community/issues/01689-first-full-mnode-image-for-decode-poc-minimax-testing/",
+      "file": "01689-first-full-mnode-image-for-decode-poc-minimax-testing.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261009162349_f812bf9a",
+    "timestamp": "2026-10-09T16:23:49.115601+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients",
+      "url": "/community/issues/01690-first-full-mnode-image-for-decode-poc-deepseek-testing-coeff/",
+      "file": "01690-first-full-mnode-image-for-decode-poc-deepseek-testing-coeff.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (DeepSeek): testing + coefficients\n    <span class=\"issues-number\">#1690</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (DeepSeek): testing + coefficients\n    <span class=\"issues-number\">#1690</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px"
+    },
+    "ai_description": "Issue #1690 on the first full MNode image for the DeepSeek Decode PoC just got a new comment, bringing the total to seven. The discussion around testing and coefficients is ongoing, so check it out if you're following the PoC progress. Stay tuned for more updates on this open item."
+  },
+  {
+    "id": "evt_20261009162349_bd0fa680",
+    "timestamp": "2026-10-09T16:23:49.115622+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1692 — Monitoring: public repository",
+      "url": "/community/issues/01692-monitoring-public-repository/",
+      "file": "01692-monitoring-public-repository.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten"
+    },
+    "ai_description": "Issue #1692 on monitoring a public repository just gained a new comment, bringing the total to seven. The discussion remains open, so head over to see what was added. This is a good moment to check in if you have thoughts on the topic.Issue #1692 on monitoring a public repository just gained a new comment, bringing the total to seven. The discussion remains open, so head over to see what was added. This is a good moment to check in if you have thoughts on the topic."
+  },
+  {
+    "id": "evt_20261009162349_b9757b08",
+    "timestamp": "2026-10-09T16:23:49.115653+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1852 — Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM",
+      "url": "/community/issues/01852-decode-poc-move-to-vllm-0300-one-base-for-minimax-deepseek-a/",
+      "file": "01852-decode-poc-move-to-vllm-0300-one-base-for-minimax-deepseek-a.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM\n    <span class=\"issues-number\">#1852</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/baychak\">@baychak</a> opened 2026-09-25 16:52 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM\n    <span class=\"issues-number\">#1852</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/baychak\">@baychak</a> opened 2026-09-25 16:52 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
+    },
+    "ai_description": "Issue #1852 on moving the Decode proof-of-concept to vLLM 0.30.0 as a unified base for MiniMax, DeepSeek and GLM has been closed. This consolidation simplifies the inference stack and marks the completion of the migration work. Thanks to @baychak for driving this effort."
+  },
+  {
+    "id": "evt_20261009162349_f6e7184f",
+    "timestamp": "2026-10-09T16:23:49.115677+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1954 — Keplr transaction issues after Gonka chain upgrade v0.2.16",
+      "url": "/community/issues/01954-keplr-transaction-issues-after-gonka-chain-upgrade-v0216/",
+      "file": "01954-keplr-transaction-issues-after-gonka-chain-upgrade-v0216.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Keplr transaction issues after Gonka chain upgrade v0.2.16\n    <span class=\"issues-number\">#1954</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-08 21:54 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Keplr transaction issues after Gonka chain upgrade v0.2.16\n    <span class=\"issues-number\">#1954</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-08 21:54 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
+    },
+    "ai_description": "Issue #1954 about Keplr transaction problems after the v0.2.16 upgrade now has its first comment, signaling active community engagement on this topic. Check the thread to see the latest input and join the discussion if you have experienced similar issues. Your feedback helps the team pinpoint and fix the problem faster."
+  },
+  {
     "id": "evt_20261009022140_e5892d3c",
     "timestamp": "2026-10-09T02:21:40.044557+00:00",
     "section": "issues",
@@ -8203,95 +8299,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n"
     },
     "ai_description": "A new issue has been filed highlighting a bug in the x/inference module where WorkCoins earned by non-ACTIVE participants vanish at settlement without any claim record or governance transfer. This is a serious oversight that could silently strip rewards from contributors, so the community should weigh in on proper handling. Check out issue #1746 and share your thoughts on how to fix it."
-  },
-  {
-    "id": "evt_20260910143102_750c9214",
-    "timestamp": "2026-09-10T14:31:02.671774+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "Description",
-      "url": null,
-      "file": "00310-bug-1-preserved-node-disabling.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    BUG-1: Preserved node disabling\n    <span class=\"issues-number\">#310</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-01 18:19 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"backg"
-    },
-    "ai_description": "Issue #310 \"BUG-1: Preserved node disabling\" has been removed from the feed. This open bug report, which had three comments, is no longer tracked here, so the community can focus on active tasks and avoid stale references. If you were following it, check the repo directly for any related updates."
-  },
-  {
-    "id": "evt_20260910143102_4543d1d9",
-    "timestamp": "2026-09-10T14:31:02.671785+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "BUG-2: Local MLNode identifier & MLNode lookup in wrong group",
-      "url": null,
-      "file": "00311-bug-2-local-mlnode-identifier-mlnode-lookup-in-wrong-group.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BUG-2: Local MLNode identifier & MLNode lookup in wrong group\n    <span class=\"issues-number\">#311</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-02 09:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
-    },
-    "ai_description": "Closed issue BUG-2 (#311) has been removed from the community feed. The report about local MLNode identifiers being looked up in the wrong group is no longer active, which likely means the fix has been merged or the task was deemed unnecessary. Keeping the feed clean of resolved items helps us focus on open work."
-  },
-  {
-    "id": "evt_20260910143102_2e7d2109",
-    "timestamp": "2026-09-10T14:31:02.671794+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#313 — [P0] Negative balance panic",
-      "url": null,
-      "file": "00313-p0-negative-balance-panic.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Negative balance panic\n    <span class=\"issues-number\">#313</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:43 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
-    },
-    "ai_description": "Issue #313 about the negative balance panic has been closed and removed from the tracker. This cleanup reflects that the P0 concern has been resolved, keeping our issue list focused on active work. Thanks to @tcharchian for flagging it. Glad to see this one wrapped up. 🚀\nIssue #313 on the negative balance panic has been removed from the tracker after being closed. This cleanup keeps our issue list focused on active work, and it's a good sign that the P0 concern has been resolved. Thanks to @tcharchian for flagging it."
-  },
-  {
-    "id": "evt_20260910143102_2d6b1717",
-    "timestamp": "2026-09-10T14:31:02.671801+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#314 — [P0] Make Seed derived from private key",
-      "url": null,
-      "file": "00314-p0-make-seed-derived-from-private-key.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Make Seed derived from private key\n    <span class=\"issues-number\">#314</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\""
-    },
-    "ai_description": "Issue #314 on deriving the seed from the private key has been closed and removed from the feed. This P0 task is no longer active, so contributors can focus on other open priorities. Thanks to all who reviewed it.Issue #314 on deriving the seed from the private key has been closed and removed from the feed. This P0 task is no longer active, so contributors can focus on other open priorities. Thanks to all who reviewed it."
-  },
-  {
-    "id": "evt_20260910143102_d0ca06b6",
-    "timestamp": "2026-09-10T14:31:02.671808+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#315 — [P0] Move config to DB (like seed, etc)",
-      "url": null,
-      "file": "00315-p0-move-config-to-db-like-seed-etc.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Move config to DB (like seed, etc)\n    <span class=\"issues-number\">#315</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\""
-    },
-    "ai_description": "Issue #315 about moving configuration to the database has been closed and removed from the tracker. The proposal to store config values like seeds in the DB is no longer on the active roadmap, so this task is officially shelved. If you were tracking this for your own setup, keep an eye on future releases for any alternative approach."
-  },
-  {
-    "id": "evt_20260910143102_266d5925",
-    "timestamp": "2026-09-10T14:31:02.671815+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#316 — [P0] Missing validation and inference request threshold adjustment / stattest",
-      "url": null,
-      "file": "00316-p0-missing-validation-and-inference-request-threshold-adjust.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Missing validation and inference request threshold adjustment / stattest\n    <span class=\"issues-number\">#316</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"i"
-    },
-    "ai_description": "Issue #316 about missing validation and inference request threshold adjustment has been removed from our activity feed. The P0 concern around stattest tuning is no longer tracked here, which may signal it was resolved, merged elsewhere, or deprioritized. Keep an eye on related discussions to confirm the next steps for this fix."
   }
 ]

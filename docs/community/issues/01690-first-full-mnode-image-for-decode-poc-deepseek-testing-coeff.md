@@ -2,7 +2,7 @@
 title: "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients"
 source: https://github.com/gonka-ai/gonka/issues/1690
 issue_number: 1690
-synced_at: 2026-10-09T09:15:06Z
+synced_at: 2026-10-09T16:19:34Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>
-    <span class="issues-meta-item">6 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-22 00:36 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-09 12:04 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -56,7 +56,7 @@ Confirm the live on-chain id from poc_params.models if it has drifted. Target:
 
 ---
 
-## 💬 Comments (6)
+## 💬 Comments (7)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -197,6 +197,20 @@ goes into the next campaign.</p>
 <li>DeepSeek re-measured on 0.28 (09-15/16): +17–20 % PoC over 0.25.1 everywhere except H200. For the decode-PoC release DeepSeek stays on 0.25.1 (agreed with @vbgd0 on 09-16), so thresholds are collected on 0.25.1 — the re-measurement does not invalidate them.</li>
 </ul>
 <p><strong>Next:</strong> a proposal for the statistic and for sm80 — here, by 2026-09-21; the histogram as soon as a box is up. Update here 2026-09-21.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-10-09 12:04 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> done on our side.</p>
+<ul>
+<li>The seeding-scheme note is on this issue (2026-09-11).</li>
+<li>DeepSeek data for the decode thresholds went to @vbgd0 on 2026-10-09; he sets the thresholds for the release.</li>
+</ul>
+<p><strong>Next:</strong> @tcharchian — please close.</p>
   </div>
 </div>
 

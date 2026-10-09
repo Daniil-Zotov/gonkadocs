@@ -2,7 +2,7 @@
 title: "#1689 — First full MNode image for Decode PoC (MiniMax): testing"
 source: https://github.com/gonka-ai/gonka/issues/1689
 issue_number: 1689
-synced_at: 2026-10-09T09:14:49Z
+synced_at: 2026-10-09T16:19:36Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>
-    <span class="issues-meta-item">6 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-28 19:32 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-09 12:04 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -119,7 +119,7 @@ Scenario 8 is the idle baseline (both PoCs off, no inference). If it is not a me
 
 ---
 
-## 💬 Comments (6)
+## 💬 Comments (7)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -190,6 +190,22 @@ Scenario 8 is the idle baseline (both PoCs off, no inference). If it is not a me
 <li>We run the matrix on the image built from <code>#115</code> and <code>#20</code>: MiniMax, DeepSeek and GLM on B300 and H100.</li>
 </ul>
 <p><strong>Next:</strong> the run plan with dates, here by 2026-09-30, once the scope is confirmed with @vbgd0.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-10-09 12:04 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> done on our side.</p>
+<ul>
+<li>The 2026-09-28 resumption did not go ahead: @vbgd0 runs the checks of the release image himself, and we did not get confirmation that our matrix run is needed there.</li>
+<li>His check is the prefill → decode → inference sequence with inference validation replayed after every round, in <a href="https://github.com/gonka-ai/vllm/pull/116">gonka-ai/vllm#116</a>, on B300, for all three models.</li>
+<li>On 2026-10-09 @vbgd0 said nothing more is needed from us for the release for now.</li>
+<li>The cross-device column of this matrix was not run on the release image; recorded here as a limitation.</li>
+</ul>
+<p><strong>Next:</strong> @tcharchian — please close.</p>
   </div>
 </div>
 
