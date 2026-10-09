@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261009022140_e5892d3c",
+    "timestamp": "2026-10-09T02:21:40.044557+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1955 — [BUG] `min_tokens` floor (MinTokensFloor=64) breaks tool calling: runaway garbage, fabricated tool results, up to max_tokens billed per turn",
+      "url": "/community/issues/01955-bug-min-tokens-floor-mintokensfloor64-breaks-tool-calling-ru/",
+      "file": "01955-bug-min-tokens-floor-mintokensfloor64-breaks-tool-calling-ru.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] `min_tokens` floor (MinTokensFloor=64) breaks tool calling: runaway garbage, fabricated tool results, up to max_tokens billed per turn\n    <span class=\"issues-number\">#1955</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-10-08 23:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n"
+    },
+    "ai_description": "New issue #1955 opened by @KTibow reports that the MinTokensFloor=64 setting breaks tool calling, causing models to generate garbage text and fabricate tool results while billing up to max_tokens per turn. This is a critical bug for anyone relying on tool use, as it can lead to wasted tokens and unreliable outputs. Worth keeping an eye on for a fix."
+  },
+  {
     "id": "evt_20261008221601_0f5c274d",
     "timestamp": "2026-10-08T22:16:01.624765+00:00",
     "section": "issues",
@@ -8277,20 +8293,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Missing validation and inference request threshold adjustment / stattest\n    <span class=\"issues-number\">#316</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"i"
     },
     "ai_description": "Issue #316 about missing validation and inference request threshold adjustment has been removed from our activity feed. The P0 concern around stattest tuning is no longer tracked here, which may signal it was resolved, merged elsewhere, or deprioritized. Keep an eye on related discussions to confirm the next steps for this fix."
-  },
-  {
-    "id": "evt_20260910143102_6001c2f9",
-    "timestamp": "2026-09-10T14:31:02.671833+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#317 — [P0] Epoch length",
-      "url": null,
-      "file": "00317-p0-epoch-length.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Epoch length\n    <span class=\"issues-number\">#317</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div c"
-    },
-    "ai_description": "Issue #317 about epoch length has been closed and removed from the activity feed. This cleanup reflects that the topic is no longer under active discussion, keeping the community board focused on current priorities. Thanks to @tcharchian for raising it.Issue #317 on epoch length has been closed and removed from the feed, signaling that this topic is no longer under active discussion. This cleanup helps keep our activity board focused on current priorities, and we appreciate @tcharchian for bringing it up."
   }
 ]
