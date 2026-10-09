@@ -20,8 +20,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- 2026-10-08 02:40 UTC — Passed: #112 – Upgrade Proposal: v0.2.16: https://gonkadocs.com/proposals/proposals/2026-q4/112/
-- 2026-10-08 02:43 UTC — Passed: #113 – Distribute v0.2.16 bounty rewards: https://gonkadocs.com/proposals/proposals/2026-q4/113/
+- No upcoming events scheduled.
 
 ## Protocol Documentation
 
