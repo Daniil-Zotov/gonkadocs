@@ -21798,7 +21798,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-10-09 15:46 UTC
+2026-10-09 20:29 UTC
 
 ---
 
@@ -22248,7 +22248,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-09 16:09 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-09 20:51 UTC*
 
 ---
 
