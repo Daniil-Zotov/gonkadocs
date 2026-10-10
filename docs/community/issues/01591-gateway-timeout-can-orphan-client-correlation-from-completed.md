@@ -2,7 +2,7 @@
 title: "#1591 — Gateway timeout can orphan client correlation from completed request accounting"
 source: https://github.com/gonka-ai/gonka/issues/1591
 issue_number: 1591
-synced_at: 2026-10-10T13:50:56Z
+synced_at: 2026-10-10T18:42:42Z
 template: issues-main.html
 ---
 
