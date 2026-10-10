@@ -2,7 +2,7 @@
 title: "#439 — Stack traces"
 source: https://github.com/gonka-ai/gonka/issues/439
 issue_number: 439
-synced_at: 2026-10-09T21:02:17Z
+synced_at: 2026-10-10T01:02:44Z
 template: issues-main.html
 ---
 

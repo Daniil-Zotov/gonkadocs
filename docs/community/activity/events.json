@@ -1,5 +1,85 @@
 [
   {
+    "id": "evt_20261010010346_78e701ff",
+    "timestamp": "2026-10-10T01:03:46.610777+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1407 — Question about project background: Mikhail Chudinov and Natalia",
+      "url": "/community/issues/01407-question-about-project-background-mikhail-chudinov-and-natal/",
+      "file": "01407-question-about-project-background-mikhail-chudinov-and-natal.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Question about project background: Mikhail Chudinov and Natalia\n    <span class=\"issues-number\">#1407</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/phishdestroy\">@phishdestroy</a> opened 2026-07-06 09:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></"
+    },
+    "ai_description": "A new issue (#1407) has been opened by @phishdestroy asking about the project background of Mikhail Chudinov and Natalia. The question is now open for community discussion, so jump in if you have context to share. This kind of transparency helps build trust as we grow.A new question has been raised in issue #1407 about the project background of Mikhail Chudinov and Natalia, opened by @phishdestroy. It's now open for community input, so feel free to share any relevant context you have. Transparency like this helps us all understand who's behind the work."
+  },
+  {
+    "id": "evt_20261010010346_29a0a126",
+    "timestamp": "2026-10-10T01:03:46.610811+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1965 — [BUG] Incomplete JSON clock timestamps produce a false divergence sample",
+      "url": "/community/issues/01965-bug-incomplete-json-clock-timestamps-produce-a-false-diverge/",
+      "file": "01965-bug-incomplete-json-clock-timestamps-produce-a-false-diverge.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Incomplete JSON clock timestamps produce a false divergence sample\n    <span class=\"issues-number\">#1965</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/EazyHood\">@EazyHood</a> opened 2026-10-09 21:02 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><"
+    },
+    "ai_description": "New bug report #1965 is now open from @EazyHood, flagging an issue where incomplete JSON clock timestamps can create false divergence samples in the network. This is important for data integrity, as it could impact how the community evaluates node performance and consensus. Head over to the issue to add your insights or reproduce the problem."
+  },
+  {
+    "id": "evt_20261010010346_0a0a0635",
+    "timestamp": "2026-10-10T01:03:46.610836+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1968 — v0.2.17: Pay the two stuck epoch-418 bridge records, with one shared active-weight check",
+      "url": "/community/issues/01968-v0217-pay-the-two-stuck-epoch-418-bridge-records-with-one-sh/",
+      "file": "01968-v0217-pay-the-two-stuck-epoch-418-bridge-records-with-one-sh.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.17: Pay the two stuck epoch-418 bridge records, with one shared active-weight check\n    <span class=\"issues-number\">#1968</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-10 00:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style="
+    },
+    "ai_description": "New issue #1968 proposes a v0.2.17 patch to pay out two bridge records stuck from epoch 418, using a single shared active-weight check to simplify the fix. This matters because it directly resolves delayed operator payments and streamlines the validation logic for future epochs. Community input is welcome before this moves forward."
+  },
+  {
+    "id": "evt_20261010010346_5e657167",
+    "timestamp": "2026-10-10T01:03:46.611070+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1692 — Monitoring: public repository",
+      "url": "/community/issues/01692-monitoring-public-repository/",
+      "file": "01692-monitoring-public-repository.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n<"
+    },
+    "ai_description": "Issue #1692 on monitoring a public repository has been closed by the community. This means the discussion on how to handle public repo monitoring is resolved and no longer open for input. Thanks to everyone who contributed to the conversation. Stay tuned for the next steps in implementing this.Issue #1692 on monitoring a public repository has been closed. This means the discussion is resolved and no longer open for community input, wrapping up the proposal. Thanks to everyone who contributed to shaping this decision."
+  },
+  {
+    "id": "evt_20261010010346_d7df7cb2",
+    "timestamp": "2026-10-10T01:03:46.611110+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1943 — v0.2.17: Mark `/admin/v1/setup/report` failed when this node cannot pay one epoch of fees",
+      "url": "/community/issues/01943-v0217-mark-adminv1setupreport-failed-when-this-node-cannot-p/",
+      "file": "01943-v0217-mark-adminv1setupreport-failed-when-this-node-cannot-p.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.17: Mark `/admin/v1/setup/report` failed when this node cannot pay one epoch of fees\n    <span class=\"issues-number\">#1943</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-07 21:55 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.17: Mark `/admin/v1/setup/report` failed when this node cannot pay one epoch of fees\n    <span class=\"issues-number\">#1943</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-07 21:55 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
+    },
+    "ai_description": "Issue #1943 now has 2 comments, up from 1, while remaining open. The discussion is growing around marking the setup report as failed when a node lacks funds for an epoch of fees. This is a key reliability improvement for v0.2.17, ensuring operators get clear feedback on financial constraints."
+  },
+  {
     "id": "evt_20261009210257_a02dc52d",
     "timestamp": "2026-10-09T21:02:57.858638+00:00",
     "section": "issues",
@@ -8219,85 +8299,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request for DevShards creator allowlist access\n    <span class=\"issues-number\">#1371</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/GERAunits\">@GERAunits</a> opened 2026-06-28 11:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
     },
     "ai_description": "New issue #1371 from @GERAunits requesting DevShards creator allowlist access has been closed. The request was addressed, and the issue is now resolved, meaning the team can move forward with onboarding new creators to the DevShards platform. Thanks to everyone who weighed in on this.New issue #1371 from @GERAunits requesting DevShards creator allowlist access has been closed. The request was addressed and resolved, so the team can now move forward with granting access to qualified creators. Thanks to all who contributed to the discussion."
-  },
-  {
-    "id": "evt_20260910183639_18da1a29",
-    "timestamp": "2026-09-10T18:36:39.609891+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "On laptop (requires APPROVE=1)",
-      "url": "/community/issues/01387-gateway-in-flight-long-chat-during-validator-halt-client-suc/",
-      "file": "01387-gateway-in-flight-long-chat-during-validator-halt-client-suc.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway in-flight long chat during validator halt: client success vs request outcome failed\n    <span class=\"issues-number\">#1387</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-07-02 15:00 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\""
-    },
-    "ai_description": "New issue #1387 has been opened by @maria-mitina about a gateway handling long in-flight chats during a validator halt, where the client sees success but the request outcome is marked failed. This is worth a look for anyone running gateways, as it highlights a potential mismatch in how outcomes are reported under edge-case failures."
-  },
-  {
-    "id": "evt_20260910183639_e2e84dea",
-    "timestamp": "2026-09-10T18:36:39.609902+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1405 — OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319",
-      "url": "/community/issues/01405-openbroker-api-moved-hosts-and-existing-broker-accounts-and-/",
-      "file": "01405-openbroker-api-moved-hosts-and-existing-broker-accounts-and-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319\n    <span class=\"issues-number\">#1405</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dufok\">@dufok</a> opened 2026-07-06 00:16 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n "
-    },
-    "ai_description": "Issue #1405 has been opened by @dufok as a follow-up to #1319, flagging that the OpenBroker API host migration wiped out existing broker accounts and their balances. The issue is now closed, but it serves as an important record for the community to track this disruption and ensure similar migrations don't silently erase user data again."
-  },
-  {
-    "id": "evt_20260910183639_fdcf8dc8",
-    "timestamp": "2026-09-10T18:36:39.609916+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1749 — x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides",
-      "url": "/community/issues/01749-xbls-hooks-are-never-installed-invokesetblshooks-asks-depinj/",
-      "file": "01749-xbls-hooks-are-never-installed-invokesetblshooks-asks-depinj.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides\n    <span class=\"issues-number\">#1749</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 14:30 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
-    },
-    "ai_description": "New issue #1749 reports that x/bls hooks are never actually installed, because InvokeSetBlsHooks asks depinject for a pointer the module never provides. This means the intended BLS functionality is silently missing, so the community should track this fix to ensure the hooks get properly wired up. Check the issue for details and weigh in if you have insights."
-  },
-  {
-    "id": "evt_20260910161916_6e83a96d",
-    "timestamp": "2026-09-10T16:19:16.251402+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026",
-      "url": "/community/discussion/general/1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe/",
-      "file": "general/1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #1747](https://github.com/gonka-ai/gonka/discussions/1747) every hour. \n\n# Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026\n\n**Автор:** [@sultee](https://github.com/sultee) · **Категория:** :speech_balloon: General · **Создано:** 2026-09-10 12:06 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\nWe are proposing to allocate **15,500 USDT from the Gonka Community Pool** to reimburse the cost of two tickets for **All-In Summit 2026** for Daniil and David Liberman, co-creators of the Gonka protocol.\n\nAll-In Summit will take place on **September 13–15, 2026, in Los Angeles** and will bring together more than **2,500 hand-selected attendees**, including tech founders, investors, executives, and leaders from the"
-    },
-    "ai_description": "The community is now discussing a proposal to allocate 15,500 USDT from the Gonka Community Pool to reimburse tickets for Daniil and David Liberman, the protocol's co-creators, to attend the All-In Summit 2026 in Los Angeles from September 13-15. This summit brings together over 2,500 top founders, investors, and industry leaders, making it a prime opportunity for Gonka's visibility and networking. Your feedback on this expense is welcome as the discussion opens."
-  },
-  {
-    "id": "evt_20260910161916_534e11ef",
-    "timestamp": "2026-09-10T16:19:16.251440+00:00",
-    "section": "discussions",
-    "action": "new",
-    "item": {
-      "title": "Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)",
-      "url": "/community/discussion/protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t/",
-      "file": "protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md"
-    },
-    "details": {
-      "status": null,
-      "content": "> 🔄 **Auto-sync:** from [Discussion #1748](https://github.com/gonka-ai/gonka/discussions/1748) every hour. \n\n# Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)\n\n**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-09-10 13:56 UTC · \n\n---\n\n## 📝 Описание\n\n# Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)\n\n**Status:** draft — design only; not implemented.  \n**Related:** host-initiated close in [`finalization`](https://github.com/gonka-ai/gonka/discussions/1369).\n\nThis document specifies a **per-escrow** BLS12-381 distributed key generation (DKG) so a devshard has a **stable root public key** `PK` that a third party can check was generated by the hosts who actually dealt for that escrow. Dealings are **"
-    },
-    "ai_description": "A new protocol proposal has been added to the Discussions section by @akup, outlining a per-escrow BLS12-381 distributed key generation (DKG) system for devshards. The design aims to give each escrow a stable root public key, verifiable on-chain at T0, with NIZK dealings so third parties can confirm the key was generated by the actual dealing hosts. While still in draft status, this could meaningfully improve trust and auditability in how devshard keys are established."
   }
 ]

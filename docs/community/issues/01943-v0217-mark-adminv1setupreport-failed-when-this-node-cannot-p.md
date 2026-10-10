@@ -2,7 +2,7 @@
 title: "#1943 — v0.2.17: Mark `/admin/v1/setup/report` failed when this node cannot pay one epoch of fees"
 source: https://github.com/gonka-ai/gonka/issues/1943
 issue_number: 1943
-synced_at: 2026-10-09T20:59:48Z
+synced_at: 2026-10-10T00:58:57Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-10-07 21:55 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-10-09 20:56 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-09 23:52 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>
@@ -36,7 +36,7 @@ Resolve the StoreCommit count the same way as `GET /admin/v1/epoch-fee-budget`. 
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -47,6 +47,16 @@ Resolve the StoreCommit count the same way as `GET /admin/v1/epoch-fee-budget`. 
     <p>I'd like to take #1943. I checked <code>checkFeegrant</code> and the existing epoch-fee-budget handler: the setup report currently validates the allowance but does not check the usable cold balance.</p>
 <p>My plan is to reuse <code>FeePayerSpendable</code>, <code>epochFeeBudgetNgonka</code> and <code>epochBudgetKnown</code>, with the same StoreCommit-count resolution as the budget endpoint. I'll cover zero/insufficient balances, unlimited and capped allowances, cold-key signing, expired grants, unknown budgets and query failures, while keeping the HTTP 200/report-status contract.</p>
 <p>Estimated first PR: 3-5 days after confirmation. Could you assign this to me if it is still available, and confirm whether this scoped fix would be considered for contributor rewards? I understand any payout requires governance approval.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-10-09 23:52 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@EazyHood #1943 is still open and unassigned, so you can take it.</p>
+<p>I cannot promise a bounty or any other contributor reward for this work. Whether anything is rewarded, and on what terms, is entirely subject to community review and governance approval. There is no commitment and no guarantee of a payout.</p>
   </div>
 </div>
 

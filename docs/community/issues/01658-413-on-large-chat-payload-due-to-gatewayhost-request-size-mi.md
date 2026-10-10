@@ -2,7 +2,7 @@
 title: "#1658 — 413 on large chat payload due to gateway/host request size mismatch"
 source: https://github.com/gonka-ai/gonka/issues/1658
 issue_number: 1658
-synced_at: 2026-10-09T21:00:04Z
+synced_at: 2026-10-10T00:59:21Z
 template: issues-main.html
 ---
 
