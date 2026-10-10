@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-10-09T20:25:37.252786+00:00",
+  "snapshot_time": "2026-10-10T00:24:08.087671+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -132,7 +132,7 @@
       "title": "H100 equivalent on dashboards",
       "status": null,
       "content_preview": "# H100 equivalent on dashboards\n\nRead this for the v0.2.16 upgrade, proposal 112. If it passes, the upgrade height is 6,449,400, expected around 8 October 2026, 05:48 UTC. Proposal 109 did not pass. The coefficient and weight rules below are for proposal 112.\n\n## What the number is\n\nH100 equivalent is the current network reward weight divided by the reward weight one reference H100 receives in that same epoch:\n\n```text\nH100_eq = total_weight / weight_per_h100\n```\n\nIt is a reward-weight equivalent. It is not a count of physical GPUs, and it is not difficulty-normalized compute.\n\nOn epoch 410, `total_weight` is **497,724**. It comes from `current_epoch_group_data.total_weight` and equals the sum of `validation_weights[].weight` for the 24 active participants.\nEvery dashboard that shows this ",
-      "checksum": "5ca215d34d7a6ac70e7532849a21c16ca2fd84104f3e690039c1024e973b8638"
+      "checksum": "44f8c8a592e238b8a748cc042ec5837858e46c994ec7ce784dbffc554b9e4a95"
     },
     "developer/gateway-developer-quickstart.md": {
       "title": "Run your own gateway",
