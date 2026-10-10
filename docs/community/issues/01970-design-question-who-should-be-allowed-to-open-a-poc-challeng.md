@@ -2,7 +2,7 @@
 title: "#1970 — Design question: who should be allowed to open a PoC challenge that waives devshard misses?"
 source: https://github.com/gonka-ai/gonka/issues/1970
 issue_number: 1970
-synced_at: 2026-10-10T18:41:45Z
+synced_at: 2026-10-10T22:39:36Z
 template: issues-main.html
 ---
 
