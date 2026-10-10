@@ -3,7 +3,7 @@ title: "#1748 — Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain 
 source: https://github.com/gonka-ai/gonka/discussions/1748
 discussion_number: 1748
 category: protocol-improvements
-synced_at: 2026-10-10T15:15:41Z
+synced_at: 2026-10-10T20:00:15Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1748](https://github.com/gonka-ai/gonka/discussions/1748) every hour. 
