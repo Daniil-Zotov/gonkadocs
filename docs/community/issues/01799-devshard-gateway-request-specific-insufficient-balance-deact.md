@@ -2,7 +2,7 @@
 title: "#1799 — devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow"
 source: https://github.com/gonka-ai/gonka/issues/1799
 issue_number: 1799
-synced_at: 2026-10-10T00:59:50Z
+synced_at: 2026-10-10T07:16:03Z
 template: issues-main.html
 ---
 
