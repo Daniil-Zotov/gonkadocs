@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261010135329_95587523",
+    "timestamp": "2026-10-10T13:53:29.335611+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1970 — Design question: who should be allowed to open a PoC challenge that waives devshard misses?",
+      "url": "/community/issues/01970-design-question-who-should-be-allowed-to-open-a-poc-challeng/",
+      "file": "01970-design-question-who-should-be-allowed-to-open-a-poc-challeng.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Design question: who should be allowed to open a PoC challenge that waives devshard misses?\n    <span class=\"issues-number\">#1970</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-10-10 13:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
+    },
+    "ai_description": "A new design question is now open for community input: issue #1970 asks who should have the authority to open a PoC challenge that waives devshard misses. This is an important governance decision that will shape how the network handles validator accountability, so please weigh in with your perspective. The issue is fresh with no comments yet, making it the perfect time to shape the discussion."
+  },
+  {
     "id": "evt_20261010010346_78e701ff",
     "timestamp": "2026-10-10T01:03:46.610777+00:00",
     "section": "issues",
@@ -8283,21 +8299,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)\n    <span class=\"issues-number\">#1370</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-28 07:37 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></"
     },
     "ai_description": "New issue #1370 has been filed by @maria-mitina, documenting a bridge failure where inbound USDT gets stuck in BRIDGE_PENDING after a coordinated halt of all 4 validators on the testnet. This is a critical edge case for the community to track, as it highlights a potential recovery gap in our decentralized bridge operations. The issue is now closed, so check the comments for the resolution details."
-  },
-  {
-    "id": "evt_20260910183639_8defe317",
-    "timestamp": "2026-09-10T18:36:39.609880+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1371 — Request for DevShards creator allowlist access",
-      "url": "/community/issues/01371-request-for-devshards-creator-allowlist-access/",
-      "file": "01371-request-for-devshards-creator-allowlist-access.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request for DevShards creator allowlist access\n    <span class=\"issues-number\">#1371</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/GERAunits\">@GERAunits</a> opened 2026-06-28 11:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
-    },
-    "ai_description": "New issue #1371 from @GERAunits requesting DevShards creator allowlist access has been closed. The request was addressed, and the issue is now resolved, meaning the team can move forward with onboarding new creators to the DevShards platform. Thanks to everyone who weighed in on this.New issue #1371 from @GERAunits requesting DevShards creator allowlist access has been closed. The request was addressed and resolved, so the team can now move forward with granting access to qualified creators. Thanks to all who contributed to the discussion."
   }
 ]

@@ -2,7 +2,7 @@
 title: "#626 — How to add new models"
 source: https://github.com/gonka-ai/gonka/issues/626
 issue_number: 626
-synced_at: 2026-10-10T07:17:28Z
+synced_at: 2026-10-10T13:52:26Z
 template: issues-main.html
 ---
 
