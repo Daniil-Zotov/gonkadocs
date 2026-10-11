@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261011202740_644c8c78",
+    "timestamp": "2026-10-11T20:27:40.277998+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1915 — PoC delegation: participation is judged at PoC validation only, so a \"bait\" node switched off right after PoC still collects the 5% share (or escapes the 15% penalty) for the whole epoch",
+      "url": "/community/issues/01915-poc-delegation-participation-is-judged-at-poc-validation-onl/",
+      "file": "01915-poc-delegation-participation-is-judged-at-poc-validation-onl.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC delegation: participation is judged at PoC validation only, so a \"bait\" node switched off right after PoC still collects the 5% share (or escapes the 15% penalty) for the whole epoch\n    <span class=\"issues-number\">#1915</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aktum1\">@Aktum1</a> opened 2026-10-04 15:52 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</spa",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC delegation: participation is judged at PoC validation only, so a \"bait\" node switched off right after PoC still collects the 5% share (or escapes the 15% penalty) for the whole epoch\n    <span class=\"issues-number\">#1915</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aktum1\">@Aktum1</a> opened 2026-10-04 15:52 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</spa"
+    },
+    "ai_description": "Issue #1915 remains open, but the comment count has dropped from 2 to 0, suggesting a cleanup of prior discussion. The core concern stands: a node can game PoC delegation by staying active only during validation to claim rewards or dodge penalties. This highlights a real incentive flaw the community should keep an eye on."
+  },
+  {
     "id": "evt_20261011090659_a827f774",
     "timestamp": "2026-10-11T09:06:59.955723+00:00",
     "section": "issues",
@@ -8283,21 +8299,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)\n    <span class=\"issues-number\">#1341</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-06-12 20:05 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span "
     },
     "ai_description": "A new bug report, issue #1341, has been filed by @redstartechno and closed, flagging a data race in the devshard module where the send goroutine and escalation scheduler conflict over the inflight receiptTime, causing go test -race to fail on main. This is a critical concurrency issue that impacts reliability and test integrity, so the community should prioritize a fix to keep the main branch stable."
-  },
-  {
-    "id": "evt_20260910183639_4c02fa22",
-    "timestamp": "2026-09-10T18:36:39.609857+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1342 — Gateway allowlist request",
-      "url": "/community/issues/01342-gateway-allowlist-request/",
-      "file": "01342-gateway-allowlist-request.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1342</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/appgencore\">@appgencore</a> opened 2026-06-13 07:39 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
-    },
-    "ai_description": "A gateway allowlist request (#1342) from @appgencore has been closed, meaning the issue has been resolved or rejected. This is a routine housekeeping update for the network, keeping the gateway roster clean and operational. No further action is needed from the community.A new gateway allowlist request (#1342) from @appgencore has been closed, signaling the resolution of their application to join the network. This keeps our gateway roster current and ensures only approved operators are active. Thanks to everyone involved in the review process."
   }
 ]

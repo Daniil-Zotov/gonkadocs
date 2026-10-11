@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-11T15:51:29.982060+00:00",
+  "snapshot_time": "2026-10-11T20:27:44.929630+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4026,13 +4026,10 @@
     "01915-poc-delegation-participation-is-judged-at-poc-validation-onl.md": {
       "title": "#1915 — PoC delegation: participation is judged at PoC validation only, so a \"bait\" node switched off right after PoC still collects the 5% share (or escapes the 15% penalty) for the whole epoch",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC delegation: participation is judged at PoC validation only, so a \"bait\" node switched off right after PoC still collects the 5% share (or escapes the 15% penalty) for the whole epoch\n    <span class=\"issues-number\">#1915</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aktum1\">@Aktum1</a> opened 2026-10-04 15:52 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</spa",
-      "comment_checksum": "6ad2f78ecd3b2a3a91f377d4912f42369c1911a83cd247462670e87bd20c1178",
-      "comment_bodies": [
-        "🛠️ Antigravity Technical Solution &amp; Verified Patch Proposal We have conducted a thorough root-cause analysis and verified patch implementation for this issue. Interactive Technical Proposal &amp; Evidence: job-ghb-gonka-ai-gonka-1915 Verification Guarantee: 100% automated test assertions passed, zero regressions detected. Bounty Payout Rail: 0x24A2151Ec787a2C5c81412A888c3a9d9eEc3beEA (EVM) / l",
-        "🛠️ Antigravity Technical Solution &amp; Verified Patch Proposal We have conducted a thorough root-cause analysis and verified patch implementation for this issue. Interactive Technical Proposal &amp; Evidence: job-ghb-gonka-ai-gonka-1915 Verification Guarantee: 100% automated test assertions passed, zero regressions detected. Bounty Payout Rail: 0x24A2151Ec787a2C5c81412A888c3a9d9eEc3beEA (EVM) / l"
-      ],
-      "checksum": "212e78be2a3e92c6fd50808bf53c7b390aa70466135925e71625810e1125d49d"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC delegation: participation is judged at PoC validation only, so a \"bait\" node switched off right after PoC still collects the 5% share (or escapes the 15% penalty) for the whole epoch\n    <span class=\"issues-number\">#1915</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aktum1\">@Aktum1</a> opened 2026-10-04 15:52 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</spa",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "d3f2cd0e373d1e20a7feea1375ca5fde979969f91ebed5b6b988ef5cccaad462"
     },
     "01935-bug-devshardctl-attempt-duration-is-measured-when-the-reques.md": {
       "title": "#1935 — [BUG] devshardctl: attempt duration is measured when the request settles, not when the attempt ends",
