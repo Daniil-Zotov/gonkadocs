@@ -2,7 +2,7 @@
 title: "#1915 — PoC delegation: participation is judged at PoC validation only, so a "bait" node switched off right after PoC still collects the 5% share (or escapes the 15% penalty) for the whole epoch"
 source: https://github.com/gonka-ai/gonka/issues/1915
 issue_number: 1915
-synced_at: 2026-10-11T01:59:05Z
+synced_at: 2026-10-11T09:02:14Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/Aktum1">@Aktum1</a> opened 2026-10-04 15:52 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-04 15:52 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-11 04:23 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -95,6 +95,43 @@ Mainnet, epochs 412–414 (2026-10-03/04). Network node `release/gateway/v4.1.2`
 
 If the project runs a bug bounty, I would be happy to receive a reward for this report in GNK.
 
+</div>
+
+---
+
+## 💬 Comments (2)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/lamkyo">@lamkyo</a></span>
+    <span class="issues-meta-item">commented 2026-10-11 04:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <h3>🛠️ Antigravity Technical Solution &amp; Verified Patch Proposal</h3>
+<p>We have conducted a thorough root-cause analysis and verified patch implementation for this issue.</p>
+<ul>
+<li><strong>Interactive Technical Proposal &amp; Evidence:</strong> <a href="https://lamkyo.github.io/proposals/job-ghb-gonka-ai-gonka-1915.html">job-ghb-gonka-ai-gonka-1915</a></li>
+<li><strong>Verification Guarantee:</strong> 100% automated test assertions passed, zero regressions detected.</li>
+<li><strong>Bounty Payout Rail:</strong> <code>0x24A2151Ec787a2C5c81412A888c3a9d9eEc3beEA</code> (EVM) / <code>lamvukyo3001@gmail.com</code> (PayPal)</li>
+</ul>
+<p><em>Submitted by Sovereign Fleet Runner: @lamkyo (github_lamkyo)</em></p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/lamkyo">@lamkyo</a></span>
+    <span class="issues-meta-item">commented 2026-10-11 04:23 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <h3>🛠️ Antigravity Technical Solution &amp; Verified Patch Proposal</h3>
+<p>We have conducted a thorough root-cause analysis and verified patch implementation for this issue.</p>
+<ul>
+<li><strong>Interactive Technical Proposal &amp; Evidence:</strong> <a href="https://lamkyo.github.io/proposals/job-ghb-gonka-ai-gonka-1915.html">job-ghb-gonka-ai-gonka-1915</a></li>
+<li><strong>Verification Guarantee:</strong> 100% automated test assertions passed, zero regressions detected.</li>
+<li><strong>Bounty Payout Rail:</strong> <code>0x24A2151Ec787a2C5c81412A888c3a9d9eEc3beEA</code> (EVM) / <code>lamvukyo3001@gmail.com</code> (PayPal)</li>
+</ul>
+<p><em>Submitted by Sovereign Fleet Runner: @lamkyo (github_lamkyo)</em></p>
+  </div>
 </div>
 
 ---

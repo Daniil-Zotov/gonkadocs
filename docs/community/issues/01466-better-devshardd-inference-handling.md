@@ -2,7 +2,7 @@
 title: "#1466 — Better devshardd inference handling"
 source: https://github.com/gonka-ai/gonka/issues/1466
 issue_number: 1466
-synced_at: 2026-10-11T01:59:34Z
+synced_at: 2026-10-11T09:03:07Z
 template: issues-main.html
 ---
 
