@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261012204105_7addbecf",
+    "timestamp": "2026-10-12T20:41:05.343897+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 7, 2026\n\n**UPGRADE EXECUTED: v0.2.16 is now live on mainnet**\n\nThe on-chain governance vote for [Upgrade Proposal v0.2.16](https://github.com/gonka-ai/gonka/blob/136041c81ea8ff38e7620d76af66a7c7fe7eec50/proposals/governance-artifacts/update-v0.2.",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 11, 2026\n\n**Proposal #114 is open for voting: DevShard v4.2**\n\nThis proposal stabilizes the v4 line with v4.2, removes v5 from the approved DevShard versions, and keeps v4.1 unchanged. The planned next step is to move from v4.* to a stable v6 rel"
+    },
+    "ai_description": "The protocol docs have been updated to reflect that Proposal #114 is now open for voting, which seeks to stabilize DevShard v4.2 and remove v5 from the approved versions. This matters because it clarifies the roadmap toward a stable v6 release and keeps the community aligned on which versions are supported. Head to the governance portal to cast your vote if you haven't already."
+  },
+  {
     "id": "evt_20261012093812_a22a5118",
     "timestamp": "2026-10-12T09:38:12.865728+00:00",
     "section": "calendar",
@@ -8287,21 +8303,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1322</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Puyre\">@Puyre</a> opened 2026-06-08 15:13 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cla"
     },
     "ai_description": "Gateway allowlist request #1322 from @Puyre has been closed, meaning the proposal to add them as a Gonka gateway operator is no longer under consideration. The issue drew one comment before resolution, so the community weighed in briefly on this devshard creator application. Keep an eye on future allowlist requests to see how operator standards evolve."
-  },
-  {
-    "id": "evt_20260910183639_22bf820f",
-    "timestamp": "2026-09-10T18:36:39.609830+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1331 — How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?",
-      "url": "/community/issues/01331-how-to-obtain-a-broker-api-key-for-node4-or-documentation-on/",
-      "file": "01331-how-to-obtain-a-broker-api-key-for-node4-or-documentation-on.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?\n    <span class=\"issues-number\">#1331</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Puyre\">@Puyre</a> opened 2026-06-10 15:34 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div cl"
-    },
-    "ai_description": "A new issue was opened by @Puyre asking how to obtain a broker API key for node4, along with a request for documentation on the broker onboarding process. The issue is now closed, which suggests the question was answered or resolved. This highlights a gap in onboarding docs, so keep an eye out for any related updates that could help future node operators."
   }
 ]

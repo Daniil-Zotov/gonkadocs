@@ -3178,6 +3178,18 @@ This page is a list of model licenses. It does not say whether a model is on Gon
    
     This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.
 
+## October 11, 2026
+
+**Proposal #114 is open for voting: DevShard v4.2**
+
+This proposal stabilizes the v4 line with v4.2, removes v5 from the approved DevShard versions, and keeps v4.1 unchanged. The planned next step is to move from v4.* to a stable v6 release.
+
+Voting ends October 14 at 04:46 UTC.
+
+[https://gonka.gg/network/proposals/114](https://gonka.gg/network/proposals/114)
+
+Please review the proposal and cast your vote before the deadline.
+
 ## October 7, 2026
 
 **UPGRADE EXECUTED: v0.2.16 is now live on mainnet**
@@ -32744,7 +32756,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-113 proposals across 6 quarters. Last updated: 2026-10-12 17:40 UTC
+113 proposals across 6 quarters. Last updated: 2026-10-12 19:17 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
