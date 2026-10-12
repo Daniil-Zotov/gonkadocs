@@ -20,7 +20,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- No upcoming events scheduled.
+- 2026-10-14 04:46 UTC — Voting ends: #114 – Approve devshard v4.2 and remove v5: https://gonkadocs.com/proposals/proposals/2026-q4/114/
 
 ## Protocol Documentation
 
@@ -215,6 +215,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [2026-Q4 Proposals](/proposals/proposals/2026-q4/): Auto-synced content
 - [#110 – GRC Proposal #4 - Restitution](/proposals/proposals/2026-q4/110/): Auto-synced content
 - [#112 – Upgrade Proposal: v0.2.16](/proposals/proposals/2026-q4/112/): Auto-synced content
+- [#114 – Approve devshard v4.2 and remove v5](/proposals/proposals/2026-q4/114/): Auto-synced content
 - [#111 – Bringing AMD and AI ASICs to Gonka: hardware classes for verification](/proposals/proposals/2026-q4/111/): Auto-synced content
 - [#113 – Distribute v0.2.16 bounty rewards](/proposals/proposals/2026-q4/113/): Auto-synced content
 - [2025-Q3 Proposals](/proposals/proposals/2025-q3/): Auto-synced content
