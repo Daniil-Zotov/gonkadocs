@@ -132,6 +132,7 @@ The existing `v4.1` binary URL and checksum remain unchanged. v5 is removed.
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka16k7nzvlheye8zhtyykcanxz0hldnfkmaedye8d" target="_blank" class="prop-voter-addr">gonka16k7nzv…edye8d</a></td><td><span class="prop-voter-option prop-vote-abstain">Abstain 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
