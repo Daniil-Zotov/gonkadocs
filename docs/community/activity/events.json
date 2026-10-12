@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20261012093812_a22a5118",
+    "timestamp": "2026-10-12T09:38:12.865728+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #114 – Approve devshard v4.2 and remove v5",
+      "url": "/proposals/proposals/2026-q4/114/",
+      "file": "930250ceff308b551ccd2d0f0ad6999c3bede019a22b42ea497999a4239c121e"
+    },
+    "details": {
+      "status": null,
+      "content": "Devshard v4.2\n\nThis proposal removes v5 from the approved devshard versions and adds v4.2. The existing v4.1 entry stays unchanged.\n\nDevshard v4.2 polishes the v4 runtime with fixes for production iss…",
+      "date": "2026-10-14",
+      "time": "04:46 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/114/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261011202740_644c8c78",
     "timestamp": "2026-10-11T20:27:40.277998+00:00",
     "section": "issues",
@@ -8283,21 +8303,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?\n    <span class=\"issues-number\">#1331</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Puyre\">@Puyre</a> opened 2026-06-10 15:34 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div cl"
     },
     "ai_description": "A new issue was opened by @Puyre asking how to obtain a broker API key for node4, along with a request for documentation on the broker onboarding process. The issue is now closed, which suggests the question was answered or resolved. This highlights a gap in onboarding docs, so keep an eye out for any related updates that could help future node operators."
-  },
-  {
-    "id": "evt_20260910183639_41813886",
-    "timestamp": "2026-09-10T18:36:39.609845+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1341 — [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)",
-      "url": "/community/issues/01341-bug-devshard-data-race-on-inflight-receipttime-between-send-/",
-      "file": "01341-bug-devshard-data-race-on-inflight-receipttime-between-send-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)\n    <span class=\"issues-number\">#1341</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-06-12 20:05 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span "
-    },
-    "ai_description": "A new bug report, issue #1341, has been filed by @redstartechno and closed, flagging a data race in the devshard module where the send goroutine and escalation scheduler conflict over the inflight receiptTime, causing go test -race to fail on main. This is a critical concurrency issue that impacts reliability and test integrity, so the community should prioritize a fix to keep the main branch stable."
   }
 ]
