@@ -1,0 +1,16 @@
+[
+  {
+    "@type": "/inference.inference.MsgDeleteDevshardApprovedVersion",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "name": "v5"
+  },
+  {
+    "@type": "/inference.inference.MsgPutDevshardApprovedVersion",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "version": {
+      "name": "v4.2",
+      "binary": "https://github.com/gonka-ai/gonka/releases/download/devshard%2Fv4.2.0/devshardd.zip",
+      "sha256": "068599a524d4f456b36c6a208aad05d962b6751752fc0cab5991b24cf5429625"
+    }
+  }
+]

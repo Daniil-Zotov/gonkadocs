@@ -7,6 +7,25 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#114 – Approve devshard v4.2 and remove v5</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q4/114/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/114/</guid>
+      <pubDate>Mon, 12 Oct 2026 04:46:24 +0000</pubDate>
+      <category>Voting</category>
+      <description>Devshard v4.2
+
+This proposal removes v5 from the approved devshard versions and adds v4.2. The existing v4.1 entry stays unchanged.
+
+Devshard v4.2 polishes the v4 runtime with fixes for production issues and performance improvements. It uses less CPU and memory, reduces repeated validation work, fixes validation recovery, refusal handling, and gateway routing. The changes are listed below.
+
+## Proposal
+
+Update the approved devshard versions:
+
+- Remove `v5`.
+- Add `v4.2` with the fixes and perfor</description>
+    </item>
+    <item>
       <title>#113 – Distribute v0.2.16 bounty rewards</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q4/113/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/113/</guid>

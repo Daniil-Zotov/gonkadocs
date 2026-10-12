@@ -1522,5 +1522,17 @@
     "tags": [
       "passed"
     ]
+  },
+  {
+    "date": "2026-10-14",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #114 – Approve devshard v4.2 and remove v5",
+    "url": "/proposals/proposals/2026-q4/114/",
+    "time": "04:46 UTC",
+    "description": "Devshard v4.2\n\nThis proposal removes v5 from the approved devshard versions and adds v4.2. The existing v4.1 entry stays unchanged.\n\nDevshard v4.2 polishes the v4 runtime with fixes for production iss…",
+    "tags": [
+      "voting"
+    ]
   }
 ]
