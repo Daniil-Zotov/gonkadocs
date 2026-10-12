@@ -2,7 +2,7 @@
 title: "#387 — Bug: fatal error: too many concurrent timer firings"
 source: https://github.com/gonka-ai/gonka/issues/387
 issue_number: 387
-synced_at: 2026-10-11T23:47:38Z
+synced_at: 2026-10-12T06:14:06Z
 template: issues-main.html
 ---
 
