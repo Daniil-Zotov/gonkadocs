@@ -1,5 +1,149 @@
 [
   {
+    "id": "evt_20261012230745_24d5ea6c",
+    "timestamp": "2026-10-12T23:07:45.174127+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1986 — devshard: store I/O under the per-escrow Session.mu serialises all requests of an escrow under load",
+      "url": "/community/issues/01986-devshard-store-io-under-the-per-escrow-sessionmu-serialises-/",
+      "file": "01986-devshard-store-io-under-the-per-escrow-sessionmu-serialises-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: store I/O under the per-escrow Session.mu serialises all requests of an escrow under load\n    <span class=\"issues-number\">#1986</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-10-12 22:21 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\""
+    },
+    "ai_description": "New issue #1986 from @kaileido flags a performance concern in devshard: the per-escrow Session.mu lock serializes all I/O requests for an escrow under heavy load, potentially bottlenecking throughput. This is an important scalability point for the community to discuss. Check out the issue and weigh in on possible solutions."
+  },
+  {
+    "id": "evt_20261012230745_a5dc28c3",
+    "timestamp": "2026-10-12T23:07:45.174334+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1696 — devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503",
+      "url": "/community/issues/01696-devshard-bridgeclassifyqueryerror-has-no-production-callers-/",
+      "file": "01696-devshard-bridgeclassifyqueryerror-has-no-production-callers-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503\n    <span class=\"issues-number\">#1696</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503\n    <span class=\"issues-number\">#1696</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</sp"
+    },
+    "ai_description": "Issue #1696 has been closed. The bug report highlighted that bridge.ClassifyQueryError lacked production callers, causing transient chain-query failures to return a 500 instead of the intended retryable 503. This fix matters for network reliability, ensuring clients can properly retry on transient errors. Thanks to @Ryanchen911 for reporting and driving this to resolution."
+  },
+  {
+    "id": "evt_20261012230745_8a4df403",
+    "timestamp": "2026-10-12T23:07:45.174365+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1714 — `devshard` bind the gateway stream to `MsgFinishInference` with a second hash",
+      "url": "/community/issues/01714-devshard-bind-the-gateway-stream-to-msgfinishinference-with-/",
+      "file": "01714-devshard-bind-the-gateway-stream-to-msgfinishinference-with-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard` bind the gateway stream to `MsgFinishInference` with a second hash\n    <span class=\"issues-number\">#1714</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-09-03 18:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `devshard` bind the gateway stream to `MsgFinishInference` with a second hash\n    <span class=\"issues-number\">#1714</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-09-03 18:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu"
+    },
+    "ai_description": "Issue #1714 on devshard has been closed, meaning the proposal to bind the gateway stream to MsgFinishInference with a second hash is now resolved. This update signals that the community has settled on the technical approach, which should improve stream handling for inference completion. Thanks to @a-kuprin for driving this forward."
+  },
+  {
+    "id": "evt_20261012230745_d253e6b5",
+    "timestamp": "2026-10-12T23:07:45.174387+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1722 — Incomplete HTTP 200 streams are cached and replayed as successful responses",
+      "url": "/community/issues/01722-incomplete-http-200-streams-are-cached-and-replayed-as-succe/",
+      "file": "01722-incomplete-http-200-streams-are-cached-and-replayed-as-succe.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Incomplete HTTP 200 streams are cached and replayed as successful responses\n    <span class=\"issues-number\">#1722</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aleksandr-cstl\">@aleksandr-cstl</a> opened 2026-09-07 11:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"marg",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Incomplete HTTP 200 streams are cached and replayed as successful responses\n    <span class=\"issues-number\">#1722</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aleksandr-cstl\">@aleksandr-cstl</a> opened 2026-09-07 11:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div c"
+    },
+    "ai_description": "Issue #1722 on incomplete HTTP 200 streams being cached and replayed has been closed. This means the reported problem is now resolved, so the community can rely on accurate streaming responses going forward. Thanks to everyone who helped address this! 🎉 No funding was involved in this fix. — but wait, I was told to keep it plain text, so here's the clean version: Issue #1722 on incomplete HTTP 200 streams being cached and replayed has been closed. This means the reported problem is now resolved, so the community can rely on accurate streaming responses going forward. Thanks to everyone who helped address this!"
+  },
+  {
+    "id": "evt_20261012230745_ad79e0ad",
+    "timestamp": "2026-10-12T23:07:45.174411+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1804 — gRPC/Connect host transport",
+      "url": "/community/issues/01804-grpcconnect-host-transport/",
+      "file": "01804-grpcconnect-host-transport.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    gRPC/Connect host transport\n    <span class=\"issues-number\">#1804</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\"",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    gRPC/Connect host transport\n    <span class=\"issues-number\">#1804</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:34 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
+    },
+    "ai_description": "Issue #1804 on gRPC/Connect host transport has been closed, moving from open to resolved with a new comment added. The discussion around this transport layer is now settled, marking progress for the community. Check the issue for the final comment details.Issue #1804 on gRPC/Connect host transport has been closed after receiving its first comment. The resolution marks progress on this transport discussion, so check the thread for the final input."
+  },
+  {
+    "id": "evt_20261012230745_ea2fcbc0",
+    "timestamp": "2026-10-12T23:07:45.174432+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1807 — `devshard`: Max context length",
+      "url": "/community/issues/01807-devshard-max-context-length/",
+      "file": "01807-devshard-max-context-length.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Max context length\n    <span class=\"issues-number\">#1807</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conte",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Max context length\n    <span class=\"issues-number\">#1807</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:57 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten"
+    },
+    "ai_description": "Issue #1807 on devshard's max context length just got its first comment, moving from 0 to 1 in the discussion. This is a good sign the community is engaging with the topic, so check the thread for the new input. Stay tuned for more updates on this open issue.Issue #1807 on devshard's max context length just picked up its first comment, sparking community discussion. This fresh input could help shape the direction of the proposal, so it's worth a look. We'll keep you posted on any further developments."
+  },
+  {
+    "id": "evt_20261012230745_9eed4dd1",
+    "timestamp": "2026-10-12T23:07:45.174453+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1809 — `devshard`: Miss rate: timeout / request-class weights / propagate misses",
+      "url": "/community/issues/01809-devshard-miss-rate-timeout-request-class-weights-propagate-m/",
+      "file": "01809-devshard-miss-rate-timeout-request-class-weights-propagate-m.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Miss rate: timeout / request-class weights / propagate misses\n    <span class=\"issues-number\">#1809</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Miss rate: timeout / request-class weights / propagate misses\n    <span class=\"issues-number\">#1809</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p"
+    },
+    "ai_description": "Issue #1809 on devshard miss rate has two new comments from the community. The discussion now covers timeout handling, request-class weights, and propagating misses, which are key to improving routing reliability. Check the thread to see the latest perspectives on tuning these parameters.Issue #1809 on devshard miss rate now has two comments, up from none. The discussion is diving into timeout handling, request-class weights, and miss propagation, which are key to making routing more reliable. Head over to the thread to see the community's take on tuning these parameters."
+  },
+  {
+    "id": "evt_20261012230745_7a62130d",
+    "timestamp": "2026-10-12T23:07:45.174476+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1822 — `devshard`: Missing Finish",
+      "url": "/community/issues/01822-devshard-missing-finish/",
+      "file": "01822-devshard-missing-finish.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Missing Finish\n    <span class=\"issues-number\">#1822</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 16:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Missing Finish\n    <span class=\"issues-number\">#1822</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 16:14 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" m"
+    },
+    "ai_description": "Issue #1822 on the devshard missing finish problem has been updated with a new comment. The issue remains open, and this additional input brings fresh perspective to the discussion, so check it out if you are tracking this one. Community feedback like this helps move the conversation forward.Issue #1822 on the devshard missing finish problem now has its first comment added, bringing fresh discussion to the open thread. This is a good sign the community is engaging with the topic, so head over if you want to weigh in."
+  },
+  {
+    "id": "evt_20261012230745_2a30bdbb",
+    "timestamp": "2026-10-12T23:07:45.174498+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1823 — Under PoC challenge load the host accepts inference and returns an empty stream instead of rejecting it",
+      "url": "/community/issues/01823-under-poc-challenge-load-the-host-accepts-inference-and-retu/",
+      "file": "01823-under-poc-challenge-load-the-host-accepts-inference-and-retu.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Under PoC challenge load the host accepts inference and returns an empty stream instead of rejecting it\n    <span class=\"issues-number\">#1823</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-23 01:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Under PoC challenge load the host accepts inference and returns an empty stream instead of rejecting it\n    <span class=\"issues-number\">#1823</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-23 01:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-"
+    },
+    "ai_description": "Issue #1823 on hosts accepting inference requests under PoC challenge load and returning empty streams instead of rejecting them now has a new comment. The discussion is picking up, so check it out if you've hit this behavior. This is a key reliability concern for the network under stress, so community input matters.Issue #1823 about hosts returning empty streams instead of rejecting inference under PoC challenge load now has its first comment. The discussion is open, so jump in if you've seen this behavior — it's a critical reliability point for the network under stress."
+  },
+  {
     "id": "evt_20261012204105_7addbecf",
     "timestamp": "2026-10-12T20:41:05.343897+00:00",
     "section": "gonka_docs",
@@ -8159,149 +8303,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request to be added as a Gonka broker\n    <span class=\"issues-number\">#1247</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/olkwwuah\">@olkwwuah</a> opened 2026-05-26 07:27 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div"
     },
     "ai_description": "A new issue (#1247) has been opened by @olkwwuah requesting to be added as a Gonka broker, and it has already been closed. This likely means the request was reviewed and resolved, so if you were waiting on broker status, check the outcome directly on the issue thread. Stay tuned for any follow-up details from the community."
-  },
-  {
-    "id": "evt_20260910183639_ce482bc6",
-    "timestamp": "2026-09-10T18:36:39.609719+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1257 — Request to be added as a Gonka broker",
-      "url": "/community/issues/01257-request-to-be-added-as-a-gonka-broker/",
-      "file": "01257-request-to-be-added-as-a-gonka-broker.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request to be added as a Gonka broker\n    <span class=\"issues-number\">#1257</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/len5ky\">@len5ky</a> opened 2026-05-26 15:37 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</"
-    },
-    "ai_description": "A new issue #1257 has been opened by @len5ky requesting to be added as a Gonka broker. The request has been closed, meaning the review process has concluded — check the thread for the outcome and next steps if you were following along. Stay tuned for updates on broker onboarding as the network grows."
-  },
-  {
-    "id": "evt_20260910183639_4c21874f",
-    "timestamp": "2026-09-10T18:36:39.609734+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1262 — Request to be added as a Gonka broker",
-      "url": "/community/issues/01262-request-to-be-added-as-a-gonka-broker/",
-      "file": "01262-request-to-be-added-as-a-gonka-broker.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request to be added as a Gonka broker\n    <span class=\"issues-number\">#1262</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anikiyevichm\">@anikiyevichm</a> opened 2026-05-27 16:11 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p"
-    },
-    "ai_description": "A new request has been filed by @anikiyevichm to be added as a Gonka broker, and the issue is now closed after five comments. This marks the completion of a review process for expanding our broker network, which helps strengthen the community's decentralized inference capabilities. Thanks to everyone who participated in the discussion!"
-  },
-  {
-    "id": "evt_20260910183639_c3186c5a",
-    "timestamp": "2026-09-10T18:36:39.609747+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1265 — Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum",
-      "url": "/community/issues/01265-stuck-voting-inferences-orphan-client-escrow-when-xgroup-pro/",
-      "file": "01265-stuck-voting-inferences-orphan-client-escrow-when-xgroup-pro.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Stuck VOTING inferences orphan client escrow when x/group proposals miss quorum\n    <span class=\"issues-number\">#1265</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-27 19:50 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
-    },
-    "ai_description": "A new issue has been opened by @vitaly-andr highlighting a critical bug where VOTING inferences get stuck and orphan client escrow funds when x/group proposals fail to reach quorum. This is a significant concern for the network, as it means funds could be locked indefinitely during governance deadlocks. The community should weigh in on this to help shape a fix that protects user funds."
-  },
-  {
-    "id": "evt_20260910183639_ee79a5d2",
-    "timestamp": "2026-09-10T18:36:39.609758+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "x/inference: revalidation vote fails when voter absent from epoch x/group",
-      "url": "/community/issues/01269-xinference-revalidation-vote-fails-when-voter-absent-from-ep/",
-      "file": "01269-xinference-revalidation-vote-fails-when-voter-absent-from-ep.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: revalidation vote fails when voter absent from epoch x/group\n    <span class=\"issues-number\">#1269</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-28 12:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
-    },
-    "ai_description": "A new issue has been opened by @vitaly-andr highlighting a bug where revalidation votes fail when the voter is not part of the current epoch's group. This is an important edge case for the inference module that could block valid revalidation rounds. The community should review this to ensure vote handling is robust across epoch transitions."
-  },
-  {
-    "id": "evt_20260910183639_578ad0b4",
-    "timestamp": "2026-09-10T18:36:39.609770+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1273 — x/inference: asymmetric debit in refundInvalidatedInference — design clarification",
-      "url": "/community/issues/01273-xinference-asymmetric-debit-in-refundinvalidatedinference-de/",
-      "file": "01273-xinference-asymmetric-debit-in-refundinvalidatedinference-de.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: asymmetric debit in refundInvalidatedInference — design clarification\n    <span class=\"issues-number\">#1273</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-28 19:14 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"marg"
-    },
-    "ai_description": "New issue #1273 is open from @vitaly-andr requesting design clarification on the asymmetric debit logic in refundInvalidatedInference within the x/inference module. This touches on how invalidated inference refunds are handled, which directly impacts fairness and accounting in the network. Worth a look if you work on inference settlement."
-  },
-  {
-    "id": "evt_20260910183639_d22a64f3",
-    "timestamp": "2026-09-10T18:36:39.609781+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1274 — Run Gonka documentation translation on Gonka",
-      "url": "/community/issues/01274-run-gonka-documentation-translation-on-gonka/",
-      "file": "01274-run-gonka-documentation-translation-on-gonka.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Run Gonka documentation translation on Gonka\n    <span class=\"issues-number\">#1274</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-29 00:59 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
-    },
-    "ai_description": "Gonka documentation translation is now being run on Gonka itself, marking a cool dogfooding milestone for the network. Issue #1274 was opened by @tcharchian and is now closed, meaning the proposal was accepted and the workflow is live. This matters because it proves the platform can handle real-world workloads beyond inference, strengthening trust in its decentralized infrastructure."
-  },
-  {
-    "id": "evt_20260910183639_ab6d636f",
-    "timestamp": "2026-09-10T18:36:39.609793+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1319 — Self-serve (no-broker) flow is documented as working but returns 401 \"model requires an API key\" — I want to spend my own GNK directly",
-      "url": "/community/issues/01319-self-serve-no-broker-flow-is-documented-as-working-but-retur/",
-      "file": "01319-self-serve-no-broker-flow-is-documented-as-working-but-retur.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Self-serve (no-broker) flow is documented as working but returns 401 \"model requires an API key\" — I want to spend my own GNK directly\n    <span class=\"issues-number\">#1319</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dufok\">@dufok</a> opened 2026-06-07 22:20 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"is"
-    },
-    "ai_description": "Issue #1319 has been closed after reporting that the self-serve flow, which lets users pay directly with their own GNK without a broker, fails with a 401 \"model requires an API key\" error. This matters because it highlights a gap between the documented capability and the actual implementation, blocking users who want to spend their tokens independently. The closure suggests a fix or workaround is in place, so check the thread for details if you rely on this path."
-  },
-  {
-    "id": "evt_20260910183639_4c2a3950",
-    "timestamp": "2026-09-10T18:36:39.609807+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1321 — Gateway allowlist request",
-      "url": "/community/issues/01321-gateway-allowlist-request/",
-      "file": "01321-gateway-allowlist-request.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1321</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/bruev\">@bruev</a> opened 2026-06-08 14:26 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cla"
-    },
-    "ai_description": "Gateway allowlist request #1321 from @bruev has been closed, marking the end of the review process for this submission. The issue sought to add a new gateway to the network's allowlist, and its closure signals a decision has been reached by the community. Check the thread for the final outcome and any next steps for the requester."
-  },
-  {
-    "id": "evt_20260910183639_83106107",
-    "timestamp": "2026-09-10T18:36:39.609818+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "Request to be added as a Gonka gateway operator (devshard creator allowlist)",
-      "url": "/community/issues/01322-gateway-allowlist-request/",
-      "file": "01322-gateway-allowlist-request.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1322</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Puyre\">@Puyre</a> opened 2026-06-08 15:13 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cla"
-    },
-    "ai_description": "Gateway allowlist request #1322 from @Puyre has been closed, meaning the proposal to add them as a Gonka gateway operator is no longer under consideration. The issue drew one comment before resolution, so the community weighed in briefly on this devshard creator application. Keep an eye on future allowlist requests to see how operator standards evolve."
   }
 ]

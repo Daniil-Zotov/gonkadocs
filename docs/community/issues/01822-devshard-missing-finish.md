@@ -2,7 +2,7 @@
 title: "#1822 — `devshard`: Missing Finish"
 source: https://github.com/gonka-ai/gonka/issues/1822
 issue_number: 1822
-synced_at: 2026-10-12T15:43:01Z
+synced_at: 2026-10-12T23:03:40Z
 template: issues-main.html
 ---
 
@@ -15,14 +15,28 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-09-22 16:14 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-22 16:14 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-12 20:52 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
 <div class="issues-content" markdown="1">
 *(empty)*
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/akup">@akup</a></span>
+    <span class="issues-meta-item">commented 2026-10-12 20:52 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>related to https://github.com/gonka-ai/gonka/issues/1808</p>
+  </div>
 </div>
 
 ---

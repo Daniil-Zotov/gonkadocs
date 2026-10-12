@@ -2,7 +2,7 @@
 title: "#1809 — `devshard`: Miss rate: timeout / request-class weights / propagate misses"
 source: https://github.com/gonka-ai/gonka/issues/1809
 issue_number: 1809
-synced_at: 2026-10-12T15:43:08Z
+synced_at: 2026-10-12T23:03:41Z
 template: issues-main.html
 ---
 
@@ -15,14 +15,37 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-18 22:00 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-12 20:44 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
 <div class="issues-content" markdown="1">
 *(empty)*
+</div>
+
+---
+
+## 💬 Comments (2)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/akup">@akup</a></span>
+    <span class="issues-meta-item">commented 2026-10-12 20:39 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>We should exclude heartbeats from nonces calculations. It needs fixes at 0.2.18 inference chain</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-10-12 20:44 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>blocked by 0.2.18</p>
+  </div>
 </div>
 
 ---

@@ -2,7 +2,7 @@
 title: "#1823 — Under PoC challenge load the host accepts inference and returns an empty stream instead of rejecting it"
 source: https://github.com/gonka-ai/gonka/issues/1823
 issue_number: 1823
-synced_at: 2026-10-12T15:42:59Z
+synced_at: 2026-10-12T23:03:39Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-09-23 01:05 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-23 01:05 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-12 20:54 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -24,6 +24,20 @@ template: issues-main.html
 <div class="issues-content" markdown="1">
 During the long-running PoC test #1811 by @maria-mitina, a host under challenge load stayed responsive to inference: it confirmed a receipt (`has_receipt=true` on `race_completed`) and then returned an empty stream. The attempt never won the race. Other hosts won with real content, so clients still received answers. The expected behavior is that a host under challenge load rejects the inference and does not take the receipt.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/akup">@akup</a></span>
+    <span class="issues-meta-item">commented 2026-10-12 20:53 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@qdanik But why gateway at all sends inferences to PoC challenged hosts?</p>
+  </div>
 </div>
 
 ---
