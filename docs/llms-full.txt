@@ -21820,7 +21820,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-10-13 02:23 UTC
+2026-10-13 10:01 UTC
 
 ---
 
@@ -31456,8 +31456,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-14
   
   Devshard v4.2  This proposal removes v5 from the approved devshard versions and adds v4.2. The existing v4.1 entry stays unchanged.  Devshard v4.2 polishes the v4 runtime with fixes for production iss…
-  Yes 100.0% (265,034) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 39.0% (265,034 / 680,386) · Quorum 25% (170,096)
+  Yes 100.0% (270,364) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 39.8% (270,364 / 679,995) · Quorum 25% (169,998)
 
   
     #113 – Distribute v0.2.16 bounty rewards
@@ -32756,7 +32756,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-113 proposals across 6 quarters. Last updated: 2026-10-13 09:40 UTC
+113 proposals across 6 quarters. Last updated: 2026-10-13 11:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82077,8 +82077,8 @@ $106,250 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-10-14
   
   Devshard v4.2  This proposal removes v5 from the approved devshard versions and adds v4.2. The existing v4.1 entry stays unchanged.  Devshard v4.2 polishes the v4 runtime with fixes for production iss…
-  Yes 100.0% (265,034) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 39.0% (265,034 / 680,386) · Quorum 25% (170,096)
+  Yes 100.0% (270,364) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 39.8% (270,364 / 679,995) · Quorum 25% (169,998)
 
   
     #113 – Distribute v0.2.16 bounty rewards
@@ -83224,12 +83224,12 @@ The existing `v4.1` binary URL and checksum remain unchanged. v5 is removed.
     
   
   
-    Yes 100.0% (265,034)
+    Yes 100.0% (270,364)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 265,034 votes
-    ✓ Turnout 39.0% (265,034 / 680,386) · Quorum 25% (170,096)
+    Total 270,364 votes
+    ✓ Turnout 39.8% (270,364 / 679,995) · Quorum 25% (169,998)
   
 
 Voters
@@ -83237,6 +83237,7 @@ Voters
 VoterVote
 
 gonka1p2lhgn…k6h26mYes 100.0%
+gonka1ym3np7…0e4a2pYes 100.0%
 gonka1dcagmt…jtqz7cYes 100.0%
 gonka1nurzpp…9rggstYes 100.0%
 gonka147qfck…4gpvz8Yes 100.0%
