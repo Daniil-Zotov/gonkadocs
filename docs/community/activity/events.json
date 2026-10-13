@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261013192533_e54bb692",
+    "timestamp": "2026-10-13T19:25:33.091898+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1992 — v7 should account inferences, not nonces",
+      "url": "/community/issues/01992-v7-should-account-inferences-not-nonces/",
+      "file": "01992-v7-should-account-inferences-not-nonces.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v7 should account inferences, not nonces\n    <span class=\"issues-number\">#1992</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-13 18:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style="
+    },
+    "ai_description": "A new issue #1992 has been opened by @a-kuprin, proposing that v7 should track actual inference work rather than nonces. This is a meaningful design shift that could improve how the network measures and rewards contributions, so it's worth a look from the community. Head over to the issue to weigh in on the direction."
+  },
+  {
+    "id": "evt_20261013192533_014f8e00",
+    "timestamp": "2026-10-13T19:25:33.092133+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1881 — The Gateway That Never Forgets",
+      "url": "/community/issues/01881-the-gateway-that-never-forgets/",
+      "file": "01881-the-gateway-that-never-forgets.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
+    },
+    "ai_description": "Issue #1881 \"The Gateway That Never Forgets\" has been closed. The proposal, which was opened by @paranjko, is now marked as resolved, meaning the discussion has concluded and no further action is needed on this topic. Thanks to everyone who contributed to the conversation. 🎉 (no emojis)"
+  },
+  {
     "id": "evt_20261013173308_2432eb10",
     "timestamp": "2026-10-13T17:33:08.664710+00:00",
     "section": "discussions",
@@ -8271,37 +8303,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request to be added as a Gonka broker\n    <span class=\"issues-number\">#1237</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/piterberkut\">@piterberkut</a> opened 2026-05-23 13:54 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;"
     },
     "ai_description": "Issue #1237 from @piterberkut requesting to be added as a Gonka broker has been closed with two comments. This means the review of their broker application has concluded, and the community can now see the final decision on whether their services were approved for the network. Check the issue thread for the outcome and any feedback shared during the process."
-  },
-  {
-    "id": "evt_20260910183639_652eca54",
-    "timestamp": "2026-09-10T18:36:39.609679+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1241 — Request to be added as a Gonka broker",
-      "url": "/community/issues/01241-request-to-be-added-as-a-gonka-broker/",
-      "file": "01241-request-to-be-added-as-a-gonka-broker.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request to be added as a Gonka broker\n    <span class=\"issues-number\">#1241</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/olkwwuah\">@olkwwuah</a> opened 2026-05-24 17:24 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
-    },
-    "ai_description": "A new request (#1241) has been submitted by @olkwwuah to be added as a Gonka broker, and it has already been closed. Brokers play a key role in connecting compute providers with the network, so this signals a quick review of the applicant's qualifications. The community should keep an eye out for future broker openings if this one didn't move forward."
-  },
-  {
-    "id": "evt_20260910183639_3da2d49b",
-    "timestamp": "2026-09-10T18:36:39.609692+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1245 — Request to be added as a Gonka broker (for run my own gateway)",
-      "url": "/community/issues/01245-request-to-be-added-as-a-gonka-broker-for-run-my-own-gateway/",
-      "file": "01245-request-to-be-added-as-a-gonka-broker-for-run-my-own-gateway.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request to be added as a Gonka broker (for run my own gateway)\n    <span class=\"issues-number\">#1245</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Korolev-Oleg\">@Korolev-Oleg</a> opened 2026-05-25 13:27 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
-    },
-    "ai_description": "A new issue #1245 has been closed: a request from @Korolev-Oleg to be added as a Gonka broker so they can run their own gateway. The issue was resolved, meaning the community has reviewed and settled the onboarding request. This keeps the broker network transparent and ensures new gateway operators are properly vetted."
   }
 ]
