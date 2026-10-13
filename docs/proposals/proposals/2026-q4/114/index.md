@@ -108,18 +108,18 @@ The existing `v4.1` binary URL and checksum remain unchanged. v5 is removed.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:49.1%"></div>
+    <div class="prop-tally-yes" style="width:40.8%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (334,082)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (352,417)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 334,082 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>49.1%</strong> (334,082 / 679,996) · Quorum <strong>25%</strong> (169,999)</span>
+    <span class="prop-tally-total-text">Total 352,417 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>40.8%</strong> (352,417 / 862,863) · Quorum <strong>25%</strong> (215,715)</span>
   </div>
 </div>
 
