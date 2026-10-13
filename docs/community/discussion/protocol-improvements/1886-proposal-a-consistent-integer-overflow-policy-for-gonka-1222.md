@@ -3,7 +3,7 @@ title: "#1886 — Proposal: a consistent integer-overflow policy for Gonka (#122
 source: https://github.com/gonka-ai/gonka/discussions/1886
 discussion_number: 1886
 category: protocol-improvements
-synced_at: 2026-10-12T18:57:50Z
+synced_at: 2026-10-13T01:15:44Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1886](https://github.com/gonka-ai/gonka/discussions/1886) every hour. 
