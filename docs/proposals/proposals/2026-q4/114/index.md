@@ -108,18 +108,18 @@ The existing `v4.1` binary URL and checksum remain unchanged. v5 is removed.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:39.0%"></div>
+    <div class="prop-tally-yes" style="width:39.7%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (265,034)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (270,364)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 265,034 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>39.0%</strong> (265,034 / 680,386) · Quorum <strong>25%</strong> (170,096)</span>
+    <span class="prop-tally-total-text">Total 270,364 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>39.7%</strong> (270,364 / 680,386) · Quorum <strong>25%</strong> (170,096)</span>
   </div>
 </div>
 
@@ -132,6 +132,7 @@ The existing `v4.1` binary URL and checksum remain unchanged. v5 is removed.
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p" target="_blank" class="prop-voter-addr">gonka1ym3np7…0e4a2p</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1dcagmtcnra345dza6uf7c80tekm0q5usjtqz7c" target="_blank" class="prop-voter-addr">gonka1dcagmt…jtqz7c</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst" target="_blank" class="prop-voter-addr">gonka1nurzpp…9rggst</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8" target="_blank" class="prop-voter-addr">gonka147qfck…4gpvz8</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
