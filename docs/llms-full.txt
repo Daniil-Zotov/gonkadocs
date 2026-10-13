@@ -22270,7 +22270,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-13 07:39 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-10-13 15:54 UTC*
 
 ---
 
@@ -31456,8 +31456,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-14
   
   Devshard v4.2  This proposal removes v5 from the approved devshard versions and adds v4.2. The existing v4.1 entry stays unchanged.  Devshard v4.2 polishes the v4 runtime with fixes for production iss…
-  Yes 100.0% (270,364) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 39.8% (270,364 / 679,995) · Quorum 25% (169,998)
+  Yes 100.0% (334,082) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 49.1% (334,082 / 679,996) · Quorum 25% (169,999)
 
   
     #113 – Distribute v0.2.16 bounty rewards
@@ -32756,7 +32756,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-113 proposals across 6 quarters. Last updated: 2026-10-13 11:40 UTC
+113 proposals across 6 quarters. Last updated: 2026-10-13 15:50 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82077,8 +82077,8 @@ $106,250 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-10-14
   
   Devshard v4.2  This proposal removes v5 from the approved devshard versions and adds v4.2. The existing v4.1 entry stays unchanged.  Devshard v4.2 polishes the v4 runtime with fixes for production iss…
-  Yes 100.0% (270,364) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 39.8% (270,364 / 679,995) · Quorum 25% (169,998)
+  Yes 100.0% (334,082) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 49.1% (334,082 / 679,996) · Quorum 25% (169,999)
 
   
     #113 – Distribute v0.2.16 bounty rewards
@@ -83224,12 +83224,12 @@ The existing `v4.1` binary URL and checksum remain unchanged. v5 is removed.
     
   
   
-    Yes 100.0% (270,364)
+    Yes 100.0% (334,082)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 270,364 votes
-    ✓ Turnout 39.8% (270,364 / 679,995) · Quorum 25% (169,998)
+    Total 334,082 votes
+    ✓ Turnout 49.1% (334,082 / 679,996) · Quorum 25% (169,999)
   
 
 Voters
@@ -83242,6 +83242,7 @@ gonka1dcagmt…jtqz7cYes 100.0%
 gonka1nurzpp…9rggstYes 100.0%
 gonka147qfck…4gpvz8Yes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
+gonka168rtjf…lnkns2Yes 100.0%
 gonka16dgkvx…6j0skkYes 100.0%
 gonka16k7nzv…edye8dAbstain 100.0%
 
