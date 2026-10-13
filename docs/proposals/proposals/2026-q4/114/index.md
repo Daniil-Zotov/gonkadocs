@@ -119,7 +119,7 @@ The existing `v4.1` binary URL and checksum remain unchanged. v5 is removed.
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 334,082 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>49.1%</strong> (334,082 / 679,995) · Quorum <strong>25%</strong> (169,998)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>49.1%</strong> (334,082 / 679,996) · Quorum <strong>25%</strong> (169,999)</span>
   </div>
 </div>
 
