@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-13T09:19:17.927640+00:00",
+  "snapshot_time": "2026-10-13T17:33:10.502849+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -475,6 +475,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1886](https://github.com/gonka-ai/gonka/discussions/1886) every hour. \n\n# Proposal: a consistent integer-overflow policy for Gonka (#1222)\n\n**Автор:** [@zpoken](https://github.com/zpoken) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-10-01 10:37 UTC · \n\n---\n\n## 📝 Описание\n\nWe prepared proposal describing a standard way to handle integer overflow, applied consistently across the codebase, with an automated check.\n\n**Full proposal:** https://github.com/zpoken/gonka/blob/zpoken/int-overflow-proposal/int-overflow-proposal.md\n\n## What we propose\n\n1. Rules by execution context.  What happens on overflow depends on where the code runs. \n2.  Implement and use one shared package.\n3. Add a CI check. gosec G115 and `nolintlint` run in all four ",
       "checksum": "8f2cb886771ca601182300879bdcd6609710e4d50d438c92a58386052e7bcf59"
+    },
+    "protocol-improvements/1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md": {
+      "title": "#1990 — BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens of Protected Data",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1990](https://github.com/gonka-ai/gonka/discussions/1990) every hour. \n\n# BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens of Protected Data\n\n**Автор:** [@nikolay2828](https://github.com/nikolay2828) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-10-13 10:17 UTC · \n\n---\n\n## 📝 Описание\n\nLetter to the Founders of Gonka:\n[Gonka-FINAL-EN.pdf](https://github.com/user-attachments/files/33379435/Gonka-FINAL-EN.pdf)\n[BioFi   DeSci Core for Gonka  Patient-Sovereign Confidential Health Comput1e.md](https://github.com/user-attachments/files/33379604/BioFi.DeSci.Core.for.Gonka.Patient-Sovereign.Confidential.Health.Comput1e.md)\n\n---\n\n## 💬 Комментарии (1)\n\n### Комментарий 1 — [@nikolay2828](https://github.com/nikolay2828)\n\n*2026-10-13",
+      "checksum": "6ee4846e925f9767d20046b16141127e26c241748f511bf9b9d381ff57548cbd"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "#796 — Are there plans to add prompt-level confidentiality for hosts?",

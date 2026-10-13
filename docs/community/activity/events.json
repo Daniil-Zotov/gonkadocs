@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261013173308_2432eb10",
+    "timestamp": "2026-10-13T17:33:08.664710+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#1990 — BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens of Protected Data",
+      "url": "/community/discussion/protocol-improvements/1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-/",
+      "file": "protocol-improvements/1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1990](https://github.com/gonka-ai/gonka/discussions/1990) every hour. \n\n# BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens of Protected Data\n\n**Автор:** [@nikolay2828](https://github.com/nikolay2828) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-10-13 10:17 UTC · \n\n---\n\n## 📝 Описание\n\nLetter to the Founders of Gonka:\n[Gonka-FINAL-EN.pdf](https://github.com/user-attachments/files/33379435/Gonka-FINAL-EN.pdf)\n[BioFi   DeSci Core for Gonka  Patient-Sovereign Confidential Health Comput1e.md](https://github.com/user-attachments/files/33379604/BioFi.DeSci.Core.for.Gonka.Patient-Sovereign.Confidential.Health.Comput1e.md)\n\n---\n\n## 💬 Комментарии (1)\n\n### Комментарий 1 — [@nikolay2828](https://github.com/nikolay2828)\n\n*2026-10-13"
+    },
+    "ai_description": "A new protocol proposal has been added to the Discussions, authored by @nikolay2828. The proposal outlines a universal framework for exchanging tokens of protected data within the BioFi and DeSci space, with a focus on patient-sovereign confidential health computing. This is a significant step toward expanding Gonka's utility into sensitive data markets, so the community should review the attached documents and weigh in on the technical feasibility."
+  },
+  {
     "id": "evt_20261012230745_24d5ea6c",
     "timestamp": "2026-10-12T23:07:45.174127+00:00",
     "section": "issues",
@@ -8287,21 +8303,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request to be added as a Gonka broker (for run my own gateway)\n    <span class=\"issues-number\">#1245</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Korolev-Oleg\">@Korolev-Oleg</a> opened 2026-05-25 13:27 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
     },
     "ai_description": "A new issue #1245 has been closed: a request from @Korolev-Oleg to be added as a Gonka broker so they can run their own gateway. The issue was resolved, meaning the community has reviewed and settled the onboarding request. This keeps the broker network transparent and ensures new gateway operators are properly vetted."
-  },
-  {
-    "id": "evt_20260910183639_e47aaffb",
-    "timestamp": "2026-09-10T18:36:39.609706+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1247 — Request to be added as a Gonka broker",
-      "url": "/community/issues/01247-request-to-be-added-as-a-gonka-broker/",
-      "file": "01247-request-to-be-added-as-a-gonka-broker.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request to be added as a Gonka broker\n    <span class=\"issues-number\">#1247</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/olkwwuah\">@olkwwuah</a> opened 2026-05-26 07:27 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div"
-    },
-    "ai_description": "A new issue (#1247) has been opened by @olkwwuah requesting to be added as a Gonka broker, and it has already been closed. This likely means the request was reviewed and resolved, so if you were waiting on broker status, check the outcome directly on the issue thread. Stay tuned for any follow-up details from the community."
   }
 ]
