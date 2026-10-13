@@ -72,7 +72,7 @@ hide:
   </div>
   <div class="prop-card-desc">Devshard v4.2  This proposal removes v5 from the approved devshard versions and adds v4.2. The existing v4.1 entry stays unchanged.  Devshard v4.2 polishes the v4 runtime with fixes for production iss…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (270,364)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>39.7%</strong> (270,364 / 680,386) · Quorum <strong>25%</strong> (170,096)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>39.8%</strong> (270,364 / 679,995) · Quorum <strong>25%</strong> (169,998)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1608,7 +1608,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>113 proposals across 6 quarters. Last updated: 2026-10-13 10:40 UTC</em>
+<em>113 proposals across 6 quarters. Last updated: 2026-10-13 11:00 UTC</em>
 </div>
 
 <script>
