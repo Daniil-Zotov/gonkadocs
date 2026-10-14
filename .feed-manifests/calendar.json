@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-10-14T02:52:56.575867+00:00",
+  "snapshot_time": "2026-10-14T07:56:23.373460+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2369,14 +2369,14 @@
       "content_preview": "Upgrade Proposal: v0.2.16\n\nThe v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.\n\nTrusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …",
       "checksum": "5240abceff1103a15e94733785d477f444b48449e6356982245d83ac1c833303"
     },
-    "930250ceff308b551ccd2d0f0ad6999c3bede019a22b42ea497999a4239c121e": {
-      "title": "Voting ends: #114 – Approve devshard v4.2 and remove v5",
+    "4a9873137f762397930339dd14a683c3355ce26e9a8e996861d68b662caac08a": {
+      "title": "Passed: #114 – Approve devshard v4.2 and remove v5",
       "date": "2026-10-14",
       "time": "04:46 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q4/114/",
       "content_preview": "Devshard v4.2\n\nThis proposal removes v5 from the approved devshard versions and adds v4.2. The existing v4.1 entry stays unchanged.\n\nDevshard v4.2 polishes the v4 runtime with fixes for production iss…",
-      "checksum": "8d888e179436c0a7eed1db2b78f56f09c33d18415bdc715cac53e33f90501685"
+      "checksum": "bf2c6d64919cc211b3309923b1495c081e24d5a7de2f6bc0641da95bf78d4bd5"
     }
   }
 }
