@@ -20,7 +20,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- 2026-10-14 04:46 UTC — Voting ends: #114 – Approve devshard v4.2 and remove v5: https://gonkadocs.com/proposals/proposals/2026-q4/114/
+- 2026-10-14 04:46 UTC — Passed: #114 – Approve devshard v4.2 and remove v5: https://gonkadocs.com/proposals/proposals/2026-q4/114/
 
 ## Protocol Documentation
 

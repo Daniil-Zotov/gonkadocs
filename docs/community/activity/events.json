@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261014074946_134265fc",
+    "timestamp": "2026-10-14T07:49:46.341115+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1994 — Letter to the Founders of Gonka:",
+      "url": "/community/issues/01994-letter-to-the-founders-of-gonka/",
+      "file": "01994-letter-to-the-founders-of-gonka.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Letter to the Founders of Gonka:\n    <span class=\"issues-number\">#1994</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/nikolay2828\">@nikolay2828</a> opened 2026-10-14 03:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-c"
+    },
+    "ai_description": "A new community issue #1994 has been opened by @nikolay2828 with a letter addressed directly to the Gonka founders. The post is currently open for discussion with no comments yet, inviting the community to weigh in on the message. Head over to the issue to read the letter and share your thoughts."
+  },
+  {
     "id": "evt_20261014072939_4f2b579c",
     "timestamp": "2026-10-14T07:29:39.510449+00:00",
     "section": "discussions",
@@ -8295,21 +8311,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Re-validate VLM inference and validation results from #1026\n    <span class=\"issues-number\">#1198</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:03 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span clas"
     },
     "ai_description": "New issue #1198 opened by @tcharchian calls for re-validating the VLM inference and validation results from #1026, with the discussion already drawing 7 comments. This matters because double-checking prior findings helps ensure the accuracy and reliability of the model evaluation data the community relies on. If you were involved in the original work, your input on this verification pass would be valuable."
-  },
-  {
-    "id": "evt_20260910183639_b2959521",
-    "timestamp": "2026-09-10T18:36:39.609634+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1200 — Independent review of PoC-decode results",
-      "url": "/community/issues/01200-independent-review-of-poc-decode-results/",
-      "file": "01200-independent-review-of-poc-decode-results.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st"
-    },
-    "ai_description": "New issue #1200 opened by @tcharchian calls for an independent review of PoC-decode results, a key step in verifying the accuracy of our inference outputs. This transparency effort is vital for building trust in the network's proof-of-concept phase. Check it out and join the discussion to help strengthen our validation process."
   }
 ]

@@ -31459,7 +31459,7 @@ HardCore Arena позволит протестировать модель на �
 ## Overview
 
 113Total Proposals
-75Passed (66%)
+76Passed (67%)
 36Rejected (32%)
 1Failed (1%)
 
@@ -31479,8 +31479,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #114 – Approve devshard v4.2 and remove v5
-    
-    Voting
+    Passed
   
   
     Submitted 2026-10-12
@@ -32787,7 +32786,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-113 proposals across 6 quarters. Last updated: 2026-10-14 04:45 UTC
+113 proposals across 6 quarters. Last updated: 2026-10-14 07:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82086,7 +82085,7 @@ Contract Details
 ## 2026-Q4 Summary
 
 5Total Proposals
-3Passed (60%)
+4Passed (80%)
 1Rejected (20%)
 
 Funding / Grants3
@@ -82100,8 +82099,7 @@ $106,250 · Community Pool · 132,896 GNK · Gov Module
 
   
     #114 – Approve devshard v4.2 and remove v5
-    
-    Voting
+    Passed
   
   
     Submitted 2026-10-12
@@ -83160,7 +83158,7 @@ Contract Details
 
 # #114 – Approve devshard v4.2 and remove v5
 
-Voting
+Passed
 
 **Proposal ID:** `114`
 
