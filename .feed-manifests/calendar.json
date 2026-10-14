@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-10-14T13:57:35.498826+00:00",
+  "snapshot_time": "2026-10-14T18:48:55.647348+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -163,6 +163,15 @@
       "url": "https://us06web.zoom.us/j/81184942251",
       "content_preview": "Продолжается серия ежемесячных AMA-сессий с создателями Gonka. Давид Либерман при участии Вадима Крутова, COO Bitfury, расскажет, как прошёл сентябрь и что ждёт протокол в октябре, а также ответит на вопросы комьюнити.\n\nВ программе:\n• Итоги сентября: результаты, цифры, выводы\n• Token2049: участие Gonka и ключевые встречи\n• Foundation: назначение, роль в экосистеме и изменения для сообщества\n• Ответы на вопросы в прямом эфире\n\n🗣️ Язык: русский\n🎙️ Участники: Давид Либерман, Вадим Крутов (COO Bitfury)\n🎙️ Хост: @sultee\n\n📅 Вторник, 6 октября\n🕣 05:30–06:30 PDT (LA) · 12:30–13:30 UTC · 15:30–16:30 МСК\n📍 Присоединиться в Zoom: https://us06web.zoom.us/j/81184942251",
       "checksum": "3bea81d5dc39f2425c74d2c20025dad9458b54a3eb95fc97bef437071e7cca43"
+    },
+    "2088b9ad67597fdae792feb7dc253d402f7cd347c4285f87bfcd21720ad0a3b3": {
+      "title": "External Test Lab & Community DevNet — третий ежемесячный статус-колл | Third Monthly Status Call",
+      "date": "2026-10-16",
+      "time": "14:00 UTC",
+      "event_type": "community_call",
+      "url": "https://meet.google.com/bqx-mfhi-arg",
+      "content_preview": "Третий ежемесячный статус-колл External Test Lab & Community DevNet — приглашаем на третий статус-колл и обсудим:\n\n– инфраструктуру Community DevNet;\n– тестирование L2: новых версий DevShard и Gateway;\n– мониторинг мейннета и девнета;\n– тестирование брокеров;\n– отчёт по расходам.\n\n📅 Пятница, 16 октября\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg\n\n---\n\nThird monthly status call of the External Test Lab & Community DevNet — we invite you to the third status call and will discuss:\n\n– Community DevNet infrastructure;\n– L2 testing: new versions of DevShard and Gateway;\n– mainnet and devnet monitoring;\n– broker testing;\n– expense report.\n\n📅 Friday, October 16\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg",
+      "checksum": "d9e267809f4b70e5d1c92e36bf8a470d472f03692ec500bc1024d8a92a7044d4"
     },
     "60130ca155a868e409b7aa0642525df006c4e05da481ba6f8787253101992676": {
       "title": "Migrate community-sale and wrapped-token contracts",

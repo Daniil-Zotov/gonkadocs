@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20261014184855_946ea58c",
+    "timestamp": "2026-10-14T18:48:55.622402+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "External Test Lab & Community DevNet — третий ежемесячный статус-колл | Third Monthly Status Call",
+      "url": "https://meet.google.com/bqx-mfhi-arg",
+      "file": "2088b9ad67597fdae792feb7dc253d402f7cd347c4285f87bfcd21720ad0a3b3"
+    },
+    "details": {
+      "status": null,
+      "content": "Третий ежемесячный статус-колл External Test Lab & Community DevNet — приглашаем на третий статус-колл и обсудим:\n\n– инфраструктуру Community DevNet;\n– тестирование L2: новых версий DevShard и Gateway;\n– мониторинг мейннета и девнета;\n– тестирование брокеров;\n– отчёт по расходам.\n\n📅 Пятница, 16 октября\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg\n\n---\n\nThird monthly status call of the External Test Lab & Community DevNet — we invite you to the third status call and will discuss:\n\n– Community DevNet infrastructure;\n– L2 testing: new versions of DevShard and Gateway;\n– mainnet and devnet monitoring;\n– broker testing;\n– expense report.\n\n📅 Friday, October 16\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg",
+      "date": "2026-10-16",
+      "time": "14:00 UTC",
+      "event_type": "community_call",
+      "url": "https://meet.google.com/bqx-mfhi-arg"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261014135452_f0eb181f",
     "timestamp": "2026-10-14T13:54:52.546359+00:00",
     "section": "issues",
@@ -8299,21 +8319,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] A short, specific, searchable title.\n    <span class=\"issues-number\">#1169</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akamitch\">@akamitch</a> opened 2026-05-15 13:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" styl"
     },
     "ai_description": "A new bug report has been filed on the governance dashboard, highlighting a discrepancy between the numbers shown in the summary panel and those in the detailed chart. The issue, opened by @akamitch, is now open for community input and investigation. This matters because accurate data display is critical for trust in our governance metrics, so please review and share any insights you have."
-  },
-  {
-    "id": "evt_20260910183639_3caad1ad",
-    "timestamp": "2026-09-10T18:36:39.609598+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "TEE",
-      "url": "/community/issues/01173-tee-implementation/",
-      "file": "01173-tee-implementation.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    TEE Implementation\n    <span class=\"issues-number\">#1173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-16 06:45 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:"
-    },
-    "ai_description": "A new issue #1173 has been opened by @tcharchian proposing a TEE (Trusted Execution Environment) implementation for the network. This is a significant technical direction worth discussing, as TEEs could strengthen hardware-level security guarantees for inference workloads. Head over to the issue to share your thoughts on the approach."
   }
 ]
