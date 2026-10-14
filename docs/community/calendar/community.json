@@ -322,5 +322,24 @@
     "duration_minutes": 60,
     "location": "https://us06web.zoom.us/j/81184942251",
     "uid": "gonka-2026-10-06-ecd22369e477@gonkadocs.com"
+  },
+  {
+    "date": "2026-10-16",
+    "category": "community",
+    "type": "community_call",
+    "title": "External Test Lab & Community DevNet — третий ежемесячный статус-колл | Third Monthly Status Call",
+    "url": "https://meet.google.com/bqx-mfhi-arg",
+    "time": "14:00 UTC",
+    "description": "Третий ежемесячный статус-колл External Test Lab & Community DevNet — приглашаем на третий статус-колл и обсудим:\n\n– инфраструктуру Community DevNet;\n– тестирование L2: новых версий DevShard и Gateway;\n– мониторинг мейннета и девнета;\n– тестирование брокеров;\n– отчёт по расходам.\n\n📅 Пятница, 16 октября\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg\n\n---\n\nThird monthly status call of the External Test Lab & Community DevNet — we invite you to the third status call and will discuss:\n\n– Community DevNet infrastructure;\n– L2 testing: new versions of DevShard and Gateway;\n– mainnet and devnet monitoring;\n– broker testing;\n– expense report.\n\n📅 Friday, October 16\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg",
+    "tags": [
+      "test-lab",
+      "devnet",
+      "status-call",
+      "community"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "location": "https://meet.google.com/bqx-mfhi-arg",
+    "uid": "gonka-2026-10-16-9efe2589aaa1@gonkadocs.com"
   }
 ]
