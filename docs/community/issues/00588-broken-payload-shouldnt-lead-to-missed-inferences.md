@@ -2,7 +2,7 @@
 title: "#588 — Broken payload shouldn't lead to missed inferences"
 source: https://github.com/gonka-ai/gonka/issues/588
 issue_number: 588
-synced_at: 2026-10-14T18:46:08Z
+synced_at: 2026-10-14T22:24:45Z
 template: issues-main.html
 ---
 
