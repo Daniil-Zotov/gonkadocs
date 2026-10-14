@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261014135452_f0eb181f",
+    "timestamp": "2026-10-14T13:54:52.546359+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2000 — devshard: executor-reported output tokens set the payment and are checked only on sampled replays",
+      "url": "/community/issues/02000-devshard-executor-reported-output-tokens-set-the-payment-and/",
+      "file": "02000-devshard-executor-reported-output-tokens-set-the-payment-and.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: executor-reported output tokens set the payment and are checked only on sampled replays\n    <span class=\"issues-number\">#2000</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
+    },
+    "ai_description": "A new issue #2000 has been opened by @vitaly-andr, proposing that executor-reported output tokens should directly determine payments, with verification only happening on sampled replays. This is an important design consideration for the network, as it could impact how tasks are priced and how trust is maintained. Community feedback is welcome to weigh in on this approach."
+  },
+  {
     "id": "evt_20261014075623_e8e93856",
     "timestamp": "2026-10-14T07:56:23.348112+00:00",
     "section": "calendar",
@@ -8299,21 +8315,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    TEE Implementation\n    <span class=\"issues-number\">#1173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-16 06:45 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:"
     },
     "ai_description": "A new issue #1173 has been opened by @tcharchian proposing a TEE (Trusted Execution Environment) implementation for the network. This is a significant technical direction worth discussing, as TEEs could strengthen hardware-level security guarantees for inference workloads. Head over to the issue to share your thoughts on the approach."
-  },
-  {
-    "id": "evt_20260910183639_b049fc7a",
-    "timestamp": "2026-09-10T18:36:39.609610+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1178 — No available public Kimi-K2.6 inference gateways",
-      "url": "/community/issues/01178-no-available-public-kimi-k26-inference-gateways/",
-      "file": "01178-no-available-public-kimi-k26-inference-gateways.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    No available public Kimi-K2.6 inference gateways\n    <span class=\"issues-number\">#1178</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/sspotanin\">@sspotanin</a> opened 2026-05-17 06:11 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top"
-    },
-    "ai_description": "A new issue has been opened by @sspotanin highlighting that no public Kimi-K2.6 inference gateways are currently available on the network. This is a critical availability gap that could impact users relying on this model, so the community should keep an eye on it as it was quickly closed. Stay tuned for any follow-up on how this gets resolved."
   }
 ]
