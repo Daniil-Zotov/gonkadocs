@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">5</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">3</span><span class="qs-desc">Passed (60%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">4</span><span class="qs-desc">Passed (80%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">1</span><span class="qs-desc">Rejected (20%)</span></div>
 
 </div>
@@ -54,11 +54,10 @@ hide:
 <div class="prop-quarter">
 <h2>2026-Q4</h2>
 <p>5 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-14T04:46:24.436120594Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="114/" class="prop-card-title">#114 – Approve devshard v4.2 and remove v5</a>
-    <span class="prop-vote-countdown" data-deadline="2026-10-14T04:46:24.436120594Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-10-12</span>
