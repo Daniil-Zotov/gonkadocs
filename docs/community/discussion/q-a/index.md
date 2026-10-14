@@ -4,12 +4,13 @@ title: ":interrobang: Q&A"
 
 # :interrobang: Q&A
 
-Дискуссии в категории **:interrobang: Q&A**. Всего: **4**. Обновлено: `2026-10-13 22:38 UTC`.
+Дискуссии в категории **:interrobang: Q&A**. Всего: **5**. Обновлено: `2026-10-14 07:29 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [1996](1996-current-funded-performance-work-after-1914-journal-changes.md) | [Current funded performance work after #1914 journal changes](1996-current-funded-performance-work-after-1914-journal-changes.md) | [@zileria354-ship-it](https://github.com/zileria354-ship-it) | 2026-10-14 |
 | [1667](1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | [IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired](1667-ibc-withdrawal-blocked-neutron-client-07-tendermint-3-is-exp.md) | [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) | 2026-09-01 |
 | [1354](1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i.md) | [I would like to ask if the developers intentionally pushed inference data to the main chain, causing some nodes to lose their epoch rewards.](1354-i-would-like-to-ask-if-the-developers-intentionally-pushed-i.md) | [@Llgmhsl](https://github.com/Llgmhsl) | 2026-06-21 |
 | [972](0972-best-practices-for-building-ai-agent-systems-in-2026.md) | [Best Practices for Building AI Agent Systems in 2026](0972-best-practices-for-building-ai-agent-systems-in-2026.md) | [@jingchang0623-crypto](https://github.com/jingchang0623-crypto) | 2026-03-29 |

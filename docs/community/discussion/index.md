@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **109**. Обновлено: `2026-10-13 22:38 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **110**. Обновлено: `2026-10-14 07:29 UTC`.
 
 ## 📂 Категории
 
@@ -15,13 +15,14 @@ title: "GitHub Discussions"
 | [:speech_balloon: General](general/index.md) | 7 |
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 13 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 49 |
-| [:interrobang: Q&A](q-a/index.md) | 4 |
+| [:interrobang: Q&A](q-a/index.md) | 5 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 25 |
 
 ## 🕒 Последние обновлённые
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1996](q-a/1996-current-funded-performance-work-after-1914-journal-changes.md) | [Current funded performance work after #1914 journal changes](q-a/1996-current-funded-performance-work-after-1914-journal-changes.md) | :interrobang: Q&A | [@zileria354-ship-it](https://github.com/zileria354-ship-it) | 2026-10-14 |
 | [1990](protocol-improvements/1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md) | [BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens of Protected Data](protocol-improvements/1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md) | :gear: Protocol Improvements | [@nikolay2828](https://github.com/nikolay2828) | 2026-10-13 |
 | [1920](governance-proposal-reports/1920-proposal-77-input-global-monthly-report-september.md) | [Proposal #77: INPUT Global - Monthly Report \|\| September](governance-proposal-reports/1920-proposal-77-input-global-monthly-report-september.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-10-05 |
 | [1919](governance-proposal-reports/1919-proposal-77-input-global-monthly-report-august.md) | [Proposal #77: INPUT Global - Monthly Report \|\| August](governance-proposal-reports/1919-proposal-77-input-global-monthly-report-august.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-10-05 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1742](governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |
 | [1589](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | :jigsaw: Ecosystem | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |
 | [1464](protocol-improvements/1464-dev-team-funding.md) | [Dev Team Funding](protocol-improvements/1464-dev-team-funding.md) | :gear: Protocol Improvements | [@gmorgachev](https://github.com/gmorgachev) | 2026-09-08 |
-| [1721](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | [Community interest: adding GLM-5.3-Flash and Qwen3.8-Flash-Next to the lineup?](protocol-improvements/1721-community-interest-adding-glm-53-flash-and-qwen38-flash-next.md) | :gear: Protocol Improvements | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-09-08 |

@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-13T22:38:29.542168+00:00",
+  "snapshot_time": "2026-10-14T07:29:45.779397+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -505,6 +505,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1667](https://github.com/gonka-ai/gonka/discussions/1667) every hour. \n\n# IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired\n\n**Автор:** [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) · **Категория:** :interrobang: Q&A · **Создано:** 2026-08-28 13:45 UTC · \n\n---\n\n## 📝 Описание\n\nHello,\n\nI am unable to withdraw my funds from Gonka to Neutron.\n\nThe transfer fails with:\n\nfailed to execute message; message index: 0:\ncannot send packet using client (07-tendermint-3)\nwith status Expired: client is not active\n\nWallet:\ngonka1s8qkncfz06ke5ns6x3cw57mqj83hywj3fltv0n\n\nAsset denomination:\nibc/4F64FF736B88BA8EA521D6D515D9652B7C23C903BF91ECEFB3991888F3C023F4\n\nRoute:\n\n- Gonka: transfer/channel-3\n- Neutron: transfer/channel-7423\n- Chain ID: neutron-1\n-",
       "checksum": "5e5ad2ecaab95e894cdea267acac29c8ba46ea3eecda9e608e2750b7e46de0e0"
+    },
+    "q-a/1996-current-funded-performance-work-after-1914-journal-changes.md": {
+      "title": "#1996 — Current funded performance work after #1914 journal changes",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1996](https://github.com/gonka-ai/gonka/discussions/1996) every hour. \n\n# Current funded performance work after #1914 journal changes\n\n**Автор:** [@zileria354-ship-it](https://github.com/zileria354-ship-it) · **Категория:** :interrobang: Q&A · **Создано:** 2026-10-14 06:04 UTC · \n\n---\n\n## 📝 Описание\n\nBefore posting a funding proposal around #1914, I checked the release branches and found that #1930 and #1932 already implement the mutation-journal work that would have formed its central scope. I will not claim or propose compensation for that existing implementation.\n\nThere is a narrower `TurnTracker.Clone` / `heartbeatAt` copying path in the reviewed v5/v6 branches, but v4.2 lacks it, and [on-chain governance proposal 114](https://gonka.gg/network/propo",
+      "checksum": "58880b3c68cf2d620210b9b2652ebc209186f19f12ad348d9316445467ee29c2"
     },
     "show-and-tell/0811-openclaw-gonka-ai.md": {
       "title": "#811 — 🦞 OpenClaw + Gonka AI",

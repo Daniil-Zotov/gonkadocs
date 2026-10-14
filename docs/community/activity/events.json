@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261014072939_4f2b579c",
+    "timestamp": "2026-10-14T07:29:39.510449+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#1996 — Current funded performance work after #1914 journal changes",
+      "url": "/community/discussion/q-a/1996-current-funded-performance-work-after-1914-journal-changes/",
+      "file": "q-a/1996-current-funded-performance-work-after-1914-journal-changes.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1996](https://github.com/gonka-ai/gonka/discussions/1996) every hour. \n\n# Current funded performance work after #1914 journal changes\n\n**Автор:** [@zileria354-ship-it](https://github.com/zileria354-ship-it) · **Категория:** :interrobang: Q&A · **Создано:** 2026-10-14 06:04 UTC · \n\n---\n\n## 📝 Описание\n\nBefore posting a funding proposal around #1914, I checked the release branches and found that #1930 and #1932 already implement the mutation-journal work that would have formed its central scope. I will not claim or propose compensation for that existing implementation.\n\nThere is a narrower `TurnTracker.Clone` / `heartbeatAt` copying path in the reviewed v5/v6 branches, but v4.2 lacks it, and [on-chain governance proposal 114](https://gonka.gg/network/propo"
+    },
+    "ai_description": "A new Q&A discussion has been opened by @zileria354-ship-it, clarifying that the core mutation-journal work from #1914 is already covered by PRs #1930 and #1932, so no funding will be requested for it. The remaining gap is a narrower TurnTracker.Clone and heartbeatAt copying path missing in v4.2, which may form the basis of a future proposal tied to on-chain governance proposal 114. This transparency helps avoid duplicate compensation and keeps community funding focused on genuinely outstanding work."
+  },
+  {
     "id": "evt_20261014065645_a56915ba",
     "timestamp": "2026-10-14T06:56:45.869296+00:00",
     "section": "gonka_docs",
@@ -8295,21 +8311,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st"
     },
     "ai_description": "New issue #1200 opened by @tcharchian calls for an independent review of PoC-decode results, a key step in verifying the accuracy of our inference outputs. This transparency effort is vital for building trust in the network's proof-of-concept phase. Check it out and join the discussion to help strengthen our validation process."
-  },
-  {
-    "id": "evt_20260910183639_6d0c61b0",
-    "timestamp": "2026-09-10T18:36:39.609645+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1201 — [P0] Training on Gonka",
-      "url": "/community/issues/01201-p0-training-on-gonka/",
-      "file": "01201-p0-training-on-gonka.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Training on Gonka\n    <span class=\"issues-number\">#1201</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-co"
-    },
-    "ai_description": "A new P0 priority issue has been opened on Gonka regarding training, flagged as a critical blocker for the network. This signals that training infrastructure needs immediate attention from the community, so please review and contribute your insights. Keep an eye on this thread as it develops.A new P0 priority issue has been opened on Gonka, flagging a critical blocker related to training on the network. This signals urgent attention is needed from the community to address infrastructure or performance concerns, so please review and contribute your insights."
   }
 ]
