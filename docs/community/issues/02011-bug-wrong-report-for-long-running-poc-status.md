@@ -1,0 +1,55 @@
+---
+title: "#2011 — [BUG] Wrong report for long running POC status"
+source: https://github.com/gonka-ai/gonka/issues/2011
+issue_number: 2011
+synced_at: 2026-10-15T11:41:54Z
+template: issues-main.html
+---
+
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    [BUG] Wrong report for long running POC status
+    <span class="issues-number">#2011</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-15 09:38 UTC</span>
+    <span class="issues-meta-item">0 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-15 09:38 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
+</div>
+
+<div class="issues-content" markdown="1">
+# Wrong reporting on POC challenge status when host rejected it due to training
+## Summary
+Host which is under training, rejects POC challenge. So it is not generating commits. However, the on-chain status:
+
+
+
+```
+decentai@702127:/srv/dai/gonka/deploy/join$ cat /tmp/chal.json | tail -1 | jq '{code, txhash}'      # the successful tx
+docker exec node $INF q inference open-poc-challenges -o json \
+  | jq '.challenges[] | {target:.challenge.target, challenger:.challenge.challenger,
+        start:.challenge.start_height, finish, generating, locked:.challenge.locked_payment, commits:(.commits|length)}'
+parse error: Invalid numeric literal at line 1, column 4
+{
+  "target": "gonka197twxyr3j0a8uqdk9a25z7yfz6jk2e7tpqzrkz",
+  "challenger": "gonka1l6dcl83kdv2ujn6uls8q92e4lt6ylqrj2pctcg",
+  "start": "30167",
+  "finish": "30390",
+  **"generating": true,**
+  "locked": "7062332259334",
+  **"commits": 0**
+}
+decentai@702127:/srv/dai/gonka/deploy/join$ docker exec node $INF q inference all-poc-v2-store-commits 30166 -o j
+{}
+
+
+```
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #2011](https://github.com/gonka-ai/gonka/issues/2011) every hour.

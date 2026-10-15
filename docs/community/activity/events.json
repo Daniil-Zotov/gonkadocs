@@ -1,5 +1,101 @@
 [
   {
+    "id": "evt_20261015114553_c021bb41",
+    "timestamp": "2026-10-15T11:45:53.303934+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2011 — [BUG] Wrong report for long running POC status",
+      "url": "/community/issues/02011-bug-wrong-report-for-long-running-poc-status/",
+      "file": "02011-bug-wrong-report-for-long-running-poc-status.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Wrong report for long running POC status\n    <span class=\"issues-number\">#2011</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues"
+    },
+    "ai_description": "New issue #2011 opened by @maria-mitina reports a bug where long-running proof-of-concept tasks generate incorrect status reports. This is important for the community as it could affect accurate tracking of active jobs on the network. Please check the issue if you have experienced similar discrepancies. The issue is currently open for discussion and contributions."
+  },
+  {
+    "id": "evt_20261015114553_2665c354",
+    "timestamp": "2026-10-15T11:45:53.303966+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2012 — [BUG] Host in training rejects POC challenge but on-chain status of POC - generating",
+      "url": "/community/issues/02012-bug-host-in-training-rejects-poc-challenge-but-on-chain-stat/",
+      "file": "02012-bug-host-in-training-rejects-poc-challenge-but-on-chain-stat.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Host in training rejects POC challenge but on-chain status of POC - generating\n    <span class=\"issues-number\">#2012</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:40 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style="
+    },
+    "ai_description": "A new bug report has been opened by @maria-mitina describing a mismatch where a host in training rejects a Proof of Challenge (POC) while the on-chain status still shows it as generating. This inconsistency could cause confusion for operators and needs attention to ensure the training flow aligns with the actual network state. Check out issue #2012 if you have insights on this edge case."
+  },
+  {
+    "id": "evt_20261015114553_3aeca472",
+    "timestamp": "2026-10-15T11:45:53.303992+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2013 — [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)",
+      "url": "/community/issues/02013-bug-short-segment-is-treated-as-passed-challenger-pays-a-tar/",
+      "file": "02013-bug-short-segment-is-treated-as-passed-challenger-pays-a-tar.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)\n    <span class=\"issues-number\">#2013</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style="
+    },
+    "ai_description": "A new bug report has been filed by @maria-mitina detailing an unfair scenario where a short segment is marked as PASSED, forcing the challenger to pay a target that produced no meaningful work. This is a critical fairness issue in the dispute mechanism that needs community attention. Please review and weigh in on the thread if you have insights on the verification logic."
+  },
+  {
+    "id": "evt_20261015114553_287b0dd5",
+    "timestamp": "2026-10-15T11:45:53.304038+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2014 — [BUG] fully_reserved_by_training abort is unreachable on a short segment",
+      "url": "/community/issues/02014-bug-fully-reserved-by-training-abort-is-unreachable-on-a-sho/",
+      "file": "02014-bug-fully-reserved-by-training-abort-is-unreachable-on-a-sho.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] fully_reserved_by_training abort is unreachable on a short segment\n    <span class=\"issues-number\">#2014</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:49 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top:"
+    },
+    "ai_description": "New bug report #2014 from @maria-mitina: the fully_reserved_by_training abort path can never trigger on short segments, meaning the system may continue training on data it should have stopped for. This is worth a look for anyone running inference jobs with tight segment boundaries. Check the issue if you've hit unexpected aborts or resource overuse."
+  },
+  {
+    "id": "evt_20261015114553_59332582",
+    "timestamp": "2026-10-15T11:45:53.304059+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2015 — [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum",
+      "url": "/community/issues/02015-bug-cpoc-rotation-can-shrink-the-final-challenge-segment-bel/",
+      "file": "02015-bug-cpoc-rotation-can-shrink-the-final-challenge-segment-bel.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum\n    <span class=\"issues-number\">#2015</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:54 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
+    },
+    "ai_description": "New issue #2015 filed by @maria-mitina reports a bug where cPoC rotation can shrink the final challenge segment below the punishable minimum, potentially weakening network security guarantees. This is now open for community review and discussion. The issue is critical for maintaining fair and robust challenge dynamics, so please weigh in with your insights."
+  },
+  {
+    "id": "evt_20261015114553_455f9ba8",
+    "timestamp": "2026-10-15T11:45:53.304079+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2016 — devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start",
+      "url": "/community/issues/02016-devshard-gateway-logprobs-optimization-override-is-ignored-a/",
+      "file": "02016-devshard-gateway-logprobs-optimization-override-is-ignored-a.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start\n    <span class=\"issues-number\">#2016</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-10-15 10:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
+    },
+    "ai_description": "New issue #2016 from @yaUrich reports that the GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE environment variable stops taking effect after the gateway's first startup, meaning the optimization setting is not re-applied on subsequent runs. This is a configuration persistence bug that could impact inference log probability behavior across restarts. Worth tracking for anyone relying on custom logprobs tuning in their deployments."
+  },
+  {
     "id": "evt_20261015060206_2b5bdd48",
     "timestamp": "2026-10-15T06:02:06.483236+00:00",
     "section": "issues",
@@ -8227,101 +8323,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Deep Security Audit: BLS/DKG protocol, state machine consistency, and economic logic vulnerabilities\n    <span class=\"issues-number\">#1079</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Doog-bot534\">@Doog-bot534</a> opened 2026-04-16 03:20 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>"
     },
     "ai_description": "New issue #1079 has been opened by @Doog-bot534 calling for a deep security audit of our BLS/DKG protocol, state machine consistency, and economic logic. The issue is already closed, so the community should check the discussion to see what findings or resolutions came out of it. This is a critical area for network integrity, so stay tuned for any action items."
-  },
-  {
-    "id": "evt_20260910183639_097bf235",
-    "timestamp": "2026-09-10T18:36:39.609441+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1081 — Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced",
-      "url": "/community/issues/01081-binomial-test-p0-floorceiling-mismatch-stricter-downtime-thr/",
-      "file": "01081-binomial-test-p0-floorceiling-mismatch-stricter-downtime-thr.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Binomial test p0 floor/ceiling mismatch — stricter downtime threshold silently never enforced\n    <span class=\"issues-number\">#1081</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Doog-bot534\">@Doog-bot534</a> opened 2026-04-16 03:25 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </d"
-    },
-    "ai_description": "A new issue (#1081) has been opened by @Doog-bot534 highlighting a critical bug in the downtime threshold logic: a floor/ceiling mismatch in the binomial test means stricter downtime requirements are silently ignored. This matters because operators may believe they are enforcing tighter reliability standards when the system is actually accepting lower performance. The issue is now closed, so the community will need to track the resolution to ensure the intended thresholds are properly applied."
-  },
-  {
-    "id": "evt_20260910183639_ace9776a",
-    "timestamp": "2026-09-10T18:36:39.609455+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1097 — Improve API response for non-existent wallet",
-      "url": "/community/issues/01097-improve-api-response-for-non-existent-wallet/",
-      "file": "01097-improve-api-response-for-non-existent-wallet.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Improve API response for non-existent wallet\n    <span class=\"issues-number\">#1097</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-04-21 19:47 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
-    },
-    "ai_description": "Issue #1097 has been closed after proposing an improvement to the API's error handling for non-existent wallets. The change ensures that requests for missing wallet addresses return clearer, more informative responses instead of generic errors. This matters for developers building on Gonka, as it makes debugging and integration more straightforward. Thanks to @tcharchian for raising it."
-  },
-  {
-    "id": "evt_20260910183639_651af7b6",
-    "timestamp": "2026-09-10T18:36:39.609473+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1098 — `devshards` Postgres support for `devshard` storage",
-      "url": "/community/issues/01098-devshards-postgres-support-for-devshard-storage/",
-      "file": "01098-devshards-postgres-support-for-devshard-storage.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `devshards` Postgres support for `devshard` storage\n    <span class=\"issues-number\">#1098</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-04-21 20:36 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;"
-    },
-    "ai_description": "Issue #1098 has been closed after adding Postgres support for devshard storage, a key step toward making the devshards system more flexible and production-ready. This change matters because it gives the community a robust database option for managing devshard data instead of relying on limited storage. Thanks to @akup for opening this and to everyone who weighed in with comments."
-  },
-  {
-    "id": "evt_20260910183639_7d9e50c6",
-    "timestamp": "2026-09-10T18:36:39.609486+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1107 — GEB-29",
-      "url": "/community/issues/01107-geb-29/",
-      "file": "01107-geb-29.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    GEB-29\n    <span class=\"issues-number\">#1107</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-04-24 01:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issu"
-    },
-    "ai_description": "A new proposal, GEB-29 (#1107), has been added and closed by @tcharchian. The issue was opened and resolved without any community discussion, so its specific details remain unclear to the wider group. Keep an eye on future updates if this proposal resurfaces for a vote.A new proposal, GEB-29 (#1107), has been added and closed by @tcharchian with no comments. The quick closure suggests the issue was resolved internally, so there's nothing for the community to act on right now. Stay tuned for any related updates in future activity."
-  },
-  {
-    "id": "evt_20260910183639_bd08d3c8",
-    "timestamp": "2026-09-10T18:36:39.609498+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1108 — GEB-61",
-      "url": "/community/issues/01108-geb-61/",
-      "file": "01108-geb-61.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    GEB-61\n    <span class=\"issues-number\">#1108</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-04-24 01:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issu"
-    },
-    "ai_description": "Issue GEB-61 (#1108) has been added to the tracker and is now closed. This marks the completion of a task opened by @tcharchian, so the community can consider this item resolved. Check the issue details if you need the full context of what was addressed.Issue GEB-61 (#1108) has been added to the tracker and closed, meaning the task is already resolved. This keeps our issue list clean and signals that the work is done, so the community can move forward."
-  },
-  {
-    "id": "evt_20260910183639_d5ad6964",
-    "timestamp": "2026-09-10T18:36:39.609509+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1109 — GEB-62",
-      "url": "/community/issues/01109-geb-62/",
-      "file": "01109-geb-62.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    GEB-62\n    <span class=\"issues-number\">#1109</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-04-24 01:02 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issue"
-    },
-    "ai_description": "Issue #1109 \"GEB-62\" has been closed, marking the completion of this task. Thanks to @tcharchian for opening it, the issue is now resolved and no longer requires community attention. A closed status means the work is wrapped up and ready to move forward. Check the thread for the final notes if you were following along."
   }
 ]
