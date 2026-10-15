@@ -3,7 +3,7 @@ title: "#1818 — Marketing Committee — Operations & Reddit Contributor Pilot"
 source: https://github.com/gonka-ai/gonka/discussions/1818
 discussion_number: 1818
 category: ecosystem
-synced_at: 2026-10-15T07:19:23Z
+synced_at: 2026-10-15T13:20:05Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1818](https://github.com/gonka-ai/gonka/discussions/1818) every hour. 
