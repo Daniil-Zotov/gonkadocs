@@ -34,16 +34,17 @@ hide:
 ## 2026-Q4 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">5</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">4</span><span class="qs-desc">Passed (80%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">1</span><span class="qs-desc">Rejected (20%)</span></div>
+<div class="qs-stat total"><span class="qs-num">6</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">4</span><span class="qs-desc">Passed (67%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">1</span><span class="qs-desc">Rejected (17%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:60%"></span></span><span class="qs-value">3</span></div>
-<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:20%"></span></span><span class="qs-value">1</span></div>
-<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:20%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:50%"></span></span><span class="qs-value">3</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-funding-line">$106,250 · Community Pool · 132,896 GNK · Gov Module</div>
@@ -53,7 +54,21 @@ hide:
 
 <div class="prop-quarter">
 <h2>2026-Q4</h2>
-<p>5 proposals</p>
+<p>6 proposals</p>
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-17T00:19:06.570755882Z">
+  <div class="prop-card-header">
+    <a href="115/" class="prop-card-title">#115 – Activate full range Dynamic Coeff</a>
+    <span class="prop-vote-countdown" data-deadline="2026-10-17T00:19:06.570755882Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-10-15</span>
+    <span>Voting ends 2026-10-17</span>
+  </div>
+  <div class="prop-card-desc">Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.  This proposal widens the ranges for GLM and DeepSeek so coefficient adj…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+</div>
+
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="114/" class="prop-card-title">#114 – Approve devshard v4.2 and remove v5</a>

@@ -74,6 +74,7 @@ nav:
       - On-Chain Governance: proposals/proposals/index.md
       - 2026-Q4:
         - Overview: proposals/proposals/2026-q4/index.md
+        - "#115 – Activate full range Dynamic Coeff": proposals/proposals/2026-q4/115/index.md
         - "#114 – Approve devshard v4.2 and remove v5": proposals/proposals/2026-q4/114/index.md
         - "#113 – Distribute v0.2.16 bounty rewards": proposals/proposals/2026-q4/113/index.md
         - "#112 – Upgrade Proposal: v0.2.16": proposals/proposals/2026-q4/112/index.md

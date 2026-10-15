@@ -7,6 +7,16 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#115 – Activate full range Dynamic Coeff</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q4/115/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/115/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:19:06 +0000</pubDate>
+      <category>Voting</category>
+      <description>Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.
+
+This proposal widens the ranges for GLM and DeepSeek so coefficient adjustments can incentivize deployment toward the existing target shares of 33.34% MiniMax, 33.33% GLM, and 33.33% DeepSeek. The upper bounds use the highest measured PoC throughput across MLNode v4.0.0 configurations on H100, H200, B200, and B300. Relative difficulties retain the original measurement </description>
+    </item>
+    <item>
       <title>#114 – Approve devshard v4.2 and remove v5</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q4/114/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/114/</guid>

@@ -1534,5 +1534,17 @@
     "tags": [
       "passed"
     ]
+  },
+  {
+    "date": "2026-10-17",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #115 – Activate full range Dynamic Coeff",
+    "url": "/proposals/proposals/2026-q4/115/",
+    "time": "00:19 UTC",
+    "description": "Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.\n\nThis proposal widens the ranges for GLM and DeepSeek so coefficient adj…",
+    "tags": [
+      "voting"
+    ]
   }
 ]
