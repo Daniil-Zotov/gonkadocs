@@ -2,7 +2,7 @@
 title: "#2016 — devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start"
 source: https://github.com/gonka-ai/gonka/issues/2016
 issue_number: 2016
-synced_at: 2026-10-15T11:41:52Z
+synced_at: 2026-10-15T17:09:13Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/yaUrich">@yaUrich</a> opened 2026-10-15 10:51 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-15 10:51 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-15 13:42 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -44,6 +44,20 @@ Reproduced on testenv at `d1b9df2`:
 
 Found while testing the v6 logprobs switch: paranjko/external-test-lab#246.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-10-15 13:42 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Taking this one: a small change in <code>mustBootstrapGatewayState</code> that re-applies an explicitly set <code>GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE</code> after <code>Initialize</code>, with a test on both store backends. PR follows in a minute.</p>
+  </div>
 </div>
 
 ---

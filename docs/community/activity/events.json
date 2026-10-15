@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261015171237_4ec8ede7",
+    "timestamp": "2026-10-15T17:12:37.471290+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2016 — devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start",
+      "url": "/community/issues/02016-devshard-gateway-logprobs-optimization-override-is-ignored-a/",
+      "file": "02016-devshard-gateway-logprobs-optimization-override-is-ignored-a.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start\n    <span class=\"issues-number\">#2016</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-10-15 10:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start\n    <span class=\"issues-number\">#2016</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-10-15 10:51 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar"
+    },
+    "ai_description": "Issue #2016 on the devshard gateway now has a new comment. The report covers a bug where GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE stops working after the gateway's first start, which could affect tuning of inference logging. Check the thread for details on the discussion and any proposed fix."
+  },
+  {
     "id": "evt_20261015114553_c021bb41",
     "timestamp": "2026-10-15T11:45:53.303934+00:00",
     "section": "issues",
@@ -8307,21 +8323,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    bug: ClaimRewards error handling — payout path silently continues on failure\n    <span class=\"issues-number\">#1067</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-04-15 19:40 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
     },
     "ai_description": "Issue #1067 has been closed after addressing a critical bug in the ClaimRewards payout path, where errors were silently swallowed and the process continued as if successful. This fix ensures that reward distribution failures are now properly surfaced, protecting users from missed payouts and improving overall network reliability. Thanks to @Mayveskii for reporting this important issue."
-  },
-  {
-    "id": "evt_20260910183639_a41a2d85",
-    "timestamp": "2026-09-10T18:36:39.609422+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1079 — Deep Security Audit: BLS/DKG protocol, state machine consistency, and economic logic vulnerabilities",
-      "url": "/community/issues/01079-deep-security-audit-blsdkg-protocol-state-machine-consistenc/",
-      "file": "01079-deep-security-audit-blsdkg-protocol-state-machine-consistenc.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Deep Security Audit: BLS/DKG protocol, state machine consistency, and economic logic vulnerabilities\n    <span class=\"issues-number\">#1079</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Doog-bot534\">@Doog-bot534</a> opened 2026-04-16 03:20 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>"
-    },
-    "ai_description": "New issue #1079 has been opened by @Doog-bot534 calling for a deep security audit of our BLS/DKG protocol, state machine consistency, and economic logic. The issue is already closed, so the community should check the discussion to see what findings or resolutions came out of it. This is a critical area for network integrity, so stay tuned for any action items."
   }
 ]

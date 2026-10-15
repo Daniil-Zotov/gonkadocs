@@ -2,7 +2,7 @@
 title: "#1915 — PoC delegation: participation is judged at PoC validation only, so a "bait" node switched off right after PoC still collects the 5% share (or escapes the 15% penalty) for the whole epoch"
 source: https://github.com/gonka-ai/gonka/issues/1915
 issue_number: 1915
-synced_at: 2026-10-15T11:42:11Z
+synced_at: 2026-10-15T17:09:32Z
 template: issues-main.html
 ---
 
