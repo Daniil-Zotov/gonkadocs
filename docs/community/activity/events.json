@@ -17,7 +17,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q4/115/"
     },
-    "ai_description": null
+    "ai_description": "Voting for proposal #115 to activate full-range Dynamic Coefficients has officially ended. This change expands the adjustment ranges for GLM and DeepSeek models beyond the current 10% limit, giving the network more flexibility to optimize performance. A passed vote means the wider ranges will be implemented, directly improving how inference resources are managed."
   },
   {
     "id": "evt_20261015004056_485d0d68",
