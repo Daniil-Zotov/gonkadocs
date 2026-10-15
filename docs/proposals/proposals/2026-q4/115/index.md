@@ -58,18 +58,18 @@ The new configuration applies from the first PoC start after execution. Hosts co
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:0.6%"></div>
+    <div class="prop-tally-yes" style="width:12.3%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (6,058)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (119,340)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 6,058 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>0.6%</strong> (6,058 / 973,515) · Quorum <strong>25%</strong> (243,378)</span>
+    <span class="prop-tally-total-text">Total 119,340 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>12.3%</strong> (119,340 / 973,515) · Quorum <strong>25%</strong> (243,378)</span>
   </div>
 </div>
 
@@ -85,6 +85,7 @@ The new configuration applies from the first PoC start after execution. Hosts co
 <tr><td><a href="https://gonka.gg/address/gonka1ym3np7guxart483yfdxnlztuazx22cjt0e4a2p" target="_blank" class="prop-voter-addr">gonka1ym3np7…0e4a2p</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5" target="_blank" class="prop-voter-addr">gonka1gyk0aa…k8svc5</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka14fm55mflahd9t2qjhhgqzn58rzdnkzxuk4yjuf" target="_blank" class="prop-voter-addr">gonka14fm55m…k4yjuf</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
