@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261015052608_bee57948",
+    "timestamp": "2026-10-15T05:26:08.280952+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 14, 2026\n\nPROPOSAL PASSED: DevShard v4.2\n\nThe on-chain governance vote for [proposal #114](https://gonka.gg/network/proposals/114) has concluded. The proposal was **APPROVED**.\n\nDevShard v4.2 brings production fixes and performance improvements t",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 15, 2026\n\nA new governance proposal #115 is open for voting. \nIt proposes expanding the dynamic PoC coefficient ranges for GLM-5.3-Flash and DeepSeek-V4-Flash.\n\n**`zai-org/GLM-5.3-Flash`**\n- `coeff_max`: 0.682 → 1.556470588235\n- `relative_difficu"
+    },
+    "ai_description": "The docs now highlight proposal #115, which seeks to widen the dynamic Proof-of-Correctness coefficient ranges for two popular Flash models. This change matters because it could affect how those models are scored and incentivized on the network. Head to the governance page to cast your vote before the window closes.The docs now highlight proposal #115, which seeks to widen the dynamic Proof-of-Correctness coefficient ranges for two popular Flash models. This change matters because it could affect how those models are scored and incentivized on the network. Head to the governance page to cast your vote before the window closes."
+  },
+  {
     "id": "evt_20261015014247_22fcbb37",
     "timestamp": "2026-10-15T01:42:47.633011+00:00",
     "section": "calendar",
@@ -8307,21 +8323,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    GEB-60\n    <span class=\"issues-number\">#1110</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-04-24 01:03 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issu"
     },
     "ai_description": "New issue GEB-60 (#1110) has been added and immediately closed by @tcharchian. This looks like a quick administrative cleanup rather than an active discussion, so no action is needed from the community right now. Keep an eye out if related follow-ups appear.New issue GEB-60 (#1110) was added by @tcharchian and is already closed with no comments, so it looks like a quick administrative task rather than an open discussion. Nothing for the community to act on, but we'll flag it if any related follow-ups come up."
-  },
-  {
-    "id": "evt_20260910183639_de546696",
-    "timestamp": "2026-09-10T18:36:39.609535+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1111 — GEB-59",
-      "url": "/community/issues/01111-geb-59/",
-      "file": "01111-geb-59.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    GEB-59\n    <span class=\"issues-number\">#1111</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-04-24 01:04 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issu"
-    },
-    "ai_description": "Issue #1111 (GEB-59) has been added to the tracker and is already closed, with no comments. It was opened by @tcharchian, so this entry appears to be a completed task rather than an active discussion. Community members should check the linked details if they want to see what was resolved."
   }
 ]
