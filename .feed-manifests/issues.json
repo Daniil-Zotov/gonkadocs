@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-15T17:12:39.646811+00:00",
+  "snapshot_time": "2026-10-15T20:29:09.568699+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -2484,13 +2484,13 @@
     "01086-p2-devshard-escrow-stats-collection-and-off-chain-stats-supp.md": {
       "title": "#1086 — [P2] Devshard escrow stats collection and off chain stats support",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P2] Devshard escrow stats collection and off chain stats support\n    <span class=\"issues-number\">#1086</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-04-16 23:28 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P2] Devshard escrow stats collection and off chain stats support\n    <span class=\"issues-number\">#1086</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-04-16 23:28 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label",
       "comment_checksum": "74e4c9a0b3bfe1d9b5c1e8d363c85bbad2c81300d13ceb611446422cf05ca446",
       "comment_bodies": [
         "Isn't it related PR? where something was already solved https://github.com/gonka-ai/gonka/pull/1001 and important questions on shard finalization were raised here: https://github.com/gonka-ai/gonka/pull/1000",
         "@GLiberman please respond @akup"
       ],
-      "checksum": "2f62806000731cab5b7ba84059028eade4c4a840b63b9e3d6a6b690c8deac7c5"
+      "checksum": "2bf6e5fbe50fcfe60e3830a97ac2fdc329cd42c8c4d24c4adb38ba8d451f9a1a"
     },
     "01097-improve-api-response-for-non-existent-wallet.md": {
       "title": "#1097 — Improve API response for non-existent wallet",
@@ -4214,6 +4214,22 @@
         "Taking this one: a small change in mustBootstrapGatewayState that re-applies an explicitly set GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE after Initialize, with a test on both store backends. PR follows in a minute."
       ],
       "checksum": "bd44d5136c67759af713e6cec7274d44c980a4a4700d2cdea85f518624b9eef5"
+    },
+    "02032-residual-whitespace-inferenceurl-overwrites-a-live-one.md": {
+      "title": "#2032 — Residual: whitespace `InferenceUrl` overwrites a live one",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Residual: whitespace `InferenceUrl` overwrites a live one\n    <span class=\"issues-number\">#2032</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-15 18:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"iss",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "c4fbf82c7d0ca88d4bbeb50db2e62888f1b92db65bbc109c25d36a3757434383"
+    },
+    "02033-mnemonic-phrase-transfer.md": {
+      "title": "#2033 — Mnemonic phrase transfer",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Mnemonic phrase transfer\n    <span class=\"issues-number\">#2033</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-15 19:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" ma",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "3fc4ae4101e1c86eaa17332f7f922f9bc2a0777264f913eaeb3ee72d80fad602"
     }
   }
 }

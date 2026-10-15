@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20261015202855_6b895cd5",
+    "timestamp": "2026-10-15T20:28:55.044151+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2032 — Residual: whitespace `InferenceUrl` overwrites a live one",
+      "url": "/community/issues/02032-residual-whitespace-inferenceurl-overwrites-a-live-one/",
+      "file": "02032-residual-whitespace-inferenceurl-overwrites-a-live-one.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Residual: whitespace `InferenceUrl` overwrites a live one\n    <span class=\"issues-number\">#2032</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-15 18:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"iss"
+    },
+    "ai_description": "New issue #2032 reports a bug where a whitespace-only InferenceUrl can overwrite a live endpoint configuration, potentially disrupting active inference traffic. This is an important catch for node operators relying on stable URL settings, so keep an eye on the discussion for a fix. Thanks to @a-kuprin for flagging it."
+  },
+  {
+    "id": "evt_20261015202855_de41478e",
+    "timestamp": "2026-10-15T20:28:55.044186+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2033 — Mnemonic phrase transfer",
+      "url": "/community/issues/02033-mnemonic-phrase-transfer/",
+      "file": "02033-mnemonic-phrase-transfer.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Mnemonic phrase transfer\n    <span class=\"issues-number\">#2033</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-15 19:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" ma"
+    },
+    "ai_description": "New issue #2033 has been opened by @tcharchian proposing a mnemonic phrase transfer feature. This is an early-stage discussion with no comments yet, so check it out and share your thoughts if you have experience with wallet recovery flows. Your input can help shape whether this idea gains traction in the community."
+  },
+  {
+    "id": "evt_20261015202855_ee9da4be",
+    "timestamp": "2026-10-15T20:28:55.044376+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1086 — [P2] Devshard escrow stats collection and off chain stats support",
+      "url": "/community/issues/01086-p2-devshard-escrow-stats-collection-and-off-chain-stats-supp/",
+      "file": "01086-p2-devshard-escrow-stats-collection-and-off-chain-stats-supp.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P2] Devshard escrow stats collection and off chain stats support\n    <span class=\"issues-number\">#1086</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-04-16 23:28 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P2] Devshard escrow stats collection and off chain stats support\n    <span class=\"issues-number\">#1086</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-04-16 23:28 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
+    },
+    "ai_description": "Issue #1086 on devshard escrow stats collection and off-chain stats support has been closed. This marks the completion of the work on gathering escrow statistics and enabling off-chain data support, which should help improve transparency and analytics for the network. Thanks to everyone involved in getting this one across the finish line."
+  },
+  {
     "id": "evt_20261015171237_4ec8ede7",
     "timestamp": "2026-10-15T17:12:37.471290+00:00",
     "section": "issues",
@@ -8275,53 +8323,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    VLM inference and validation in Gonka\n    <span class=\"issues-number\">#1026</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/fedor-konovalenko\">@fedor-konovalenko</a> opened 2026-04-07 12:47 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue"
     },
     "ai_description": "New issue #1026 is open, proposing VLM inference and validation support in Gonka. This could expand the network beyond text models, so check it out and share your thoughts on the design. Head over to the issue to weigh in on the direction.New issue #1026 is now open, proposing VLM inference and validation support in Gonka. This could expand the network's capabilities beyond text models, so it's worth a look for anyone interested in multimodal workloads. Join the discussion and help shape what this means for the community."
-  },
-  {
-    "id": "evt_20260910183639_9471a703",
-    "timestamp": "2026-09-10T18:36:39.608485+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1028 — `devshards` `SessionConfig` setting by governmant",
-      "url": "/community/issues/01028-devshards-sessionconfig-setting-by-governmant/",
-      "file": "01028-devshards-sessionconfig-setting-by-governmant.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `devshards` `SessionConfig` setting by governmant\n    <span class=\"issues-number\">#1028</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-04-07 18:44 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><"
-    },
-    "ai_description": "New issue #1028 from @akup proposes a governance mechanism for setting the SessionConfig parameter on devshards, and it has already been closed. This matters because it addresses how network participants can collectively manage session configurations rather than relying on centralized control. Check the issue thread for the discussion and outcome.New issue #1028 from @akup proposes a governance mechanism for setting the SessionConfig parameter on devshards, and it has already been closed. This matters because it addresses how network participants can collectively manage session configurations rather than relying on centralized control. Check the issue thread for the discussion and outcome."
-  },
-  {
-    "id": "evt_20260910183639_5586d75c",
-    "timestamp": "2026-09-10T18:36:39.608498+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1032 — Question: is there a path for consumer-grade 16 GB GPUs to participate as lightweight Host nodes?",
-      "url": "/community/issues/01032-question-is-there-a-path-for-consumer-grade-16-gb-gpus-to-pa/",
-      "file": "01032-question-is-there-a-path-for-consumer-grade-16-gb-gpus-to-pa.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Question: is there a path for consumer-grade 16 GB GPUs to participate as lightweight Host nodes?\n    <span class=\"issues-number\">#1032</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/JFFby\">@JFFby</a> opened 2026-04-08 19:42 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <d"
-    },
-    "ai_description": "A new question has been opened on the issues board asking whether consumer-grade 16 GB GPUs could ever serve as lightweight Host nodes on the network. The issue was closed without any comments, which suggests the topic may have been addressed elsewhere or is not currently on the roadmap. If you have insights on lower-spec hardware participation, this is a good moment to raise it in the community."
-  },
-  {
-    "id": "evt_20260910183639_0a7c5ccf",
-    "timestamp": "2026-09-10T18:36:39.608509+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1067 — bug: ClaimRewards error handling — payout path silently continues on failure",
-      "url": "/community/issues/01067-bug-claimrewards-error-handling-payout-path-silently-continu/",
-      "file": "01067-bug-claimrewards-error-handling-payout-path-silently-continu.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    bug: ClaimRewards error handling — payout path silently continues on failure\n    <span class=\"issues-number\">#1067</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-04-15 19:40 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
-    },
-    "ai_description": "Issue #1067 has been closed after addressing a critical bug in the ClaimRewards payout path, where errors were silently swallowed and the process continued as if successful. This fix ensures that reward distribution failures are now properly surfaced, protecting users from missed payouts and improving overall network reliability. Thanks to @Mayveskii for reporting this important issue."
   }
 ]

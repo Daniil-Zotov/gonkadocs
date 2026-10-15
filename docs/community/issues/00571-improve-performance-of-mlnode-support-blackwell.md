@@ -2,7 +2,7 @@
 title: "#571 — Improve performance of MLNode, support Blackwell "
 source: https://github.com/gonka-ai/gonka/issues/571
 issue_number: 571
-synced_at: 2026-10-15T17:12:20Z
+synced_at: 2026-10-15T20:28:28Z
 template: issues-main.html
 ---
 
