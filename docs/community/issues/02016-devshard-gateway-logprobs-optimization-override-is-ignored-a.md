@@ -2,7 +2,7 @@
 title: "#2016 — devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start"
 source: https://github.com/gonka-ai/gonka/issues/2016
 issue_number: 2016
-synced_at: 2026-10-15T20:23:33Z
+synced_at: 2026-10-15T23:07:23Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/yaUrich">@yaUrich</a> opened 2026-10-15 10:51 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-10-15 13:42 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-15 20:36 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -48,7 +48,7 @@ Found while testing the v6 logprobs switch: paranjko/external-test-lab#246.
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -57,6 +57,20 @@ Found while testing the v6 logprobs switch: paranjko/external-test-lab#246.
   </div>
   <div class="issues-comment-body issues-content">
     <p>Taking this one: a small change in <code>mustBootstrapGatewayState</code> that re-applies an explicitly set <code>GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE</code> after <code>Initialize</code>, with a test on both store backends. PR follows in a minute.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-10-15 20:36 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Follow-up: the PR for this (#2024) was closed as working by design. Once the gateway state exists, the stored value has priority over <code>GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE</code>, so the env var only seeds the first bootstrap and a changed value on restart is ignored on purpose.</p>
+<p>To change the setting on a running gateway, use the admin endpoint documented in <code>docs/proposal/compressed-payloads.md</code> (it persists through <code>store.UpdateSettings</code>):</p>
+<pre><code>POST /v1/admin/settings  {&quot;logprobs_optimization&quot;: {&quot;enabled&quot;: false}}
+POST /v1/admin/settings  {&quot;logprobs_optimization&quot;: {}}   # clear, defer to the hosts again
+</code></pre>
+<p>So this is at most a documentation gap (the env var table in that document does not say the variable is bootstrap-only), not a code change.</p>
   </div>
 </div>
 

@@ -2,7 +2,7 @@
 title: "#2032 — Residual: whitespace `InferenceUrl` overwrites a live one"
 source: https://github.com/gonka-ai/gonka/issues/2032
 issue_number: 2032
-synced_at: 2026-10-15T20:23:32Z
+synced_at: 2026-10-15T23:07:22Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 2026-10-15 18:01 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-15 18:01 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-15 20:40 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
@@ -78,6 +78,20 @@ Extend `TestMsgServer_SubmitNewParticipant_EmptyValuesNoEffect` (or add a siblin
 
 Add a create case: `Url: "   "` stores `InferenceUrl == ""`.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-10-15 20:40 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Taking this one: trim <code>msg.Url</code> in the <code>SubmitNewParticipant</code> handler and store it only when the trimmed value is non-empty (update and create paths), with cases added to the existing <code>EmptyValuesNoEffect</code> test. Branch based on <code>upgrade-v0.2.17</code>; PR follows shortly.</p>
+  </div>
 </div>
 
 ---

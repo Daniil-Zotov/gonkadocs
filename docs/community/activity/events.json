@@ -1,5 +1,149 @@
 [
   {
+    "id": "evt_20261015231236_4aade1f8",
+    "timestamp": "2026-10-15T23:12:36.215894+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2034 — [BUG] devshardctl: one escrow's runtime build error at startup stops the whole gateway, and a stopped escrow is never settled",
+      "url": "/community/issues/02034-bug-devshardctl-one-escrows-runtime-build-error-at-startup-s/",
+      "file": "02034-bug-devshardctl-one-escrows-runtime-build-error-at-startup-s.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] devshardctl: one escrow's runtime build error at startup stops the whole gateway, and a stopped escrow is never settled\n    <span class=\"issues-number\">#2034</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/snevolin\">@snevolin</a> opened 2026-10-15 20:27 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <"
+    },
+    "ai_description": "A new bug report highlights that a single escrow's runtime build error can take down the entire devshardctl gateway, leaving that escrow permanently unsettled. This is a critical reliability issue for the network, as one faulty component shouldn't halt operations or strand funds. Worth tracking closely as the community discusses a fix."
+  },
+  {
+    "id": "evt_20261015231236_60012e98",
+    "timestamp": "2026-10-15T23:12:36.215925+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2037 — [BUG, LOW] A failed inline catch-up read leaves a committed Start with funds reserved",
+      "url": "/community/issues/02037-bug-low-a-failed-inline-catch-up-read-leaves-a-committed-sta/",
+      "file": "02037-bug-low-a-failed-inline-catch-up-read-leaves-a-committed-sta.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG, LOW] A failed inline catch-up read leaves a committed Start with funds reserved\n    <span class=\"issues-number\">#2037</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-15 20:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
+    },
+    "ai_description": "A new low-severity bug report #2037 has been opened by @a-kuprin, highlighting an edge case where a failed inline catch-up read can leave a committed Start operation with funds still reserved. While the issue is low priority, it touches on fund accounting integrity and is worth a look from the core team. Check the issue for details if you're working on catch-up logic."
+  },
+  {
+    "id": "evt_20261015231236_56fbac9b",
+    "timestamp": "2026-10-15T23:12:36.216105+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2011 — [BUG] Wrong report for long running POC status",
+      "url": "/community/issues/02011-bug-wrong-report-for-long-running-poc-status/",
+      "file": "02011-bug-wrong-report-for-long-running-poc-status.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Wrong report for long running POC status\n    <span class=\"issues-number\">#2011</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Wrong report for long running POC status\n    <span class=\"issues-number\">#2011</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:38 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-"
+    },
+    "ai_description": "Issue #2011 on the wrong report for long-running POC status now has a new comment, bringing the discussion to one comment total. The bug remains open, so the community can weigh in on the inaccurate reporting. Check the issue to see the latest input and help move it forward.Issue #2011 on the wrong report for long-running POC status now has a comment, adding to the discussion. The bug report remains open for community input on this reporting inaccuracy. Check the issue thread to see the latest thoughts and contribute your perspective."
+  },
+  {
+    "id": "evt_20261015231236_c5748790",
+    "timestamp": "2026-10-15T23:12:36.216129+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2012 — [BUG] Host in training rejects POC challenge but on-chain status of POC - generating",
+      "url": "/community/issues/02012-bug-host-in-training-rejects-poc-challenge-but-on-chain-stat/",
+      "file": "02012-bug-host-in-training-rejects-poc-challenge-but-on-chain-stat.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Host in training rejects POC challenge but on-chain status of POC - generating\n    <span class=\"issues-number\">#2012</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:40 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Host in training rejects POC challenge but on-chain status of POC - generating\n    <span class=\"issues-number\">#2012</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
+    },
+    "ai_description": "Issue #2012 about a host in training rejecting a POC challenge while the on-chain status still shows generating has received its first comment from the community. The discussion is now open on this bug, so head over to share your experiences if you have hit similar inconsistencies. This is an important edge case for ensuring hosts and chain state stay in sync during the training phase."
+  },
+  {
+    "id": "evt_20261015231236_d3ac9274",
+    "timestamp": "2026-10-15T23:12:36.216150+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2013 — [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)",
+      "url": "/community/issues/02013-bug-short-segment-is-treated-as-passed-challenger-pays-a-tar/",
+      "file": "02013-bug-short-segment-is-treated-as-passed-challenger-pays-a-tar.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)\n    <span class=\"issues-number\">#2013</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)\n    <span class=\"issues-number\">#2013</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:44 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
+    },
+    "ai_description": "Issue #2013 now has a comment from @maria-mitina, who clarified the bug report about short segments being incorrectly marked as PASSED, which forces challengers to pay for targets that did nothing. This update highlights the ongoing discussion around a critical flaw in the verification logic that could unfairly penalize honest participants. The comment adds important context on how this affects the community's trust in the inference network's fairness."
+  },
+  {
+    "id": "evt_20261015231236_08aa9bfc",
+    "timestamp": "2026-10-15T23:12:36.216168+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2014 — [BUG] fully_reserved_by_training abort is unreachable on a short segment",
+      "url": "/community/issues/02014-bug-fully-reserved-by-training-abort-is-unreachable-on-a-sho/",
+      "file": "02014-bug-fully-reserved-by-training-abort-is-unreachable-on-a-sho.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] fully_reserved_by_training abort is unreachable on a short segment\n    <span class=\"issues-number\">#2014</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:49 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top:",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] fully_reserved_by_training abort is unreachable on a short segment\n    <span class=\"issues-number\">#2014</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:49 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
+    },
+    "ai_description": "Issue #2014 on the fully_reserved_by_training abort bug now has its first comment. The discussion is starting to grow around this edge case where the abort path fails to trigger on short segments, so check it out if you are tracking this one.Issue #2014 about the unreachable fully_reserved_by_training abort on short segments now has its first comment. The discussion is just getting started, so head over if you have insights on this edge case."
+  },
+  {
+    "id": "evt_20261015231236_c9cc7fbc",
+    "timestamp": "2026-10-15T23:12:36.216187+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2015 — [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum",
+      "url": "/community/issues/02015-bug-cpoc-rotation-can-shrink-the-final-challenge-segment-bel/",
+      "file": "02015-bug-cpoc-rotation-can-shrink-the-final-challenge-segment-bel.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum\n    <span class=\"issues-number\">#2015</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:54 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum\n    <span class=\"issues-number\">#2015</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:54 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty"
+    },
+    "ai_description": "Issue #2015 on the cPoC rotation bug now has a second comment. The discussion is building around how rotation can leave the final challenge segment too short to be punishable, so check the thread for the latest technical input. This is a key edge case for validator fairness, so worth tracking.Issue #2015 on the cPoC rotation bug has gained a second comment, adding more perspective on how the final challenge segment can fall below the punishable minimum. This is a critical edge case for protocol fairness, so the extra scrutiny is welcome. Keep an eye on this thread for deeper analysis."
+  },
+  {
+    "id": "evt_20261015231236_288903c9",
+    "timestamp": "2026-10-15T23:12:36.216205+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2016 — devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start",
+      "url": "/community/issues/02016-devshard-gateway-logprobs-optimization-override-is-ignored-a/",
+      "file": "02016-devshard-gateway-logprobs-optimization-override-is-ignored-a.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start\n    <span class=\"issues-number\">#2016</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-10-15 10:51 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start\n    <span class=\"issues-number\">#2016</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-10-15 10:51 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
+    },
+    "ai_description": "Issue #2016 on devshard, about the GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE being ignored after the gateway's first start, now has a second comment from the community. The new input likely clarifies or proposes a fix for this configuration quirk, which matters because it affects how the network handles logprob optimizations across restarts. Check the issue for the latest discussion if you've hit this behavior."
+  },
+  {
+    "id": "evt_20261015231236_3d97bacf",
+    "timestamp": "2026-10-15T23:12:36.216225+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2032 — Residual: whitespace `InferenceUrl` overwrites a live one",
+      "url": "/community/issues/02032-residual-whitespace-inferenceurl-overwrites-a-live-one/",
+      "file": "02032-residual-whitespace-inferenceurl-overwrites-a-live-one.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Residual: whitespace `InferenceUrl` overwrites a live one\n    <span class=\"issues-number\">#2032</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-15 18:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"iss",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Residual: whitespace `InferenceUrl` overwrites a live one\n    <span class=\"issues-number\">#2032</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-15 18:01 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issu"
+    },
+    "ai_description": "Issue #2032 on whitespace InferenceUrl overwriting a live one now has a new comment from the community. The discussion is picking up on this residual bug, so check it out if you've hit similar config issues. The issue remains open, meaning maintainers are still evaluating the report. Stay tuned for potential fixes or workarounds in the thread."
+  },
+  {
     "id": "evt_20261015202855_6b895cd5",
     "timestamp": "2026-10-15T20:28:55.044151+00:00",
     "section": "issues",
@@ -8179,149 +8323,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Set up IBC channels\n    <span class=\"issues-number\">#950</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mtvnastya\">@mtvnastya</a> opened 2026-03-26 03:23 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-l"
     },
     "ai_description": "Issue #950 \"Set up IBC channels\" has been added and closed by @mtvnastya, with no comments. This task focused on establishing inter-blockchain communication, a critical step for enabling cross-chain transfers and interoperability within the network. While the issue is resolved, the community should watch for follow-up updates on the configured channels."
-  },
-  {
-    "id": "evt_20260910183639_1b8dda1a",
-    "timestamp": "2026-09-10T18:36:39.608372+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "Validation Eligibility and Accounting Consistency",
-      "url": "/community/issues/00966-validation-eligibility-and-accounting-consistency/",
-      "file": "00966-validation-eligibility-and-accounting-consistency.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Validation Eligibility and Accounting Consistency\n    <span class=\"issues-number\">#966</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-03-27 13:43 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><s"
-    },
-    "ai_description": "New issue #966 \"Validation Eligibility and Accounting Consistency\" has been opened by @akup and is now closed. This proposal addresses how validators qualify for rewards and how their work is accounted for, aiming to tighten the rules and prevent inconsistencies in the network. It's a key step for maintaining fairness and transparency in our inference ecosystem."
-  },
-  {
-    "id": "evt_20260910183639_f2e6bc22",
-    "timestamp": "2026-09-10T18:36:39.608387+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#975 — Nodes with high miss rate continue receiving inference requests for the rest of the epoch",
-      "url": "/community/issues/00975-nodes-with-high-miss-rate-continue-receiving-inference-reque/",
-      "file": "00975-nodes-with-high-miss-rate-continue-receiving-inference-reque.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Nodes with high miss rate continue receiving inference requests for the rest of the epoch\n    <span class=\"issues-number\">#975</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-30 09:08 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div"
-    },
-    "ai_description": "A new issue (#975) has been opened and closed: nodes with a high miss rate are still receiving inference requests for the rest of the epochfal. This highlights a gap in the current scheduling logic that can waste resources, and the quick closure suggests a fix or triage is already underway. Keep an eye on updates to ensure reliable nodes are prioritized fairly."
-  },
-  {
-    "id": "evt_20260910183639_87b1b334",
-    "timestamp": "2026-09-10T18:36:39.608401+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#976 — [P0] `devshards`: Distribute `WorkCoins` at the end of the epoch",
-      "url": "/community/issues/00976-p0-devshards-distribute-workcoins-at-the-end-of-the-epoch/",
-      "file": "00976-p0-devshards-distribute-workcoins-at-the-end-of-the-epoch.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards`: Distribute `WorkCoins` at the end of the epoch\n    <span class=\"issues-number\">#976</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-30 11:10 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style="
-    },
-    "ai_description": "A new P0 issue has been opened by @dcastro for the devshards module, proposing that WorkCoins be distributed at the end of each epoch rather than continuously. This is a critical priority item that could simplify accounting and settlement for contributors, so keep an eye on the discussion. The issue is already closed, meaning a resolution or decision has likely been reached."
-  },
-  {
-    "id": "evt_20260910183639_60083909",
-    "timestamp": "2026-09-10T18:36:39.608413+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#977 — [P0] `devshards`: Limit amount of inferences",
-      "url": "/community/issues/00977-p0-devshards-limit-amount-of-inferences/",
-      "file": "00977-p0-devshards-limit-amount-of-inferences.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards`: Limit amount of inferences\n    <span class=\"issues-number\">#977</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-30 11:17 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><"
-    },
-    "ai_description": "A new P0 issue (#977) has been filed by @dcastro to cap the number of inferences on devshards. The issue is already closed, which suggests a fix has been identified or shipped, so keep an eye out for related changes in the network. Limiting inference volume on devshards is key to preventing resource abuse and keeping the test environment stable."
-  },
-  {
-    "id": "evt_20260910183639_d99ab33d",
-    "timestamp": "2026-09-10T18:36:39.608425+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#979 — `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation",
-      "url": "/community/issues/00979-devshards-escrow-fund-loss-on-unsettled-pruning-missing-over/",
-      "file": "00979-devshards-escrow-fund-loss-on-unsettled-pruning-missing-over.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation\n    <span class=\"issues-number\">#979</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-03-30 17:05 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></spa"
-    },
-    "ai_description": "A new issue #979 has been filed by @unameisfine, flagging two critical bugs in the devshards escrow system: potential fund loss when pruning unsettled accounts and missing overflow safeguards in host stats aggregation. This is now closed, so the community should watch for the upcoming fix or discussion on how these vulnerabilities will be addressed."
-  },
-  {
-    "id": "evt_20260910183639_e4a22c5f",
-    "timestamp": "2026-09-10T18:36:39.608439+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "Proposal: Enable Cosmos SDK Simulation and Fuzz Testing for `inference-chain`",
-      "url": "/community/issues/00982-enable-simulation-and-fuzz-testing-for-inference-chain/",
-      "file": "00982-enable-simulation-and-fuzz-testing-for-inference-chain.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Enable simulation and fuzz testing for inference-chain\n    <span class=\"issues-number\">#982</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/patimen\">@patimen</a> opened 2026-03-30 21:41 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-la"
-    },
-    "ai_description": "New issue #982 has been opened by @patimen proposing to enable Cosmos SDK simulation and fuzz testing for the inference-chain. This is a valuable step toward strengthening the network's reliability by catching edge cases and state inconsistencies before they reach production. If adopted, it will give the community greater confidence in the robustness of our inference infrastructure."
-  },
-  {
-    "id": "evt_20260910183639_85a19888",
-    "timestamp": "2026-09-10T18:36:39.608451+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#985 — [P0] Bug: unsupported OpenAI type input for the inference requests",
-      "url": "/community/issues/00985-p0-bug-unsupported-openai-type-input-for-the-inference-reque/",
-      "file": "00985-p0-bug-unsupported-openai-type-input-for-the-inference-reque.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Bug: unsupported OpenAI type input for the inference requests\n    <span class=\"issues-number\">#985</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tamazgadaev\">@tamazgadaev</a> opened 2026-03-31 15:15 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
-    },
-    "ai_description": "A new P0 bug report (issue #985) has been filed regarding unsupported OpenAI input types for inference requests. The issue was opened by @tamazgadaev and is already closed, with four comments on the thread. This is a critical priority item, so keep an eye on the resolution details to ensure inference compatibility stays solid."
-  },
-  {
-    "id": "evt_20260910183639_70850b87",
-    "timestamp": "2026-09-10T18:36:39.608462+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1019 — subnetctl: inference error handling",
-      "url": "/community/issues/01019-subnetctl-inference-error-handling/",
-      "file": "01019-subnetctl-inference-error-handling.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    subnetctl: inference error handling\n    <span class=\"issues-number\">#1019</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-04-06 02:29 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"is"
-    },
-    "ai_description": "Issue #1019 on subnetctl inference error handling has been closed. The proposal aimed to improve how the tool reports and recovers from inference failures, which matters for anyone relying on subnetctl in production. Thanks to @akup for opening the discussion and to the community for weighing in.Issue #1019 on subnetctl inference error handling has been closed. The proposal aimed to improve how the tool reports and recovers from inference failures, which matters for anyone relying on subnetctl in production. Thanks to @akup for opening the discussion and to the community for weighing in."
-  },
-  {
-    "id": "evt_20260910183639_46e35465",
-    "timestamp": "2026-09-10T18:36:39.608473+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "Title",
-      "url": "/community/issues/01026-vlm-inference-and-validation-in-gonka/",
-      "file": "01026-vlm-inference-and-validation-in-gonka.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    VLM inference and validation in Gonka\n    <span class=\"issues-number\">#1026</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/fedor-konovalenko\">@fedor-konovalenko</a> opened 2026-04-07 12:47 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue"
-    },
-    "ai_description": "New issue #1026 is open, proposing VLM inference and validation support in Gonka. This could expand the network beyond text models, so check it out and share your thoughts on the design. Head over to the issue to weigh in on the direction.New issue #1026 is now open, proposing VLM inference and validation support in Gonka. This could expand the network's capabilities beyond text models, so it's worth a look for anyone interested in multimodal workloads. Join the discussion and help shape what this means for the community."
   }
 ]

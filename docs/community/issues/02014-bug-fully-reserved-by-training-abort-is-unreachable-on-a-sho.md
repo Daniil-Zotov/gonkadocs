@@ -2,7 +2,7 @@
 title: "#2014 — [BUG] fully_reserved_by_training abort is unreachable on a short segment"
 source: https://github.com/gonka-ai/gonka/issues/2014
 issue_number: 2014
-synced_at: 2026-10-15T20:23:35Z
+synced_at: 2026-10-15T23:07:19Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-15 09:49 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-15 09:49 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-15 21:50 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -38,6 +38,20 @@ if shielded[ch.Target] > 0 && expected <= 0 {
 Because [Bug with min punishable window](https://github.com/gonka-ai/gonka/issues/2013) returns before this code, a fully reserved target is never aborted; it is paid instead. The reservation check should run before the duration check (or at create time, see [Bug 3](https://github.com/gonka-ai/gonka/issues/2012)).
 
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span class="issues-meta-item">commented 2026-10-15 21:23 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>https://github.com/gonka-ai/gonka/commit/0853195ca2da7bb7553805ba26be9d0fb03ffaf1</p>
+  </div>
 </div>
 
 ---

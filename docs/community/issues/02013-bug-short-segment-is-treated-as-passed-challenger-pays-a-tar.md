@@ -2,7 +2,7 @@
 title: "#2013 — [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)"
 source: https://github.com/gonka-ai/gonka/issues/2013
 issue_number: 2013
-synced_at: 2026-10-15T20:23:35Z
+synced_at: 2026-10-15T23:07:18Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-15 09:44 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-15 09:44 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-15 21:50 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -40,6 +40,20 @@ if !rotate {
 Both segments in my test were below the threshold (18744−18648 = 96 at cPoC rotation, 18870−18788 = 82 at the final decision), so the challenge was never evaluated at all and defaulted to PASSED → lock paid to target. "Not enough data to punish" must not equal "target passed". Expected: ABORTED (refund the challenger, payLockedChallengePayment already handles ABORTED → poc_challenge_refund), or carry the segment over / require at least one punishable segment before PASSED is possible.
 
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span class="issues-meta-item">commented 2026-10-15 21:22 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>https://github.com/gonka-ai/gonka/commit/24a4204de78cefbe14d3e1dda2784ab4fbebc65d</p>
+  </div>
 </div>
 
 ---

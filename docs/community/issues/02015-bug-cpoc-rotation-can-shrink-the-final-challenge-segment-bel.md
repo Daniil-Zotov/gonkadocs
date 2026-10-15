@@ -2,7 +2,7 @@
 title: "#2015 — [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum"
 source: https://github.com/gonka-ai/gonka/issues/2015
 issue_number: 2015
-synced_at: 2026-10-15T20:23:34Z
+synced_at: 2026-10-15T23:07:20Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-15 09:54 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-10-15 11:28 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-15 21:50 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -53,7 +53,7 @@ Combined with [issue 2013](https://github.com/gonka-ai/gonka/issues/2013) that c
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -67,6 +67,15 @@ module/confirmation_poc.go:139-147 and the rotation rule (new start = cPoC valid
 A cPoC triggered at height T starts generating ~20 blocks later and finishes validation at T + 20 + 34 + 5 + 239 ≈ T + 298; the challenge segment restarts at ≈ T + 299.
 Safety (= challenge finish) is nextPoC − 500, so the final segment is nextPoC − 500 − (T + 299). It is &lt; 300 whenever T &gt; nextPoC − 1099, i.e. for any cPoC triggered in the last ~197 blocks of the trigger window. Latest possible trigger gives a final segment of ≈ 103 blocks.</p>
 <p>Mainnet does 4 cPoCs per epoch at effectively random heights across a ~14 090‑block trigger window, so per epoch ≈ 1 − (1 − 197/14090)^4 ≈ 5–6 % chance that the last cPoC lands in that zone.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span class="issues-meta-item">commented 2026-10-15 21:23 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>https://github.com/gonka-ai/gonka/commit/24a4204de78cefbe14d3e1dda2784ab4fbebc65d</p>
   </div>
 </div>
 
