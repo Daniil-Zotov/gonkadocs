@@ -2,7 +2,7 @@
 title: "#893 — [P0] Remove float math from `devshards` consensus"
 source: https://github.com/gonka-ai/gonka/issues/893
 issue_number: 893
-synced_at: 2026-10-14T22:23:26Z
+synced_at: 2026-10-15T00:38:14Z
 template: issues-main.html
 ---
 

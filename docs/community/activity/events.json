@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261015004056_485d0d68",
+    "timestamp": "2026-10-15T00:40:56.927290+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1660 — Large per-host catch-up diff backlog can cause 413 on host transport",
+      "url": "/community/issues/01660-large-per-host-catch-up-diff-backlog-can-cause-413-on-host-t/",
+      "file": "01660-large-per-host-catch-up-diff-backlog-can-cause-413-on-host-t.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Large per-host catch-up diff backlog can cause 413 on host transport\n    <span class=\"issues-number\">#1660</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-08-27 13:24 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Large per-host catch-up diff backlog can cause 413 on host transport\n    <span class=\"issues-number\">#1660</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-08-27 13:24 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-l"
+    },
+    "ai_description": "Issue #1660 on large per-host catch-up diff backlogs triggering 413 errors on host transport has been closed. The fix addresses a real pain point for nodes struggling with oversized sync payloads, so keep an eye on your transports if you've hit this before. Thanks to @aikuznetsov for driving this one home."
+  },
+  {
+    "id": "evt_20261015004056_6681c284",
+    "timestamp": "2026-10-15T00:40:56.927345+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1851 — `devshard`: It would be worth adding small tests asserting `pool.Config().MaxConns` for both payload storage constructors. `ConfigureMaxConns` itself is well tested, but the current tests wouldn’t catch the helper being accidentally removed from either constructor.",
+      "url": "/community/issues/01851-devshard-it-would-be-worth-adding-small-tests-asserting-pool/",
+      "file": "01851-devshard-it-would-be-worth-adding-small-tests-asserting-pool.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: It would be worth adding small tests asserting `pool.Config().MaxConns` for both payload storage constructors. `ConfigureMaxConns` itself is well tested, but the current tests wouldn’t catch the helper being accidentally removed from either constructor.\n    <span class=\"issues-number\">#1851</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `devshard`: It would be worth adding small tests asserting `pool.Config().MaxConns` for both payload storage constructors. `ConfigureMaxConns` itself is well tested, but the current tests wouldn’t catch the helper being accidentally removed from either constructor.\n    <span class=\"issues-number\">#1851</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://githu"
+    },
+    "ai_description": "Issue #1851 has been closed. The suggestion about adding tests for pool.Config().MaxConns in both payload storage constructors was addressed, ensuring the ConfigureMaxConns helper can't be silently removed. Thanks to everyone who contributed to keeping our test coverage solid. On to the next one! 🚀 Gonka"
+  },
+  {
     "id": "evt_20261014184855_946ea58c",
     "timestamp": "2026-10-14T18:48:55.622402+00:00",
     "section": "calendar",
@@ -8287,37 +8319,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Inference /v1/chat/completions on node3 returns 429 for ~90% of requests — single live TA caps community gateways at ~10% pass-rate\n    <span class=\"issues-number\">#1121</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-04-26 22:40 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span "
     },
     "ai_description": "The inference issue #1121 has been closed: node3's /v1/chat/completions endpoint is returning 429 errors for about 90% of requests, and a single live trusted authority is capping community gateways at roughly a 10% pass rate. This closure signals the team has addressed the bottleneck, which should mean more reliable access for everyone routing through community nodes."
-  },
-  {
-    "id": "evt_20260910183639_3cdf1a84",
-    "timestamp": "2026-09-10T18:36:39.609560+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "PoC-decode: Extending Proof-of-Compute to Decode Steps",
-      "url": "/community/issues/01135-poc-decode-proposal/",
-      "file": "01135-poc-decode-proposal.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC-decode proposal\n    <span class=\"issues-number\">#1135</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Red-Caesar\">@Red-Caesar</a> opened 2026-04-30 12:35 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color"
-    },
-    "ai_description": "New proposal #1135 from @Red-Caesar suggests extending Proof-of-Compute to cover decode steps, not just the encoding phase. This could strengthen verification across the full inference pipeline and close a gap in how compute is proven on the network. Worth a look if you care about trustless AI output integrity. Open for discussion with five comments so far."
-  },
-  {
-    "id": "evt_20260910183639_2fdce9ab",
-    "timestamp": "2026-09-10T18:36:39.609586+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "Governance dashboard: Differend numbers in panel and chart",
-      "url": "/community/issues/01169-bug-a-short-specific-searchable-title/",
-      "file": "01169-bug-a-short-specific-searchable-title.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] A short, specific, searchable title.\n    <span class=\"issues-number\">#1169</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akamitch\">@akamitch</a> opened 2026-05-15 13:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" styl"
-    },
-    "ai_description": "A new bug report has been filed on the governance dashboard, highlighting a discrepancy between the numbers shown in the summary panel and those in the detailed chart. The issue, opened by @akamitch, is now open for community input and investigation. This matters because accurate data display is critical for trust in our governance metrics, so please review and share any insights you have."
   }
 ]
