@@ -66,8 +66,8 @@ hide:
     <span>Voting ends 2026-10-17</span>
   </div>
   <div class="prop-card-desc">Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.  This proposal widens the ranges for GLM and DeepSeek so coefficient adj…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (382,298)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>39.3%</strong> (382,298 / 973,515) · Quorum <strong>25%</strong> (243,378)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (455,403)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>41.7%</strong> (455,403 / 1,092,975) · Quorum <strong>25%</strong> (273,243)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
