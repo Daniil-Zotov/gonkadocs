@@ -53,6 +53,42 @@ The new configuration applies from the first PoC start after execution. Hosts co
 
 ---
 
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:0.3%"></div>
+    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-veto" style="width:0.0%"></div>
+    <div class="prop-tally-abstain" style="width:0.0%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (2,594)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-total-text">Total 2,594 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>0.3%</strong> (2,594 / 973,515) · Quorum <strong>25%</strong> (243,378)</span>
+  </div>
+</div>
+
+
+
+<h2 id="voters">Voters</h2>
+
+<div class="prop-voters-wrap">
+<table class="prop-voters">
+<thead><tr><th>Voter</th><th>Vote</th></tr></thead>
+<tbody>
+<tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1gyk0aahvr3qeju4zx0nplfreej6cy4jjk8svc5" target="_blank" class="prop-voter-addr">gonka1gyk0aa…k8svc5</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka14fm55mflahd9t2qjhhgqzn58rzdnkzxuk4yjuf" target="_blank" class="prop-voter-addr">gonka14fm55m…k4yjuf</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+</tbody>
+</table>
+</div>
+
+---
 ## Messages
 
 | # | Type |
