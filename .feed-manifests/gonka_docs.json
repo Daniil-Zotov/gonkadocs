@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-10-16T19:10:00.009582+00:00",
+  "snapshot_time": "2026-10-16T22:22:12.471997+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "e19427b1358fb2198df5f4ab0177e24228372a4116de7e0462550ffe7e576837"
+      "checksum": "933fd05191eccd85aab76613746bcb45aebbf8d96cf698849878477d6d5128b6"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -48,13 +48,13 @@
       "title": "Deposit GNK (Gonka → Ethereum)",
       "status": null,
       "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Deposit GNK (Gonka → Ethereum)\n\nLock GNK on Gonka and receive wrapped GNK (**WGNK**) at your Ethereum address.\n\n### A) Request Minting WGNK on Ethereum\n\nUse CLI to submit a bridge minting request:\n\n```bash\n./inferenced tx inference request-bridge-mint \\\n  <amount> \\\n  \"0xYourEthereumAddr\" \\\n  \"ethereum\" \\\n  --destination-bridge-address 0x972a7a92d92796a98801a8818bcf91f1648f2f68 \\\n  --from <your_key_name> \\\n  --chain-id gonka-mainnet ",
-      "checksum": "c8492d3fbc87515aca8fc5b0d9625e9bdb827a75804a38c2163132fd12a9bf45"
+      "checksum": "ac85afb094ba7935b244e168c6189bb9aecf823a5d46d145347dfa3783765a92"
     },
     "cross-chain-transfers/ethereum-bridge/deposit-usdt.md": {
       "title": "Deposit USDT (Ethereum → Gonka)",
       "status": null,
       "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Deposit USDT (Ethereum → Gonka)\n\nTo use an existing Ethereum address that already holds USDT, generate a Gonka address from the same private key. This Gonka address will receive the wrapped token.\n\nIf instead you want to use an existing Gonka address, generate the corresponding Ethereum address from the same private key, acquire USDT on it, and ensure you have enough ETH for gas.\n\n!!! important\n    The wrapped tokens are delivered t",
-      "checksum": "690773820ae9581231932322d6a623cae1a8a9a3e13bbf805081e02459c737e9"
+      "checksum": "5519be15e28830ae9c357474b4e5e2c8cbfa920e4567165031ef58a03c8b4fec"
     },
     "cross-chain-transfers/ethereum-bridge/multisig-signer-guide.md": {
       "title": "Multisig signer guide",
@@ -90,7 +90,7 @@
       "title": "Withdraw USDT (Gonka → Ethereum)",
       "status": null,
       "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw USDT (Gonka → Ethereum)\n\n!!! note\n    Withdrawals are released on Ethereum by a BLS signature tied to the **current epoch's group key**, which is refreshed about once per day. A single epoch signature can authorize any number of withdrawals started in that epoch, so this step is normally fast. See [How Gonka → Ethereum is authorized](overview.md#how-gonka-ethereum-is-authorized-the-daily-group-key) for the background.\n\n### A",
-      "checksum": "d758856d82ebbe98a5064ce9c0e452e8710dd1dd42190e7ab1091da62c25cfa0"
+      "checksum": "4c92129d70797446583037c7e3c92ee09789dae4fe03b0ff59be58157388e099"
     },
     "cross-chain-transfers/ibc/withdraw-usdt-via-kava.md": {
       "title": "Withdraw USDT via Kava (Gonka → Ethereum)",
@@ -168,7 +168,7 @@
       "title": "Transactions & Governance",
       "status": null,
       "content_preview": "# Transactions & Governance\n\nAll governance actions are performed from your **Cold Account Machine**, using the **<COLD_KEY_NAME>** stored in your file keyring. This is the governance key you created when joining the network ([see quickstart](https://gonka.ai/host/quickstart/#local-machine-install-the-cli-tool)).\n\nTransactions are sent through an RPC endpoint (here referred to as `<NODE_URL>/chain-rpc/`). If you do not specify `--node`, the CLI defaults to `tcp://localhost:26657`. Unless you run your own node locally, always provide `--node <NODE_URL>/chain-rpc/`.\n\nUnordered transactions are supported and recommended here to avoid sequence contention. ([docs.cosmos.network](https://docs.cosmos.network/sdk/v0.53/learn/beginner/tx-lifecycle))\n\n???+ note \"Always include these flags in transac",
-      "checksum": "ba4dd3798a845e0c41ed3360d97b3d328bf1785b58053df4496b56595d5ee3c1"
+      "checksum": "aa8ca57f3a2865b65070d69187764d0b1ebb8d8faf5dd25c6fe3629a785ca9be"
     },
     "governance/voting-on-proposals.md": {
       "title": "Voting on Proposals",
@@ -180,7 +180,7 @@
       "title": "Voting Power, Genesis Guardians and Delegation",
       "status": null,
       "content_preview": "# Voting Power, Genesis Guardians and Delegation\n\n## Total bonded weight calculation\n\nThe total bonded weight is the sum of `validator.tokens` across all bonded validators with `tokens > 0`:\n\n```text\ntotal_bonded = Σ validator.tokens   (over all bonded validators with tokens > 0)\n```\n\nEach validator's `tokens` value is set on every epoch transition by the inference module via `Staking.SetComputeValidators()`.\n\nFrom **v0.2.16**, an epoch formed by that release sets non-guardian `validator.tokens` from `cap_weight`, not from reward `weight`. `cap_weight` is on `active_participants.participants[]` at `$NODE_URL/v1/epochs/{epoch_id}/participants`. Use it when `cap_weight_applied` is true. When that flag is absent, the epoch was formed earlier and `tokens` still follow `weight`. A new or return",
-      "checksum": "c923de6c7545a37c3c278f4019e80f56910f6f2f52cf37831b5e96155f60188b"
+      "checksum": "b660518743d359504e3f5b5bc4d77039184455372dae4ba00a41d16146b5a06d"
     },
     "help.md": {
       "title": "Get Support on Discord",
@@ -204,13 +204,13 @@
       "title": "Collateral",
       "status": null,
       "content_preview": "# Collateral\n\nCollateral mechanism allows participants to lock GNK coins in order to activate a portion of their already earned Proof of Compute (PoC) weight.\n\nVoting power is never derived solely from holding coins. GNK coins serve as economic collateral, not as a source of influence. Influence is earned through continuous computational contribution, while locking GNK collateral is required to secure participation in governance and enforce accountability.\n\n## Key Concepts\n\n- For the first 180 epochs (Grace Period), no collateral is required. All participants receive 100% of their potential weight unconditionally.\n- After the grace period, a portion of a participant's weight (default 20%) is granted unconditionally as Base Weight.\n- The remaining weight (default 80%) is Collateral-Eligible",
-      "checksum": "54eb0243579ccde0f47006f7c78743c6c7a823a412d2e8a08c9cc2cd834ed5de"
+      "checksum": "7e2dd166737967dc3748fdf47535c46b34c72920d009951e4037d7ccde41f691"
     },
     "host/deepseek-bootstrap.md": {
       "title": "DeepSeek V4 Flash Bootstrap",
       "status": null,
       "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./",
-      "checksum": "c7f2072666beae15a24ec184e76933fc53530ca13a6456205749b2554c1bc5ba"
+      "checksum": "a29c64d5fa4963284bfab75506682be0e18de5162dbc49c064789babe5d1a819"
     },
     "host/devshard-high-availability.md": {
       "title": "High-availability devshard host setup",
@@ -228,7 +228,7 @@
       "title": "GLM-5.3-Flash Bootstrap",
       "status": null,
       "content_preview": "# GLM-5.3-Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`",
-      "checksum": "097c3edb75656d0451ecfe684a4c23b07f08325a8767c0516c4fd9044c4d8945"
+      "checksum": "e5b4484841fb0cdfc0ac80b8c27e6be549f81408fd51846fdb271a11482c7481"
     },
     "host/hardware-specifications.md": {
       "title": "Hardware Specifications",
@@ -240,7 +240,7 @@
       "title": "How to edit Host public info",
       "status": null,
       "content_preview": "# How to edit Host public info \n\nThis guide shows how to update your Host/Validator profile with the human-readable name, website, and avatar/profile identity so that explorers display correct information.\n\n## Prerequisites\n\n- You must be the operator of the Host/Validator (you hold the operator key).\n- Your node must be running and connected to the network.\n- If you want a verified avatar, have an identity service (for example, [Keybase](https://keybase.io/)).\n\n## Fields / Parameters\n\nHere are the **only** fields you can set or edit.\n\n| Field    | Flag       | Purpose / What is displayed                                                                 |\n|----------|------------|----------------------------------------------------------------------------------------------|\n| Moniker  | `--n",
-      "checksum": "d3a4c838dd0967f0f1fefba394417951f740209cb0d272d86e5248ee9be411ee"
+      "checksum": "eb16aa911f01a6e5ae097d0e566af4f0af77ee0928b322e14902450982f72411"
     },
     "host/key-management.md": {
       "title": "Key Management Architecture",
@@ -252,13 +252,13 @@
       "title": "Kimi K2.6 Bootstrap",
       "status": null,
       "content_preview": "# Kimi K2.6 Bootstrap\n\n`moonshotai/Kimi-K2.6` is **not a PoC model** after [proposal 101](../network-updates.md#proposal-101): it was removed from `poc_params.models` together with `zai-org/GLM-5.2-FP8`. It remains in `GET /v1/governance/models` (inference catalog). No host currently lists it in `/v1/epochs/current/participants`. The timeline below is the original bootstrap record (first eligible at epoch 251). For current PoC models, see the [Host Quickstart](./quickstart.md) and [GLM-5.3-Flash Bootstrap](./glm-bootstrap.md).\n\nThis document explains how a model group becomes eligible and how participation modes work.\n\n!!! warning \"Governance listing is not eligibility\"\n    Timeline steps below that mention `Qwen235B` are historical (the original Kimi bootstrap). `Qwen/Qwen3-235B-A22B-Inst",
-      "checksum": "5e04d5edfa6e69113b4bf9a8111de3db1f98d3716ba485a6f4ef5d7d6029dcfd"
+      "checksum": "43e3a9325a639d1d21258d153fddde93dc3aba4e1c9201b5c025b083e4038e28"
     },
     "host/minimax-bootstrap.md": {
       "title": "MiniMax-M2.7 Bootstrap",
       "status": null,
       "content_preview": "# MiniMax-M2.7 Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Mul",
-      "checksum": "2f71d182d01dd313c37450262b82b95e80a770d1c3e7ce746261569d5b22ab79"
+      "checksum": "631611f24ff10554b7944e76175f63f32ee89c15564867f4f1d2f1db7e479cfb"
     },
     "host/mlnode-management.md": {
       "title": "ML Node Management",
@@ -276,7 +276,7 @@
       "title": "Multi-Model PoC — Host Operations Guide",
       "status": null,
       "content_preview": "# Multi-Model PoC — Host Operations Guide\n\nMulti-model Proof-of-Compute (PoC) arrived in v0.2.12 and expanded again in v0.2.13.\n\n!!! warning \"Delegation guidance update (July 2026)\"\n\n    After the epoch 328–329 incident, two rules apply when choosing a delegate:\n\n    - **Do not delegate to guardian nodes.** Guardians are the fallback mechanism\n      for PoC validation. Concentrating delegations on them ties the primary\n      voting mechanism and the fallback to the same hardware, so both fail\n      together. Earlier guidance that suggested a guardian node as a delegation\n      target is withdrawn. A protocol-level restriction is planned for v0.2.14.\n    - **Avoid concentrating delegations on any single host.** A delegation only\n      counts if the delegate submits a PoC store commit that e",
-      "checksum": "6fdf4d14ec5c912fd8aff50af89d85aaa4675a8802dab0c189757d9c9dcc6718"
+      "checksum": "12eba0a5033ecf09182eedc34e949bdc502a207e241c194a57739570ebae2bcb"
     },
     "host/multiple-nodes.md": {
       "title": "Multiple nodes",
@@ -306,7 +306,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "fdaa8de51f4aa11dde6ca1e954bbd4fa26689ffd899f883bad3bc5388ac24e50"
+      "checksum": "cb02218785d369cd501a217803bb82f326a618e6136aae940b7529f68286ad57"
     },
     "introduction.md": {
       "title": "introduction",
@@ -330,7 +330,7 @@
       "title": "Announcements",
       "status": null,
       "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 15, 2026\n\nA new governance proposal #115 is open for voting. \nIt proposes expanding the dynamic PoC coefficient ranges for GLM-5.3-Flash and DeepSeek-V4-Flash.\n\n**`zai-org/GLM-5.3-Flash`**\n- `coeff_max`: 0.682 → 1.556470588235\n- `relative_difficu",
-      "checksum": "96be6b36ba932d92d2068e17f240d5a17b40bc5d831dfa752ddefcdd8b3535ac"
+      "checksum": "04953b3381834128d3c02d2dea9e16c533d89665442fe47e8ccb765cdbb2421a"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
@@ -426,7 +426,7 @@
       "title": "Wallet & Transfer Guide",
       "status": null,
       "content_preview": "# Wallet & Transfer Guide\n\nThis guide explains how to work with wallets and coins on the network: how to get your wallet address, check your balance, send coins, and track transactions.\nBefore you can perform any wallet operations, you need to access your account. Follow the instructions below based on your role in the network.\n\n**Are you a Host?**\n\nYou contribute computational resources and receive coins as rewards.\nBefore proceeding, you need access to your wallet, which is automatically created when the chain-node container runs for the first time.\n\n**Are you a Developer?**\n\nIf you only need inference (sending prompts and receiving completions), you do not need a Gonka account — go to [Developer Quickstart](https://gonka.ai/developer/quickstart/) to get started with a community broker.\n",
-      "checksum": "2b8b1df44932c91e7ba403b7881f57ae7db178c7935fa4757f460df75e1add9c"
+      "checksum": "3f0e9b386f4d07168f1be641eafc7ad300ea5a2122d67acaecb106d556a659fd"
     }
   }
 }

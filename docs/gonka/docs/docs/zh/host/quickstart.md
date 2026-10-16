@@ -1508,7 +1508,10 @@ curl -s "http://127.0.0.1:9200/admin/v1/epoch-fee-budget?count=100" | jq
   --from gonka-account-key \
   --keyring-backend file \
   --node http://node2.gonka.ai:8000/chain-rpc/ \
-  --chain-id gonka-mainnet
+  --chain-id gonka-mainnet \
+  --gas auto \
+  --gas-adjustment 1.6 \
+  --gas-prices 1ngonka
 ```
 
 3. 撤销确认后，重新授权：
@@ -1622,7 +1625,7 @@ DELEGATEE="gonka1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   --chain-id "$CHAIN_ID" \
   --keyring-backend "$KEYRING_BACKEND" \
   --gas auto \
-  --gas-adjustment 1.3 \
+  --gas-adjustment 1.5 \
   -y
 ```
 
@@ -1638,7 +1641,7 @@ DELEGATEE="gonka1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   --chain-id "$CHAIN_ID" \
   --keyring-backend "$KEYRING_BACKEND" \
   --gas auto \
-  --gas-adjustment 1.3 \
+  --gas-adjustment 1.5 \
   -y
 ```
 
@@ -1653,7 +1656,7 @@ MODEL="deepseek-ai/DeepSeek-V4-Flash-0731"
   --chain-id "$CHAIN_ID" \
   --keyring-backend "$KEYRING_BACKEND" \
   --gas auto \
-  --gas-adjustment 1.3 \
+  --gas-adjustment 1.5 \
   -y
 ```
 
@@ -1668,7 +1671,7 @@ MODEL="deepseek-ai/DeepSeek-V4-Flash-0731"
   --chain-id "$CHAIN_ID" \
   --keyring-backend "$KEYRING_BACKEND" \
   --gas auto \
-  --gas-adjustment 1.3 \
+  --gas-adjustment 1.5 \
   -y
 ```
 

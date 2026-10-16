@@ -297,7 +297,8 @@ DELEGATEE="gonka1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   --chain-id "$CHAIN_ID" \
   --keyring-backend "$KEYRING_BACKEND" \
   --gas auto \
-  --gas-adjustment 1.3 \
+  --gas-adjustment 2.0 \
+  --gas-prices 1ngonka \
   -y
 ```
 
@@ -312,7 +313,8 @@ MODEL="your-model-id"
   --chain-id "$CHAIN_ID" \
   --keyring-backend "$KEYRING_BACKEND" \
   --gas auto \
-  --gas-adjustment 1.3 \
+  --gas-adjustment 2.0 \
+  --gas-prices 1ngonka \
   -y
 ```
 
@@ -327,7 +329,8 @@ MODEL="your-model-id"
   --chain-id "$CHAIN_ID" \
   --keyring-backend "$KEYRING_BACKEND" \
   --gas auto \
-  --gas-adjustment 1.3 \
+  --gas-adjustment 2.0 \
+  --gas-prices 1ngonka \
   -y
 ```
 
@@ -344,7 +347,8 @@ MODEL="your-model-id"
   --chain-id "$CHAIN_ID" \
   --keyring-backend "$KEYRING_BACKEND" \
   --gas auto \
-  --gas-adjustment 1.3 \
+  --gas-adjustment 2.0 \
+  --gas-prices 1ngonka \
   -y
 ```
 

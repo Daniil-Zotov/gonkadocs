@@ -67,6 +67,9 @@ Run this command to edit your Host/Validator information. Make sure to replace `
   --identity <PGP-64-ID> \
   --keyring-backend file \
   --node <NODE_URL>/chain-rpc/ \
+  --gas auto \
+  --gas-adjustment 2.0 \
+  --gas-prices 1ngonka \
   --yes
 ```
 
