@@ -2,7 +2,7 @@
 title: "#1749 — x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides"
 source: https://github.com/gonka-ai/gonka/issues/1749
 issue_number: 1749
-synced_at: 2026-10-15T23:08:21Z
+synced_at: 2026-10-16T01:30:13Z
 template: issues-main.html
 ---
 

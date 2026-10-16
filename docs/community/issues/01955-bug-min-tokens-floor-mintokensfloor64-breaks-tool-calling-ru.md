@@ -2,7 +2,7 @@
 title: "#1955 — [BUG] `min_tokens` floor (MinTokensFloor=64) breaks tool calling: runaway garbage, fabricated tool results, up to max_tokens billed per turn"
 source: https://github.com/gonka-ai/gonka/issues/1955
 issue_number: 1955
-synced_at: 2026-10-15T23:07:53Z
+synced_at: 2026-10-16T01:29:46Z
 template: issues-main.html
 ---
 
