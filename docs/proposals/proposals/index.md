@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-10-17</span>
   </div>
   <div class="prop-card-desc">Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.  This proposal widens the ranges for GLM and DeepSeek so coefficient adj…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (442,832)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>38.2%</strong> (442,832 / 1,157,918) · Quorum <strong>25%</strong> (289,479)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (441,359)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>38.2%</strong> (441,359 / 1,156,205) · Quorum <strong>25%</strong> (289,051)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1622,7 +1622,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>114 proposals across 6 quarters. Last updated: 2026-10-16 16:00 UTC</em>
+<em>114 proposals across 6 quarters. Last updated: 2026-10-16 16:20 UTC</em>
 </div>
 
 <script>
