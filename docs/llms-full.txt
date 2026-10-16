@@ -21947,7 +21947,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-10-16 20:25 UTC
+2026-10-16 23:12 UTC
 
 ---
 
@@ -31583,8 +31583,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-17
   
   Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.  This proposal widens the ranges for GLM and DeepSeek so coefficient adj…
-  Yes 100.0% (441,359) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 38.2% (441,359 / 1,156,205) · Quorum 25% (289,051)
+  Yes 100.0% (446,667) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 38.5% (446,667 / 1,161,513) · Quorum 25% (290,378)
 
   
     #114 – Approve devshard v4.2 and remove v5
@@ -32895,7 +32895,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-114 proposals across 6 quarters. Last updated: 2026-10-16 19:52 UTC
+114 proposals across 6 quarters. Last updated: 2026-10-16 22:25 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82217,8 +82217,8 @@ $106,250 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-10-17
   
   Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.  This proposal widens the ranges for GLM and DeepSeek so coefficient adj…
-  Yes 100.0% (441,359) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 38.2% (441,359 / 1,156,205) · Quorum 25% (289,051)
+  Yes 100.0% (446,667) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 38.5% (446,667 / 1,161,513) · Quorum 25% (290,378)
 
   
     #114 – Approve devshard v4.2 and remove v5
@@ -83480,12 +83480,12 @@ The new configuration applies from the first PoC start after execution. Hosts co
     
   
   
-    Yes 100.0% (441,359)
+    Yes 100.0% (446,667)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 441,359 votes
-    ✓ Turnout 38.2% (441,359 / 1,156,205) · Quorum 25% (289,051)
+    Total 446,667 votes
+    ✓ Turnout 38.5% (446,667 / 1,161,513) · Quorum 25% (290,378)
   
 
 Voters
