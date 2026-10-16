@@ -21872,7 +21872,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-10-16 07:49 UTC
+2026-10-16 12:58 UTC
 
 ---
 
@@ -21926,7 +21926,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 6,402,001 GNK
+Current balance: 6,471,433 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -31508,8 +31508,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-17
   
   Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.  This proposal widens the ranges for GLM and DeepSeek so coefficient adj…
-  Yes 100.0% (454,569) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 42.2% (454,569 / 1,077,054) · Quorum 25% (269,263)
+  Yes 100.0% (446,427) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 38.4% (446,427 / 1,161,513) · Quorum 25% (290,378)
 
   
     #114 – Approve devshard v4.2 and remove v5
@@ -32820,7 +32820,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-114 proposals across 6 quarters. Last updated: 2026-10-16 12:20 UTC
+114 proposals across 6 quarters. Last updated: 2026-10-16 15:00 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82142,8 +82142,8 @@ $106,250 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-10-17
   
   Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.  This proposal widens the ranges for GLM and DeepSeek so coefficient adj…
-  Yes 100.0% (454,569) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 42.2% (454,569 / 1,077,054) · Quorum 25% (269,263)
+  Yes 100.0% (446,427) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 38.4% (446,427 / 1,161,513) · Quorum 25% (290,378)
 
   
     #114 – Approve devshard v4.2 and remove v5
@@ -83405,12 +83405,12 @@ The new configuration applies from the first PoC start after execution. Hosts co
     
   
   
-    Yes 100.0% (454,569)
+    Yes 100.0% (446,427)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 454,569 votes
-    ✓ Turnout 42.2% (454,569 / 1,077,054) · Quorum 25% (269,263)
+    Total 446,427 votes
+    ✓ Turnout 38.4% (446,427 / 1,161,513) · Quorum 25% (290,378)
   
 
 Voters
