@@ -58,18 +58,18 @@ The new configuration applies from the first PoC start after execution. Hosts co
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:37.4%"></div>
+    <div class="prop-tally-yes" style="width:42.2%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (371,943)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (454,569)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 371,943 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>37.4%</strong> (371,943 / 994,428) · Quorum <strong>25%</strong> (248,607)</span>
+    <span class="prop-tally-total-text">Total 454,569 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>42.2%</strong> (454,569 / 1,077,054) · Quorum <strong>25%</strong> (269,263)</span>
   </div>
 </div>
 
