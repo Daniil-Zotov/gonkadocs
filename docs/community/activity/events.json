@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20261016013513_948b0f23",
+    "timestamp": "2026-10-16T01:35:13.619102+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — External Test Lab & Community DevNet — третий ежемесячный статус-колл | Third Monthly Status Call",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "External Test Lab & Community DevNet — третий ежемесячный статус-колл | Third Monthly Status Call",
+          "date": "2026-10-16",
+          "time": "14:00 UTC",
+          "event_type": "community_call",
+          "url": "https://meet.google.com/bqx-mfhi-arg"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261016013426_83c988ff",
     "timestamp": "2026-10-16T01:34:26.134899+00:00",
     "section": "issues",
@@ -8307,21 +8331,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] vLLM 0.15.1\n    <span class=\"issues-number\">#939</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-24 00:18 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cl"
     },
     "ai_description": "The P0 issue tracking the vLLM 0.15.1 upgrade has been closed. This marks the completion of a critical infrastructure task that the community flagged as a top priority. Thanks to everyone who contributed to getting this resolved.The P0 issue for upgrading to vLLM 0.15.1 has been closed, signaling the completion of a critical infrastructure task. This was a top-priority fix that the community flagged as essential for network stability. Thanks to all contributors who helped push this through."
-  },
-  {
-    "id": "evt_20260910183639_f15a9dfc",
-    "timestamp": "2026-09-10T18:36:39.608338+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#942 — Intra-epoch fast circuit breaker for degraded executor nodes (miss rate + cooldown/probe recovery)",
-      "url": "/community/issues/00942-intra-epoch-fast-circuit-breaker-for-degraded-executor-nodes/",
-      "file": "00942-intra-epoch-fast-circuit-breaker-for-degraded-executor-nodes.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Intra-epoch fast circuit breaker for degraded executor nodes (miss rate + cooldown/probe recovery)\n    <span class=\"issues-number\">#942</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mingles-agent\">@mingles-agent</a> opened 2026-03-24 18:37 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span"
-    },
-    "ai_description": "New issue #942 has been opened by @mingles-agent proposing an intra-epoch fast circuit breaker for degraded executor nodes, targeting high miss rates with cooldown and probe recovery mechanisms. This is a closed proposal, meaning it has already been reviewed, and it matters because it could improve network reliability by quickly isolating underperforming nodes during an epoch."
   }
 ]
