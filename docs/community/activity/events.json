@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261016234402_2aaafa3e",
+    "timestamp": "2026-10-16T23:44:02.058468+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2049 — Important! ChallengeReceipt memory overflows",
+      "url": "/community/issues/02049-important-challengereceipt-memory-overflows/",
+      "file": "02049-important-challengereceipt-memory-overflows.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Important! ChallengeReceipt memory overflows\n    <span class=\"issues-number\">#2049</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-16 12:08 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Important! ChallengeReceipt memory overflows\n    <span class=\"issues-number\">#2049</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-16 12:08 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;"
+    },
+    "ai_description": "Issue #2049 on ChallengeReceipt memory overflows has been closed after receiving one comment. This means the reported problem has been resolved or officially acknowledged, which is important for network stability. Thanks to everyone involved in addressing this. 🛠️✅\n\nThe issue was opened by @a-kuprin and has now been closed, signaling that the memory overflow concern has been handled. This is a positive step for the community, as it removes a potential risk to the network's performance."
+  },
+  {
     "id": "evt_20261016123628_471a852d",
     "timestamp": "2026-10-16T12:36:28.849534+00:00",
     "section": "issues",
@@ -8315,21 +8331,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards` fees\n    <span class=\"issues-number\">#935</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-23 11:12 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-labe"
     },
     "ai_description": "A new P0 issue has been filed regarding devshards fees, flagged as a top-priority problem for the network. The issue was opened by @dcastro and has already been closed, suggesting a quick resolution was found. Keep an eye on the discussion if you rely on devshards, as this could affect your operating costs."
-  },
-  {
-    "id": "evt_20260910183639_5317a98c",
-    "timestamp": "2026-09-10T18:36:39.608314+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "Research",
-      "url": "/community/issues/00936-devshards-implement-aggregated-bls-signatures/",
-      "file": "00936-devshards-implement-aggregated-bls-signatures.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshards`: Implement aggregated BLS signatures\n    <span class=\"issues-number\">#936</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-23 11:17 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st"
-    },
-    "ai_description": "New issue #936 is open: implementing aggregated BLS signatures in devshards, proposed by @dcastro. This is a solid step toward improving signature efficiency and scalability for the network. Check it out and join the discussion if you have insights to share. 1 comment so far, so the floor is open."
   }
 ]

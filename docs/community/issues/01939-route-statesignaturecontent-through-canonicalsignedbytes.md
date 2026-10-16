@@ -2,7 +2,7 @@
 title: "#1939 — Route `StateSignatureContent` through `CanonicalSignedBytes`"
 source: https://github.com/gonka-ai/gonka/issues/1939
 issue_number: 1939
-synced_at: 2026-10-16T21:21:52Z
+synced_at: 2026-10-16T23:41:24Z
 template: issues-main.html
 ---
 
