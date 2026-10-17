@@ -2,7 +2,7 @@
 title: "#1805 — `devshard`: Protocol-aware PoC / cPoC (preserved nodes)"
 source: https://github.com/gonka-ai/gonka/issues/1805
 issue_number: 1805
-synced_at: 2026-10-16T23:41:12Z
+synced_at: 2026-10-17T04:39:16Z
 template: issues-main.html
 ---
 
