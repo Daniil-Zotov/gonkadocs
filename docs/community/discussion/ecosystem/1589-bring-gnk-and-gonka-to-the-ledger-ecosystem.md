@@ -3,7 +3,7 @@ title: "#1589 — Bring GNK and Gonka to the Ledger Ecosystem"
 source: https://github.com/gonka-ai/gonka/discussions/1589
 discussion_number: 1589
 category: ecosystem
-synced_at: 2026-10-17T19:17:58Z
+synced_at: 2026-10-17T22:12:27Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. 
