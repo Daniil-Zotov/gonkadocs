@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261017172127_ee7e7b59",
+    "timestamp": "2026-10-17T17:21:27.672706+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#820 — Investigate missed inference on some nodes (root causes + mitigation)",
+      "url": "/community/issues/00820-investigate-missed-inference-on-some-nodes-root-causes-mitig/",
+      "file": "00820-investigate-missed-inference-on-some-nodes-root-causes-mitig.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Investigate missed inference on some nodes (root causes + mitigation)\n    <span class=\"issues-number\">#820</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-27 21:13 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Investigate missed inference on some nodes (root causes + mitigation)\n    <span class=\"issues-number\">#820</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-27 21:13 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><"
+    },
+    "ai_description": "Issue #820 on missed inference now has a third comment added to the discussion. The issue remains open as the community continues to dig into root causes and possible mitigations for nodes that are skipping inference tasks. Head over to the thread to catch up on the latest insights.Issue #820 on missed inference now has a third comment, keeping the investigation active. The discussion is still open as we work through root causes and mitigation strategies for nodes that skip inference tasks. Check the thread for the newest update."
+  },
+  {
     "id": "evt_20261017135310_8dbb1c47",
     "timestamp": "2026-10-17T13:53:10.050706+00:00",
     "section": "issues",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Seed for POC fix\n    <span class=\"issues-number\">#926</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:33 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue"
     },
     "ai_description": "Issue #926 \"[P1] Seed for POC fix\" has been closed. This tracks a priority-one fix for the proof-of-concept seed, and its closure signals that the underlying issue has been resolved and is ready for the community to verify. Thanks to @tcharchian for opening it. Keep an eye on the related PRs for the actual implementation details."
-  },
-  {
-    "id": "evt_20260910183639_73511855",
-    "timestamp": "2026-09-10T18:36:39.608253+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#927 — [P1] Maintenance window for hosts",
-      "url": "/community/issues/00927-p1-maintenance-window-for-hosts/",
-      "file": "00927-p1-maintenance-window-for-hosts.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Maintenance window for hosts\n    <span class=\"issues-number\">#927</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:39 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span"
-    },
-    "ai_description": "New issue #927 has been closed: a P1 request for maintenance windows that would let hosts schedule downtime without penalty. This matters because it gives node operators more flexibility to keep their infrastructure healthy, which ultimately strengthens network reliability for everyone. Thanks to @tcharchian for opening this discussion with three comments from the community."
   }
 ]

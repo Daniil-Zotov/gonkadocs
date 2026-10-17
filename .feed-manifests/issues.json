@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-17T13:54:10.868819+00:00",
+  "snapshot_time": "2026-10-17T17:21:43.691729+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -1853,13 +1853,14 @@
     "00820-investigate-missed-inference-on-some-nodes-root-causes-mitig.md": {
       "title": "#820 — Investigate missed inference on some nodes (root causes + mitigation)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Investigate missed inference on some nodes (root causes + mitigation)\n    <span class=\"issues-number\">#820</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-27 21:13 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><",
-      "comment_checksum": "6c05f34e677ef7dd3d959f276bbe7b098e9ad551ca598202737b8181efe77b23",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Investigate missed inference on some nodes (root causes + mitigation)\n    <span class=\"issues-number\">#820</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-02-27 21:13 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><",
+      "comment_checksum": "46570ca48dccd2ce729004880927c31bf47f7980b93250ea2eac80db017d84da",
       "comment_bodies": [
         "PR: https://github.com/gonka-ai/gonka/pull/843",
-        "Measured data from live network may help narrow root causes here. Epochs 161–191, 2,503,595 inferences: Miss rate: 3.25% (81,360 misses) Completion rate: mean 90.4%, σ=7.4%, range 72–99% The σ=7.4% variance is the signal — not the mean. Some nodes miss 28% of assigned inferences while others miss 1%. GetRandomExecutor routes to both equally regardless. Phase 4 of GiP #860 proposes GetQualityWeight"
+        "Measured data from live network may help narrow root causes here. Epochs 161–191, 2,503,595 inferences: Miss rate: 3.25% (81,360 misses) Completion rate: mean 90.4%, σ=7.4%, range 72–99% The σ=7.4% variance is the signal — not the mean. Some nodes miss 28% of assigned inferences while others miss 1%. GetRandomExecutor routes to both equally regardless. Phase 4 of GiP #860 proposes GetQualityWeight",
+        "Is this issue still relevant after PR #943 and PR #859 were merged, or are there remaining edge cases to investigate?"
       ],
-      "checksum": "d160791342b864451b1eb1e9c8fe40e3a8fe2f399aefab5caa6be7a057e0844a"
+      "checksum": "b4e5c83002cd67d322fd1bc414a7d7c208ffb1061f90fff7e78637f1b286f4b0"
     },
     "00821-continuous-poc-design-implementation.md": {
       "title": "#821 — Continuous PoC design + implementation",

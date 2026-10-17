@@ -2,7 +2,7 @@
 title: "#820 — Investigate missed inference on some nodes (root causes + mitigation)"
 source: https://github.com/gonka-ai/gonka/issues/820
 issue_number: 820
-synced_at: 2026-10-17T13:51:32Z
+synced_at: 2026-10-17T17:17:21Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-02-27 21:13 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-03-06 14:25 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-17 16:42 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #008672; color: #ffffff; border-color: #008672;">help wanted</span> <span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span> <span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
@@ -34,7 +34,7 @@ Task: Some nodes experience missed inference events. Likely multi-cause, needs c
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -63,6 +63,15 @@ proportional to L9 completion rate. Projection: σ ↓40% as high-miss nodes
 receive less traffic and face economic incentive to improve.</p>
 <p>Design + data: docs/specs/inference-quality-protocol.md (PR #859 branch)
 Discussion: #860 </p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gafrustam">@gafrustam</a></span>
+    <span class="issues-meta-item">commented 2026-10-17 16:42 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Is this issue still relevant after PR #943 and PR #859 were merged, or are there remaining edge cases to investigate?</p>
   </div>
 </div>
 
