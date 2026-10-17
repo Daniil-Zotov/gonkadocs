@@ -2,7 +2,7 @@
 title: "#1479 — Gateway allowlist request: Knyazev AI high-throughput agent infrastructure"
 source: https://github.com/gonka-ai/gonka/issues/1479
 issue_number: 1479
-synced_at: 2026-10-17T04:40:01Z
+synced_at: 2026-10-17T09:30:07Z
 template: issues-main.html
 ---
 

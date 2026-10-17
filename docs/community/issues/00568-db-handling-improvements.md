@@ -2,7 +2,7 @@
 title: "#568 — DB handling improvements"
 source: https://github.com/gonka-ai/gonka/issues/568
 issue_number: 568
-synced_at: 2026-10-17T04:41:49Z
+synced_at: 2026-10-17T09:32:20Z
 template: issues-main.html
 ---
 
