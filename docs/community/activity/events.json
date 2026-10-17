@@ -21,7 +21,7 @@
       ],
       "count": 1
     },
-    "ai_description": null
+    "ai_description": "Today marks a milestone for the Gonka community: proposal #115 to activate the full range Dynamic Coeff has officially passed. This means the network can now apply more flexible inference pricing across a broader spectrum, unlocking greater efficiency and scalability for all participants. A big win for decentralized AI — well done to everyone who voted and supported this step forward."
   },
   {
     "id": "evt_20261017004238_71038260",
@@ -41,7 +41,7 @@
       "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q4/115/"
     },
-    "ai_description": null
+    "ai_description": "Dynamic coefficient ranges for GLM and DeepSeek are being expanded beyond the previous 10% limit, a change that was just approved in proposal #115. This gives the network more flexibility to adapt pricing in real time, which should improve efficiency and responsiveness across inference tasks. A win for the community’s ongoing push toward fully dynamic operations."
   },
   {
     "id": "evt_20261016234402_2aaafa3e",

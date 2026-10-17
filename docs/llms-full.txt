@@ -31555,7 +31555,7 @@ HardCore Arena позволит протестировать модель на �
 ## Overview
 
 114Total Proposals
-76Passed (67%)
+77Passed (68%)
 36Rejected (32%)
 1Failed (1%)
 
@@ -31575,8 +31575,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #115 – Activate full range Dynamic Coeff
-    
-    Voting
+    Passed
   
   
     Submitted 2026-10-15
@@ -32895,7 +32894,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-114 proposals across 6 quarters. Last updated: 2026-10-16 22:25 UTC
+114 proposals across 6 quarters. Last updated: 2026-10-17 00:40 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82194,7 +82193,7 @@ Contract Details
 ## 2026-Q4 Summary
 
 6Total Proposals
-4Passed (67%)
+5Passed (83%)
 1Rejected (17%)
 
 Funding / Grants3
@@ -82209,8 +82208,7 @@ $106,250 · Community Pool · 132,896 GNK · Gov Module
 
   
     #115 – Activate full range Dynamic Coeff
-    
-    Voting
+    Passed
   
   
     Submitted 2026-10-15
@@ -83433,7 +83431,7 @@ Contract Details
 
 # #115 – Activate full range Dynamic Coeff
 
-Voting
+Passed
 
 **Proposal ID:** `115`
 
