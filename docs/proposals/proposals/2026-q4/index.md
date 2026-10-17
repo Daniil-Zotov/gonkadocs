@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">6</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">4</span><span class="qs-desc">Passed (67%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">5</span><span class="qs-desc">Passed (83%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">1</span><span class="qs-desc">Rejected (17%)</span></div>
 
 </div>
@@ -55,11 +55,10 @@ hide:
 <div class="prop-quarter">
 <h2>2026-Q4</h2>
 <p>6 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-10-17T00:19:06.570755882Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="115/" class="prop-card-title">#115 – Activate full range Dynamic Coeff</a>
-    <span class="prop-vote-countdown" data-deadline="2026-10-17T00:19:06.570755882Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-10-15</span>
