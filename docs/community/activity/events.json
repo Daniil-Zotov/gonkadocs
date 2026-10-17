@@ -1,5 +1,49 @@
 [
   {
+    "id": "evt_20261017004238_498065f3",
+    "timestamp": "2026-10-17T00:42:38.386927+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Passed: #115 – Activate full range Dynamic Coeff",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Passed: #115 – Activate full range Dynamic Coeff",
+          "date": "2026-10-17",
+          "time": "00:19 UTC",
+          "event_type": "proposal_report",
+          "url": "/proposals/proposals/2026-q4/115/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261017004238_71038260",
+    "timestamp": "2026-10-17T00:42:38.274784+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Passed: #115 – Activate full range Dynamic Coeff",
+      "url": "/proposals/proposals/2026-q4/115/",
+      "file": "aec7bd9e8b538d01f0aa90025aeb446b14068f33d3dc7c96d279f38852a1d665"
+    },
+    "details": {
+      "status": null,
+      "content": "Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.\n\nThis proposal widens the ranges for GLM and DeepSeek so coefficient adj…",
+      "date": "2026-10-17",
+      "time": "00:19 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q4/115/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261016234402_2aaafa3e",
     "timestamp": "2026-10-16T23:44:02.058468+00:00",
     "section": "issues",
@@ -8299,37 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bridge safety issues: lexicographic block comparison, silent address validation failure, inconsistent chain ID mapping\n    <span class=\"issues-number\">#931</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-03-23 00:07 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-"
     },
     "ai_description": "A new issue #931 has been opened by @unameisfine, highlighting three critical bridge safety problems: lexicographic block comparison, silent address validation failures, and inconsistent chain ID mapping. These flaws could potentially undermine the integrity of cross-chain operations, so the community should review them closely. The issue is currently closed with no comments yet, so we encourage contributors to weigh in on the severity and proposed fixes."
-  },
-  {
-    "id": "evt_20260910183639_d5cd1095",
-    "timestamp": "2026-09-10T18:36:39.608290+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#933 — AdjustWeightsByCollateral missing baseWeightRatio range validation — weight inflation for uncollateralized participants",
-      "url": "/community/issues/00933-adjustweightsbycollateral-missing-baseweightratio-range-vali/",
-      "file": "00933-adjustweightsbycollateral-missing-baseweightratio-range-vali.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    AdjustWeightsByCollateral missing baseWeightRatio range validation — weight inflation for uncollateralized participants\n    <span class=\"issues-number\">#933</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-03-23 01:42 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues"
-    },
-    "ai_description": "A new issue #933 has been opened by @unameisfine highlighting a missing range validation in the AdjustWeightsByCollateral function, which could allow uncollateralized participants to inflate their voting weight. The issue is now closed, signaling that the community has acknowledged and addressed this potential vulnerability in the governance mechanism. This is a key fix for maintaining fair and secure weight distribution across the network."
-  },
-  {
-    "id": "evt_20260910183639_e9983bbc",
-    "timestamp": "2026-09-10T18:36:39.608302+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#935 — [P0] `devshards` fees",
-      "url": "/community/issues/00935-p0-devshards-fees/",
-      "file": "00935-p0-devshards-fees.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards` fees\n    <span class=\"issues-number\">#935</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-23 11:12 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-labe"
-    },
-    "ai_description": "A new P0 issue has been filed regarding devshards fees, flagged as a top-priority problem for the network. The issue was opened by @dcastro and has already been closed, suggesting a quick resolution was found. Keep an eye on the discussion if you rely on devshards, as this could affect your operating costs."
   }
 ]

@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-10-16T21:35:17.281454+00:00",
+  "snapshot_time": "2026-10-17T00:42:38.299970+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2387,14 +2387,14 @@
       "content_preview": "Devshard v4.2\n\nThis proposal removes v5 from the approved devshard versions and adds v4.2. The existing v4.1 entry stays unchanged.\n\nDevshard v4.2 polishes the v4 runtime with fixes for production iss…",
       "checksum": "bf2c6d64919cc211b3309923b1495c081e24d5a7de2f6bc0641da95bf78d4bd5"
     },
-    "3c0966278ac4fcb7d3470cd365be314691fbe02f9fae48f9765e90df54875453": {
-      "title": "Voting ends: #115 – Activate full range Dynamic Coeff",
+    "aec7bd9e8b538d01f0aa90025aeb446b14068f33d3dc7c96d279f38852a1d665": {
+      "title": "Passed: #115 – Activate full range Dynamic Coeff",
       "date": "2026-10-17",
       "time": "00:19 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q4/115/",
       "content_preview": "Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.\n\nThis proposal widens the ranges for GLM and DeepSeek so coefficient adj…",
-      "checksum": "29bdd6a89cacf55dbb07badb84c69b89e201f83c6cef5f9db8df9ad0ae47ef18"
+      "checksum": "49be5fd83068094a9535161a298efa40ca6899bef85b80c037ab7e86aa554ab5"
     }
   }
 }
