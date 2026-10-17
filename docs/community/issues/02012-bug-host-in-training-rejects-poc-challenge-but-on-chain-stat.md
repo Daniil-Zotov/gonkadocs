@@ -2,7 +2,7 @@
 title: "#2012 — [BUG] Host in training rejects POC challenge but on-chain status of POC - generating"
 source: https://github.com/gonka-ai/gonka/issues/2012
 issue_number: 2012
-synced_at: 2026-10-17T09:28:58Z
+synced_at: 2026-10-17T13:48:12Z
 template: issues-main.html
 ---
 

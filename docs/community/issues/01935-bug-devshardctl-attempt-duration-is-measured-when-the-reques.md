@@ -2,21 +2,21 @@
 title: "#1935 — [BUG] devshardctl: attempt duration is measured when the request settles, not when the attempt ends"
 source: https://github.com/gonka-ai/gonka/issues/1935
 issue_number: 1935
-synced_at: 2026-10-17T09:28:55Z
+synced_at: 2026-10-17T13:48:06Z
 template: issues-main.html
 ---
 
 <div class="issues-detail-header">
   <h1 class="issues-detail-title">
-    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
     [BUG] devshardctl: attempt duration is measured when the request settles, not when the attempt ends
     <span class="issues-number">#1935</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-10-07 11:46 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-16 19:30 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-17 11:32 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -85,6 +85,20 @@ The snippet calls `buildInvolvement` directly, so it only shows how the value is
 - Durations in the averages and the participant total-attempt metric decrease or stay the same. Persisted request records keep their old values.
 - I have a fix ready against `devshard/gateway/v5.1.0`, where #1923 was merged and then carried into `devshard/gateway/v4.1.3`. It only touches `devshardctl`, so it can be retargeted. Which branch do you want it on?
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-10-17 11:32 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Merged: https://github.com/gonka-ai/gonka/pull/1937</p>
+  </div>
 </div>
 
 ---

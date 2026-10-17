@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261017135310_8dbb1c47",
+    "timestamp": "2026-10-17T13:53:10.050706+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1935 — [BUG] devshardctl: attempt duration is measured when the request settles, not when the attempt ends",
+      "url": "/community/issues/01935-bug-devshardctl-attempt-duration-is-measured-when-the-reques/",
+      "file": "01935-bug-devshardctl-attempt-duration-is-measured-when-the-reques.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] devshardctl: attempt duration is measured when the request settles, not when the attempt ends\n    <span class=\"issues-number\">#1935</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-07 11:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-l",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] devshardctl: attempt duration is measured when the request settles, not when the attempt ends\n    <span class=\"issues-number\">#1935</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-07 11:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n"
+    },
+    "ai_description": "Issue #1935 on devshardctl has been closed after a fix was confirmed. The bug reported that attempt duration was being measured when the request settles rather than when the attempt actually ends, which skewed timing metrics. This closure ensures accurate duration tracking for better performance monitoring across the network. Thanks to @vitaly-andr for reporting it."
+  },
+  {
     "id": "evt_20261017051630_4e15073c",
     "timestamp": "2026-10-17T05:16:30.093680+00:00",
     "section": "gonka_docs",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Maintenance window for hosts\n    <span class=\"issues-number\">#927</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:39 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span"
     },
     "ai_description": "New issue #927 has been closed: a P1 request for maintenance windows that would let hosts schedule downtime without penalty. This matters because it gives node operators more flexibility to keep their infrastructure healthy, which ultimately strengthens network reliability for everyone. Thanks to @tcharchian for opening this discussion with three comments from the community."
-  },
-  {
-    "id": "evt_20260910183639_5f5b06c1",
-    "timestamp": "2026-09-10T18:36:39.608265+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#929 — Inference validation optimization",
-      "url": "/community/issues/00929-inference-validation-optimization/",
-      "file": "00929-inference-validation-optimization.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Inference validation optimization\n    <span class=\"issues-number\">#929</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-21 19:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
-    },
-    "ai_description": "New issue #929 has been opened by @tcharchian proposing optimizations to inference validation. This could streamline how outputs are checked, potentially cutting latency and costs for the network. Worth a look if you're running nodes or relying on fast inference. Drop your thoughts in the thread if you see room for improvement."
   }
 ]
