@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-10-17T00:56:35.910752+00:00",
+  "snapshot_time": "2026-10-17T05:17:05.237946+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -329,8 +329,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 15, 2026\n\nA new governance proposal #115 is open for voting. \nIt proposes expanding the dynamic PoC coefficient ranges for GLM-5.3-Flash and DeepSeek-V4-Flash.\n\n**`zai-org/GLM-5.3-Flash`**\n- `coeff_max`: 0.682 → 1.556470588235\n- `relative_difficu",
-      "checksum": "04953b3381834128d3c02d2dea9e16c533d89665442fe47e8ccb765cdbb2421a"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 17, 2026\n\n**PROPOSAL PASSED: wider ranges for dynamic PoC coefficients**\n\nThe on-chain vote for [proposal #115](https://gonka.gg/network/proposals/115) has passed. The new allowed coefficient ranges are now recorded in the network parameters:\n\n- ",
+      "checksum": "f12530574ff38cba404450e4fe7c209d0c6d86195b82d4fa1d4e4f73641f6f46"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",

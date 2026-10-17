@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261017051630_4e15073c",
+    "timestamp": "2026-10-17T05:16:30.093680+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Announcements",
+      "url": "/gonka/docs/network-updates/",
+      "file": "network-updates.md"
+    },
+    "details": {
+      "content_before": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 15, 2026\n\nA new governance proposal #115 is open for voting. \nIt proposes expanding the dynamic PoC coefficient ranges for GLM-5.3-Flash and DeepSeek-V4-Flash.\n\n**`zai-org/GLM-5.3-Flash`**\n- `coeff_max`: 0.682 → 1.556470588235\n- `relative_difficu",
+      "content_after": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 17, 2026\n\n**PROPOSAL PASSED: wider ranges for dynamic PoC coefficients**\n\nThe on-chain vote for [proposal #115](https://gonka.gg/network/proposals/115) has passed. The new allowed coefficient ranges are now recorded in the network parameters:\n\n- "
+    },
+    "ai_description": "The governance vote on proposal #115 has passed, expanding the allowed dynamic PoC coefficient ranges for GLM-5.3-Flash and DeepSeek-V4-Flash. These updated network parameters are now officially recorded, giving validators more flexibility in how they set coefficients for these models. This is a key step for fine-tuning inference performance across the network."
+  },
+  {
     "id": "evt_20261017004238_498065f3",
     "timestamp": "2026-10-17T00:42:38.386927+00:00",
     "section": "calendar",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Inference validation optimization\n    <span class=\"issues-number\">#929</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-21 19:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
     },
     "ai_description": "New issue #929 has been opened by @tcharchian proposing optimizations to inference validation. This could streamline how outputs are checked, potentially cutting latency and costs for the network. Worth a look if you're running nodes or relying on fast inference. Drop your thoughts in the thread if you see room for improvement."
-  },
-  {
-    "id": "evt_20260910183639_3d8eb679",
-    "timestamp": "2026-09-10T18:36:39.608279+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#931 — Bridge safety issues: lexicographic block comparison, silent address validation failure, inconsistent chain ID mapping",
-      "url": "/community/issues/00931-bridge-safety-issues-lexicographic-block-comparison-silent-a/",
-      "file": "00931-bridge-safety-issues-lexicographic-block-comparison-silent-a.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bridge safety issues: lexicographic block comparison, silent address validation failure, inconsistent chain ID mapping\n    <span class=\"issues-number\">#931</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-03-23 00:07 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-"
-    },
-    "ai_description": "A new issue #931 has been opened by @unameisfine, highlighting three critical bridge safety problems: lexicographic block comparison, silent address validation failures, and inconsistent chain ID mapping. These flaws could potentially undermine the integrity of cross-chain operations, so the community should review them closely. The issue is currently closed with no comments yet, so we encourage contributors to weigh in on the severity and proposed fixes."
   }
 ]
