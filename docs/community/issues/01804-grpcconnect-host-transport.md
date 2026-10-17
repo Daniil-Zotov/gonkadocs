@@ -2,7 +2,7 @@
 title: "#1804 — gRPC/Connect host transport"
 source: https://github.com/gonka-ai/gonka/issues/1804
 issue_number: 1804
-synced_at: 2026-10-17T17:17:43Z
+synced_at: 2026-10-17T19:29:17Z
 template: issues-main.html
 ---
 
