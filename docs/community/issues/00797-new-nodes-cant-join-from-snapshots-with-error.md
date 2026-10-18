@@ -2,7 +2,7 @@
 title: "#797 — New nodes can't join from snapshots with error"
 source: https://github.com/gonka-ai/gonka/issues/797
 issue_number: 797
-synced_at: 2026-10-18T14:42:50Z
+synced_at: 2026-10-18T18:13:47Z
 template: issues-main.html
 ---
 
