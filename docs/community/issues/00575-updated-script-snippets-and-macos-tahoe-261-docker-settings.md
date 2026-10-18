@@ -2,7 +2,7 @@
 title: "#575 — Updated script snippets and MacOS Tahoe 26.1 Docker settings"
 source: https://github.com/gonka-ai/gonka/issues/575
 issue_number: 575
-synced_at: 2026-10-18T20:56:46Z
+synced_at: 2026-10-18T23:23:38Z
 template: issues-main.html
 ---
 
