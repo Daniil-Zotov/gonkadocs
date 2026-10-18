@@ -2,7 +2,7 @@
 title: "#730 — [P0] vLLM 0.15.1 Compatibility Experiments"
 source: https://github.com/gonka-ai/gonka/issues/730
 issue_number: 730
-synced_at: 2026-10-18T06:05:06Z
+synced_at: 2026-10-18T11:23:18Z
 template: issues-main.html
 ---
 
