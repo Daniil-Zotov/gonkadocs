@@ -2,7 +2,7 @@
 title: "#746 — Vested payouts in x/inference ignore caller funding module and always debit inference account"
 source: https://github.com/gonka-ai/gonka/issues/746
 issue_number: 746
-synced_at: 2026-10-17T22:27:43Z
+synced_at: 2026-10-18T01:13:03Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#1725 — x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty"
 source: https://github.com/gonka-ai/gonka/issues/1725
 issue_number: 1725
-synced_at: 2026-10-17T22:27:00Z
+synced_at: 2026-10-18T01:12:15Z
 template: issues-main.html
 ---
 
