@@ -3,7 +3,7 @@ title: "#869 — GiP #860 — Inference Quality Protocol: Semantic Inference Opt
 source: https://github.com/gonka-ai/gonka/discussions/869
 discussion_number: 869
 category: protocol-improvements
-synced_at: 2026-10-17T22:13:05Z
+synced_at: 2026-10-18T00:54:13Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #869](https://github.com/gonka-ai/gonka/discussions/869) every hour. 
