@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261019153154_f19cb517",
+    "timestamp": "2026-10-19T15:31:54.177717+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#2059 — Proposal #74: Gonka Labs - Monthly Report No.4",
+      "url": "/community/discussion/governance-proposal-reports/2059-proposal-74-gonka-labs-monthly-report-no4/",
+      "file": "governance-proposal-reports/2059-proposal-74-gonka-labs-monthly-report-no4.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #2059](https://github.com/gonka-ai/gonka/discussions/2059) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.4\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-19 11:34 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7796a968-8c9b-4156-9aab-3acbede4dfca\" />\n\nHey! Gonka Labs here.  \nLast updates: [Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) (Jul 18), [Report No.2](https://github.com/gonka-ai/gonka/discussions/1612) (Aug 18), and [Report No.3](https://github.com/gonka-ai/gonka/discussions/1815) (Sep 19).  \nOn June 12 the community passed [Proposal #74](https://gonka"
+    },
+    "ai_description": "Gonka Labs has posted their fourth monthly report for Proposal #74, continuing their regular updates to the community after the proposal passed on June 12. This report follows their previous three updates and keeps everyone informed on their progress. Check it out to stay up to date with Gonka Labs' latest activities.Gonka Labs has posted their fourth monthly report under Proposal #74, continuing their regular transparency updates to the community since the proposal was approved in June. Give it a read to see what they've been working on this month."
+  },
+  {
     "id": "evt_20261019062320_38232a6a",
     "timestamp": "2026-10-19T06:23:20.512366+00:00",
     "section": "issues",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Consensus key mismatch: staking still expects old key after TMKMS key loss\n    <span class=\"issues-number\">#923</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/krizis-sila\">@krizis-sila</a> opened 2026-03-20 20:36 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
     },
     "ai_description": "A new issue (#923) has been closed regarding a consensus key mismatch after TMKMS key loss. The problem was that staking still expected the old key even after the key was lost, which could disrupt validator operations. This closure signals the community has addressed the concern, keeping validator infrastructure reliable and aligned with current keys."
-  },
-  {
-    "id": "evt_20260910183639_6ee05012",
-    "timestamp": "2026-09-10T18:36:39.608217+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#924 — [P0] Make sure Bitfury community sale works: IBC",
-      "url": "/community/issues/00924-p0-make-sure-bitfury-community-sale-works-ibc/",
-      "file": "00924-p0-make-sure-bitfury-community-sale-works-ibc.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Make sure Bitfury community sale works: IBC\n    <span class=\"issues-number\">#924</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:20 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-t"
-    },
-    "ai_description": "Issue #924 has been closed after confirming that the Bitfury community sale works correctly over IBC. This P0 priority fix ensures the cross-chain transfer path is reliable, which is critical for keeping community sales accessible and trustless. Thanks to @tcharchian for driving this to resolution. Well done, everyone."
   }
 ]

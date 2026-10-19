@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **110**. Обновлено: `2026-10-19 07:40 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **111**. Обновлено: `2026-10-19 15:31 UTC`.
 
 ## 📂 Категории
 
@@ -13,7 +13,7 @@ title: "GitHub Discussions"
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 10 |
 | [:speech_balloon: General](general/index.md) | 7 |
-| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 13 |
+| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 14 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 49 |
 | [:interrobang: Q&A](q-a/index.md) | 5 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 25 |
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [2059](governance-proposal-reports/2059-proposal-74-gonka-labs-monthly-report-no4.md) | [Proposal #74: Gonka Labs - Monthly Report No.4](governance-proposal-reports/2059-proposal-74-gonka-labs-monthly-report-no4.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-10-19 |
 | [1996](q-a/1996-current-funded-performance-work-after-1914-journal-changes.md) | [Current funded performance work after #1914 journal changes](q-a/1996-current-funded-performance-work-after-1914-journal-changes.md) | :interrobang: Q&A | [@zileria354-ship-it](https://github.com/zileria354-ship-it) | 2026-10-14 |
 | [1990](protocol-improvements/1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md) | [BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens of Protected Data](protocol-improvements/1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md) | :gear: Protocol Improvements | [@nikolay2828](https://github.com/nikolay2828) | 2026-10-13 |
 | [1920](governance-proposal-reports/1920-proposal-77-input-global-monthly-report-september.md) | [Proposal #77: INPUT Global - Monthly Report \|\| September](governance-proposal-reports/1920-proposal-77-input-global-monthly-report-september.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-10-05 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1747](general/1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe.md) | [Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026](general/1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe.md) | :speech_balloon: General | [@sultee](https://github.com/sultee) | 2026-09-10 |
 | [1742](governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |
 | [1589](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | :jigsaw: Ecosystem | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |
-| [1464](protocol-improvements/1464-dev-team-funding.md) | [Dev Team Funding](protocol-improvements/1464-dev-team-funding.md) | :gear: Protocol Improvements | [@gmorgachev](https://github.com/gmorgachev) | 2026-09-08 |

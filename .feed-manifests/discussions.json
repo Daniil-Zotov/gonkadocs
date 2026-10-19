@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-19T07:40:56.772321+00:00",
+  "snapshot_time": "2026-10-19T15:31:56.934950+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -187,6 +187,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1920](https://github.com/gonka-ai/gonka/discussions/1920) every hour. \n\n# Proposal #77: INPUT Global - Monthly Report || September\n\n**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-05 13:03 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/690d0bce-933f-4f51-b1ff-9c0c63290073\" />\n\n### September 2026 Monthly Report\n\nHi Team, happy to share our September 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: https://www.figma.com/deck/aw7NcLbh42UhyJ8feOcd7Q\n\nThis month we delivered **4** unique pieces across US business, AI and crypto media and broadcast,",
       "checksum": "91fc98800c6ca5d2e6f6f75cd29d941f51e37d84e50ff3fccb022123b4118915"
+    },
+    "governance-proposal-reports/2059-proposal-74-gonka-labs-monthly-report-no4.md": {
+      "title": "#2059 — Proposal #74: Gonka Labs - Monthly Report No.4",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2059](https://github.com/gonka-ai/gonka/discussions/2059) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.4\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-19 11:34 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7796a968-8c9b-4156-9aab-3acbede4dfca\" />\n\nHey! Gonka Labs here.  \nLast updates: [Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) (Jul 18), [Report No.2](https://github.com/gonka-ai/gonka/discussions/1612) (Aug 18), and [Report No.3](https://github.com/gonka-ai/gonka/discussions/1815) (Sep 19).  \nOn June 12 the community passed [Proposal #74](https://gonka",
+      "checksum": "13044153d7dcf97b6fa9eebbeb7e0407b56ff46491a157f5cf606594b4d151a4"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "#795 — Welcome to Proposals 👋",
