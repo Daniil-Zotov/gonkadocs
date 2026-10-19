@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261019053339_98ad3406",
+    "timestamp": "2026-10-19T05:33:39.339570+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Create a new Gonka account",
+      "url": "/gonka/docs/wallet/create-account/",
+      "file": "wallet/create-account.md"
+    },
+    "details": {
+      "content_before": "# Create a new Gonka account\n\nTo start using Gonka Network, you first need to create a Gonka Account.\nThere are several ways to do this:\n\n- Via external wallet (Tangem, Keplr, Cosmostation, Fox Wallet)\n- Via `inferenced` CLI tool\n\n!!! note \"Bridge compatibility and seed (mnemonic) phrases\"\n    If you create your Gonka account using a **mnemonic (seed) phrase** — as Cosmostation and Fox Wallet do by default — the account **is compatible** with the Ethereum bridge, but the bridge will deliver tokens to a different `gonka1…` address than the one your wallet displays. This happens because Ethereum and Gonka use different BIP-44 derivation paths (coin type `60` vs `118`), so the same seed phrase produces different private keys on each chain. You still control those funds and can access them wit",
+      "content_after": "# Create a new Gonka account\n\nTo start using Gonka Network, you first need to create a Gonka Account.\nThere are several ways to do this:\n\n- Via external wallet (Tangem, Keplr, Cosmostation, Fox Wallet)\n- Via `inferenced` CLI tool\n\n!!! note \"Bridge compatibility and seed (mnemonic) phrases\"\n    If you create your Gonka account using a **mnemonic (seed) phrase** — as Cosmostation and Fox Wallet do by default — the account **is compatible** with the Ethereum bridge, but the bridge may deliver tokens to a different `gonka1…` address than the one your wallet displays. This can happen because the Ethereum and Gonka wallets derive different private keys from the same phrase. You still control those funds and can access them with an extra derivation step. See [Addresses and keys](../cross-chain-tr"
+    },
+    "ai_description": "The account creation docs were updated to clarify how mnemonic phrases interact with the Ethereum bridge. The wording now emphasizes that a different address may be used, but you retain full control of your funds. This matters because it prevents confusion when bridging tokens across chains. Check the linked section for the technical details on derivation.The account creation docs were updated to clarify how mnemonic phrases interact with the Ethereum bridge, emphasizing that a different address may be used but you retain full control of your funds. This matters because it prevents confusion when bridging tokens across chains. Check the linked section for the technical details on derivation."
+  },
+  {
     "id": "evt_20261017172127_ee7e7b59",
     "timestamp": "2026-10-17T17:21:27.672706+00:00",
     "section": "issues",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bridge normalization issue\n    <span class=\"issues-number\">#925</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
     },
     "ai_description": "Issue #925 \"Bridge normalization issue\" has been added and already closed, opened by @tcharchian with no comments. This signals a quick resolution of a reported problem with bridge normalization, likely a minor fix that keeps the network running smoothly. Keep an eye out for more details if a follow-up discussion emerges."
-  },
-  {
-    "id": "evt_20260910183639_f74941c7",
-    "timestamp": "2026-09-10T18:36:39.608241+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#926 — [P1] Seed for POC fix",
-      "url": "/community/issues/00926-p1-seed-for-poc-fix/",
-      "file": "00926-p1-seed-for-poc-fix.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Seed for POC fix\n    <span class=\"issues-number\">#926</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:33 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue"
-    },
-    "ai_description": "Issue #926 \"[P1] Seed for POC fix\" has been closed. This tracks a priority-one fix for the proof-of-concept seed, and its closure signals that the underlying issue has been resolved and is ready for the community to verify. Thanks to @tcharchian for opening it. Keep an eye on the related PRs for the actual implementation details."
   }
 ]

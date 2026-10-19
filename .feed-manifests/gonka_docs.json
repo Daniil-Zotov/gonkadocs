@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-10-19T00:39:35.393823+00:00",
+  "snapshot_time": "2026-10-19T05:33:41.472315+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -30,7 +30,7 @@
       "title": "Addresses and keys",
       "status": null,
       "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Addresses and keys\n\nThis is the single most important page to understand before bridging. **Read it before your first transfer.**\n\n## One key, two addresses\n\nEthereum and Gonka both use the same kind of cryptographic key (a `secp256k1` key pair). A single private key therefore controls an account on **both** chains. The two chains only differ in how they turn the public key into a human-readable address:\n\n| Chain | Address format | ",
-      "checksum": "638bce8b4be25ddf36ef778f9ed6e0afd0a18b88a96f08c8cbf0110f79a1515b"
+      "checksum": "3fada4d3e77ee68cd83d55856ad285fdddcec160982d8b831dcb0c19d4d34fb2"
     },
     "cross-chain-transfers/ethereum-bridge/bridge-epoch-update.md": {
       "title": "Bridge epoch update",
@@ -407,8 +407,8 @@
     "wallet/create-account.md": {
       "title": "Create a new Gonka account",
       "status": null,
-      "content_preview": "# Create a new Gonka account\n\nTo start using Gonka Network, you first need to create a Gonka Account.\nThere are several ways to do this:\n\n- Via external wallet (Tangem, Keplr, Cosmostation, Fox Wallet)\n- Via `inferenced` CLI tool\n\n!!! note \"Bridge compatibility and seed (mnemonic) phrases\"\n    If you create your Gonka account using a **mnemonic (seed) phrase** — as Cosmostation and Fox Wallet do by default — the account **is compatible** with the Ethereum bridge, but the bridge will deliver tokens to a different `gonka1…` address than the one your wallet displays. This happens because Ethereum and Gonka use different BIP-44 derivation paths (coin type `60` vs `118`), so the same seed phrase produces different private keys on each chain. You still control those funds and can access them wit",
-      "checksum": "812ed38dae8da1abbe7fa73dacb4d8ee0dd20c2532670ca98bbbf366254b6004"
+      "content_preview": "# Create a new Gonka account\n\nTo start using Gonka Network, you first need to create a Gonka Account.\nThere are several ways to do this:\n\n- Via external wallet (Tangem, Keplr, Cosmostation, Fox Wallet)\n- Via `inferenced` CLI tool\n\n!!! note \"Bridge compatibility and seed (mnemonic) phrases\"\n    If you create your Gonka account using a **mnemonic (seed) phrase** — as Cosmostation and Fox Wallet do by default — the account **is compatible** with the Ethereum bridge, but the bridge may deliver tokens to a different `gonka1…` address than the one your wallet displays. This can happen because the Ethereum and Gonka wallets derive different private keys from the same phrase. You still control those funds and can access them with an extra derivation step. See [Addresses and keys](../cross-chain-tr",
+      "checksum": "381b6ee23aa248b8e3b0c556929860ae146affbe4baf0570b6087b7a001d5986"
     },
     "wallet/dashboard.md": {
       "title": "Getting Started with the Dashboard",
