@@ -2,7 +2,7 @@
 title: "#2000 — devshard: executor-reported output tokens set the payment and are checked only on sampled replays"
 source: https://github.com/gonka-ai/gonka/issues/2000
 issue_number: 2000
-synced_at: 2026-10-19T20:00:10Z
+synced_at: 2026-10-19T23:47:20Z
 template: issues-main.html
 ---
 
@@ -16,230 +16,299 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-14 09:11 UTC</span>
+    <span class="issues-meta-item">Updated 2026-10-19 22:37 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
 
 <div class="issues-content" markdown="1">
+
 **TL;DR**
 
-- The executor signs `input_tokens` and `output_tokens` in `MsgFinishInference`, and the payment is taken from them, up to the reservation. Only a sampled replay (about 10%) ever compares them with the answer.
-- A short answer can be billed at x11 under the current cap, x27 under the join template default, and up to x1026 at the model's context. Every OpenRouter provider of these models allows more output than Gonka's caps, so the caps will go up.
-- Sampling doesn't make this unprofitable: a host that inflates 10% of its answers stays under the SPRT and earns about x93.
-- Proposed fix (path 2): the gateway starts a count vote on CPU. Voters recount both the input and the served output with the model's renderer (no weights, no GPU, 2.5-14 ms of CPU per check); input matters too, since the state machine caps only the sum. If the stream was cut and the gateway holds no signed body, the voters fetch the stored body from the executor, as replay already does. An inflated claim gets no payment, and no other penalty is needed.
-- Still open: a cut inside a non-string tool argument (options a/b/c below), CPU builds of the renderer, and replay for a made-up body that matches its claim.
-- I'll start with path 2 and bring the protocol changes with a draft PR. @akup, before I start, I'd like to hear whether path 2 is a direction you'd accept, and what I've missed.
+1. The executor signs `input_tokens` and `output_tokens` in `MsgFinishInference` (the Finish below), and the group's state machine pays from them, capped only on their combined cost. Nothing checks either count unless a validator's own sampling picks the inference for replay, a re-run on the validator's MLNode.
+2. A short answer can be billed at x11 under the current `max_tokens` cap and x27 under the join template default; the multiplier grows if the caps go up.
+3. Three PRs in sequence. PR 1: a challenge the gateway starts and the escrow's hosts (the voters below) settle without an MLNode, on the body fetched from the executor. PR 2: two more triggers, a claim above twice the bytes on the gateway's side of the wire, and the count itself, done by the voters on a CPU. PR 3: a challenged inference is replayed more often, whatever the voters decided.
+4. What stays with replay: inflation under the bounds, and a stored body made up to match its claim.
 
-### What happens
+### Payment trusts the executor's counts until replay
 
-The executor signs `input_tokens` and `output_tokens` in `MsgFinishInference`, and the state machine pays from them: `ActualCost = tokenCost(input, output, price)`, capped at the reservation (`state/machine.go:43`, `applyFinishInference` at `:1262`). Nothing compares `output_tokens` with the answer the client received. The gateway checks the stream against `ServedHash` (`user/served_binding.go`) but not the token count. Replay compares the count (`TokenCountInflated`, more than 3 tokens over, `common/validation/validation.go:181`), but only on sampled inferences.
+`ActualCost = tokenCost(input, output, price)`, capped at the reservation (`state/machine.go:42`, `applyFinishInference` at `:1328`, the cap at `:1398`). The cap is on the sum, so each count is trusted separately. The gateway checks the stream against `ServedHash` but not the count. Replay compares both counts (`TokenCountInflated`, more than 3 tokens over, `common/validation/validation.go:181`, applied to output and input at `:443-450`), and runs only when a host's own sampling picks the inference. The chain default sampling rate is 1000 basis points, weighted by slots.
 
-On an inference that is not sampled, any `output_tokens` up to `max_tokens` gets paid. Take a short question: a 350-byte body, about 90 honest input tokens and 300 honest output tokens. The reservation counts the body in bytes, so an executor that reports `InputTokens = 350` (the byte count) and `OutputTokens = max_tokens` is paid the whole reservation, `(350 + max_tokens) × price`, against an honest `(90 + 300) × price`:
+Take a 350-byte request with about 90 honest input tokens and 300 honest output tokens. The reservation counts the body in bytes, so an executor that reports `InputTokens = 350` and `OutputTokens = max_tokens` is paid the whole reservation, `(350 + max_tokens) × price`, against an honest `(90 + 300) × price`:
 
-| `max_tokens` | where it comes from | paid vs. honest |
-|---|---|---|
-| 4,096 | `RequestMaxTokensCap`, the cap on an explicit `max_tokens` (`devshardctl/gateway.go:248`) | x11 |
-| 10,000 | `GATEWAY_DEFAULT_MAX_TOKENS` in the join template, used when a request has no `max_tokens`; the cap does not apply to it | x27 |
-| 32,768 | the lowest output limit any OpenRouter provider sets for DeepSeek-V4-Flash-0731 (most allow 384,000 or more) | x85 |
-| 131,072 | the output limit Z.AI and MiniMax set for GLM-5.3-Flash and MiniMax-M2.7 on OpenRouter | x337 |
-| 179,910 | MiniMax-M2.7 context (180,000) minus the prompt | x462 |
-| 399,910 | GLM-5.3-Flash context (400,000) minus the prompt | x1026 |
+| `max_tokens` | where it comes from | paid vs. honest | output claim vs. the output bound (about 1,400 bytes received) |
+|---|---|---|---|
+| 4,096 | `RequestMaxTokensCap`, the cap on an explicit `max_tokens` (`devshardctl/gateway.go:252`) | x11 | 4,096 > 2,800, challenged |
+| 10,000 | `GATEWAY_DEFAULT_MAX_TOKENS` in the join template, used when a request has no `max_tokens` | x27 | challenged |
 
-Rows above 10,000 need a raised `GATEWAY_MAX_TOKENS_CAP` or the operator's admin key, which bypasses the cap. Every OpenRouter provider of these three models allows more than 10,000, so the caps are likely to go up, and the multiplier grows with them.
+The input side of the example, `InputTokens = 350`, is one token per request byte and passes any byte bound; what it can take is bounded by the request's bytes, about x4 of the honest input here, and that is what stays for replay.
 
-The existing checks don't cover this:
+<details><summary>Higher caps: x85 and x337</summary>
 
-- #1444 rejects under-reported accounting, not over-reported.
-- #1757 and #1794 (both open) make the invalidation SPRT count only sampled passes. Even with both merged and the flag on, a host that inflates a small share of its answers stays under the SPRT and keeps the money. Take 100 answers worth 1 each, 10 of them inflated at x1026, with 10% of answers sampled:
+| `max_tokens` | where it comes from | paid vs. honest | output claim vs. the output bound |
+|---|---|---|---|
+| 32,768 | the lowest output limit any OpenRouter provider sets for DeepSeek-V4-Flash-0731 | x85 | challenged |
+| 131,072 | the output limit Z.AI and MiniMax set for GLM-5.3-Flash and MiniMax-M2.7 on OpenRouter | x337 | challenged |
+
+Rows above 4,096 need a raised `GATEWAY_MAX_TOKENS_CAP` for an explicit `max_tokens`, or a higher `GATEWAY_DEFAULT_MAX_TOKENS`: the default is not capped (`capOutputTokens`, `devshardctl/request_filters.go:321-330`). Every OpenRouter provider of these models allows more than 10,000.
+
+</details>
+
+A catch on replay costs the executor that payment and one `Invalid`, which feeds the invalidation SPRT; a participant marked INVALID loses collateral and is removed from groups. That deters a host that inflates often. One that inflates a small share can stay under the SPRT. Take 100 answers worth 1 each, 10 of them inflated at x337, with the chain default sampling:
 
 ```mermaid
 flowchart LR
     A["100 answers, honest price 1 each"] --> H["90 honest: paid 90"]
-    A --> I["10 inflated at x1026"]
-    I --> S["about 1 sampled at 10%: unpaid"]
-    I --> U["about 9 not sampled: 9 x 1026 = 9,234"]
-    H --> T["paid 9,324 instead of 100: x93"]
+    A --> I["10 inflated at x337"]
+    I --> S["about 1 sampled at 10%: unpaid, one Invalid"]
+    I --> U["about 9 not sampled: 9 x 337 = 3,033"]
+    H --> T["paid 3,123 instead of 100: x31"]
     U --> T
 ```
 
-- #1763 (draft) would cap the reservation at the model's context length. That lowers the ceiling, but the claim below it stays unchecked.
+#1757 and #1794 (both open) change what the SPRT counts as a pass, not this arithmetic. #1763 (draft) lowers the ceiling to the model's context, and the claim below it stays unchecked.
 
-### Paths I see
+### After #2003, a cut stream and a full Finish are normal
 
-1. **Keep it statistical and raise the penalty**, for example a strike for an inflated count found on replay. The penalty has to be large. Today a catch costs the executor only that inference's payment (the invalidation refunds it), so at a 10% sampling rate inflating by more than about 11% already pays. To make it unprofitable, each catch has to cost about nine times the overpayment: for an answer billed at x1026, about 9,200 honest payments. The money is there, for example as a debt against the epoch reward, the way a negative `CoinBalance` is already recovered at settlement (`x/inference/keeper/bitcoin_rewards.go`). But a penalty that large has to be right every time: a false catch costs an honest host far more than it earned, so each disputed replay becomes a conflict.
-2. **A count vote without GPU, started by the gateway.** It would work like `MsgErrorMiss` (#1652): the gateway sends the signed Finish, the request and the served body. The voters check the request against `prompt_hash` from Start and the body against `ServedHash` (#1829), then count input and output with the model's renderer on CPU. Both counts are needed: the state machine caps only the sum (`checkFinishLocked`, `state/machine.go:1306`), so an executor that reports an honest output and an inflated `input_tokens` still gets the whole reservation. If the majority finds either claim above its count by more than a tolerance, the executor loses the payment. That is the whole consequence: an inflated claim that the gateway can count earns nothing, so there is nothing to gain from it and no penalty to argue about, and an honest executor within the tolerance loses nothing. For voters to agree, the tolerance is a protocol constant per model, not a node setting. A voter that can't count, because it has no renderer for the model or the renderer fails, abstains. Each voter logs the claims it rejects, per gateway, so we can see how often gateways file false ones before deciding what to do about it.
-3. **Paid validation on request.** The user or the gateway pays for a replay, optionally with a signed claim. This is the user-paid path in `VALIDATION_PROTOCOL_PROPOSAL.md`, and it covers more than token counts. I'm still working this one out and will follow up on it separately; it doesn't block path 2.
+#2003 runs the normal execution path detached from the request (`transport/inference.go:219-222`, `host/host.go:1267-1270`), and the proxy reads the stream to the end after the client leaves (`cmd/devshardd/inference/proxy.go:95`). An honest host now signs a full Finish after a cut, and the Finish reaches the gateway from the executor's mempool on its next response (`user/session.go:1195-1208`). So the gateway can't treat "I received less than you claim" as a fault on its own, with or without #1574. Execution or storage can still fail, so a Finish isn't guaranteed either.
 
-Path 2 step by step:
+### What starts a challenge
+
+The gateway counts no tokens and fetches nothing. It knows the bytes of the request it sent and the bytes of the text it received, and it already knows whether the stream binds to the Finish. One formula for both counts: a claim is challenged when it is above `F × (bytes + allowance)`, with F = 2. For the output the bytes are the text received and the allowance is a few bytes for special tokens, the longest `stop` entry and the tool-call markup; for the input the bytes are the request's and the allowance is what the chat template adds. Below, "the output bound" and "the input bound" mean these two. The gateway challenges in three cases:
+
+1. **The stream doesn't bind to the Finish (PR 1).** Either it was cut before `[DONE]`, or it was complete and the hash the gateway computed over it matches neither hash the Finish carries: `ServedHash` for a stream with logprobs stripped, `ResponseHash` when the client asked for logprobs and the executor forwarded its stored copy as is (`judgeServedBinding`, `user/served_binding.go:119-126`, the check the gateway runs today). After #2003 a cut followed by a full Finish is normal for an honest host, and the gateway holds no signed body, so only the voters can settle it. Today a mismatch is only a local strike against the host (`devshardctl/served_binding.go:23-40`). What the voters can settle on a cut stream is the body's consistency with the Finish: that it exists, hashes to what was signed, and its counts match. They can't see what the gateway received, so an executor that streams a short text, cuts, and stores a different, self-consistent long body passes them. That case gets a raised replay probability instead (PR 3). In this design the gateway hands the voters nothing but the inference id: the executor's signed Finish is what the stored body is held against.
+2. **`output_tokens` above the output bound (added in PR 2).** Every token except special ones like EOS decodes to at least one byte of text (the one other exception is a byte-fragment token of a broken UTF-8 sequence that the detokenizer drops; the vocabulary counts are in the measurements below, and F = 2 covers them), so an honest `output_tokens` can't exceed the bytes of text the gateway received plus the allowance: a few bytes for the special tokens, the longest `stop` entry in the request (cut from the text but counted) and the model's tool-call markup. The text is every string field of `delta` on choice 0 except known metadata: `content`, the reasoning field under whichever name the engine build gives it (`reasoning` or `reasoning_content`), `tool_calls[].function.name` and `.arguments`, decoded as UTF-8, not JSON-escaped. A stream padded with lines that carry no content adds no bytes, so it fails here.
+3. **`input_tokens` above the input bound (added in PR 2).** The request's bytes are the raw JSON, never shorter than the text the chat template renders from it, so the bytes cover the messages and the allowance covers what the template adds: its own tokens and the default system prompt. The allowance depends on what the request carries, since the template renders `tools`, `response_format` and the reasoning settings its own way (the tools block alone is about 1 KB of template text on the models measured), and on tool calls in the history, which the template renders as the engine saw them; it is measured per model, like the output tolerances. Input and output have one price (`tokenCost`, `state/machine.go:42-51`), so without this bound an executor would report an honest output and move the rest of the reservation into the input.
+
+Where this sits in the gateway:
+
+1. The bytes are counted on the lines the gateway already forwards, in the pass it already makes: every forwarded event goes through `raceWriter.Write` into `scanSSEChunk` (`devshardctl/redundancy.go:1779-1781`, `sse_chunk.go:46-75`), and the count reads the `delta` fields there, so it costs no second decode and needs neither a model nor a tokenizer. The raw line length won't do: one token travels in about 200 bytes of SSE JSON, so a bound on raw bytes would pass any claim, and padding lines would count.
+2. The bounds are coarse on purpose, and F = 2 is why. No honest text is denser than one token per byte (the vocabularies have single-byte tokens; the special tokens are in the allowance), so F = 1 is already a bound and F = 2 is the working figure, a margin of two. In tokens that means about x10 for English prose at 4.8 bytes a token, x3 for hex and base64 at 1.5. Bytes can't decide anything finer, and they don't have to: the bound only picks what goes to the voters and never rejects a claim by itself. Inflation under the bound stays with replay, as today.
+
+<details><summary>Gateway cases: the counts wait for the Finish, a client that leaves, the gateway's own cancel, tool calls, images</summary>
+
+1. The counts wait for the Finish next to the stream hashes, which already wait for it with a retention of twice the execution timeout (`waitingReceivedStream`, `user/served_binding.go`), because the Finish may arrive later through the executor's mempool.
+2. A client that leaves isn't a cut. After the client disconnects the gateway reads the executor's stream to `devshard_meta`, for up to 40 minutes (`DEVSHARD_META_DRAIN_TIMEOUT_SECONDS`, `devshardctl/proxy.go:36-42`, `withMetaDrain` at `:129`). A cut at the gateway is the executor's or the network's.
+3. A cut the gateway made itself isn't one either: a losing speculative attempt cancelled past `SecondaryWaitAfterWinner` may sign an honest Finish later, and it is not challenged.
+4. Tool calls are not a special case at the gateway. An honest output cut by `max_tokens` inside a non-string tool argument has no byte bound: the engine's parser holds the value back and drops it on the cut, so the claim can be far above the served bytes. The gateway challenges it like any other claim above the bound, and the voters settle it exactly by positions, which the parser never touches (it only splits text, and with `return_token_ids` every chunk is kept). The honest host passes, at the price of one fetch and one count. Excluding the shape at the gateway would hand an inflating executor a free pass, since `finish_reason` and the claim are both its own.
+5. Images are. A request with non-text parts such as `image_url` passes request validation (`common/completionapi/request.go:134-140`), and image tokens aren't bounded by the URL's bytes, so the input bound doesn't apply to it. Today's models are text-only and the engine refuses such a request, so there is no Finish to inflate; for a vision model the input of such requests stays with replay, which counts the prompt on the GPU. The output bound applies to them as to any answer.
+
+</details>
+
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant G as Gateway
+    participant E as Executor
+    participant V as Voters
+    G->>G: request bytes
+    G->>E: request (prompt_hash in the Start)
+    E-->>G: stream lines (logprobs stripped unless the client asked)
+    G-->>C: stream lines
+    G->>G: hash each line, add its content bytes
+    E-->>G: signed Finish: input_tokens, output_tokens, ServedHash, ResponseHash<br/>(now, or later through the mempool)
+    alt the gateway cancelled the stream itself (losing speculative attempt)
+        Note over G: not a challenge
+    else the stream didn't bind: cut before [DONE],<br/>or complete and matching neither hash (PR 1)
+        G->>V: VerifyChallenge(inference id, STREAM_UNBOUND)
+    else output_tokens above the output bound,<br/>or input_tokens above the input bound (PR 2)
+        G->>V: VerifyChallenge(inference id, OUTPUT_ABOVE_BYTES or INPUT_ABOVE_BYTES)
+    else bound and within both bounds
+        Note over G: no challenge,<br/>normal replay sampling applies
+    end
+```
+
+### PR 1: the challenge protocol
+
+The shape already exists: `MsgErrorMiss` (#1652) is a gateway-started verdict on a Finished inference that no MLNode touches. The gateway asks every host over an RPC, each host checks the evidence locally and returns a signed vote, the gateway puts the votes into one tx in its next diff, and the state machine counts them above `VoteThreshold` (`VerifyErrorMiss`, `host/timeout.go:416-470`; `applyErrorMiss`, `state/machine.go:1670-1735`; `MsgErrorMiss`, `proto/devshard/v1/tx.proto:67-76`). PR 1 adds the same path with a different question and a different outcome. Working names:
+
+1. **RPC `VerifyChallenge`** on `SessionService` next to `VerifyErrorMiss` (`proto/devshard/transport/v1/session.proto:157`). The request carries `inference_id` and the gateway's `reason` (`STREAM_UNBOUND` in PR 1; the byte bounds come with PR 2) and nothing else: no body, no evidence from the gateway. The host answers with a signed `ChallengeVote`.
+2. **Fetch and verify hashes.** As in `VerifyErrorMiss`: the record is Finished, the Finish is in the state or in the local mempool and carries the executor's signature. Then, unlike `VerifyErrorMiss`, the host fetches the request and the body from the executor, the way replay validators already get them (`fetchPayloadsFromExecutor`, `cmd/devshardd/inference/validate.go:91`; the voter is a group member, which is what the executor checks, `session/manager.go:1891-1894`), retrying over a window, and checks the three hashes as replay does (`verifyFetchedPayloadHashes`, `validate.go:166-177`: prompt against `PromptHash`, body against `ResponseHash`, the body with logprobs stripped against `ServedHash`). Nothing in this path calls a model.
+3. **Signed vote.** `ChallengeVoteContent{escrow_id, inference_id, fault, check, deviation, response_hash}`, signed under its own domain tag like `ErrorMissVoteContent` (`diff.proto:124-131`), so a vote can't be replayed as another kind. `fault` is an enum, not a bool: `NONE`, `PAYLOAD_UNAVAILABLE`, `HASH_MISMATCH`, and from PR 2 `USAGE_INFLATED`. A vote with `NONE` is a valid vote: it says the checks this host could run found no fault, and nothing about a check it skipped. `check` names the test that failed (hash, positions, rendered output, rendered input) and `deviation` is the claim minus the count, both inside the signed content, so the diff log shows by how much and on which check an executor lost a payment, and a vote can't be reused with another story.
+4. **`MsgChallenge{inference_id, votes[]}`**, a new `DevshardTx` oneof member after `error_miss = 14` (`diff.proto:40`). Applied like `applyErrorMiss`: Finished only, one vote per address, signature recovered and matched to the slot, weight by slot count, the executor's own slots don't vote (#1573). Faults of any kind are summed into one tally, since each says the executor's claim doesn't hold; above `VoteThreshold` the record turns Invalidated with the existing effects: `Balance += ActualCost`, `hs.Invalid++`, `hs.Cost -= ActualCost` (`resolveChallengeTalliesLocked`, `state/machine.go:1487-1500`). Below the threshold the record stays Finished and paid; the tx is still applied, so the votes are on the diff log and PR 3 can act on them. An executor holding half the slots or more leaves the rest unable to reach the threshold, so no challenge against it can pass; `MsgErrorMiss` has the same limit today.
+```mermaid
+sequenceDiagram
+    participant G as Gateway
+    participant H as Each host (voter)
+    participant E as Executor
+    participant S as State machine (all hosts)
+    G->>H: VerifyChallenge(inference_id, reason)
+    H->>H: record Finished, Finish signed by the executor<br/>(state or local mempool)
+    alt a vote is already kept for this inference
+        H-->>G: that vote, as is
+    else no vote yet
+        H->>E: fetch request and body, retried over a window anchored at the Finish
+        H-->>G: PENDING while the fetch is open,<br/>the gateway asks again later
+        alt unreachable for the window, or body gone
+            H-->>G: ChallengeVote(fault = PAYLOAD_UNAVAILABLE), signed
+        else PromptHash, ResponseHash or ServedHash don't match
+            H-->>G: ChallengeVote(fault = HASH_MISMATCH), signed
+        else matches (PR 2 counts here)
+            H-->>G: ChallengeVote(fault = NONE), signed
+        end
+    end
+    G->>S: MsgChallenge(inference_id, votes) in the next diff
+    S->>S: one vote per address, signatures, weights, executor excluded
+    Note over S: PR 3: challenged mark,<br/>whatever the tally
+    alt faults above VoteThreshold
+        S->>S: Invalidated: payment back to the escrow, hs.Invalid++ (SPRT)
+    else
+        S->>S: stays Finished, paid
+    end
+```
+
+<details><summary>PR 1 in detail: votes over RPC, limits, fetch faults, the seal, one verdict per inference, versioning, settlement, reuse, observability, no Finish at all</summary>
+
+1. **Why RPC votes, not votes in the hosts' mempools.** Hosts' mempool txs reach the state only with the diffs the gateway writes when it has traffic. Collected over RPC, the votes ride in the gateway's next diff, like `MsgErrorMiss`, so a quiet escrow still settles the challenge.
+2. **Limits.** The gateway isn't trusted, so a cap on its side limits nothing; what protects the hosts from a gateway that challenges everything is their own per-peer RPC budget, which already exists: `VerifyChallenge` gets `RPCWeightVerify` like `VerifyTimeout` and `VerifyErrorMiss` (`transport/rpc_weights.go:33-35`; 6,000 weight a minute per peer, `transport/rpc_limits.go:15`), plus the one verdict per inference below. A challenge by itself costs the executor nothing and can't hurt an honest host: its only effects are the voters' fetch and count, and, with PR 3, the raised replay probability. Making a challenge cost the gateway something (a fee, a stake, a budget in the escrow) is out of scope here.
+3. **When a failed fetch is the executor's fault.** The replay path already has the rules, and the voters reuse them (`executorFaultVerdict`, `cmd/devshardd/inference/validator.go:260-300`; `classifyPayloadFetchError`, `validate.go:286-308`): a body reported gone is a fault only while the escrow's epoch is inside the executor's retention (phase at most the escrow epoch plus one), later it is an honest prune. A body too large is a fault. A peer not ready is retried, not a fault. One difference from replay: on a challenge the whole group fetches the same body right after the Finish, not spread out as sampling is, so a 429 inside the window isn't a fault here, while replay counts it after one retry. The window also has to outlast an executor restart: minutes rather than one attempt, as a parameter. With a short window a deploy would turn every open challenge into a `PAYLOAD_UNAVAILABLE` tally at once, a burst of `Invalid` for an honest host. A host whose own network dropped both cuts the stream and fails the fetch, so the window has to outlast its reconnect too.
+4. **The seal.** A Finished record is sealed once `stateClock - ConfirmedAt` reaches `InferenceSealGraceSeconds + ExecutionTimeout` (`state/seal.go:619-621`; the chain default for the grace is 3,600 s, `inference-chain/x/inference/types/params.go:144`), and `applyErrorMiss` rejects a sealed inference (`state/machine.go:1673`). `MsgChallenge` does the same. So the fetch window plus the diff interval has to stay under `InferenceSealGraceSeconds`, which minutes against an hour do; the challenge never holds the seal, since a gateway must not be able to keep records live on its own. The raised replay probability of PR 3 works while the record is live, as sampling does today.
+5. **One verdict per inference.** A host fetches and counts once per inference and keeps the signed vote; a repeated `VerifyChallenge` for the same inference gets the same vote back, so a gateway can't make the group refetch, and can't collect vote sets until one of them crosses the threshold. The fetch window is anchored at the Finish, not at the gateway's request, so a late challenge doesn't reopen it. The window is minutes while one verify RPC is bounded by the peer client's 3 m `VerifyTimeout` (`transport/client.go:311`), so `VerifyChallenge` answers `PENDING` until the host's fetch settles, and the gateway asks again later; the kept verdict makes the repeat cheap. In the state machine a `MsgChallenge` below the threshold is applied, not rejected as `applyErrorMiss` rejects an insufficient `MsgErrorMiss` (`ErrInsufficientVotes`): the votes stay on the diff log, and in PR 3 the mark is its effect. A second `MsgChallenge` for the same inference is applied as a no-op.
+6. **Protocol version.** A new tx type and RPC change the state root, so this ships as a new `DevshardStateRootAndProtocolVersion` (`types/domain.go:12`, `v6` today) and a new approved version on chain. Sessions bind to a version path (`/devshard/{version}/sessions/...`, `docs/upgrade.md`), so a `v6` host never sees `MsgChallenge`, and an escrow runs on one version. The escrow creator picks the version by the path of its first request (`docs/upgrade.md`), so the protection covers the escrows whose payer chose the new version, and a host on another protocol binary refuses to sign for them.
+7. **Settlement.** `DevshardSettlementHostStats` has `invalid` (`inference-chain/proto/.../devshard_escrow.proto:42`) and the SPRT reads it as today: an `Invalid` from a challenge is a failure of the same weight as one from a replay. A `NONE` verdict adds nothing: it checks the count on a CPU, not the answer, and it must not count as a pass, or a gateway in league with an executor could challenge everything it serves and fill `validated` without an MLNode (with #1757 and #1794 the passes come from sampled replays only, capped by the sampling rate). PR 1 doesn't change the chain proto; a per-fault counter can be added later if the SPRT should weigh them differently.
+8. **Reuse.** Empty-stream detection (#1841, #1823; PR A of #2043 covers the same case as a `MsgErrorMiss` verifier rule) is a `VerifyChallenge` with its own reason, `EMPTY_STREAM`: a receipt the executor signed, then a stream that ended with no content. The voters already hold the receipt: it is in the state as the executor's signature under `MsgConfirmStart` (`checkReceiptLocked`, `state/machine.go:1268`), with the Finish next to it. The voters' rule is the same fetch: the fault is `EMPTY_STREAM` when the stored body is missing or has no content either, `NONE` when the executor holds a real body (then the gateway's stream was cut; with PR 3 the raised replay probability applies).
+9. **Observability.** The gateway counts challenges by reason and executor, and the share that ended `NONE`, which is its false-challenge rate. A Finish that arrives after the gateway's retention window (`waitingReceivedStream`, twice the execution timeout plus the buffer, kept in memory and lost on a gateway restart) is logged as unchecked rather than left to stand silently. The voters count votes by fault and renderer abstentions. The chain can tell a challenge `Invalid` from a replay `Invalid` only with the per-fault counter above.
+
+Only a Finished inference can be challenged. If the connection drops and no Finish ever arrives, the inference ends on the timeout path as today (`TIMEOUT_REASON_EXECUTION` from Started, `TIMEOUT_REASON_REFUSED` from Pending, `state/machine.go:1596-1606`), and nothing is paid, so there is no count to dispute. The exception is a record still Started at the session's drain: it is settled at its full reservation with no Finish at all (`settleLiveRecordLocked`, `state/machine.go:1761-1772`), which is what #2064 is about; a challenge can't reach it either, since there is no Finish to hold the executor to. If the Finish arrives later through the executor's mempool, it brings the executor's own `MsgConfirmStart` with it (`host/host.go:1024-1035`), and the challenge works as in the cut rows above.
+
+</details>
+
+### PR 2: the count
+
+PR 2 adds the two byte bounds to the gateway as reasons (`OUTPUT_ABOVE_BYTES`, `INPUT_ABOVE_BYTES`) and the counting to the host's `VerifyChallenge` check, between the hash check and the vote. The host counts on every challenge, whatever the reason: a cut stream with a sound body and an inflated claim is caught here too.
+
+1. **Positions**, exact. The stored body keeps one logprobs position per generated token, even when the executor strips them for the gateway (`cmd/devshardd/inference/execute.go:115`, `:138`; `common/completionapi/responseprocessor.go:115-136`). `len(logprobs.content)` against `output_tokens` with a tolerance of 3, counted directly rather than through `GetEnforcedTokens`, which skips a position without `top_logprobs` (`common/completionapi/completionresponse.go:111`) and would come out short for an honest executor.
+2. **Rendered output.** The served view of the body goes through the model's renderer and the count is compared with `output_tokens` within a measured tolerance: a fixed part for EOS and reasoning markers, the longest `stop` entry when the request has `stop`, the model's tool-call markup per call and per argument present in the body, and a relative part for a sampled text that re-tokenizes shorter than the model emitted it (whitespace runs, repeated characters). This catches a body whose positions were made up to match a short text. For the cut inside a non-string tool argument the renderer abstains and positions decide.
+3. **Rendered input.** One render call on the request gives the input count, compared with `input_tokens` within the per-model allowance. The renderer has to be the pinned build for the model: a voter without a working renderer, or on another build, abstains on the render parts and still votes on positions.
+4. Any of the three above its threshold: `fault = USAGE_INFLATED`, with the check and the deviation in the vote.
+5. Measured so far: the gap table below, on three models. Still to measure before PR 2, on the builds the hosts run: F, the relative part of the output tolerance, and the input allowance per model.
 
 ```mermaid
 sequenceDiagram
     participant G as Gateway
-    participant V as Voters
-    participant E as Executor
-    participant R as Replay
-    G->>G: recount what it served to the client, the claim is above it
-    alt the stream is bound to ServedHash
-        G->>V: signed Finish, request, served body
-        V->>V: request against prompt_hash, count input and output
-        Note over V: a voter without a working renderer abstains
-        alt the majority finds either claim above its count + tolerance
-            V->>V: executor loses the payment
-        else within tolerance
-            V->>V: payment stands
+    participant H as Each host (voter)
+    participant R as Renderer on the host (CPU)
+    G->>H: VerifyChallenge(inference_id, any reason)
+    Note over H: PR 1 checks passed:<br/>Finish, fetch, three hashes
+    H->>H: len(logprobs.content) vs output_tokens<br/>(tolerance 3)
+    alt renderer missing, or not the pinned build
+        Note over H: render checks skipped
+    else renderer available
+        alt the body is cut inside a non-string tool argument
+            Note over H: rendered output skipped,<br/>positions decide
+        else any other shape
+            H->>R: render the served view of the fetched body
+            R-->>H: count, vs output_tokens<br/>(measured tolerance)
         end
-    else the stream was cut or doesn't bind
-        G->>V: signed Finish, request
-        V->>E: fetch the stored body, retried over a window of minutes
-        alt the body is gone or too large, or every fetch in the window fails
-            Note over V,E: a fault, the executor loses the payment
-        else the body comes back
-            E-->>V: body, checked against ServedHash
-            V->>V: request against prompt_hash, count input and output
-            Note over V: a voter without a working renderer abstains
-            alt the majority finds either claim above its count + tolerance
-                V->>V: executor loses the payment
-            else the count matches the claim
-                Note over V,R: an honest full answer and a made-up body of the same length look alike
-                V->>R: hand on to a replay, budget per executor
-            end
-        end
+        H->>R: render the fetched request
+        R-->>H: count, vs input_tokens<br/>(per-model allowance)
     end
+    alt any claim above its count + tolerance
+        H-->>G: ChallengeVote(USAGE_INFLATED, check, deviation), signed
+    else no fault in the checks performed
+        H-->>G: ChallengeVote(NONE), signed
+    end
+    Note over G,H: then MsgChallenge and the tally as in PR 1
 ```
 
-### Cost of the count in path 2
+<details><summary>PR 2 in detail: the renderer build per model, and the measurements behind the thresholds</summary>
 
-The count needs the model's tokenizer and chat template, not the model. `vllm launch render <model>` serves exactly that: `/tokenize` and `/v1/chat/completions/render`, no weights, no GPU, no network. It starts in 22-30 s. One check is three render calls: the request, a short chat ending in the served turn, and the same chat ending in an empty turn. The first gives the input count. The difference between the other two gives the output count, so the template's own tokens around the turn cancel out.
+**The renderer** is `vllm launch render {model}` on the voter: the tokenizer and the chat template, without weights or a GPU. It has to be the build the hosts run. MiniMax-M2.7 and DeepSeek-V4-Flash hosts run the Gonka vLLM fork at 0.25.1, which changes neither parsers, templates nor tokenizers, so the stock CPU image counts the same. GLM-5.3-Flash hosts run the fork's `release/v0.28.0-glm53`, which stock vLLM doesn't support and which has no CPU build: the fork's `Dockerfile.cpu` needs `TARGETARCH` declared in the `triton-cpu` stage, and `vllm launch render` needs prefix caching off on CPU. I have both fixes; they go with PR 2. A host whose renderer is down still votes on positions and abstains on the render parts. The renderer build is pinned per model next to the engine build the hosts run, and a voter whose renderer is another build abstains on the render parts rather than voting with it: replay already exempts a 78-79 token input gap between two DeepSeek-V4-Flash formatter versions (`handleDeepSeekFormatterException`, `common/validation/validation.go`), and with the input checked on every challenge a split like that would be a wave of `USAGE_INFLATED` on whoever updated first or last. A chat template update ships with the renderer build; until it does, the input check is off for that model. The input tolerance is per model, measured like the output one.
 
-CPU per check, counted from the render server's own processes (how it was measured is below the table):
+CPU per check with the renderer, three render calls (the request, the served assistant turn, and an empty assistant turn whose count is the template's own tokens, subtracted from the served turn), counted from the render server's processes:
 
-| Model | CPU per check, short answer (101-179 input, 316-348 output tokens) | CPU per check, long answer (6.8-7.7k input, 2.1-2.3k output) | Memory |
+| Model | Short answer (101-179 input, 316-348 output tokens) | Long answer (6.8-7.7k input, 2.1-2.3k output) | Memory |
 |---|---|---|---|
 | DeepSeek-V4-Flash, vLLM 0.28.0 | 2.5-2.8 ms | 12.4-14.3 ms | 1.3-1.5 GB |
 | MiniMax-M2.7, vLLM 0.28.0 | 3.3-4.0 ms | 13.1-14.1 ms | 1.2 GB |
 | GLM-5.3-Flash, Gonka vLLM fork | 3.1-3.3 ms | 11.3-13.0 ms | 5.6 GB |
 
-That is about 250-400 short or 70-90 long checks per second per core. One process uses at most 1.1-1.4 cores however many it is given, so it scales by running more processes.
+False positives of the voters' render. The renderer sees text, not token ids, so the rendered count can differ from an honest claim. I checked the cases offline, with no weights and no GPU, on DeepSeek-V4-Flash and MiniMax-M2.7 (stock CPU images of vLLM 0.25.1 and 0.28.0, which give the same results; DeepSeek-V4-Flash on 0.25.1 is one token lower throughout) and GLM-5.3-Flash (a CPU build of the Gonka vLLM fork the GLM hosts run). "Gap" is the claim minus the count.
 
-<details><summary>How it was measured</summary>
+How the cases were built: the generated output is the model's own chat template rendering of an assistant turn, served through vLLM's real parsers (the `Parser.parse_delta` path, with `finished` on the last token), and counted with `/v1/chat/completions/render` for the whole served turn. Stop strings go through vLLM's own stop check (`check_stop_strings`) on the decoded text. For the cut cases I cut the output at every position.
 
-CPU time is `utime + stime` of the render server's processes from `/proc`, for one render process with 1 or 4 CPUs allowed, 15 s per point, 1 to 16 requests in flight, 0 errors. The load client ran in the same container, so throughput from these runs would read low; the table counts the server processes only.
-
-</details>
-
-The gateway would count every answer it serves. The voters count only the answers a claim names, and add one SHA-256 of the body. For comparison, a replay runs the model on a GPU over the whole input and output.
-
-### False positives for path 2
-
-The gateway sees text, not token ids, so path 2 compares the claim with a recount, and an honest executor can come out above it. I checked the cases offline, with no weights and no GPU, on DeepSeek-V4-Flash and MiniMax-M2.7 (stock CPU images of vLLM 0.25.1 and 0.28.0, which give the same results; DeepSeek-V4-Flash on 0.25.1 is one token lower throughout) and GLM-5.3-Flash (a CPU build of the Gonka vLLM fork the GLM hosts run). "Gap" is the claim minus the count.
-
-<details><summary>How the cases were built</summary>
-
-The generated output is the model's own chat template rendering of an assistant turn, served through vLLM's real parsers (the `Parser.parse_delta` path, with `finished` on the last token), and counted with `/v1/chat/completions/render` for the whole served turn. Stop strings go through vLLM's own stop check (`check_stop_strings`) on the decoded text. For the cut cases I cut the output at every position.
-
-</details>
-
-| Case | Status | Gap seen | Limit | Proposed handling |
+| Case | Status | Gap seen | Limit | Tolerance part |
 |---|---|---|---|---|
 | Full answer (EOS is counted but not in the text) | in the tolerance | +2 on all three models | constant | fixed allowance of 8 tokens |
-| Stop string: its tokens are counted, the text is cut before it | in the tolerance | the stop string's tokens, plus -3 to +4 | the longest `stop` entry. The gateway allows 16 entries of 256 bytes; one entry of 256 bytes is 19-55 tokens of English or Russian words, around 100 of Cyrillic without spaces and up to 238 of random characters | add the token count of the longest `stop` entry from the request |
-| Cut by `max_tokens` outside a tool call | in the tolerance | -1 to +3 | constant | fixed allowance |
-| Cut inside the opening tool-call markup, before the function name | in the tolerance | up to +14 (DeepSeek), +9 (MiniMax), 0 (GLM) | the length of the markup header | per-model allowance |
-| Cut inside a string argument (schema type exactly `string`) | in the tolerance | within +8 after the JSON is repaired | small: the parser streams strings as they are generated | fixed allowance |
-| Tool call the renderer can't take even after repair: `arguments` not JSON, a JSON array, an object instead of a string, no `function` | handled by a rule | no count at all | n/a | treat it as a fault, not a gap: the vLLM parsers for these three models build `arguments` with `json.dumps` of a dict (`vllm/parser/deepseek_v4.py`, `minimax_m2.py`, `glm47_moe.py`), so an honest host can't produce it. This has to be rechecked for every model added |
-| Non-streamed upstream: the parser drops the tail of an unfinished call | handled by a rule | the dropped tail | unbounded, up to `max_tokens` | count only answers the gateway received as a stream, which is its default |
+| Stop string: its tokens are counted, the text is cut before it | in the tolerance | the stop string's tokens, plus -3 to +4 | the longest `stop` entry (the gateway allows 16 entries of 256 bytes) | the token count of the longest `stop` entry of the request, when it has one |
+| Cut by `max_tokens` outside a tool call | in the tolerance | -1 to +3 | constant | the fixed allowance |
+| Cut inside the opening tool-call markup, before the function name | in the tolerance | up to +14 (DeepSeek), +9 (MiniMax), 0 (GLM) | the length of the markup header | per-model allowance, per call present in the body |
+| Cut inside a string argument (schema type exactly `string`) | in the tolerance | within +8 after the JSON is repaired | small: the parser streams strings as they are generated | the fixed allowance |
+| Tool call the renderer can't take even after repair: `arguments` not JSON, a JSON array, an object instead of a string, no `function` | handled by a rule | no count at all | n/a | a fault, not a gap: the vLLM parsers for these three models build `arguments` with `json.dumps` of a dict (`vllm/parser/deepseek_v4.py`, `minimax_m2.py`, `glm47_moe.py`), so an honest host can't produce it. Rechecked for every model added |
+| Non-streamed upstream: the parser drops the tail of an unfinished call | handled by a rule | the dropped tail | unbounded, up to `max_tokens` | the output bound applies only to answers the gateway received as a stream, which is its default |
 | `skip_special_tokens` | handled by a rule | 0: same counts with `true` and `false` | n/a | none needed; the tool and reasoning markup is not in `all_special_tokens` |
-| Renderer build differs from the host's engine | handled by a rule | any, input included: replay already exempts a 78-79 token input gap between old and new DeepSeek-V4-Flash formatters (`handleDeepSeekFormatterException`, `common/validation/validation.go`) | unbounded | run the same vLLM build as the hosts, built for CPU (see below) |
-| Cut inside any other argument (object, array, number, or a string that may be null) | open | grows by one per token; +23 to +24 on a 24-token object | unbounded, up to `max_tokens` | open, see below |
-| Non-canonical tokenization during sampling | open | grows with length | not measured | a relative allowance, to be set from logged traffic |
-| Constrained decoding (`response_format`, guided JSON) | open | grows with length | not measured | the same, maybe a separate allowance |
+| Renderer build differs from the host's engine | handled by a rule | any, input included: replay already exempts a 78-79 token input gap between old and new DeepSeek-V4-Flash formatters (`handleDeepSeekFormatterException`, `common/validation/validation.go`) | unbounded | the renderer build pinned per model; a voter on another build abstains on the render parts |
+| Cut inside any other argument (object, array, number, or a string that may be null) | handled by a rule | grows by one per token; +23 to +24 on a 24-token object | unbounded, up to `max_tokens` | none: the parser holds the value back and drops it on a cut, so the renderer abstains on this shape and positions decide |
+| Non-canonical tokenization during sampling | open | grows with length | not measured | the relative part of the tolerance, to be set from logged traffic before PR 2 |
+| Constrained decoding (`response_format`, guided JSON) | open | grows with length | not measured | the same relative part, maybe its own, measured before PR 2 |
+| Vocabulary entries that decode to nothing on their own (byte fragments, specials) | gateway side | 50 of MiniMax-M2.7's 200,054, 1,230 of DeepSeek-V4-Flash's 129,280, 18 of GLM-5.3-Flash's 154,856 | n/a | covered by F = 2 at the gateway |
 
-Put together, the tolerance for a claim is 8 tokens, plus the token count of the longest `stop` entry in the request, plus the model's tool-call header (14 for DeepSeek-V4-Flash, 9 for MiniMax-M2.7, 0 for GLM-5.3-Flash), plus a relative part to be set from logged traffic. The cut inside a non-string argument is not covered by it.
+One `stop` entry of 256 bytes is 19-55 tokens of English or Russian words, around 100 of Cyrillic without spaces and up to 238 of random characters.
 
-The cut inside a non-string argument is the one case without a bound. vLLM streams a tool argument value early only when the schema types its key exactly as `string`. Any other value (an object, an array, a number, a string that may be null) is held back until it closes, and on a cut it is never sent. On MiniMax-M2.7 and GLM-5.3 the served arguments then end exactly at `"name": `, and the schema in the request, which `prompt_hash` binds, shows that `name` isn't typed exactly as a string, so voters can check that shape. On DeepSeek-V4 the served arguments come out as a closed object without that key, which looks the same as a finished call that left an optional parameter out. I see three ways to handle it:
+Put together, the tolerance for an output claim is 8 tokens, plus the token count of the longest `stop` entry when the request has one, plus the model's tool-call header per call present (14 for DeepSeek-V4-Flash, 9 for MiniMax-M2.7, 0 for GLM-5.3-Flash), plus a relative part to be set from logged traffic. The cut inside a non-string argument is outside it: there the renderer abstains and positions decide.
 
-| Option | MiniMax, GLM | DeepSeek | Hosts update | What stays open |
+</details>
+
+### PR 3: a challenged inference is replayed more often
+
+PR 1 settles what the voters can check and PR 2 adds the count. What neither reaches, a stored body made up to match its claim or a tool-call cut the voters had to pass, gets to an MLNode only on a validator's own sampling. PR 3 makes a challenged inference more likely to be picked, without forcing any host.
+
+1. **Challenged mark.** `MsgChallenge` marks the record, a new field, whatever the tally; a second `MsgChallenge` for a marked record is applied as a no-op. The mark is not the `Challenged` status, which this design doesn't use.
+2. **`ChallengedValidationRate`.** Sampling is per host: each host draws `deterministicHash(seed, inference_id)` with its own seed and compares it with `ValidationRate` (`ShouldValidate`, `state/validation.go:80-89`; the seed is derived from the host's signer and the escrow, `host/host.go:176`), so the executor can't tell who will replay. For a record with the challenged mark the predicate uses a higher rate, `ChallengedValidationRate`, a new session config field in basis points next to `ValidationRate` (`types/domain.go:149`). Each host rechecks the same hash against the higher threshold, so the hosts that already owed the replay keep owing it and more join: at the chain default of 10% a rate of 50% would make a challenged inference five times as likely to be replayed. The value is open. The owed set is maintained at each record write (`installOwedValidations`, `host/host.go:306-318`), and applying `MsgChallenge` is such a write. This is how a cut stream with a self-consistent stored body, or a tool-call cut the voters had to pass, still gets to an MLNode more often than an unchallenged inference, without any host being forced.
+3. **Why not `Challenged`.** That status makes every host owe a replay (`OwedValidation`, `state/validation.go:107-109`), which is the MLNode path on every host at once. A mandatory replay still starts only from a validator's own signed invalid vote; a gateway signal only moves the odds.
+
+### What each case comes to
+
+An honest executor never loses a payment. The gateway's bound sits at twice the bytes, so an honest claim is challenged in one case only, and there the voters confirm it.
+
+| Honest executor | Gateway | Voters | Payment | Replay |
 |---|---|---|---|---|
-| a. No vote on this shape. Count it per host, and hosts with many such answers go to replay first | narrow: only this shape qualifies | doesn't apply: the shape can't be seen | no | up to `max_tokens` on such answers until a replay lands |
-| b. As a, plus a check of the stored body: the logprobs tail has to continue the served text and decode to the start of a JSON value | as a, and a careless fake is caught without a GPU | doesn't apply, same reason | no | more work in each vote, and the body has to be fetched; a well-formed fake still needs a replay |
-| c. Fix it in the engine: on `finished`, send the held value as it is | the case goes away, the gap is back within the fixed allowance | the case goes away | yes: a vLLM change, upstream or in the fork the hosts run | nothing: once generation has ended, coercion can't change the value any more, so the prefix invariant isn't at risk |
+| full stream | both claims within their bounds, stream bound | not called | stands | sampled |
+| stream cut by the network (normal after #2003) | stream not bound to the Finish (STREAM_UNBOUND), the Finish arrives on the diff | hashes match, counts match | stands | raised (PR 3) |
+| cut by `max_tokens` inside a non-string tool argument | output claim above the output bound | positions match the claim, render skipped | stands | raised (PR 3) |
 
-<details><summary>Where this happens in vLLM</summary>
+An executor that inflates loses the payment and takes an Invalid when a check reaches the claim. What no check reaches stays for replay, with a raised probability (PR 3) where the gateway saw a signal.
 
-vLLM 0.25.1 and 0.28 hold the value back because "type coercion may change its serialised form between ticks, which would violate the `startswith(prev)` prefix invariant" (`_safe_arg_prefix`, `vllm/parser/engine/parser_engine.py`). The final flush (`_append_unstreamed_tool_args`) doesn't send it either. DeepSeek-V4's argument converter drops a value it can't parse yet (`_dsml_arg_converter`, `vllm/parser/deepseek_v4.py`).
-
-</details>
-
-The renderer refuses a turn whose tool-call arguments are unfinished JSON (HTTP 400), so a cut inside a call gets no count at all. Each voter closes the JSON with `partial_json_parser` before rendering, as part of the count, so the repair is pinned together with the renderer build: all 95 refused turns rendered after it.
-
-`finish_reason` comes from the executor, so the cut cases can't be excluded by `finish_reason = length`: that is what an executor inflating to `max_tokens` would send anyway.
-
-Voters need a CPU build of the engine the hosts run, and none is published. MiniMax-M2.7 and DeepSeek-V4-Flash hosts run MLNode 3.0.16 by default, i.e. the Gonka vLLM fork at 0.25.1. That fork only changes sampling and replay, not the parsers, chat templates or tokenizers, so the stock `vllm/vllm-openai-cpu:v0.25.1` image counts the same way. GLM-5.3-Flash hosts run MLNode 3.1.0-post3, built from the fork's `release/v0.28.0-glm53`, a pre-release 0.28 snapshot that stock vLLM doesn't support (`glm5_next`). The MLNode images are CUDA-only, and the fork's CPU build needs two fixes before render starts (below). The chain pins `hf_commit` and `model_args` per model but not the engine build. So the release would need to pin the build and ship a CPU render image next to each MLNode image.
-
-<details><summary>Building the GLM-5.3-Flash renderer for CPU</summary>
-
-`vllm launch render` from MLNode 3.1.0-post3 stops with `Failed to infer device type`. The fork's `docker/Dockerfile.cpu` doesn't build as is, because the `triton-cpu` stage checks `$TARGETARCH` without declaring it. I built the vLLM wheel alone and installed it on the stock 0.28.0 CPU image. Render then also needs prefix caching off in the config that `vllm launch render` builds (a two-line change in `vllm/entrypoints/cli/launch.py`). Without it, the CPU platform turns the cache off after the hybrid model has already sized its blocks for it, and startup fails.
-
-</details>
-
-### When the gateway doesn't hold the signed body
-
-Path 2 needs bytes that hash to what the executor signed. An executor can avoid handing them over by cutting the stream: it sends part of the answer, drops the connection and signs a Finish with `output_tokens = max_tokens`. The Finish still reaches the gateway through the executor's mempool on its next response (`user/session.go:1027-1040`). The gateway holds only a prefix, the hash doesn't match, and the voters refuse, the same way `MsgErrorMiss` fails closed on a cancelled speculative attempt.
-
-On `devshard-0.2.x-v6` (`2f825877d`) an honest host doesn't sign a Finish after a cut: generation runs in the request's context, so the cut aborts it and the inference goes to the timeout path. #1574 proposes to keep generation running after a cut (#1466 items 2 and 3). With that, a cut followed by a full Finish becomes normal, so the claim alone still can't be treated as a fault.
-
-<details><summary>Where this is in the code</summary>
-
-The normal path runs the model in the request's context (`RunExecution`, `transport/inference.go:211`). Only `ChallengeReceipt` executes detached (`executeAsync`, `host/host.go:2080`), and only for a record that is still pending.
-
-</details>
-
-The same applies to a losing speculative attempt that the gateway cancels: past `SecondaryWaitAfterWinner`, on the winner's hard timeout or when the client leaves. A loser that ends within `SecondaryWaitAfterWinner` is read to the end and checked like any other answer.
-
-The executor already hands its stored body to any host in the group. Replay validators fetch it with `fetchPayloadsFromExecutor` (`cmd/devshardd/inference/validate.go`). The executor checks only group membership and the request signature (`authenticatePayloadAuth`, `cmd/devshardd/session/manager.go`), and the validator checks the body against `PromptHash`, `ResponseHash`, and `ServedHash` after stripping logprobs (`verifyFetchedPayloadHashes`). Voters can do the same. A failed fetch follows the same rule as in replay: a session that isn't ready, a cancelled request, or a body gone after the epoch window means no vote; anything else counts as a fault, the body gone within the window, too large, a bad response, and also a connection lost in the middle of the fetch (`classifyPayloadFetchError`, `cmd/devshardd/inference/validate.go`; `executorFaultVerdict`, `cmd/devshardd/inference/validator.go`). Path 2 shouldn't take this rule as it is. A cut stream and an unreachable host often go together: a host whose network drops cuts the client's stream, the gateway files a claim, and the voters all come for the body while the host is still down, so the majority votes a fault against an answer it served in full. In replay today one such vote only makes the inference challenged, and the validators that come later find the host back; in path 2 the whole group fetches at the same moment. A claim doesn't need an answer within seconds, so a voter can retry the fetch over a window of minutes (replay retries every 5 minutes, `DefaultValidationRetryInterval`, `cmd/devshardd/session/validation_retry.go`) and count a fault only when the fetch fails for the whole window, or when the executor answers that the body is gone or too large. An executor that withholds the body on purpose still gets the fault; one that dropped off for a minute doesn't. Whenever the stream doesn't bind to the signed hash, because it was cut or because its hash differs, the gateway sends the signed Finish and its claim, and each voter fetches the body from the executor and counts the served view. The gateway doesn't need to hold the body, and no same-nonce reconnect (#1574) is needed.
-
-| Executor | What the voters get | Count vote | Payment | Replay needed |
+| Inflating executor | Gateway | Voters | Payment / Invalid | Replay |
 |---|---|---|---|---|
-| honest: generation finished (before the cut today, or after it with #1574) | the signed body, full length | the count matches the claim: can't tell it from the third row | stands; the replay confirms it | yes |
-| inflating, returns a short body | the signed body, short | the claim is above the count | lost | no |
-| inflating, returns a long made-up body | the signed body, its count matches the claim | can't tell it from the first row | stands until a replay; the replay catches it, because the logprobs don't match the model | yes |
-| inflating, withholds the body | nothing | none: a fault, as replay already treats it by default (`DEVSHARD_VALIDATION_VOTE_FALSE_ON_FETCH_FAILURE`) | lost | no |
+| inflated `output_tokens`, full stream or padded with empty lines | output claim above the output bound | positions and rendered output below the claim | lost, `hs.Invalid++` | none, the record is terminal |
+| honest output, the rest of the reservation moved into `input_tokens` | input claim above the input bound | rendered input below the claim | lost, `hs.Invalid++` | none, the record is terminal |
+| cuts, or streams one text and signs another, then withholds the body | stream not bound to the Finish (STREAM_UNBOUND), the Finish arrives on the diff | nothing for the whole window | lost, `hs.Invalid++` | none, the record is terminal |
+| cuts and stores a body that isn't the signed one | stream not bound to the Finish (STREAM_UNBOUND), the Finish arrives on the diff | hashes don't match | lost, `hs.Invalid++` | none, the record is terminal |
+| streams a short text, cuts, stores a self-consistent long body and signs it | stream not bound to the Finish (STREAM_UNBOUND), the Finish arrives on the diff | hashes match, counts match the stored body | stands | raised (PR 3) |
+| inflation under the byte bounds | within the bounds | not called | stands | sampled |
+| made-up long text with positions to match, including a real answer padded with whitespace or filler that the renderer counts honestly | within the bounds | not called; would pass if challenged | stands | sampled |
+| inflated input on a request with image parts (a vision model, none today) | input bound not applied | the input render can't count images | stands | sampled |
 
-An honest host can land in the last row too, if its stored body is lost (`stored response read failed`, `host/host.go:1243-1252`). It then loses that one payment, as it would on a replay today, and nothing more. Who pays for the replay in the first and third rows is left out of this issue; in the current network no validator is paid for a replay anyway: `applyValidation` only tallies the votes, and an invalidation refunds the executor's payment to the escrow (`resolveChallengeTalliesLocked`, `state/machine.go:1421-1437`).
+Two different scales, then. The gateway's bound is loose, so only clear inflation costs the voters work. The voters' tolerances are tight: 3 tokens on positions (as `TokenCountInflated`), and the measured render tolerance. F and the tolerances are checked on the engines the hosts run before PR 2; a false challenge costs the voters a fetch and a count, never the executor a payment.
 
-The gateway asks for a check, not a replay. In the second and last rows the check settles it on CPU. Only a long body that matches the claim needs a replay, honest or made up, and today one happens only when a validator's own sampling picks the inference; there is no message to ask for it. The check would hand that case on to a replay, with a message that is part of the protocol changes I'll propose, and such replays are worth more than random ones: a random replay mostly checks honest answers, while this one checks exactly an answer whose stream didn't bind. They need a budget, since each costs the group a full GPU pass, and once generation outlives a cut (#1574) a gateway could cut honest streams to produce them. A cap isn't enough on its own, per escrow or per executor: an executor can fill its own share with honest answers whose streams it cut itself, which pass the replay and stay counted, and then inflate without being checked. So cut streams have to cost the executor something even when the replay passes, for example by counting them per host and sending hosts with many of them to replay first, outside the cap.
+<details><summary>Related issues and PRs</summary>
 
-<details><summary>Example: filling the cap</summary>
-
-Say the cap is 4 open replay requests, and confirmed inflations don't count against it. Executor X:
-
-1. Generates 4 answers in full and honestly, and signs each Finish with the honest count, say 2,000 tokens. It streams only the first 100 tokens to the client and drops the connection.
-2. The gateway sees a claim of 2,000 against 100 received and starts a check.
-3. The voters fetch X's stored body. It is long and matches the claim, the first row of the table above, which the voters can't tell from the third, so only a replay can settle it. The gateway asks for one.
-4. The replay passes: the answer is honest. Nothing is confirmed, so the request stays counted. X loses nothing; it is paid for an honest 2,000.
-5. The cap is full. X now serves long made-up bodies with inflated claims. The gateway sees them but can't ask for a replay.
-
-X doesn't need #1574 to cut its own stream, and today a cut leaves no local mark at all. A per-executor cap only stops X from using up the budget of the other executors in the escrow; X fills its own share the same way.
+- #1444: reject under-reported accounting on the host (a-kuprin, merged)
+- #1466: better devshardd inference handling (a-kuprin, open)
+- #1573: the executor can vote in its own challenge (iceiceic3, open)
+- #1574: same-nonce stream reconnect and host ML drain (a-kuprin, open)
+- #1652: streamed host and ML errors as misses, `MsgErrorMiss` (a-kuprin, merged)
+- #1757: count only sampled passes in the invalidation SPRT (zpoken, open)
+- #1763: cap the reservation at the model's `max_model_len` (qdanik, draft)
+- #1794: SPRT pass counts per protocol version (a-kuprin, open)
+- #1808: per-chunk stream signatures (tcharchian, open)
+- #1823: under PoC challenge load the host returns an empty stream (tcharchian, open)
+- #1829: signed `served_hash` in Finish (qdanik, merged)
+- #1841: stream chunk signatures and empty-stream detection (tcharchian, open)
+- #2003: queued diff writes; execution survives a cut (a-kuprin, merged)
+- #2043: signed stream checkpoints and empty-stream misses, proposal (Ryanchen911, draft)
+- #2064: bound the execution-timeout ChallengeReceipt by the verify budget (cyberdelamain, open)
 
 </details>
 
-An executor that streams one text in full and signs `ServedHash` of another is the same case: the stream doesn't bind, the voters fetch the signed body, and the table above applies. Signed stream chunks (#1808) would make the mismatch a proof by itself.
+@Ryanchen911, on open question 4 of #2043: the voters here take nothing from the gateway but the inference id. The receipt they do need, and it is already in the state as the executor's signature under `MsgConfirmStart`; the body is held against the signed Finish. So this design most likely has no use for signed chunks, and the empty-stream case of your PR A is the `EMPTY_STREAM` reason of PR 1 here.
 
-### Rollout
+@a-kuprin, this is the split you asked for. Please check that I have it right:
 
-I'm going to start with path 2. I'll propose the concrete protocol changes (the message, the host stats fields, the protocol version) once it's implemented, with a draft PR. Before I start, I'd like to hear whether path 2 is a direction you'd accept, and what I've missed in the cases above.
-
-Related:
-- #1444 — reject under-reported accounting on the host (merged)
-- #1466 — better devshardd inference handling (open)
-- #1574 — same-nonce stream reconnect and host ML drain (open)
-- #1652 — count streamed host and ML errors as misses, `MsgErrorMiss` (merged)
-- #1757 — count only sampled passes in the invalidation SPRT (open)
-- #1763 — cap the reservation at the model's `max_model_len` (draft)
-- #1794 — SPRT pass counts per protocol version (open)
-- #1808 — per-chunk stream signatures (open)
-- #1829 — bind the gateway stream to `MsgFinishInference` with a signed `served_hash` (merged)
+1. The protocol part is PR 1: the gateway starts a challenge with no invalid vote from a validator, and no step of it touches an MLNode. Anything that needs an MLNode still starts only from a validator's own signed invalid vote; PR 3 only moves the odds of that sampling for a challenged inference.
+2. Token counting is PR 2, on top of PR 1, so PR 1 can be reused for empty-stream detection (#1841) as it is: the `EMPTY_STREAM` reason in the PR 1 details.
+3. The count runs on the escrow's hosts, on a CPU, from the per-token positions the executor's MLNode already produced plus the model's own renderer; the gateway has no tokenizer and no extra load. The only thing left on the gateway is the byte count on the lines it already forwards, which is what starts a usage challenge in PR 2.
 
 </div>
 

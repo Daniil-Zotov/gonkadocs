@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-19T20:03:24.260333+00:00",
+  "snapshot_time": "2026-10-19T23:50:26.274242+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4166,7 +4166,7 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: executor-reported output tokens set the payment and are checked only on sampled replays\n    <span class=\"issues-number\">#2000</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "4f909757727624690c0b141a903efd0beee7b124be2d5e462617799ae6ad08eb"
+      "checksum": "a2c16681183bc85a44e32e67600a2b3187d1562ce0d59d9cf437fe385c245a61"
     },
     "02011-bug-wrong-report-for-long-running-poc-status.md": {
       "title": "#2011 — [BUG] Wrong report for long running POC status",

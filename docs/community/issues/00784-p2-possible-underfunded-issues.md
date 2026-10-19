@@ -2,7 +2,7 @@
 title: "#784 — [P2] Possible underfunded issues"
 source: https://github.com/gonka-ai/gonka/issues/784
 issue_number: 784
-synced_at: 2026-10-19T20:01:53Z
+synced_at: 2026-10-19T23:49:01Z
 template: issues-main.html
 ---
 
