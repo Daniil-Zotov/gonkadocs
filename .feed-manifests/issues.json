@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-19T01:27:28.062451+00:00",
+  "snapshot_time": "2026-10-19T06:23:22.882684+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4113,10 +4113,12 @@
     "01965-bug-incomplete-json-clock-timestamps-produce-a-false-diverge.md": {
       "title": "#1965 — [BUG] Incomplete JSON clock timestamps produce a false divergence sample",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Incomplete JSON clock timestamps produce a false divergence sample\n    <span class=\"issues-number\">#1965</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/EazyHood\">@EazyHood</a> opened 2026-10-09 21:02 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "ad1eb28bc1b18c50093960f6c0d4c0e76ce40f3af739a78b41f5bb331132860e"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Incomplete JSON clock timestamps produce a false divergence sample\n    <span class=\"issues-number\">#1965</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/EazyHood\">@EazyHood</a> opened 2026-10-09 21:02 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></",
+      "comment_checksum": "efe2fe5f132a43af18b4477968e1759061a27802d922ddf5ebcfa04267f965f6",
+      "comment_bodies": [
+        "Starting work on this, ETA 1 to 2 days."
+      ],
+      "checksum": "9d2da37490ed80d7bd445631472ce87c2269d1698748b4b46ba15879cfcb1382"
     },
     "01968-v0217-pay-the-two-stuck-epoch-418-bridge-records-with-one-sh.md": {
       "title": "#1968 — v0.2.17: Pay the two stuck epoch-418 bridge records, with one shared active-weight check",

@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261019062320_38232a6a",
+    "timestamp": "2026-10-19T06:23:20.512366+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1965 — [BUG] Incomplete JSON clock timestamps produce a false divergence sample",
+      "url": "/community/issues/01965-bug-incomplete-json-clock-timestamps-produce-a-false-diverge/",
+      "file": "01965-bug-incomplete-json-clock-timestamps-produce-a-false-diverge.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Incomplete JSON clock timestamps produce a false divergence sample\n    <span class=\"issues-number\">#1965</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/EazyHood\">@EazyHood</a> opened 2026-10-09 21:02 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Incomplete JSON clock timestamps produce a false divergence sample\n    <span class=\"issues-number\">#1965</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/EazyHood\">@EazyHood</a> opened 2026-10-09 21:02 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></"
+    },
+    "ai_description": "Issue #1965 on incomplete JSON clock timestamps now has a new comment. This bug can create false divergence samples, which is a real concern for data accuracy in our network — worth a look if you've seen similar timestamp issues. A community member has weighed in with additional context on the thread. Check out the discussion to understand the impact better."
+  },
+  {
     "id": "evt_20261019053339_98ad3406",
     "timestamp": "2026-10-19T05:33:39.339570+00:00",
     "section": "gonka_docs",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Make sure Bitfury community sale works: IBC\n    <span class=\"issues-number\">#924</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:20 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-t"
     },
     "ai_description": "Issue #924 has been closed after confirming that the Bitfury community sale works correctly over IBC. This P0 priority fix ensures the cross-chain transfer path is reliable, which is critical for keeping community sales accessible and trustless. Thanks to @tcharchian for driving this to resolution. Well done, everyone."
-  },
-  {
-    "id": "evt_20260910183639_1ab2c9d1",
-    "timestamp": "2026-09-10T18:36:39.608229+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#925 — Bridge normalization issue",
-      "url": "/community/issues/00925-bridge-normalization-issue/",
-      "file": "00925-bridge-normalization-issue.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bridge normalization issue\n    <span class=\"issues-number\">#925</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-03-20 23:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
-    },
-    "ai_description": "Issue #925 \"Bridge normalization issue\" has been added and already closed, opened by @tcharchian with no comments. This signals a quick resolution of a reported problem with bridge normalization, likely a minor fix that keeps the network running smoothly. Keep an eye out for more details if a follow-up discussion emerges."
   }
 ]
