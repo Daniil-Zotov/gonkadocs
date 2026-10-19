@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261019224328_b9e742bc",
+    "timestamp": "2026-10-19T22:43:28.848110+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Bounty program",
+      "url": "/gonka/docs/bounty-program/",
+      "file": "bounty-program.md"
+    },
+    "details": {
+      "content_before": "# Bounty program\n\nGonka runs two programs:\n\n| Program | What it is | Where |\n|---|---|---|\n| **Bug bounty** | Private vulnerability reports. Paid after triage, by severity. | [HackerOne](report-vulnerability.md) |\n| **Contributor rewards** | Public protocol work: fixes, improvements, tooling. Paid from the community pool after governance. | [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/) |\n\nYou do not need to be a Host.\n\nThis page is a practical guide. It is **not a promise of payout**. For vulnerabilities, the HackerOne program terms are authoritative. For protocol work, Hosts approve amounts on-chain. Both processes can evolve.\n\n## Contributor rewards\n\nPublic work on the protocol: discuss, ship, then Hosts approve a payout on-chain.\n\nWork in the open in [`gonka-ai/gonka`](https://",
+      "content_after": "# Bounty program\n\nGonka runs two programs:\n\n| Program | What it is | Where |\n|---|---|---|\n| **Bug bounty** | Private vulnerability reports. Paid after triage, by severity. | [HackerOne](report-vulnerability.md) |\n| **Contributor rewards** | Public protocol work: fixes, improvements, tooling. Paid from the community pool after governance. | [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/) |\n\nYou do not need to be a Host.\n\nThis page is a practical guide. It is **not a promise of payout**. For vulnerabilities, the HackerOne program terms are authoritative. For protocol work, Hosts approve amounts on-chain. Both processes can evolve.\n\nPast payouts are public. See [who was paid, for what, and when](#where-payouts-are-recorded).\n\n## Contributor rewards\n\nPublic work on the protocol: discus"
+    },
+    "ai_description": "The bounty program docs now explicitly note that past payouts are public, with a direct link to see who was paid, for what, and when. This adds transparency for contributors considering protocol work. Check the referenced section to review the payout history before diving in.The bounty program docs now highlight that past payouts are public, with a direct link to see who was paid, for what, and when. This added transparency helps contributors gauge realistic rewards before investing time in protocol work. Check the referenced section for full payout history."
+  },
+  {
     "id": "evt_20261019210006_9fb6ef6f",
     "timestamp": "2026-10-19T21:00:06.208768+00:00",
     "section": "discussions",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards` rewards (research)\n    <span class=\"issues-number\">#914</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-18 10:43 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span cla"
     },
     "ai_description": "New research issue #914 on devshards rewards has been closed after gathering three comments. The task was to investigate how rewards should be structured for devshards, a key piece for aligning incentives in the network. Closing this signals the research phase is wrapped up, so the community can now move toward concrete implementation. Thanks to @dcastro for driving this forward."
-  },
-  {
-    "id": "evt_20260910183639_a6ffb408",
-    "timestamp": "2026-09-10T18:36:39.608194+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#922 — Proposal: Agent identity and delegation governance for Gonka compute",
-      "url": "/community/issues/00922-proposal-agent-identity-and-delegation-governance-for-gonka-/",
-      "file": "00922-proposal-agent-identity-and-delegation-governance-for-gonka-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Proposal: Agent identity and delegation governance for Gonka compute\n    <span class=\"issues-number\">#922</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aeoess\">@aeoess</a> opened 2026-03-20 00:42 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
-    },
-    "ai_description": "New proposal #922 from @aeoess introduces a governance framework for agent identity and delegation within Gonka compute, now closed for discussion. This matters because it lays the groundwork for how agents will be authenticated and authorized to act on behalf of users, a key step for trust in decentralized inference. The community can look forward to clearer rules on delegation, which should strengthen accountability across the network."
   }
 ]
