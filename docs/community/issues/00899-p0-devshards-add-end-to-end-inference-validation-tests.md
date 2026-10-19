@@ -2,7 +2,7 @@
 title: "#899 — [P0] `devshards`: Add end-to-end inference validation tests"
 source: https://github.com/gonka-ai/gonka/issues/899
 issue_number: 899
-synced_at: 2026-10-19T13:37:36Z
+synced_at: 2026-10-19T20:01:58Z
 template: issues-main.html
 ---
 
