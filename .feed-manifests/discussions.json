@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-19T15:31:56.934950+00:00",
+  "snapshot_time": "2026-10-19T21:00:09.844740+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -193,6 +193,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2059](https://github.com/gonka-ai/gonka/discussions/2059) every hour. \n\n# Proposal #74: Gonka Labs - Monthly Report No.4\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-19 11:34 UTC · \n\n---\n\n## 📝 Описание\n\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7796a968-8c9b-4156-9aab-3acbede4dfca\" />\n\nHey! Gonka Labs here.  \nLast updates: [Report No.1](https://github.com/gonka-ai/gonka/discussions/1477) (Jul 18), [Report No.2](https://github.com/gonka-ai/gonka/discussions/1612) (Aug 18), and [Report No.3](https://github.com/gonka-ai/gonka/discussions/1815) (Sep 19).  \nOn June 12 the community passed [Proposal #74](https://gonka",
       "checksum": "13044153d7dcf97b6fa9eebbeb7e0407b56ff46491a157f5cf606594b4d151a4"
+    },
+    "governance-proposal-reports/2062-external-test-lab-community-devnet-m3-report.md": {
+      "title": "#2062 — External Test Lab & Community DevNet — M3 Report",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2062](https://github.com/gonka-ai/gonka/discussions/2062) every hour. \n\n# External Test Lab & Community DevNet — M3 Report\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-19 17:14 UTC · \n\n---\n\n## 📝 Описание\n\n**Proposal:** [#82](https://inference.dahl.global/gonka-governance/82/) ([discussion](https://github.com/gonka-ai/gonka/discussions/1388)).\n\n## Executive summary\n\nMonth 3 brought Community DevNet back into usable operation after the September consensus incident and expanded its role as an independent release-testing environment. Work covered Host JOIN and recovery, protocol upgrades, DevShard deployment, real inference, broker compatibility, and monitoring.\n\nThe",
+      "checksum": "a537472539e19b4da0a16676f8941ef5044eb5426eec17826e5e3b4aae98d320"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "#795 — Welcome to Proposals 👋",

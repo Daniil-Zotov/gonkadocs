@@ -3,14 +3,14 @@ title: "#1764 — Proposal #82: External Test Lab & Community DevNet — M2 Repo
 source: https://github.com/gonka-ai/gonka/discussions/1764
 discussion_number: 1764
 category: governance-proposal-reports
-synced_at: 2026-10-19T15:31:07Z
+synced_at: 2026-10-19T20:59:38Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1764](https://github.com/gonka-ai/gonka/discussions/1764) every hour. 
 
 # Proposal #82: External Test Lab & Community DevNet — M2 Report
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-13 12:16 UTC · **Обновлено:** 2026-09-13 12:16 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-13 12:16 UTC · **Обновлено:** 2026-10-19 18:35 UTC
 
 ---
 

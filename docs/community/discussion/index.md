@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **111**. Обновлено: `2026-10-19 15:31 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **112**. Обновлено: `2026-10-19 21:00 UTC`.
 
 ## 📂 Категории
 
@@ -13,7 +13,7 @@ title: "GitHub Discussions"
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 10 |
 | [:speech_balloon: General](general/index.md) | 7 |
-| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 14 |
+| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 15 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 49 |
 | [:interrobang: Q&A](q-a/index.md) | 5 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 25 |
@@ -22,6 +22,8 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1764](governance-proposal-reports/1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | [Proposal #82: External Test Lab & Community DevNet — M2 Report](governance-proposal-reports/1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | :bookmark_tabs: Governance Proposal Reports | [@paranjko](https://github.com/paranjko) | 2026-10-19 |
+| [2062](governance-proposal-reports/2062-external-test-lab-community-devnet-m3-report.md) | [External Test Lab & Community DevNet — M3 Report](governance-proposal-reports/2062-external-test-lab-community-devnet-m3-report.md) | :bookmark_tabs: Governance Proposal Reports | [@paranjko](https://github.com/paranjko) | 2026-10-19 |
 | [2059](governance-proposal-reports/2059-proposal-74-gonka-labs-monthly-report-no4.md) | [Proposal #74: Gonka Labs - Monthly Report No.4](governance-proposal-reports/2059-proposal-74-gonka-labs-monthly-report-no4.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-10-19 |
 | [1996](q-a/1996-current-funded-performance-work-after-1914-journal-changes.md) | [Current funded performance work after #1914 journal changes](q-a/1996-current-funded-performance-work-after-1914-journal-changes.md) | :interrobang: Q&A | [@zileria354-ship-it](https://github.com/zileria354-ship-it) | 2026-10-14 |
 | [1990](protocol-improvements/1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md) | [BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens of Protected Data](protocol-improvements/1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md) | :gear: Protocol Improvements | [@nikolay2828](https://github.com/nikolay2828) | 2026-10-13 |
@@ -36,9 +38,7 @@ title: "GitHub Discussions"
 | [1825](ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md) | [Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026](ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md) | :jigsaw: Ecosystem | [@JetterHSC](https://github.com/JetterHSC) | 2026-09-23 |
 | [1818](ecosystem/1818-marketing-committee-operations-reddit-contributor-pilot.md) | [Marketing Committee — Operations & Reddit Contributor Pilot](ecosystem/1818-marketing-committee-operations-reddit-contributor-pilot.md) | :jigsaw: Ecosystem | [@petkomain-tech](https://github.com/petkomain-tech) | 2026-09-21 |
 | [1388](protocol-improvements/1388-external-test-lab-community-devnet.md) | [External Test Lab & Community DevNet](protocol-improvements/1388-external-test-lab-community-devnet.md) | :gear: Protocol Improvements | [@paranjko](https://github.com/paranjko) | 2026-09-13 |
-| [1764](governance-proposal-reports/1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | [Proposal #82: External Test Lab & Community DevNet — M2 Report](governance-proposal-reports/1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | :bookmark_tabs: Governance Proposal Reports | [@paranjko](https://github.com/paranjko) | 2026-09-13 |
 | [1748](protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | [Dynamic devshard: per-escrow BLS DKG (NIZK dealings, on-chain T0)](protocol-improvements/1748-dynamic-devshard-per-escrow-bls-dkg-nizk-dealings-on-chain-t.md) | :gear: Protocol Improvements | [@akup](https://github.com/akup) | 2026-09-11 |
 | [1685](protocol-improvements/1685-devshard-load-testing.md) | [Devshard Load Testing](protocol-improvements/1685-devshard-load-testing.md) | :gear: Protocol Improvements | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-09-10 |
 | [1747](general/1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe.md) | [Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026](general/1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe.md) | :speech_balloon: General | [@sultee](https://github.com/sultee) | 2026-09-10 |
 | [1742](governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](governance-proposal-reports/1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | :bookmark_tabs: Governance Proposal Reports | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |
-| [1589](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | [Bring GNK and Gonka to the Ledger Ecosystem](ecosystem/1589-bring-gnk-and-gonka-to-the-ledger-ecosystem.md) | :jigsaw: Ecosystem | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |
