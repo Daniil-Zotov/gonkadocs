@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-20T15:16:24.019291+00:00",
+  "snapshot_time": "2026-10-20T19:25:48.014578+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4170,7 +4170,7 @@
         "@a-kuprin a question for PR 2: which vLLM build is the reference? Hosts don't run one image. hardware_nodes for the epoch 430 members, nodes in INFERENCE: MLNode vLLM code nodes 3.1.0, 3.1.0-post3 gonka-ai/vllm 71ee49c4d (release/v0.28.0-glm53) on a 0.28 dev base 123 3.0.16 fork 6e9684a17 on vLLM 0.25.1 11 4.0.0-sigma1, 3.1.0-post3-pfrun0 release/v0.30-decode-int on vLLM 0.30.0 15 3.0.14, 0.2.0, 3",
         "@cyberdelamain Thanks, confirmed. With logit_bias +100 on a single-byte fragment, the stream detokenizer emits nothing on all three models, so an honest empty answer would be voted USAGE_INFLATED. I'm preparing tests on fixtures built from the real tokenizers and parsers of the builds the hosts run. They will cover this case and others like it. Your review will be welcome when I open the PR."
       ],
-      "checksum": "76a8ce7b246c90bd91f86350ae524740c285e589dc6f3ba5449e741274e1ae2f"
+      "checksum": "5adb8d8f6d234dd01c8b4abe94546daeef4914451b75800bc6ce11eb9a1de891"
     },
     "02011-bug-wrong-report-for-long-running-poc-status.md": {
       "title": "#2011 — [BUG] Wrong report for long running POC status",
