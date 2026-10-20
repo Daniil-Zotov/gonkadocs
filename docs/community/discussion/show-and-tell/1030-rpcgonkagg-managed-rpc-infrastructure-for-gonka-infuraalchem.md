@@ -3,14 +3,14 @@ title: "#1030 — rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Al
 source: https://github.com/gonka-ai/gonka/discussions/1030
 discussion_number: 1030
 category: show-and-tell
-synced_at: 2026-10-20T20:29:15Z
+synced_at: 2026-10-20T23:48:10Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1030](https://github.com/gonka-ai/gonka/discussions/1030) every hour. 
 
 # rpc.gonka.gg - Managed RPC Infrastructure for Gonka (Infura/Alchemy for Gonka) with opensource core
 
-**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-08 10:22 UTC · **Обновлено:** 2026-04-08 10:24 UTC
+**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-08 10:22 UTC · **Обновлено:** 2026-10-20 22:38 UTC
 
 ---
 

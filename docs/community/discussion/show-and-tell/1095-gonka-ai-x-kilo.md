@@ -3,14 +3,14 @@ title: "#1095 — Gonka AI x Kilo"
 source: https://github.com/gonka-ai/gonka/discussions/1095
 discussion_number: 1095
 category: show-and-tell
-synced_at: 2026-10-20T20:29:10Z
+synced_at: 2026-10-20T23:48:05Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1095](https://github.com/gonka-ai/gonka/discussions/1095) every hour. 
 
 # Gonka AI x Kilo
 
-**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-21 13:20 UTC · **Обновлено:** 2026-04-21 13:21 UTC
+**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-21 13:20 UTC · **Обновлено:** 2026-10-20 22:38 UTC
 
 ---
 

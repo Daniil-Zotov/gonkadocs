@@ -3,14 +3,14 @@ title: "#801 — Inference Scaling"
 source: https://github.com/gonka-ai/gonka/discussions/801
 discussion_number: 801
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:25Z
+synced_at: 2026-10-20T23:48:20Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #801](https://github.com/gonka-ai/gonka/discussions/801) every hour. 
 
 # Inference Scaling
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-25 04:29 UTC · **Обновлено:** 2026-02-28 22:49 UTC
+**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-25 04:29 UTC · **Обновлено:** 2026-10-20 23:33 UTC
 
 ---
 

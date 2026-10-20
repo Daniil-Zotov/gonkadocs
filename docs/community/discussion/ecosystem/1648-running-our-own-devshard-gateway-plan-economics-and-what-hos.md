@@ -3,14 +3,14 @@ title: "#1648 — Running our own devshard gateway — plan, economics, and what
 source: https://github.com/gonka-ai/gonka/discussions/1648
 discussion_number: 1648
 category: ecosystem
-synced_at: 2026-10-20T20:28:50Z
+synced_at: 2026-10-20T23:47:46Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1648](https://github.com/gonka-ai/gonka/discussions/1648) every hour. 
 
 # Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting
 
-**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · **Обновлено:** 2026-08-29 03:39 UTC
+**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · **Обновлено:** 2026-10-20 23:18 UTC
 
 ---
 

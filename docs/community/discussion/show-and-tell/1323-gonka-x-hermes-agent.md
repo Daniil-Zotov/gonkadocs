@@ -3,14 +3,14 @@ title: "#1323 — Gonka x Hermes Agent"
 source: https://github.com/gonka-ai/gonka/discussions/1323
 discussion_number: 1323
 category: show-and-tell
-synced_at: 2026-10-20T20:29:02Z
+synced_at: 2026-10-20T23:47:58Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1323](https://github.com/gonka-ai/gonka/discussions/1323) every hour. 
 
 # Gonka x Hermes Agent
 
-**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-08 16:12 UTC · **Обновлено:** 2026-06-08 16:12 UTC
+**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-08 16:12 UTC · **Обновлено:** 2026-10-20 22:38 UTC
 
 ---
 

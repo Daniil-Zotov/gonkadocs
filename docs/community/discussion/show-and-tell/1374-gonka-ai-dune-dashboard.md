@@ -3,14 +3,14 @@ title: "#1374 — Gonka AI Dune Dashboard"
 source: https://github.com/gonka-ai/gonka/discussions/1374
 discussion_number: 1374
 category: show-and-tell
-synced_at: 2026-10-20T20:28:59Z
+synced_at: 2026-10-20T23:47:54Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1374](https://github.com/gonka-ai/gonka/discussions/1374) every hour. 
 
 # Gonka AI Dune Dashboard
 
-**Автор:** [@genkisudo](https://github.com/genkisudo) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-29 13:30 UTC · **Обновлено:** 2026-06-29 13:31 UTC
+**Автор:** [@genkisudo](https://github.com/genkisudo) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-29 13:30 UTC · **Обновлено:** 2026-10-20 22:38 UTC
 
 ---
 

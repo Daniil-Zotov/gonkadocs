@@ -3,14 +3,14 @@ title: "#836 — Gonka-native Coding CLI"
 source: https://github.com/gonka-ai/gonka/discussions/836
 discussion_number: 836
 category: ecosystem
-synced_at: 2026-10-20T20:29:12Z
+synced_at: 2026-10-20T23:48:07Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #836](https://github.com/gonka-ai/gonka/discussions/836) every hour. 
 
 # Gonka-native Coding CLI
 
-**Автор:** [@Apha205](https://github.com/Apha205) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-02 12:01 UTC · **Обновлено:** 2026-08-05 23:04 UTC
+**Автор:** [@Apha205](https://github.com/Apha205) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-02 12:01 UTC · **Обновлено:** 2026-10-20 23:31 UTC
 
 ---
 

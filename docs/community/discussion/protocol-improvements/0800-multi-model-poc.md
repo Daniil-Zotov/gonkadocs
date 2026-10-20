@@ -3,14 +3,14 @@ title: "#800 — Multi-Model PoC"
 source: https://github.com/gonka-ai/gonka/discussions/800
 discussion_number: 800
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:11Z
+synced_at: 2026-10-20T23:48:06Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #800](https://github.com/gonka-ai/gonka/discussions/800) every hour. 
 
 # Multi-Model PoC
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-25 04:24 UTC · **Обновлено:** 2026-04-20 14:57 UTC
+**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-25 04:24 UTC · **Обновлено:** 2026-10-20 23:31 UTC
 
 ---
 

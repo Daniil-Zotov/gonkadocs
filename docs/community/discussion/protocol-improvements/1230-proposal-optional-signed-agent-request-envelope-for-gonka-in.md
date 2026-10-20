@@ -3,14 +3,14 @@ title: "#1230 — Proposal: optional signed agent request envelope for Gonka inf
 source: https://github.com/gonka-ai/gonka/discussions/1230
 discussion_number: 1230
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:05Z
+synced_at: 2026-10-20T23:48:00Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1230](https://github.com/gonka-ai/gonka/discussions/1230) every hour. 
 
 # Proposal: optional signed agent request envelope for Gonka inference
 
-**Автор:** [@aeoess](https://github.com/aeoess) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-22 17:24 UTC · **Обновлено:** 2026-05-24 03:00 UTC
+**Автор:** [@aeoess](https://github.com/aeoess) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-22 17:24 UTC · **Обновлено:** 2026-10-20 23:29 UTC
 
 ---
 

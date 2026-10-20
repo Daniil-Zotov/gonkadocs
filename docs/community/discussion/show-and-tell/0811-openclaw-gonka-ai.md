@@ -3,14 +3,14 @@ title: "#811 — 🦞 OpenClaw + Gonka AI"
 source: https://github.com/gonka-ai/gonka/discussions/811
 discussion_number: 811
 category: show-and-tell
-synced_at: 2026-10-20T20:29:16Z
+synced_at: 2026-10-20T23:48:11Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #811](https://github.com/gonka-ai/gonka/discussions/811) every hour. 
 
 # 🦞 OpenClaw + Gonka AI
 
-**Автор:** [@votkon](https://github.com/votkon) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-02-26 20:03 UTC · **Обновлено:** 2026-04-01 09:02 UTC
+**Автор:** [@votkon](https://github.com/votkon) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-02-26 20:03 UTC · **Обновлено:** 2026-10-20 22:39 UTC
 
 ---
 

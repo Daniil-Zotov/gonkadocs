@@ -3,14 +3,14 @@ title: "#870 — Gonka AI Testnet"
 source: https://github.com/gonka-ai/gonka/discussions/870
 discussion_number: 870
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:09Z
+synced_at: 2026-10-20T23:48:04Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #870](https://github.com/gonka-ai/gonka/discussions/870) every hour. 
 
 # Gonka AI Testnet
 
-**Автор:** [@Alert17](https://github.com/Alert17) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-06 17:14 UTC · **Обновлено:** 2026-05-01 15:45 UTC
+**Автор:** [@Alert17](https://github.com/Alert17) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-06 17:14 UTC · **Обновлено:** 2026-10-20 23:31 UTC
 
 ---
 

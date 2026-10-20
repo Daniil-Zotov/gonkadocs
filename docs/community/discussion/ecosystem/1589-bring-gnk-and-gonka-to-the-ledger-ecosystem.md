@@ -3,14 +3,14 @@ title: "#1589 — Bring GNK and Gonka to the Ledger Ecosystem"
 source: https://github.com/gonka-ai/gonka/discussions/1589
 discussion_number: 1589
 category: ecosystem
-synced_at: 2026-10-20T20:28:45Z
+synced_at: 2026-10-20T23:47:42Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1589](https://github.com/gonka-ai/gonka/discussions/1589) every hour. 
 
 # Bring GNK and Gonka to the Ledger Ecosystem
 
-**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · **Обновлено:** 2026-09-09 08:41 UTC
+**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-13 09:09 UTC · **Обновлено:** 2026-10-20 23:13 UTC
 
 ---
 

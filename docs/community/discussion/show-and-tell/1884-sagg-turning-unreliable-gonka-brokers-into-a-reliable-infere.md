@@ -3,14 +3,14 @@ title: "#1884 — SAGG — turning unreliable Gonka brokers into a reliable infe
 source: https://github.com/gonka-ai/gonka/discussions/1884
 discussion_number: 1884
 category: show-and-tell
-synced_at: 2026-10-20T20:28:40Z
+synced_at: 2026-10-20T23:47:37Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1884](https://github.com/gonka-ai/gonka/discussions/1884) every hour. 
 
 # SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)
 
-**Автор:** [@privatedeskai](https://github.com/privatedeskai) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-30 18:07 UTC · **Обновлено:** 2026-09-30 18:07 UTC
+**Автор:** [@privatedeskai](https://github.com/privatedeskai) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-30 18:07 UTC · **Обновлено:** 2026-10-20 22:37 UTC
 
 ---
 

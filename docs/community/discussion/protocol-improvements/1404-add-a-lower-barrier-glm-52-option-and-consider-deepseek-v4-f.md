@@ -3,14 +3,14 @@ title: "#1404 — Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Fl
 source: https://github.com/gonka-ai/gonka/discussions/1404
 discussion_number: 1404
 category: protocol-improvements
-synced_at: 2026-10-20T20:28:55Z
+synced_at: 2026-10-20T23:47:51Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1404](https://github.com/gonka-ai/gonka/discussions/1404) every hour. 
 
 # Add a lower-barrier GLM-5.2 option and consider DeepSeek-V4-Flash as the default model
 
-**Автор:** [@enonog](https://github.com/enonog) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-05 23:32 UTC · **Обновлено:** 2026-07-16 04:40 UTC
+**Автор:** [@enonog](https://github.com/enonog) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-05 23:32 UTC · **Обновлено:** 2026-10-20 23:19 UTC
 
 ---
 

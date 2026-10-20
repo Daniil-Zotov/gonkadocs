@@ -3,14 +3,14 @@ title: "#837 — High-availability / Fault-tolerance Setup"
 source: https://github.com/gonka-ai/gonka/discussions/837
 discussion_number: 837
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:25Z
+synced_at: 2026-10-20T23:48:19Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #837](https://github.com/gonka-ai/gonka/discussions/837) every hour. 
 
 # High-availability / Fault-tolerance Setup
 
-**Автор:** [@blizko](https://github.com/blizko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-02 12:38 UTC · **Обновлено:** 2026-03-03 11:47 UTC
+**Автор:** [@blizko](https://github.com/blizko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-02 12:38 UTC · **Обновлено:** 2026-10-20 23:33 UTC
 
 ---
 

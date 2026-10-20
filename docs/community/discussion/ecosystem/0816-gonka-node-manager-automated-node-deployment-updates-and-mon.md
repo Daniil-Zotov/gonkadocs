@@ -3,14 +3,14 @@ title: "#816 — Gonka Node Manager — Automated Node Deployment, Updates, and 
 source: https://github.com/gonka-ai/gonka/discussions/816
 discussion_number: 816
 category: ecosystem
-synced_at: 2026-10-20T20:29:23Z
+synced_at: 2026-10-20T23:48:17Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #816](https://github.com/gonka-ai/gonka/discussions/816) every hour. 
 
 # Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring
 
-**Автор:** [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-02-26 11:49 UTC · **Обновлено:** 2026-08-05 23:04 UTC
+**Автор:** [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-02-26 11:49 UTC · **Обновлено:** 2026-10-20 23:32 UTC
 
 ---
 

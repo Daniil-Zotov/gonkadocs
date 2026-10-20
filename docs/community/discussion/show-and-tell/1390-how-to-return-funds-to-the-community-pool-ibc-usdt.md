@@ -3,14 +3,14 @@ title: "#1390 — How to return funds to the Community Pool (IBC USDT)"
 source: https://github.com/gonka-ai/gonka/discussions/1390
 discussion_number: 1390
 category: show-and-tell
-synced_at: 2026-10-20T20:28:57Z
+synced_at: 2026-10-20T23:47:52Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1390](https://github.com/gonka-ai/gonka/discussions/1390) every hour. 
 
 # How to return funds to the Community Pool (IBC USDT)
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-03 04:52 UTC · **Обновлено:** 2026-07-03 04:52 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-07-03 04:52 UTC · **Обновлено:** 2026-10-20 22:38 UTC
 
 ---
 

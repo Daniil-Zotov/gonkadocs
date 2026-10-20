@@ -3,14 +3,14 @@ title: "#840 — Prometheus Exporter for Node Monitoring"
 source: https://github.com/gonka-ai/gonka/discussions/840
 discussion_number: 840
 category: show-and-tell
-synced_at: 2026-10-20T20:29:17Z
+synced_at: 2026-10-20T23:48:12Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #840](https://github.com/gonka-ai/gonka/discussions/840) every hour. 
 
 # Prometheus Exporter for Node Monitoring
 
-**Автор:** [@votkon](https://github.com/votkon) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-02 22:32 UTC · **Обновлено:** 2026-03-29 15:27 UTC
+**Автор:** [@votkon](https://github.com/votkon) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-02 22:32 UTC · **Обновлено:** 2026-10-20 22:39 UTC
 
 ---
 

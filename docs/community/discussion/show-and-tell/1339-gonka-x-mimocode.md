@@ -3,14 +3,14 @@ title: "#1339 — Gonka x MiMoCode"
 source: https://github.com/gonka-ai/gonka/discussions/1339
 discussion_number: 1339
 category: show-and-tell
-synced_at: 2026-10-20T20:29:02Z
+synced_at: 2026-10-20T23:47:57Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1339](https://github.com/gonka-ai/gonka/discussions/1339) every hour. 
 
 # Gonka x MiMoCode
 
-**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-12 00:29 UTC · **Обновлено:** 2026-06-12 00:29 UTC
+**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-12 00:29 UTC · **Обновлено:** 2026-10-20 22:38 UTC
 
 ---
 

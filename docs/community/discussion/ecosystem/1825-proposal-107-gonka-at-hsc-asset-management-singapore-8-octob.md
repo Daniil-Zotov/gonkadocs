@@ -3,14 +3,14 @@ title: "#1825 — Proposal #107: Gonka at HSC Asset Management Singapore, 8 Octo
 source: https://github.com/gonka-ai/gonka/discussions/1825
 discussion_number: 1825
 category: ecosystem
-synced_at: 2026-10-20T20:28:42Z
+synced_at: 2026-10-20T23:47:38Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1825](https://github.com/gonka-ai/gonka/discussions/1825) every hour. 
 
 # Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026
 
-**Автор:** [@JetterHSC](https://github.com/JetterHSC) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-09-23 12:49 UTC · **Обновлено:** 2026-09-23 13:22 UTC
+**Автор:** [@JetterHSC](https://github.com/JetterHSC) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-09-23 12:49 UTC · **Обновлено:** 2026-10-20 23:06 UTC
 
 ---
 

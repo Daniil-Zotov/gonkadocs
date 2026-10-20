@@ -3,14 +3,14 @@ title: "#1388 — External Test Lab & Community DevNet"
 source: https://github.com/gonka-ai/gonka/discussions/1388
 discussion_number: 1388
 category: protocol-improvements
-synced_at: 2026-10-20T20:28:43Z
+synced_at: 2026-10-20T23:47:39Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. 
 
 # External Test Lab & Community DevNet
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-09-13 12:23 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-02 22:04 UTC · **Обновлено:** 2026-10-20 23:07 UTC
 
 ---
 

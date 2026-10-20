@@ -3,14 +3,14 @@ title: "#802 — Continuous PoC"
 source: https://github.com/gonka-ai/gonka/discussions/802
 discussion_number: 802
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:24Z
+synced_at: 2026-10-20T23:48:19Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #802](https://github.com/gonka-ai/gonka/discussions/802) every hour. 
 
 # Continuous PoC
 
-**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-25 05:12 UTC · **Обновлено:** 2026-03-26 17:37 UTC
+**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-02-25 05:12 UTC · **Обновлено:** 2026-10-20 23:33 UTC
 
 ---
 

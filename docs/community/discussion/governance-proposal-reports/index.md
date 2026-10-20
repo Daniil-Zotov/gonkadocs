@@ -4,13 +4,13 @@ title: ":bookmark_tabs: Governance Proposal Reports"
 
 # :bookmark_tabs: Governance Proposal Reports
 
-Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **15**. Обновлено: `2026-10-20 20:29 UTC`.
+Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **15**. Обновлено: `2026-10-20 23:48 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
-| [2062](2062-external-test-lab-community-devnet-m3-report.md) | [External Test Lab & Community DevNet — M3 Report](2062-external-test-lab-community-devnet-m3-report.md) | [@paranjko](https://github.com/paranjko) | 2026-10-19 |
+| [2062](2062-external-test-lab-community-devnet-m3-report.md) | [External Test Lab & Community DevNet — M3 Report](2062-external-test-lab-community-devnet-m3-report.md) | [@paranjko](https://github.com/paranjko) | 2026-10-20 |
 | [2059](2059-proposal-74-gonka-labs-monthly-report-no4.md) | [Proposal #74: Gonka Labs - Monthly Report No.4](2059-proposal-74-gonka-labs-monthly-report-no4.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-10-19 |
 | [1920](1920-proposal-77-input-global-monthly-report-september.md) | [Proposal #77: INPUT Global - Monthly Report \|\| September](1920-proposal-77-input-global-monthly-report-september.md) | [@apakhtina](https://github.com/apakhtina) | 2026-10-19 |
 | [1919](1919-proposal-77-input-global-monthly-report-august.md) | [Proposal #77: INPUT Global - Monthly Report \|\| August](1919-proposal-77-input-global-monthly-report-august.md) | [@apakhtina](https://github.com/apakhtina) | 2026-10-19 |

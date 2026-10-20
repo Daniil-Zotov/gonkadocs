@@ -3,14 +3,14 @@ title: "#1185 — [Public Review] Gonka Network Development Roadmap"
 source: https://github.com/gonka-ai/gonka/discussions/1185
 discussion_number: 1185
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:03Z
+synced_at: 2026-10-20T23:47:58Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1185](https://github.com/gonka-ai/gonka/discussions/1185) every hour. 
 
 # [Public Review] Gonka Network Development Roadmap
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-18 15:32 UTC · **Обновлено:** 2026-05-27 20:59 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-18 15:32 UTC · **Обновлено:** 2026-10-20 23:23 UTC
 
 ---
 

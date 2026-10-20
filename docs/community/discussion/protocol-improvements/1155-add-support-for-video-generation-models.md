@@ -3,14 +3,14 @@ title: "#1155 — Add support for video generation models"
 source: https://github.com/gonka-ai/gonka/discussions/1155
 discussion_number: 1155
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:07Z
+synced_at: 2026-10-20T23:48:01Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1155](https://github.com/gonka-ai/gonka/discussions/1155) every hour. 
 
 # Add support for video generation models
 
-**Автор:** [@baygeldin](https://github.com/baygeldin) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-08 16:18 UTC · **Обновлено:** 2026-05-19 13:00 UTC
+**Автор:** [@baygeldin](https://github.com/baygeldin) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-08 16:18 UTC · **Обновлено:** 2026-10-20 23:30 UTC
 
 ---
 

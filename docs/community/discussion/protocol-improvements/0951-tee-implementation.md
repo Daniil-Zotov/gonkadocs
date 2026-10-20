@@ -3,14 +3,14 @@ title: "#951 — TEE Implementation"
 source: https://github.com/gonka-ai/gonka/discussions/951
 discussion_number: 951
 category: protocol-improvements
-synced_at: 2026-10-20T20:28:41Z
+synced_at: 2026-10-20T23:47:37Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #951](https://github.com/gonka-ai/gonka/discussions/951) every hour. 
 
 # TEE Implementation
 
-**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-26 05:10 UTC · **Обновлено:** 2026-09-29 13:06 UTC
+**Автор:** [@mtvnastya](https://github.com/mtvnastya) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-26 05:10 UTC · **Обновлено:** 2026-10-20 23:06 UTC
 
 ---
 

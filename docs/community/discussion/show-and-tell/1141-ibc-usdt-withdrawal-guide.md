@@ -3,14 +3,14 @@ title: "#1141 — IBC USDT Withdrawal Guide"
 source: https://github.com/gonka-ai/gonka/discussions/1141
 discussion_number: 1141
 category: show-and-tell
-synced_at: 2026-10-20T20:28:56Z
+synced_at: 2026-10-20T23:47:52Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1141](https://github.com/gonka-ai/gonka/discussions/1141) every hour. 
 
 # IBC USDT Withdrawal Guide
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-05-01 12:55 UTC · **Обновлено:** 2026-07-08 13:45 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-05-01 12:55 UTC · **Обновлено:** 2026-10-20 22:37 UTC
 
 ---
 

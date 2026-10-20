@@ -3,14 +3,14 @@ title: "#1008 — Token-Based Governance: Splitting Technical and Community Deci
 source: https://github.com/gonka-ai/gonka/discussions/1008
 discussion_number: 1008
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:10Z
+synced_at: 2026-10-20T23:48:05Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1008](https://github.com/gonka-ai/gonka/discussions/1008) every hour. 
 
 # Token-Based Governance: Splitting Technical and Community Decisions
 
-**Автор:** [@Alert17](https://github.com/Alert17) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-03 18:04 UTC · **Обновлено:** 2026-04-20 18:13 UTC
+**Автор:** [@Alert17](https://github.com/Alert17) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-03 18:04 UTC · **Обновлено:** 2026-10-20 23:31 UTC
 
 ---
 

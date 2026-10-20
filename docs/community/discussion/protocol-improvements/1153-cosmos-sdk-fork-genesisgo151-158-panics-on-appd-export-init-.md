@@ -3,14 +3,14 @@ title: "#1153 — cosmos-sdk fork: genesis.go:151-158 panics on `appd export →
 source: https://github.com/gonka-ai/gonka/discussions/1153
 discussion_number: 1153
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:09Z
+synced_at: 2026-10-20T23:48:04Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1153](https://github.com/gonka-ai/gonka/discussions/1153) every hour. 
 
 # cosmos-sdk fork: genesis.go:151-158 panics on `appd export → init` — mirror existing PoC skip pattern from delegation.go?
 
-**Автор:** [@vitaly-andr](https://github.com/vitaly-andr) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-08 11:47 UTC · **Обновлено:** 2026-05-08 12:14 UTC
+**Автор:** [@vitaly-andr](https://github.com/vitaly-andr) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-08 11:47 UTC · **Обновлено:** 2026-10-20 23:30 UTC
 
 ---
 

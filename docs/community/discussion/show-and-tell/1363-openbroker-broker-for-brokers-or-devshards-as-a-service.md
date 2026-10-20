@@ -3,14 +3,14 @@ title: "#1363 — OpenBroker - broker for brokers or Devshards as a service."
 source: https://github.com/gonka-ai/gonka/discussions/1363
 discussion_number: 1363
 category: show-and-tell
-synced_at: 2026-10-20T20:28:56Z
+synced_at: 2026-10-20T23:47:51Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1363](https://github.com/gonka-ai/gonka/discussions/1363) every hour. 
 
 # OpenBroker - broker for brokers or Devshards as a service.
 
-**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-23 22:18 UTC · **Обновлено:** 2026-07-09 04:25 UTC
+**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-06-23 22:18 UTC · **Обновлено:** 2026-10-20 22:37 UTC
 
 ---
 

@@ -3,14 +3,14 @@ title: "#1334 — Devshard E2E Test Automation Proposal"
 source: https://github.com/gonka-ai/gonka/discussions/1334
 discussion_number: 1334
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:01Z
+synced_at: 2026-10-20T23:47:57Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1334](https://github.com/gonka-ai/gonka/discussions/1334) every hour. 
 
 # Devshard E2E Test Automation Proposal
 
-**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-10 19:23 UTC · **Обновлено:** 2026-06-12 13:36 UTC
+**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-10 19:23 UTC · **Обновлено:** 2026-10-20 23:22 UTC
 
 ---
 

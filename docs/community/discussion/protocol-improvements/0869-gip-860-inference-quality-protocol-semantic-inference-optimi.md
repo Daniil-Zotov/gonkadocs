@@ -3,14 +3,14 @@ title: "#869 — GiP #860 — Inference Quality Protocol: Semantic Inference Opt
 source: https://github.com/gonka-ai/gonka/discussions/869
 discussion_number: 869
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:23Z
+synced_at: 2026-10-20T23:48:17Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #869](https://github.com/gonka-ai/gonka/discussions/869) every hour. 
 
 # GiP #860 — Inference Quality Protocol: Semantic Inference Optimization
 
-**Автор:** [@Mayveskii](https://github.com/Mayveskii) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-06 13:54 UTC · **Обновлено:** 2026-03-08 13:32 UTC
+**Автор:** [@Mayveskii](https://github.com/Mayveskii) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-03-06 13:54 UTC · **Обновлено:** 2026-10-20 23:32 UTC
 
 ---
 

@@ -3,14 +3,14 @@ title: "#1027 — Gonka AI x n8n"
 source: https://github.com/gonka-ai/gonka/discussions/1027
 discussion_number: 1027
 category: show-and-tell
-synced_at: 2026-10-20T20:29:15Z
+synced_at: 2026-10-20T23:48:10Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1027](https://github.com/gonka-ai/gonka/discussions/1027) every hour. 
 
 # Gonka AI x n8n
 
-**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-07 12:53 UTC · **Обновлено:** 2026-04-07 12:53 UTC
+**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-07 12:53 UTC · **Обновлено:** 2026-10-20 22:38 UTC
 
 ---
 

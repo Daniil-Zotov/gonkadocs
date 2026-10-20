@@ -3,14 +3,14 @@ title: "#944 — Gonka's support of new modalities besides text"
 source: https://github.com/gonka-ai/gonka/discussions/944
 discussion_number: 944
 category: general
-synced_at: 2026-10-20T20:29:01Z
+synced_at: 2026-10-20T23:47:56Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #944](https://github.com/gonka-ai/gonka/discussions/944) every hour. 
 
 # Gonka's support of new modalities besides text
 
-**Автор:** [@tamazgadaev](https://github.com/tamazgadaev) · **Категория:** :speech_balloon: General · **Создано:** 2026-03-25 09:47 UTC · **Обновлено:** 2026-06-15 12:35 UTC
+**Автор:** [@tamazgadaev](https://github.com/tamazgadaev) · **Категория:** :speech_balloon: General · **Создано:** 2026-03-25 09:47 UTC · **Обновлено:** 2026-10-20 23:22 UTC
 
 ---
 

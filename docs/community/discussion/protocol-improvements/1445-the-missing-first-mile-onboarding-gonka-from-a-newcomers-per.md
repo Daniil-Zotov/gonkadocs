@@ -3,14 +3,14 @@ title: "#1445 — The missing first mile: onboarding Gonka from a newcomer’s p
 source: https://github.com/gonka-ai/gonka/discussions/1445
 discussion_number: 1445
 category: protocol-improvements
-synced_at: 2026-10-20T20:28:53Z
+synced_at: 2026-10-20T23:47:49Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1445](https://github.com/gonka-ai/gonka/discussions/1445) every hour. 
 
 # The missing first mile: onboarding Gonka from a newcomer’s perspective
 
-**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-12 20:31 UTC · **Обновлено:** 2026-07-25 11:59 UTC
+**Автор:** [@julb1992](https://github.com/julb1992) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-12 20:31 UTC · **Обновлено:** 2026-10-20 23:19 UTC
 
 ---
 

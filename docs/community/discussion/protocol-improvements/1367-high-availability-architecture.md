@@ -3,14 +3,14 @@ title: "#1367 — High-Availability Architecture"
 source: https://github.com/gonka-ai/gonka/discussions/1367
 discussion_number: 1367
 category: protocol-improvements
-synced_at: 2026-10-20T20:28:54Z
+synced_at: 2026-10-20T23:47:50Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1367](https://github.com/gonka-ai/gonka/discussions/1367) every hour. 
 
 # High-Availability Architecture
 
-**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-25 08:16 UTC · **Обновлено:** 2026-07-22 05:54 UTC
+**Автор:** [@a-kuprin](https://github.com/a-kuprin) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-25 08:16 UTC · **Обновлено:** 2026-10-20 23:19 UTC
 
 ---
 

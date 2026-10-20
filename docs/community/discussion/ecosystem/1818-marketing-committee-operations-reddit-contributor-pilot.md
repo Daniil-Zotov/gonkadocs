@@ -3,14 +3,14 @@ title: "#1818 — Marketing Committee — Operations & Reddit Contributor Pilot"
 source: https://github.com/gonka-ai/gonka/discussions/1818
 discussion_number: 1818
 category: ecosystem
-synced_at: 2026-10-20T20:28:42Z
+synced_at: 2026-10-20T23:47:38Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1818](https://github.com/gonka-ai/gonka/discussions/1818) every hour. 
 
 # Marketing Committee — Operations & Reddit Contributor Pilot
 
-**Автор:** [@petkomain-tech](https://github.com/petkomain-tech) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-09-21 14:39 UTC · **Обновлено:** 2026-09-21 19:12 UTC
+**Автор:** [@petkomain-tech](https://github.com/petkomain-tech) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-09-21 14:39 UTC · **Обновлено:** 2026-10-20 23:07 UTC
 
 ---
 

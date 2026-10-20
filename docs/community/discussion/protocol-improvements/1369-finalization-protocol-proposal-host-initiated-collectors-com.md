@@ -3,14 +3,14 @@ title: "#1369 — Finalization protocol proposal (host-initiated, collectors, co
 source: https://github.com/gonka-ai/gonka/discussions/1369
 discussion_number: 1369
 category: protocol-improvements
-synced_at: 2026-10-20T20:28:58Z
+synced_at: 2026-10-20T23:47:54Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1369](https://github.com/gonka-ai/gonka/discussions/1369) every hour. 
 
 # Finalization protocol proposal (host-initiated, collectors, commit certificate)
 
-**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-27 14:43 UTC · **Обновлено:** 2026-07-01 09:58 UTC
+**Автор:** [@akup](https://github.com/akup) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-06-27 14:43 UTC · **Обновлено:** 2026-10-20 23:20 UTC
 
 ---
 

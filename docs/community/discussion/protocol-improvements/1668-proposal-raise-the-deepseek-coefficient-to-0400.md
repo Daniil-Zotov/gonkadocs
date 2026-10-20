@@ -3,14 +3,14 @@ title: "#1668 — Proposal: raise the DeepSeek coefficient to 0.400"
 source: https://github.com/gonka-ai/gonka/discussions/1668
 discussion_number: 1668
 category: protocol-improvements
-synced_at: 2026-10-20T20:28:47Z
+synced_at: 2026-10-20T23:47:43Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1668](https://github.com/gonka-ai/gonka/discussions/1668) every hour. 
 
 # Proposal: raise the DeepSeek coefficient to 0.400
 
-**Автор:** [@knyazev741](https://github.com/knyazev741) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-28 14:03 UTC · **Обновлено:** 2026-09-08 00:25 UTC
+**Автор:** [@knyazev741](https://github.com/knyazev741) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-08-28 14:03 UTC · **Обновлено:** 2026-10-20 23:14 UTC
 
 ---
 

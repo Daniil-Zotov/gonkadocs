@@ -3,14 +3,14 @@ title: "#1085 — INC4 | Gonka Node Observability Platform"
 source: https://github.com/gonka-ai/gonka/discussions/1085
 discussion_number: 1085
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:13Z
+synced_at: 2026-10-20T23:48:08Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1085](https://github.com/gonka-ai/gonka/discussions/1085) every hour. 
 
 # INC4 | Gonka Node Observability Platform
 
-**Автор:** [@rwxr-xr-x](https://github.com/rwxr-xr-x) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-16 18:05 UTC · **Обновлено:** 2026-04-18 07:51 UTC
+**Автор:** [@rwxr-xr-x](https://github.com/rwxr-xr-x) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-16 18:05 UTC · **Обновлено:** 2026-10-20 23:31 UTC
 
 ---
 

@@ -3,14 +3,14 @@ title: "#1090 — Qwen3-235B-A22B-Instruct-2507-FP8 with FP8 KVcache as the firs
 source: https://github.com/gonka-ai/gonka/discussions/1090
 discussion_number: 1090
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:13Z
+synced_at: 2026-10-20T23:48:08Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1090](https://github.com/gonka-ai/gonka/discussions/1090) every hour. 
 
 # Qwen3-235B-A22B-Instruct-2507-FP8 with FP8 KVcache as the first multi model PoC launch model
 
-**Автор:** [@beatifull](https://github.com/beatifull) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-18 06:46 UTC · **Обновлено:** 2026-04-18 06:49 UTC
+**Автор:** [@beatifull](https://github.com/beatifull) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-18 06:46 UTC · **Обновлено:** 2026-10-20 23:31 UTC
 
 ---
 

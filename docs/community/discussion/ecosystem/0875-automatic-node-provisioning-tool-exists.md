@@ -3,14 +3,14 @@ title: "#875 — Automatic Node Provisioning Tool exists"
 source: https://github.com/gonka-ai/gonka/discussions/875
 discussion_number: 875
 category: ecosystem
-synced_at: 2026-10-20T20:29:22Z
+synced_at: 2026-10-20T23:48:16Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #875](https://github.com/gonka-ai/gonka/discussions/875) every hour. 
 
 # Automatic Node Provisioning Tool exists
 
-**Автор:** [@SegovChik](https://github.com/SegovChik) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-10 17:41 UTC · **Обновлено:** 2026-08-05 23:04 UTC
+**Автор:** [@SegovChik](https://github.com/SegovChik) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-10 17:41 UTC · **Обновлено:** 2026-10-20 23:32 UTC
 
 ---
 

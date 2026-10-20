@@ -3,14 +3,14 @@ title: "#1747 — Proposal: Reimbursement of Expenses for Daniil and David Liber
 source: https://github.com/gonka-ai/gonka/discussions/1747
 discussion_number: 1747
 category: general
-synced_at: 2026-10-20T20:28:44Z
+synced_at: 2026-10-20T23:47:41Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1747](https://github.com/gonka-ai/gonka/discussions/1747) every hour. 
 
 # Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026
 
-**Автор:** [@sultee](https://github.com/sultee) · **Категория:** :speech_balloon: General · **Создано:** 2026-09-10 12:06 UTC · **Обновлено:** 2026-09-10 12:06 UTC
+**Автор:** [@sultee](https://github.com/sultee) · **Категория:** :speech_balloon: General · **Создано:** 2026-09-10 12:06 UTC · **Обновлено:** 2026-10-20 23:12 UTC
 
 ---
 

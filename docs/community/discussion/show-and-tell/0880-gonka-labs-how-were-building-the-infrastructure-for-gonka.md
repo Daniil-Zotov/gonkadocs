@@ -3,14 +3,14 @@ title: "#880 — Gonka Labs: How We're Building the Infrastructure for Gonka"
 source: https://github.com/gonka-ai/gonka/discussions/880
 discussion_number: 880
 category: show-and-tell
-synced_at: 2026-10-20T20:29:21Z
+synced_at: 2026-10-20T23:48:15Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #880](https://github.com/gonka-ai/gonka/discussions/880) every hour. 
 
 # Gonka Labs: How We're Building the Infrastructure for Gonka
 
-**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-12 21:40 UTC · **Обновлено:** 2026-03-12 22:08 UTC
+**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-12 21:40 UTC · **Обновлено:** 2026-10-20 22:39 UTC
 
 ---
 

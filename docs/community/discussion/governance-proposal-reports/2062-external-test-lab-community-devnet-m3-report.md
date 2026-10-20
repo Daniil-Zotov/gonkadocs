@@ -3,14 +3,14 @@ title: "#2062 — External Test Lab & Community DevNet — M3 Report"
 source: https://github.com/gonka-ai/gonka/discussions/2062
 discussion_number: 2062
 category: governance-proposal-reports
-synced_at: 2026-10-20T20:28:37Z
+synced_at: 2026-10-20T23:47:33Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2062](https://github.com/gonka-ai/gonka/discussions/2062) every hour. 
 
 # External Test Lab & Community DevNet — M3 Report
 
-**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-19 17:14 UTC · **Обновлено:** 2026-10-19 17:14 UTC
+**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-19 17:14 UTC · **Обновлено:** 2026-10-20 22:16 UTC
 
 ---
 
@@ -34,9 +34,9 @@ The team took responsibility for maintenance and development of the mainnet netw
 
 **Regional hardware — 12 inventoried machines and 11 NVIDIA GPU hosts.** ([inventory](https://github.com/paranjko/external-test-lab/blob/4c46a4678cf4b8594f7b1b8da8855d69f1929ee9/devnet/hardware.md)).
 
-**Smoke automation — delivered; scheduling remains open.** The repository now contains the [gonka-check harness](../../testing/gonka-check/) and [end-to-end guide](../../testing/e2e.md). Scheduled and post-deployment execution remains tracked in [#216](https://github.com/paranjko/external-test-lab/issues/216).
+**Smoke automation — delivered; scheduling remains open.** The repository now contains the [gonka-check harness](https://github.com/paranjko/external-test-lab/tree/main/testing/gonka-check) and [end-to-end guide](https://github.com/paranjko/external-test-lab/blob/main/testing/e2e.md). Scheduled and post-deployment execution remains tracked in [#216](https://github.com/paranjko/external-test-lab/issues/216).
 
-**Recovery and onboarding guides — published; the ongoing incident log remains open.** Published artifacts include the [recovery procedure](../../net-deployment-runbook/RECOVER-INCIDENT.md), [Host onboarding guide](../../net-deployment-runbook/ROLE-JOIN.md) and incident [#143](https://github.com/paranjko/external-test-lab/issues/143). The recurring public incident-log format and discovery path remain tracked in [#7](https://github.com/paranjko/external-test-lab/issues/7).
+**Recovery and onboarding guides — published; the ongoing incident log remains open.** Published artifacts include the [recovery procedure](https://github.com/paranjko/external-test-lab/blob/main/net-deployment-runbook/RECOVER-INCIDENT.md), [Host onboarding guide](https://github.com/paranjko/external-test-lab/blob/main/net-deployment-runbook/ROLE-JOIN.md) and incident [#143](https://github.com/paranjko/external-test-lab/issues/143). The recurring public incident-log format and discovery path remain tracked in [#7](https://github.com/paranjko/external-test-lab/issues/7).
 
 **Release qualification — active, scoped results published.** Work includes escrow distribution and settlement checks, v6 local scenarios and live DevNet load evidence; remaining HA and fault cases are tracked separately.
 
@@ -44,14 +44,14 @@ The team took responsibility for maintenance and development of the mainnet netw
 
 ## Community DevNet and DevShard layer
 
-The [public status site](https://gonka-dev.net), [regional inventory](../../devnet/regions.md) and [hardware inventory](../../devnet/hardware.md) document the stand and its constraints. The fleet spans multiple providers and GPU generations. The former AMD host was replaced with an NVIDIA RTX 3090; the former `node4-ml` GPU host is now named node9.
+The [public status site](https://gonka-dev.net), [regional inventory](https://github.com/paranjko/external-test-lab/blob/main/devnet/regions.md) and [hardware inventory](https://github.com/paranjko/external-test-lab/blob/main/devnet/hardware.md) document the stand and its constraints. The fleet spans multiple providers and GPU generations. The former AMD host was replaced with an NVIDIA RTX 3090; the former `node4-ml` GPU host is now named node9.
 
 Two additional machines, RTX 4090 and RTX 5090, were procured in October to replace the Tesla T4 hosts under the node1/node7 identities.
 
 DevNet progressed to Gonka 0.2.16 and the MLNode 3.0.16 fleet. Following PoC validation and validator-set problems during the transition, ten consecutive epochs passed the recorded signing, voting-power distribution and PoC self-vote checks ([#217](https://github.com/paranjko/external-test-lab/issues/217#issuecomment-6202663465)).
 
 The Lab published source-bound, digest-pinned DevShard test artifacts, including v4.2/v6 gateways and the wrapping required for the upstream feature plan.
-See [v6 stand preparation](../../broker-ops/v6-stand-preparation.md), [release switching](../../broker-ops/v6-gateway-release-switch.md) and [budget handover](../../broker-ops/v6-budget-handover.md).
+See [v6 stand preparation](https://github.com/paranjko/external-test-lab/blob/main/broker-ops/v6-stand-preparation.md), [release switching](https://github.com/paranjko/external-test-lab/blob/main/broker-ops/v6-gateway-release-switch.md) and [budget handover](https://github.com/paranjko/external-test-lab/blob/main/broker-ops/v6-budget-handover.md).
 
 ## Testing and findings
 
@@ -61,7 +61,7 @@ Independent JOIN, backup, reset and restore runs identified reproducible defects
 
 ### Escrow distribution and settlement
 
-- **Participant distribution:** the study reproduced all **221 real escrows** in a mainnet epoch slot for slot, then simulated 1,000 escrows per model at group sizes 16, 32 and 64. The results distinguish inclusion probability from slot share and retain the model-specific weights ([#186](https://github.com/paranjko/external-test-lab/issues/186), [tooling](../../testing/gonka-check/README.md)).
+- **Participant distribution:** the study reproduced all **221 real escrows** in a mainnet epoch slot for slot, then simulated 1,000 escrows per model at group sizes 16, 32 and 64. The results distinguish inclusion probability from slot share and retain the model-specific weights ([#186](https://github.com/paranjko/external-test-lab/issues/186), [tooling](https://github.com/paranjko/external-test-lab/blob/main/testing/gonka-check/README.md)).
 - **Same-epoch parameter change:** on October 4, an escrow created with group size 5 settled using its own five slots after governance changed the global size to 9. A new escrow used nine slots; both settled in the same epoch, payouts plus refunds matched deposits, and the parameter was restored to 5. This was one run through gateway A on DevShard v5 with `Qwen/Qwen3-0.6B`, not a v6 settlement result ([#187](https://github.com/paranjko/external-test-lab/issues/187)).
 - **PoC admission regression:** changing epoch length exposed a gateway fence calculated from block-height modulo rather than the actual epoch start. The defect blocked requests during inference and missed part of the intended PoC fence; the fix and regression coverage are in [#197](https://github.com/paranjko/external-test-lab/issues/197) / [PR #205](https://github.com/paranjko/external-test-lab/pull/205).
 
@@ -81,7 +81,7 @@ Full live Gherkin qualification, shared-storage/two-replica HA and agreed host-p
 
 ### Broker compatibility and reusable tests
 
-The Lab continued broker-facing OpenAI compatibility work, building on the Chat Completions host-compat shim guidance and Responses adapter specifications first reported in M2. See [`broker-compat/`](../../broker-compat/) and [`skills/`](../../skills/).
+The Lab continued broker-facing OpenAI compatibility work, building on the Chat Completions host-compat shim guidance and Responses adapter specifications first reported in M2. See [`broker-compat/`](https://github.com/paranjko/external-test-lab/tree/main/broker-compat) and [`skills/`](https://github.com/paranjko/external-test-lab/tree/main/skills).
 
 The new `gcheck` harness adds public-path readiness checks, small authenticated smoke runs, chain checks, retained per-run verdicts, escrow-slot studies and group-size-change accounting evidence.
 
@@ -89,7 +89,7 @@ The new `gcheck` harness adds public-path readiness checks, small authenticated 
 
 The Lab published [gonkactl-trace](https://gonka-dev.net/trace/), an experimental read-only investigation tool developed around the September incident [#143](https://github.com/paranjko/external-test-lab/issues/143) and the post-recovery investigation tracked in [#153](https://github.com/paranjko/external-test-lab/issues/153). The laboratory uses it daily to analyse the test stand. It collects chain evidence and produces standalone HTML reports showing validator participation, voting power, signatures and available PoC evidence.
 
-The distributed [1.0.0-beta.2 release](https://github.com/paranjko/external-test-lab/releases/tag/gonkactl-trace-v1.0.0-beta.2) includes binaries for Linux, macOS and Windows, checksums and an installer. It also supports mainnet investigation, for example `gonkactl-trace report mainnet HEAD~10`. It does not modify the network or establish incident causes automatically; conclusions depend on the available historical evidence, and collected reports must be reviewed before sharing ([usage and limitations](../../gonkactl-trace/README.md)).
+The distributed [1.0.0-beta.2 release](https://github.com/paranjko/external-test-lab/releases/tag/gonkactl-trace-v1.0.0-beta.2) includes binaries for Linux, macOS and Windows, checksums and an installer. It also supports mainnet investigation, for example `gonkactl-trace report mainnet HEAD~10`. It does not modify the network or establish incident causes automatically; conclusions depend on the available historical evidence, and collected reports must be reviewed before sharing ([usage and limitations](https://github.com/paranjko/external-test-lab/blob/main/gonkactl-trace/README.md)).
 
 ## Monitoring and dashboard maintenance
 
@@ -146,3 +146,4 @@ The Lab’s primary focus is testing **gateways and DevShards**, alongside proto
 - Rehearse protocol upgrades and check their effects on validators, PoC and inference.
 - Expand broker compatibility testing.
 - DevShard v7 testing as testable artifacts become available.
+

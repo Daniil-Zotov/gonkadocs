@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-20T20:29:27.505248+00:00",
+  "snapshot_time": "2026-10-20T23:48:21.385008+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -102,7 +102,7 @@
       "title": "#1304 — APS for delegated wallets and agent accounts (Track 2, Project 3)",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1304](https://github.com/gonka-ai/gonka/discussions/1304) every hour. \n\n# APS for delegated wallets and agent accounts (Track 2, Project 3)\n\n**Автор:** [@aeoess](https://github.com/aeoess) · **Категория:** :speech_balloon: General · **Создано:** 2026-06-04 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nTrack 2, Project 3 is close to what APS was built for: an agent acting within scoped authority, without exposing the owner's main key and without manual approval on every call. That authorization and audit layer is what APS implements today, open and Apache-2.0, on npm.\n\nThe primitives map to the project directly:\n\n- **Predefined limits without exposing the main key:** the agent acts under a delegated key with a scoped grant. The owner's main key never leaves them. Li",
-      "checksum": "eae8c5523e5ba93a1843ec2ca37859187a00031bef48111c5f81df9cda46adee"
+      "checksum": "9135605b8b741d2ca40a7d2b8613aaf20095dddb37e2ba089e410b61764374a4"
     },
     "general/1619-phase-out-kimi-k26.md": {
       "title": "#1619 — Phase out Kimi K2.6",
@@ -204,7 +204,7 @@
       "title": "#2062 — External Test Lab & Community DevNet — M3 Report",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2062](https://github.com/gonka-ai/gonka/discussions/2062) every hour. \n\n# External Test Lab & Community DevNet — M3 Report\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-19 17:14 UTC · \n\n---\n\n## 📝 Описание\n\n**Proposal:** [#82](https://inference.dahl.global/gonka-governance/82/) ([discussion](https://github.com/gonka-ai/gonka/discussions/1388)).\n\n## Executive summary\n\nMonth 3 brought Community DevNet back into usable operation after the September consensus incident and expanded its role as an independent release-testing environment. Work covered Host JOIN and recovery, protocol upgrades, DevShard deployment, real inference, broker compatibility, and monitoring.\n\nThe",
-      "checksum": "a537472539e19b4da0a16676f8941ef5044eb5426eec17826e5e3b4aae98d320"
+      "checksum": "b6b1cbdccb54eadb6fec8153ca80d3583558e1cd01efcba0adb46d3375bb9291"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "#795 — Welcome to Proposals 👋",
@@ -522,7 +522,7 @@
       "title": "#1667 — IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1667](https://github.com/gonka-ai/gonka/discussions/1667) every hour. \n\n# IBC withdrawal blocked: Neutron client 07-tendermint-3 is expired\n\n**Автор:** [@xX-mabster-Xx](https://github.com/xX-mabster-Xx) · **Категория:** :interrobang: Q&A · **Создано:** 2026-08-28 13:45 UTC · \n\n---\n\n## 📝 Описание\n\nHello,\n\nI am unable to withdraw my funds from Gonka to Neutron.\n\nThe transfer fails with:\n\nfailed to execute message; message index: 0:\ncannot send packet using client (07-tendermint-3)\nwith status Expired: client is not active\n\nWallet:\ngonka1s8qkncfz06ke5ns6x3cw57mqj83hywj3fltv0n\n\nAsset denomination:\nibc/4F64FF736B88BA8EA521D6D515D9652B7C23C903BF91ECEFB3991888F3C023F4\n\nRoute:\n\n- Gonka: transfer/channel-3\n- Neutron: transfer/channel-7423\n- Chain ID: neutron-1\n-",
-      "checksum": "5e5ad2ecaab95e894cdea267acac29c8ba46ea3eecda9e608e2750b7e46de0e0"
+      "checksum": "15512754be56a9e1eb3b76b3698c9e0e64c291d039cc9948f315b6ea7d09978f"
     },
     "q-a/1996-current-funded-performance-work-after-1914-journal-changes.md": {
       "title": "#1996 — Current funded performance work after #1914 journal changes",

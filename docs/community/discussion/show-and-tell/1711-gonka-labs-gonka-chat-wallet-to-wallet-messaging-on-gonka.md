@@ -3,14 +3,14 @@ title: "#1711 — Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka"
 source: https://github.com/gonka-ai/gonka/discussions/1711
 discussion_number: 1711
 category: show-and-tell
-synced_at: 2026-10-20T20:28:49Z
+synced_at: 2026-10-20T23:47:44Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1711](https://github.com/gonka-ai/gonka/discussions/1711) every hour. 
 
 # Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka
 
-**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-03 00:42 UTC · **Обновлено:** 2026-09-03 00:43 UTC
+**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-03 00:42 UTC · **Обновлено:** 2026-10-20 22:37 UTC
 
 ---
 

@@ -3,14 +3,14 @@ title: "#906 — Gonka Tools: Web Interface for Validators and Mining Operations
 source: https://github.com/gonka-ai/gonka/discussions/906
 discussion_number: 906
 category: show-and-tell
-synced_at: 2026-10-20T20:29:19Z
+synced_at: 2026-10-20T23:48:14Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #906](https://github.com/gonka-ai/gonka/discussions/906) every hour. 
 
 # Gonka Tools: Web Interface for Validators and Mining Operations
 
-**Автор:** [@aleks1k](https://github.com/aleks1k) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-17 20:20 UTC · **Обновлено:** 2026-03-17 20:20 UTC
+**Автор:** [@aleks1k](https://github.com/aleks1k) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-03-17 20:20 UTC · **Обновлено:** 2026-10-20 22:39 UTC
 
 ---
 

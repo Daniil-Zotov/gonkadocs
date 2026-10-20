@@ -3,14 +3,14 @@ title: "#1092 — GiP: Neural Computation Protocol (NCP) v0.3.2 – Deterministi
 source: https://github.com/gonka-ai/gonka/discussions/1092
 discussion_number: 1092
 category: protocol-improvements
-synced_at: 2026-10-20T20:29:12Z
+synced_at: 2026-10-20T23:48:07Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1092](https://github.com/gonka-ai/gonka/discussions/1092) every hour. 
 
 # GiP: Neural Computation Protocol (NCP) v0.3.2 – Deterministic WASM Bricks + YAML Graphs for Fast, Auditable Agentic Systems
 
-**Автор:** [@madeinplutofabio](https://github.com/madeinplutofabio) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-20 14:07 UTC · **Обновлено:** 2026-04-20 14:07 UTC
+**Автор:** [@madeinplutofabio](https://github.com/madeinplutofabio) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-04-20 14:07 UTC · **Обновлено:** 2026-10-20 23:31 UTC
 
 ---
 

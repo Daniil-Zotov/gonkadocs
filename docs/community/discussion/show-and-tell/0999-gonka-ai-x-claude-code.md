@@ -3,14 +3,14 @@ title: "#999 — Gonka AI x Claude Code"
 source: https://github.com/gonka-ai/gonka/discussions/999
 discussion_number: 999
 category: show-and-tell
-synced_at: 2026-10-20T20:29:16Z
+synced_at: 2026-10-20T23:48:11Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #999](https://github.com/gonka-ai/gonka/discussions/999) every hour. 
 
 # Gonka AI x Claude Code
 
-**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-02 11:29 UTC · **Обновлено:** 2026-04-02 11:30 UTC
+**Автор:** [@Dankosik](https://github.com/Dankosik) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-04-02 11:29 UTC · **Обновлено:** 2026-10-20 22:38 UTC
 
 ---
 
