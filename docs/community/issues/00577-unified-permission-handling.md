@@ -2,7 +2,7 @@
 title: "#577 — Unified Permission handling"
 source: https://github.com/gonka-ai/gonka/issues/577
 issue_number: 577
-synced_at: 2026-10-20T10:14:48Z
+synced_at: 2026-10-20T15:15:57Z
 template: issues-main.html
 ---
 
