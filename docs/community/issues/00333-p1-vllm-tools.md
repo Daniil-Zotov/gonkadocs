@@ -2,7 +2,7 @@
 title: "#333 — [P1] vLLM tools"
 source: https://github.com/gonka-ai/gonka/issues/333
 issue_number: 333
-synced_at: 2026-10-20T19:25:41Z
+synced_at: 2026-10-20T22:29:01Z
 template: issues-main.html
 ---
 

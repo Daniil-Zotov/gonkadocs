@@ -2,7 +2,7 @@
 title: "#1200 — Independent review of PoC-decode results"
 source: https://github.com/gonka-ai/gonka/issues/1200
 issue_number: 1200
-synced_at: 2026-10-20T19:22:26Z
+synced_at: 2026-10-20T22:25:07Z
 template: issues-main.html
 ---
 
