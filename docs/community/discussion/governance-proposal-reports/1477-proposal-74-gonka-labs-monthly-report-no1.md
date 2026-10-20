@@ -3,14 +3,14 @@ title: "#1477 — Proposal #74: Gonka Labs - Monthly Report No.1"
 source: https://github.com/gonka-ai/gonka/discussions/1477
 discussion_number: 1477
 category: governance-proposal-reports
-synced_at: 2026-10-19T20:59:45Z
+synced_at: 2026-10-20T00:15:16Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1477](https://github.com/gonka-ai/gonka/discussions/1477) every hour. 
 
 # Proposal #74: Gonka Labs - Monthly Report No.1
 
-**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-07-18 18:31 UTC · **Обновлено:** 2026-08-05 23:10 UTC
+**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-07-18 18:31 UTC · **Обновлено:** 2026-10-19 21:03 UTC
 
 ---
 

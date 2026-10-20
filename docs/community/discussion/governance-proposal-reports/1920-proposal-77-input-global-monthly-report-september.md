@@ -3,14 +3,14 @@ title: "#1920 — Proposal #77: INPUT Global - Monthly Report || September"
 source: https://github.com/gonka-ai/gonka/discussions/1920
 discussion_number: 1920
 category: governance-proposal-reports
-synced_at: 2026-10-19T20:59:35Z
+synced_at: 2026-10-20T00:15:02Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1920](https://github.com/gonka-ai/gonka/discussions/1920) every hour. 
 
 # Proposal #77: INPUT Global - Monthly Report || September
 
-**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-05 13:03 UTC · **Обновлено:** 2026-10-05 13:03 UTC
+**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-05 13:03 UTC · **Обновлено:** 2026-10-19 21:03 UTC
 
 ---
 

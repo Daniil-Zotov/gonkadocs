@@ -4,7 +4,7 @@ title: ":bookmark_tabs: Governance Proposal Reports"
 
 # :bookmark_tabs: Governance Proposal Reports
 
-Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **15**. Обновлено: `2026-10-19 21:00 UTC`.
+Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **15**. Обновлено: `2026-10-20 00:15 UTC`.
 
 [← ко всем категориям](../index.md)
 
@@ -12,16 +12,16 @@ title: ":bookmark_tabs: Governance Proposal Reports"
 |---:|---|---|---|
 | [2062](2062-external-test-lab-community-devnet-m3-report.md) | [External Test Lab & Community DevNet — M3 Report](2062-external-test-lab-community-devnet-m3-report.md) | [@paranjko](https://github.com/paranjko) | 2026-10-19 |
 | [2059](2059-proposal-74-gonka-labs-monthly-report-no4.md) | [Proposal #74: Gonka Labs - Monthly Report No.4](2059-proposal-74-gonka-labs-monthly-report-no4.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-10-19 |
-| [1920](1920-proposal-77-input-global-monthly-report-september.md) | [Proposal #77: INPUT Global - Monthly Report \|\| September](1920-proposal-77-input-global-monthly-report-september.md) | [@apakhtina](https://github.com/apakhtina) | 2026-10-05 |
-| [1919](1919-proposal-77-input-global-monthly-report-august.md) | [Proposal #77: INPUT Global - Monthly Report \|\| August](1919-proposal-77-input-global-monthly-report-august.md) | [@apakhtina](https://github.com/apakhtina) | 2026-10-05 |
+| [1920](1920-proposal-77-input-global-monthly-report-september.md) | [Proposal #77: INPUT Global - Monthly Report \|\| September](1920-proposal-77-input-global-monthly-report-september.md) | [@apakhtina](https://github.com/apakhtina) | 2026-10-19 |
+| [1919](1919-proposal-77-input-global-monthly-report-august.md) | [Proposal #77: INPUT Global - Monthly Report \|\| August](1919-proposal-77-input-global-monthly-report-august.md) | [@apakhtina](https://github.com/apakhtina) | 2026-10-19 |
 | [1815](1815-proposal-74-gonka-labs-monthly-report-no3.md) | [Proposal #74: Gonka Labs - Monthly Report No.3](1815-proposal-74-gonka-labs-monthly-report-no3.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-28 |
 | [1764](1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | [Proposal #82: External Test Lab & Community DevNet — M2 Report](1764-proposal-82-external-test-lab-community-devnet-m2-report.md) | [@paranjko](https://github.com/paranjko) | 2026-10-19 |
-| [1742](1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-09 |
-| [1704](1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-09-07 |
+| [1742](1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment](1742-proposal-102-ratify-quant-mesh-limited-as-the-ledger-integra.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-10-19 |
+| [1704](1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026](1704-proposal-99-support-gonkas-presence-at-token2049-singapore-2.md) | [@Isabella0319](https://github.com/Isabella0319) | 2026-10-19 |
 | [1617](1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | [(outdated) Proposal #74: Gonka Labs - Monthly Report No. 2](1617-outdated-proposal-74-gonka-labs-monthly-report-no-2.md) | [@nsvdev](https://github.com/nsvdev) | 2026-08-20 |
 | [1614](1614-proposal-74-gonka-labs-monthly-report-no2.md) | [Proposal #74: Gonka Labs - Monthly Report No.2](1614-proposal-74-gonka-labs-monthly-report-no2.md) | [@ptd-bot](https://github.com/ptd-bot) | 2026-09-01 |
-| [1612](1612-proposal-74-gonka-labs-monthly-report-no2.md) | [Proposal #74: Gonka Labs - Monthly Report No.2](1612-proposal-74-gonka-labs-monthly-report-no2.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-08-18 |
-| [1582](1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | [Proposal #82: External Test Lab & Community DevNet — M1 Report](1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | [@paranjko](https://github.com/paranjko) | 2026-08-11 |
-| [1561](1561-proposal-77-input-global-monthly-report-july.md) | [Proposal #77: INPUT Global - Monthly Report \|\| July](1561-proposal-77-input-global-monthly-report-july.md) | [@apakhtina](https://github.com/apakhtina) | 2026-08-07 |
+| [1612](1612-proposal-74-gonka-labs-monthly-report-no2.md) | [Proposal #74: Gonka Labs - Monthly Report No.2](1612-proposal-74-gonka-labs-monthly-report-no2.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-10-19 |
+| [1582](1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | [Proposal #82: External Test Lab & Community DevNet — M1 Report](1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | [@paranjko](https://github.com/paranjko) | 2026-10-19 |
+| [1561](1561-proposal-77-input-global-monthly-report-july.md) | [Proposal #77: INPUT Global - Monthly Report \|\| July](1561-proposal-77-input-global-monthly-report-july.md) | [@apakhtina](https://github.com/apakhtina) | 2026-10-19 |
 | [1540](1540-proposal-51-webx-asia-2026-post-event-report.md) | [Proposal #51: WebX Asia 2026 — Post-Event Report](1540-proposal-51-webx-asia-2026-post-event-report.md) | [@Ryanchen911](https://github.com/Ryanchen911) | 2026-08-05 |
-| [1477](1477-proposal-74-gonka-labs-monthly-report-no1.md) | [Proposal #74: Gonka Labs - Monthly Report No.1](1477-proposal-74-gonka-labs-monthly-report-no1.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-08-05 |
+| [1477](1477-proposal-74-gonka-labs-monthly-report-no1.md) | [Proposal #74: Gonka Labs - Monthly Report No.1](1477-proposal-74-gonka-labs-monthly-report-no1.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-10-19 |

@@ -3,14 +3,14 @@ title: "#1742 — Proposal #102: Ratify Quant Mesh Limited as the Ledger Integra
 source: https://github.com/gonka-ai/gonka/discussions/1742
 discussion_number: 1742
 category: governance-proposal-reports
-synced_at: 2026-10-19T20:59:40Z
+synced_at: 2026-10-20T00:15:07Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1742](https://github.com/gonka-ai/gonka/discussions/1742) every hour. 
 
 # Proposal #102: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment
 
-**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-09 08:42 UTC · **Обновлено:** 2026-09-09 08:42 UTC
+**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-09 08:42 UTC · **Обновлено:** 2026-10-19 21:03 UTC
 
 ---
 

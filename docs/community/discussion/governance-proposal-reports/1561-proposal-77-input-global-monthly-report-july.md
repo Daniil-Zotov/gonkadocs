@@ -3,14 +3,14 @@ title: "#1561 — Proposal #77: INPUT Global - Monthly Report || July"
 source: https://github.com/gonka-ai/gonka/discussions/1561
 discussion_number: 1561
 category: governance-proposal-reports
-synced_at: 2026-10-19T20:59:44Z
+synced_at: 2026-10-20T00:15:13Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1561](https://github.com/gonka-ai/gonka/discussions/1561) every hour. 
 
 # Proposal #77: INPUT Global - Monthly Report || July
 
-**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-07 15:58 UTC · **Обновлено:** 2026-08-07 15:58 UTC
+**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-08-07 15:58 UTC · **Обновлено:** 2026-10-19 21:03 UTC
 
 ---
 

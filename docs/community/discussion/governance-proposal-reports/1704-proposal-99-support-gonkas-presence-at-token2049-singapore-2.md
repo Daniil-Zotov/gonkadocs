@@ -3,14 +3,14 @@ title: "#1704 — Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapor
 source: https://github.com/gonka-ai/gonka/discussions/1704
 discussion_number: 1704
 category: governance-proposal-reports
-synced_at: 2026-10-19T20:59:42Z
+synced_at: 2026-10-20T00:15:10Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1704](https://github.com/gonka-ai/gonka/discussions/1704) every hour. 
 
 # Proposal #99: Support Gonka’s Presence at TOKEN2049 Singapore 2026
 
-**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-02 07:48 UTC · **Обновлено:** 2026-09-07 10:19 UTC
+**Автор:** [@Isabella0319](https://github.com/Isabella0319) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-09-02 07:48 UTC · **Обновлено:** 2026-10-19 21:03 UTC
 
 ---
 
