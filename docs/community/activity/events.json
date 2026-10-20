@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261020101506_0ea37048",
+    "timestamp": "2026-10-20T10:15:06.766274+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2066 — Training carry: host PoC weight ratchets down while a node is leased (training_carry.go)",
+      "url": "/community/issues/02066-training-carry-host-poc-weight-ratchets-down-while-a-node-is/",
+      "file": "02066-training-carry-host-poc-weight-ratchets-down-while-a-node-is.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Training carry: host PoC weight ratchets down while a node is leased (training_carry.go)\n    <span class=\"issues-number\">#2066</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-20 09:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
+    },
+    "ai_description": "New issue #2066 from @maria-mitina raises a concern about training carry where a host's proof-of-commitment weight can ratchet down while its node is leased. This could affect reward stability for leased nodes, so the community should weigh in on the proposed fix in training_carry.go. Check it out and share your thoughts."
+  },
+  {
+    "id": "evt_20261020101506_222e8ab3",
+    "timestamp": "2026-10-20T10:15:06.766485+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2000 — devshard: executor-reported output tokens set the payment and are checked only on sampled replays",
+      "url": "/community/issues/02000-devshard-executor-reported-output-tokens-set-the-payment-and/",
+      "file": "02000-devshard-executor-reported-output-tokens-set-the-payment-and.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: executor-reported output tokens set the payment and are checked only on sampled replays\n    <span class=\"issues-number\">#2000</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labe",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: executor-reported output tokens set the payment and are checked only on sampled replays\n    <span class=\"issues-number\">#2000</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
+    },
+    "ai_description": "Issue #2000 on devshard has been updated with two new comments, bringing the total to three. The discussion around executor-reported output tokens and sampled replay verification is gaining traction, so check it out if you are following the payment integrity debate. New input from the community could shape how this gets resolved. Stay tuned."
+  },
+  {
     "id": "evt_20261020050537_55329b91",
     "timestamp": "2026-10-20T05:05:37.217928+00:00",
     "section": "issues",
@@ -8311,37 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards`: Add end-to-end inference validation tests\n    <span class=\"issues-number\">#899</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/heitor-lassarote\">@heitor-lassarote</a> opened 2026-03-16 18:50 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-"
     },
     "ai_description": "New issue #899 has been opened by @heitor-lassarote to add end-to-end inference validation tests for devshards, marked as P0 priority. The issue is already closed, which suggests the team moved quickly to address this critical gap in testing. This matters because proper end-to-end validation ensures our devshards reliably produce correct inference results across the network."
-  },
-  {
-    "id": "evt_20260910183639_05702d11",
-    "timestamp": "2026-09-10T18:36:39.608155+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#908 — bls: BlsManager stores context.Background() — DKG gRPC calls have no cancellation or timeout",
-      "url": "/community/issues/00908-bls-blsmanager-stores-contextbackground-dkg-grpc-calls-have-/",
-      "file": "00908-bls-blsmanager-stores-contextbackground-dkg-grpc-calls-have-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    bls: BlsManager stores context.Background() — DKG gRPC calls have no cancellation or timeout\n    <span class=\"issues-number\">#908</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-17 23:21 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <"
-    },
-    "ai_description": "Issue #908 has been opened by @Mayveskii highlighting a real reliability concern: BlsManager holds onto context.Background() for DKG gRPC calls, meaning those operations have no cancellation or timeout. This is worth a look because it could leave stalled calls hanging indefinitely, so let's keep an eye on the discussion for a proper fix."
-  },
-  {
-    "id": "evt_20260910183639_da1d4d8f",
-    "timestamp": "2026-09-10T18:36:39.608171+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#913 — [P0] Make handling of warm keys deterministic (research)",
-      "url": "/community/issues/00913-p0-make-handling-of-warm-keys-deterministic-research/",
-      "file": "00913-p0-make-handling-of-warm-keys-deterministic-research.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Make handling of warm keys deterministic (research)\n    <span class=\"issues-number\">#913</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-18 10:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-"
-    },
-    "ai_description": "Issue #913 has been closed after research into making warm key handling deterministic. This P0 priority work addresses a critical reliability concern for the network. Thanks to @dcastro for driving this investigation forward.Issue #913 on deterministic warm key handling has been closed after the research phase wrapped up. This P0 item was critical for ensuring consistent validator behavior across the network, so its completion removes a key reliability blocker. Nice work from @dcastro on driving this investigation."
   }
 ]

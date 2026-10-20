@@ -2,7 +2,7 @@
 title: "#601 — Change default mlnode state to `INFERENCE`"
 source: https://github.com/gonka-ai/gonka/issues/601
 issue_number: 601
-synced_at: 2026-10-20T05:04:52Z
+synced_at: 2026-10-20T10:14:21Z
 template: issues-main.html
 ---
 

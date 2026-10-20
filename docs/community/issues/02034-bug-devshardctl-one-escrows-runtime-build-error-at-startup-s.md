@@ -2,7 +2,7 @@
 title: "#2034 — [BUG] devshardctl: one escrow's runtime build error at startup stops the whole gateway"
 source: https://github.com/gonka-ai/gonka/issues/2034
 issue_number: 2034
-synced_at: 2026-10-20T05:00:35Z
+synced_at: 2026-10-20T10:09:55Z
 template: issues-main.html
 ---
 

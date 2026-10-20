@@ -2,7 +2,7 @@
 title: "#2000 — devshard: executor-reported output tokens set the payment and are checked only on sampled replays"
 source: https://github.com/gonka-ai/gonka/issues/2000
 issue_number: 2000
-synced_at: 2026-10-20T05:00:28Z
+synced_at: 2026-10-20T10:09:47Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-10-20 04:25 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-20 07:51 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -314,7 +314,7 @@ Two different scales, then. The gateway's bound is loose, so only clear inflatio
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -336,6 +336,60 @@ Two different scales, then. The gateway's bound is loose, so only clear inflatio
 <li>an unfinished UTF-8 tail of at most 3 tokens, which the fixed tolerance already covers.</li>
 </ol>
 <p>Positions that produce no text should be judged by running the ids through the engine's incremental detokenizer, not <code>tokenizer.decode</code>: <code>decode([159] * 256)</code> returns 256 U+FFFD characters, while the stream emits nothing.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
+    <span class="issues-meta-item">commented 2026-10-20 07:47 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@a-kuprin a question for PR 2: which vLLM build is the reference?</p>
+<p>Hosts don't run one image. <code>hardware_nodes</code> for the epoch 430 members, nodes in <code>INFERENCE</code>:</p>
+<table>
+<thead>
+<tr>
+<th>MLNode</th>
+<th>vLLM code</th>
+<th>nodes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.1.0, 3.1.0-post3</td>
+<td>gonka-ai/vllm <code>71ee49c4d</code> (<code>release/v0.28.0-glm53</code>) on a 0.28 dev base</td>
+<td>123</td>
+</tr>
+<tr>
+<td>3.0.16</td>
+<td>fork <code>6e9684a17</code> on vLLM 0.25.1</td>
+<td>11</td>
+</tr>
+<tr>
+<td>4.0.0-sigma1, 3.1.0-post3-pfrun0</td>
+<td><code>release/v0.30-decode-int</code> on vLLM 0.30.0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>3.0.14, 0.2.0, 3.0.16-spark-pilot</td>
+<td>no such image on ghcr</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<p>I matched the vLLM files in each image's layers against the fork's commits by blob hash, and they are identical. <code>deploy/join</code> in main still defaults to 3.0.16. 3.1.0-post3 is documented only in #1734, and the chain pins neither the image nor the version.</p>
+<p>The templates and parsers differ between these lines. DeepSeek-V4-Flash renders the same request without thinking by default on 0.25.1 and with thinking on 0.28. On 0.28, MiniMax-M2.7 with the chain's <code>--reasoning-parser minimax_m2_append_think</code> leaves the reasoning in <code>content</code>, which #1734 notes as well. The chain args take precedence over the node's, so operators can't change this. <code>docs/chat-api/deepseek-v4-flash-0731.md</code> on <code>decode-poc-int-0.2.16</code> already says that a mixed-build group disagrees on work nobody did wrong.</p>
+<p>This corrects the issue text, which says MiniMax-M2.7 and DeepSeek-V4-Flash hosts run the fork at 0.25.1. Most of them run 3.1.0. The issue also says the renderer build is "pinned per model next to the engine build the hosts run", but nothing pins the engine build today, so there is nothing to pin the renderer next to.</p>
+<p>Should the reference be the build most hosts run (3.1.0 today), or will the image be pinned per model on chain?</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/vitaly-andr">@vitaly-andr</a></span>
+    <span class="issues-meta-item">commented 2026-10-20 07:51 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@cyberdelamain Thanks, confirmed. With <code>logit_bias</code> +100 on a single-byte fragment, the stream detokenizer emits nothing on all three models, so an honest empty answer would be voted <code>USAGE_INFLATED</code>. I'm preparing tests on fixtures built from the real tokenizers and parsers of the builds the hosts run. They will cover this case and others like it. Your review will be welcome when I open the PR.</p>
   </div>
 </div>
 
