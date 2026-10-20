@@ -4,14 +4,14 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **112**. Обновлено: `2026-10-20 05:55 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **113**. Обновлено: `2026-10-20 11:25 UTC`.
 
 ## 📂 Категории
 
 | Категория | Дискуссий |
 |---|---:|
 | [:mega: Announcements](announcements/index.md) | 1 |
-| [:jigsaw: Ecosystem](ecosystem/index.md) | 10 |
+| [:jigsaw: Ecosystem](ecosystem/index.md) | 11 |
 | [:speech_balloon: General](general/index.md) | 7 |
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 15 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 49 |
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [2067](ecosystem/2067-fundingscoping-proposal-a-resumable-local-gonka-batch-workbe.md) | [Funding/scoping proposal: a resumable local Gonka batch workbench](ecosystem/2067-fundingscoping-proposal-a-resumable-local-gonka-batch-workbe.md) | :jigsaw: Ecosystem | [@brodyga45](https://github.com/brodyga45) | 2026-10-20 |
 | [1477](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | [Proposal #74: Gonka Labs - Monthly Report No.1](governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-10-19 |
 | [1561](governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md) | [Proposal #77: INPUT Global - Monthly Report \|\| July](governance-proposal-reports/1561-proposal-77-input-global-monthly-report-july.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-10-19 |
 | [1582](governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | [Proposal #82: External Test Lab & Community DevNet — M1 Report](governance-proposal-reports/1582-proposal-82-external-test-lab-community-devnet-m1-report.md) | :bookmark_tabs: Governance Proposal Reports | [@paranjko](https://github.com/paranjko) | 2026-10-19 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [951](protocol-improvements/0951-tee-implementation.md) | [TEE Implementation](protocol-improvements/0951-tee-implementation.md) | :gear: Protocol Improvements | [@mtvnastya](https://github.com/mtvnastya) | 2026-09-29 |
 | [1815](governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md) | [Proposal #74: Gonka Labs - Monthly Report No.3](governance-proposal-reports/1815-proposal-74-gonka-labs-monthly-report-no3.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-09-28 |
 | [795](protocol-improvements/0795-welcome-to-proposals.md) | [Welcome to Proposals 👋](protocol-improvements/0795-welcome-to-proposals.md) | :gear: Protocol Improvements | [@mtvnastya](https://github.com/mtvnastya) | 2026-09-26 |
-| [1825](ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md) | [Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026](ecosystem/1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md) | :jigsaw: Ecosystem | [@JetterHSC](https://github.com/JetterHSC) | 2026-09-23 |

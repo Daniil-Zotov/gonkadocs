@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-20T05:55:57.238901+00:00",
+  "snapshot_time": "2026-10-20T11:25:56.546036+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -67,6 +67,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1825](https://github.com/gonka-ai/gonka/discussions/1825) every hour. \n\n# Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026\n\n**Автор:** [@JetterHSC](https://github.com/JetterHSC) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-09-23 12:49 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone! This is Nick from HSC Asset Management, the team that runs HSC Asset Management Singapore.\n\nWe'd like to propose a fireside chat on AI for Gonka's founders at our conference in Singapore on 8 October 2026, in TOKEN2049 week, together with a set of pre-arranged institutional meetings, a private dinner seat and brand placement at the event.\n\nThe event has more than 2,000 people registered and 69 published speakers, including HSBC, UBS, Fidelity Interna",
       "checksum": "ca48b57637a1dc0e138f468eb0ca0934704a4c99c6fc8c77035d25877d676b1c"
+    },
+    "ecosystem/2067-fundingscoping-proposal-a-resumable-local-gonka-batch-workbe.md": {
+      "title": "#2067 — Funding/scoping proposal: a resumable local Gonka batch workbench",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2067](https://github.com/gonka-ai/gonka/discussions/2067) every hour. \n\n# Funding/scoping proposal: a resumable local Gonka batch workbench\n\n**Автор:** [@brodyga45](https://github.com/brodyga45) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-10-20 10:21 UTC · \n\n---\n\n## 📝 Описание\n\n## Motivation\nThe roadmap's developer-access and demand-activation tracks call for usable reference applications. I propose a local, resumable batch workbench for running an agreed JSONL workload through a Gonka community broker. This is a funding/scoping proposal, not an implemented product or claim of existing users.\n\n## High-level solution\nA standalone Apache-2.0 Python CLI, using the broker's documented OpenAI-compatible chat endpoint. Input rows have stable job I",
+      "checksum": "6c5d99341ab1d14fd87e5b2243cbf65225272445f54a5f565a2b9dd879873894"
     },
     "general/0670-kimi-k25.md": {
       "title": "#670 — Kimi K2.5",

@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261020112534_180524a9",
+    "timestamp": "2026-10-20T11:25:34.365195+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#2067 — Funding/scoping proposal: a resumable local Gonka batch workbench",
+      "url": "/community/discussion/ecosystem/2067-fundingscoping-proposal-a-resumable-local-gonka-batch-workbe/",
+      "file": "ecosystem/2067-fundingscoping-proposal-a-resumable-local-gonka-batch-workbe.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #2067](https://github.com/gonka-ai/gonka/discussions/2067) every hour. \n\n# Funding/scoping proposal: a resumable local Gonka batch workbench\n\n**Автор:** [@brodyga45](https://github.com/brodyga45) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-10-20 10:21 UTC · \n\n---\n\n## 📝 Описание\n\n## Motivation\nThe roadmap's developer-access and demand-activation tracks call for usable reference applications. I propose a local, resumable batch workbench for running an agreed JSONL workload through a Gonka community broker. This is a funding/scoping proposal, not an implemented product or claim of existing users.\n\n## High-level solution\nA standalone Apache-2.0 Python CLI, using the broker's documented OpenAI-compatible chat endpoint. Input rows have stable job I"
+    },
+    "ai_description": "A new funding and scoping proposal has been added to the ecosystem discussions. It outlines a local, resumable Python CLI workbench for running JSONL batch workloads through a Gonka broker, addressing the roadmap's developer-access track. This is a scoping ask, not a finished product, so community input on the approach is welcome before any funding is committed."
+  },
+  {
     "id": "evt_20261020101506_0ea37048",
     "timestamp": "2026-10-20T10:15:06.766274+00:00",
     "section": "issues",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshards`: Research aggregated BLS signatures\n    <span class=\"issues-number\">#896</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/heitor-lassarote\">@heitor-lassarote</a> opened 2026-03-16 15:10 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class"
     },
     "ai_description": "New research issue #896 is now open from @heitor-lassarote, diving into aggregated BLS signatures for devshards. This is a key area for improving verification efficiency across the network, so the findings could directly impact how we scale consensus. Check it out and share your thoughts.New research issue #896 is now open from @heitor-lassarote, diving into aggregated BLS signatures for devshards. This exploration could unlock major efficiency gains for our distributed verification, so it's a great opportunity to weigh in on the technical direction. Jump in and share your perspective."
-  },
-  {
-    "id": "evt_20260910183639_71a13d8a",
-    "timestamp": "2026-09-10T18:36:39.608144+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#899 — [P0] `devshards`: Add end-to-end inference validation tests",
-      "url": "/community/issues/00899-p0-devshards-add-end-to-end-inference-validation-tests/",
-      "file": "00899-p0-devshards-add-end-to-end-inference-validation-tests.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards`: Add end-to-end inference validation tests\n    <span class=\"issues-number\">#899</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/heitor-lassarote\">@heitor-lassarote</a> opened 2026-03-16 18:50 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-"
-    },
-    "ai_description": "New issue #899 has been opened by @heitor-lassarote to add end-to-end inference validation tests for devshards, marked as P0 priority. The issue is already closed, which suggests the team moved quickly to address this critical gap in testing. This matters because proper end-to-end validation ensures our devshards reliably produce correct inference results across the network."
   }
 ]
