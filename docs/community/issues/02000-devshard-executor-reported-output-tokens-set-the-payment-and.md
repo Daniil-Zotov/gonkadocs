@@ -2,7 +2,7 @@
 title: "#2000 — devshard: executor-reported output tokens set the payment and are checked only on sampled replays"
 source: https://github.com/gonka-ai/gonka/issues/2000
 issue_number: 2000
-synced_at: 2026-10-19T23:47:20Z
+synced_at: 2026-10-20T05:00:28Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-19 22:37 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-20 04:25 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -310,6 +310,33 @@ Two different scales, then. The gateway's bound is loose, so only clear inflatio
 2. Token counting is PR 2, on top of PR 1, so PR 1 can be reused for empty-stream detection (#1841) as it is: the `EMPTY_STREAM` reason in the PR 1 details.
 3. The count runs on the escrow's hosts, on a CPU, from the per-token positions the executor's MLNode already produced plus the model's own renderer; the gateway has no tokenizer and no extra load. The only thing left on the gateway is the byte count on the lines it already forwards, which is what starts a usage challenge in PR 2.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/cyberdelamain">@cyberdelamain</a></span>
+    <span class="issues-meta-item">commented 2026-10-20 04:25 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@vitaly-andr On PR 2's rendered-output check: a gateway client can make the voters return <code>USAGE_INFLATED</code> against an honest executor. #2043's latest revision now hands this case to #2000 ("The case this does not settle"), so it lands here.</p>
+<p>The gateway passes <code>logit_bias</code> up to ±100 (<code>cmd/devshardctl/request_filters_parameters.go:453</code> on <code>devshard-0.2.x-v6</code> @ <code>3c924cbf6</code>). Put +100 on a single-byte fragment token, e.g. id 159 on DeepSeek-V4-Flash-0731 (byte 0xE0) or id 224 on MiniMax-M2.7 (GLM-5.3-Flash behaves the same), and every generated token is that fragment. The decoded text always ends in U+FFFD, so the detokenizer emits nothing (<code>vllm/v1/engine/detokenizer.py:211-247</code> in gonka-ai/vllm <code>befecf605</code>), and the final chunk doesn't flush it either. The honest answer is an empty text with <code>finish_reason: "length"</code> and <code>completion_tokens = max_tokens</code>. I checked the detokenizer with <code>tokenizers</code> 0.23.3 <code>DecodeStream</code> on the published <code>tokenizer.json</code>: 256 forced steps give 0 characters, the control gives 64.</p>
+<p>On that answer the voters see:</p>
+<ul>
+<li>positions: 256 against 256, no fault (<code>serving.py:731-738</code> still sends a chunk with logprobs when <code>return_token_ids</code> is set);</li>
+<li>rendered output: an empty served turn, about 0 against 256, far above the 8-token tolerance, so step 4 votes <code>USAGE_INFLATED</code>, and the honest executor loses the payment and takes an <code>Invalid</code>.</li>
+</ul>
+<p>The byte-fragment row of the gap table is marked "covered by F = 2 at the gateway". That holds for the share of fragments in ordinary text. Here the client sets the share, up to every token, and nothing covers it on the voter side.</p>
+<p>A blanket skip for positions that decode to nothing would open the case PR 2 is meant to catch: an inflating host could pad a short answer with fragment ids in empty-content chunks, and positions, decoded text and render would all agree. Two narrower exemptions keep that closed. The stored body keeps an id at every position (<code>compressLogprobsIn</code> drops only <code>bytes</code> and <code>logprob</code>, and the fork returns ids as <code>token</code>). So the voter can take out of the render comparison only:</p>
+<ol>
+<li>positions whose id carries a positive <code>logit_bias</code> in the request, which the voter already checks against <code>prompt_hash</code>, so a host can't add a bias the client didn't send;</li>
+<li>an unfinished UTF-8 tail of at most 3 tokens, which the fixed tolerance already covers.</li>
+</ol>
+<p>Positions that produce no text should be judged by running the ids through the engine's incremental detokenizer, not <code>tokenizer.decode</code>: <code>decode([159] * 256)</code> returns 256 U+FFFD characters, while the stream emits nothing.</p>
+  </div>
 </div>
 
 ---

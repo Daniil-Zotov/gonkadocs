@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261020050537_55329b91",
+    "timestamp": "2026-10-20T05:05:37.217928+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2000 — devshard: executor-reported output tokens set the payment and are checked only on sampled replays",
+      "url": "/community/issues/02000-devshard-executor-reported-output-tokens-set-the-payment-and/",
+      "file": "02000-devshard-executor-reported-output-tokens-set-the-payment-and.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: executor-reported output tokens set the payment and are checked only on sampled replays\n    <span class=\"issues-number\">#2000</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: executor-reported output tokens set the payment and are checked only on sampled replays\n    <span class=\"issues-number\">#2000</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labe"
+    },
+    "ai_description": "Issue #2000 on devshard now has a new comment, adding to the discussion about how executor-reported output tokens determine payment. The concern remains that these token counts are only verified on sampled replays, which could leave room for inaccurate reporting. Check out the thread to see the latest perspective on this payment mechanism."
+  },
+  {
     "id": "evt_20261019224328_b9e742bc",
     "timestamp": "2026-10-19T22:43:28.848110+00:00",
     "section": "gonka_docs",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Make handling of warm keys deterministic (research)\n    <span class=\"issues-number\">#913</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-18 10:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-"
     },
     "ai_description": "Issue #913 has been closed after research into making warm key handling deterministic. This P0 priority work addresses a critical reliability concern for the network. Thanks to @dcastro for driving this investigation forward.Issue #913 on deterministic warm key handling has been closed after the research phase wrapped up. This P0 item was critical for ensuring consistent validator behavior across the network, so its completion removes a key reliability blocker. Nice work from @dcastro on driving this investigation."
-  },
-  {
-    "id": "evt_20260910183639_3390e81b",
-    "timestamp": "2026-09-10T18:36:39.608182+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#914 — [P0] `devshards` rewards (research)",
-      "url": "/community/issues/00914-p0-devshards-rewards-research/",
-      "file": "00914-p0-devshards-rewards-research.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] `devshards` rewards (research)\n    <span class=\"issues-number\">#914</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-18 10:43 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span cla"
-    },
-    "ai_description": "New research issue #914 on devshards rewards has been closed after gathering three comments. The task was to investigate how rewards should be structured for devshards, a key piece for aligning incentives in the network. Closing this signals the research phase is wrapped up, so the community can now move toward concrete implementation. Thanks to @dcastro for driving this forward."
   }
 ]

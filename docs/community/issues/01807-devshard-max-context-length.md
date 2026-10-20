@@ -2,7 +2,7 @@
 title: "#1807 — `devshard`: Max context length"
 source: https://github.com/gonka-ai/gonka/issues/1807
 issue_number: 1807
-synced_at: 2026-10-19T23:47:33Z
+synced_at: 2026-10-20T05:00:50Z
 template: issues-main.html
 ---
 

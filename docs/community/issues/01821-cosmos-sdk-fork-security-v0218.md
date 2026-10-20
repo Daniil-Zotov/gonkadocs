@@ -2,7 +2,7 @@
 title: "#1821 — Cosmos SDK / fork security v0.2.18"
 source: https://github.com/gonka-ai/gonka/issues/1821
 issue_number: 1821
-synced_at: 2026-10-19T23:47:55Z
+synced_at: 2026-10-20T05:01:28Z
 template: issues-main.html
 ---
 
