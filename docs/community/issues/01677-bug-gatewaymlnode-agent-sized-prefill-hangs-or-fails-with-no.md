@@ -2,7 +2,7 @@
 title: "#1677 — [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error"
 source: https://github.com/gonka-ai/gonka/issues/1677
 issue_number: 1677
-synced_at: 2026-10-21T06:08:14Z
+synced_at: 2026-10-21T12:02:57Z
 template: issues-main.html
 ---
 

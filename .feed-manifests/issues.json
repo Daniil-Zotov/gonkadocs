@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-21T06:11:21.489124+00:00",
+  "snapshot_time": "2026-10-21T12:07:06.596927+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4175,53 +4175,58 @@
     "02011-bug-wrong-report-for-long-running-poc-status.md": {
       "title": "#2011 — [BUG] Wrong report for long running POC status",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Wrong report for long running POC status\n    <span class=\"issues-number\">#2011</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:38 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-",
-      "comment_checksum": "64ea8e66d10d2d8fa2217275b25588a244869f7969597906ec753d061fcc3535",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] Wrong report for long running POC status\n    <span class=\"issues-number\">#2011</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:38 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi",
+      "comment_checksum": "8f5e6860c633571fb807ef33241c240d55e79976f2d901a326d6fab036773c8a",
       "comment_bodies": [
-        "https://github.com/gonka-ai/gonka/commit/0853195ca2da7bb7553805ba26be9d0fb03ffaf1"
+        "https://github.com/gonka-ai/gonka/commit/0853195ca2da7bb7553805ba26be9d0fb03ffaf1",
+        "thank you, working"
       ],
-      "checksum": "e6870dd5854416b523686706d96a604bc1a3476c70f6a10148316629013dd452"
+      "checksum": "d5d26db75ebc503eafc52c2af45765680ed877cb59f30391bdfda4d8a8472eee"
     },
     "02012-bug-host-in-training-rejects-poc-challenge-but-on-chain-stat.md": {
       "title": "#2012 — [BUG] Host in training rejects POC challenge but on-chain status of POC - generating",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Host in training rejects POC challenge but on-chain status of POC - generating\n    <span class=\"issues-number\">#2012</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"",
-      "comment_checksum": "64ea8e66d10d2d8fa2217275b25588a244869f7969597906ec753d061fcc3535",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] Host in training rejects POC challenge but on-chain status of POC - generating\n    <span class=\"issues-number\">#2012</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:40 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <",
+      "comment_checksum": "1b3692858f0815047b00c20e5c111eb0e599d8b1efd420ba3c03c490db9b0d41",
       "comment_bodies": [
-        "https://github.com/gonka-ai/gonka/commit/0853195ca2da7bb7553805ba26be9d0fb03ffaf1"
+        "https://github.com/gonka-ai/gonka/commit/0853195ca2da7bb7553805ba26be9d0fb03ffaf1",
+        "thanks! working"
       ],
-      "checksum": "52ea2a5d38367925c7659cb0ba922481fcd63493b9effeaa03c25a4c3356a617"
+      "checksum": "008caa5acd7ecda36e2fc84bf969192c1f6c8446457e6b3129e2a5753995cdf6"
     },
     "02013-bug-short-segment-is-treated-as-passed-challenger-pays-a-tar.md": {
       "title": "#2013 — [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)\n    <span class=\"issues-number\">#2013</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:44 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"",
-      "comment_checksum": "9f0ecd4d7888114c159dc9b144808e401d03925ecb7762b20e86166fa1ac76cf",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)\n    <span class=\"issues-number\">#2013</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:44 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <",
+      "comment_checksum": "2257fcbd45044e9332d09fd48829ce1c2ff06943689ab055aff477d56a1fee7d",
       "comment_bodies": [
-        "https://github.com/gonka-ai/gonka/commit/24a4204de78cefbe14d3e1dda2784ab4fbebc65d"
+        "https://github.com/gonka-ai/gonka/commit/24a4204de78cefbe14d3e1dda2784ab4fbebc65d",
+        "solved, thanks"
       ],
-      "checksum": "71082106e98a25a2ff57e024c6c38afc5590610256f1b21d64fdbeb650b1dc84"
+      "checksum": "38e05405571be2db4038b87dd159471374b0649c58b29f14ba4092882a815864"
     },
     "02014-bug-fully-reserved-by-training-abort-is-unreachable-on-a-sho.md": {
       "title": "#2014 — [BUG] fully_reserved_by_training abort is unreachable on a short segment",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] fully_reserved_by_training abort is unreachable on a short segment\n    <span class=\"issues-number\">#2014</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:49 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: ",
-      "comment_checksum": "64ea8e66d10d2d8fa2217275b25588a244869f7969597906ec753d061fcc3535",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] fully_reserved_by_training abort is unreachable on a short segment\n    <span class=\"issues-number\">#2014</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:49 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"i",
+      "comment_checksum": "a2ee015e46cd966a989942b951953bc6e0e68e9cdf8324b8acfa148d7c2de8bb",
       "comment_bodies": [
-        "https://github.com/gonka-ai/gonka/commit/0853195ca2da7bb7553805ba26be9d0fb03ffaf1"
+        "https://github.com/gonka-ai/gonka/commit/0853195ca2da7bb7553805ba26be9d0fb03ffaf1",
+        "solved thank you"
       ],
-      "checksum": "965a8c97fec13b1d4c063a9edbd77d03b1295e9a6f77ab1e6dfda36a45c4f125"
+      "checksum": "95f1a35bf56537584a50d36f14f79ce8fc33dcf9e1252bb5083464a96e538c43"
     },
     "02015-bug-cpoc-rotation-can-shrink-the-final-challenge-segment-bel.md": {
       "title": "#2015 — [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum\n    <span class=\"issues-number\">#2015</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:54 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty",
-      "comment_checksum": "af77a23efbe0e2520a93a96d42b88db02250ac293ff85fbee03ed47dd97fc382",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum\n    <span class=\"issues-number\">#2015</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-15 09:54 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n",
+      "comment_checksum": "b2741234354f2798540f23be9bd4a53503c8b587cc7dcc67f7f3656dbc8c2dc8",
       "comment_bodies": [
         "There is a chance of this happening on mainnet: module/confirmation_poc.go:139-147 and the rotation rule (new start = cPoC validation end + 1): cPoC trigger window ends at nextPoC − 2 − (35+0+5+240+120+500) = nextPoC − 902. A cPoC triggered at height T starts generating ~20 blocks later and finishes validation at T + 20 + 34 + 5 + 239 ≈ T + 298; the challenge segment restarts at ≈ T + 299. Safety ",
-        "https://github.com/gonka-ai/gonka/commit/24a4204de78cefbe14d3e1dda2784ab4fbebc65d"
+        "https://github.com/gonka-ai/gonka/commit/24a4204de78cefbe14d3e1dda2784ab4fbebc65d",
+        "solved, thank you"
       ],
-      "checksum": "7ea6f9b2cd5e6f5885632c6286c33b3d60e2f2d1b027868a553bf00d4e1f1d26"
+      "checksum": "9883056ac32d0955fc67558cc66ccb43938f2cf840220e848e04315d519579d5"
     },
     "02016-devshard-gateway-logprobs-optimization-override-is-ignored-a.md": {
       "title": "#2016 — devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start",
