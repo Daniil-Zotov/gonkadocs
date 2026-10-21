@@ -2,7 +2,7 @@
 title: "#1474 — Security/hardening: Executor signature verification disabled; token counts self-reported on Finish"
 source: https://github.com/gonka-ai/gonka/issues/1474
 issue_number: 1474
-synced_at: 2026-10-20T22:25:59Z
+synced_at: 2026-10-21T00:42:54Z
 template: issues-main.html
 ---
 

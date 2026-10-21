@@ -2,7 +2,7 @@
 title: "#1708 — chain-halt: ValidatorByConsAddr propagates ErrNoValidatorFound, so the evidence/slashing BeginBlock nil-guards never run"
 source: https://github.com/gonka-ai/gonka/issues/1708
 issue_number: 1708
-synced_at: 2026-10-20T22:25:21Z
+synced_at: 2026-10-21T00:42:30Z
 template: issues-main.html
 ---
 

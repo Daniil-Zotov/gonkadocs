@@ -2,7 +2,7 @@
 title: "#2066 — Training carry: host PoC weight ratchets down while a node is leased (training_carry.go)"
 source: https://github.com/gonka-ai/gonka/issues/2066
 issue_number: 2066
-synced_at: 2026-10-20T22:24:19Z
+synced_at: 2026-10-21T00:41:40Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-20 09:11 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-20 18:37 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-20 23:57 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -68,6 +68,20 @@ Keep the cap (host total ≤ last confirmed total — the anti-gaming intent is 
 
 Lease one node of a two-node host for several epochs; observe `ComputeNewWeights: Merged preserved and PoC participant` in node logs — `preservedWeight` only ever decreases.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/x0152">@x0152</a></span>
+    <span class="issues-meta-item">commented 2026-10-20 23:57 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>https://github.com/gonka-ai/gonka/pull/1790/commits/b7eda7f92e16d95a1b66b18bf54102815a68ba2c</p>
+  </div>
 </div>
 
 ---

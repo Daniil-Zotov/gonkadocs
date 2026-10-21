@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261021004453_92075501",
+    "timestamp": "2026-10-21T00:44:53.846101+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2066 — Training carry: host PoC weight ratchets down while a node is leased (training_carry.go)",
+      "url": "/community/issues/02066-training-carry-host-poc-weight-ratchets-down-while-a-node-is/",
+      "file": "02066-training-carry-host-poc-weight-ratchets-down-while-a-node-is.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Training carry: host PoC weight ratchets down while a node is leased (training_carry.go)\n    <span class=\"issues-number\">#2066</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-20 09:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Training carry: host PoC weight ratchets down while a node is leased (training_carry.go)\n    <span class=\"issues-number\">#2066</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-20 09:11 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty"
+    },
+    "ai_description": "Issue #2066 on training carry has received its first comment. The discussion likely addresses the concern about host PoC weight ratcheting down while a node is leased, which could impact training reliability. Check it out to see the new perspective on this open issue.Issue #2066 on training carry now has its first comment, adding fresh input on the host PoC weight ratcheting issue during node leases. This could be key to refining how training rewards are handled in leased setups. Join the discussion to help shape the fix."
+  },
+  {
     "id": "evt_20261020112534_180524a9",
     "timestamp": "2026-10-20T11:25:34.365195+00:00",
     "section": "discussions",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Allow hosts to vote on timeouts if they haven't yet seen `MsgStartInference`\n    <span class=\"issues-number\">#895</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-16 14:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
     },
     "ai_description": "New issue #895 has been opened by @dcastro, flagged as P0, to let hosts vote on timeouts even if they never received the MsgStartInference signal. This closes a gap that could leave hosts stuck waiting on stalled tasks, so the community can move forward faster. It's already closed, meaning a fix is likely in the works or landed."
-  },
-  {
-    "id": "evt_20260910183639_daf9b191",
-    "timestamp": "2026-09-10T18:36:39.608132+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "Research",
-      "url": "/community/issues/00896-devshards-research-aggregated-bls-signatures/",
-      "file": "00896-devshards-research-aggregated-bls-signatures.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshards`: Research aggregated BLS signatures\n    <span class=\"issues-number\">#896</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/heitor-lassarote\">@heitor-lassarote</a> opened 2026-03-16 15:10 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class"
-    },
-    "ai_description": "New research issue #896 is now open from @heitor-lassarote, diving into aggregated BLS signatures for devshards. This is a key area for improving verification efficiency across the network, so the findings could directly impact how we scale consensus. Check it out and share your thoughts.New research issue #896 is now open from @heitor-lassarote, diving into aggregated BLS signatures for devshards. This exploration could unlock major efficiency gains for our distributed verification, so it's a great opportunity to weigh in on the technical direction. Jump in and share your perspective."
   }
 ]
