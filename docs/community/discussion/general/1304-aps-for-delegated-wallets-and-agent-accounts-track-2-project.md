@@ -3,7 +3,7 @@ title: "#1304 — APS for delegated wallets and agent accounts (Track 2, Project
 source: https://github.com/gonka-ai/gonka/discussions/1304
 discussion_number: 1304
 category: general
-synced_at: 2026-10-20T23:47:32Z
+synced_at: 2026-10-21T04:32:19Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1304](https://github.com/gonka-ai/gonka/discussions/1304) every hour. 
@@ -67,5 +67,5 @@ The roadmap says critical infrastructure "should not depend by default on a clos
 
 Which broker would be the best place to test this, and who should review the scope for Project 3?
 
-**AI use:** drafted with heavy AI assistance (Claude and Codex) under my direction. I reviewed it and take responsibility for the text.
+**AI use:** drafted with AI assistance (Claude and Codex) under my direction. I reviewed it and take responsibility for the text.
 

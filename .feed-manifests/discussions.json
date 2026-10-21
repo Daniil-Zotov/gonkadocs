@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-20T23:48:21.385008+00:00",
+  "snapshot_time": "2026-10-21T04:33:10.205988+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -102,7 +102,7 @@
       "title": "#1304 — APS for delegated wallets and agent accounts (Track 2, Project 3)",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1304](https://github.com/gonka-ai/gonka/discussions/1304) every hour. \n\n# APS for delegated wallets and agent accounts (Track 2, Project 3)\n\n**Автор:** [@aeoess](https://github.com/aeoess) · **Категория:** :speech_balloon: General · **Создано:** 2026-06-04 01:38 UTC · \n\n---\n\n## 📝 Описание\n\nTrack 2, Project 3 is close to what APS was built for: an agent acting within scoped authority, without exposing the owner's main key and without manual approval on every call. That authorization and audit layer is what APS implements today, open and Apache-2.0, on npm.\n\nThe primitives map to the project directly:\n\n- **Predefined limits without exposing the main key:** the agent acts under a delegated key with a scoped grant. The owner's main key never leaves them. Li",
-      "checksum": "9135605b8b741d2ca40a7d2b8613aaf20095dddb37e2ba089e410b61764374a4"
+      "checksum": "23638754e436968b4a14745ff517cdad82f2c741280949fe3c7d15226cb641ec"
     },
     "general/1619-phase-out-kimi-k26.md": {
       "title": "#1619 — Phase out Kimi K2.6",
