@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261021172604_9c6f31b3",
+    "timestamp": "2026-10-21T17:26:04.735983+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2078 — devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation",
+      "url": "/community/issues/02078-devshard-v7-a-context-length-refusal-at-the-governance-max-m/",
+      "file": "02078-devshard-v7-a-context-length-refusal-at-the-governance-max-m.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation\n    <span class=\"issues-number\">#2078</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  "
+    },
+    "ai_description": "New issue #2078 from @cyberdelamain proposes that hosts refusing a task due to context-length limits set by governance should not be penalized with a miss or invalidation. This is an important fairness adjustment for the network, ensuring hosts aren't unfairly punished for respecting protocol constraints. Community input is welcome on this proposal."
+  },
+  {
     "id": "evt_20261021150914_81bdc744",
     "timestamp": "2026-10-21T15:09:14.539178+00:00",
     "section": "discussions",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Potential RCE via `torch.load()` in ML Training Pipeline\n    <span class=\"issues-number\">#863</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/VVSMEN\">@VVSMEN</a> opened 2026-03-05 10:44 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-to"
     },
     "ai_description": "A new security issue has been reported and closed in our tracker: a potential remote code execution vulnerability via torch.load() in the ML training pipeline. The report highlights how loading a malicious model file could execute arbitrary code, which is a critical concern for anyone running community models. Please review your own pipelines and consider using safer loading methods like weights_only=True to protect against this attack vector."
-  },
-  {
-    "id": "evt_20260910183639_bb8cebe7",
-    "timestamp": "2026-09-10T18:36:39.608043+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "mlnode/packages/train/src/zeroband/service/manager.py",
-      "url": "/community/issues/00865-hardcoded-dummy-tls-keycerts-used-for-gloo-transport-in-trai/",
-      "file": "00865-hardcoded-dummy-tls-keycerts-used-for-gloo-transport-in-trai.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body\n    <span class=\"issues-number\">#865</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/VVSMEN\">@VVSMEN</a> opened 2026-03-05 13:09 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-"
-    },
-    "ai_description": "Issue #865 on the training manager has been closed, addressing the use of hard-coded dummy TLS key/certs for Gloo transport. This fix removes a potential security risk by ensuring proper certificate handling is in place for production deployments. Thanks to @VVSMEN for flagging this and driving the resolution. Keep an eye on the repo for related updates."
   }
 ]

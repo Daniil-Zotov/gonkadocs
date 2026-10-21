@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-21T12:07:06.596927+00:00",
+  "snapshot_time": "2026-10-21T17:26:06.318678+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4302,6 +4302,14 @@
         "https://github.com/gonka-ai/gonka/pull/1790/commits/b7eda7f92e16d95a1b66b18bf54102815a68ba2c"
       ],
       "checksum": "53ac42a17499e2b985fbb514cfb3c822ea1c61e2f73e3485ea2305044ac3bb1e"
+    },
+    "02078-devshard-v7-a-context-length-refusal-at-the-governance-max-m.md": {
+      "title": "#2078 — devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation\n    <span class=\"issues-number\">#2078</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  ",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "d8ad83054f90538e2d3712c8c7463ad97a6527f433a71d20c281f00b3ecb4006"
     }
   }
 }
