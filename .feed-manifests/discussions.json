@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-21T10:02:20.790608+00:00",
+  "snapshot_time": "2026-10-21T15:09:46.825170+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -73,6 +73,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2067](https://github.com/gonka-ai/gonka/discussions/2067) every hour. \n\n# Funding/scoping proposal: a resumable local Gonka batch workbench\n\n**Автор:** [@brodyga45](https://github.com/brodyga45) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-10-20 10:21 UTC · \n\n---\n\n## 📝 Описание\n\n## Motivation\nThe roadmap's developer-access and demand-activation tracks call for usable reference applications. I propose a local, resumable batch workbench for running an agreed JSONL workload through a Gonka community broker. This is a funding/scoping proposal, not an implemented product or claim of existing users.\n\n## High-level solution\nA standalone Apache-2.0 Python CLI, using the broker's documented OpenAI-compatible chat endpoint. Input rows have stable job I",
       "checksum": "6c5d99341ab1d14fd87e5b2243cbf65225272445f54a5f565a2b9dd879873894"
+    },
+    "ecosystem/2076-devshard-release-testing-flow.md": {
+      "title": "#2076 — DevShard Release Testing Flow",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2076](https://github.com/gonka-ai/gonka/discussions/2076) every hour. \n\n# DevShard Release Testing Flow\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-10-21 13:28 UTC · \n\n---\n\n## 📝 Описание\n\n## Purpose\n\nDefine a repeatable testing flow for DevShard releases, with clear ownership and handover criteria. The flow covers development testing, parallel independent and internal validation, final sign-off, and release rollout.\n\nParticipants:\n\n- **Dev team:** implements changes, tests new functionality, prepares release candidates, and fixes reported issues.\n- **TestLab:** independently validates release candidates on DevNet, focusing on regression, load, upgrades, and rollbacks.\n- **Internal va",
+      "checksum": "e6089d4df6ef6fc7d6a411235e585b9cf3cc6399ad38ddbb9860da5e1253e917"
     },
     "general/0670-kimi-k25.md": {
       "title": "#670 — Kimi K2.5",
