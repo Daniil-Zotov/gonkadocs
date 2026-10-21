@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-10-21T15:49:16.774787+00:00",
+  "snapshot_time": "2026-10-21T19:50:35.998594+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -144,7 +144,7 @@
       "title": "Developer Quickstart",
       "status": null,
       "content_preview": "# Developer Quickstart\n\nThis guide explains how to send an inference request to Gonka through a community broker. It is the fastest way to start using the network today. If you would like to [run your own gateway](#2-run-your-own-gateway-advanced) instead of going through a broker, see Run your own gateway at the bottom of this page. Want to **operate as a broker** yourself? See [Interested in operating a gateway?](#3-interested-in-operating-a-gateway) - start with [OpenBroker](https://openbroker.gonka.gg), or use a GitHub allow-list issue as a fallback if OpenBroker does not satisfy your needs.\n\n!!! note \"How to connect to Gonka\"\n\n    Gonka inference is now organized around **devshards** — short-lived sessions that hold a small on-chain deposit (an escrow) and settle per-request billing o",
-      "checksum": "128dcd334c484259e95f467d34678b69fe3002011687db841a709bb9d275c5bf"
+      "checksum": "074a5a23437a02dce60461d5c8edbc46b3e801895cc3e42dacc799a0334db022"
     },
     "disclaimer.md": {
       "title": "Disclaimer",
