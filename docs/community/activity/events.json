@@ -13,7 +13,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG: minor] devshard-gateway healthcheck uses curl, which the image does not contain → container permanently unhealthy\n    <span class=\"issues-number\">#2085</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-22 11:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n"
     },
-    "ai_description": null
+    "ai_description": "New issue #2085 has been opened by @maria-mitina, flagging a minor bug where the devshard-gateway container healthcheck depends on curl, but the image doesn't include it, leaving the container permanently unhealthy. This is a quick fix worth addressing to keep node monitoring accurate and reliable."
   },
   {
     "id": "evt_20261022152143_c161f154",
@@ -28,7 +28,7 @@
     "details": {
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    BUG-1: Preserved node disabling\n    <span class=\"issues-number\">#310</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-01 18:19 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"backg"
     },
-    "ai_description": null
+    "ai_description": "Issue #310 about preserved node disabling has been removed from the community feed. This bug report, which tracked a problem with nodes staying active when they should be disabled, is no longer visible to the community. If you were following this issue, please check the repository directly for any updates or resolution. Removing it helps keep the feed focused on active, relevant discussion."
   },
   {
     "id": "evt_20261022152143_d61c9741",
@@ -43,7 +43,7 @@
     "details": {
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BUG-2: Local MLNode identifier & MLNode lookup in wrong group\n    <span class=\"issues-number\">#311</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-02 09:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
     },
-    "ai_description": null
+    "ai_description": "Issue #311 about the local MLNode identifier and lookup being in the wrong group has been removed from the feed. This closed bug report is no longer tracked here, which helps keep our activity stream focused on active discussions and ongoing work. Thanks to the team for cleaning up the backlog.Issue #311, which tracked a bug where the local MLNode identifier and lookup were placed in the wrong group, has been removed from the feed. This closed report is no longer relevant to our active work, keeping the community focused on current development. Great to see the backlog tidied up."
   },
   {
     "id": "evt_20261022152143_bf4e938a",
