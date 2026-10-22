@@ -1,0 +1,183 @@
+---
+title: "#1688 — Decode PoC: integration support"
+source: https://github.com/gonka-ai/gonka/issues/1688
+issue_number: 1688
+synced_at: 2026-10-22T19:17:14Z
+template: issues-main.html
+---
+
+<div class="issues-detail-header">
+  <h1 class="issues-detail-title">
+    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    Decode PoC: integration support
+    <span class="issues-number">#1688</span>
+  </h1>
+  <div class="issues-detail-meta">
+    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-09 12:04 UTC</span>
+  </div>
+  <div class="issues-labels" style="margin-top: 8px;"></div>
+</div>
+
+<div class="issues-content" markdown="1">
+Integration of Decode PoC with the current chain and MLNode path. Design and seeding questions stay on this issue. Verification of the current MiniMax implementation on a full image is #1689. DeepSeek thresholds and the DeepSeek seeding scheme are #1690.
+
+**Integration**
+— Current Decode PoC path is written up (what is in production shape, what is still experimental)
+— Integration points with MLNode and the epoch cycle are listed
+— Open questions on the Decode PoC design are listed in notes on this issue, not only off-thread
+
+**DeepSeek expert seeding**
+DeepSeek seeding is more complex than MiniMax. This issue covers the integration discussion; the scheme fix itself is #1690.
+— Expert seeding for DeepSeek is described (how experts are chosen, what the current scheme does)
+— Weight distribution across seeded experts is measured
+— A closer-to-uniform distribution across seeded experts is proposed, with notes if uniform is not possible
+
+**Experiments (when the checklist on this issue is enough to run them)**
+- [ ] Нardware used is written up
+- [ ] Models used are written up
+- [ ] What passed / what did not is written up, with links to notebooks or logs
+</div>
+
+---
+
+## 💬 Comments (7)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-08-31 20:26 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>TY!</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/clanster">@clanster</a></span>
+    <span class="issues-meta-item">commented 2026-08-31 20:26 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>ty</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-04 20:07 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress. The code lives on our forks as a residual/plugin pair; the design questions were still off-thread, and this comment moves them here.</p>
+<p><strong>Where the work is</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>branch on our fork</th>
+<th>PR</th>
+<th>lands in</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>residual</td>
+<td><code>kaitakuai/vllm : mixed-poc-vllm-0.25.1-dev</code></td>
+<td>gonka-ai/vllm#100</td>
+<td><code>release/v0.25.1-decode-int</code></td>
+</tr>
+<tr>
+<td>plugin</td>
+<td><code>kaitakuai/gonka-vllm-plugins : mixed-poc-vllm-0.25.1-dev</code></td>
+<td>gonka-ai/gonka-vllm-plugins#8</td>
+<td><code>decode-poc-int</code></td>
+</tr>
+</tbody>
+</table>
+<p>Development is easier on the forks, so both intake branches @vbgd0 created are still where they were on 2026-08-13.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>@vbgd0 has been pushing directly into both PR branches: 6 commits on the residual, 14 on the plugin, latest 2026-09-02. Not only cleanup — the PoC artifact payload gained <code>n_nan_steps</code> and the max mismatch margin, and decode validation gained a nonce-level snap-margin stat test.</li>
+<li>gonka-ai/vllm#100 points at exactly our working residual branch — no divergence. gonka-ai/gonka-vllm-plugins#8 is 41 commits behind our working plugin branch; nothing of his work is lost, ours is a strict superset. We will refresh it.</li>
+<li>Zero review comments on either PR.</li>
+</ul>
+<p><strong>Open design questions</strong></p>
+<ol>
+<li>Backward compatibility — keep the old prefill PoC untouched behind a flag, or accept that artifacts stop being cross-verifiable.</li>
+<li>How DeepSeek seeding should treat the hash-routed layers.</li>
+<li>Sign-off on the new consensus constants — @axeltec-gonka owns them; not given.</li>
+</ol>
+<p><strong>Next:</strong> refresh gonka-ai/gonka-vllm-plugins#8 onto the current plugin branch — update here by 2026-09-05.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-07 18:54 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li><a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-ai/gonka-vllm-plugins#8</a> refreshed on 2026-09-06 to the current plugin branch (<code>a346bb7</code>, 108 commits); <a href="https://github.com/gonka-ai/vllm/pull/100">gonka-ai/vllm#100</a> unchanged. Promised for 09-05, done 09-06.</li>
+<li>2026-09-05, on @vbgd0's advice: the admission layer is removed rather than patched. The scheduler makes one PoC step call; nonce pacing moved to the client. Golden checks on B300 reproduce after the change.</li>
+<li>PRs for that on our forks, sent to @vbgd0 for review: <a href="https://github.com/kaitakuai/gonka-vllm-plugins/pull/4">kaitakuai/gonka-vllm-plugins#4</a> and <a href="https://github.com/kaitakuai/vllm/pull/22">kaitakuai/vllm#22</a>. They retarget onto the intake branches once <code>#8</code> and <code>#100</code> land.</li>
+<li>Open design questions 1–3 unchanged.</li>
+</ul>
+<p><strong>Next:</strong> review of the two fork PRs by @vbgd0; merge order is his call — <code>#8</code>/<code>#100</code> first and then <code>#4</code>/<code>#22</code>, or folded. Update here by 2026-09-14.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-11 20:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>@vbgd0 opened <a href="https://github.com/gonka-ai/gonka/pull/1743">#1743</a> — the chain picks the PoC scheme per model, built on the branches behind <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-ai/gonka-vllm-plugins#8</a> and <a href="https://github.com/gonka-ai/vllm/pull/100">gonka-ai/vllm#100</a>.</li>
+<li>Both are still open and unreviewed. The admission-layer removal is merged into their heads (<code>#8</code> at 140 commits, <code>#100</code> at 14).</li>
+<li>The removal is measured on a frozen revision across 11 configurations: R spread ×1.107 on MiniMax, ×1.17 on DeepSeek.</li>
+<li>2026-09-11: @vbgd0 asked us to add decode-PoC support for GLM-5.3-Flash — the simplest shim in the plugin and nonce/min for the model, targeting <code>release/v0.28-decode-int</code>. That opens a second 0.28 line beside the 0.25.1 one; branches started on our forks.</li>
+</ul>
+<p><strong>Next:</strong> merge order for <code>#8</code> and <code>#100</code> is @vbgd0's call; we build the 0.28 decode line meanwhile. Update here 2026-09-14.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-09-17 14:28 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> in progress. The 09-14 update was missed.</p>
+<p><strong>Since last</strong></p>
+<ul>
+<li>decode-PoC on GLM-5.3-Flash is done and measured on all four cards; the report went up on 09-16: <a href="https://github.com/kaitakuai/experiments/tree/main/2026-09/decode-poc-0281-glm-freeze">kaitakuai/experiments/2026-09/decode-poc-0281-glm-freeze</a>. Nonces per minute on 8 GPUs: 2×B300 5,050; 4×B200 4,202; 4×H200 1,702; 8×H100 921.</li>
+<li>The GLM line moved to the vendor upstream base: <a href="https://github.com/gonka-ai/vllm/pull/112">gonka-ai/vllm#112</a> merged by @vbgd0 on 09-16; the engine half is <a href="https://github.com/gonka-ai/vllm/pull/113">gonka-ai/vllm#113</a>, the plugin half <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/12">gonka-ai/gonka-vllm-plugins#12</a> into <code>decode-poc-glm53</code>, both open. <code>#113</code> changes the inference-validation path (trace replay instead of <code>enforced_token_ids</code>) — noted here for @vbgd0 ahead of review.</li>
+<li>Release shape agreed with @vbgd0 on 09-16: DeepSeek and MiniMax on 0.25.1, GLM on its own 0.28 line; 0.29 after the release. Re-measured on 0.28: MiniMax unchanged, DeepSeek +17–20 % PoC everywhere except H200 (being re-measured); B200 not measured.</li>
+<li><a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/8">gonka-ai/gonka-vllm-plugins#8</a> (refreshed 09-16 with the ports of <code>plugins#10</code>/<code>#11</code>), <a href="https://github.com/gonka-ai/vllm/pull/100">gonka-ai/vllm#100</a> and <a href="https://github.com/gonka-ai/gonka/pull/1743">#1743</a> are open, no review. The external review @vbgd0 requested on 09-11 has not answered yet.</li>
+</ul>
+<p><strong>Next:</strong> smoke of <code>#113</code> on hardware — boot, acceptance check, one replay validation — needs a box; then review of <code>#113</code>/<code>#12</code> by @vbgd0. Design questions: 2 is answered by the note on <a href="https://github.com/gonka-ai/gonka/issues/1690">#1690</a>; 1 and 3 unchanged. Update here 2026-09-21.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/baychak">@baychak</a></span>
+    <span class="issues-meta-item">commented 2026-10-09 12:04 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p><strong>Status:</strong> done on our side.</p>
+<ul>
+<li>The decode-PoC code is merged on the release branches: <a href="https://github.com/gonka-ai/vllm/pull/116">gonka-ai/vllm#116</a> and <a href="https://github.com/gonka-ai/gonka-vllm-plugins/pull/21">gonka-ai/gonka-vllm-plugins#21</a> with its follow-ups.</li>
+<li>Hardware, models and results are written up in <a href="https://github.com/kaitakuai/experiments">kaitakuai/experiments</a> (<code>2026-09</code> and <code>2026-10</code>).</li>
+<li>The chain side and the release are <a href="https://github.com/gonka-ai/gonka/pull/1743">#1743</a> in v0.2.17. It also answers design question 1: one node serves both schemes, and the chain picks the scheme per model.</li>
+</ul>
+<p><strong>Next:</strong> @tcharchian — please close, or keep it open until the v0.2.17 release if you prefer.</p>
+  </div>
+</div>
+
+---
+
+> 🔄 **Auto-synced** from [Issue #1688](https://github.com/gonka-ai/gonka/issues/1688) every hour.
