@@ -2,7 +2,7 @@
 title: "#1733 — Extend e2e for HA devshard config with multiple routers and multiple versiond"
 source: https://github.com/gonka-ai/gonka/issues/1733
 issue_number: 1733
-synced_at: 2026-10-22T19:17:09Z
+synced_at: 2026-10-22T22:27:43Z
 template: issues-main.html
 ---
 

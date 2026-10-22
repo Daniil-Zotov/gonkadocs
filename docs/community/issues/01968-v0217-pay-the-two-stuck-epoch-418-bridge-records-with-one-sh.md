@@ -2,7 +2,7 @@
 title: "#1968 — v0.2.17: Pay the two stuck epoch-418 bridge records, with one shared active-weight check"
 source: https://github.com/gonka-ai/gonka/issues/1968
 issue_number: 1968
-synced_at: 2026-10-22T19:17:12Z
+synced_at: 2026-10-22T22:27:46Z
 template: issues-main.html
 ---
 

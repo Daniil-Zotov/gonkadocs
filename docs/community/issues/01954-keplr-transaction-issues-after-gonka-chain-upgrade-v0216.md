@@ -2,7 +2,7 @@
 title: "#1954 — Keplr transaction issues after Gonka chain upgrade v0.2.16"
 source: https://github.com/gonka-ai/gonka/issues/1954
 issue_number: 1954
-synced_at: 2026-10-22T19:17:13Z
+synced_at: 2026-10-22T22:27:48Z
 template: issues-main.html
 ---
 
