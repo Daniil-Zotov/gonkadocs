@@ -6141,7 +6141,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: per-diff full-state copies and per-request scans grow with the escrow's live set under load\n    <span class=\"issues-number\">#1899</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-02 04:10 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
     },
-    "ai_description": null
+    "ai_description": "New issue #1899 has been opened by @cyberdelamain highlighting a scalability concern in devshard: as the escrow's live set grows under load, the current approach of per-diff full-state copies and per-request scans becomes increasingly expensive. This is an important performance consideration for the community, as it directly impacts how the system handles larger workloads. Jump in with your thoughts if you've hit similar bottlenecks."
   },
   {
     "id": "evt_20261022192049_7dab5786",
@@ -6157,7 +6157,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Preserve settlement decision across restart for pending escrows\n    <span class=\"issues-number\">#1906</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/qdanik\">@qdanik</a> opened 2026-10-02 18:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n"
     },
-    "ai_description": null
+    "ai_description": "A new issue #1906 has been opened by @qdanik proposing that settlement decisions for pending escrows be preserved across restarts. This matters because it would prevent loss of critical state during node reboots, ensuring fair and consistent dispute resolution in the network. Keep an eye on this one, as it touches core reliability for escrow handling."
   },
   {
     "id": "evt_20261022192049_c1b04268",
@@ -6253,7 +6253,7 @@
       "status": null,
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.17: Mark `/admin/v1/setup/report` failed when this node cannot pay one epoch of fees\n    <span class=\"issues-number\">#1943</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-07 21:55 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
     },
-    "ai_description": null
+    "ai_description": "New issue #1943 is open, proposing that v0.2.17 should mark the /admin/v1/setup/report endpoint as failed when a node cannot cover one epoch of fees. This is a practical safeguard to surface financial shortfalls early, helping node operators avoid running in a degraded state. Worth a look if you manage node economics."
   },
   {
     "id": "evt_20261022192049_7a31fc2d",
