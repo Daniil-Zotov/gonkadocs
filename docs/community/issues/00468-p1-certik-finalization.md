@@ -2,7 +2,7 @@
 title: "#468 — [P1] Certik (finalization)"
 source: https://github.com/gonka-ai/gonka/issues/468
 issue_number: 468
-synced_at: 2026-10-22T05:03:21Z
+synced_at: 2026-10-22T10:20:03Z
 template: issues-main.html
 ---
 

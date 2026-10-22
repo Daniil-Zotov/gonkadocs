@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261022102137_e9566bfb",
+    "timestamp": "2026-10-22T10:21:37.609310+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2082 — devshard gateway polls /v1/versions and /v1/epochs/* at 12/min, but default proxy api_zone allows 10/min → permanent 503s after ~5 h",
+      "url": "/community/issues/02082-devshard-gateway-polls-v1versions-and-v1epochs-at-12min-but-/",
+      "file": "02082-devshard-gateway-polls-v1versions-and-v1epochs-at-12min-but-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway polls /v1/versions and /v1/epochs/* at 12/min, but default proxy api_zone allows 10/min → permanent 503s after ~5 h\n    <span class=\"issues-number\">#2082</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-22 07:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></sp"
+    },
+    "ai_description": "New issue #2082 reports that the devshard gateway exceeds the default proxy rate limit, polling at 12 requests per minute while the api_zone allows only 10, leading to permanent 503 errors after about five hours. This is a critical reliability bug for anyone running a gateway, so please weigh in with your experience or suggested fixes."
+  },
+  {
     "id": "evt_20261022000613_db92d3db",
     "timestamp": "2026-10-22T00:06:13.960427+00:00",
     "section": "issues",
@@ -8327,21 +8343,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Security: BLS group key validation falls back to self-validation when previous epoch data is missing\n    <span class=\"issues-number\">#848</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:03 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  <"
     },
     "ai_description": "New issue #848 from @Mayveskii flags a security concern: when previous epoch data is missing, BLS group key validation can fall back to self-validation instead of proper cross-checking. The issue is now closed and worth a look if you work on consensus or key management. Check the thread for the discussion and resolution details."
-  },
-  {
-    "id": "evt_20260910183639_26b5715d",
-    "timestamp": "2026-09-10T18:36:39.608009+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#849 — Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights",
-      "url": "/community/issues/00849-bug-dkg-permanent-failure-dealer-consensus-uses-unweighted-p/",
-      "file": "00849-bug-dkg-permanent-failure-dealer-consensus-uses-unweighted-p.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bug: DKG permanent failure — dealer consensus uses unweighted participant votes but quorum uses slot weights\n    <span class=\"issues-number\">#849</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Mayveskii\">@Mayveskii</a> opened 2026-03-03 12:04 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></s"
-    },
-    "ai_description": "A new bug report (#849) from @Mayveskii highlights a serious flaw in the DKG process: the dealer consensus counts each participant equally, while the quorum threshold relies on slot weights. This mismatch can cause a permanent failure when the weighted quorum isn't met despite a simple majority vote, so the issue is now closed as a critical finding."
   }
 ]
