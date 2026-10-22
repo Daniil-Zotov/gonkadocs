@@ -2,7 +2,7 @@
 title: "#1769 — Fix warm-key verification across height-sync acknowledgement and repair paths"
 source: https://github.com/gonka-ai/gonka/issues/1769
 issue_number: 1769
-synced_at: 2026-10-21T20:42:36Z
+synced_at: 2026-10-22T00:03:07Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#1810 — `devshard`: Tool-calling / protocol errors → INVALID"
 source: https://github.com/gonka-ai/gonka/issues/1810
 issue_number: 1810
-synced_at: 2026-10-21T20:42:57Z
+synced_at: 2026-10-22T00:02:48Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>
-    <span class="issues-meta-item">5 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-29 17:04 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-21 21:11 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -27,7 +27,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Comments (5)
+## 💬 Comments (7)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -131,6 +131,29 @@ I think looking into the problem as incompatible vllm outputs can give some insi
 <li>It has been fixed and lost during the development. https://github.com/gonka-ai/gonka/pull/1870 - this PR is going to be merged in devshard v6 or even v5 with the host fix release. https://github.com/gonka-ai/gonka/pull/1270 - these changes has been lost during the devshard refactoring </li>
 <li>it mostly covers cases when inference less then 64 tokens can be valid with the fraud data. I believe it is a temporary solution until the most effective will be delivered in the next releases</li>
 </ol>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-10-21 20:52 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Isn't it closed?
+@qdanik @zpoken </p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-10-21 21:11 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <blockquote>
+<p>9. Isn't it closed?
+    <a href="https://github.com/qdanik">@qdanik</a> <a href="https://github.com/zpoken">@zpoken</a></p>
+</blockquote>
+<p>not yet, we didn't implement validations for the tool_calling and vllm errors </p>
   </div>
 </div>
 
