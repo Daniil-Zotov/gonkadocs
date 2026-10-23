@@ -3,7 +3,7 @@ title: "#1996 — Current funded performance work after #1914 journal changes"
 source: https://github.com/gonka-ai/gonka/discussions/1996
 discussion_number: 1996
 category: q-a
-synced_at: 2026-10-23T19:06:01Z
+synced_at: 2026-10-23T23:03:47Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1996](https://github.com/gonka-ai/gonka/discussions/1996) every hour. 
