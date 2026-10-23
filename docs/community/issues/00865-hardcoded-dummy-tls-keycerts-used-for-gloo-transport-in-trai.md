@@ -2,7 +2,7 @@
 title: "#865 — Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body"
 source: https://github.com/gonka-ai/gonka/issues/865
 issue_number: 865
-synced_at: 2026-10-23T13:37:40Z
+synced_at: 2026-10-23T18:30:39Z
 template: issues-main.html
 ---
 
