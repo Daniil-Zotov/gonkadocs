@@ -2,7 +2,7 @@
 title: "#1135 — PoC-decode proposal"
 source: https://github.com/gonka-ai/gonka/issues/1135
 issue_number: 1135
-synced_at: 2026-10-23T07:42:20Z
+synced_at: 2026-10-23T13:35:35Z
 template: issues-main.html
 ---
 

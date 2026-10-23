@@ -2,7 +2,7 @@
 title: "#527 — Node resync from snapshot caused missed inference tasks due to large application.db"
 source: https://github.com/gonka-ai/gonka/issues/527
 issue_number: 527
-synced_at: 2026-10-23T07:45:29Z
+synced_at: 2026-10-23T13:38:22Z
 template: issues-main.html
 ---
 

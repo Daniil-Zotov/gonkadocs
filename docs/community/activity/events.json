@@ -1,5 +1,85 @@
 [
   {
+    "id": "evt_20261023133908_06ce3bd8",
+    "timestamp": "2026-10-23T13:39:08.898713+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2103 — devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)",
+      "url": "/community/issues/02103-devshardctl-primary-unresponsive-hedging-trips-on-a-single-w/",
+      "file": "02103-devshardctl-primary-unresponsive-hedging-trips-on-a-single-w.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)\n    <span class=\"issues-number\">#2103</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"i"
+    },
+    "ai_description": "New issue #2103 filed by @maria-mitina flags a bug in devshardctl where the primary_unresponsive hedging alert can trigger from just a single winner_served_without_finish sample. The problem is the threshold is set at 1.0 with no minimum sample guard, so even one data point in a one-hour window can cause a false positive. This matters because it could lead to unnecessary hedging actions and alert fatigue, so the community should weigh in on adding a minimum sample requirement."
+  },
+  {
+    "id": "evt_20261023133908_11f2d07c",
+    "timestamp": "2026-10-23T13:39:08.898748+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2104 — devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later",
+      "url": "/community/issues/02104-devshardctl-winner-served-without-finish-records-a-not-finis/",
+      "file": "02104-devshardctl-winner-served-without-finish-records-a-not-finis.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later\n    <span class=\"issues-number\">#2104</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></sp"
+    },
+    "ai_description": "A new issue has been opened by @maria-mitina reporting a bug in devshardctl where a host gets incorrectly flagged as not_finished at stream end, even when the nonce completes just seconds later. This matters because false strikes can unfairly penalize reliable hosts and skew network reputation. Worth keeping an eye on this one, as it affects the fairness of the inference reward system."
+  },
+  {
+    "id": "evt_20261023133908_86c26b68",
+    "timestamp": "2026-10-23T13:39:08.898769+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2105 — devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers",
+      "url": "/community/issues/02105-devshardctl-speed-up-hedging-on-a-mixed-latency-escrow-group/",
+      "file": "02105-devshardctl-speed-up-hedging-on-a-mixed-latency-escrow-group.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers\n    <span class=\"issues-number\">#2105</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"iss"
+    },
+    "ai_description": "New issue #2105 from @maria-mitina highlights a critical performance bug in devshardctl: the speed-up hedging logic on mixed-latency escrow groups causes remote primaries to lose 67-82% of races and end up as suppressed losers, effectively doubling GPU work. This is a significant efficiency concern for the network, and the community should weigh in on the root cause and potential fixes. Check out the issue to share your insights."
+  },
+  {
+    "id": "evt_20261023133908_155d882d",
+    "timestamp": "2026-10-23T13:39:08.898790+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2106 — Preserved nodes carry stale weight indefinitely and ignore node changes (v0.2.17)",
+      "url": "/community/issues/02106-preserved-nodes-carry-stale-weight-indefinitely-and-ignore-n/",
+      "file": "02106-preserved-nodes-carry-stale-weight-indefinitely-and-ignore-n.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Preserved nodes carry stale weight indefinitely and ignore node changes (v0.2.17)\n    <span class=\"issues-number\">#2106</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
+    },
+    "ai_description": "Issue #2106 has been opened by @maria-mitina, reporting that preserved nodes in v0.2.17 keep stale weight values indefinitely and fail to reflect node configuration changes. This is a critical bug for network reliability, as it means the system may continue routing inference based on outdated node weights. Keep an eye on this one — it could affect fair load distribution across the network."
+  },
+  {
+    "id": "evt_20261023133908_07fc8cae",
+    "timestamp": "2026-10-23T13:39:08.898814+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2107 — devshard: during confirmation PoC generation a session's whole stream lands on its preserved slots, whatever their size",
+      "url": "/community/issues/02107-devshard-during-confirmation-poc-generation-a-sessions-whole/",
+      "file": "02107-devshard-during-confirmation-poc-generation-a-sessions-whole.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: during confirmation PoC generation a session's whole stream lands on its preserved slots, whatever their size\n    <span class=\"issues-number\">#2107</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-10-23 13:03 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div"
+    },
+    "ai_description": "A new issue has been opened by @redstartechno highlighting a bug in the devshard confirmation process where the entire data stream is assigned to a session's preserved slots, regardless of their actual capacity. This could lead to inefficient resource allocation and potential bottlenecks during PoC generation. The community should weigh in on whether this is a critical fix or a design nuance worth refining."
+  },
+  {
     "id": "evt_20261022192049_5000b055",
     "timestamp": "2026-10-22T19:20:49.444085+00:00",
     "section": "issues",
@@ -7826,80 +7906,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Epoch and timestamp consistency across inference, validation, and claims\n    <span class=\"issues-number\">#566</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 20:00 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-"
     },
     "ai_description": "Issue #566 on epoch and timestamp consistency across inference, validation, and claims has been removed from the feed. The proposal aimed to align timekeeping across core network processes, and its removal means that discussion is no longer tracked here. If you were following this topic, check the repository directly for any updates or alternatives.Issue #566 on epoch and timestamp consistency has been removed from the feed. This means the proposal to align timekeeping across inference, validation, and claims is no longer tracked here, so check the repository directly if you were following it. The removal keeps the activity feed focused on active and actionable items."
-  },
-  {
-    "id": "evt_20261022152143_fa53b98d",
-    "timestamp": "2026-10-22T15:21:43.039101+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#567 — Missed validations recovery system",
-      "url": null,
-      "file": "00567-missed-validations-recovery-system.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Missed validations recovery system\n    <span class=\"issues-number\">#567</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 20:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
-    },
-    "ai_description": "Issue #567 on missed validations recovery has been removed from the feed, meaning it's no longer tracked as an active concern. This cleanup suggests the community has moved past that proposal, so we're keeping the board focused on current priorities. Stay tuned for what's next.The closed issue about a missed validations recovery system has been removed from our activity feed, signaling it's no longer on the community's radar. This cleanup helps keep our board focused on active proposals and current priorities."
-  },
-  {
-    "id": "evt_20261022152143_5627e0c9",
-    "timestamp": "2026-10-22T15:21:43.039105+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#568 — DB handling improvements",
-      "url": null,
-      "file": "00568-db-handling-improvements.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    DB handling improvements\n    <span class=\"issues-number\">#568</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n"
-    },
-    "ai_description": "Issue #568 on database handling improvements has been closed and removed from the feed. The proposal, opened by @tcharchian, is no longer active, so the community should look to other open issues for ongoing work. No further action is needed on this item.Issue #568 on database handling improvements, opened by @tcharchian, has been closed and removed from the feed. The proposal is no longer active, so the community can focus its attention on other open issues. No further action is needed on this item."
-  },
-  {
-    "id": "evt_20261022152143_7008f221",
-    "timestamp": "2026-10-22T15:21:43.039109+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#569 — Switch to bytes for storage",
-      "url": null,
-      "file": "00569-switch-to-bytes-for-storage.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Switch to bytes for storage\n    <span class=\"issues-number\">#569</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:08 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
-    },
-    "ai_description": "Issue #569 about switching to bytes for storage has been removed from the community feed. The proposal, which was closed without discussion, is no longer visible for tracking or reference. This cleanup helps keep the activity feed focused on active and relevant topics.Issue #569, which proposed switching to bytes for storage, has been removed from the community feed. The closed proposal with no comments is no longer tracked, keeping our activity focused on active discussions and actionable items."
-  },
-  {
-    "id": "evt_20261022152143_71383a49",
-    "timestamp": "2026-10-22T15:21:43.039113+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#570 — Production-grade proxy, SSL, and wallet-compatible endpoints",
-      "url": null,
-      "file": "00570-production-grade-proxy-ssl-and-wallet-compatible-endpoints.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Production-grade proxy, SSL, and wallet-compatible endpoints\n    <span class=\"issues-number\">#570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:09 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty"
-    },
-    "ai_description": "Issue #570 on production-grade proxy, SSL, and wallet-compatible endpoints has been closed and removed from our active tracker. This means the proposed infrastructure improvements are no longer under consideration, so the community should focus on other open priorities for endpoint stability. Thanks to @tcharchian for raising the topic, even though it didn't move forward."
-  },
-  {
-    "id": "evt_20261022152143_86cde4d6",
-    "timestamp": "2026-10-22T15:21:43.039116+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#571 — Improve performance of MLNode, support Blackwell",
-      "url": null,
-      "file": "00571-improve-performance-of-mlnode-support-blackwell.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Improve performance of MLNode, support Blackwell \n    <span class=\"issues-number\">#571</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-15 21:13 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-"
-    },
-    "ai_description": "Issue #571 on improving MLNode performance and adding Blackwell support has been closed and removed from the active list. This signals the team has wrapped up the work or deprioritized it for now, so keep an eye out for any related updates or replacements in the pipeline. Stay tuned for how this impacts node efficiency on the network."
   }
 ]
