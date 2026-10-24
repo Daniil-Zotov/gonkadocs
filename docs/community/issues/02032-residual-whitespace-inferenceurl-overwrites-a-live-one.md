@@ -2,7 +2,7 @@
 title: "#2032 — Residual: whitespace `InferenceUrl` overwrites a live one"
 source: https://github.com/gonka-ai/gonka/issues/2032
 issue_number: 2032
-synced_at: 2026-10-24T00:47:45Z
+synced_at: 2026-10-24T05:59:55Z
 template: issues-main.html
 ---
 
