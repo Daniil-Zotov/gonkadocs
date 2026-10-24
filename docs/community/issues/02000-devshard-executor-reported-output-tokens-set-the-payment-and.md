@@ -2,7 +2,7 @@
 title: "#2000 — devshard: executor-reported output tokens set the payment and are checked only on sampled replays"
 source: https://github.com/gonka-ai/gonka/issues/2000
 issue_number: 2000
-synced_at: 2026-10-24T05:59:51Z
+synced_at: 2026-10-24T11:15:02Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-20 16:12 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-24 07:28 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -321,7 +321,7 @@ Two different scales, then. The gateway's bound is loose, so only clear inflatio
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -397,6 +397,20 @@ Two different scales, then. The gateway's bound is loose, so only clear inflatio
   </div>
   <div class="issues-comment-body issues-content">
     <p>@cyberdelamain Thanks, confirmed. With <code>logit_bias</code> +100 on a single-byte fragment, the stream detokenizer emits nothing on all three models, so an honest empty answer would be voted <code>USAGE_INFLATED</code>. I'm preparing tests on fixtures built from the real tokenizers and parsers of the builds the hosts run. They will cover this case and others like it. Your review will be welcome when I open the PR.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-10-24 07:28 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <blockquote>
+<p>4. a question for PR 2: which vLLM build is the reference?</p>
+</blockquote>
+<p>Every should be supported. I don't think we should limit users which vllm they use.</p>
+<p>What is practical differences between them for these changes?</p>
+<p>We force reasoning anyway</p>
   </div>
 </div>
 

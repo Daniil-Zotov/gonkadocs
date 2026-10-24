@@ -2,7 +2,7 @@
 title: "#2078 — devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation"
 source: https://github.com/gonka-ai/gonka/issues/2078
 issue_number: 2078
-synced_at: 2026-10-24T05:59:48Z
+synced_at: 2026-10-24T11:15:02Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/cyberdelamain">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-21 15:38 UTC</span>
+    <span class="issues-meta-item">6 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-24 10:41 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -42,6 +42,82 @@ Proposal: a context-length refusal counts against the host only if the request i
 
 Both checks are small on top of #1903. I can open them as a follow-up PR against the branch #1903 lands in, or add them to #1903 if @zpoken prefers.
 
+</div>
+
+---
+
+## 💬 Comments (6)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-10-24 06:49 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>What else I think on this point.</p>
+<p>executor that responds with max-context-length error, anyway, should provide logits for generated output tokens.
+max-context-length &gt;= input_tokens + output_tokens</p>
+<p>When we are validating we anyway need logits for output tokens</p>
+<p>Overall it looks like fixes need changes to MLNode</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/cyberdelamain">@cyberdelamain</a></span>
+    <span class="issues-meta-item">commented 2026-10-24 07:25 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@a-kuprin agreed: input + actual output is what has to fit, and validation needs the output logits anyway, so the better fix is that the executor generates instead of refusing.</p>
+<p>Today vLLM refuses before generating because it checks prompt + requested <code>max_tokens</code> at tokenization (<code>TokenizeParams</code>, "This model's maximum context length is N tokens. However, you requested M output tokens and your prompt contains K input tokens…"). Later <code>get_max_tokens</code> would already clamp <code>max_tokens</code> to <code>max_model_len - prompt_len</code>, but the request never gets that far. If the ML node checks only the prompt against <code>--max-model-len</code> and lets <code>max_tokens</code> be clamped, a request whose prompt fits returns tokens and logits with <code>finish_reason: length</code>, and validators replay those enforced tokens as usual. No client-fault path is needed for it.</p>
+<p>What stays is a prompt that alone is at or above the limit: nothing can be generated, so there are no logits. For that case my #2093 only needs to check <code>prompt_tokens &gt;= limit</code> instead of <code>prompt_tokens + max_tokens &gt; limit</code>. I'll narrow it once the ML node change exists.</p>
+<p>I can take the ML node change too (the vLLM fork / plugin side), unless you or @zpoken already have it planned.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-10-24 07:33 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <blockquote>
+<p>Today vLLM refuses before generating because it checks prompt + requested max_tokens at tokenization</p>
+</blockquote>
+<p>I think it's a good way to refuse before generation (we shouldn't spend resources if we are pretty sure it will not fit the context).</p>
+<p>So validation part is better to fix: we should have special context length validation path where vllm just tokenizes and checks  <code>prompt + requested max_tokens &lt; max_model_len</code></p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/cyberdelamain">@cyberdelamain</a></span>
+    <span class="issues-meta-item">commented 2026-10-24 08:42 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@a-kuprin #2093 is that path. On a client-fault Finish the validator counts the prompt on its own ML node and confirms the fault only if <code>prompt_tokens + max_tokens</code> exceeds <code>--max-model-len</code> from the epoch's model snapshot. vLLM accepts equality, so the check is <code>&gt;</code>. A prompt that fits keeps <code>Valid:false</code>.</p>
+<p>Two differences from "just tokenize":</p>
+<ul>
+<li>The count is the same request with <code>stream:false, max_tokens:1</code>, so it costs one prefill. vLLM's <code>/tokenize</code> takes chat messages and returns <code>count</code> without a prefill. The validator can reach it today through the ML node's port 5000 compatibility server (<code>proxy.py</code>, which forwards any path), though that block is marked temporary and the main port forwards only <code>/v1/*</code>. I haven't checked that <code>/tokenize</code> renders exactly the prompt chat/completions serves for these models; the 1-token request goes through the same path.</li>
+<li>The count runs after a replay that served. I can move it in front: over the limit, confirm without a replay; otherwise, or if the count fails or the limit is unknown, replay as now, which covers other client faults and a forged refusal.</li>
+</ul>
+<p>I'll make the reorder in #2093 if that matches what you meant, and switch the count to <code>/tokenize</code> if you prefer it over the 1-token request.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-10-24 08:54 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I think we can skip prefill phase here and make cheaper validation</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/cyberdelamain">@cyberdelamain</a></span>
+    <span class="issues-meta-item">commented 2026-10-24 10:41 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@a-kuprin Done in #2093: the count is vLLM <code>/tokenize</code> on the validator's ML node, so there is no prefill and no <code>max_tokens:1</code> request. Following your note on #1903, #2093 is now standalone on <code>devshard/v7</code> (the check, the governance-limit resolver and the <code>/tokenize</code> call), so it can land first; #1903 then calls it before the replay.</p>
+  </div>
 </div>
 
 ---

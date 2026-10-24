@@ -2,7 +2,7 @@
 title: "#1899 — devshard: per-diff full-state copies and per-request scans grow with the escrow's live set under load"
 source: https://github.com/gonka-ai/gonka/issues/1899
 issue_number: 1899
-synced_at: 2026-10-24T06:00:17Z
+synced_at: 2026-10-24T11:15:37Z
 template: issues-main.html
 ---
 
