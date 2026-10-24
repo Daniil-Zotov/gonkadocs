@@ -2,7 +2,7 @@
 title: "#428 — Node management"
 source: https://github.com/gonka-ai/gonka/issues/428
 issue_number: 428
-synced_at: 2026-10-24T14:40:37Z
+synced_at: 2026-10-24T18:17:06Z
 template: issues-main.html
 ---
 
