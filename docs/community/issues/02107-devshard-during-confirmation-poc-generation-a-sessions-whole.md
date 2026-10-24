@@ -2,7 +2,7 @@
 title: "#2107 — devshard: during confirmation PoC generation a session's whole stream lands on its preserved slots, whatever their size"
 source: https://github.com/gonka-ai/gonka/issues/2107
 issue_number: 2107
-synced_at: 2026-10-24T11:15:09Z
+synced_at: 2026-10-24T14:38:35Z
 template: issues-main.html
 ---
 

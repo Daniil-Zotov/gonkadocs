@@ -2,7 +2,7 @@
 title: "#1771 — Restore deterministic height-sync floor and heartbeat causality state from snapshots"
 source: https://github.com/gonka-ai/gonka/issues/1771
 issue_number: 1771
-synced_at: 2026-10-24T11:15:26Z
+synced_at: 2026-10-24T14:38:54Z
 template: issues-main.html
 ---
 
