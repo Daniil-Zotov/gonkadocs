@@ -2,7 +2,7 @@
 title: "#631 — Add message to transfer amount with vesting"
 source: https://github.com/gonka-ai/gonka/issues/631
 issue_number: 631
-synced_at: 2026-10-24T18:17:28Z
+synced_at: 2026-10-24T20:59:52Z
 template: issues-main.html
 ---
 
