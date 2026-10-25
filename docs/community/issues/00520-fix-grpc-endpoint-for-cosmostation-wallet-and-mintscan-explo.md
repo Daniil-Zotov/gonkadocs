@@ -2,7 +2,7 @@
 title: "#520 — Fix gRPC Endpoint for Cosmostation wallet and Mintscan explorer dashboard"
 source: https://github.com/gonka-ai/gonka/issues/520
 issue_number: 520
-synced_at: 2026-10-24T23:24:20Z
+synced_at: 2026-10-25T01:22:04Z
 template: issues-main.html
 ---
 
