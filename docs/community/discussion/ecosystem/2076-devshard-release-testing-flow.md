@@ -3,7 +3,7 @@ title: "#2076 — DevShard Release Testing Flow"
 source: https://github.com/gonka-ai/gonka/discussions/2076
 discussion_number: 2076
 category: ecosystem
-synced_at: 2026-10-25T18:57:41Z
+synced_at: 2026-10-25T21:40:21Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2076](https://github.com/gonka-ai/gonka/discussions/2076) every hour. 
