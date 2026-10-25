@@ -2,7 +2,7 @@
 title: "#2082 — devshard gateway polls /v1/versions and /v1/epochs/* at 12/min, but default proxy api_zone allows 10/min → permanent 503s after ~5 h"
 source: https://github.com/gonka-ai/gonka/issues/2082
 issue_number: 2082
-synced_at: 2026-10-25T19:44:52Z
+synced_at: 2026-10-25T22:39:03Z
 template: issues-main.html
 ---
 

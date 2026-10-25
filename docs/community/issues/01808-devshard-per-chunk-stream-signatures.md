@@ -2,7 +2,7 @@
 title: "#1808 — `devshard`: Per-chunk stream signatures"
 source: https://github.com/gonka-ai/gonka/issues/1808
 issue_number: 1808
-synced_at: 2026-10-25T19:45:44Z
+synced_at: 2026-10-25T22:39:51Z
 template: issues-main.html
 ---
 
