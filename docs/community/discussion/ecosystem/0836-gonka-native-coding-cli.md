@@ -3,14 +3,14 @@ title: "#836 — Gonka-native Coding CLI"
 source: https://github.com/gonka-ai/gonka/discussions/836
 discussion_number: 836
 category: ecosystem
-synced_at: 2026-10-25T21:40:49Z
+synced_at: 2026-10-26T00:09:43Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #836](https://github.com/gonka-ai/gonka/discussions/836) every hour. 
 
 # Gonka-native Coding CLI
 
-**Автор:** [@Apha205](https://github.com/Apha205) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-02 12:01 UTC · **Обновлено:** 2026-10-24 20:52 UTC
+**Автор:** [@Apha205](https://github.com/Apha205) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-02 12:01 UTC · **Обновлено:** 2026-10-25 22:35 UTC
 
 ---
 
@@ -46,7 +46,7 @@ In that sense, **this is as much a distribution and ecosystem expansion strategy
 
 ---
 
-## 💬 Комментарии (3)
+## 💬 Комментарии (4)
 
 ### Комментарий 1 — [@Aktum1](https://github.com/Aktum1)
 
@@ -109,3 +109,9 @@ what the protocol layer is building.
 > > RE
 >
 > Yo bro @HavenCTO , here's my telegramm ... Link me there, i'd like to talk. U write about is 60% done by me, i'm ready for share.
+
+### Комментарий 4 — [@Apha205](https://github.com/Apha205)
+
+*2026-10-25 22:35 UTC*
+
+https://github.com/Haven-hvn/deepseek-harness-web3-agent-stack

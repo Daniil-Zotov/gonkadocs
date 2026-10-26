@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **114**. Обновлено: `2026-10-25 21:41 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **114**. Обновлено: `2026-10-26 00:10 UTC`.
 
 ## 📂 Категории
 
@@ -22,7 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
-| [836](ecosystem/0836-gonka-native-coding-cli.md) | [Gonka-native Coding CLI](ecosystem/0836-gonka-native-coding-cli.md) | :jigsaw: Ecosystem | [@Apha205](https://github.com/Apha205) | 2026-10-24 |
+| [836](ecosystem/0836-gonka-native-coding-cli.md) | [Gonka-native Coding CLI](ecosystem/0836-gonka-native-coding-cli.md) | :jigsaw: Ecosystem | [@Apha205](https://github.com/Apha205) | 2026-10-25 |
 | [2076](ecosystem/2076-devshard-release-testing-flow.md) | [DevShard Release Testing Flow](ecosystem/2076-devshard-release-testing-flow.md) | :jigsaw: Ecosystem | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-10-21 |
 | [1304](general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | [APS for delegated wallets and agent accounts (Track 2, Project 3)](general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | :speech_balloon: General | [@aeoess](https://github.com/aeoess) | 2026-10-20 |
 | [670](general/0670-kimi-k25.md) | [Kimi K2.5](general/0670-kimi-k25.md) | :speech_balloon: General | [@Yockium](https://github.com/Yockium) | 2026-10-20 |

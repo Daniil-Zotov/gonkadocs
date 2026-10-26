@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-25T21:41:00.341555+00:00",
+  "snapshot_time": "2026-10-26T00:10:30.877597+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -18,7 +18,7 @@
       "title": "#836 — Gonka-native Coding CLI",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #836](https://github.com/gonka-ai/gonka/discussions/836) every hour. \n\n# Gonka-native Coding CLI\n\n**Автор:** [@Apha205](https://github.com/Apha205) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-02 12:01 UTC · \n\n---\n\n## 📝 Описание\n\nWe are an AI-focused open-source organization building infrastructure and applications around decentralized intelligence systems, and we have been early adopters in the AI space, positioning ourselves ahead of the curve by developing tools and experimental systems.\n\n**Overview:**\nWe are developing a Gonka-native coding CLI— a developer tool that integrates directly with the Gonka network without relying on centralized intermediaries, while providing a seamless command-line experience that fits naturally into modern",
-      "checksum": "9375e41ed850a70978c2e6789f612f655d5bbc184ea2eb00c9ae6fda44308dd3"
+      "checksum": "18542d0a304eb0d83e73b7cb72686deb472eaacd6284167968a8aefe4334f442"
     },
     "ecosystem/0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md": {
       "title": "#864 — Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)",
