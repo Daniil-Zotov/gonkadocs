@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **114**. Обновлено: `2026-10-26 19:11 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **114**. Обновлено: `2026-10-26 23:46 UTC`.
 
 ## 📂 Категории
 
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1884](show-and-tell/1884-sagg-an-openai-compatible-gateway-over-several-gonka-provide.md) | [SAGG — an OpenAI-compatible gateway over several Gonka providers, with measured results](show-and-tell/1884-sagg-an-openai-compatible-gateway-over-several-gonka-provide.md) | :raised_hands: Show and Tell | [@privatedeskai](https://github.com/privatedeskai) | 2026-10-26 |
 | [836](ecosystem/0836-gonka-native-coding-cli.md) | [Gonka-native Coding CLI](ecosystem/0836-gonka-native-coding-cli.md) | :jigsaw: Ecosystem | [@Apha205](https://github.com/Apha205) | 2026-10-25 |
 | [2076](ecosystem/2076-devshard-release-testing-flow.md) | [DevShard Release Testing Flow](ecosystem/2076-devshard-release-testing-flow.md) | :jigsaw: Ecosystem | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-10-21 |
 | [1304](general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | [APS for delegated wallets and agent accounts (Track 2, Project 3)](general/1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | :speech_balloon: General | [@aeoess](https://github.com/aeoess) | 2026-10-20 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [1092](protocol-improvements/1092-gip-neural-computation-protocol-ncp-v032-deterministic-wasm-.md) | [GiP: Neural Computation Protocol (NCP) v0.3.2 – Deterministic WASM Bricks + YAML Graphs for Fast, Auditable Agentic Systems](protocol-improvements/1092-gip-neural-computation-protocol-ncp-v032-deterministic-wasm-.md) | :gear: Protocol Improvements | [@madeinplutofabio](https://github.com/madeinplutofabio) | 2026-10-20 |
 | [1093](protocol-improvements/1093-gip-provenance-intent-contracts-pic-v075-local-first-action-.md) | [GiP: Provenance & Intent Contracts (PIC) v0.7.5 – Local-First Action Gating for Verifiable AI Agents](protocol-improvements/1093-gip-provenance-intent-contracts-pic-v075-local-first-action-.md) | :gear: Protocol Improvements | [@madeinplutofabio](https://github.com/madeinplutofabio) | 2026-10-20 |
 | [800](protocol-improvements/0800-multi-model-poc.md) | [Multi-Model PoC](protocol-improvements/0800-multi-model-poc.md) | :gear: Protocol Improvements | [@gmorgachev](https://github.com/gmorgachev) | 2026-10-20 |
-| [1008](protocol-improvements/1008-token-based-governance-splitting-technical-and-community-dec.md) | [Token-Based Governance: Splitting Technical and Community Decisions](protocol-improvements/1008-token-based-governance-splitting-technical-and-community-dec.md) | :gear: Protocol Improvements | [@Alert17](https://github.com/Alert17) | 2026-10-20 |

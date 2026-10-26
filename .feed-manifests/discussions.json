@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-26T19:11:52.361028+00:00",
+  "snapshot_time": "2026-10-26T23:48:02.876538+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -462,7 +462,7 @@
       "title": "#1502 — Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1502](https://github.com/gonka-ai/gonka/discussions/1502) every hour. \n\n# Обратная связь от разработчика: почему текущий модельный ряд Gonka пока не проходит production bar\n\n**Автор:** [@bitcompool](https://github.com/bitcompool) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-07-26 17:26 UTC · \n\n---\n\n## 📝 Описание\n\n<head></head><h2 style=\"caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;\">Обратная связь от разработ",
-      "checksum": "7d2016785b0bb9c9a5b096049b4ea91d1163e63492c7c16915d87dc0136a5dc3"
+      "checksum": "5e0f3e23ce4543c26264699d9dc0e616c41a19a6802a8c9385f16283000ce02e"
     },
     "protocol-improvements/1636-proposal-cache-served-token-pricing.md": {
       "title": "#1636 — Proposal: Cache-Served Token Pricing",
@@ -680,11 +680,11 @@
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1711](https://github.com/gonka-ai/gonka/discussions/1711) every hour. \n\n# Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka\n\n**Автор:** [@gonkalabs](https://github.com/gonkalabs) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-03 00:42 UTC · \n\n---\n\n## 📝 Описание\n\nHey! Gonka Labs here.\n\nOn September 1st, we shipped [Gonka Chat](https://chat.gonka.gg) - an open-source wallet-to-wallet messenger for Gonka. \nYou write a `gonka1...` address or a `.gnk` (GNS, https://gonka.gg/names) name the same way you'd write a handle. No new account. **The wallet is the identity.**\n\nhttps://github.com/user-attachments/assets/9cba802d-2891-48a0-a4ef-b4b5881a4f55\n\n### The problem\n\nMost web3 ecosystems already have some form of wallet chat. So",
       "checksum": "214fccca45bda439e722b583b373ac17276295629751b3b0ff59d2a1cb182545"
     },
-    "show-and-tell/1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md": {
-      "title": "#1884 — SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)",
+    "show-and-tell/1884-sagg-an-openai-compatible-gateway-over-several-gonka-provide.md": {
+      "title": "#1884 — SAGG — an OpenAI-compatible gateway over several Gonka providers, with measured results",
       "status": null,
-      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1884](https://github.com/gonka-ai/gonka/discussions/1884) every hour. \n\n# SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)\n\n**Автор:** [@privatedeskai](https://github.com/privatedeskai) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-30 18:07 UTC · \n\n---\n\n## 📝 Описание\n\nThe core idea: any single Gonka broker can have rough periods, but a cascade across several of them doesn't have to. That's the whole premise behind SAGG — take inherently volatile, individually unreliable brokers and turn them into a consistently reliable API on the output side, by holding several at once and switching automatically the moment one degrades.\n\nWe didn't just build this and claim it works — we measur",
-      "checksum": "1e8ddb50c922eee259689aed484bd823319533c75c08154c966275a43401c2b8"
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1884](https://github.com/gonka-ai/gonka/discussions/1884) every hour. \n\n# SAGG — an OpenAI-compatible gateway over several Gonka providers, with measured results\n\n**Автор:** [@privatedeskai](https://github.com/privatedeskai) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-30 18:07 UTC · \n\n---\n\n## 📝 Описание\n\nSAGG is an OpenAI-compatible gateway (`https://api.privatedeskai.com/v1`). It keeps several independent providers behind one endpoint and switches automatically when one of them degrades.\n\n**Measured results**: one 24-hour test of version R1, 23–24 October 2026, synthetic mix of five request classes, nothing excluded.\n\n**Standard line**: 99.94 % of requests served (4,769 of 4,772); time to first text median 1.4 s, 95th percentil",
+      "checksum": "8b70f21fa10069ec796926603561dd5bcf62877d8b3b2ea335d7de52ee8eaeb8"
     }
   }
 }

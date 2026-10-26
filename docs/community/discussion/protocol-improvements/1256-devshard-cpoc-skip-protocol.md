@@ -3,7 +3,7 @@ title: "#1256 — `devshard` cPoC skip protocol"
 source: https://github.com/gonka-ai/gonka/discussions/1256
 discussion_number: 1256
 category: protocol-improvements
-synced_at: 2026-10-26T19:11:29Z
+synced_at: 2026-10-26T23:46:36Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1256](https://github.com/gonka-ai/gonka/discussions/1256) every hour. 

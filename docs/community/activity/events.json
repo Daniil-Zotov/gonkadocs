@@ -1,5 +1,36 @@
 [
   {
+    "id": "evt_20261026234656_188d99ac",
+    "timestamp": "2026-10-26T23:46:56.083603+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#1884 — SAGG — an OpenAI-compatible gateway over several Gonka providers, with measured results",
+      "url": "/community/discussion/show-and-tell/1884-sagg-an-openai-compatible-gateway-over-several-gonka-provide/",
+      "file": "show-and-tell/1884-sagg-an-openai-compatible-gateway-over-several-gonka-provide.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1884](https://github.com/gonka-ai/gonka/discussions/1884) every hour. \n\n# SAGG — an OpenAI-compatible gateway over several Gonka providers, with measured results\n\n**Автор:** [@privatedeskai](https://github.com/privatedeskai) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-30 18:07 UTC · \n\n---\n\n## 📝 Описание\n\nSAGG is an OpenAI-compatible gateway (`https://api.privatedeskai.com/v1`). It keeps several independent providers behind one endpoint and switches automatically when one of them degrades.\n\n**Measured results**: one 24-hour test of version R1, 23–24 October 2026, synthetic mix of five request classes, nothing excluded.\n\n**Standard line**: 99.94 % of requests served (4,769 of 4,772); time to first text median 1.4 s, 95th percentil"
+    },
+    "ai_description": "A new community discussion introduces SAGG, an OpenAI-compatible gateway that routes requests across multiple Gonka providers and automatically fails over when one degrades. The author shares measured results from a 24-hour test showing 99.94% of requests served successfully, with a median time to first text of just 1.4 seconds. This is a valuable real-world demonstration of resilient multi-provider inference that could benefit anyone building production apps on Gonka."
+  },
+  {
+    "id": "evt_20261026234656_6a0bdab1",
+    "timestamp": "2026-10-26T23:46:56.083623+00:00",
+    "section": "discussions",
+    "action": "deleted",
+    "item": {
+      "title": "#1884 — SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)",
+      "url": null,
+      "file": "show-and-tell/1884-sagg-turning-unreliable-gonka-brokers-into-a-reliable-infere.md"
+    },
+    "details": {
+      "content": "> 🔄 **Auto-sync:** from [Discussion #1884](https://github.com/gonka-ai/gonka/discussions/1884) every hour. \n\n# SAGG — turning unreliable Gonka brokers into a reliable inference API (cascading failover, real data)\n\n**Автор:** [@privatedeskai](https://github.com/privatedeskai) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-30 18:07 UTC · \n\n---\n\n## 📝 Описание\n\nThe core idea: any single Gonka broker can have rough periods, but a cascade across several of them doesn't have to. That's the whole premise behind SAGG — take inherently volatile, individually unreliable brokers and turn them into a consistently reliable API on the output side, by holding several at once and switching automatically the moment one degrades.\n\nWe didn't just build this and claim it works — we measur"
+    },
+    "ai_description": "A discussion proposing SAGG, a system that turns unreliable Gonka brokers into a dependable inference API through cascading failover, has been removed from the community feed. The project aimed to hold multiple brokers simultaneously and auto-switch on degradation, backed by real performance data. Its removal means the community loses a concrete proposal for improving network reliability, though the underlying need for robust failover solutions remains."
+  },
+  {
     "id": "evt_20261026231611_d57bfdcb",
     "timestamp": "2026-10-26T23:16:11.116885+00:00",
     "section": "issues",
@@ -7888,35 +7919,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    \"Request timestamp is in the future\" leads to missed inferences for hosts\n    <span class=\"issues-number\">#518</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-01-02 06:22 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
     },
     "ai_description": "Issue #518 has been closed and removed from the tracker. The problem where hosts missed inferences due to \"Request timestamp is in the future\" errors has been resolved, so the community can now rely on more consistent job processing without those timing-related drops. Thanks to everyone who contributed to fixing this.Issue #518 has been closed, marking the resolution of the \"Request timestamp is in the future\" bug that caused hosts to miss inferences. This fix ensures more reliable job processing and fewer missed opportunities for the network. Thanks to all who helped diagnose and address this timing issue."
-  },
-  {
-    "id": "evt_20261022152143_d82cb902",
-    "timestamp": "2026-10-22T15:21:43.039051+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#520 — Fix gRPC Endpoint for Cosmostation wallet and Mintscan explorer dashboard",
-      "url": null,
-      "file": "00520-fix-grpc-endpoint-for-cosmostation-wallet-and-mintscan-explo.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Fix gRPC Endpoint for Cosmostation wallet and Mintscan explorer dashboard\n    <span class=\"issues-number\">#520</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues"
-    },
-    "ai_description": "Issue #520 about fixing the gRPC endpoint for Cosmostation wallet and Mintscan explorer has been closed and removed from the feed. This means the proposed fix is no longer under active community discussion or tracking. If you were following this issue, the resolution or withdrawal has been finalized, so keep an eye on related updates if the endpoint issue persists."
-  },
-  {
-    "id": "evt_20261022152143_a4e5d142",
-    "timestamp": "2026-10-22T15:21:43.039056+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#521 — Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)",
-      "url": null,
-      "file": "00521-create-a-proxy-endpoint-that-aggregates-multiple-internal-rp.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)\n    <span class=\"issues-number\">#521</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"i"
-    },
-    "ai_description": "Issue #521 about creating a proxy endpoint to aggregate internal RPC nodes for crypto wallets has been removed from the community feed. This means the proposed solution is no longer being tracked here, so if you were following it for wallet integration plans, keep an eye out for any future updates or alternatives. The community feed stays cleaner without it, but the underlying need for a unified public RPC address may still be worth discussing elsewhere."
   }
 ]
