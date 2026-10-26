@@ -2,7 +2,7 @@
 title: "#422 — DAPI  nil pointer dereference crash when chain RPC is unavailable"
 source: https://github.com/gonka-ai/gonka/issues/422
 issue_number: 422
-synced_at: 2026-10-26T06:27:55Z
+synced_at: 2026-10-26T13:24:39Z
 template: issues-main.html
 ---
 

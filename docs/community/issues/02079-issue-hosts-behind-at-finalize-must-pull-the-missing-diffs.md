@@ -2,7 +2,7 @@
 title: "#2079 — Issue: hosts behind at finalize must pull the missing diffs"
 source: https://github.com/gonka-ai/gonka/issues/2079
 issue_number: 2079
-synced_at: 2026-10-26T06:24:17Z
+synced_at: 2026-10-26T13:20:36Z
 template: issues-main.html
 ---
 

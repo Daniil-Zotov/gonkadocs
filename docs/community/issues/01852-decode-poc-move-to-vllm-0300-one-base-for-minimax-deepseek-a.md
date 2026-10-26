@@ -2,7 +2,7 @@
 title: "#1852 — Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM"
 source: https://github.com/gonka-ai/gonka/issues/1852
 issue_number: 1852
-synced_at: 2026-10-26T06:24:52Z
+synced_at: 2026-10-26T13:21:17Z
 template: issues-main.html
 ---
 
