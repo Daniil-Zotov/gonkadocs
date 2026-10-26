@@ -2,7 +2,7 @@
 title: "#331 — [P1] API for wallets (Keplr, Leap) / indexers (we do have the API, we need to get the thought process of adding Gonka to different wallets, and see what we are missing."
 source: https://github.com/gonka-ai/gonka/issues/331
 issue_number: 331
-synced_at: 2026-10-26T01:21:35Z
+synced_at: 2026-10-26T06:28:19Z
 template: issues-main.html
 ---
 
