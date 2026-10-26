@@ -2,7 +2,7 @@
 title: "#2039 — [BUG] devshardctl: an escrow the gateway cannot serve is never settled, and the chain splits its deposit after two epochs"
 source: https://github.com/gonka-ai/gonka/issues/2039
 issue_number: 2039
-synced_at: 2026-10-25T22:39:12Z
+synced_at: 2026-10-26T01:18:48Z
 template: issues-main.html
 ---
 

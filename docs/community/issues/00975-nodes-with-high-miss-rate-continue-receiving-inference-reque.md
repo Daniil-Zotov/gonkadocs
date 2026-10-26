@@ -2,7 +2,7 @@
 title: "#975 — Nodes with high miss rate continue receiving inference requests for the rest of the epoch"
 source: https://github.com/gonka-ai/gonka/issues/975
 issue_number: 975
-synced_at: 2026-10-25T22:41:15Z
+synced_at: 2026-10-26T01:20:48Z
 template: issues-main.html
 ---
 
