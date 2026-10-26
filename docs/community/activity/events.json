@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261026231611_d57bfdcb",
+    "timestamp": "2026-10-26T23:16:11.116885+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2146 — devshard: requests in flight or queued when a PoC / cPoC starts on a non-preserved host become invalids and misses for a pause the protocol orders",
+      "url": "/community/issues/02146-devshard-requests-in-flight-or-queued-when-a-poc-cpoc-starts/",
+      "file": "02146-devshard-requests-in-flight-or-queued-when-a-poc-cpoc-starts.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: requests in flight or queued when a PoC / cPoC starts on a non-preserved host become invalids and misses for a pause the protocol orders\n    <span class=\"issues-number\">#2146</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-10-26 21:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues"
+    },
+    "ai_description": "A new issue has been opened by @redstartechno highlighting a critical flaw in devshard: when a Proof of Computation starts on a non-preserved host, any in-flight or queued requests are invalidated, causing the protocol to miss a pause it ordered. This could disrupt task continuity and reward accuracy for operators. Worth a look for anyone running devshard workloads."
+  },
+  {
+    "id": "evt_20261026231611_87b4e875",
+    "timestamp": "2026-10-26T23:16:11.117116+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2078 — devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation",
+      "url": "/community/issues/02078-devshard-v7-a-context-length-refusal-at-the-governance-max-m/",
+      "file": "02078-devshard-v7-a-context-length-refusal-at-the-governance-max-m.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation\n    <span class=\"issues-number\">#2078</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation\n    <span class=\"issues-number\">#2078</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  "
+    },
+    "ai_description": "Issue #2078 by @cyberdelamain just picked up a new comment, bringing the discussion to 7. The proposal argues that hosts refusing a request due to context-length limits set by governance shouldn't be penalized with a miss or invalidation, which is a fair point for keeping the network equitable. Head over to the issue to see the latest take."
+  },
+  {
     "id": "evt_20261024111807_ed8d7b71",
     "timestamp": "2026-10-24T11:18:07.015169+00:00",
     "section": "issues",
@@ -7886,35 +7918,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Create a proxy endpoint that aggregates multiple internal RPC nodes behind a single public-facing address (for crypto wallets)\n    <span class=\"issues-number\">#521</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"i"
     },
     "ai_description": "Issue #521 about creating a proxy endpoint to aggregate internal RPC nodes for crypto wallets has been removed from the community feed. This means the proposed solution is no longer being tracked here, so if you were following it for wallet integration plans, keep an eye out for any future updates or alternatives. The community feed stays cleaner without it, but the underlying need for a unified public RPC address may still be worth discussing elsewhere."
-  },
-  {
-    "id": "evt_20261022152143_382b0165",
-    "timestamp": "2026-10-22T15:21:43.039059+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#522 — Add support for text-to-video models and inference to the network",
-      "url": null,
-      "file": "00522-add-support-for-text-to-video-models-and-inference-to-the-ne.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Add support for text-to-video models and inference to the network\n    <span class=\"issues-number\">#522</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-01-06 00:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div"
-    },
-    "ai_description": "Issue #522 proposing text-to-video model support has been removed from the network. The proposal, which was open and had no comments, is no longer being tracked, so any discussion or implementation plans around video inference are now off the table. This means the community should not expect video generation capabilities to arrive through this channel anytime soon."
-  },
-  {
-    "id": "evt_20261022152143_1e11446e",
-    "timestamp": "2026-10-22T15:21:43.039064+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#527 — Node resync from snapshot caused missed inference tasks due to large application.db",
-      "url": null,
-      "file": "00527-node-resync-from-snapshot-caused-missed-inference-tasks-due-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Node resync from snapshot caused missed inference tasks due to large application.db\n    <span class=\"issues-number\">#527</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/bingcongokk\">@bingcongokk</a> opened 2026-01-06 16:35 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div c"
-    },
-    "ai_description": "Issue #527 about node resync failures causing missed inference tasks has been removed from the feed. The closed report on large application.db issues is no longer tracked, so the community can focus on active problems. Keep an eye on your node syncs and report any new occurrences.Issue #527 about node resync failures causing missed inference tasks has been removed from the feed. The closed report is no longer tracked, so we can focus on active problems. Stay vigilant with your node syncs and report any new occurrences."
   }
 ]

@@ -2,7 +2,7 @@
 title: "#2078 — devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation"
 source: https://github.com/gonka-ai/gonka/issues/2078
 issue_number: 2078
-synced_at: 2026-10-26T19:23:51Z
+synced_at: 2026-10-26T23:11:24Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/cyberdelamain">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>
-    <span class="issues-meta-item">6 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-24 10:41 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-26 21:00 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -46,7 +46,7 @@ Both checks are small on top of #1903. I can open them as a follow-up PR against
 
 ---
 
-## 💬 Comments (6)
+## 💬 Comments (7)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -117,6 +117,23 @@ max-context-length &gt;= input_tokens + output_tokens</p>
   </div>
   <div class="issues-comment-body issues-content">
     <p>@a-kuprin Done in #2093: the count is vLLM <code>/tokenize</code> on the validator's ML node, so there is no prefill and no <code>max_tokens:1</code> request. Following your note on #1903, #2093 is now standalone on <code>devshard/v7</code> (the check, the governance-limit resolver and the <code>/tokenize</code> call), so it can land first; #1903 then calls it before the replay.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-10-26 21:00 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Field data from one DeepSeek-V4-Flash host, in case it helps size this.</p>
+<p>Epoch 432 (2026-10-21, 10:30-13:30 UTC): one client sent about 9,300 requests with <code>input_length</code> 590,231 characters and <code>max_tokens</code> 64 (5,874 distinct prompt hashes, a new escrow every few minutes). Every executor returned 400 at once (1,003 on our host, 0 before and 0 after the window), each nonce sealed as TIMEOUT with <code>Missed++</code>, and the client got the reserved cost back. The DeepSeek group's miss share went from 1-3 % per hour to 89-100 % for three hours (33.6 % for the epoch at the time, 9,902 of 29,497 sealed).</p>
+<p>Epoch 437 (2026-10-26): 5 more of the same shape on our slot. One prompt of 1,551,611 characters was served by slot 12 at 392,499 input tokens and refused by us with <code>max_tokens</code> 8,192 (392,499 + 8,192 &gt; 400,000), so it is the prompt-plus-max_tokens rule, not the prompt alone. Another request in the same escrow finished elsewhere with 401,929 input tokens, which confirms a host running above the governance limit (#1911).</p>
+<p>Two notes on the mechanics:</p>
+<ul>
+<li><code>/tokenize</code> cost: 0.5 s CPU for a 1.57M-character chat request on our node, so the count in #2093 is cheap even at the limit.</li>
+<li>With #1903 plus #2093 the executor no longer takes the miss, but the client still pays nothing for a request no host can serve (the 0/0 Finish refunds the reservation). The 432 flood cost the sender only escrow fees. Is a fee for a confirmed client fault something you want on v7, or is that out of scope?</li>
+</ul>
+<p>Per-inference extract for the 432 window (escrow, inference id, input_length, max_tokens, status, timestamps) is available on request.</p>
   </div>
 </div>
 

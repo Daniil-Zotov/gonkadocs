@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-26T19:27:32.842160+00:00",
+  "snapshot_time": "2026-10-26T23:17:39.607061+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4313,17 +4313,18 @@
     "02078-devshard-v7-a-context-length-refusal-at-the-governance-max-m.md": {
       "title": "#2078 — devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation\n    <span class=\"issues-number\">#2078</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  ",
-      "comment_checksum": "e6dba3a93147523cdde7259b276f8d805c4800dade5cc6abd92ffceb9ef357dc",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation\n    <span class=\"issues-number\">#2078</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  ",
+      "comment_checksum": "0a7d256ad9375e0b9da356cd898983701f38d100a24a3bcbd5b0fb7980db3a52",
       "comment_bodies": [
         "What else I think on this point. executor that responds with max-context-length error, anyway, should provide logits for generated output tokens. max-context-length &gt;= input_tokens + output_tokens When we are validating we anyway need logits for output tokens Overall it looks like fixes need changes to MLNode",
         "@a-kuprin agreed: input + actual output is what has to fit, and validation needs the output logits anyway, so the better fix is that the executor generates instead of refusing. Today vLLM refuses before generating because it checks prompt + requested max_tokens at tokenization (TokenizeParams, \"This model's maximum context length is N tokens. However, you requested M output tokens and your prompt ",
         "Today vLLM refuses before generating because it checks prompt + requested max_tokens at tokenization I think it's a good way to refuse before generation (we shouldn't spend resources if we are pretty sure it will not fit the context). So validation part is better to fix: we should have special context length validation path where vllm just tokenizes and checks  prompt + requested max_tokens &lt; m",
         "@a-kuprin #2093 is that path. On a client-fault Finish the validator counts the prompt on its own ML node and confirms the fault only if prompt_tokens + max_tokens exceeds --max-model-len from the epoch's model snapshot. vLLM accepts equality, so the check is &gt;. A prompt that fits keeps Valid:false. Two differences from \"just tokenize\": The count is the same request with stream:false, max_token",
         "I think we can skip prefill phase here and make cheaper validation",
-        "@a-kuprin Done in #2093: the count is vLLM /tokenize on the validator's ML node, so there is no prefill and no max_tokens:1 request. Following your note on #1903, #2093 is now standalone on devshard/v7 (the check, the governance-limit resolver and the /tokenize call), so it can land first; #1903 then calls it before the replay."
+        "@a-kuprin Done in #2093: the count is vLLM /tokenize on the validator's ML node, so there is no prefill and no max_tokens:1 request. Following your note on #1903, #2093 is now standalone on devshard/v7 (the check, the governance-limit resolver and the /tokenize call), so it can land first; #1903 then calls it before the replay.",
+        "Field data from one DeepSeek-V4-Flash host, in case it helps size this. Epoch 432 (2026-10-21, 10:30-13:30 UTC): one client sent about 9,300 requests with input_length 590,231 characters and max_tokens 64 (5,874 distinct prompt hashes, a new escrow every few minutes). Every executor returned 400 at once (1,003 on our host, 0 before and 0 after the window), each nonce sealed as TIMEOUT with Missed+"
       ],
-      "checksum": "43909faa5b62be8431ac555f1b62409896ace2afe6386f8bf242541a54f4407c"
+      "checksum": "e3aa553d70192f0ebd44d57219abc06e5896d14b753a5d367384933c07edb9b6"
     },
     "02079-issue-hosts-behind-at-finalize-must-pull-the-missing-diffs.md": {
       "title": "#2079 — Issue: hosts behind at finalize must pull the missing diffs",
@@ -4388,6 +4389,14 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "1e4142464a06890fdc96bafbc91695a8af60dd15d5772175c1e096e7b973f0e5"
+    },
+    "02146-devshard-requests-in-flight-or-queued-when-a-poc-cpoc-starts.md": {
+      "title": "#2146 — devshard: requests in flight or queued when a PoC / cPoC starts on a non-preserved host become invalids and misses for a pause the protocol orders",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: requests in flight or queued when a PoC / cPoC starts on a non-preserved host become invalids and misses for a pause the protocol orders\n    <span class=\"issues-number\">#2146</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-10-26 21:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "9c9bd94a200c605a922f144f27a4c398051a3c9d8ffad2809cf2f5ecd31fc551"
     }
   }
 }
