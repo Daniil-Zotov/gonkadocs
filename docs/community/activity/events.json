@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261027021417_cbe9eb71",
+    "timestamp": "2026-10-27T02:14:17.898343+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2078 — devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation",
+      "url": "/community/issues/02078-devshard-v7-a-context-length-refusal-at-the-governance-max-m/",
+      "file": "02078-devshard-v7-a-context-length-refusal-at-the-governance-max-m.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation\n    <span class=\"issues-number\">#2078</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation\n    <span class=\"issues-number\">#2078</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/cyberdelamain\">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>\n    <span class=\"issues-meta-item\">8 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  "
+    },
+    "ai_description": "Issue #2078 on devshard v7 has a new comment. The discussion continues on how a context-length refusal at the governance --max-model-len should never penalize a host with a miss or invalidation, which is crucial for fair host operation. Check the thread to see the latest perspective.Issue #2078 on devshard v7 has a new comment, bringing fresh perspective to the discussion on ensuring a context-length refusal at the governance max-model-len never penalizes a host with a miss or invalidation. The ongoing conversation is key to keeping host scoring fair under edge-case constraints."
+  },
+  {
     "id": "evt_20261026234656_188d99ac",
     "timestamp": "2026-10-26T23:46:56.083603+00:00",
     "section": "discussions",
@@ -7904,20 +7920,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bug in claim recovery\n    <span class=\"issues-number\">#511</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-26 21:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
     },
     "ai_description": "The claim recovery bug report #511 has been removed from the feed after being closed. This cleanup keeps the community focused on active issues rather than resolved ones. Thanks to @tcharchian for reporting it originally. The feed is now tidier and more relevant for everyone.The claim recovery bug report #511 has been removed from the feed after being closed. This cleanup keeps the community focused on active issues rather than resolved ones. Thanks to @tcharchian for reporting it originally. The feed is now tidier and more relevant for everyone."
-  },
-  {
-    "id": "evt_20261022152143_947200c3",
-    "timestamp": "2026-10-22T15:21:43.039046+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#518 — \"Request timestamp is in the future\" leads to missed inferences for hosts",
-      "url": null,
-      "file": "00518-request-timestamp-is-in-the-future-leads-to-missed-inference.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    \"Request timestamp is in the future\" leads to missed inferences for hosts\n    <span class=\"issues-number\">#518</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akup\">@akup</a> opened 2026-01-02 06:22 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
-    },
-    "ai_description": "Issue #518 has been closed and removed from the tracker. The problem where hosts missed inferences due to \"Request timestamp is in the future\" errors has been resolved, so the community can now rely on more consistent job processing without those timing-related drops. Thanks to everyone who contributed to fixing this.Issue #518 has been closed, marking the resolution of the \"Request timestamp is in the future\" bug that caused hosts to miss inferences. This fix ensures more reliable job processing and fewer missed opportunities for the network. Thanks to all who helped diagnose and address this timing issue."
   }
 ]

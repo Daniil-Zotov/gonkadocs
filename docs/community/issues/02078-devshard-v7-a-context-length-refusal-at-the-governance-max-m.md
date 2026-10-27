@@ -2,7 +2,7 @@
 title: "#2078 — devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation"
 source: https://github.com/gonka-ai/gonka/issues/2078
 issue_number: 2078
-synced_at: 2026-10-26T23:11:24Z
+synced_at: 2026-10-27T02:09:17Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/cyberdelamain">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>
-    <span class="issues-meta-item">7 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-26 21:00 UTC</span>
+    <span class="issues-meta-item">8 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-27 01:52 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -46,7 +46,7 @@ Both checks are small on top of #1903. I can open them as a follow-up PR against
 
 ---
 
-## 💬 Comments (7)
+## 💬 Comments (8)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -134,6 +134,15 @@ max-context-length &gt;= input_tokens + output_tokens</p>
 <li>With #1903 plus #2093 the executor no longer takes the miss, but the client still pays nothing for a request no host can serve (the 0/0 Finish refunds the reservation). The 432 flood cost the sender only escrow fees. Is a fee for a confirmed client fault something you want on v7, or is that out of scope?</li>
 </ul>
 <p>Per-inference extract for the 432 window (escrow, inference id, input_length, max_tokens, status, timestamps) is available on request.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/cyberdelamain">@cyberdelamain</a></span>
+    <span class="issues-meta-item">commented 2026-10-27 01:52 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@redstartechno on the epoch 432 window: <code>input_length</code> is the request body in bytes (<code>len(body)</code> in <code>devshardctl/proxy.go</code>), and your epoch 437 prompt came to about 3.95 bytes per token, so 590,231 bytes would be around 150k tokens, well under 400,000 even with <code>max_tokens</code> 64. Was the 400 there vLLM's "maximum context length" message or another rejection? If another, #1903's 400/422 client-fault Finish covers it and #2093's count is not involved.</p>
   </div>
 </div>
 
