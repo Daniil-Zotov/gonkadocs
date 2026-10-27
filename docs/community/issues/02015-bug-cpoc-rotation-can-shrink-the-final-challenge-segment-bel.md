@@ -2,7 +2,7 @@
 title: "#2015 — [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum"
 source: https://github.com/gonka-ai/gonka/issues/2015
 issue_number: 2015
-synced_at: 2026-10-27T08:00:29Z
+synced_at: 2026-10-27T14:38:56Z
 template: issues-main.html
 ---
 

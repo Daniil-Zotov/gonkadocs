@@ -2,7 +2,7 @@
 title: "#600 — BLS Signature Fixes: Aggreagation and format"
 source: https://github.com/gonka-ai/gonka/issues/600
 issue_number: 600
-synced_at: 2026-10-27T08:04:06Z
+synced_at: 2026-10-27T14:41:59Z
 template: issues-main.html
 ---
 

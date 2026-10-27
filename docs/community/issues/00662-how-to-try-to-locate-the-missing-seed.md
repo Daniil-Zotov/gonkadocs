@@ -2,7 +2,7 @@
 title: "#662 — How to try to locate the missing seed"
 source: https://github.com/gonka-ai/gonka/issues/662
 issue_number: 662
-synced_at: 2026-10-27T08:03:44Z
+synced_at: 2026-10-27T14:41:42Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#2104 — devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later"
 source: https://github.com/gonka-ai/gonka/issues/2104
 issue_number: 2104
-synced_at: 2026-10-27T08:00:21Z
+synced_at: 2026-10-27T14:38:42Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-23 20:04 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-27 12:45 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -106,6 +106,20 @@ The same `winner_served_without_finish` → single-strike pattern was seen on 20
 2. Alternatively, keep an immediate *protocol* record ("delivered, finish pending") separate from the *host-health* strike, and convert it to a strike only when the execution timeout actually fires (`timeout_vote_*` with `reason=execution`).
 3. Log the eventual outcome (`winner_finish_arrived_late elapsed_ms=…`) so operators can tell a late finish from a real loss.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/ilyar">@ilyar</a></span>
+    <span class="issues-meta-item">commented 2026-10-27 12:45 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@qdanik I also reproduced this behavior in the devnet using version <code>ghcr.io/gonka-ai/devshard-gateway:mainnet-v0.2.16-v6.0.0-rc1</code> and applied the workaround <code>redundancy.unresponsive_threshold=0.8</code> suggested in #2103 </p>
+  </div>
 </div>
 
 ---

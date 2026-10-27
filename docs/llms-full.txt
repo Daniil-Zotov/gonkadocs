@@ -21990,7 +21990,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-10-27 05:55 UTC
+2026-10-27 11:29 UTC
 
 ---
 
@@ -32937,7 +32937,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-114 proposals across 6 quarters. Last updated: 2026-10-27 05:41 UTC
+114 proposals across 6 quarters. Last updated: 2026-10-27 14:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
