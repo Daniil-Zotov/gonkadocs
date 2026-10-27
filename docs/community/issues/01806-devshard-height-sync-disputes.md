@@ -2,7 +2,7 @@
 title: "#1806 — `devshard`: Height-sync disputes"
 source: https://github.com/gonka-ai/gonka/issues/1806
 issue_number: 1806
-synced_at: 2026-10-27T02:09:52Z
+synced_at: 2026-10-27T08:00:44Z
 template: issues-main.html
 ---
 
