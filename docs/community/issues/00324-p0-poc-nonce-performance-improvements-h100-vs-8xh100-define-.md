@@ -2,7 +2,7 @@
 title: "#324 — [P0] PoC nonce performance improvements (H100 vs 8xH100) — define reasons"
 source: https://github.com/gonka-ai/gonka/issues/324
 issue_number: 324
-synced_at: 2026-10-27T20:11:31Z
+synced_at: 2026-10-27T23:53:50Z
 template: issues-main.html
 ---
 

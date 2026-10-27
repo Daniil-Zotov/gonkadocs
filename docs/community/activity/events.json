@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20261027235432_fe407903",
+    "timestamp": "2026-10-27T23:54:32.910591+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2152 — Decode PoC verdict collapses each nonce's 257 steps into one bit, letting MiniMax hosts commit 8-20% zero-work nonces",
+      "url": "/community/issues/02152-decode-poc-verdict-collapses-each-nonces-257-steps-into-one-/",
+      "file": "02152-decode-poc-verdict-collapses-each-nonces-257-steps-into-one-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC verdict collapses each nonce's 257 steps into one bit, letting MiniMax hosts commit 8-20% zero-work nonces\n    <span class=\"issues-number\">#2152</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-27 22:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div"
+    },
+    "ai_description": "New issue #2152 flags a critical flaw in the Decode PoC verification: it reduces each nonce's 257 computation steps to a single binary pass/fail bit, which lets MiniMax hosts sneak in 8-20% zero-work nonces without detection. This undermines proof integrity and fair resource accounting across the network. Worth a close look from the community to tighten the verification logic."
+  },
+  {
+    "id": "evt_20261027235432_e00c539a",
+    "timestamp": "2026-10-27T23:54:32.910622+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2153 — Ethereum bridge update",
+      "url": "/community/issues/02153-ethereum-bridge-update/",
+      "file": "02153-ethereum-bridge-update.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Ethereum bridge update\n    <span class=\"issues-number\">#2153</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-27 23:21 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mark"
+    },
+    "ai_description": "A new issue has been opened by @tcharchian proposing an update to the Ethereum bridge. This signals the community is looking to improve cross-chain connectivity, so keep an eye on the discussion to see what changes are in store. No comments yet, so it is a fresh topic for input.A new issue from @tcharchian proposes an update to the Ethereum bridge, signaling a potential improvement to our cross-chain infrastructure. With the issue now open for community input, this is a good chance to weigh in on how we can make bridging more efficient and reliable. Stay tuned for details as the discussion develops."
+  },
+  {
+    "id": "evt_20261027235432_4db5f480",
+    "timestamp": "2026-10-27T23:54:32.910643+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2154 — Decode: List of chain fixes we have to do in v0.2.18",
+      "url": "/community/issues/02154-decode-list-of-chain-fixes-we-have-to-do-in-v0218/",
+      "file": "02154-decode-list-of-chain-fixes-we-have-to-do-in-v0218.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode: List of chain fixes we have to do in v0.2.18\n    <span class=\"issues-number\">#2154</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-27 23:24 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issu"
+    },
+    "ai_description": "A new issue #2154 has been opened by @tcharchian outlining a list of chain fixes planned for the upcoming v0.2.18 release. This is an open item for tracking the specific protocol corrections needed, so the community can follow along and contribute. Keep an eye on this thread if you are running a node or building on the network."
+  },
+  {
     "id": "evt_20261027201231_633e6338",
     "timestamp": "2026-10-27T20:12:31.181611+00:00",
     "section": "issues",
@@ -7879,50 +7927,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Stop rewriting static config at each app start\n    <span class=\"issues-number\">#466</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 22:47 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top"
     },
     "ai_description": "Issue #466 on stopping static config rewrites at every app start has been closed and removed from the feed. The proposal aimed to reduce unnecessary disk writes and startup overhead, which matters for cleaner and more efficient node operations. With it closed, the community can now move on to implementing or discussing the next steps.Issue #466 on stopping static config rewrites at every app start has been closed and removed from the feed. This change aimed to reduce unnecessary disk writes and startup overhead, which is a meaningful step toward smoother node operations. With it resolved, the community can focus on implementing more efficient startup behavior."
-  },
-  {
-    "id": "evt_20261022152143_88f4457d",
-    "timestamp": "2026-10-22T15:21:43.039023+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#467 — Unit tests for making sure node version is always a part of endpoint and it's updated when version changes on chain",
-      "url": null,
-      "file": "00467-unit-tests-for-making-sure-node-version-is-always-a-part-of-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Unit tests for making sure node version is always a part of endpoint and it's updated when version changes on chain\n    <span class=\"issues-number\">#467</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 22:52 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-"
-    },
-    "ai_description": "Issue #467 on unit tests for ensuring the node version is always included and updated in the endpoint has been closed and removed from the feed. This means the proposed testing work is no longer active, likely resolved or deprioritized, so the community can focus on other open tasks. Keep an eye on the repo for any follow-up related to version handling."
-  },
-  {
-    "id": "evt_20261022152143_2be373f8",
-    "timestamp": "2026-10-22T15:21:43.039026+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#468 — [P1] Certik (finalization)",
-      "url": null,
-      "file": "00468-p1-certik-finalization.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Certik (finalization)\n    <span class=\"issues-number\">#468</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 23:32 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
-    },
-    "ai_description": "The Certik finalization issue #468 has been closed and removed from the active feed, marking the completion of this audit work item. This cleanup keeps our issue tracker focused on actionable tasks and reflects the finalized status of the security review. Thanks to everyone involved in seeing this through. \n\n(Note: Since no specific action was described beyond removal, the post focuses on the closure and cleanup value to the community.)"
-  },
-  {
-    "id": "evt_20261022152143_b97d2561",
-    "timestamp": "2026-10-22T15:21:43.039029+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#470 — Move payload off chain",
-      "url": null,
-      "file": "00470-move-payload-off-chain.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Move payload off chain\n    <span class=\"issues-number\">#470</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-04 20:08 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<d"
-    },
-    "ai_description": "Issue #470 on moving payload off chain has been closed and removed from our tracking. This proposal aimed to reduce on-chain storage costs, and its closure means the team has decided against pursuing this direction for now. We'll keep an eye out for any alternative approaches to scaling efficiency.Issue #470 on moving payload off chain has been closed and removed from tracking. This means the proposed approach to reduce on-chain storage costs won't be pursued further at this time. We'll watch for any alternative solutions to improve network efficiency."
   }
 ]
