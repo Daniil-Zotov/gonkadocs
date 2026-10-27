@@ -4,7 +4,7 @@ title: ":jigsaw: Ecosystem"
 
 # :jigsaw: Ecosystem
 
-Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **12**. Обновлено: `2026-10-27 04:52 UTC`.
+Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **12**. Обновлено: `2026-10-27 10:25 UTC`.
 
 [← ко всем категориям](../index.md)
 
@@ -20,5 +20,5 @@ title: ":jigsaw: Ecosystem"
 | [875](0875-automatic-node-provisioning-tool-exists.md) | [Automatic Node Provisioning Tool exists](0875-automatic-node-provisioning-tool-exists.md) | [@SegovChik](https://github.com/SegovChik) | 2026-10-20 |
 | [873](0873-outdated-optional-centralized-monitoring-for-gonka-validator.md) | [!OUTDATED! Optional Centralized Monitoring for Gonka Validators](0873-outdated-optional-centralized-monitoring-for-gonka-validator.md) | [@SegovChik](https://github.com/SegovChik) | 2026-08-05 |
 | [864](0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | [Proposal: Deploy Gonka AI Web Platform v1 to Production (app.gonka.ai)](0864-proposal-deploy-gonka-ai-web-platform-v1-to-production-appgo.md) | [@zpoken](https://github.com/zpoken) | 2026-08-05 |
-| [836](0836-gonka-native-coding-cli.md) | [Gonka-native Coding CLI](0836-gonka-native-coding-cli.md) | [@Apha205](https://github.com/Apha205) | 2026-10-25 |
+| [836](0836-gonka-native-coding-cli.md) | [Gonka-native Coding CLI](0836-gonka-native-coding-cli.md) | [@Apha205](https://github.com/Apha205) | 2026-10-27 |
 | [816](0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | [Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring](0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) | 2026-10-20 |

@@ -3,14 +3,14 @@ title: "#836 — Gonka-native Coding CLI"
 source: https://github.com/gonka-ai/gonka/discussions/836
 discussion_number: 836
 category: ecosystem
-synced_at: 2026-10-27T04:52:01Z
+synced_at: 2026-10-27T10:24:49Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #836](https://github.com/gonka-ai/gonka/discussions/836) every hour. 
 
 # Gonka-native Coding CLI
 
-**Автор:** [@Apha205](https://github.com/Apha205) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-02 12:01 UTC · **Обновлено:** 2026-10-25 22:35 UTC
+**Автор:** [@Apha205](https://github.com/Apha205) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-03-02 12:01 UTC · **Обновлено:** 2026-10-27 06:17 UTC
 
 ---
 
@@ -103,12 +103,6 @@ what the protocol layer is building.
 *2026-04-20 00:52 UTC*
 
 @Mayveskii @Aktum1 we are shifting focus from a coding cli harness, to a sovereign agent harness - https://github.com/Haven-hvn/haven-core we would like Gonka to be the first web3 provider supported by the harness - https://github.com/Haven-hvn/haven-adapters what is the timeline on approval?
-
-**↳ Ответ от [@Mayveskii](https://github.com/Mayveskii)** · *2026-04-20 04:41 UTC*
-
-> > RE
->
-> Yo bro @HavenCTO , here's my telegramm ... Link me there, i'd like to talk. U write about is 60% done by me, i'm ready for share.
 
 ### Комментарий 4 — [@Apha205](https://github.com/Apha205)
 
