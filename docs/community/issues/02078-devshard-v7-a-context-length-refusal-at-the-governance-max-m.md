@@ -2,7 +2,7 @@
 title: "#2078 — devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation"
 source: https://github.com/gonka-ai/gonka/issues/2078
 issue_number: 2078
-synced_at: 2026-10-27T14:38:43Z
+synced_at: 2026-10-27T20:07:43Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/cyberdelamain">@cyberdelamain</a> opened 2026-10-21 15:38 UTC</span>
-    <span class="issues-meta-item">8 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-27 01:52 UTC</span>
+    <span class="issues-meta-item">9 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-27 19:40 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -46,7 +46,7 @@ Both checks are small on top of #1903. I can open them as a follow-up PR against
 
 ---
 
-## 💬 Comments (8)
+## 💬 Comments (9)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -143,6 +143,17 @@ max-context-length &gt;= input_tokens + output_tokens</p>
   </div>
   <div class="issues-comment-body issues-content">
     <p>@redstartechno on the epoch 432 window: <code>input_length</code> is the request body in bytes (<code>len(body)</code> in <code>devshardctl/proxy.go</code>), and your epoch 437 prompt came to about 3.95 bytes per token, so 590,231 bytes would be around 150k tokens, well under 400,000 even with <code>max_tokens</code> 64. Was the 400 there vLLM's "maximum context length" message or another rejection? If another, #1903's 400/422 client-fault Finish covers it and #2093's count is not involved.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-10-27 19:40 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@cyberdelamain you're right about the unit: <code>input_length</code> is <code>len(body)</code> (<code>devshardctl/proxy.go:257</code>), so the "characters" figures in my comment are request-body bytes.</p>
+<p>We don't have the error text for the 432 window. vLLM doesn't log the 400 reason at INFO, our devshard log has only <code>get usage: JsonCompletionResponse: no usage found</code> for each of the 1,003, and payloads of failed executions aren't stored. At the ~3.95 bytes per token of the 437 prompt, 590,231 bytes is about 150k tokens, so it was most likely another rejection: that window belongs with #1903's client-fault Finish, not with the count in #2093. Please read the 432 numbers as a 400 flood of unknown cause, not as a context-limit case.</p>
+<p>The 437 case (392,499 prompt tokens, counted by the host that served it, plus 8,192 <code>max_tokens</code> &gt; 400,000) is unaffected.</p>
   </div>
 </div>
 

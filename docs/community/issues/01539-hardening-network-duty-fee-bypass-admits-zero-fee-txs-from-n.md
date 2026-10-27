@@ -2,7 +2,7 @@
 title: "#1539 — Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)"
 source: https://github.com/gonka-ai/gonka/issues/1539
 issue_number: 1539
-synced_at: 2026-10-27T14:39:33Z
+synced_at: 2026-10-27T20:07:42Z
 template: issues-main.html
 ---
 
@@ -15,10 +15,10 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 2026-08-03 19:33 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-09-22 02:33 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-27 19:43 UTC</span>
   </div>
-  <div class="issues-labels" style="margin-top: 8px;"></div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
 </div>
 
 <div class="issues-content" markdown="1">
@@ -55,7 +55,7 @@ Add an ante-layer signer-authorization check for the exempt types (reject duty-t
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -115,6 +115,29 @@ Add an ante-layer signer-authorization check for the exempt types (reject duty-t
 <p>This closes the free-load gap while keeping a false positive on my side from ever halting consensus-critical PoC/BLS traffic — an outright <code>reject</code> would make a mistaken predicate a liveness bug. Predicate: <code>Participants.Has(Creator)</code> for the participant-gated and BLS types, <code>IsAllowedEscrowCreator(Settler)</code> for <code>MsgSettleDevshardEscrow</code>, fail-closed on a nil keeper or unparseable address, applied inside the <code>MsgExec</code> unwrap as well.</p>
 <p>Tests: end-to-end <code>CheckTx</code> via <code>BaseApp</code> (registered vs. unregistered actor, direct and <code>MsgExec</code>-wrapped, following the <code>ante_bridge_checktx_test.go</code> harness) plus unit coverage for the actor extraction and the escrow allowlist branch.</p>
 <p>Will open a PR against <code>upgrade-v0.2.16</code>.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-10-27 19:43 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>hey @cyberdelamain, can I kindly ask you to verify this issue?</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/cyberdelamain">@cyberdelamain</a></span>
+    <span class="issues-meta-item">commented 2026-10-27 19:43 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Status for anyone landing here: this is addressed by #1576 (@Ryanchen911), now labeled <code>release-candidate</code> and based on <code>upgrade-v0.2.18</code>; chain build and tests are green on f2c628d83.</p>
+<p>What it does, briefly:
+- the fee waiver is granted only when the message's actor (<code>Creator</code> / <code>Settler</code>, not the tx signer, because of warm-key <code>MsgExec</code>) is a registered participant or an allowlisted settler;
+- registration, not the active set, is the predicate: <code>ActiveParticipantsSet</code> keeps only ~2 epochs, so it would drop legitimate previous-epoch claims and BLS rotation traffic;
+- a CheckTx-only <code>NetworkDutySignerDecorator</code> rejects unauthorized duty txs, which is what closes the gap while <code>MinGasPriceNgonka</code> is 0.</p>
+<p>I reviewed the PR and two of my commits are in it (<code>MsgTransferOwnership</code> early reject and its check order). The two failing checks (versiond-router HAProxy, v4 to v5 cutover) are outside <code>inference-chain/app</code>, which is all this PR touches.</p>
   </div>
 </div>
 

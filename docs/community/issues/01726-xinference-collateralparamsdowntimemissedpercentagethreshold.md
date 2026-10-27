@@ -2,7 +2,7 @@
 title: "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform"
 source: https://github.com/gonka-ai/gonka/issues/1726
 issue_number: 1726
-synced_at: 2026-10-27T14:38:53Z
+synced_at: 2026-10-27T20:07:41Z
 template: issues-main.html
 ---
 
@@ -15,10 +15,10 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 2026-09-07 14:23 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-21 23:01 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-27 19:45 UTC</span>
   </div>
-  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span> <span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
 </div>
 
 <div class="issues-content" markdown="1">
@@ -79,7 +79,7 @@ Read from `main` at `379bebced6`. I searched open issues and pull requests for `
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -156,6 +156,15 @@ Read from `main` at `379bebced6`. I searched open issues and pull requests for `
 - Correct <code>SlashForDowntime</code> doc comment to reflect that the threshold decision happens upstream in the INACTIVE transition (SPRT-based)
 - Update design docs to document the superseded mechanism</p>
 <p>This prevents governance confusion without requiring a chain upgrade.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-10-27 19:45 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hey @GLiberman and @zpoken, could you please take a look at this issue and consider fixing it in 0.2.18?</p>
   </div>
 </div>
 
