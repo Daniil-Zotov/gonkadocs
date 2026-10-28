@@ -2,7 +2,7 @@
 title: "#2082 — devshard gateway polls /v1/versions and /v1/epochs/* at 12/min, but default proxy api_zone allows 10/min → permanent 503s after ~5 h"
 source: https://github.com/gonka-ai/gonka/issues/2082
 issue_number: 2082
-synced_at: 2026-10-28T13:11:34Z
+synced_at: 2026-10-28T18:55:32Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-22 07:31 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-22 08:02 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-10-28 16:23 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -54,6 +54,20 @@ template: issues-main.html
 **Gateway**: make the poll interval configurable (`DEVSHARD_GATEWAY_CHAIN_PHASE_POLL_INTERVAL`, same pattern as `DEVSHARD_GATEWAY_HOST_PING_INTERVAL` in `hostping.go`) and give `/v1/versions` its own, slower interval — the `poc_validation_inference` flag only changes on upgrades, so 30–60 s is plenty. Default must land under 10/min (≥ 6 s), ideally well under.
 
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/zpoken">@zpoken</a></span>
+    <span class="issues-meta-item">commented 2026-10-28 16:23 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>https://github.com/gonka-ai/gonka/pull/2161</p>
+  </div>
 </div>
 
 ---
