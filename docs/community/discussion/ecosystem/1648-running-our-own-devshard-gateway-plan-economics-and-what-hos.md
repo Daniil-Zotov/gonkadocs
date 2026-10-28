@@ -3,14 +3,14 @@ title: "#1648 — Running our own devshard gateway — plan, economics, and what
 source: https://github.com/gonka-ai/gonka/discussions/1648
 discussion_number: 1648
 category: ecosystem
-synced_at: 2026-10-28T08:18:51Z
+synced_at: 2026-10-28T15:56:09Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1648](https://github.com/gonka-ai/gonka/discussions/1648) every hour. 
 
 # Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting
 
-**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · **Обновлено:** 2026-10-20 23:18 UTC
+**Автор:** [@theaungmyatmoe](https://github.com/theaungmyatmoe) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-08-25 12:18 UTC · **Обновлено:** 2026-10-28 10:09 UTC
 
 ---
 
@@ -54,7 +54,7 @@ Happy to answer any questions here or in `#dev-chat`.
 
 ---
 
-## 💬 Комментарии (1)
+## 💬 Комментарии (2)
 
 ### Комментарий 1 — [@tcharchian](https://github.com/tcharchian)
 
@@ -104,3 +104,9 @@ The thing most likely to move hosts right now: attribution. fusioncode.app doesn
 > Our committed pipeline (500B to 4T tokens/month from coding assistants and autonomous agents across US West, SEA, and Asia) will bring massive real utility to the network. Running our own devshard gateway is critical for us to manage direct host session affinity and eliminate intermediary concurrency choke points.
 >
 > We're excited to partner with the Gonka ecosystem and look forward to participating in the upcoming allowlist governance batch!
+
+### Комментарий 2 — [@theaungmyatmoe](https://github.com/theaungmyatmoe)
+
+*2026-10-28 10:09 UTC*
+
+i don't interested this anymore 

@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **114**. Обновлено: `2026-10-28 08:19 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **114**. Обновлено: `2026-10-28 15:57 UTC`.
 
 ## 📂 Категории
 
@@ -22,6 +22,8 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [1648](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | :jigsaw: Ecosystem | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-10-28 |
+| [1636](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | :gear: Protocol Improvements | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-10-28 |
 | [836](ecosystem/0836-gonka-native-coding-cli.md) | [Gonka-native Coding CLI](ecosystem/0836-gonka-native-coding-cli.md) | :jigsaw: Ecosystem | [@Apha205](https://github.com/Apha205) | 2026-10-27 |
 | [1884](show-and-tell/1884-sagg-an-openai-compatible-gateway-over-several-gonka-provide.md) | [SAGG — an OpenAI-compatible gateway over several Gonka providers, with measured results](show-and-tell/1884-sagg-an-openai-compatible-gateway-over-several-gonka-provide.md) | :raised_hands: Show and Tell | [@privatedeskai](https://github.com/privatedeskai) | 2026-10-26 |
 | [2076](ecosystem/2076-devshard-release-testing-flow.md) | [DevShard Release Testing Flow](ecosystem/2076-devshard-release-testing-flow.md) | :jigsaw: Ecosystem | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-10-21 |
@@ -40,5 +42,3 @@ title: "GitHub Discussions"
 | [1090](protocol-improvements/1090-qwen3-235b-a22b-instruct-2507-fp8-with-fp8-kvcache-as-the-fi.md) | [Qwen3-235B-A22B-Instruct-2507-FP8 with FP8 KVcache as the first multi model PoC launch model](protocol-improvements/1090-qwen3-235b-a22b-instruct-2507-fp8-with-fp8-kvcache-as-the-fi.md) | :gear: Protocol Improvements | [@beatifull](https://github.com/beatifull) | 2026-10-20 |
 | [1085](protocol-improvements/1085-inc4-gonka-node-observability-platform.md) | [INC4 \| Gonka Node Observability Platform](protocol-improvements/1085-inc4-gonka-node-observability-platform.md) | :gear: Protocol Improvements | [@rwxr-xr-x](https://github.com/rwxr-xr-x) | 2026-10-20 |
 | [1092](protocol-improvements/1092-gip-neural-computation-protocol-ncp-v032-deterministic-wasm-.md) | [GiP: Neural Computation Protocol (NCP) v0.3.2 – Deterministic WASM Bricks + YAML Graphs for Fast, Auditable Agentic Systems](protocol-improvements/1092-gip-neural-computation-protocol-ncp-v032-deterministic-wasm-.md) | :gear: Protocol Improvements | [@madeinplutofabio](https://github.com/madeinplutofabio) | 2026-10-20 |
-| [1093](protocol-improvements/1093-gip-provenance-intent-contracts-pic-v075-local-first-action-.md) | [GiP: Provenance & Intent Contracts (PIC) v0.7.5 – Local-First Action Gating for Verifiable AI Agents](protocol-improvements/1093-gip-provenance-intent-contracts-pic-v075-local-first-action-.md) | :gear: Protocol Improvements | [@madeinplutofabio](https://github.com/madeinplutofabio) | 2026-10-20 |
-| [800](protocol-improvements/0800-multi-model-poc.md) | [Multi-Model PoC](protocol-improvements/0800-multi-model-poc.md) | :gear: Protocol Improvements | [@gmorgachev](https://github.com/gmorgachev) | 2026-10-20 |
