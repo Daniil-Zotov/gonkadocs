@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261028232212_5191202e",
+    "timestamp": "2026-10-28T23:22:12.155116+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1200 — Independent review of PoC-decode results",
+      "url": "/community/issues/01200-independent-review-of-poc-decode-results/",
+      "file": "01200-independent-review-of-poc-decode-results.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" st",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Independent review of PoC-decode results\n    <span class=\"issues-number\">#1200</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-19 23:36 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px"
+    },
+    "ai_description": "Issue #1200 on the independent review of PoC-decode results has been closed after receiving three comments. The discussion is now resolved, marking the end of the review process for the community. Thanks to everyone who contributed to wrapping this up.Issue #1200 on the independent review of PoC-decode results has been closed, wrapping up the discussion after three comments. This marks the completion of the review process, giving the community clarity that the matter is resolved."
+  },
+  {
     "id": "evt_20261028190033_c649f52d",
     "timestamp": "2026-10-28T19:00:33.217887+00:00",
     "section": "issues",
@@ -7916,20 +7932,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Node Registration Does Not Update After Migration (API stuck using old on-chain config)\n    <span class=\"issues-number\">#447</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Asplana92\">@Asplana92</a> opened 2025-11-20 03:02 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar"
     },
     "ai_description": "Issue #447 about node registration not updating after migration has been removed from the tracker. This means the reported problem with the API using stale on-chain config is no longer being tracked as an open item, likely resolved or superseded. Cleanup like this keeps the issue board accurate, helping the community focus on active problems."
-  },
-  {
-    "id": "evt_20261022152143_d17e48cb",
-    "timestamp": "2026-10-22T15:21:43.039003+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#461 — ML node model management edge cases",
-      "url": null,
-      "file": "00461-ml-node-model-management-edge-cases.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    ML node model management edge cases\n    <span class=\"issues-number\">#461</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-02 20:12 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
-    },
-    "ai_description": "Issue #461 on ML node model management edge cases has been closed and removed from the feed, signaling that the reported concerns have been fully addressed by the team. This cleanup keeps our activity focused on active work, so thanks to @tcharchian for flagging it and to everyone involved in resolving it. Stay tuned for what's next in the pipeline!"
   }
 ]
