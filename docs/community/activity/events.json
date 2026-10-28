@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261028131613_b53bff49",
+    "timestamp": "2026-10-28T13:16:13.129252+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform",
+      "url": "/community/issues/01726-xinference-collateralparamsdowntimemissedpercentagethreshold/",
+      "file": "01726-xinference-collateralparamsdowntimemissedpercentagethreshold.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n   ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n   "
+    },
+    "ai_description": "Issue #1726 on the inference module has a new comment added, bringing the discussion to six comments total. The issue highlights a governance parameter that is settable but never actually used, plus a misleading comment in the slash logic. Worth checking out if you care about clean, consistent collateral handling.Issue #1726 has a new comment, bringing the discussion to six total. The issue flags a governance parameter that is settable but never read, plus a misleading comment in the slash logic that doesn't match the actual behavior. Worth a look if you want the inference module's collateral rules to be accurate and effective."
+  },
+  {
     "id": "evt_20261027235432_fe407903",
     "timestamp": "2026-10-27T23:54:32.910591+00:00",
     "section": "issues",
@@ -7912,20 +7928,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Add a transaction for deleting the governance model. It needs to be added and verified to ensure it does not affect operations in the current epoch\n    <span class=\"issues-number\">#465</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 22:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span"
     },
     "ai_description": "Issue #465 about adding a transaction to delete the governance model has been removed from the feed. The proposal, which focused on verifying safe deletion without disrupting current epoch operations, is no longer tracked here. Community members should check other channels for updates on this topic.Issue #465, which proposed adding a transaction to delete the governance model, has been removed from the feed. The closed issue, opened by @tcharchian, aimed to ensure such a deletion wouldn't disrupt current epoch operations. Its removal means this proposal is no longer tracked here, so keep an eye on other channels for any related updates."
-  },
-  {
-    "id": "evt_20261022152143_066d9cfb",
-    "timestamp": "2026-10-22T15:21:43.039020+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#466 — Stop rewriting static config at each app start",
-      "url": null,
-      "file": "00466-stop-rewriting-static-config-at-each-app-start.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Stop rewriting static config at each app start\n    <span class=\"issues-number\">#466</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-12-03 22:47 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top"
-    },
-    "ai_description": "Issue #466 on stopping static config rewrites at every app start has been closed and removed from the feed. The proposal aimed to reduce unnecessary disk writes and startup overhead, which matters for cleaner and more efficient node operations. With it closed, the community can now move on to implementing or discussing the next steps.Issue #466 on stopping static config rewrites at every app start has been closed and removed from the feed. This change aimed to reduce unnecessary disk writes and startup overhead, which is a meaningful step toward smoother node operations. With it resolved, the community can focus on implementing more efficient startup behavior."
   }
 ]

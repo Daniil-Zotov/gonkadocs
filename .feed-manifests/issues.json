@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-28T06:00:02.278655+00:00",
+  "snapshot_time": "2026-10-28T13:16:48.564654+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3670,16 +3670,17 @@
     "01726-xinference-collateralparamsdowntimemissedpercentagethreshold.md": {
       "title": "#1726 — x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n   ",
-      "comment_checksum": "f6006b0bcd2b5587e7c97a24c5d477379e77fb9f1759db7d39154226f267e1a9",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform\n    <span class=\"issues-number\">#1726</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n   ",
+      "comment_checksum": "0a14939437ab321d699807af2952745d88e41551b02bbc0e0c028f4bc969434e",
       "comment_bodies": [
         "Correcting my own framing above, having since read the live parameters rather than the code defaults. The core claim is unaffected — DowntimeMissedPercentageThreshold is still read by nothing — but the section headed \"Why this looks like residue rather than a bug\" describes the SPRT as what shipped in its place, and on mainnet that test cannot currently fire. Live validation_params, epoch 386: par",
         "Validated this against the current codebase — the issue is fully valid. DowntimeMissedPercentageThreshold is only declared, defaulted, serialized, and validated. It is not used by any runtime decision-making logic. Downtime detection is handled by the SPRT using DowntimeGoodPercentage, DowntimeBadPercentage, and DowntimeHThreshold in getInactiveStatus. Once a participant transitions to INACTIVE, S",
         "Will fix the misleading documentation in SlashForDowntime and mark the parameter as deprecated in the relevant places.",
         "I'm taking this one. Following the suggested documentation fix approach since removing the parameter would require a state-breaking change and upgrade handler. PR: #1835 Changes: - Mark downtime_missed_percentage_threshold as deprecated in proto - Correct SlashForDowntime doc comment to reflect that the threshold decision happens upstream in the INACTIVE transition (SPRT-based) - Update design doc",
-        "Hey @GLiberman and @zpoken, could you please take a look at this issue and consider fixing it in 0.2.18?"
+        "Hey @GLiberman and @zpoken, could you please take a look at this issue and consider fixing it in 0.2.18?",
+        "@tcharchian ok, I will do it."
       ],
-      "checksum": "cbce56db59aa9b06b19462dbe4e08658515d261e3c8b1fd15a22e6a60fc0a88d"
+      "checksum": "8800d0b0ac6f22ea84c06c4f1020ef63e28c48957fa945c6f6b54985f5208f1e"
     },
     "01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-.md": {
       "title": "#1733 — Extend e2e for HA devshard config with multiple routers and multiple versiond",
