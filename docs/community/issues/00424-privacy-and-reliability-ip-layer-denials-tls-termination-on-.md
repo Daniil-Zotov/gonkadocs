@@ -2,7 +2,7 @@
 title: "#424 — Privacy and Reliability: IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts"
 source: https://github.com/gonka-ai/gonka/issues/424
 issue_number: 424
-synced_at: 2026-10-27T23:54:27Z
+synced_at: 2026-10-28T05:59:54Z
 template: issues-main.html
 ---
 
