@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-10-29T03:40:59.636164+00:00",
+  "snapshot_time": "2026-10-29T08:48:26.007325+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -172,6 +172,15 @@
       "url": "https://meet.google.com/bqx-mfhi-arg",
       "content_preview": "Третий ежемесячный статус-колл External Test Lab & Community DevNet — приглашаем на третий статус-колл и обсудим:\n\n– инфраструктуру Community DevNet;\n– тестирование L2: новых версий DevShard и Gateway;\n– мониторинг мейннета и девнета;\n– тестирование брокеров;\n– отчёт по расходам.\n\n📅 Пятница, 16 октября\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg\n\n---\n\nThird monthly status call of the External Test Lab & Community DevNet — we invite you to the third status call and will discuss:\n\n– Community DevNet infrastructure;\n– L2 testing: new versions of DevShard and Gateway;\n– mainnet and devnet monitoring;\n– broker testing;\n– expense report.\n\n📅 Friday, October 16\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg",
       "checksum": "d9e267809f4b70e5d1c92e36bf8a470d472f03692ec500bc1024d8a92a7044d4"
+    },
+    "3382c4eb7b0780a5a3a443a6dfe2e7cea22a9067a8f5a27f63f299cfbae49739": {
+      "title": "AMA GONKA FOUNDATION: Запуск фонда уже скоро | GONKA FOUNDATION AMA: Foundation launch is coming soon",
+      "date": "2026-10-30",
+      "time": "16:00 UTC",
+      "event_type": "ama",
+      "url": "https://discord.com/events/1336477374442770503/1565006715311759450",
+      "content_preview": "Важное событие для всех, кто следит за развитием экосистемы. Со-создатели Gonka и члены совета директоров проведут открытую сессию вопросов и ответов, посвящённую официальному запуску Gonka Foundation.\n\n📅 Когда: 30 октября 2026 года.\n⏰ Время: 19:00 по МСК (16:00 UTC).\n💻 Где: Discord (ссылка на событие).\n🗣 Язык: английский.\n⏳ Длительность: 1.5 часа.\n\n🎯 Что обсудят:\n— Структуру и управление Фонда.\n— Финансирование и планы на развитие.\n— Стратегию выхода на глобальный рынок.\n— Ответы на вопросы от сообщества.\n\nЭто возможность услышать информацию из первых уст и задать свои вопросы напрямую членам совета. Если вы хотите понимать, куда движется проект на институциональном уровне, этот эфир стоит посетить.\n\n🔗 Ссылка на событие в Discord https://discord.com/events/1336477374442770503/156500671531",
+      "checksum": "3bcf4da94aba1dd0bf2d9e248cd3333288bbda060cb90e80e45c4034d126a6a2"
     },
     "60130ca155a868e409b7aa0642525df006c4e05da481ba6f8787253101992676": {
       "title": "Migrate community-sale and wrapped-token contracts",

@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20261029084825_02196b3d",
+    "timestamp": "2026-10-29T08:48:25.976929+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "AMA GONKA FOUNDATION: Запуск фонда уже скоро | GONKA FOUNDATION AMA: Foundation launch is coming soon",
+      "url": "https://discord.com/events/1336477374442770503/1565006715311759450",
+      "file": "3382c4eb7b0780a5a3a443a6dfe2e7cea22a9067a8f5a27f63f299cfbae49739"
+    },
+    "details": {
+      "status": null,
+      "content": "Важное событие для всех, кто следит за развитием экосистемы. Со-создатели Gonka и члены совета директоров проведут открытую сессию вопросов и ответов, посвящённую официальному запуску Gonka Foundation.\n\n📅 Когда: 30 октября 2026 года.\n⏰ Время: 19:00 по МСК (16:00 UTC).\n💻 Где: Discord (ссылка на событие).\n🗣 Язык: английский.\n⏳ Длительность: 1.5 часа.\n\n🎯 Что обсудят:\n— Структуру и управление Фонда.\n— Финансирование и планы на развитие.\n— Стратегию выхода на глобальный рынок.\n— Ответы на вопросы от сообщества.\n\nЭто возможность услышать информацию из первых уст и задать свои вопросы напрямую членам совета. Если вы хотите понимать, куда движется проект на институциональном уровне, этот эфир стоит посетить.\n\n🔗 Ссылка на событие в Discord https://discord.com/events/1336477374442770503/156500671531",
+      "date": "2026-10-30",
+      "time": "16:00 UTC",
+      "event_type": "ama",
+      "url": "https://discord.com/events/1336477374442770503/1565006715311759450"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261029023451_e84fe855",
     "timestamp": "2026-10-29T02:34:51.278390+00:00",
     "section": "issues",
@@ -7918,20 +7938,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Stack traces\n    <span class=\"issues-number\">#439</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-11-17 20:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
     },
     "ai_description": "Issue #439 on stack traces has been removed from the feed. The closed discussion, which had no comments, is no longer visible to the community, keeping the activity board focused on active and relevant topics.Issue #439 on stack traces has been removed from our activity feed. The closed discussion, which had no comments, is no longer visible, keeping the board focused on active topics that need community attention."
-  },
-  {
-    "id": "evt_20261022152143_a7ec563f",
-    "timestamp": "2026-10-22T15:21:43.038997+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#440 — All the old keys from the cluster entered the new epoch, even though that cluster was deleted",
-      "url": null,
-      "file": "00440-all-the-old-keys-from-the-cluster-entered-the-new-epoch-even.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    All the old keys from the cluster entered the new epoch, even though that cluster was deleted\n    <span class=\"issues-number\">#440</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-11-17 20:12 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>"
-    },
-    "ai_description": "Issue #440 has been closed and removed from the activity feed. The report about stale cluster keys leaking into a new epoch has been resolved, so no further action or discussion is needed from the community. Thanks to everyone who helped address this cleanup.Issue #440 has been closed and removed from the feed. The report about deleted cluster keys persisting into a new epoch has been resolved, so no further community input is needed. Thanks to those who helped track this down."
   }
 ]
