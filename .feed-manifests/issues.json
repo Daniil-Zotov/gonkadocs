@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-29T10:15:53.762311+00:00",
+  "snapshot_time": "2026-10-29T17:04:14.503940+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4451,6 +4451,14 @@
         "Thanks for the detailed write-up. I re-checked the mainnet data and it matches: hardware-nodes-all at 6782743 / 6782744 / 6783395 and preserved-nodes-snapshot at 6768004 and 6783395 show exactly what you list. SamplePreservedForEpisode reads only ValidationWeights[].MlNodes and never looks at the inventory. To separate what the chain does from what the node changes did: A clean delete costs only a"
       ],
       "checksum": "9aaef8c18a531d3507d736b759c0e72e349fe86f83ff692a56507b85a02fb4b4"
+    },
+    "02173-gateway-admin-api-silently-ignores-eof-failure-threshold-upd.md": {
+      "title": "#2173 — Gateway admin API silently ignores EOF failure threshold updates",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway admin API silently ignores EOF failure threshold updates\n    <span class=\"issues-number\">#2173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-29 16:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "29cb3bd5357bcbf1cc0ec04c29b405cf63d2d5bc2295b7c137c0141703c4543f"
     }
   }
 }
