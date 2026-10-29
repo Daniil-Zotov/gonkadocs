@@ -20,7 +20,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- No upcoming events scheduled.
+- 2026-10-30 16:00 UTC — AMA GONKA FOUNDATION: Запуск фонда уже скоро | GONKA FOUNDATION AMA: Foundation launch is coming soon: https://discord.com/events/1336477374442770503/1565006715311759450
 
 ## Protocol Documentation
 
