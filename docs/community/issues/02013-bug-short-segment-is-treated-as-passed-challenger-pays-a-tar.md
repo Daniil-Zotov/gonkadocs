@@ -2,7 +2,7 @@
 title: "#2013 — [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)"
 source: https://github.com/gonka-ai/gonka/issues/2013
 issue_number: 2013
-synced_at: 2026-10-29T16:59:04Z
+synced_at: 2026-10-29T21:52:12Z
 template: issues-main.html
 ---
 

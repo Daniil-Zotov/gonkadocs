@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261029215713_fbea8289",
+    "timestamp": "2026-10-29T21:57:13.674178+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2176 — TBD: Fee schedule defaults for the next upgrade",
+      "url": "/community/issues/02176-tbd-fee-schedule-defaults-for-the-next-upgrade/",
+      "file": "02176-tbd-fee-schedule-defaults-for-the-next-upgrade.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    TBD: Fee schedule defaults for the next upgrade\n    <span class=\"issues-number\">#2176</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-29 18:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cl"
+    },
+    "ai_description": "New issue #2176 has been opened by @tcharchian to define fee schedule defaults for the upcoming network upgrade. The details are still to be determined, so this is an early call for community input on what the new fee parameters should look like. Keep an eye on this one if you want a say in the next protocol change."
+  },
+  {
     "id": "evt_20261029170326_e345330c",
     "timestamp": "2026-10-29T17:03:26.894448+00:00",
     "section": "issues",
@@ -7924,20 +7940,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug Report: api container sends abci_query with height: 0 despite being synced\n    <span class=\"issues-number\">#435</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/VaniaHilkovets\">@VaniaHilkovets</a> opened 2025-11-14 12:45 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
     },
     "ai_description": "Issue #435 has been removed from the tracker. The bug report about the api container sending abci_query with height 0 despite being synced is no longer tracked, which likely means it was resolved or withdrawn. Keep an eye on the feed for any follow-up updates.Issue #435 has been removed from the tracker. The bug report about the api container sending abci_query with height 0 despite being synced is no longer tracked, which likely means it was resolved or withdrawn. Keep an eye on the feed for any follow-up updates."
-  },
-  {
-    "id": "evt_20261022152143_896f3d5c",
-    "timestamp": "2026-10-22T15:21:43.038988+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#438 — 🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures",
-      "url": null,
-      "file": "00438-bug-incorrect-governance-model-matching-causes-registration-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    🐛 Bug: Incorrect Governance Model Matching Causes Registration Failures\n    <span class=\"issues-number\">#438</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Asplana92\">@Asplana92</a> opened 2025-11-15 23:53 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la"
-    },
-    "ai_description": "Issue #438 about governance model matching bugs has been closed and removed from the feed. The registration failure it described is no longer an active concern for the community. Thanks to everyone who contributed to resolving it. Stay tuned for the next updates. 🚀\n \n (Note: I cannot see the full resolution details since the issue was removed, but the closure signals the problem is addressed.)"
   }
 ]
