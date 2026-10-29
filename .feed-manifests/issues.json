@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-28T23:22:50.199633+00:00",
+  "snapshot_time": "2026-10-29T02:35:43.346502+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4441,6 +4441,16 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "c019b380928551f669bc7fe2cbd3911f1e16fe3b4cb952f1928af7e03ce224ea"
+    },
+    "02167-preserved-node-sampler-ignores-the-hardware-inventory-nodes-.md": {
+      "title": "#2167 — Preserved-node sampler ignores the hardware inventory: nodes that a host removed (or that are FAILED) are still preserved and carry their weight into the next epoch",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Preserved-node sampler ignores the hardware inventory: nodes that a host removed (or that are FAILED) are still preserved and carry their weight into the next epoch\n    <span class=\"issues-number\">#2167</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aktum1\">@Aktum1</a> opened 2026-10-28 23:49 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"iss",
+      "comment_checksum": "d6309635323c707270fc1d2ac1f8bebe8b5122d6166a8d207679902cdbf303bb",
+      "comment_bodies": [
+        "Thanks for the detailed write-up. I re-checked the mainnet data and it matches: hardware-nodes-all at 6782743 / 6782744 / 6783395 and preserved-nodes-snapshot at 6768004 and 6783395 show exactly what you list. SamplePreservedForEpisode reads only ValidationWeights[].MlNodes and never looks at the inventory. To separate what the chain does from what the node changes did: A clean delete costs only a"
+      ],
+      "checksum": "9aaef8c18a531d3507d736b759c0e72e349fe86f83ff692a56507b85a02fb4b4"
     }
   }
 }
