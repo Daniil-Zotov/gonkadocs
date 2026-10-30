@@ -2,7 +2,7 @@
 title: "#1510 — Gateway allowlist request - Bagtyyar Kovusov"
 source: https://github.com/gonka-ai/gonka/issues/1510
 issue_number: 1510
-synced_at: 2026-10-30T02:01:51Z
+synced_at: 2026-10-30T08:47:24Z
 template: issues-main.html
 ---
 
