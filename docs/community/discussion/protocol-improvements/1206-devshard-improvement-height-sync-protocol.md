@@ -3,7 +3,7 @@ title: "#1206 — `devshard improvement` Height-sync protocol"
 source: https://github.com/gonka-ai/gonka/discussions/1206
 discussion_number: 1206
 category: protocol-improvements
-synced_at: 2026-10-30T19:14:04Z
+synced_at: 2026-10-30T23:39:16Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1206](https://github.com/gonka-ai/gonka/discussions/1206) every hour. 
