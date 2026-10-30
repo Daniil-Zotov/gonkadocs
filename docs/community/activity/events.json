@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20261030011656_14d5255f",
+    "timestamp": "2026-10-30T01:16:56.861838+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — AMA GONKA FOUNDATION: Запуск фонда уже скоро | GONKA FOUNDATION AMA: Foundation launch is coming soon",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "AMA GONKA FOUNDATION: Запуск фонда уже скоро | GONKA FOUNDATION AMA: Foundation launch is coming soon",
+          "date": "2026-10-30",
+          "time": "16:00 UTC",
+          "event_type": "ama",
+          "url": "https://discord.com/events/1336477374442770503/1565006715311759450"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261029215713_fbea8289",
     "timestamp": "2026-10-29T21:57:13.674178+00:00",
     "section": "issues",
@@ -7925,20 +7949,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    inferenced:0.2.4 contains outdated hard-coded genesis → AppHash mismatch prevents all nodes from syncing\n    <span class=\"issues-number\">#431</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Asplana92\">@Asplana92</a> opened 2025-11-13 20:39 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>"
     },
     "ai_description": "Issue #431 has been closed and removed from the feed — it flagged a critical bug in inferenced:0.2.4 where an outdated hard-coded genesis caused AppHash mismatches, blocking all node syncs. With this resolved, the community can move forward with a stable release, ensuring nodes sync reliably again."
-  },
-  {
-    "id": "evt_20261022152143_0aa3357b",
-    "timestamp": "2026-10-22T15:21:43.038985+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#435 — Bug Report: api container sends abci_query with height: 0 despite being synced",
-      "url": null,
-      "file": "00435-bug-report-api-container-sends-abci-query-with-height-0-desp.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bug Report: api container sends abci_query with height: 0 despite being synced\n    <span class=\"issues-number\">#435</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/VaniaHilkovets\">@VaniaHilkovets</a> opened 2025-11-14 12:45 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
-    },
-    "ai_description": "Issue #435 has been removed from the tracker. The bug report about the api container sending abci_query with height 0 despite being synced is no longer tracked, which likely means it was resolved or withdrawn. Keep an eye on the feed for any follow-up updates.Issue #435 has been removed from the tracker. The bug report about the api container sending abci_query with height 0 despite being synced is no longer tracked, which likely means it was resolved or withdrawn. Keep an eye on the feed for any follow-up updates."
   }
 ]
