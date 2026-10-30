@@ -2,7 +2,7 @@
 title: "#2167 — Preserved-node sampler ignores the hardware inventory: nodes that a host removed (or that are FAILED) are still preserved and carry their weight into the next epoch"
 source: https://github.com/gonka-ai/gonka/issues/2167
 issue_number: 2167
-synced_at: 2026-10-30T08:45:33Z
+synced_at: 2026-10-30T16:00:34Z
 template: issues-main.html
 ---
 

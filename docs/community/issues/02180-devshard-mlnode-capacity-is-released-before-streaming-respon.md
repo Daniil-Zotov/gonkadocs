@@ -2,7 +2,7 @@
 title: "#2180 — devshard: MLNode capacity is released before streaming response consumption"
 source: https://github.com/gonka-ai/gonka/issues/2180
 issue_number: 2180
-synced_at: 2026-10-30T08:45:30Z
+synced_at: 2026-10-30T16:00:31Z
 template: issues-main.html
 ---
 
@@ -16,9 +16,9 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 2026-10-30 07:01 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-30 07:01 UTC</span>
+    <span class="issues-meta-item">Updated 2026-10-30 12:28 UTC</span>
   </div>
-  <div class="issues-labels" style="margin-top: 8px;"></div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
 
 <div class="issues-content" markdown="1">
@@ -26,7 +26,11 @@ The standalone inference engine releases the NodeManager slot before the caller 
 
 ## Source evidence
 
-Checked against the [v6 candidate source](https://github.com/gonka-ai/gonka/blob/6a41bc3429d1029dc787a3bc04f1a14f201be006/devshard/cmd/devshardd/inference/engine.go)
+The affected deployment uses `ghcr.io/gonka-ai/versiond:0.2.16-devshard-v6-rc1`, an image listed in the official [devshard/v6.0.0-rc1 release](https://github.com/gonka-ai/gonka/releases/tag/devshard/v6.0.0-rc1), with the DevShard runtime reporting `v6.0.0-rc1`
+
+The lifecycle finding below comes from inspection of [engine.go at the release commit](https://github.com/gonka-ai/gonka/blob/6a41bc3429d1029dc787a3bc04f1a14f201be006/devshard/cmd/devshardd/inference/engine.go), rather than an isolated reproduction inside the image
+
+`versiond` is the container image, while `devshardd` is the versioned binary it launches
 
 - `executeMLRequest` passes `httpClient.Do` as the callback to `doWithLockedNode`
 - `doWithLockedNode` calls `releaseNode` after that callback returns, then returns the response to its caller
@@ -52,6 +56,7 @@ Repeat for the passive fallback path and for response-body read failures
 This report is based on source inspection, the isolated reproduction above has not been executed and the contribution to any particular deployment's overload has not been quantified
 
 The finding is separate from [gateway quarantine recovery](https://github.com/gonka-ai/gonka/issues/1506) and [speed-up hedging amplification](https://github.com/gonka-ai/gonka/issues/2105)
+
 
 </div>
 

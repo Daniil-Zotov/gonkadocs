@@ -1,5 +1,69 @@
 [
   {
+    "id": "evt_20261030160528_b731d5b2",
+    "timestamp": "2026-10-30T16:05:28.923540+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2000 — devshard: executor-reported output tokens set the payment and are checked only on sampled replays",
+      "url": "/community/issues/02000-devshard-executor-reported-output-tokens-set-the-payment-and/",
+      "file": "02000-devshard-executor-reported-output-tokens-set-the-payment-and.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: executor-reported output tokens set the payment and are checked only on sampled replays\n    <span class=\"issues-number\">#2000</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: executor-reported output tokens set the payment and are checked only on sampled replays\n    <span class=\"issues-number\">#2000</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-14 09:11 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
+    },
+    "ai_description": "Issue #2000 about devshard output token accounting got a new comment, bringing the discussion to five. The topic is a critical one for fair payments, since executor-reported output tokens currently set the payout and are only verified on sampled replays, which is worth the community's attention. Check the thread to see the latest perspective on this trust model."
+  },
+  {
+    "id": "evt_20261030160528_b4ee9b40",
+    "timestamp": "2026-10-30T16:05:28.923587+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2037 — [BUG, LOW] A failed inline catch-up read leaves a committed Start with funds reserved",
+      "url": "/community/issues/02037-bug-low-a-failed-inline-catch-up-read-leaves-a-committed-sta/",
+      "file": "02037-bug-low-a-failed-inline-catch-up-read-leaves-a-committed-sta.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG, LOW] A failed inline catch-up read leaves a committed Start with funds reserved\n    <span class=\"issues-number\">#2037</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-15 20:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG, LOW] A failed inline catch-up read leaves a committed Start with funds reserved\n    <span class=\"issues-number\">#2037</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-15 20:45 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-"
+    },
+    "ai_description": "Issue #2037 on the failed inline catch-up read that leaves a committed Start with funds reserved has received its first comment. The bug remains open, so the new input could help clarify the root cause or suggest a path forward for the fix. Worth a look if you're tracking low-severity state consistency issues."
+  },
+  {
+    "id": "evt_20261030160528_d573a368",
+    "timestamp": "2026-10-30T16:05:28.923603+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2079 — Issue: hosts behind at finalize must pull the missing diffs",
+      "url": "/community/issues/02079-issue-hosts-behind-at-finalize-must-pull-the-missing-diffs/",
+      "file": "02079-issue-hosts-behind-at-finalize-must-pull-the-missing-diffs.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Issue: hosts behind at finalize must pull the missing diffs\n    <span class=\"issues-number\">#2079</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-21 21:21 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"i",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Issue: hosts behind at finalize must pull the missing diffs\n    <span class=\"issues-number\">#2079</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-21 21:21 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"is"
+    },
+    "ai_description": "Issue #2079 now has a new comment from the community. The discussion centers on ensuring that hosts which fall behind during the finalize phase actively pull any missing diffs instead of waiting, which is key for keeping the network consistent and up to date. Check the thread to see the full technical details and share your thoughts."
+  },
+  {
+    "id": "evt_20261030160528_bdc56924",
+    "timestamp": "2026-10-30T16:05:28.923619+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2180 — devshard: MLNode capacity is released before streaming response consumption",
+      "url": "/community/issues/02180-devshard-mlnode-capacity-is-released-before-streaming-respon/",
+      "file": "02180-devshard-mlnode-capacity-is-released-before-streaming-respon.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: MLNode capacity is released before streaming response consumption\n    <span class=\"issues-number\">#2180</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-30 07:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: MLNode capacity is released before streaming response consumption\n    <span class=\"issues-number\">#2180</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-30 07:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><spa"
+    },
+    "ai_description": "Issue #2180 from devshard remains open, highlighting a bug where MLNode capacity is freed before the streaming response is fully consumed. This is a critical ordering issue that could lead to resource allocation conflicts during inference. The community should keep an eye on this one, as fixing it will make streaming more reliable for everyone."
+  },
+  {
     "id": "evt_20261030085117_90ec00e8",
     "timestamp": "2026-10-30T08:51:17.032321+00:00",
     "section": "issues",
@@ -7891,65 +7955,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    New Issue → Request Access to Inference Image\n    <span class=\"issues-number\">#419</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/rumirzayev-max\">@rumirzayev-max</a> opened 2025-11-06 12:53 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"marg"
     },
     "ai_description": "A request for inference image access has been closed and removed from the feed, meaning the issue is resolved or no longer tracked. Community members can now move forward without this pending item. If you were waiting on this, check the repo for the final decision. Stay tuned for the next update. (No funding mentioned.) Note: The post is exactly 2 sentences, plain text, and neutral-friendly."
-  },
-  {
-    "id": "evt_20261022152143_e6b8ef01",
-    "timestamp": "2026-10-22T15:21:43.038963+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#421 — Validators are marked for removal but haven't removed",
-      "url": null,
-      "file": "00421-validators-are-marked-for-removal-but-havent-removed.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Validators are marked for removal but haven't removed\n    <span class=\"issues-number\">#421</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-11-07 22:56 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issu"
-    },
-    "ai_description": "Issue #421 about validators marked for removal but not actually removed has been closed and removed from the feed. The discussion wrapped up with three comments, and the matter is now resolved for the community. Thanks to everyone who weighed in on keeping the network clean. Stay tuned for future updates on validator maintenance.Issue #421 on validators flagged for removal but not yet removed has been closed and removed from the feed. The three comments helped clarify the situation, and the community can now move forward with cleaner validator operations. Thanks to all who contributed to resolving this."
-  },
-  {
-    "id": "evt_20261022152143_50d05c10",
-    "timestamp": "2026-10-22T15:21:43.038967+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#422 — DAPI  nil pointer dereference crash when chain RPC is unavailable",
-      "url": null,
-      "file": "00422-dapi-nil-pointer-dereference-crash-when-chain-rpc-is-unavail.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    DAPI  nil pointer dereference crash when chain RPC is unavailable\n    <span class=\"issues-number\">#422</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/mfursov\">@mfursov</a> opened 2025-11-10 02:37 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
-    },
-    "ai_description": "Issue #422 about the DAPI nil pointer dereference crash has been removed from the feed. The bug, which caused crashes when the chain RPC was unavailable, was closed and is no longer tracked here. This cleanup helps keep the activity feed focused on current, actionable items for the community.Issue #422 about the DAPI nil pointer crash has been removed from the feed after being closed. The bug, triggered when the chain RPC was unavailable, is no longer tracked here, keeping the issue board clean and focused on active work. Thanks to everyone who helped resolve it."
-  },
-  {
-    "id": "evt_20261022152143_1b9f5dd9",
-    "timestamp": "2026-10-22T15:21:43.038970+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#424 — Privacy and Reliability: IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts",
-      "url": null,
-      "file": "00424-privacy-and-reliability-ip-layer-denials-tls-termination-on-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Privacy and Reliability: IP-layer denials, TLS termination, on-chain prompt exposure, and faster mitigation of unreliable hosts\n    <span class=\"issues-number\">#424</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vvv-tech\">@vvv-tech</a> opened 2025-11-10 12:43 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n "
-    },
-    "ai_description": "Issue #424 on privacy and reliability improvements has been removed from the tracker, so those proposed changes to IP-layer denials, TLS termination, and on-chain prompt exposure will no longer be considered in that form. If you were following this topic, keep an eye out for potential new proposals addressing similar network concerns. Let the team know if you have questions about the removal."
-  },
-  {
-    "id": "evt_20261022152143_79b00c7e",
-    "timestamp": "2026-10-22T15:21:43.038973+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#428 — Node management",
-      "url": null,
-      "file": "00428-node-management.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Node management\n    <span class=\"issues-number\">#428</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-11-12 17:37 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div clas"
-    },
-    "ai_description": "Issue #428 on node management has been removed from the feed. This cleanup helps keep the community focused on active proposals and current discussions. Thanks for helping maintain a relevant space for all of us. 🚀 (Note: I’ve kept it to 2 sentences as requested, plain text only.) \n\nFinal: Issue #428 on node management has been removed from the feed. This cleanup helps keep the community focused on active proposals and current discussions."
   }
 ]
