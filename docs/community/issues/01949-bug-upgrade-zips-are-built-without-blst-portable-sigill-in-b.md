@@ -2,7 +2,7 @@
 title: "#1949 — [BUG] Upgrade zips are built without BLST_PORTABLE: SIGILL in blst_cgo_init on x86-64 CPUs without ADX"
 source: https://github.com/gonka-ai/gonka/issues/1949
 issue_number: 1949
-synced_at: 2026-10-30T16:01:30Z
+synced_at: 2026-10-30T20:54:10Z
 template: issues-main.html
 ---
 

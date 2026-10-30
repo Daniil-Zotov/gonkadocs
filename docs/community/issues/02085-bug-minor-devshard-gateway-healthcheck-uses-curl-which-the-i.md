@@ -2,7 +2,7 @@
 title: "#2085 — [BUG: minor] devshard-gateway healthcheck uses curl, which the image does not contain → container permanently unhealthy"
 source: https://github.com/gonka-ai/gonka/issues/2085
 issue_number: 2085
-synced_at: 2026-10-30T16:00:55Z
+synced_at: 2026-10-30T20:53:38Z
 template: issues-main.html
 ---
 

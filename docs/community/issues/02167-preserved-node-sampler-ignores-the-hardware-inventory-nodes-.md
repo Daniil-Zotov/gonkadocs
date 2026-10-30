@@ -2,7 +2,7 @@
 title: "#2167 — Preserved-node sampler ignores the hardware inventory: nodes that a host removed (or that are FAILED) are still preserved and carry their weight into the next epoch"
 source: https://github.com/gonka-ai/gonka/issues/2167
 issue_number: 2167
-synced_at: 2026-10-30T16:00:34Z
+synced_at: 2026-10-30T20:53:13Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/Aktum1">@Aktum1</a> opened 2026-10-28 23:49 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-10-29 00:44 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-30 18:01 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -187,7 +187,7 @@ With the status check, a host can avoid being preserved by reporting FAILED at t
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -211,6 +211,31 @@ With the status check, a host can avoid being preserved by reporting FAILED at t
 <p>Two small notes on #2168:
 - It targets <code>main</code>, while #2158, which changes the same function, targets <code>upgrade-v0.2.17</code>. It is worth retargeting and checking the overlap.
 - The participant-hash seed indeed stays the same (keys are kept even when the list is empty), but the thresholds (IQR cap, per-participant minimum) are now computed on the available view. So a FAILED node of one host shifts them slightly for others. That looks acceptable, but the description could say so.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Aktum1">@Aktum1</a></span>
+    <span class="issues-meta-item">commented 2026-10-30 18:01 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I don't think we need to change anything.</p>
+<p>I tested removing a node at the second block of a new epoch, and everything worked well.</p>
+<p>I think this is exactly how node removal should work. If we used my proposed mechanism instead, nodes would be removed one hour before the end of the epoch, since there's no cPoC during that period.</p>
+<p>As a result, the network would lose computing capacity.</p>
+<p>The only remaining issue is how to replace a node's image. There seem to be two options:</p>
+<p><strong>Option 1:</strong>
+1. Spin up a new node.
+2. Remove the old one.</p>
+<p><strong>Option 2:</strong>
+Update the image on the existing node.</p>
+<p>With Option 2, there's a risk that the old node gets selected as a validator before the image is updated.</p>
+<p>But then which LLM would perform the validation? The new model hasn't passed validation itself.</p>
+<p>This introduces an additional risk to the protocol, although it seems relatively small.</p>
+<p>For this to become a real problem, 50% of the validators would need to be in this situation.</p>
+<p>Overall, I don't think we need to change anything.</p>
+<p>Everything seems to be working correctly and as intended.</p>
+<p>However, I think it would be useful to document this process in the official documentation, so both people and bots know how to handle these situations.</p>
   </div>
 </div>
 

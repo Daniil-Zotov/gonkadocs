@@ -2,7 +2,7 @@
 title: "#1632 — OpenBroker strips provider prompt-cache metadata (prompt_tokens_details is always null)"
 source: https://github.com/gonka-ai/gonka/issues/1632
 issue_number: 1632
-synced_at: 2026-10-30T16:01:32Z
+synced_at: 2026-10-30T20:54:12Z
 template: issues-main.html
 ---
 

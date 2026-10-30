@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261030205800_e2575e71",
+    "timestamp": "2026-10-30T20:58:00.178899+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2190 — Gateway allowlist request: Patrick Baumgartner",
+      "url": "/community/issues/02190-gateway-allowlist-request-patrick-baumgartner/",
+      "file": "02190-gateway-allowlist-request-patrick-baumgartner.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request: Patrick Baumgartner\n    <span class=\"issues-number\">#2190</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/patbaumgartner\">@patbaumgartner</a> opened 2026-10-30 17:53 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261030205800_856bae99",
+    "timestamp": "2026-10-30T20:58:00.179020+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2167 — Preserved-node sampler ignores the hardware inventory: nodes that a host removed (or that are FAILED) are still preserved and carry their weight into the next epoch",
+      "url": "/community/issues/02167-preserved-node-sampler-ignores-the-hardware-inventory-nodes-/",
+      "file": "02167-preserved-node-sampler-ignores-the-hardware-inventory-nodes-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Preserved-node sampler ignores the hardware inventory: nodes that a host removed (or that are FAILED) are still preserved and carry their weight into the next epoch\n    <span class=\"issues-number\">#2167</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aktum1\">@Aktum1</a> opened 2026-10-28 23:49 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"iss",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Preserved-node sampler ignores the hardware inventory: nodes that a host removed (or that are FAILED) are still preserved and carry their weight into the next epoch\n    <span class=\"issues-number\">#2167</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aktum1\">@Aktum1</a> opened 2026-10-28 23:49 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"is"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261030160528_b731d5b2",
     "timestamp": "2026-10-30T16:05:28.923540+00:00",
     "section": "issues",
@@ -7925,35 +7957,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P2] MLNode Token-Based Authentication and FQDN Support\n    <span class=\"issues-number\">#412</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-10-31 07:50 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"is"
     },
     "ai_description": "Issue #412 on token-based authentication and FQDN support for MLNodes has been removed from our tracking. This means the proposal is no longer under active consideration, so any prior discussions on it are now closed. If you were following this topic, keep an eye out for a potential revised approach in the future.Issue #412 on MLNode token-based authentication and FQDN support has been removed from our tracking. This means the proposal is no longer under active consideration, so any prior discussions on it are now closed. If you were following this topic, keep an eye out for a potential revised approach in the future."
-  },
-  {
-    "id": "evt_20261022152143_5c550eb6",
-    "timestamp": "2026-10-22T15:21:43.038957+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#415 — Caching of node-config.json",
-      "url": null,
-      "file": "00415-caching-of-node-configjson.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Caching of node-config.json\n    <span class=\"issues-number\">#415</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DePunk-eth\">@DePunk-eth</a> opened 2025-11-01 18:06 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div"
-    },
-    "ai_description": "Issue #415 on caching of node-config.json has been closed and removed from the feed. This means the discussion is resolved and no longer active for community input, so if you were tracking it, you can move on. Thanks to everyone who contributed to wrapping this one up.Issue #415 on caching of node-config.json has been closed and removed from the feed, signaling the discussion is fully resolved. If you were following it for performance insights, the topic is now settled and no longer open for community input. Thanks to everyone who weighed in on this one."
-  },
-  {
-    "id": "evt_20261022152143_88aefc97",
-    "timestamp": "2026-10-22T15:21:43.038960+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#419 — New Issue → Request Access to Inference Image",
-      "url": null,
-      "file": "00419-new-issue-request-access-to-inference-image.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    New Issue → Request Access to Inference Image\n    <span class=\"issues-number\">#419</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/rumirzayev-max\">@rumirzayev-max</a> opened 2025-11-06 12:53 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"marg"
-    },
-    "ai_description": "A request for inference image access has been closed and removed from the feed, meaning the issue is resolved or no longer tracked. Community members can now move forward without this pending item. If you were waiting on this, check the repo for the final decision. Stay tuned for the next update. (No funding mentioned.) Note: The post is exactly 2 sentences, plain text, and neutral-friendly."
   }
 ]
