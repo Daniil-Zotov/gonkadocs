@@ -2,7 +2,7 @@
 title: "#651 — Reproducible sampling"
 source: https://github.com/gonka-ai/gonka/issues/651
 issue_number: 651
-synced_at: 2026-10-29T21:55:18Z
+synced_at: 2026-10-30T02:03:18Z
 template: issues-main.html
 ---
 
