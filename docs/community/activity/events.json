@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261031184231_3e9d828e",
+    "timestamp": "2026-10-31T18:42:31.214846+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2194 — Track LFM3 support in MLNode and Gonka PoC",
+      "url": "/community/issues/02194-track-lfm3-support-in-mlnode-and-gonka-poc/",
+      "file": "02194-track-lfm3-support-in-mlnode-and-gonka-poc.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Track LFM3 support in MLNode and Gonka PoC\n    <span class=\"issues-number\">#2194</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-31 15:48 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>"
+    },
+    "ai_description": "A new issue has been opened by @ilyar to track LFM3 support across MLNode and the Gonka PoC, and it has already been closed. This is a housekeeping issue to ensure the community keeps an eye on compatibility with the latest model format as it rolls out. Worth a look if you are building on either component."
+  },
+  {
     "id": "evt_20261031174005_aeea2927",
     "timestamp": "2026-10-31T17:40:05.853289+00:00",
     "section": "discussions",
@@ -7947,20 +7963,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Future timestamp investigation\n    <span class=\"issues-number\">#396</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-17 17:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d"
     },
     "ai_description": "Issue #396 on future timestamp investigation has been closed and removed from the feed, signaling the team has resolved the P0 concern. This cleanup keeps our activity focused on active work, so thanks to all who contributed to addressing it. Stay tuned for the next update.Issue #396 on future timestamp investigation has been closed and removed from the feed, signaling the team has resolved the P0 concern. This cleanup keeps our activity focused on active work, so thanks to all who contributed to addressing it. Stay tuned for the next update."
-  },
-  {
-    "id": "evt_20261022152143_a0ea5c78",
-    "timestamp": "2026-10-22T15:21:43.038935+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#398 — API -> Node Connection Issues",
-      "url": null,
-      "file": "00398-api-node-connection-issues.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    API -> Node Connection Issues\n    <span class=\"issues-number\">#398</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-10-19 05:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span cla"
-    },
-    "ai_description": "Issue #398 about API-to-node connection problems has been removed from the tracker. The report, which was already closed with no community discussion, is no longer relevant to the current network state. Cleaning up stale issues keeps our feed focused on active work and improvements. Thanks for keeping the space tidy.Issue #398 on API-to-node connection issues has been removed from the tracker. The report was already closed with no discussion, so cleaning it up keeps our activity feed focused on actionable work. A tidy issue list helps the community spot real problems faster."
   }
 ]

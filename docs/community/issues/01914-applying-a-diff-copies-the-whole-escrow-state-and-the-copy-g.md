@@ -2,7 +2,7 @@
 title: "#1914 — Applying a diff copies the whole escrow state, and the copy grows for the life of the escrow"
 source: https://github.com/gonka-ai/gonka/issues/1914
 issue_number: 1914
-synced_at: 2026-10-31T13:43:53Z
+synced_at: 2026-10-31T18:39:02Z
 template: issues-main.html
 ---
 

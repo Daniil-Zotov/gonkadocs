@@ -2,7 +2,7 @@
 title: "#2078 — devshard v7: a context-length refusal at the governance --max-model-len should never cost the host a miss or an invalidation"
 source: https://github.com/gonka-ai/gonka/issues/2078
 issue_number: 2078
-synced_at: 2026-10-31T13:43:12Z
+synced_at: 2026-10-31T18:38:23Z
 template: issues-main.html
 ---
 

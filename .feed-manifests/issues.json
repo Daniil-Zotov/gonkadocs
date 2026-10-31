@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-31T13:48:24.831999+00:00",
+  "snapshot_time": "2026-10-31T18:42:33.015482+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4514,6 +4514,16 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "8f5b7c86fd79bef8e98f9c11db2d3842c0d71215d2f7916ff599d592f997d803"
+    },
+    "02194-track-lfm3-support-in-mlnode-and-gonka-poc.md": {
+      "title": "#2194 — Track LFM3 support in MLNode and Gonka PoC",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Track LFM3 support in MLNode and Gonka PoC\n    <span class=\"issues-number\">#2194</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-31 15:48 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>",
+      "comment_checksum": "8a87faf6d68b535982d6caa950abec90106522dfec63a0fdfee4c4a8a4c9a16a",
+      "comment_bodies": [
+        "Sorry, this is my personal experiment; I created it by accident"
+      ],
+      "checksum": "3c671259b1ce360e227b0369781192eccff4918d513bc09fdb6607dc3c4321f9"
     }
   }
 }
