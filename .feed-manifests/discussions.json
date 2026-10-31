@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-10-31T12:13:21.134717+00:00",
+  "snapshot_time": "2026-10-31T17:41:51.892951+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -685,6 +685,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1884](https://github.com/gonka-ai/gonka/discussions/1884) every hour. \n\n# SAGG — an OpenAI-compatible gateway over several Gonka providers, with measured results\n\n**Автор:** [@privatedeskai](https://github.com/privatedeskai) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-09-30 18:07 UTC · \n\n---\n\n## 📝 Описание\n\nSAGG is an OpenAI-compatible gateway (`https://api.privatedeskai.com/v1`). It keeps several independent providers behind one endpoint and switches automatically when one of them degrades.\n\n**Measured results**: one 24-hour test of version R1, 23–24 October 2026, synthetic mix of five request classes, nothing excluded.\n\n**Standard line**: 99.94 % of requests served (4,769 of 4,772); time to first text median 1.4 s, 95th percentil",
       "checksum": "8b70f21fa10069ec796926603561dd5bcf62877d8b3b2ea335d7de52ee8eaeb8"
+    },
+    "show-and-tell/2195-qun-gonka-exploring-collaboration-on-accessible-distributed-.md": {
+      "title": "#2195 — **QUN × Gonka — exploring collaboration on accessible distributed compute**",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2195](https://github.com/gonka-ai/gonka/discussions/2195) every hour. \n\n# **QUN × Gonka — exploring collaboration on accessible distributed compute**\n\n**Автор:** [@PavelNovikovU](https://github.com/PavelNovikovU) · **Категория:** :raised_hands: Show and Tell · **Создано:** 2026-10-31 17:08 UTC · \n\n---\n\n## 📝 Описание\n\n**QUN × Gonka — exploring collaboration on accessible distributed compute**\n\nHello Gonka community!\n\nI'm developing QUN, an ecosystem of open creative and collaborative tools. One of our main priorities is building a distributed compute network that makes useful computation more accessible.\n\nWe are exploring browser-based compute participation, verifiable task execution, safe workload scheduling, and a Telegram Mini App where users can volu",
+      "checksum": "3ab4e585ff239f18b0af68d4af190038bf825e3dd59f239b314eafbf326972b7"
     }
   }
 }

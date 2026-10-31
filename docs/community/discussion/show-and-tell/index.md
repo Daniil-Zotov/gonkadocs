@@ -4,12 +4,13 @@ title: ":raised_hands: Show and Tell"
 
 # :raised_hands: Show and Tell
 
-Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **25**. Обновлено: `2026-10-31 12:13 UTC`.
+Дискуссии в категории **:raised_hands: Show and Tell**. Всего: **26**. Обновлено: `2026-10-31 17:40 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [2195](2195-qun-gonka-exploring-collaboration-on-accessible-distributed-.md) | [**QUN × Gonka — exploring collaboration on accessible distributed compute**](2195-qun-gonka-exploring-collaboration-on-accessible-distributed-.md) | [@PavelNovikovU](https://github.com/PavelNovikovU) | 2026-10-31 |
 | [1884](1884-sagg-an-openai-compatible-gateway-over-several-gonka-provide.md) | [SAGG — an OpenAI-compatible gateway over several Gonka providers, with measured results](1884-sagg-an-openai-compatible-gateway-over-several-gonka-provide.md) | [@privatedeskai](https://github.com/privatedeskai) | 2026-10-26 |
 | [1711](1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [Gonka Labs: Gonka Chat - Wallet-to-Wallet messaging on Gonka](1711-gonka-labs-gonka-chat-wallet-to-wallet-messaging-on-gonka.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-10-20 |
 | [1710](1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | [Gonka Labs: x402 on Gonka - payments for Agents](1710-gonka-labs-x402-on-gonka-payments-for-agents.md) | [@gonkalabs](https://github.com/gonkalabs) | 2026-10-20 |

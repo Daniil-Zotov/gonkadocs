@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **114**. Обновлено: `2026-10-31 12:13 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **115**. Обновлено: `2026-10-31 17:40 UTC`.
 
 ## 📂 Категории
 
@@ -16,12 +16,13 @@ title: "GitHub Discussions"
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 15 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 49 |
 | [:interrobang: Q&A](q-a/index.md) | 5 |
-| [:raised_hands: Show and Tell](show-and-tell/index.md) | 25 |
+| [:raised_hands: Show and Tell](show-and-tell/index.md) | 26 |
 
 ## 🕒 Последние обновлённые
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [2195](show-and-tell/2195-qun-gonka-exploring-collaboration-on-accessible-distributed-.md) | [**QUN × Gonka — exploring collaboration on accessible distributed compute**](show-and-tell/2195-qun-gonka-exploring-collaboration-on-accessible-distributed-.md) | :raised_hands: Show and Tell | [@PavelNovikovU](https://github.com/PavelNovikovU) | 2026-10-31 |
 | [1648](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | [Running our own devshard gateway — plan, economics, and what hosts want to see for allowlisting](ecosystem/1648-running-our-own-devshard-gateway-plan-economics-and-what-hos.md) | :jigsaw: Ecosystem | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-10-28 |
 | [1636](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | [Proposal: Cache-Served Token Pricing](protocol-improvements/1636-proposal-cache-served-token-pricing.md) | :gear: Protocol Improvements | [@theaungmyatmoe](https://github.com/theaungmyatmoe) | 2026-10-28 |
 | [836](ecosystem/0836-gonka-native-coding-cli.md) | [Gonka-native Coding CLI](ecosystem/0836-gonka-native-coding-cli.md) | :jigsaw: Ecosystem | [@Apha205](https://github.com/Apha205) | 2026-10-27 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [954](protocol-improvements/0954-optimistic-parallel-execution-of-messages-for-inference-chai.md) | [Optimistic parallel execution of messages for inference-chain](protocol-improvements/0954-optimistic-parallel-execution-of-messages-for-inference-chai.md) | :gear: Protocol Improvements | [@akup](https://github.com/akup) | 2026-10-20 |
 | [1090](protocol-improvements/1090-qwen3-235b-a22b-instruct-2507-fp8-with-fp8-kvcache-as-the-fi.md) | [Qwen3-235B-A22B-Instruct-2507-FP8 with FP8 KVcache as the first multi model PoC launch model](protocol-improvements/1090-qwen3-235b-a22b-instruct-2507-fp8-with-fp8-kvcache-as-the-fi.md) | :gear: Protocol Improvements | [@beatifull](https://github.com/beatifull) | 2026-10-20 |
 | [1085](protocol-improvements/1085-inc4-gonka-node-observability-platform.md) | [INC4 \| Gonka Node Observability Platform](protocol-improvements/1085-inc4-gonka-node-observability-platform.md) | :gear: Protocol Improvements | [@rwxr-xr-x](https://github.com/rwxr-xr-x) | 2026-10-20 |
-| [1092](protocol-improvements/1092-gip-neural-computation-protocol-ncp-v032-deterministic-wasm-.md) | [GiP: Neural Computation Protocol (NCP) v0.3.2 – Deterministic WASM Bricks + YAML Graphs for Fast, Auditable Agentic Systems](protocol-improvements/1092-gip-neural-computation-protocol-ncp-v032-deterministic-wasm-.md) | :gear: Protocol Improvements | [@madeinplutofabio](https://github.com/madeinplutofabio) | 2026-10-20 |

@@ -3,7 +3,7 @@ title: "#2067 — Funding/scoping proposal: a resumable local Gonka batch workbe
 source: https://github.com/gonka-ai/gonka/discussions/2067
 discussion_number: 2067
 category: ecosystem
-synced_at: 2026-10-31T12:12:32Z
+synced_at: 2026-10-31T17:39:17Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2067](https://github.com/gonka-ai/gonka/discussions/2067) every hour. 
