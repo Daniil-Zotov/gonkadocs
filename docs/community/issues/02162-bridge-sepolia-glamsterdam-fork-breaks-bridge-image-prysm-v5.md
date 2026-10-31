@@ -2,7 +2,7 @@
 title: "#2162 — Bridge: Sepolia Glamsterdam fork breaks bridge image (Prysm v5 / geth 1.16.7) — testnet-4 bridge down"
 source: https://github.com/gonka-ai/gonka/issues/2162
 issue_number: 2162
-synced_at: 2026-10-31T07:05:01Z
+synced_at: 2026-10-31T13:43:07Z
 template: issues-main.html
 ---
 
