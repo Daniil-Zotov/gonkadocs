@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261031005633_e0899107",
+    "timestamp": "2026-10-31T00:56:33.424970+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2182 — OpenBroker registration fails: POST /api/auth/send-code → 500 failed to send email",
+      "url": "/community/issues/02182-openbroker-registration-fails-post-apiauthsend-code-500-fail/",
+      "file": "02182-openbroker-registration-fails-post-apiauthsend-code-500-fail.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    OpenBroker registration fails: POST /api/auth/send-code → 500 failed to send email\n    <span class=\"issues-number\">#2182</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-10-30 07:56 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    OpenBroker registration fails: POST /api/auth/send-code → 500 failed to send email\n    <span class=\"issues-number\">#2182</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-10-30 07:56 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
+    },
+    "ai_description": "Issue #2182 on OpenBroker registration got two new comments, bringing the total to three. The discussion is growing around the 500 error on the email send-code endpoint, so check it out if you've hit the same problem. More eyes on this means a fix is likely coming sooner.Issue #2182 on OpenBroker registration just got two more comments, bringing the total to three. The community is actively digging into the 500 error on the email send-code endpoint, so if you've hit this too, join the discussion. More traction here should help surface a fix faster."
+  },
+  {
     "id": "evt_20261030205800_e2575e71",
     "timestamp": "2026-10-30T20:58:00.178899+00:00",
     "section": "issues",
@@ -7942,20 +7958,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Explore SPRT for missed inferences\n    <span class=\"issues-number\">#410</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-30 17:03 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div"
     },
     "ai_description": "Issue #410 on exploring SPRT for missed inferences has been removed from the community feed. This closed proposal, which was opened by @tcharchian, is no longer tracked, so any related discussion or next steps are now off the board. Community members should refer to other open issues for ongoing inference optimization work."
-  },
-  {
-    "id": "evt_20261022152143_e46273f1",
-    "timestamp": "2026-10-22T15:21:43.038953+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#412 — [P2] MLNode Token-Based Authentication and FQDN Support",
-      "url": null,
-      "file": "00412-p2-mlnode-token-based-authentication-and-fqdn-support.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P2] MLNode Token-Based Authentication and FQDN Support\n    <span class=\"issues-number\">#412</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-10-31 07:50 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"is"
-    },
-    "ai_description": "Issue #412 on token-based authentication and FQDN support for MLNodes has been removed from our tracking. This means the proposal is no longer under active consideration, so any prior discussions on it are now closed. If you were following this topic, keep an eye out for a potential revised approach in the future.Issue #412 on MLNode token-based authentication and FQDN support has been removed from our tracking. This means the proposal is no longer under active consideration, so any prior discussions on it are now closed. If you were following this topic, keep an eye out for a potential revised approach in the future."
   }
 ]

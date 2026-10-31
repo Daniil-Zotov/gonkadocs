@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-10-30T21:04:32.383899+00:00",
+  "snapshot_time": "2026-10-31T00:56:43.997746+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4485,12 +4485,14 @@
     "02182-openbroker-registration-fails-post-apiauthsend-code-500-fail.md": {
       "title": "#2182 — OpenBroker registration fails: POST /api/auth/send-code → 500 failed to send email",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    OpenBroker registration fails: POST /api/auth/send-code → 500 failed to send email\n    <span class=\"issues-number\">#2182</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-10-30 07:56 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu",
-      "comment_checksum": "7fadbbdb1a05883998ce8036005558a75690e1f6fe20cb98472470bcd672e42e",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    OpenBroker registration fails: POST /api/auth/send-code → 500 failed to send email\n    <span class=\"issues-number\">#2182</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-10-30 07:56 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
+      "comment_checksum": "673b81d460b2488c52ea2192dee938a1c886efafd9de3c849b01825d91ee6b4f",
       "comment_bodies": [
-        "Adding the missing reproduction — the code block was stripped on submit. Request (2026-10-29 13:31 UTC and 2026-10-30 07:46 UTC, identical result): curl -s -D - -X POST https://api.openbroker.gonka.gg/api/auth/send-code \\ -H \"content-type: application/json\" \\ -d '{\"email\":\"&lt;valid working inbox&gt;\",\"purpose\":\"register\"}' HTTP/1.1 500 Internal Server Error Server: Caddy Content-Type: application"
+        "Adding the missing reproduction — the code block was stripped on submit. Request (2026-10-29 13:31 UTC and 2026-10-30 07:46 UTC, identical result): curl -s -D - -X POST https://api.openbroker.gonka.gg/api/auth/send-code \\ -H \"content-type: application/json\" \\ -d '{\"email\":\"&lt;valid working inbox&gt;\",\"purpose\":\"register\"}' HTTP/1.1 500 Internal Server Error Server: Caddy Content-Type: application",
+        "@gonkalabs",
+        "Hey @ludmilavasilievna3-cmd , thank you for reaching out! Can you please retry now? Issue was transient and was related to mailing server issues, not core OpenBroker features. Best regards, Gonka Labs team"
       ],
-      "checksum": "059d32b13af3f3d3990175707447d7896cdf704366fc6e2557c880f6913a0b62"
+      "checksum": "fd3b3c5ffcb046ac2e84f013af87f40579b5f797ee7779a4997fcec7a7a905fe"
     },
     "02190-gateway-allowlist-request-patrick-baumgartner.md": {
       "title": "#2190 — Gateway allowlist request: Patrick Baumgartner",
