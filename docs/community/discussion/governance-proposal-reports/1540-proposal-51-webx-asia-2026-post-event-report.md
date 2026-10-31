@@ -3,7 +3,7 @@ title: "#1540 — Proposal #51: WebX Asia 2026 — Post-Event Report"
 source: https://github.com/gonka-ai/gonka/discussions/1540
 discussion_number: 1540
 category: governance-proposal-reports
-synced_at: 2026-10-30T23:39:05Z
+synced_at: 2026-10-31T05:24:39Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1540](https://github.com/gonka-ai/gonka/discussions/1540) every hour. 
