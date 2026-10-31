@@ -2,7 +2,7 @@
 title: "#1955 — [BUG] `min_tokens` floor (MinTokensFloor=64) breaks tool calling: runaway garbage, fabricated tool results, up to max_tokens billed per turn"
 source: https://github.com/gonka-ai/gonka/issues/1955
 issue_number: 1955
-synced_at: 2026-10-31T00:52:38Z
+synced_at: 2026-10-31T07:04:53Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 2026-10-08 23:48 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-10-23 20:39 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-10-31 02:34 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -123,7 +123,7 @@ H1 #3833622 is a real gap. With only a few output positions, the logprob-distanc
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -132,6 +132,29 @@ H1 #3833622 is a real gap. With only a few output positions, the logprob-distanc
   </div>
   <div class="issues-comment-body issues-content">
     <p>merged at #1955</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/privatedeskai">@privatedeskai</a></span>
+    <span class="issues-meta-item">commented 2026-10-31 01:31 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Data point for this issue. We run an OpenAI-compatible gateway on DeepSeek-V4-Flash-0731 and measured the 64-minimum-output-token behaviour on 2026-10-27: 60 mixed requests, one at a time, a unique marker in every prompt. With three Gonka-network providers called directly, 17% to 23% of answers had repeated text appended (up to ~70% of one-word answers and ~50% of short JSON answers). A provider outside the Gonka network: 0 of 60. We now trim the repeated tail at our gateway before delivery and bill only delivered text; in a live check on 2026-10-30, 2.0% (n=200) and 2.9% (n=280) of answers still contained a repeat or leaked reasoning. Question: PR 1972 was merged on 17 October as part of devshard v6. Is there an expected date for mainnet activation? Method and raw data: https://github.com/privatedeskai/sagg-benchmark-data</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-10-31 02:29 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <blockquote>
+<p>Data point for this issue. We run an OpenAI-compatible gateway on DeepSeek-V4-Flash-0731 and measured the 64-minimum-output-token behaviour on 2026-10-27: 60 mixed requests, one at a time, a unique marker in every prompt. With three Gonka-network providers called directly, 17% to 23% of answers had repeated text appended (up to ~70% of one-word answers and ~50% of short JSON answers). A provider outside the Gonka network: 0 of 60. We now trim the repeated tail at our gateway before delivery and bill only delivered text; in a live check on 2026-10-30, 2.0% (n=200) and 2.9% (n=280) of answers still contained a repeat or leaked reasoning. Question: PR 1972 was merged on 17 October as part of devshard v6. Is there an expected date for mainnet activation? Method and raw data: https://github.com/privatedeskai/sagg-benchmark-data</p>
+</blockquote>
+<p>Thank you for details!</p>
+<p>Upcoming update will fix it. </p>
+<p>UPD. No target date for now, expectation is next 1-3 weeks.</p>
   </div>
 </div>
 

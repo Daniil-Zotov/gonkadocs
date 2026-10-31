@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261031070943_8d749125",
+    "timestamp": "2026-10-31T07:09:43.942675+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2192 — Bridge issue: 253 WGNK minted to BridgeContract instead of intended wallet",
+      "url": "/community/issues/02192-bridge-issue-253-wgnk-minted-to-bridgecontract-instead-of-in/",
+      "file": "02192-bridge-issue-253-wgnk-minted-to-bridgecontract-instead-of-in.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge issue: 253 WGNK minted to BridgeContract instead of intended wallet\n    <span class=\"issues-number\">#2192</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/AkSwiss573\">@AkSwiss573</a> opened 2026-10-31 05:07 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
+    },
+    "ai_description": "A new issue #2192 has been opened by @AkSwiss573 reporting that 253 WGNK tokens were minted to the BridgeContract instead of the intended recipient wallet. This is a critical bridge error that could affect token distribution accuracy, so the community should keep an eye on the investigation and any proposed fixes."
+  },
+  {
+    "id": "evt_20261031070943_d9ceef7a",
+    "timestamp": "2026-10-31T07:09:43.942934+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1955 — [BUG] `min_tokens` floor (MinTokensFloor=64) breaks tool calling: runaway garbage, fabricated tool results, up to max_tokens billed per turn",
+      "url": "/community/issues/01955-bug-min-tokens-floor-mintokensfloor64-breaks-tool-calling-ru/",
+      "file": "01955-bug-min-tokens-floor-mintokensfloor64-breaks-tool-calling-ru.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] `min_tokens` floor (MinTokensFloor=64) breaks tool calling: runaway garbage, fabricated tool results, up to max_tokens billed per turn\n    <span class=\"issues-number\">#1955</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-10-08 23:48 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span cl",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] `min_tokens` floor (MinTokensFloor=64) breaks tool calling: runaway garbage, fabricated tool results, up to max_tokens billed per turn\n    <span class=\"issues-number\">#1955</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-10-08 23:48 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span c"
+    },
+    "ai_description": "Issue #1955 on the min_tokens floor bug has been updated with two new comments, bringing the total to three. The discussion is expanding around how the 64-token minimum disrupts tool calling, causing wasted output and inflated billing. Check the thread for fresh insights on this closed but still relevant issue.Issue #1955 on the min_tokens floor bug now has three comments, up from one, signaling growing community discussion. The conversation is deepening around how the 64-token minimum breaks tool calling and inflates costs, so check the thread for new perspectives on this closed but still relevant problem."
+  },
+  {
     "id": "evt_20261031005633_e0899107",
     "timestamp": "2026-10-31T00:56:33.424970+00:00",
     "section": "issues",
@@ -7928,35 +7960,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Removing participants for inactivity\n    <span class=\"issues-number\">#405</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-23 19:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px"
     },
     "ai_description": "Issue #405 about removing inactive participants has been removed from the tracker. The proposal, which was closed without any community discussion, is no longer under consideration, so no action is needed on this front. We'll keep an eye out for any future updates on participation policies.Issue #405, which proposed a P0 protocol for removing inactive participants, has been removed from the tracker. The closed proposal is no longer under consideration, so the community can move forward without this change on the agenda. Stay tuned for any revised approach to managing participation."
-  },
-  {
-    "id": "evt_20261022152143_e0dfbc7e",
-    "timestamp": "2026-10-22T15:21:43.038947+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#409 — Switch participant invalidation to SPRT",
-      "url": null,
-      "file": "00409-switch-participant-invalidation-to-sprt.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Switch participant invalidation to SPRT\n    <span class=\"issues-number\">#409</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-30 17:02 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\">"
-    },
-    "ai_description": "Issue #409 on switching participant invalidation to SPRT has been closed and removed from the feed. This means the proposal is no longer under active community discussion, so any related work or decisions will not be tracked here. Keep an eye on future updates if this topic resurfaces.Issue #409, which proposed switching participant invalidation to SPRT, has been closed and removed from the tracker. This means the discussion is no longer active, so the community won't see further updates on that proposal here. If it matters to you, keep an eye out for any related follow-ups elsewhere."
-  },
-  {
-    "id": "evt_20261022152143_baf79ad8",
-    "timestamp": "2026-10-22T15:21:43.038950+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#410 — Explore SPRT for missed inferences",
-      "url": null,
-      "file": "00410-explore-sprt-for-missed-inferences.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Explore SPRT for missed inferences\n    <span class=\"issues-number\">#410</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-30 17:03 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div"
-    },
-    "ai_description": "Issue #410 on exploring SPRT for missed inferences has been removed from the community feed. This closed proposal, which was opened by @tcharchian, is no longer tracked, so any related discussion or next steps are now off the board. Community members should refer to other open issues for ongoing inference optimization work."
   }
 ]
