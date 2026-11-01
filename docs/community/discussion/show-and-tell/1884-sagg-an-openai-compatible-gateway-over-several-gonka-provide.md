@@ -3,7 +3,7 @@ title: "#1884 — SAGG — an OpenAI-compatible gateway over several Gonka provi
 source: https://github.com/gonka-ai/gonka/discussions/1884
 discussion_number: 1884
 category: show-and-tell
-synced_at: 2026-11-01T19:32:29Z
+synced_at: 2026-11-01T23:30:13Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1884](https://github.com/gonka-ai/gonka/discussions/1884) every hour. 
