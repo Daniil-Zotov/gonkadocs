@@ -7,7 +7,7 @@ template: issues-main.html
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
 Total: **441** (🟢 open: **143**, 🔴 closed: **298**).
-Updated: `2026-11-01 02:23 UTC`.
+Updated: `2026-11-01 09:26 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
@@ -20,7 +20,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc">LFM3-1.7B cannot start in MLNode through the vLLM Transformers backend, so its Gonka PoC compatibility cannot yet be tested  ## Observed behaviour  Tested `LiquidAI/LFM3-1.7B` at [this pinned revision...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 10 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 17 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -35,7 +35,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc">Reproduced 2026-10-29 and 2026-10-30 with three different addresses, including a freshly created working mailbox:  Nothing delivered — inbox stays at 0 messages after 24 h. Validation itself works ({"...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/ludmilavasilievna3-cmd">@ludmilavasilievna3-cmd</a> opened 15 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/ludmilavasilievna3-cmd">@ludmilavasilievna3-cmd</a> opened 22 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -50,7 +50,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc"># Issue: hosts behind at finalize must pull the missing diffs  **Milestone:** Devshard v7  **Follows:** [#1785](https://github.com/gonka-ai/gonka/pull/1785) (`fix/devshard-finalize-resume-v6`)  ## Sum...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 19 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 1 day ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -65,7 +65,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc">Problem  I accidentally received 253 WGNK at the BridgeContract address instead of my intended Ethereum wallet address during a GNK-to-WGNK bridge operation.  Transaction details  - Transaction hash:...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/AkSwiss573">@AkSwiss573</a> opened 21 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/AkSwiss573">@AkSwiss573</a> opened 1 day ago</span>
       
     </div>
   </div>
@@ -80,7 +80,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc">## Summary Every inference request runs with `min_tokens >= 64` (`EnforceTokenBudgetFloor`, #1391), and `stop_token_ids` are stripped. This masks every stop token, including end-of-turn and tool-call...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 23 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 1 day ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -740,7 +740,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc">## Summary  `common/probe` treats a JSON clock response with `send_unix_ns` but no usable `recv_unix_ns` as a valid four-timestamp sample. In a deterministic local reproduction, it reports a clock off...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/EazyHood">@EazyHood</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/EazyHood">@EazyHood</a> opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -800,7 +800,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc"># Chore: Gateway signing-key protection  **Status:** Deferred. Not part of PR #1568.   **Related:** [PR #1568 review](https://github.com/gonka-ai/gonka/pull/1568#discussion_r4189385988) on `gateway_de...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 15 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 16 days ago</span>
       
     </div>
   </div>
@@ -815,7 +815,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc">## Summary An escrow that the gateway cannot serve is excluded from routing but is not settled. The gateway deactivates an escrow when its runtime build ends with a final reason (`ErrLocalStateUnrecov...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/snevolin">@snevolin</a> opened 15 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/snevolin">@snevolin</a> opened 16 days ago</span>
       
     </div>
   </div>
@@ -830,7 +830,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc">## Summary At startup `buildGatewayRuntimes` builds a runtime for every active escrow and classifies a build error by name. Four errors deactivate the escrow and let the gateway start; `ErrParticipant...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/snevolin">@snevolin</a> opened 15 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/snevolin">@snevolin</a> opened 16 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -935,7 +935,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc">Letter to the Founders of Gonka: [Gonka-FINAL-EN.pdf](https://github.com/user-attachments/files/33379435/Gonka-FINAL-EN.pdf) [BioFi   DeSci Core for Gonka  Patient-Sovereign Confidential Health Comp...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/nikolay2828">@nikolay2828</a> opened 17 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/nikolay2828">@nikolay2828</a> opened 18 days ago</span>
       
     </div>
   </div>
@@ -1280,7 +1280,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc">## Summary  Per-model participation (`DIRECT` / `DELEGATE` / `NONE`) is decided once, at the end of PoC validation: a host is `DIRECT` for a model iff it has an ML node with weight in that model's gro...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Aktum1">@Aktum1</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Aktum1">@Aktum1</a> opened 21 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
     </div>
   </div>
@@ -1535,7 +1535,7 @@ Updated: `2026-11-01 02:23 UTC`.
     <p class="issues-desc">Following the v5.0.2 OOM (#1896): with the response cache gone, the next memory and CPU drivers on a busy escrow are copies and scans whose size is the escrow's live set or history rather than the req...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/cyberdelamain">@cyberdelamain</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/cyberdelamain">@cyberdelamain</a> opened 2026-10-02</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
