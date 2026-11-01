@@ -2,7 +2,7 @@
 title: "#2180 — devshard: MLNode capacity is released before streaming response consumption"
 source: https://github.com/gonka-ai/gonka/issues/2180
 issue_number: 2180
-synced_at: 2026-10-31T22:34:45Z
+synced_at: 2026-11-01T02:19:20Z
 template: issues-main.html
 ---
 

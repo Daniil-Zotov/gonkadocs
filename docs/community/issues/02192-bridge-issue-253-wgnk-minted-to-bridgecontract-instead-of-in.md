@@ -2,7 +2,7 @@
 title: "#2192 — Bridge issue: 253 WGNK minted to BridgeContract instead of intended wallet"
 source: https://github.com/gonka-ai/gonka/issues/2192
 issue_number: 2192
-synced_at: 2026-10-31T22:34:41Z
+synced_at: 2026-11-01T02:19:17Z
 template: issues-main.html
 ---
 
