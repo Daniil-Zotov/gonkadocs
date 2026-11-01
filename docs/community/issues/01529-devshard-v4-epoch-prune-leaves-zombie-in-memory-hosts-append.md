@@ -2,7 +2,7 @@
 title: "#1529 — devshard v4: epoch prune leaves zombie in-memory Hosts → AppendDiff session not found"
 source: https://github.com/gonka-ai/gonka/issues/1529
 issue_number: 1529
-synced_at: 2026-11-01T09:24:40Z
+synced_at: 2026-11-01T16:10:02Z
 template: issues-main.html
 ---
 
