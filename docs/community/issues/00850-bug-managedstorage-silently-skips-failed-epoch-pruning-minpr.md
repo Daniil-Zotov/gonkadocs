@@ -2,7 +2,7 @@
 title: "#850 — Bug: ManagedStorage silently skips failed epoch pruning — minPruned advanced before goroutines complete"
 source: https://github.com/gonka-ai/gonka/issues/850
 issue_number: 850
-synced_at: 2026-11-01T16:09:59Z
+synced_at: 2026-11-01T20:37:31Z
 template: issues-main.html
 ---
 
