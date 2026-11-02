@@ -2,7 +2,7 @@
 title: "#394 — [P0] Invalid participants in the `ActiveParticipant` list"
 source: https://github.com/gonka-ai/gonka/issues/394
 issue_number: 394
-synced_at: 2026-11-02T00:55:53Z
+synced_at: 2026-11-02T07:50:01Z
 template: issues-main.html
 ---
 

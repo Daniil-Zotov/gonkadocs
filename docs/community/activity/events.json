@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261102075010_f1ecf29a",
+    "timestamp": "2026-11-02T07:50:10.911041+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2198 — DSpark on DeepSeek-V4-Flash-0731: what a host needs for valid answers and votes",
+      "url": "/community/issues/02198-dspark-on-deepseek-v4-flash-0731-what-a-host-needs-for-valid/",
+      "file": "02198-dspark-on-deepseek-v4-flash-0731-what-a-host-needs-for-valid.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    DSpark on DeepSeek-V4-Flash-0731: what a host needs for valid answers and votes\n    <span class=\"issues-number\">#2198</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-11-02 05:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
+    },
+    "ai_description": "New issue #2198 from @redstartechno outlines the hardware and configuration requirements for hosts running DSpark on DeepSeek-V4-Flash-0731 to produce valid answers and votes. This is a practical reference for operators to ensure their nodes meet the necessary specs for reliable participation. Check it out if you're running this model."
+  },
+  {
     "id": "evt_20261031184231_3e9d828e",
     "timestamp": "2026-10-31T18:42:31.214846+00:00",
     "section": "issues",
@@ -7948,20 +7964,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Invalid participants in the `ActiveParticipant` list\n    <span class=\"issues-number\">#394</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-16 00:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
     },
     "ai_description": "Issue #394 about invalid participants in the ActiveParticipant list has been closed and removed from our tracking. The P0 bug was resolved, meaning the active participant validation issue is no longer an open concern for the network. Thanks to everyone who helped investigate and fix this critical item. Clean slate, moving on. 🚀"
-  },
-  {
-    "id": "evt_20261022152143_0483a414",
-    "timestamp": "2026-10-22T15:21:43.038931+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#396 — [P0] Future timestamp investigation",
-      "url": null,
-      "file": "00396-p0-future-timestamp-investigation.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Future timestamp investigation\n    <span class=\"issues-number\">#396</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-17 17:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d"
-    },
-    "ai_description": "Issue #396 on future timestamp investigation has been closed and removed from the feed, signaling the team has resolved the P0 concern. This cleanup keeps our activity focused on active work, so thanks to all who contributed to addressing it. Stay tuned for the next update.Issue #396 on future timestamp investigation has been closed and removed from the feed, signaling the team has resolved the P0 concern. This cleanup keeps our activity focused on active work, so thanks to all who contributed to addressing it. Stay tuned for the next update."
   }
 ]
