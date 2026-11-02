@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-11-02T07:01:21.900165+00:00",
+  "snapshot_time": "2026-11-02T17:40:25.773367+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -215,8 +215,8 @@
     "host/devshard-high-availability.md": {
       "title": "High-availability devshard host setup",
       "status": null,
-      "content_preview": "# High-availability devshard host setup\n\nDevshard inference that stays available, backed by multiple `versiond` instances.\n\n## Contents\n\n- [Why this matters](#why-this-matters)\n- [Release and images](#release-and-images)\n- [Prerequisites](#prerequisites)\n- [Install a new host](#install-a-new-host)\n- [Upgrade an existing host](#upgrade-an-existing-host)\n- [Add a remote replica](#add-a-remote-replica)\n- [Add a local replica](#add-a-local-replica)\n- [Operate the deployment](#operate-the-deployment)\n- [Troubleshooting](#troubleshooting)\n\n## Why this matters\n\nA single `versiond` process is a single point of failure (SPOF): if that machine or container dies, gateways cannot reach your host for that protocol version.\n\nRun multiple `versiond` instances behind the router fleet, with shared PostgreS",
-      "checksum": "5e8294bd0959e615cc0bbefc9c384971effa0efde1c8a4acdcf4fbfcf8e257cd"
+      "content_preview": "# High-availability devshard host setup\n\nDevshard inference that stays available, backed by multiple `versiond` instances.\n\n## Contents\n\n- [Why this matters](#why-this-matters)\n- [Release and images](#release-and-images)\n- [Prerequisites](#prerequisites)\n- [Install HA](#install-ha)\n- [Update a v6 deployment](#update-a-v6-deployment)\n- [Add a remote replica](#add-a-remote-replica)\n- [Add a local replica](#add-a-local-replica)\n- [Operate the deployment](#operate-the-deployment)\n- [Troubleshooting](#troubleshooting)\n\n## Why this matters\n\nA single `versiond` process is a single point of failure (SPOF): if that machine or container dies, gateways cannot reach your host for that protocol version.\n\nRun multiple `versiond` instances behind the router fleet, with shared PostgreSQL. If one instance ",
+      "checksum": "f96f64bd601db53f07dcfa5e115a285328e8d62629eb756799e79c5232300b5f"
     },
     "host/genesis.md": {
       "title": "Gonka Genesis Ceremony",

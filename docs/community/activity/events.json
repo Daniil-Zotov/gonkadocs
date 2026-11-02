@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261102173854_f9aed8a8",
+    "timestamp": "2026-11-02T17:38:54.133977+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "High-availability devshard host setup",
+      "url": "/gonka/docs/host/devshard-high-availability/",
+      "file": "host/devshard-high-availability.md"
+    },
+    "details": {
+      "content_before": "# High-availability devshard host setup\n\nDevshard inference that stays available, backed by multiple `versiond` instances.\n\n## Contents\n\n- [Why this matters](#why-this-matters)\n- [Release and images](#release-and-images)\n- [Prerequisites](#prerequisites)\n- [Install a new host](#install-a-new-host)\n- [Upgrade an existing host](#upgrade-an-existing-host)\n- [Add a remote replica](#add-a-remote-replica)\n- [Add a local replica](#add-a-local-replica)\n- [Operate the deployment](#operate-the-deployment)\n- [Troubleshooting](#troubleshooting)\n\n## Why this matters\n\nA single `versiond` process is a single point of failure (SPOF): if that machine or container dies, gateways cannot reach your host for that protocol version.\n\nRun multiple `versiond` instances behind the router fleet, with shared PostgreS",
+      "content_after": "# High-availability devshard host setup\n\nDevshard inference that stays available, backed by multiple `versiond` instances.\n\n## Contents\n\n- [Why this matters](#why-this-matters)\n- [Release and images](#release-and-images)\n- [Prerequisites](#prerequisites)\n- [Install HA](#install-ha)\n- [Update a v6 deployment](#update-a-v6-deployment)\n- [Add a remote replica](#add-a-remote-replica)\n- [Add a local replica](#add-a-local-replica)\n- [Operate the deployment](#operate-the-deployment)\n- [Troubleshooting](#troubleshooting)\n\n## Why this matters\n\nA single `versiond` process is a single point of failure (SPOF): if that machine or container dies, gateways cannot reach your host for that protocol version.\n\nRun multiple `versiond` instances behind the router fleet, with shared PostgreSQL. If one instance "
+    },
+    "ai_description": "The protocol docs have been updated to reflect the evolution of the high-availability devshard setup. The installation guide now focuses on a dedicated HA install path and includes a new section for upgrading existing v6 deployments, making it clearer for both new and current operators. This change streamlines the process, so hosts can more easily move from a single point of failure to a resilient multi-instance setup."
+  },
+  {
     "id": "evt_20261102075010_f1ecf29a",
     "timestamp": "2026-11-02T07:50:10.911041+00:00",
     "section": "issues",
@@ -7949,20 +7965,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0]: Cuda failure + other small fixed\n    <span class=\"issues-number\">#388</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-09 18:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\">"
     },
     "ai_description": "Issue #388 has been closed and removed from the tracker, marking the resolution of the P0 CUDA failure and related small fixes. This cleanup keeps the board focused on active work, so thanks to @tcharchian for getting it sorted. No further action is needed from the community on this one. \n\n— The Gonka Team"
-  },
-  {
-    "id": "evt_20261022152143_c75de5aa",
-    "timestamp": "2026-10-22T15:21:43.038928+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#394 — [P0] Invalid participants in the `ActiveParticipant` list",
-      "url": null,
-      "file": "00394-p0-invalid-participants-in-the-activeparticipant-list.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Invalid participants in the `ActiveParticipant` list\n    <span class=\"issues-number\">#394</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-16 00:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
-    },
-    "ai_description": "Issue #394 about invalid participants in the ActiveParticipant list has been closed and removed from our tracking. The P0 bug was resolved, meaning the active participant validation issue is no longer an open concern for the network. Thanks to everyone who helped investigate and fix this critical item. Clean slate, moving on. 🚀"
   }
 ]
