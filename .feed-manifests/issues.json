@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-02T07:50:37.463413+00:00",
+  "snapshot_time": "2026-11-02T18:35:41.193509+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4532,6 +4532,16 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "537ea3649eb7340b8802688b485c2d9a271363248e3b710294a31dd59b7f3009"
+    },
+    "02201-dapi-final-window-storecommit-can-land-in-the-same-block-as-.md": {
+      "title": "#2201 — dapi: final-window StoreCommit can land in the same block as the previous one and is rejected (only one commit per block allowed)",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    dapi: final-window StoreCommit can land in the same block as the previous one and is rejected (only one commit per block allowed)\n    <span class=\"issues-number\">#2201</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-02 17:18 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n",
+      "comment_checksum": "488edfaaa8702dff61700a4097c988c7ef001ca68698d235cbb324c02b4f2c8b",
+      "comment_bodies": [
+        "@tcharchian FYI"
+      ],
+      "checksum": "52a19609ef5ae09f1c0c4f017f58a3c28543ab076eb329aa98f5cd50644c3a6b"
     }
   }
 }

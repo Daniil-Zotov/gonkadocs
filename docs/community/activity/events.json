@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261102183446_ce7804fc",
+    "timestamp": "2026-11-02T18:34:46.990304+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2201 — dapi: final-window StoreCommit can land in the same block as the previous one and is rejected (only one commit per block allowed)",
+      "url": "/community/issues/02201-dapi-final-window-storecommit-can-land-in-the-same-block-as-/",
+      "file": "02201-dapi-final-window-storecommit-can-land-in-the-same-block-as-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    dapi: final-window StoreCommit can land in the same block as the previous one and is rejected (only one commit per block allowed)\n    <span class=\"issues-number\">#2201</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-02 17:18 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n"
+    },
+    "ai_description": "A new issue has been opened by @maria-mitina describing a race condition in dapi where a final-window StoreCommit can land in the same block as the previous commit and get rejected, since the protocol only allows one commit per block. This is an important edge case to track — if confirmed, it could cause valid commits to be dropped under certain timing conditions, so the community should weigh in on the severity and potential fix."
+  },
+  {
     "id": "evt_20261102173854_f9aed8a8",
     "timestamp": "2026-11-02T17:38:54.133977+00:00",
     "section": "gonka_docs",
@@ -7950,20 +7966,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bug: fatal error: too many concurrent timer firings\n    <span class=\"issues-number\">#387</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-10-09 05:51 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi"
     },
     "ai_description": "Issue #387 about the fatal timer concurrency error has been removed from the tracker. This cleanup keeps our backlog accurate and focused on active problems, so the community can trust what remains on the board. Thanks to everyone who contributed to resolving this one. \n\nThe removal signals the fix is solid and no longer needs tracking, letting us move attention to current challenges. A tidy issue list helps maintainers and contributors work efficiently."
-  },
-  {
-    "id": "evt_20261022152143_97e88378",
-    "timestamp": "2026-10-22T15:21:43.038925+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#388 — [P0]: Cuda failure + other small fixed",
-      "url": null,
-      "file": "00388-p0-cuda-failure-other-small-fixed.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0]: Cuda failure + other small fixed\n    <span class=\"issues-number\">#388</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-10-09 18:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\">"
-    },
-    "ai_description": "Issue #388 has been closed and removed from the tracker, marking the resolution of the P0 CUDA failure and related small fixes. This cleanup keeps the board focused on active work, so thanks to @tcharchian for getting it sorted. No further action is needed from the community on this one. \n\n— The Gonka Team"
   }
 ]

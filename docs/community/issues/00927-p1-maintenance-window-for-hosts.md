@@ -2,7 +2,7 @@
 title: "#927 — [P1] Maintenance window for hosts"
 source: https://github.com/gonka-ai/gonka/issues/927
 issue_number: 927
-synced_at: 2026-11-02T07:47:38Z
+synced_at: 2026-11-02T18:32:39Z
 template: issues-main.html
 ---
 
