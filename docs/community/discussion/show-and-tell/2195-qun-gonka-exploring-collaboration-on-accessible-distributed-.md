@@ -3,7 +3,7 @@ title: "#2195 — **QUN × Gonka — exploring collaboration on accessible distr
 source: https://github.com/gonka-ai/gonka/discussions/2195
 discussion_number: 2195
 category: show-and-tell
-synced_at: 2026-11-03T06:34:50Z
+synced_at: 2026-11-03T14:59:47Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2195](https://github.com/gonka-ai/gonka/discussions/2195) every hour. 
