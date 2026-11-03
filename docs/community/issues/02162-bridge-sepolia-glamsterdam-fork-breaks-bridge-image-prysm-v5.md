@@ -2,7 +2,7 @@
 title: "#2162 — Bridge: Sepolia Glamsterdam fork breaks bridge image (Prysm v5 / geth 1.16.7) — testnet-4 bridge down"
 source: https://github.com/gonka-ai/gonka/issues/2162
 issue_number: 2162
-synced_at: 2026-11-03T09:41:40Z
+synced_at: 2026-11-03T17:54:32Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-28 17:24 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-11-02 19:36 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-03 16:33 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -81,7 +81,7 @@ Ethereum mainnet is still on Fusaka (`0x06000000`), so the mainnet bridge is una
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -90,6 +90,16 @@ Ethereum mainnet is still on Fusaka (`0x06000000`), so the mainnet bridge is una
   </div>
   <div class="issues-comment-body issues-content">
     <p>ghcr.io/product-science/bridge:0.2.18</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
+    <span class="issues-meta-item">commented 2026-11-03 16:33 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@tcharchian 
+the fix does not include the necessary PRYSM build. need re-build</p>
   </div>
 </div>
 
