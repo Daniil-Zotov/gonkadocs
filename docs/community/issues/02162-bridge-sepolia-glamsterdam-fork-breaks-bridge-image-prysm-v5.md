@@ -2,7 +2,7 @@
 title: "#2162 — Bridge: Sepolia Glamsterdam fork breaks bridge image (Prysm v5 / geth 1.16.7) — testnet-4 bridge down"
 source: https://github.com/gonka-ai/gonka/issues/2162
 issue_number: 2162
-synced_at: 2026-11-02T18:30:58Z
+synced_at: 2026-11-03T01:39:52Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-28 17:24 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-28 17:28 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-02 19:36 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -77,6 +77,20 @@ Ethereum mainnet is still on Fusaka (`0x06000000`), so the mainnet bridge is una
 - `bridge` service from `deploy/join/docker-compose.yml`, `ETHEREUM_NETWORK=sepolia`, `BEACON_STATE_URL=https://sepolia.checkpoint-sync.ethpandaops.io`
 - `docker exec bridge beacon-chain --version` → `Prysm/Unknown/Local build` (prysm/v5 symbols); `geth version` → `1.16.7-stable`
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-11-02 19:36 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>ghcr.io/product-science/bridge:0.2.18</p>
+  </div>
 </div>
 
 ---

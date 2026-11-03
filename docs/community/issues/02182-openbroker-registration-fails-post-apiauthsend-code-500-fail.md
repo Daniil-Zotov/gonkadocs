@@ -2,7 +2,7 @@
 title: "#2182 — OpenBroker registration fails: POST /api/auth/send-code → 500 failed to send email"
 source: https://github.com/gonka-ai/gonka/issues/2182
 issue_number: 2182
-synced_at: 2026-11-02T18:30:50Z
+synced_at: 2026-11-03T01:39:52Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/ludmilavasilievna3-cmd">@ludmilavasilievna3-cmd</a> opened 2026-10-30 07:56 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-31 11:15 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-02 20:30 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -31,7 +31,7 @@ Side note: gonka.gg has no DMARC record — _dmarc.gonka.gg returns nothing.
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -95,6 +95,17 @@ Gonka Labs team</p>
   </div>
   <div class="issues-comment-body issues-content">
     <p>The sending side is failing again</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
+    <span class="issues-meta-item">commented 2026-11-02 20:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@ludmilavasilievna3-cmd Hello! Please check now. It was not working briefly 2 days ago, yes. Now all good. If not working - please write here and send your email to info@gonka.gg with reference to ticket here so that we will know what email is failing.</p>
+<p>Best regards,
+Gonka Labs team</p>
   </div>
 </div>
 
