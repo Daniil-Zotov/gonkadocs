@@ -2,7 +2,7 @@
 title: "#2103 — devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)"
 source: https://github.com/gonka-ai/gonka/issues/2103
 issue_number: 2103
-synced_at: 2026-11-03T17:54:55Z
+synced_at: 2026-11-03T23:29:49Z
 template: issues-main.html
 ---
 
