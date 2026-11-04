@@ -3,7 +3,7 @@ title: "#1153 — cosmos-sdk fork: genesis.go:151-158 panics on `appd export →
 source: https://github.com/gonka-ai/gonka/discussions/1153
 discussion_number: 1153
 category: protocol-improvements
-synced_at: 2026-11-03T20:57:05Z
+synced_at: 2026-11-04T01:14:47Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1153](https://github.com/gonka-ai/gonka/discussions/1153) every hour. 
