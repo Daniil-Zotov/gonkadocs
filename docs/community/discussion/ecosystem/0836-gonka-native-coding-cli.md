@@ -3,7 +3,7 @@ title: "#836 — Gonka-native Coding CLI"
 source: https://github.com/gonka-ai/gonka/discussions/836
 discussion_number: 836
 category: ecosystem
-synced_at: 2026-11-04T09:00:01Z
+synced_at: 2026-11-04T17:06:47Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #836](https://github.com/gonka-ai/gonka/discussions/836) every hour. 
