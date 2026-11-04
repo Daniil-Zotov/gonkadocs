@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-11-04T17:07:28.808903+00:00",
+  "snapshot_time": "2026-11-04T23:35:10.631610+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -211,6 +211,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2062](https://github.com/gonka-ai/gonka/discussions/2062) every hour. \n\n# External Test Lab & Community DevNet — M3 Report\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-10-19 17:14 UTC · \n\n---\n\n## 📝 Описание\n\n**Proposal:** [#82](https://inference.dahl.global/gonka-governance/82/) ([discussion](https://github.com/gonka-ai/gonka/discussions/1388)).\n\n## Executive summary\n\nMonth 3 brought Community DevNet back into usable operation after the September consensus incident and expanded its role as an independent release-testing environment. Work covered Host JOIN and recovery, protocol upgrades, DevShard deployment, real inference, broker compatibility, and monitoring.\n\nThe",
       "checksum": "b6b1cbdccb54eadb6fec8153ca80d3583558e1cd01efcba0adb46d3375bb9291"
+    },
+    "governance-proposal-reports/2216-proposal-77-input-global-monthly-report-october.md": {
+      "title": "#2216 — Proposal #77: INPUT Global - Monthly Report || October",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2216](https://github.com/gonka-ai/gonka/discussions/2216) every hour. \n\n# Proposal #77: INPUT Global - Monthly Report || October\n\n**Автор:** [@apakhtina](https://github.com/apakhtina) · **Категория:** :bookmark_tabs: Governance Proposal Reports · **Создано:** 2026-11-04 18:16 UTC · \n\n---\n\n## 📝 Описание\n\n### October 2026 Monthly Report\n<img width=\"3840\" height=\"2160\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e377b090-7422-4faa-a4d3-a7df11c31bc0\" />\n\nHi Team, happy to share our October 2026 Monthly Report for Gonka! You can find a detailed breakdown of our results in the report here: https://www.figma.com/deck/U9MT0A9Y22SaeBAaISTvM8\n\nThis month we delivered **5 unique pieces** across MENA business, global finance and US tech media, reach",
+      "checksum": "e1e41add7f7df10fe005e0340485d6791fc9c5970517f59a8bc5cee94c1b18e9"
     },
     "protocol-improvements/0795-welcome-to-proposals.md": {
       "title": "#795 — Welcome to Proposals 👋",
