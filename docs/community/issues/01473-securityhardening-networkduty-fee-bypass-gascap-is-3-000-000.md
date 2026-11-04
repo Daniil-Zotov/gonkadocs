@@ -2,7 +2,7 @@
 title: "#1473 — Security/hardening: NetworkDuty fee bypass GasCap is 3_000_000_000 — free block-space DoS risk"
 source: https://github.com/gonka-ai/gonka/issues/1473
 issue_number: 1473
-synced_at: 2026-11-04T06:41:21Z
+synced_at: 2026-11-04T15:33:33Z
 template: issues-main.html
 ---
 

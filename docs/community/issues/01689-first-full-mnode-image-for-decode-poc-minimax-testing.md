@@ -2,7 +2,7 @@
 title: "#1689 — First full MNode image for Decode PoC (MiniMax): testing"
 source: https://github.com/gonka-ai/gonka/issues/1689
 issue_number: 1689
-synced_at: 2026-11-04T06:40:21Z
+synced_at: 2026-11-04T15:32:18Z
 template: issues-main.html
 ---
 
