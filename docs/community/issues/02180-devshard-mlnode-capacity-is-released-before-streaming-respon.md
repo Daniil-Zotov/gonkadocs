@@ -2,7 +2,7 @@
 title: "#2180 — devshard: MLNode capacity is released before streaming response consumption"
 source: https://github.com/gonka-ai/gonka/issues/2180
 issue_number: 2180
-synced_at: 2026-11-03T23:29:31Z
+synced_at: 2026-11-04T06:40:01Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 2026-10-30 07:01 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-02 19:32 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-04 06:16 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -58,6 +58,27 @@ This report is based on source inspection, the isolated reproduction above has n
 The finding is separate from [gateway quarantine recovery](https://github.com/gonka-ai/gonka/issues/1506) and [speed-up hedging amplification](https://github.com/gonka-ai/gonka/issues/2105)
 
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-11-04 06:16 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>This still reproduces on devshard/v7 (860cd69d5): the test from #2183 fails there with releases=1, and engine.go is the same as on v6.
+Planned fix:
+-doWithLockedNode keeps the slot after a 2xx/4xx response and wraps resp.Body. The wrapper releases the slot once, when the body -is closed. Both callers already close it after reading the stream.
+-Transport errors and 5xx still release right away.
+-A read error before EOF releases with TRANSPORT_ERROR instead of SUCCESS.
+-The release runs even if the request context was cancelled.
+-The fallback path (doWithFallbackNodes) frees its local capacity slot the same way.
+-The test from #2183 is the regression test, with extra cases for a stream that breaks mid-way, a cancelled request and the fallback path.</p>
+  </div>
 </div>
 
 ---

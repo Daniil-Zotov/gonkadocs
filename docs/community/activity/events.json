@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261104064327_74bd3cc1",
+    "timestamp": "2026-11-04T06:43:27.764322+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2180 — devshard: MLNode capacity is released before streaming response consumption",
+      "url": "/community/issues/02180-devshard-mlnode-capacity-is-released-before-streaming-respon/",
+      "file": "02180-devshard-mlnode-capacity-is-released-before-streaming-respon.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: MLNode capacity is released before streaming response consumption\n    <span class=\"issues-number\">#2180</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-30 07:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><spa",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: MLNode capacity is released before streaming response consumption\n    <span class=\"issues-number\">#2180</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-30 07:01 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261103233300_f61e298c",
     "timestamp": "2026-11-03T23:33:00.666221+00:00",
     "section": "issues",
@@ -7959,20 +7975,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Intersection between update of `epoch_length` params and PoC procedure can lead to consensus failure\n    <span class=\"issues-number\">#344</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-05 17:52 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
     },
     "ai_description": "Issue #344 about a potential consensus failure from the interaction between epoch_length parameter updates and the Proof of Custody procedure has been removed from the tracker. This topic was previously raised by @tcharchian and is no longer being tracked, so please check the repository history if you were following that discussion. The removal suggests the concern may have been resolved or superseded elsewhere."
-  },
-  {
-    "id": "evt_20261022152143_43d32f22",
-    "timestamp": "2026-10-22T15:21:43.038891+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#348 — [P0]: Add SSL (https) for our dashboard and API (we need it to add us to wallets)",
-      "url": null,
-      "file": "00348-p0-add-ssl-https-for-our-dashboard-and-api-we-need-it-to-add.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0]: Add SSL (https) for our dashboard and API (we need it to add us to wallets)\n    <span class=\"issues-number\">#348</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-08 23:06 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div clas"
-    },
-    "ai_description": "Issue #348 about adding SSL for our dashboard and API has been closed and removed from the feed. This means the security upgrade is no longer an open action item, so we can move forward with wallet integrations. Thanks to everyone who helped push this through.Issue #348 requesting SSL for our dashboard and API has been closed and removed from the feed. With HTTPS now in place, we've cleared a key blocker for wallet integrations. Great progress for the network's security and adoption."
   }
 ]
