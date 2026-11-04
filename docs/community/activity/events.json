@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261104220249_ab830f52",
+    "timestamp": "2026-11-04T22:02:49.421068+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2217 — BUG: Severity Low: Non-initial model group cap compares N-1 post-collateral weight against pre-collateral contribution",
+      "url": "/community/issues/02217-bug-severity-low-non-initial-model-group-cap-compares-n-1-po/",
+      "file": "02217-bug-severity-low-non-initial-model-group-cap-compares-n-1-po.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    BUG: Severity Low: Non-initial model group cap compares N-1 post-collateral weight against pre-collateral contribution\n    <span class=\"issues-number\">#2217</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-04 19:18 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n "
+    },
+    "ai_description": "New issue #2217 filed by @maria-mitina flags a low-severity bug in the model group cap logic, where the comparison for non-initial groups mixes up post-collateral weight from the previous iteration with pre-collateral contribution. This inconsistency could lead to incorrect cap enforcement, so it's worth a look from the community to confirm the fix scope."
+  },
+  {
     "id": "evt_20261104064327_74bd3cc1",
     "timestamp": "2026-11-04T06:43:27.764322+00:00",
     "section": "issues",
@@ -7960,20 +7976,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BUG-3: Removing models from inference/model_list is not supported\n    <span class=\"issues-number\">#343</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-05 07:31 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels"
     },
     "ai_description": "Issue #343 about removing models from inference/model_list has been closed and removed from the tracker. The bug report, opened by @gmorgachev, is no longer active, which likely means the underlying limitation has been addressed or deprioritized. Keep an eye on the config docs if you were affected by this constraint."
-  },
-  {
-    "id": "evt_20261022152143_4bc8168e",
-    "timestamp": "2026-10-22T15:21:43.038888+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#344 — Intersection between update of `epoch_length` params and PoC procedure can lead to consensus failure",
-      "url": null,
-      "file": "00344-intersection-between-update-of-epoch-length-params-and-poc-p.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Intersection between update of `epoch_length` params and PoC procedure can lead to consensus failure\n    <span class=\"issues-number\">#344</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-05 17:52 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-lab"
-    },
-    "ai_description": "Issue #344 about a potential consensus failure from the interaction between epoch_length parameter updates and the Proof of Custody procedure has been removed from the tracker. This topic was previously raised by @tcharchian and is no longer being tracked, so please check the repository history if you were following that discussion. The removal suggests the concern may have been resolved or superseded elsewhere."
   }
 ]
