@@ -294,6 +294,25 @@ The remaining $320,000 is not paid, and the code, harness and measurements remai
 **When could a non-NVIDIA host join?**
 Code is merge-ready at week 14 and the governance proposal at week 20. Admission is a vote, on the network's schedule. A class is opt-in and removable by a single later proposal.
 
+---
+
+## Comments (1)
+
+### 💬 Slava MyGonka
+*2026-11-03 23:47* · 👍 0 · 👎 0
+
+Очень интересно.
+Присоединяйся к группе в Телеграм - там мы такие вещи тоже обсуждаем:
+https://t.me/gonka_hosts
+
+А ты уже майнил?
+2. А уже на чем-то пробовал запускать?
+
+Я запустил на AMD.
+Хочу на Huawei еще попробовать, но не понял про экспортные ограничения.
+
+---
+
 
 ---
 
