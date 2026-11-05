@@ -2,7 +2,7 @@
 title: "#2210 — x/inference: validation_sample_size is not bounded; values above 500 make honest PoC validation fail"
 source: https://github.com/gonka-ai/gonka/issues/2210
 issue_number: 2210
-synced_at: 2026-11-05T02:33:46Z
+synced_at: 2026-11-05T11:10:10Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 2026-11-03 17:47 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-03 17:47 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-05 03:37 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -41,6 +41,20 @@ A param value that passes `Params.Validate` should not make honest participants 
 
 In `PocParams.Validate`, reject `validation_sample_size < 0 || > 500`, with 500 taken from one constant shared with the DAPI handler. This is a chain change and ships with an upgrade. The DAPI can also clamp the sample size to `[1, 500]` in both readers, which needs no chain upgrade.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/EazyHood">@EazyHood</a></span>
+    <span class="issues-meta-item">commented 2026-11-05 03:37 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@kaileido are you planning to send the fix for this yourself? If not, and it's open for contributors, I'd like to take it: reject validation_sample_size below 0 or above 500 in PocParams.Validate, with the 500 in one constant shared with the proof handler, and clamp it to [1, 500] in the two DAPI readers (0 still means the default of 200). Tests for -1, 0, 500 and 501. ETA 2-3 days.</p>
+  </div>
 </div>
 
 ---
