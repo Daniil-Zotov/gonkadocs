@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-05T11:18:04.403568+00:00",
+  "snapshot_time": "2026-11-05T18:56:15.805004+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4591,10 +4591,20 @@
     "02219-bug-decentralized-api-admin-api-cannot-disable-enable-or-del.md": {
       "title": "#2219 — [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"\n    <span class=\"issues-number\">#2219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-11-05 10:40 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"\n    <span class=\"issues-number\">#2219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-11-05 10:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style",
+      "comment_checksum": "7734ffabd5633b37db89a12acfdc26ffa2ca8bd474e70a8ffe36868c0eaf91b4",
+      "comment_bodies": [
+        "@GLiberman I opened #2220 for this. Could you please review it when you have a moment? Thank you!"
+      ],
+      "checksum": "52fd7e615a22ff57cd7201959ac842bdc610ce7d775771f24c5c95062af24acd"
+    },
+    "02221-bug-openbroker-request-bodies-above-14-kib-are-never-read-no.md": {
+      "title": "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error\n    <span class=\"issues-number\">#2221</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "d923de183257012794f0e44a131f5a5aa515e9ee19ef01c013f34fe303bc6bf0"
+      "checksum": "92c9b36e7851253dc06339fdd4dd76aecc2e78f230ef7070e019acdba4957ada"
     }
   }
 }

@@ -2,7 +2,7 @@
 title: "#2219 — [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains "/""
 source: https://github.com/gonka-ai/gonka/issues/2219
 issue_number: 2219
-synced_at: 2026-11-05T11:10:06Z
+synced_at: 2026-11-05T18:49:32Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/yaUrich">@yaUrich</a> opened 2026-11-05 10:40 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-05 10:40 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-05 15:41 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -53,6 +53,20 @@ Reproduced with a test on `setupTestServer` (real broker, Echo v4.15.1), at `8af
 
 The same 404 body came from a DevNet host on `v0.2.16-post1`.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/RyoKusnadi">@RyoKusnadi</a></span>
+    <span class="issues-meta-item">commented 2026-11-05 15:41 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@GLiberman I opened #2220 for this. Could you please review it when you have a moment? Thank you!</p>
+  </div>
 </div>
 
 ---
