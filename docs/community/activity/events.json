@@ -1,5 +1,164 @@
 [
   {
+    "id": "evt_20261106070651_960f7b2f",
+    "timestamp": "2026-11-06T07:06:51.662464+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2225 — `devshard` / `gateway`: validate that reasoning is enabled on hosts",
+      "url": "/community/issues/02225-devshard-gateway-validate-that-reasoning-is-enabled-on-hosts/",
+      "file": "02225-devshard-gateway-validate-that-reasoning-is-enabled-on-hosts.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard` / `gateway`: validate that reasoning is enabled on hosts\n    <span class=\"issues-number\">#2225</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 21:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><s"
+    },
+    "ai_description": "New issue #2225 opened by @tcharchian proposes adding validation in the devshard and gateway components to ensure reasoning is enabled on hosts before routing inference tasks. This is a practical safeguard that should prevent silent failures or degraded outputs when hosts lack reasoning support. Worth reviewing if you rely on reasoning-dependent workloads."
+  },
+  {
+    "id": "evt_20261106070651_3fcdd91b",
+    "timestamp": "2026-11-06T07:06:51.662511+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2228 — `devshard`: endpoint cleanup, if needed",
+      "url": "/community/issues/02228-devshard-endpoint-cleanup-if-needed/",
+      "file": "02228-devshard-endpoint-cleanup-if-needed.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: endpoint cleanup, if needed\n    <span class=\"issues-number\">#2228</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 00:39 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty"
+    },
+    "ai_description": "New issue #2228 has been opened by @tcharchian proposing a cleanup of the devshard endpoints if needed. This is a housekeeping task to review and tidy up the devshard API surface, keeping the network infrastructure maintainable. Jump in with comments if you have thoughts on which endpoints could be simplified or removed."
+  },
+  {
+    "id": "evt_20261106070651_b1a63e4a",
+    "timestamp": "2026-11-06T07:06:51.662535+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2229 — `devshard`: escrow-owner validation responsibilities",
+      "url": "/community/issues/02229-devshard-escrow-owner-validation-responsibilities/",
+      "file": "02229-devshard-escrow-owner-validation-responsibilities.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: escrow-owner validation responsibilities\n    <span class=\"issues-number\">#2229</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 00:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issu"
+    },
+    "ai_description": "A new issue has been opened by @tcharchian proposing clearer validation responsibilities for escrow owners in the devshard protocol. This matters because defining who verifies what in escrow interactions helps prevent disputes and strengthens trust in the network. Check out issue #2229 and weigh in with your perspective.A new issue has been opened by @tcharchian to define clearer validation responsibilities for escrow owners in the devshard protocol. This clarification helps prevent disputes and ensures smoother, more transparent escrow operations across the network. Check out issue #2229 and join the discussion."
+  },
+  {
+    "id": "evt_20261106070651_ceb73ecf",
+    "timestamp": "2026-11-06T07:06:51.662558+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2230 — Injective USDC",
+      "url": "/community/issues/02230-injective-usdc/",
+      "file": "02230-injective-usdc.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Injective USDC\n    <span class=\"issues-number\">#2230</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 01:03 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color: #c2"
+    },
+    "ai_description": "A new issue #2230 has been opened by @tcharchian titled \"Injective USDC,\" currently open for community discussion. This could signal a request or proposal related to supporting Injective's USDC, so check it out and share your input if you have relevant expertise. No comments yet, so the floor is yours to shape this initiative."
+  },
+  {
+    "id": "evt_20261106070651_3c0c1f85",
+    "timestamp": "2026-11-06T07:06:51.662600+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2231 — Multi-Model Scheduling",
+      "url": "/community/issues/02231-multi-model-scheduling/",
+      "file": "02231-multi-model-scheduling.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Multi-Model Scheduling\n    <span class=\"issues-number\">#2231</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 01:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mark"
+    },
+    "ai_description": "A new issue has been opened by @tcharchian proposing Multi-Model Scheduling (#2231) for the Gonka network. This suggests exploring how the network can efficiently handle and route inference tasks across multiple AI models, which could improve flexibility and resource utilization. Keep an eye on this one, as it may shape how we allocate compute power across different workloads in the future."
+  },
+  {
+    "id": "evt_20261106070651_23410004",
+    "timestamp": "2026-11-06T07:06:51.662631+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2233 — Participant registration timeout issue (improve UX)",
+      "url": "/community/issues/02233-participant-registration-timeout-issue-improve-ux/",
+      "file": "02233-participant-registration-timeout-issue-improve-ux.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Participant registration timeout issue (improve UX)\n    <span class=\"issues-number\">#2233</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:06 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue"
+    },
+    "ai_description": "New issue #2233 opened by @tcharchian highlights a participant registration timeout that hurts the user experience. The proposal aims to improve how the system handles timeouts during registration, making the process smoother for everyone. Check it out if you have ideas on UX refinements.New issue #2233 opened by @tcharchian flags a registration timeout that can frustrate participants during sign-up. The proposal is about improving the UX so the process feels smoother and less error-prone. Worth a look if you care about onboarding."
+  },
+  {
+    "id": "evt_20261106070651_d7e2e729",
+    "timestamp": "2026-11-06T07:06:51.662651+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2234 — Maintenance window: Review & activation",
+      "url": "/community/issues/02234-maintenance-window-review-activation/",
+      "file": "02234-maintenance-window-review-activation.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Maintenance window: Review & activation\n    <span class=\"issues-number\">#2234</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty"
+    },
+    "ai_description": "A new issue has been opened by @tcharchian to review and activate a scheduled maintenance window for the network. This is a heads-up for the community to expect potential brief service interruptions as the team finalizes the maintenance plan. Keep an eye on this issue for updates before the window goes live.A new maintenance window has been proposed by @tcharchian for review and activation, giving the community a heads-up on upcoming scheduled network upkeep. This is the first step in coordinating downtime so everyone can plan around it, so check the issue for details before the window is activated."
+  },
+  {
+    "id": "evt_20261106070651_45140af6",
+    "timestamp": "2026-11-06T07:06:51.662718+00:00",
+    "section": "issues",
+    "action": "deleted",
+    "item": {
+      "title": "#2225 — Validate that reasoning is enabled on hosts",
+      "url": null,
+      "file": "02225-validate-that-reasoning-is-enabled-on-hosts.md"
+    },
+    "details": {
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Validate that reasoning is enabled on hosts\n    <span class=\"issues-number\">#2225</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 21:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
+    },
+    "ai_description": "Issue #2225 about validating that reasoning is enabled on hosts has been removed from the feed. The proposal was still open with no comments, so its removal likely reflects a cleanup of inactive or superseded items. For the community, this means one less open question to track, keeping the issue list focused on active work."
+  },
+  {
+    "id": "evt_20261106070651_8938e38d",
+    "timestamp": "2026-11-06T07:06:51.663099+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2153 — Ethereum bridge update",
+      "url": "/community/issues/02153-ethereum-bridge-update/",
+      "file": "02153-ethereum-bridge-update.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Ethereum bridge update\n    <span class=\"issues-number\">#2153</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-27 23:21 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mark",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Ethereum bridge update\n    <span class=\"issues-number\">#2153</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-27 23:21 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-co"
+    },
+    "ai_description": "Issue #2153 \"Ethereum bridge update\" by @tcharchian has been updated with a new label, though it remains open with no comments yet. Keep an eye on this one, as the added tag signals the maintainers are giving it more attention. Stay tuned for further developments on the bridge improvements."
+  },
+  {
+    "id": "evt_20261106070651_a4140ead",
+    "timestamp": "2026-11-06T07:06:51.663135+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2162 — Bridge: Sepolia Glamsterdam fork breaks bridge image (Prysm v5 / geth 1.16.7) — testnet-4 bridge down",
+      "url": "/community/issues/02162-bridge-sepolia-glamsterdam-fork-breaks-bridge-image-prysm-v5/",
+      "file": "02162-bridge-sepolia-glamsterdam-fork-breaks-bridge-image-prysm-v5.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: Sepolia Glamsterdam fork breaks bridge image (Prysm v5 / geth 1.16.7) — testnet-4 bridge down\n    <span class=\"issues-number\">#2162</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-28 17:24 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bridge: Sepolia Glamsterdam fork breaks bridge image (Prysm v5 / geth 1.16.7) — testnet-4 bridge down\n    <span class=\"issues-number\">#2162</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-28 17:24 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></s"
+    },
+    "ai_description": "Issue #2162 about the Sepolia Glamsterdam fork breaking the testnet-4 bridge image has been closed. The bridge downtime caused by the Prysm v5 and geth 1.16.7 incompatibility has been resolved, so the testnet-4 bridge should be back online for the community."
+  },
+  {
     "id": "evt_20261106002912_80ddb3b9",
     "timestamp": "2026-11-06T00:29:12.497942+00:00",
     "section": "issues",
@@ -7837,155 +7996,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Dashboard (reward fix + vesting; poc stages; total power; gpu’s; participants with logos and contacts)\n    <span class=\"issues-number\">#322</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:01 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></s"
     },
     "ai_description": "Issue #322 on the Dashboard has been removed from the community feed after being closed. This P0 task covered critical fixes like reward calculations, vesting, and participant visibility, so its closure signals those improvements are complete. Thanks to everyone who contributed to getting this one across the finish line. Cleaner feed, cleaner dashboard."
-  },
-  {
-    "id": "evt_20261022152143_42db0478",
-    "timestamp": "2026-10-22T15:21:43.038807+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#323 — [P0] Replace model with non-dynamic quantization to avoid quantization mismatch",
-      "url": null,
-      "file": "00323-p0-replace-model-with-non-dynamic-quantization-to-avoid-quan.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Replace model with non-dynamic quantization to avoid quantization mismatch\n    <span class=\"issues-number\">#323</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:02 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class="
-    },
-    "ai_description": "Issue #323 about replacing the model with non-dynamic quantization has been closed and removed from the tracker. This P0 fix addressed a critical quantization mismatch that could impact inference accuracy, so its resolution keeps the network stable. Thanks to @tcharchian for flagging and driving this one to completion. 🚀"
-  },
-  {
-    "id": "evt_20261022152143_3cccefa4",
-    "timestamp": "2026-10-22T15:21:43.038811+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#324 — [P0] PoC nonce performance improvements (H100 vs 8xH100) — define reasons",
-      "url": null,
-      "file": "00324-p0-poc-nonce-performance-improvements-h100-vs-8xh100-define-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] PoC nonce performance improvements (H100 vs 8xH100) — define reasons\n    <span class=\"issues-number\">#324</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:03 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues"
-    },
-    "ai_description": "Issue #324 on PoC nonce performance improvements has been closed and removed from the tracker. The discussion on H100 versus 8xH100 benchmarking is no longer active, so if you were tracking this for hardware decisions, the thread is now archived. Thanks to everyone who contributed to defining the performance reasoning.Issue #324 on PoC nonce performance benchmarking between H100 and 8xH100 setups has been closed and removed from our tracker. The thread, which focused on defining the reasons behind the performance gap, is now archived, so any pending hardware-related decisions should be finalized. Thanks to @tcharchian for opening the discussion and to all who weighed in."
-  },
-  {
-    "id": "evt_20261022152143_d2a34e87",
-    "timestamp": "2026-10-22T15:21:43.038814+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#325 — [P0] No inference failures on the edge of PoC; Check for missed validation during epoch",
-      "url": null,
-      "file": "00325-p0-no-inference-failures-on-the-edge-of-poc-check-for-missed.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] No inference failures on the edge of PoC; Check for missed validation during epoch\n    <span class=\"issues-number\">#325</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:09 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <di"
-    },
-    "ai_description": "Issue #325 about preventing inference failures at the edge of proof-of-concept and checking for missed validation during epochs has been closed and removed from the tracker. This cleanup reflects that the concern has been resolved or is no longer active, keeping our issue list focused on current priorities. Thanks to @tcharchian for raising it and to everyone who contributed to the discussion."
-  },
-  {
-    "id": "evt_20261022152143_99d50a00",
-    "timestamp": "2026-10-22T15:21:43.038818+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#326 — [P2] Improve onboarding experience",
-      "url": null,
-      "file": "00326-p2-improve-onboarding-experience.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P2] Improve onboarding experience\n    <span class=\"issues-number\">#326</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:10 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-co"
-    },
-    "ai_description": "Issue #326 about improving the onboarding experience has been removed from the tracker. This P2 task was open with four comments, so its removal signals a shift in priorities for the community. We will need to keep an eye out for any new direction on how new members get started with Gonka. If you were tracking this one, let us know in the chat if there is a replacement plan."
-  },
-  {
-    "id": "evt_20261022152143_58e6f279",
-    "timestamp": "2026-10-22T15:21:43.038821+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#327 — [P1] Performance: Measure chain performance",
-      "url": null,
-      "file": "00327-p1-performance-measure-chain-performance.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Performance: Measure chain performance\n    <span class=\"issues-number\">#327</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
-    },
-    "ai_description": "The performance measurement issue #327 has been closed and removed from the feed, meaning the task is no longer tracked as an open priority. This cleanup keeps our issue list focused on active work, so the community can see clearly what still needs attention. Thanks to @tcharchian for raising the initial concern — it's now resolved or deprioritized."
-  },
-  {
-    "id": "evt_20261022152143_753dc8f7",
-    "timestamp": "2026-10-22T15:21:43.038826+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#328 — [P1] Off-chain validation data == on demand on-chain inference",
-      "url": null,
-      "file": "00328-p1-off-chain-validation-data-on-demand-on-chain-inference.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Off-chain validation data == on demand on-chain inference\n    <span class=\"issues-number\">#328</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" s"
-    },
-    "ai_description": "Issue #328 on off-chain validation data matching on-chain inference has been closed and removed from the active tracker. This cleanup reflects that the topic is no longer under active consideration, keeping the board focused on current priorities. Thanks to @tcharchian for raising it originally.Issue #328 on aligning off-chain validation data with on-demand on-chain inference has been closed and removed from the tracker. This cleanup keeps our issue board focused on active priorities, signaling that the topic is no longer under consideration. Thanks to @tcharchian for the original proposal."
-  },
-  {
-    "id": "evt_20261022152143_0235c8b0",
-    "timestamp": "2026-10-22T15:21:43.038830+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#329 — [P1] Check data limits for PoC",
-      "url": null,
-      "file": "00329-p1-check-data-limits-for-poc.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Check data limits for PoC\n    <span class=\"issues-number\">#329</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n<"
-    },
-    "ai_description": "Issue #329 about checking data limits for the proof-of-concept has been removed from the feed. The task is no longer tracked, so the community can focus on active priorities instead. If this validation is still needed, it will need to be reopened or recreated.Issue #329 about checking data limits for the proof-of-concept has been removed from the feed. The task is no longer tracked, so the community can focus on active priorities instead. If this validation is still needed, it will need to be reopened or recreated."
-  },
-  {
-    "id": "evt_20261022152143_b0ab7a71",
-    "timestamp": "2026-10-22T15:21:43.038834+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#330 — [P2] Security MerkleTree Proofs; Merge participant validation till block0; Need to add signature check at recording",
-      "url": null,
-      "file": "00330-p2-security-merkletree-proofs-merge-participant-validation-t.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P2] Security MerkleTree Proofs; Merge participant validation till block0; Need to add signature check at recording\n    <span class=\"issues-number\">#330</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:17 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div cla"
-    },
-    "ai_description": "Issue #330 on MerkleTree proof security and merge participant validation has been removed from the tracker. This cleanup keeps our backlog focused on active priorities for the network's integrity. Thanks to @tcharchian for raising these important concerns earlier this year. We'll continue monitoring signature check requirements through other channels. This removal streamlines issue tracking for the Gonka community, making it easier to spot what truly needs attention."
-  },
-  {
-    "id": "evt_20261022152143_229855b7",
-    "timestamp": "2026-10-22T15:21:43.038837+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#331 — [P1] API for wallets (Keplr, Leap) / indexers (we do have the API, we need to get the thought process of adding Gonka to different wallets, and see what we are missing.",
-      "url": null,
-      "file": "00331-p1-api-for-wallets-keplr-leap-indexers-we-do-have-the-api-we.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] API for wallets (Keplr, Leap) / indexers (we do have the API, we need to get the thought process of adding Gonka to different wallets, and see what we are missing.\n    <span class=\"issues-number\">#331</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:17 UTC</span>\n    <span class=\"issues-meta-"
-    },
-    "ai_description": "Issue #331 about wallet and indexer integration for Gonka has been closed and removed from the feed. The task was to evaluate what's needed for adding Gonka to Keplr and Leap, and with the API already in place, this is now considered resolved. Thanks to everyone who contributed to scoping this out."
-  },
-  {
-    "id": "evt_20261022152143_52052979",
-    "timestamp": "2026-10-22T15:21:43.038841+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#332 — [P1] Merge Bridge",
-      "url": null,
-      "file": "00332-p1-merge-bridge.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Merge Bridge\n    <span class=\"issues-number\">#332</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div c"
-    },
-    "ai_description": "Issue #332 \"[P1] Merge Bridge\" has been removed from the activity feed. The issue was closed with no comments, so this cleanup helps keep the board focused on active work items. Thanks for helping us maintain a clear view of current priorities. 🛠️✨\n\nNote: I've kept it to 2 sentences as requested. Let me know if you'd like any adjustments!"
   }
 ]

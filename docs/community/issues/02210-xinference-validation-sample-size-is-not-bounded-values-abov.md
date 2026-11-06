@@ -2,7 +2,7 @@
 title: "#2210 — x/inference: validation_sample_size is not bounded; values above 500 make honest PoC validation fail"
 source: https://github.com/gonka-ai/gonka/issues/2210
 issue_number: 2210
-synced_at: 2026-11-06T00:24:33Z
+synced_at: 2026-11-06T07:03:13Z
 template: issues-main.html
 ---
 

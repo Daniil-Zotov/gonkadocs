@@ -2,7 +2,7 @@
 title: "#465 — Add a transaction for deleting the governance model. It needs to be added and verified to ensure it does not affect operations in the current epoch"
 source: https://github.com/gonka-ai/gonka/issues/465
 issue_number: 465
-synced_at: 2026-11-06T00:27:38Z
+synced_at: 2026-11-06T07:05:35Z
 template: issues-main.html
 ---
 
@@ -18,7 +18,7 @@ template: issues-main.html
     <span class="issues-meta-item">1 comment</span>
     <span class="issues-meta-item">Updated 2026-03-12 23:39 UTC</span>
   </div>
-  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span></div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #c2e0c6; color: #24292f; border-color: #c2e0c6;">Priority: Low</span></div>
 </div>
 
 <div class="issues-content" markdown="1">

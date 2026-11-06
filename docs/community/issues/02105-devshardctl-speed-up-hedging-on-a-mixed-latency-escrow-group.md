@@ -2,7 +2,7 @@
 title: "#2105 — devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers"
 source: https://github.com/gonka-ai/gonka/issues/2105
 issue_number: 2105
-synced_at: 2026-11-06T00:24:31Z
+synced_at: 2026-11-06T07:03:11Z
 template: issues-main.html
 ---
 

@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-06T00:34:07.272721+00:00",
+  "snapshot_time": "2026-11-06T07:21:10.961206+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -12,7 +12,7 @@
         "PR created: https://github.com/gonka-ai/gonka/pull/682 Skips disabled nodes from governance model population.",
         "I have a PR for this: #682 — skips disabled nodes from governance model population. Would appreciate a review when you get a chance."
       ],
-      "checksum": "0b525d90398f02f119b1c1c70b5021b4753904edf710dca2a280292a43526dff"
+      "checksum": "6f28e84f03ecb63b809a787db114c01f2938467519c0bcc2e6db62b2421bc60d"
     },
     "00311-bug-2-local-mlnode-identifier-mlnode-lookup-in-wrong-group.md": {
       "title": "#311 — BUG-2: Local MLNode identifier & MLNode lookup in wrong group",
@@ -20,7 +20,7 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BUG-2: Local MLNode identifier & MLNode lookup in wrong group\n    <span class=\"issues-number\">#311</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-02 09:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "8dffd45e90c26b5565fe7e07be0fd8f1190c5516d934cb11b4fb61f6870afd2b"
+      "checksum": "dc58fba493e52697c4c8da058042e11ac92e01aca2af3008aedd4e927acf7f8a"
     },
     "00313-p0-negative-balance-panic.md": {
       "title": "#313 — [P0] Negative balance panic",
@@ -392,7 +392,7 @@
         "One more case: issue-4.log",
         "Seems like we need to bump go version: https://github.com/golang/go/issues/69880 TODO: propoperly test compartibility"
       ],
-      "checksum": "cb1a4e592f50fcf052bb61bf72ff07168c85f4d2fbfc378c151a92ae97acc680"
+      "checksum": "e5f7ec084ba984fc4aa99fd9b7d0feffe22944b229813422aedfb7bae88a89d4"
     },
     "00388-p0-cuda-failure-other-small-fixed.md": {
       "title": "#388 — [P0]: Cuda failure + other small fixed",
@@ -426,7 +426,7 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    API -> Node Connection Issues\n    <span class=\"issues-number\">#398</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-10-19 05:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span cla",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "a975b9b27dcf8111a9fc3ecc2105ffe2ca39e8892b31d7ad4f0a5139727f92fc"
+      "checksum": "7e303a6dd9b14d4d5e2d2537d881b1faf57b6b87d61361bb22965e7a168dd03c"
     },
     "00402-bug-api-container-doesnt-start-due-to-nats-insufficient-reso.md": {
       "title": "#402 — [BUG]: API container doesn't start due to \"nats: insufficient resources\"",
@@ -436,7 +436,7 @@
       "comment_bodies": [
         "This is related to the Cleaning nats issue NATS didn't delete any items from the queue, so the queues were constantly growing. Setting a limit to NATS messages by age must resolve this problem, too. @0xBECEDA @patimen @gmorgachev"
       ],
-      "checksum": "8fb60b4d747d4342b2275bc7339a3bf7e7d1778cae76708e2e3dc38b0b80c0e2"
+      "checksum": "3bc41bfa85f0f408b7bdcc1b8cdd95e3349107ef238597a819b259337b8cb554"
     },
     "00405-p0-removing-participants-for-inactivity.md": {
       "title": "#405 — [P0] Removing participants for inactivity",
@@ -479,7 +479,7 @@
         "Hi @tcharchian, I'm picking this up and continuing the issue, and currently working on it. (draft pr #1359, blocked by #1296 ) The new work centralizes MLNode addressing + auth in one place instead of spreading BaseURL/AuthToken across every call site (the #717 approach), and folds in the review feedback. It's coupled with the Onboarding changes in #1296, so the new PR #1296 is draft and will be o",
         "Hi @bonujel, thanks, I see. @DimaOrekhovPS @x0152 are working on v0.2.14 and v0.2.15 and will review https://github.com/gonka-ai/gonka/pull/1296 shortly"
       ],
-      "checksum": "44b81c70fcec3f2eb1dbef1578c11c3da5712dfee3e7a58ac98a1070dcad6e20"
+      "checksum": "8485c63e73aa4f29dcd1b6efe1558333b47f260603741f13a27711bb3a4681c3"
     },
     "00415-caching-of-node-configjson.md": {
       "title": "#415 — Caching of node-config.json",
@@ -511,7 +511,7 @@
         "PR: https://github.com/gonka-ai/gonka/pull/720",
         "I already have a PR for this: #720 — it implements validator removal cleanup hooks. Would appreciate a review when you get a chance."
       ],
-      "checksum": "b98d70fddf13de266557b1985693445faedd1e7a7463afa6603acd463ad14f13"
+      "checksum": "42c319c79a86b762f5b81fde5bcee763adc21d9a8a233a85796d0cda90e1ddfa"
     },
     "00422-dapi-nil-pointer-dereference-crash-when-chain-rpc-is-unavail.md": {
       "title": "#422 — DAPI  nil pointer dereference crash when chain RPC is unavailable",
@@ -648,7 +648,7 @@
       "comment_bodies": [
         "Ready to take"
       ],
-      "checksum": "bcc65376e8c8e4ad524fbebaef7fa03dc16c36a66e7999105b771e5113a29178"
+      "checksum": "62d86c16099e9770ec4668a2deea0c5a86409eec7a8d6b908529b8effb607072"
     },
     "00466-stop-rewriting-static-config-at-each-app-start.md": {
       "title": "#466 — Stop rewriting static config at each app start",
@@ -805,7 +805,7 @@
         "@akup, probably, this issue could be canceled?",
         "All inferences requests attacks are legacy and should be focused on devshards"
       ],
-      "checksum": "d5115a20a67aaea019500a51bf349387ba181e56e4b9f8c83f8833174975b74b"
+      "checksum": "c1f059aaa49a5a6b33cd6100f536427c9c2ed24cd6c0d8f316266dbb3a1c1e2a"
     },
     "00557-remove-extraneous-community-account.md": {
       "title": "#557 — Remove extraneous community account",
@@ -839,7 +839,7 @@
         "Hey @x0152 @akup, it would be great if the two of you could align on the next steps for this task and make the key decisions together. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.12. But overall, this is more of a nice-to-have than a must-have.",
         "Hey @x0152, it would be great you could make a decision on the next steps for this task. @patimen John can help answer any questions if needed. If you are able to move it forward independently, this task could be considered for inclusion in v0.2.14. But overall, this is more of a nice-to-have than a must-have."
       ],
-      "checksum": "7443eb8bec64b13544b46c447a9ca34d51d12a154cd360db13824dbb46f64ac0"
+      "checksum": "e08865d9e8d0a316e16b358d37311e912d2b25846eac8584464058e49482b3bd"
     },
     "00561-implementing-punishment-statistics-based-on-on-chain-data.md": {
       "title": "#561 — Implementing punishment statistics based on on-chain data",
@@ -1556,7 +1556,7 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P2] Deleting PoC v1 + Extend state endpoint with PoC metadata\n    <span class=\"issues-number\">#742</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/IgnatovFedor\">@IgnatovFedor</a> opened 2026-02-12 15:06 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "40c270723eda725d20609c48af7933ef7360034880b00065e9c52f085c771f9a"
+      "checksum": "a36313ddd4a10987e79ee4a51ac3dfae0c1c896a0f083e21823743637027932a"
     },
     "00744-p1-dont-require-developers-to-register-as-participants-to-ru.md": {
       "title": "#744 — [P1] Don’t require developers to register as Participants to run inference",
@@ -1760,7 +1760,7 @@
         "Task 2 — fixes Two PRs. PR 1 (#787) — settlement bugs in accountsettle.go. Panic fix, CacheContext wrap, error checking, cleanup separation. Covers F-01 through F-05. PR 2 (#789) — applies the same CacheContext approach to ClaimRewards, inference expiry, streamvesting, and FinishInference. Also did a full integer narrowing audit and EndBlock error path audit. Covers F-06, F-07, F-08, F-09, F-12, F",
         "Task 3 — standardized handling for underfunded events Principles based off Task 1 analysis and Task 2 fixes. Every fund-movement path should conform to these. Exceptions listed at the bottom. Principles 1. Atomicity via CacheContext Any path that moves funds and writes related state (status changes, schedule updates, settle records) must wrap both in a single CacheContext. Either everything commit"
       ],
-      "checksum": "b9f473123babd43fdcb08c3ef665d7c65e3ec8563ada3dc11454ae554078b069"
+      "checksum": "349e1a06b116b454567d763d906da495e98f78802fe63c97dd2d78b4c0421081"
     },
     "00791-automatic-cleanup-of-old-propagation-proofs.md": {
       "title": "#791 — Automatic cleanup of old propagation proofs",
@@ -1848,7 +1848,7 @@
         "@Lelouch33 seems like that really solves problem, let's finalize details and make compartible release",
         "https://github.com/gonka-ai/gonka/pull/867"
       ],
-      "checksum": "12d294813ee043780ebe514aac8a1f65532b8f48441346a021bc8580b086596c"
+      "checksum": "0949d4cff5e0c4e0aeea3221518a713826ed3e46ffb67b8edfda507d087b1c8d"
     },
     "00820-investigate-missed-inference-on-some-nodes-root-causes-mitig.md": {
       "title": "#820 — Investigate missed inference on some nodes (root causes + mitigation)",
@@ -1860,7 +1860,7 @@
         "Measured data from live network may help narrow root causes here. Epochs 161–191, 2,503,595 inferences: Miss rate: 3.25% (81,360 misses) Completion rate: mean 90.4%, σ=7.4%, range 72–99% The σ=7.4% variance is the signal — not the mean. Some nodes miss 28% of assigned inferences while others miss 1%. GetRandomExecutor routes to both equally regardless. Phase 4 of GiP #860 proposes GetQualityWeight",
         "Is this issue still relevant after PR #943 and PR #859 were merged, or are there remaining edge cases to investigate?"
       ],
-      "checksum": "b4e5c83002cd67d322fd1bc414a7d7c208ffb1061f90fff7e78637f1b286f4b0"
+      "checksum": "7b1714daa9dbd8b22133368feba7da51d70e110038b49bae7302c73f9e219ef7"
     },
     "00821-continuous-poc-design-implementation.md": {
       "title": "#821 — Continuous PoC design + implementation",
@@ -1958,7 +1958,7 @@
       "comment_bodies": [
         "Training is not currently supported and basically needs total revision, so I'd say this issue is low-priority"
       ],
-      "checksum": "73e5022437ccd21b7b573c36d1004b1bbbc76551ab940ecde5ef5bc1fd7b6abb"
+      "checksum": "74050665654aaed33a6d3a6efe15881812c9352098f355b0e3b2d489fb14f5ff"
     },
     "00865-hardcoded-dummy-tls-keycerts-used-for-gloo-transport-in-trai.md": {
       "title": "#865 — Hard‑coded dummy TLS key/certs used for Gloo transport in training manager Body",
@@ -1969,7 +1969,7 @@
         "This was a quick debug fix. Training is not currently supported and basically needs total revision, so I'd say this issue low-priority",
         "It’s hardcoded for test pipeline, on purpose"
       ],
-      "checksum": "8f9c3eca4d8203736ef765374d737893cd96523e0a5a616b7fe1a16f0737ae23"
+      "checksum": "ef03bc509b147e26d21b2707bb93fd9f4b8be686dd255cb8faa241d599b2e4b1"
     },
     "00876-signed-v1chatcompletions-still-panics-on-all-three-documente.md": {
       "title": "#876 — Signed /v1/chat/completions still panics on all three documented mainnet transfer-agent endpoints",
@@ -2022,7 +2022,7 @@
         "Closed in favor of #911",
         "@gmorgachev, you wanted to include this issue in the upgrade v0.2.12. Does https://github.com/gonka-ai/gonka/pull/911 cover everything you expected here?"
       ],
-      "checksum": "9d66500b28310156df5135f3bfac77cbfa3a34f77cc641582393559351fd6ea4"
+      "checksum": "e103257533ef8515b95169148931e07a493c33c87cb4c5ae4cb9cbc128f8532d"
     },
     "00892-p0-devshards-add-end-to-end-tests-for-timeout-mechanisms.md": {
       "title": "#892 — [P0] `devshards`: add end-to-end tests for timeout mechanisms",
@@ -2033,7 +2033,7 @@
         "Will be done by April 5th.",
         "Closed by https://github.com/gonka-ai/gonka/pull/1332 and https://github.com/gonka-ai/gonka/pull/1482"
       ],
-      "checksum": "29e93df7d619b64182df868887c77526af65bdf70d11ca004dce2d90cfb9cf70"
+      "checksum": "6876bb94661df90a6cdc44de87a8f7fbc20f494b6bc500ebdd9ff1fb1194144e"
     },
     "00893-p0-remove-float-math-from-devshards-consensus.md": {
       "title": "#893 — [P0] Remove float math from `devshards` consensus",
@@ -2043,7 +2043,7 @@
       "comment_bodies": [
         "Will be done by March 27th."
       ],
-      "checksum": "315e285013a6c69f57291e449517afc27562d0ac2ddbe49425de77c5c9f1da64"
+      "checksum": "a690e1d16043f35c968bde3f12a452b64967001a210f447c2f791f8241394587"
     },
     "00895-p0-allow-hosts-to-vote-on-timeouts-if-they-havent-yet-seen-m.md": {
       "title": "#895 — [P0] Allow hosts to vote on timeouts if they haven't yet seen `MsgStartInference`",
@@ -2051,7 +2051,7 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Allow hosts to vote on timeouts if they haven't yet seen `MsgStartInference`\n    <span class=\"issues-number\">#895</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dcastro\">@dcastro</a> opened 2026-03-16 14:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "36c7fda53e6dfec1dcc68f2fe585135f5003ca8323711b273c2500b4e1037271"
+      "checksum": "d3bc7587d03eeb0cd12c7afacc0959605ceeecc883fe543deb10fd880d13f4b4"
     },
     "00896-devshards-research-aggregated-bls-signatures.md": {
       "title": "#896 — `devshards`: Research aggregated BLS signatures",
@@ -2062,7 +2062,7 @@
         "Will be done fast after finishing #913",
         "postpone review after Upgrade v0.x.x-devshard2"
       ],
-      "checksum": "97c8b3f9f505313ecf7b40d65d6fa8f97e02b514e59ce0a0a1e8719c1c0e26de"
+      "checksum": "0f05011c612e5674294214e61e931f1be80ae16c799297f1f2640dfaa923cedd"
     },
     "00899-p0-devshards-add-end-to-end-inference-validation-tests.md": {
       "title": "#899 — [P0] `devshards`: Add end-to-end inference validation tests",
@@ -2074,7 +2074,7 @@
         "Will be done by March 27th.",
         "I've written a couple of Testermint tests and added an endpoint to get the inference from the proxy server. Recently I've been trying to see about changing the session configuration for tests. Although not sure yet if that's the best path forward. I expect to push a PR with these tests very soon."
       ],
-      "checksum": "1c2a09b6b3b2a3829856af91b01eded6a5772733e359adf4bcd43d2a0193ad75"
+      "checksum": "378b70a71371a18707d28546b0dce99e6bcc450a667c5a3374af99cce940d814"
     },
     "00908-bls-blsmanager-stores-contextbackground-dkg-grpc-calls-have-.md": {
       "title": "#908 — bls: BlsManager stores context.Background() — DKG gRPC calls have no cancellation or timeout",
@@ -2094,7 +2094,7 @@
       "comment_bodies": [
         "Will be finished by March 27th."
       ],
-      "checksum": "5d424822ca043cd297c2bca53f04a7be91a589f280f9b92ee7aab25ecbcaa087"
+      "checksum": "60d5b960a346becc88176123295558837a140cf5614032fe6383474b91c95022"
     },
     "00914-p0-devshards-rewards-research.md": {
       "title": "#914 — [P0] `devshards` rewards (research)",
@@ -2106,7 +2106,7 @@
         "Meeting Notes 2026/03/19 Total RewardCoins for one whole epoch is 300k GNK, split by weight across all ACTIVE participants. Let's say the dishonest actor has to create 3k devshards to be able to exploit one (with 99% confidence) The total cost to create 3k devshards should be 300k GNK It's a function of 300k and the devshards size 300k is equal to the maximum damage the actor can do Limiting Misse",
         "The research part will be in Progress, but doesn't block the implementation."
       ],
-      "checksum": "60d4728d8f4c5c61a2c71fc67be78e691888b6cf608a5f49bdf570995b7a2f5a"
+      "checksum": "8b8f20791d3d37021bbd9df97d96850b39a241dca209a6d5ec8ae3d235c78e24"
     },
     "00915-p0-benchmark-devshards.md": {
       "title": "#915 — [P0] Benchmark `devshards`",
@@ -2117,7 +2117,7 @@
         "The deadline is April 5th.",
         "Closing by https://github.com/gonka-ai/gonka/pull/1482"
       ],
-      "checksum": "a8aa08357f364a31af60aa0b887aa9053111a7cff1ef3a42e900a67c7767f680"
+      "checksum": "d3f129b1ca38310dd2ed99079ab869cb64b9805bc149981fd42eed4c5e66b845"
     },
     "00922-proposal-agent-identity-and-delegation-governance-for-gonka-.md": {
       "title": "#922 — Proposal: Agent identity and delegation governance for Gonka compute",
@@ -2229,7 +2229,7 @@
       "comment_bodies": [
         "Calculate and charge fee for subnets Will be done by March 29th. All the remaining items will be done by April 5th"
       ],
-      "checksum": "22fc26e54f8ad5e4cf2e3394b848fb27e933ba86d4e4ec8ee568abfbb7fa170a"
+      "checksum": "41a39d6eccb4955c07a55cafe4293d264eb8e35efe00220ce373ded0390e5ed1"
     },
     "00936-devshards-implement-aggregated-bls-signatures.md": {
       "title": "#936 — `devshards`: Implement aggregated BLS signatures",
@@ -2239,7 +2239,7 @@
       "comment_bodies": [
         "postpone after Upgrade v0.x.x-devshard2"
       ],
-      "checksum": "7edda8e35e3c4a40ecb38361cb9444caa7f57f785df463848d59ab7d0baeb5e6"
+      "checksum": "13ba8aafda6a41d15b67f5821f20b6dd7dd6fad3c6b38684f7c5e83b2ec0c2af"
     },
     "00939-p0-vllm-0151.md": {
       "title": "#939 — [P0] vLLM 0.15.1",
@@ -2289,7 +2289,7 @@
       "comment_bodies": [
         "Will be done by April 6th."
       ],
-      "checksum": "be30bc48aebd77a6ef42cd9fd0b375f40df9f50656e856582df10e754bc916e5"
+      "checksum": "a81bbead9299184339899793ff8d934ca084e6f65d62ea9e4ff4db2daa50814f"
     },
     "00966-validation-eligibility-and-accounting-consistency.md": {
       "title": "#966 — Validation Eligibility and Accounting Consistency",
@@ -2299,7 +2299,7 @@
       "comment_bodies": [
         "Issue should be closed, because now all focus is moving to devshards. Moreover here seed is revealed, but current protocol version doesn't protect from seed early revealing, and some party can cheat with inferenceIds @0xMayoor let's accept your PR https://github.com/gonka-ai/gonka/pull/832"
       ],
-      "checksum": "9a53085bbfc6cf1b0c4952b58f44078f07acf254240e448fc3055b6a88fa9958"
+      "checksum": "b4f66dfe05316b2a34fc4aadc4f9d87b7a9ae7005e7202ac95db6ea1d37024af"
     },
     "00975-nodes-with-high-miss-rate-continue-receiving-inference-reque.md": {
       "title": "#975 — Nodes with high miss rate continue receiving inference requests for the rest of the epoch",
@@ -2319,7 +2319,7 @@
       "comment_bodies": [
         "Very close logic is implemented and merged in https://github.com/gonka-ai/gonka/pull/1087 &amp; https://github.com/gonka-ai/gonka/pull/1069"
       ],
-      "checksum": "c1ed02f6a1edd90bc5862748f1cd6875711bb6c091b00709c16ca8ded39d72d9"
+      "checksum": "d0d8dbbe2b6c19cb42b4513f178d8ef4c096dffd05936a6ba38c5a1f48e513fd"
     },
     "00977-p0-devshards-limit-amount-of-inferences.md": {
       "title": "#977 — [P0] `devshards`: Limit amount of inferences",
@@ -2329,7 +2329,7 @@
       "comment_bodies": [
         "At 0.2.13 nonce limit was introduced. Inference count could be limited by nonces limit and there is no need in extra parameter. Handling on devshard side is implemented at https://github.com/gonka-ai/gonka/pull/1258"
       ],
-      "checksum": "b1d19099dc0760b65ace68506eeace548a4491f5c2a95d41da88f24221a7a452"
+      "checksum": "9a337790e129095b5c41a6756aff7c32b8b3110c40a9302298ae80f4169c4587"
     },
     "00979-devshards-escrow-fund-loss-on-unsettled-pruning-missing-over.md": {
       "title": "#979 — `devshards` escrow: fund loss on unsettled pruning + missing overflow guards in host stats aggregation",
@@ -2391,7 +2391,7 @@
       "comment_bodies": [
         "Taking this. Submitted a minimal fix that addresses the core symptom (fatal 4xx swallowed into timeouts) in PR to follow, leaving the broader phase-aware retry design (§2 and §3 in the issue) for a separate change."
       ],
-      "checksum": "d6c2b469774d4629540de7291411c5631a4cc6b2687a4b5efac7368ced9a8951"
+      "checksum": "5c60a0f7c236262c2d36318a7d81aa53f79a4ad19f3fd4a1b9c0f813bbdfb600"
     },
     "01026-vlm-inference-and-validation-in-gonka.md": {
       "title": "#1026 — VLM inference and validation in Gonka",
@@ -2413,7 +2413,7 @@
       "comment_bodies": [
         "Starting work on this. PR to follow — threading RefusalTimeout, ExecutionTimeout, and ValidationRate through SubnetEscrowParams -&gt; SubnetEscrow -&gt; subnet SessionConfig, same pattern as TokenPrice. ETA: done."
       ],
-      "checksum": "179f107427de27a1fe4790aedc8bc7960215140d9b96008cb0cec815760f149e"
+      "checksum": "8488363c0bca1bff1642d05f8397e67510e372530677dff6564e47cafaffe437"
     },
     "01032-question-is-there-a-path-for-consumer-grade-16-gb-gpus-to-pa.md": {
       "title": "#1032 — Question: is there a path for consumer-grade 16 GB GPUs to participate as lightweight Host nodes?",
@@ -2598,7 +2598,7 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] A short, specific, searchable title.\n    <span class=\"issues-number\">#1169</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/akamitch\">@akamitch</a> opened 2026-05-15 13:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" styl",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "567dcb097b9aa318576d99136df9d22eb49ba5ec8f170772f1cd3edf255c6c71"
+      "checksum": "a9bc91be4c61d98a8e24d3da1ee0b1f1f2a0749a8ce54275cabf9b92fae97e2e"
     },
     "01173-tee-implementation.md": {
       "title": "#1173 — TEE Implementation",
@@ -2752,7 +2752,7 @@
       "comment_bodies": [
         "Closed the referenced PR. MLNode is being actively developed right now and changes too rapidly. So the changes are a bit outdated and there's no need in them at the moment"
       ],
-      "checksum": "bc8091b53d42cb842a4f9476b5ad890ec1846b8a4bd755c13d4a9d7ae484dfcd"
+      "checksum": "12b6ea92b6c309722a83554fca34fd4240a7ef8358913d0973090a9cc0dafea7"
     },
     "01229-request-for-phased-devshards-creator-allowlist-access-for-lo.md": {
       "title": "#1229 — Request for phased DevShards creator allowlist access for local gateway MVP validation",
@@ -2995,7 +2995,7 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING\n    <span class=\"issues-number\">#1358</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-22 17:39 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "ecf630d59326cd40c4569db8d275d7a4c3c29cbed43499dea50c3fed0a423cae"
+      "checksum": "84e61bc746da2f2bfd3899c4e1f3027b8aa42740f847c3b117c78cbc763ca69f"
     },
     "01370-bridge-scenario-a-inbound-usdt-stuck-bridge-pending-after-co.md": {
       "title": "#1370 — Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)",
@@ -3039,7 +3039,7 @@
         "hey @qdanik, would you be interested to work on this issue?",
         "@tcharchian you can assign it to me"
       ],
-      "checksum": "c82cc6991022b62669576c936d7ff9d622ee1bd942a78ac38f331ae19101981b"
+      "checksum": "8fc22634bb6946e431aa50313d5991301fbf448f04585dcf262e1f4f7313e4c7"
     },
     "01395-fixinference-power-cap-zeros-network-when-zero-weight-partic.md": {
       "title": "#1395 — fix(inference): power cap zeros network when zero-weight participants are in settlement",
@@ -3297,7 +3297,7 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] api-test does not apply portable BLST flags on Apple Silicon\n    <span class=\"issues-number\">#1537</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Parikalp-Bhardwaj\">@Parikalp-Bhardwaj</a> opened 2026-08-03 14:53 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "3b9bf395be1fe4b430eedaa06874e94bc62a18b7cd4986477932c75e90b266ce"
+      "checksum": "7d29a148bfb7f65b46a9120bf2c621765f60f8e87a05900546c71752e16b7f22"
     },
     "01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n.md": {
       "title": "#1539 — Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)",
@@ -3323,7 +3323,7 @@
         "I'd like to take this.\\n\\nPlan:\\n- add ProtocolV4 to ParseProtocolVersion\\n- extend unit test to cover v4\\n- keep current v1/v2/v3 behavior unchanged\\n\\nETA: immediate PR.",
         "Tracked in #1630 (gateway v4). #1670 was a duplicate and is closed. PR #1678 covers the API-side malformed JSON fix for /v1/participants."
       ],
-      "checksum": "bf34e2996e5ca7155f801f14daa1933455b0d38e4dbb425c8460d6627fe7f9c7"
+      "checksum": "9a5cf2c487eb03e6a0e368e4bb4f3f40df12d4b2d3adaf5995e580d31aa84891"
     },
     "01545-bug-post-v1participants-returns-unclear-error-for-malformed-.md": {
       "title": "#1545 — [BUG] POST /v1/participants returns unclear error for malformed JSON",
@@ -3333,7 +3333,7 @@
       "comment_bodies": [
         "There are now three open PRs for this issue, all changing the same line in decentralized-api/internal/server/public/post_participant_handler.go. Listing them side by side so one can be picked and the others closed: PR Opened Handler change Test #1546 2026-08-04 \"Invalid request body\" + .SetInternal(err) (keeps the original error for logs) Adds a malformed-JSON test, but it asserts only the status "
       ],
-      "checksum": "f6d02fdb8247aaadd5116efd5013a73101397533c7842839f7ff51f9da9018f8"
+      "checksum": "89550f286afed9cf8828e1e1f3979c170ed031d33d96ba0e71170bde562317b8"
     },
     "01570-devshard-timeout-vote-threshold-unreachable-under-skewed-slo.md": {
       "title": "#1570 — Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)",
@@ -3355,7 +3355,7 @@
         "Hi @iceiceic3! Responsible disclosure helps keep the network secure for everyone. Use the form https://gonka.ai/docs/report-vulnerability/ to submit a vulnerability report directly through HackerOne. Valuable findings are subject to reward.",
         "Hi @iceiceic3, This issue is based on the assumption that mlnode is publicly accessible. Under our documented network architecture, mlnode is an internal only management service and is not intended to be exposed to the public internet. Also, /api/v1/train/start is a deprecated legacy endpoint, not part of the current supported training flow, and is scheduled for removal"
       ],
-      "checksum": "c46c1d4497c5bc77168bd1f88ce54f5ffe33a331f69c35efd5f3725d47f40001"
+      "checksum": "6e95b91a6bfea2f47218a7793ff72c434eebea919e158ef64b87050674a0a3de"
     },
     "01573-bug-devshard-executor-can-validate-its-own-challenged-result.md": {
       "title": "#1573 — [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds",
@@ -3365,7 +3365,7 @@
       "comment_bodies": [
         "Hi @iceiceic3! Responsible disclosure helps keep the network secure for everyone. Use the form https://gonka.ai/docs/report-vulnerability/ to submit a vulnerability report directly through HackerOne. Valuable findings are subject to reward."
       ],
-      "checksum": "bfa372694df99a4b504c6a85334b3bc8525cf4338d92ff797b99417add076616"
+      "checksum": "57a873717a1c772a4ecfa88c00a511375768029f399403d65537a0e7b9c40c39"
     },
     "01591-gateway-timeout-can-orphan-client-correlation-from-completed.md": {
       "title": "#1591 — Gateway timeout can orphan client correlation from completed request accounting",
@@ -3415,7 +3415,7 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    OpenBroker strips provider prompt-cache metadata (prompt_tokens_details is always null)\n    <span class=\"issues-number\">#1632</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/theaungmyatmoe\">@theaungmyatmoe</a> opened 2026-08-24 06:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </d",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "0998ce262db3db09c7d2814725d5c125201bc4561ce4dc2d3f4a07a0425ea0ff"
+      "checksum": "ea37db873b884287bad6879f1e029fcacd68987629dd6b31c6fd984618a4c65b"
     },
     "01637-gateway-allowlist-request-fusion-ai-gateway-production-whole.md": {
       "title": "#1637 — Gateway allowlist request: Fusion AI Gateway — production wholesale broker (DeepSeek Flash / MiniMax / Kimi)",
@@ -3437,7 +3437,7 @@
         "Thanks — that matches what we see: no --reasoning-parser → CoT stays in content, reasoning_content is null. min_tokens: 64 noted. The concatenated samples are unparsed CoT in content, not padding to 64 tokens. The agent bug is the missing split on parser-less hosts. If --reasoning-parser is required for this model, when does it become mandatory on every MLNode? Until then the OpenAI-compat contrac",
         "@dmrtest It is required for this model but in case if the host decide to run own config without reasoning parser - it will work. I guess protocol can validate this gate but no plans for now."
       ],
-      "checksum": "16014c1b71bd5e707f9e0d138b358b7c58eeabb2aa50538bd13857c334d9a2d0"
+      "checksum": "21f727ecf543a80dbc14b77ae995f074082d15514b9fe9b0c1f1d11c24f1552e"
     },
     "01658-413-on-large-chat-payload-due-to-gatewayhost-request-size-mi.md": {
       "title": "#1658 — 413 on large chat payload due to gateway/host request size mismatch",
@@ -3507,7 +3507,7 @@
         "Retested on mainnet-v0.2.15-v4.0.1. Same Kimi non-stream max_tokens=1024 case now returns 200 JSON. Stream still OK. Great work @qdanik !",
         "fixed and merged into gateway-v4 branch"
       ],
-      "checksum": "2aa047049d9976c03336cc11d42a038f9c29c3ab4a0464f63e8775fea00db7ab"
+      "checksum": "3baeb030f4e96f62005f2395918c09eaba7a7aa731d22d55e4f6dc6833b79efc"
     },
     "01688-decode-poc-integration-support.md": {
       "title": "#1688 — Decode PoC: integration support",
@@ -3680,7 +3680,7 @@
         "Hey @GLiberman and @zpoken, could you please take a look at this issue and consider fixing it in 0.2.18?",
         "@tcharchian ok, I will do it."
       ],
-      "checksum": "8800d0b0ac6f22ea84c06c4f1020ef63e28c48957fa945c6f6b54985f5208f1e"
+      "checksum": "ffd475ae5c89eacc6d39db35c593a1eb498bec89f18fcde575f6427ae7b1d992"
     },
     "01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-.md": {
       "title": "#1733 — Extend e2e for HA devshard config with multiple routers and multiple versiond",
@@ -3794,7 +3794,7 @@
       "comment_bodies": [
         "fixed in gateway v4.1.2"
       ],
-      "checksum": "84ab83dda9267d55e0bb89052724e58565c054128c0e5bb08ebf43d411893b2a"
+      "checksum": "07d68347ab44792fa53fa2d16a9756bfe1243d17703d9094a4215382b79ca83f"
     },
     "01801-gateway-allowlist-request-icezoneproject.md": {
       "title": "#1801 — Gateway allowlist request: icezoneproject",
@@ -4118,7 +4118,7 @@
         "Data point for this issue. We run an OpenAI-compatible gateway on DeepSeek-V4-Flash-0731 and measured the 64-minimum-output-token behaviour on 2026-10-27: 60 mixed requests, one at a time, a unique marker in every prompt. With three Gonka-network providers called directly, 17% to 23% of answers had repeated text appended (up to ~70% of one-word answers and ~50% of short JSON answers). A provider o",
         "Data point for this issue. We run an OpenAI-compatible gateway on DeepSeek-V4-Flash-0731 and measured the 64-minimum-output-token behaviour on 2026-10-27: 60 mixed requests, one at a time, a unique marker in every prompt. With three Gonka-network providers called directly, 17% to 23% of answers had repeated text appended (up to ~70% of one-word answers and ~50% of short JSON answers). A provider o"
       ],
-      "checksum": "dd88c4204b944a6cb9e68baa6194a3eb6f2673ba25586b55e7afdbe726678349"
+      "checksum": "dc5873f14e33f62d5caf3170dc0800545be26c3bc7a68ff33539c421d24e343f"
     },
     "01965-bug-incomplete-json-clock-timestamps-produce-a-false-diverge.md": {
       "title": "#1965 — [BUG] Incomplete JSON clock timestamps produce a false divergence sample",
@@ -4195,7 +4195,7 @@
         "https://github.com/gonka-ai/gonka/commit/0853195ca2da7bb7553805ba26be9d0fb03ffaf1",
         "thank you, working"
       ],
-      "checksum": "d5d26db75ebc503eafc52c2af45765680ed877cb59f30391bdfda4d8a8472eee"
+      "checksum": "e0825d5144e98163087f20f19ddc3b056482f125339bdd7c4981512c3ac5da93"
     },
     "02012-bug-host-in-training-rejects-poc-challenge-but-on-chain-stat.md": {
       "title": "#2012 — [BUG] Host in training rejects POC challenge but on-chain status of POC - generating",
@@ -4206,7 +4206,7 @@
         "https://github.com/gonka-ai/gonka/commit/0853195ca2da7bb7553805ba26be9d0fb03ffaf1",
         "thanks! working"
       ],
-      "checksum": "008caa5acd7ecda36e2fc84bf969192c1f6c8446457e6b3129e2a5753995cdf6"
+      "checksum": "8c7dd46be9c4dd523f180de5aad95ba9d873fc5c45b6170f27cda1fcec095090"
     },
     "02013-bug-short-segment-is-treated-as-passed-challenger-pays-a-tar.md": {
       "title": "#2013 — [BUG] Short segment is treated as PASSED (challenger pays a target that did nothing)",
@@ -4217,7 +4217,7 @@
         "https://github.com/gonka-ai/gonka/commit/24a4204de78cefbe14d3e1dda2784ab4fbebc65d",
         "solved, thanks"
       ],
-      "checksum": "38e05405571be2db4038b87dd159471374b0649c58b29f14ba4092882a815864"
+      "checksum": "cebfe027b74b16703f9cb786557b83e929f7fb73855a87de17bc9683acf8c424"
     },
     "02014-bug-fully-reserved-by-training-abort-is-unreachable-on-a-sho.md": {
       "title": "#2014 — [BUG] fully_reserved_by_training abort is unreachable on a short segment",
@@ -4228,7 +4228,7 @@
         "https://github.com/gonka-ai/gonka/commit/0853195ca2da7bb7553805ba26be9d0fb03ffaf1",
         "solved thank you"
       ],
-      "checksum": "95f1a35bf56537584a50d36f14f79ce8fc33dcf9e1252bb5083464a96e538c43"
+      "checksum": "abee82b689ecbbebc691072189c364fedcd0af888231029cc47f81f2014daf0e"
     },
     "02015-bug-cpoc-rotation-can-shrink-the-final-challenge-segment-bel.md": {
       "title": "#2015 — [BUG] cPoC rotation can shrink the final challenge segment below the punishable minimum",
@@ -4240,7 +4240,7 @@
         "https://github.com/gonka-ai/gonka/commit/24a4204de78cefbe14d3e1dda2784ab4fbebc65d",
         "solved, thank you"
       ],
-      "checksum": "9883056ac32d0955fc67558cc66ccb43938f2cf840220e848e04315d519579d5"
+      "checksum": "5d5cb9e3ac94f522a10c96314fb1c5b1b836c07754ceb8ce9edea3044ba85ee6"
     },
     "02016-devshard-gateway-logprobs-optimization-override-is-ignored-a.md": {
       "title": "#2016 — devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start",
@@ -4279,7 +4279,7 @@
       "comment_bodies": [
         "I solved these problems from this issue in #2035: The gateway starts although one escrow's runtime build fails for a reason that is not final. The healthy escrows serve, and the container does not loop on restart: unless-stopped. The failed escrow is reported (devshard_gateway_startup_skipped_escrow with reason runtime_build_failed, plus a log line) and is retried in the background every 30 s unti"
       ],
-      "checksum": "f42a4c400850314c08c248a77158f90e6655267579f6477649e2533bf9983110"
+      "checksum": "70561440398fa7ec3076ea3053b79405a7eae1502742d552af5c825789724244"
     },
     "02037-bug-low-a-failed-inline-catch-up-read-leaves-a-committed-sta.md": {
       "title": "#2037 — [BUG, LOW] A failed inline catch-up read leaves a committed Start with funds reserved",
@@ -4289,7 +4289,7 @@
       "comment_bodies": [
         "https://github.com/gonka-ai/gonka/pull/2184"
       ],
-      "checksum": "e185fcde25a24c79193d2e34b9145332bcd121a49e65906f021d2f532d5261f2"
+      "checksum": "84199f52b358bff028fa6aab2f5d0cd7a2e4e89eb5bb845971b28b97d92dbf09"
     },
     "02039-bug-devshardctl-an-escrow-the-gateway-cannot-serve-is-never-.md": {
       "title": "#2039 — [BUG] devshardctl: an escrow the gateway cannot serve is never settled, and the chain splits its deposit after two epochs",
@@ -4399,7 +4399,7 @@
       "comment_bodies": [
         "https://github.com/gonka-ai/gonka/pull/2158"
       ],
-      "checksum": "3c3c2d47249670e915ccc131892b1b7b5c030c35dac2f7580db3cddd8ca0e5fd"
+      "checksum": "e952c23329c82f9e81a2c78faf45d0df444fd904849cdbc2806b788ee4ac7af4"
     },
     "02107-devshard-during-confirmation-poc-generation-a-sessions-whole.md": {
       "title": "#2107 — devshard: during confirmation PoC generation a session's whole stream lands on its preserved slots, whatever their size",
@@ -4428,10 +4428,10 @@
     "02153-ethereum-bridge-update.md": {
       "title": "#2153 — Ethereum bridge update",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Ethereum bridge update\n    <span class=\"issues-number\">#2153</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-27 23:21 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mark",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Ethereum bridge update\n    <span class=\"issues-number\">#2153</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-27 23:21 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-co",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "6763a7d87497afe8ed5761e7c57ecec82eac4d52f1410feb5e083fe52fa24530"
+      "checksum": "bc07ed73c4822854beb2943668519b09ab385f69c4783dc2fb43a3ba7e1e8700"
     },
     "02154-decode-list-of-chain-fixes-we-have-to-do-in-v0218.md": {
       "title": "#2154 — Decode: List of chain fixes we have to do in v0.2.18",
@@ -4444,14 +4444,14 @@
     "02162-bridge-sepolia-glamsterdam-fork-breaks-bridge-image-prysm-v5.md": {
       "title": "#2162 — Bridge: Sepolia Glamsterdam fork breaks bridge image (Prysm v5 / geth 1.16.7) — testnet-4 bridge down",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: Sepolia Glamsterdam fork breaks bridge image (Prysm v5 / geth 1.16.7) — testnet-4 bridge down\n    <span class=\"issues-number\">#2162</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-28 17:24 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bridge: Sepolia Glamsterdam fork breaks bridge image (Prysm v5 / geth 1.16.7) — testnet-4 bridge down\n    <span class=\"issues-number\">#2162</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-28 17:24 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></s",
       "comment_checksum": "cd4b9accf0cc04e505d1ba75560ba71a5346bea54ece5508805f661bfcbd2558",
       "comment_bodies": [
         "ghcr.io/product-science/bridge:0.2.18",
         "@tcharchian the fix does not include the necessary PRYSM build. need re-build",
         "@maria-mitina ghcr.io/product-science/bridge:0.2.18@sha256:10cd2b9ea959312680ed21f18369ba254085effd52f808569cbff916abec6dfa"
       ],
-      "checksum": "fd4ab356eda812de9138e1b57004e678ad0ad0976cfae9df45785aad7836930b"
+      "checksum": "4b83788bb698557005b834b534564629c7e6cde98cd5357c7cb314e04c838a67"
     },
     "02167-preserved-node-sampler-ignores-the-hardware-inventory-nodes-.md": {
       "title": "#2167 — Preserved-node sampler ignores the hardware inventory: nodes that a host removed (or that are FAILED) are still preserved and carry their weight into the next epoch",
@@ -4488,7 +4488,7 @@
       "comment_bodies": [
         "This still reproduces on devshard/v7 (860cd69d5): the test from #2183 fails there with releases=1, and engine.go is the same as on v6. Planned fix: -doWithLockedNode keeps the slot after a 2xx/4xx response and wraps resp.Body. The wrapper releases the slot once, when the body -is closed. Both callers already close it after reading the stream. -Transport errors and 5xx still release right away. -A "
       ],
-      "checksum": "3e7b5853b884aaa8c2341c3478f8bf13567a7bac1d379614a603efbeb3335cc9"
+      "checksum": "caa1304d3a76aa8cbb76feac94884d970f3797ae5eea8eb9f06d650205b49ef5"
     },
     "02182-openbroker-registration-fails-post-apiauthsend-code-500-fail.md": {
       "title": "#2182 — OpenBroker registration fails: POST /api/auth/send-code → 500 failed to send email",
@@ -4588,7 +4588,7 @@
         "@GLiberman, let's fix it in 0.2.18, please.",
         "Chain logs from testnet (epoch 881 formation) These are from v0.2.17-testnet-1, and the same pattern repeats in epochs 879, 880 and 882. Addresses are shortened. INF Collateral grace period has ended. Adjusting weights by collateral. current_epoch=881 INF Universal power capping applied to epoch powers originalTotalPower=6943 cappedTotalPower=1714 participantCount=7 INF weight_group epoch=881 mode"
       ],
-      "checksum": "8024b5e588dd9a3b952e3238841dbb41143c7da8ac7fbbeb1fc5bd3325e0b1e6"
+      "checksum": "8e9f348a8ee7ed4c8d9741f394e8be1a596186f1c757b338a9f5fddf5d1d7b41"
     },
     "02219-bug-decentralized-api-admin-api-cannot-disable-enable-or-del.md": {
       "title": "#2219 — [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"",
@@ -4598,7 +4598,7 @@
       "comment_bodies": [
         "@GLiberman I opened #2220 for this. Could you please review it when you have a moment? Thank you!"
       ],
-      "checksum": "52fd7e615a22ff57cd7201959ac842bdc610ce7d775771f24c5c95062af24acd"
+      "checksum": "9b3852ba1278e607e3258ac098a8befc32b85dff103d79f228d9910c5e3e1af3"
     },
     "02221-bug-openbroker-request-bodies-above-14-kib-are-never-read-no.md": {
       "title": "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error",
@@ -4608,7 +4608,7 @@
       "comment_bodies": [
         "Hello, @ludmilavasilievna3-cmd We could not reproduce a body-size cutoff on POST https://api.openbroker.gonka.gg/v1/chat/completions. There is no ~14 KB read limit. The same request shape from the report (zai-org/GLM-5.3-Flash, max_tokens 8, one user message padded with x, 20 s client timeout) was sent at the two exact sizes, over both HTTP/2 and HTTP/1.1. With an invalid key (Bearer sk-invalid-te"
       ],
-      "checksum": "936ac7377110967553e1fd84560be4a83b248bdb32ad84281dd78935d364bbb7"
+      "checksum": "e29486a1946db583fd72f7ec92c048a32166a780843e91aff080d1308ff5c2ba"
     },
     "02223-authz-cache-holds-the-global-lock-across-signer-queries-1430.md": {
       "title": "#2223 — authz cache holds the global lock across signer queries (#1430 fix never landed)",
@@ -4616,15 +4616,63 @@
       "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    authz cache holds the global lock across signer queries (#1430 fix never landed)\n    <span class=\"issues-number\">#2223</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 20:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "b582f1a60ee8a04c74b34a011a8fe72dbd7a33ebdb76ee314274ebb56b4680ba"
+      "checksum": "e9b42f10b9e3ccc4f66d19750276fe38232a8a70fe22141cac364cd6297fdc28"
     },
-    "02225-validate-that-reasoning-is-enabled-on-hosts.md": {
-      "title": "#2225 — Validate that reasoning is enabled on hosts",
+    "02225-devshard-gateway-validate-that-reasoning-is-enabled-on-hosts.md": {
+      "title": "#2225 — `devshard` / `gateway`: validate that reasoning is enabled on hosts",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Validate that reasoning is enabled on hosts\n    <span class=\"issues-number\">#2225</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 21:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard` / `gateway`: validate that reasoning is enabled on hosts\n    <span class=\"issues-number\">#2225</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 21:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><s",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "91ed39b89f6744148798d9adbaf1cd6a4ba576042e36c60f8082196c80efaad1"
+      "checksum": "52273226f17fb9f0b21bddb37a9a1d1200adf9c0a73a684dd79824878ee5cd4e"
+    },
+    "02228-devshard-endpoint-cleanup-if-needed.md": {
+      "title": "#2228 — `devshard`: endpoint cleanup, if needed",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: endpoint cleanup, if needed\n    <span class=\"issues-number\">#2228</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 00:39 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "4477e8c3265b5f111384ada2076a05fb2ce1877d4c9fbeb85b113a44dbf4d5c4"
+    },
+    "02229-devshard-escrow-owner-validation-responsibilities.md": {
+      "title": "#2229 — `devshard`: escrow-owner validation responsibilities",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: escrow-owner validation responsibilities\n    <span class=\"issues-number\">#2229</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 00:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issu",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "e42a4a826a55ce2f9f670a7c27bf739bb0abff2400103b5bef9f5ebd85e91869"
+    },
+    "02230-injective-usdc.md": {
+      "title": "#2230 — Injective USDC",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Injective USDC\n    <span class=\"issues-number\">#2230</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 01:03 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color: #c2",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "bef451ead4d69ea87ec2fed38fcbb320c5616b121d0d13c804e3bfdd2add9333"
+    },
+    "02231-multi-model-scheduling.md": {
+      "title": "#2231 — Multi-Model Scheduling",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Multi-Model Scheduling\n    <span class=\"issues-number\">#2231</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 01:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mark",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "25a90dbfa8657481d51d83387b596eeb63e5f7e25ea7861af851f7fa68a4f772"
+    },
+    "02233-participant-registration-timeout-issue-improve-ux.md": {
+      "title": "#2233 — Participant registration timeout issue (improve UX)",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Participant registration timeout issue (improve UX)\n    <span class=\"issues-number\">#2233</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:06 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "27109cc0f3ad3201b5c661aabb690a4fbae12d46d294af4b2606329493bb4b1b"
+    },
+    "02234-maintenance-window-review-activation.md": {
+      "title": "#2234 — Maintenance window: Review & activation",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Maintenance window: Review & activation\n    <span class=\"issues-number\">#2234</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "82397b741b06b978bb5f5d8aadfc2bc68b031488117465482984bc974743c9de"
     }
   }
 }

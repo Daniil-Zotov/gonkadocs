@@ -2,7 +2,7 @@
 title: "#2154 — Decode: List of chain fixes we have to do in v0.2.18"
 source: https://github.com/gonka-ai/gonka/issues/2154
 issue_number: 2154
-synced_at: 2026-11-06T00:24:48Z
+synced_at: 2026-11-06T07:03:01Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-10-27 23:24 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-27 23:24 UTC</span>
+    <span class="issues-meta-item">Updated 2026-11-06 06:31 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
 </div>

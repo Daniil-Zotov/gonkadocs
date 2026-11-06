@@ -5,8 +5,8 @@ template: issues-main.html
 
 # Issues: devshards
 
-Issues with label **devshards**. Total: **15**.
-Updated: `2026-11-06 00:29 UTC`.
+Issues with label **devshards**. Total: **18**.
+Updated: `2026-11-06 07:06 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -15,11 +15,56 @@ Updated: `2026-11-06 00:29 UTC`.
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
+      <a href="../../02225-devshard-gateway-validate-that-reasoning-is-enabled-on-hosts/">`devshard` / `gateway`: validate that reasoning is enabled on hosts</a>
+      <span class="issues-number">#2225</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 42 minutes ago</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../02228-devshard-endpoint-cleanup-if-needed/">`devshard`: endpoint cleanup, if needed</a>
+      <span class="issues-number">#2228</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 43 minutes ago</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../02229-devshard-escrow-owner-validation-responsibilities/">`devshard`: escrow-owner validation responsibilities</a>
+      <span class="issues-number">#2229</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 43 minutes ago</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
       <a href="../../00955-p0-make-handling-of-warm-keys-deterministic-implementation/">[P0] Make handling of warm keys deterministic (implementation)</a>
       <span class="issues-number">#955</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 24 days ago</span>
       
@@ -34,7 +79,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#1542</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #7057ff; color: #ffffff; border-color: #7057ff;">good first issue</span> <span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #7057ff; color: #ffffff; border-color: #7057ff;">good first issue</span> <span class="issues-label" style="background-color: #c2e0c6; color: #24292f; border-color: #c2e0c6;">Priority: Low</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-08-30</span>
       
@@ -49,7 +94,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#915</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-07-20</span>
       
@@ -64,7 +109,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#892</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-07-20</span>
       
@@ -79,7 +124,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#913</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-07-01</span>
       
@@ -94,7 +139,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#977</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-06-01</span>
       
@@ -109,7 +154,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#893</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/Brgndy25">@Brgndy25</a> opened 2026-04-29</span>
       
@@ -124,7 +169,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#935</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-29</span>
       
@@ -139,7 +184,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#896</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #c2e0c6; color: #24292f; border-color: #c2e0c6;">Priority: Low</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a> opened 2026-04-29</span>
       
@@ -154,7 +199,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#936</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #95b500; color: #24292f; border-color: #95b500;">Priority: Low</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #c2e0c6; color: #24292f; border-color: #c2e0c6;">Priority: Low</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-29</span>
       
@@ -169,7 +214,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#976</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-21</span>
       
@@ -184,7 +229,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#899</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/heitor-lassarote">@heitor-lassarote</a> opened 2026-04-07</span>
       
@@ -199,7 +244,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#914</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-02</span>
       
@@ -214,7 +259,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#895</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-01</span>
       
@@ -229,7 +274,7 @@ Updated: `2026-11-06 00:29 UTC`.
       <span class="issues-number">#891</span>
     </div>
     
-    <div class="issues-labels"><span class="issues-label" style="background-color: #aaaaaa; color: #24292f; border-color: #aaaaaa;">devshards</span></div>
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
       <span class="issues-meta-item"><a href="https://github.com/dcastro">@dcastro</a> opened 2026-04-01</span>
       

@@ -2,7 +2,7 @@
 title: "#2153 — Ethereum bridge update"
 source: https://github.com/gonka-ai/gonka/issues/2153
 issue_number: 2153
-synced_at: 2026-11-06T00:24:49Z
+synced_at: 2026-11-06T07:03:02Z
 template: issues-main.html
 ---
 
@@ -16,9 +16,9 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-10-27 23:21 UTC</span>
     <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-27 23:21 UTC</span>
+    <span class="issues-meta-item">Updated 2026-11-06 06:31 UTC</span>
   </div>
-  <div class="issues-labels" style="margin-top: 8px;"></div>
+  <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>
 
 <div class="issues-content" markdown="1">

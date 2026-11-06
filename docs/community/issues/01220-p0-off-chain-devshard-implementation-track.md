@@ -2,7 +2,7 @@
 title: "#1220 — [P0] Off-chain / devshard implementation track"
 source: https://github.com/gonka-ai/gonka/issues/1220
 issue_number: 1220
-synced_at: 2026-11-06T00:26:03Z
+synced_at: 2026-11-06T07:04:20Z
 template: issues-main.html
 ---
 
