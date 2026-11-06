@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20261106151620_91f93726",
+    "timestamp": "2026-11-06T15:16:20.463635+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2223 — authz cache holds the global lock across signer queries (#1430 fix never landed)",
+      "url": "/community/issues/02223-authz-cache-holds-the-global-lock-across-signer-queries-1430/",
+      "file": "02223-authz-cache-holds-the-global-lock-across-signer-queries-1430.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    authz cache holds the global lock across signer queries (#1430 fix never landed)\n    <span class=\"issues-number\">#2223</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 20:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    authz cache holds the global lock across signer queries (#1430 fix never landed)\n    <span class=\"issues-number\">#2223</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 20:48 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-"
+    },
+    "ai_description": "Issue #2223 on the authz cache global lock issue now has two comments, up from zero. The discussion is picking up on a previously proposed fix that never landed, so check it out if you are hitting signer query slowdowns. Your input could help push this important performance fix through. Join the conversation and share your experience."
+  },
+  {
+    "id": "evt_20261106151620_15b602ea",
+    "timestamp": "2026-11-06T15:16:20.463686+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2231 — Multi-Model Scheduling",
+      "url": "/community/issues/02231-multi-model-scheduling/",
+      "file": "02231-multi-model-scheduling.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Multi-Model Scheduling\n    <span class=\"issues-number\">#2231</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 01:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mark",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Multi-Model Scheduling\n    <span class=\"issues-number\">#2231</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 01:18 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" markd"
+    },
+    "ai_description": "Issue #2231 on Multi-Model Scheduling just received its first comment. The discussion is now open for community input on how to improve scheduling across multiple models, so head over and share your thoughts.Issue #2231 on Multi-Model Scheduling just got its first comment, marking the start of community discussion. Jump in to share your perspective on how scheduling should evolve."
+  },
+  {
+    "id": "evt_20261106151620_5e758d30",
+    "timestamp": "2026-11-06T15:16:20.463706+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2233 — Participant registration timeout issue (improve UX)",
+      "url": "/community/issues/02233-participant-registration-timeout-issue-improve-ux/",
+      "file": "02233-participant-registration-timeout-issue-improve-ux.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Participant registration timeout issue (improve UX)\n    <span class=\"issues-number\">#2233</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:06 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Participant registration timeout issue (improve UX)\n    <span class=\"issues-number\">#2233</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:06 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi"
+    },
+    "ai_description": "Issue #2233 on participant registration timeouts has been closed by @tcharchian with a new comment added. This means the UX improvement proposal has been resolved, so check the thread for the final decision on how registration timeouts will be handled going forward. The closure marks an important step in streamlining the participant experience on the network."
+  },
+  {
     "id": "evt_20261106070651_960f7b2f",
     "timestamp": "2026-11-06T07:06:51.662464+00:00",
     "section": "issues",
@@ -7951,50 +7999,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Merge enforced_tokens\n    <span class=\"issues-number\">#319</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
     },
     "ai_description": "Issue #319 \"[P0] Merge enforced_tokens\" has been removed from the tracker. This closed task is no longer relevant, so the community can focus on active priorities. Thanks to @tcharchian for the original contribution. Stay tuned for cleaner issue tracking ahead.Issue #319 \"[P0] Merge enforced_tokens\" has been removed from our tracker as it's no longer relevant. This keeps our issue list focused on active priorities, so the community can better track what truly needs attention. Thanks to everyone who contributed to that discussion."
-  },
-  {
-    "id": "evt_20261022152143_1e0c1c02",
-    "timestamp": "2026-10-22T15:21:43.038796+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#320 — [P0] Internal TestNet: k8 / another scripts with new servers",
-      "url": null,
-      "file": "00320-p0-internal-testnet-k8-another-scripts-with-new-servers.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Internal TestNet: k8 / another scripts with new servers\n    <span class=\"issues-number\">#320</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" sty"
-    },
-    "ai_description": "Issue #320 about setting up the internal TestNet with Kubernetes scripts and new servers has been closed and removed from the feed. This task is no longer active, so the community can focus on current priorities. Thanks to @tcharchian for filing it. Stay tuned for the next updates.Issue #320 on the internal TestNet deployment with Kubernetes scripts has been closed and removed from our active feed. This task is no longer in scope, so the community can now focus on current infrastructure priorities. Thanks to @tcharchian for logging it."
-  },
-  {
-    "id": "evt_20261022152143_63d0e34d",
-    "timestamp": "2026-10-22T15:21:43.038800+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#321 — [P0] Threshold + Params for big model",
-      "url": null,
-      "file": "00321-p0-threshold-params-for-big-model.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Threshold + Params for big model\n    <span class=\"issues-number\">#321</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><"
-    },
-    "ai_description": "Issue #321 on threshold and parameter tuning for the big model has been closed and removed from the feed. This P0 task is no longer active, so the community can shift focus to other open priorities. Thanks to @tcharchian for raising it, even if it didn't gather comments. Keep an eye on the board for what's next."
-  },
-  {
-    "id": "evt_20261022152143_34181ef0",
-    "timestamp": "2026-10-22T15:21:43.038804+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#322 — [P0] Dashboard (reward fix + vesting; poc stages; total power; gpu’s; participants with logos and contacts)",
-      "url": null,
-      "file": "00322-p0-dashboard-reward-fix-vesting-poc-stages-total-power-gpus-.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Dashboard (reward fix + vesting; poc stages; total power; gpu’s; participants with logos and contacts)\n    <span class=\"issues-number\">#322</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:01 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></s"
-    },
-    "ai_description": "Issue #322 on the Dashboard has been removed from the community feed after being closed. This P0 task covered critical fixes like reward calculations, vesting, and participant visibility, so its closure signals those improvements are complete. Thanks to everyone who contributed to getting this one across the finish line. Cleaner feed, cleaner dashboard."
   }
 ]
