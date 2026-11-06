@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261106210104_09c512ee",
+    "timestamp": "2026-11-06T21:01:04.306899+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2239 — Optimize token ID handling in vLLM responses",
+      "url": "/community/issues/02239-optimize-token-id-handling-in-vllm-responses/",
+      "file": "02239-optimize-token-id-handling-in-vllm-responses.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Optimize token ID handling in vLLM responses\n    <span class=\"issues-number\">#2239</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 19:10 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261106210104_3d368128",
+    "timestamp": "2026-11-06T21:01:04.307141+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2180 — devshard: MLNode capacity is released before streaming response consumption",
+      "url": "/community/issues/02180-devshard-mlnode-capacity-is-released-before-streaming-respon/",
+      "file": "02180-devshard-mlnode-capacity-is-released-before-streaming-respon.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: MLNode capacity is released before streaming response consumption\n    <span class=\"issues-number\">#2180</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-30 07:01 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: MLNode capacity is released before streaming response consumption\n    <span class=\"issues-number\">#2180</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-30 07:01 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><spa"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261106151620_91f93726",
     "timestamp": "2026-11-06T15:16:20.463635+00:00",
     "section": "issues",
@@ -7969,35 +8001,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Epoch length\n    <span class=\"issues-number\">#317</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div c"
     },
     "ai_description": "Issue #317 on epoch length has been removed from the tracker. The closed P0 item is no longer active, so the community can focus on current priorities without this lingering distraction. If the epoch length concern resurfaces, it will need to be reopened as a fresh proposal.Issue #317 on epoch length has been closed and removed from the tracker, signaling that this P0 concern is no longer on the active agenda. With it cleared, the community can now redirect attention to more pressing open issues and ongoing discussions."
-  },
-  {
-    "id": "evt_20261022152143_16a50267",
-    "timestamp": "2026-10-22T15:21:43.038787+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#318 — [P0] Merge MLNode upgrades + docs",
-      "url": null,
-      "file": "00318-p0-merge-mlnode-upgrades-docs.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Merge MLNode upgrades + docs\n    <span class=\"issues-number\">#318</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>"
-    },
-    "ai_description": "Issue #318 has been closed and removed from the tracker. The MLNode upgrade merge, along with its documentation, is complete, so no further action is needed from the community on this priority task. Thanks to everyone who contributed to getting this shipped. 🚀\n\n(Note: I couldn't find specific comments or funding details to mention, so I kept it general and celebratory.)"
-  },
-  {
-    "id": "evt_20261022152143_75588ea2",
-    "timestamp": "2026-10-22T15:21:43.038792+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#319 — [P0] Merge enforced_tokens",
-      "url": null,
-      "file": "00319-p0-merge-enforced-tokens.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Merge enforced_tokens\n    <span class=\"issues-number\">#319</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
-    },
-    "ai_description": "Issue #319 \"[P0] Merge enforced_tokens\" has been removed from the tracker. This closed task is no longer relevant, so the community can focus on active priorities. Thanks to @tcharchian for the original contribution. Stay tuned for cleaner issue tracking ahead.Issue #319 \"[P0] Merge enforced_tokens\" has been removed from our tracker as it's no longer relevant. This keeps our issue list focused on active priorities, so the community can better track what truly needs attention. Thanks to everyone who contributed to that discussion."
   }
 ]

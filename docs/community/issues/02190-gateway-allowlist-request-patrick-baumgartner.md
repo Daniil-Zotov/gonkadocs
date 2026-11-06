@@ -2,7 +2,7 @@
 title: "#2190 — Gateway allowlist request: Patrick Baumgartner"
 source: https://github.com/gonka-ai/gonka/issues/2190
 issue_number: 2190
-synced_at: 2026-11-06T15:10:21Z
+synced_at: 2026-11-06T20:57:05Z
 template: issues-main.html
 ---
 

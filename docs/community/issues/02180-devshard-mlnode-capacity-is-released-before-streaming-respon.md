@@ -2,7 +2,7 @@
 title: "#2180 — devshard: MLNode capacity is released before streaming response consumption"
 source: https://github.com/gonka-ai/gonka/issues/2180
 issue_number: 2180
-synced_at: 2026-11-06T15:10:14Z
+synced_at: 2026-11-06T20:56:47Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 2026-10-30 07:01 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-11-04 06:16 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-06 18:12 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
 </div>
@@ -62,7 +62,7 @@ The finding is separate from [gateway quarantine recovery](https://github.com/go
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -78,6 +78,17 @@ Planned fix:
 -The release runs even if the request context was cancelled.
 -The fallback path (doWithFallbackNodes) frees its local capacity slot the same way.
 -The test from #2183 is the regression test, with extra cases for a stream that breaks mid-way, a cancelled request and the fallback path.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/startupcompliancekit">@startupcompliancekit</a></span>
+    <span class="issues-meta-item">commented 2026-11-06 18:12 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Is any unclaimed, separately rewarded work still available on #2180 now that #2213 includes the lifecycle fix and the follow-up from Ryanchen911/gonka#5?</p>
+<p>If maintainers need independent integration/regression validation, I can take a bounded task covering delayed streams, capacity-one concurrent admission, completion/read-error/cancellation cleanup, and known/unknown passive fallback against the current fix. This is an offer to cover an agreed remaining task, not a claim that those tests are missing from #2213.</p>
+<p>Before I start, please confirm the remaining deliverable and acceptance criteria, target branch, and stablecoin reward amount with its review and Host-approval conditions. If the existing PR covers all available work and no additional paid scope remains, please confirm that so duplicate work can be avoided.</p>
   </div>
 </div>
 
