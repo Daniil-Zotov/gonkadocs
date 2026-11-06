@@ -3,7 +3,7 @@ title: "#1388 — External Test Lab & Community DevNet"
 source: https://github.com/gonka-ai/gonka/discussions/1388
 discussion_number: 1388
 category: protocol-improvements
-synced_at: 2026-11-06T02:16:28Z
+synced_at: 2026-11-06T10:42:52Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1388](https://github.com/gonka-ai/gonka/discussions/1388) every hour. 

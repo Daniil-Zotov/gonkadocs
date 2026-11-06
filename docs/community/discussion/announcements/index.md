@@ -4,7 +4,7 @@ title: ":mega: Announcements"
 
 # :mega: Announcements
 
-Дискуссии в категории **:mega: Announcements**. Всего: **1**. Обновлено: `2026-11-06 02:16 UTC`.
+Дискуссии в категории **:mega: Announcements**. Всего: **1**. Обновлено: `2026-11-06 10:43 UTC`.
 
 [← ко всем категориям](../index.md)
 

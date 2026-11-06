@@ -3,7 +3,7 @@ title: "#1764 — Proposal #82: External Test Lab & Community DevNet — M2 Repo
 source: https://github.com/gonka-ai/gonka/discussions/1764
 discussion_number: 1764
 category: governance-proposal-reports
-synced_at: 2026-11-06T02:16:28Z
+synced_at: 2026-11-06T10:42:52Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1764](https://github.com/gonka-ai/gonka/discussions/1764) every hour. 
