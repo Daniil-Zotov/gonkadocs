@@ -2,7 +2,7 @@
 title: "#1909 — Devshard work-coin payouts bypass WorkVestingPeriod on late-settle and unsettled-prune paths (diverges from tokenomics.md)"
 source: https://github.com/gonka-ai/gonka/issues/1909
 issue_number: 1909
-synced_at: 2026-11-05T18:50:32Z
+synced_at: 2026-11-06T00:25:34Z
 template: issues-main.html
 ---
 

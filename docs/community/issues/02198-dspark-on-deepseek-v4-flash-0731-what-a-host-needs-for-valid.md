@@ -2,7 +2,7 @@
 title: "#2198 — DSpark on DeepSeek-V4-Flash-0731: what a host needs for valid answers and votes"
 source: https://github.com/gonka-ai/gonka/issues/2198
 issue_number: 2198
-synced_at: 2026-11-05T18:49:42Z
+synced_at: 2026-11-06T00:24:29Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/redstartechno">@redstartechno</a> opened 2026-11-02 05:22 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-02 05:22 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-05 19:27 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -113,6 +113,63 @@ Over about 22 hours of that epoch: no OOM, EngineDead, traceback or restart, and
 3. If 1 is yes, we can follow up with: a capability check in `mlnode/packages/api/Dockerfile` (the `vllm.validation.V2_ENFORCED_TOKENS` marker from the vLLM PR, in place of the V1 assert); a section under "Deployment requirements" in `docs/chat-api/deepseek-v4-flash-0731.md`; and an opt-in node-config in `deploy/join/`. Would you want these?
 4. Would you take a plugin change that passes `chunk` to `compute_prefill_artifacts` (`gonka_poc/poc/prefill_path.py`)? It already accepts the argument but its caller does not pass it. Splitting PoC batches would remove the coupling in requirement 4 for every host, with or without DSpark.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/redstartechno">@redstartechno</a></span>
+    <span class="issues-meta-item">commented 2026-11-05 19:27 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>An update to this issue: a correction, a plan, and three questions. @vbgd0, it touches decode PoC and #2215, so you may be the right person to answer.</p>
+<p><strong>Correction.</strong> "What this does not solve" says a DSpark host is usable while the prefill scheme is live. That is incomplete. From v0.2.17 the first confirmation PoC of each epoch runs decode as a trial (#2036; <code>ConfirmationRecipe</code> in <code>inference-chain/x/inference/types/poc_scheme.go</code>). Decode PoC runs only on the V1 runner (gonka-ai/vllm#116), and DSpark runs only on V2 (<code>vllm/config/vllm.py</code>: "DSpark is implemented only by the V2 GPU model runner").</p>
+<p><strong>Why it is worth solving.</strong> The profile doc leaves speculative decoding off because its gain depends on the traffic (<code>docs/release-candidate-gpu-profile.md</code>): 1.4x to 3.9x on 20K to 45K prompts, 0.58x to 1.32x on 2K prompts at concurrency 30, PoC unchanged. On our host's real traffic we measured about 1.5x median and 2x p90 per stream. The losing case is the one vLLM's adaptive verification targets; in the fork's config checks it needs Hopper or B200/B300 and no pipeline parallelism, and we have not tested it. As an opt-in, each host can decide for its own traffic.</p>
+<p><strong>What a DSpark host has to pass, as we read the code</strong> (not tested on a GPU unless stated):</p>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Today's logprob validation</td>
+<td>Works with gonka-ai/vllm#124 and <code>processed_logprobs</code> (evidence above)</td>
+</tr>
+<tr>
+<td>Decode PoC on V2</td>
+<td>Missing; gonka-ai/vllm#115 measured batch-shape-dependent artifacts on V2</td>
+</tr>
+<tr>
+<td>Decode PoC under pipeline parallelism</td>
+<td>Missing for every pipeline-parallel host (<code>docs/mlnode-configs.md</code>). Each decode step's input embedding is seeded by the previous step's snap (<code>gonka_poc/mixed/runtime.py</code>), the snap comes from the final hidden states on the last rank, and the mixed path has no transfer back to the first rank</td>
+</tr>
+<tr>
+<td>#2215 echo validation</td>
+<td>Two gaps. V2 draws seeded noise with its own Triton Gumbel layout (<code>vllm/v1/worker/gpu/sample/gumbel.py</code>), while #2215 recomputes torch's V1 exponential draw, so we expect any V2 host to fail it, with or without DSpark. And DSpark's verification is a probability-ratio test, so its tokens leave the seed's sequence</td>
+</tr>
+</tbody>
+</table>
+<p><strong>What we plan to build</strong>, each as its own PR with tests, with GPU evidence on RTX PRO 6000 where we can get it:</p>
+<ol>
+<li>Decode PoC under pipeline parallelism: pass the previous step's snap from the last rank to the first, following the prefill PoC's pipeline-parallel path. Unless someone is already on this, we will take it.</li>
+<li>An exact-match verification mode for DSpark: the draft proposes with the target's per-position noise, and a draft token is kept only if it equals the token the seeded draw picks at that position. Given the same logits, the output then equals the non-speculative output for the same seed.</li>
+<li>After your answer on #2215: V2 drawing the same seeded noise as V1, so V2 answers land on the echo tape.</li>
+<li>After your answer on decode PoC: the decode PoC hooks on V2, once the batch-shape cause is understood.</li>
+<li>Last: the opt-in package (image capability check, node-config, docs).</li>
+</ol>
+<p><strong>Questions</strong></p>
+<ol>
+<li>Is an opt-in DSpark path wanted, with V1 and no speculation staying the default?</li>
+<li>Is the cause of the V2 batch-shape dependence in gonka-ai/vllm#115 known?</li>
+<li>For #2215: would you accept V2 matching V1's seeded noise, plus the exact-match mode above, as the way a host running speculative decoding passes the echo check?</li>
+</ol>
+  </div>
 </div>
 
 ---

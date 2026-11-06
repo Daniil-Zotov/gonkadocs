@@ -1,5 +1,69 @@
 [
   {
+    "id": "evt_20261106002912_80ddb3b9",
+    "timestamp": "2026-11-06T00:29:12.497942+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2223 — authz cache holds the global lock across signer queries (#1430 fix never landed)",
+      "url": "/community/issues/02223-authz-cache-holds-the-global-lock-across-signer-queries-1430/",
+      "file": "02223-authz-cache-holds-the-global-lock-across-signer-queries-1430.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    authz cache holds the global lock across signer queries (#1430 fix never landed)\n    <span class=\"issues-number\">#2223</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 20:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-"
+    },
+    "ai_description": "New issue #2223 reports that the authorization cache still holds a global lock during signer queries, as the fix from #1430 was never merged. This is a performance bottleneck that can stall concurrent operations, so the community should keep an eye on it and push for the proper fix to land. Thanks to @tcharchian for flagging this lingering issue."
+  },
+  {
+    "id": "evt_20261106002912_b63d6f97",
+    "timestamp": "2026-11-06T00:29:12.497962+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2225 — Validate that reasoning is enabled on hosts",
+      "url": "/community/issues/02225-validate-that-reasoning-is-enabled-on-hosts/",
+      "file": "02225-validate-that-reasoning-is-enabled-on-hosts.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Validate that reasoning is enabled on hosts\n    <span class=\"issues-number\">#2225</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 21:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
+    },
+    "ai_description": "New issue #2225 proposes adding validation to ensure reasoning is properly enabled on hosts, a key step for network reliability. This matters because silent misconfigurations can cause inference failures that are hard to trace. Thanks to @tcharchian for flagging this, it will help keep the network honest and dependable. Open for community input now."
+  },
+  {
+    "id": "evt_20261106002912_71de87d3",
+    "timestamp": "2026-11-06T00:29:12.498095+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2198 — DSpark on DeepSeek-V4-Flash-0731: what a host needs for valid answers and votes",
+      "url": "/community/issues/02198-dspark-on-deepseek-v4-flash-0731-what-a-host-needs-for-valid/",
+      "file": "02198-dspark-on-deepseek-v4-flash-0731-what-a-host-needs-for-valid.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    DSpark on DeepSeek-V4-Flash-0731: what a host needs for valid answers and votes\n    <span class=\"issues-number\">#2198</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-11-02 05:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    DSpark on DeepSeek-V4-Flash-0731: what a host needs for valid answers and votes\n    <span class=\"issues-number\">#2198</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-11-02 05:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar"
+    },
+    "ai_description": "Issue #2198 now has a new comment from the community on DSpark host requirements for DeepSeek-V4-Flash-0731. The discussion clarifies what hardware and setup is needed to produce valid answers and votes, which should help operators avoid common pitfalls. Check it out if you are running this model.Issue #2198 on DSpark host requirements for DeepSeek-V4-Flash-0731 just received its first comment from the community. The new input adds practical guidance on what infrastructure is needed to ensure valid answers and votes, helping operators avoid common misconfigurations. Worth a read if you are running this model."
+  },
+  {
+    "id": "evt_20261106002912_fac5920b",
+    "timestamp": "2026-11-06T00:29:12.498111+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error",
+      "url": "/community/issues/02221-bug-openbroker-request-bodies-above-14-kib-are-never-read-no/",
+      "file": "02221-bug-openbroker-request-bodies-above-14-kib-are-never-read-no.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error\n    <span class=\"issues-number\">#2221</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error\n    <span class=\"issues-number\">#2221</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"i"
+    },
+    "ai_description": "Issue #2221 on OpenBroker now has a new comment from the community. The bug report about request bodies over ~14 KiB being silently dropped remains open, and the added discussion may help clarify the root cause or suggest a fix. Check the thread if you are hitting this silent failure.Issue #2221 on OpenBroker now has a new comment from the community. The bug report about request bodies over ~14 KiB being silently dropped remains open, and the added discussion may help clarify the root cause or suggest a fix. Check the thread if you are hitting this silent failure."
+  },
+  {
     "id": "evt_20261105235425_88bc2ce4",
     "timestamp": "2026-11-05T23:54:25.503448+00:00",
     "section": "gonka_docs",
@@ -7923,65 +7987,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Merge Bridge\n    <span class=\"issues-number\">#332</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div c"
     },
     "ai_description": "Issue #332 \"[P1] Merge Bridge\" has been removed from the activity feed. The issue was closed with no comments, so this cleanup helps keep the board focused on active work items. Thanks for helping us maintain a clear view of current priorities. 🛠️✨\n\nNote: I've kept it to 2 sentences as requested. Let me know if you'd like any adjustments!"
-  },
-  {
-    "id": "evt_20261022152143_9aa8bc69",
-    "timestamp": "2026-10-22T15:21:43.038844+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#333 — [P1] vLLM tools",
-      "url": null,
-      "file": "00333-p1-vllm-tools.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] vLLM tools\n    <span class=\"issues-number\">#333</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cla"
-    },
-    "ai_description": "Issue #333 about vLLM tools has been closed and removed from the feed. This means the task is no longer active, so the community should focus its attention on other open priorities. Thanks to @tcharchian for raising it.Issue #333 on vLLM tools has been closed and removed from the active feed, signaling that this task is no longer in scope. The community can now redirect efforts toward open priorities, and we appreciate @tcharchian for bringing it to attention."
-  },
-  {
-    "id": "evt_20261022152143_7169432d",
-    "timestamp": "2026-10-22T15:21:43.038848+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#334 — [P1] Key Rotation & Validator info update (warm key, node-id / key,  public url)",
-      "url": null,
-      "file": "00334-p1-key-rotation-validator-info-update-warm-key-node-id-key-p.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Key Rotation & Validator info update (warm key, node-id / key,  public url)\n    <span class=\"issues-number\">#334</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class"
-    },
-    "ai_description": "Issue #334 on key rotation and validator info updates has been closed and removed from the active tracker. This P1 task, which covered warm key handling and node-id updates, is no longer on the board, so the community can focus on current priorities. Thanks to @tcharchian for raising it, and we'll keep an eye out if this resurfaces in a future iteration."
-  },
-  {
-    "id": "evt_20261022152143_8419cc17",
-    "timestamp": "2026-10-22T15:21:43.038851+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#335 — [P1] Check why we often see slashing in logs",
-      "url": null,
-      "file": "00335-p1-check-why-we-often-see-slashing-in-logs.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P1] Check why we often see slashing in logs\n    <span class=\"issues-number\">#335</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:18 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
-    },
-    "ai_description": "Issue #335 on frequent slashing events in logs has been removed from the tracker. This cleanup helps keep our issue list focused on actionable items, so we can better prioritize network reliability work. Thanks to everyone who contributed to investigating this earlier. Stay tuned for any follow-up discussions in the community.Issue #335, which tracked frequent slashing events appearing in logs, has been removed from the tracker. This cleanup keeps our issue list focused on active work, so we can better prioritize reliability improvements across the network. Thanks to the community for flagging this earlier, and we'll keep an eye on slashing behavior in future updates."
-  },
-  {
-    "id": "evt_20261022152143_2e174ea8",
-    "timestamp": "2026-10-22T15:21:43.038855+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#336 — [P1] Retry for inference + don’t send inference to inactive nodes",
-      "url": null,
-      "file": "00336-p1-retry-for-inference-dont-send-inference-to-inactive-nodes.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P1] Retry for inference + don’t send inference to inactive nodes\n    <span class=\"issues-number\">#336</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 23:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels"
-    },
-    "ai_description": "Issue #336 on retrying inference and avoiding inactive nodes has been closed and removed from the feed. This means the proposed reliability improvements have been resolved or dropped, so keep an eye on the network for alternative solutions to these stability concerns. Thanks to everyone who weighed in on the discussion.Issue #336 on retry logic for inference and filtering inactive nodes has been closed and removed from the feed. This means the proposed reliability improvement has been resolved or dropped, so the network will continue relying on its current routing behavior. Thanks to @tcharchian for flagging this important stability concern."
   }
 ]

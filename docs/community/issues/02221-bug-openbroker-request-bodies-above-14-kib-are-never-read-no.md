@@ -2,7 +2,7 @@
 title: "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error"
 source: https://github.com/gonka-ai/gonka/issues/2221
 issue_number: 2221
-synced_at: 2026-11-05T18:49:31Z
+synced_at: 2026-11-06T00:24:27Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/ludmilavasilievna3-cmd">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-05 16:05 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-05 22:32 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #d73a4a; color: #ffffff; border-color: #d73a4a;">bug</span></div>
 </div>
@@ -60,6 +60,110 @@ Evidence links:
 
 Request: confirm whether a ~14 KiB body limit or read buffer is intentional; if so, return 413 and document it; if not, the edge in front of 142.132.231.149 appears to stop draining the request body.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
+    <span class="issues-meta-item">commented 2026-11-05 22:30 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hello, @ludmilavasilievna3-cmd </p>
+<p>We could not reproduce a body-size cutoff on <code>POST https://api.openbroker.gonka.gg/v1/chat/completions</code>.</p>
+<p>There is no ~14 KB read limit. The same request shape from the report (<code>zai-org/GLM-5.3-Flash</code>, <code>max_tokens</code> 8, one user message padded with <code>x</code>, 20 s client timeout) was sent at the two exact sizes, over both HTTP/2 and HTTP/1.1.</p>
+<p>With an invalid key (<code>Bearer sk-invalid-test</code>):</p>
+<table>
+<thead>
+<tr>
+<th>Body</th>
+<th>Result</th>
+<th>Time</th>
+<th>Bytes uploaded</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14008</td>
+<td>401</td>
+<td>0.21–0.29 s</td>
+<td>14008</td>
+</tr>
+<tr>
+<td>14408</td>
+<td>401</td>
+<td>0.24–0.31 s</td>
+<td>14408</td>
+</tr>
+</tbody>
+</table>
+<p>The 401 is the bad key. It is returned before the body is used. Curl did not time out, and the full body was uploaded.</p>
+<p>With a valid OpenBroker key, same model and <code>max_tokens</code> 8:</p>
+<table>
+<thead>
+<tr>
+<th>Body</th>
+<th>Result</th>
+<th>Time</th>
+<th>Bytes uploaded</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14008</td>
+<td>200</td>
+<td>1.5 s</td>
+<td>14008</td>
+</tr>
+<tr>
+<td>14408</td>
+<td>200</td>
+<td>9.8 s</td>
+<td>14408</td>
+</tr>
+<tr>
+<td>80008</td>
+<td>200</td>
+<td>2.4 s</td>
+<td>80008</td>
+</tr>
+<tr>
+<td>200008</td>
+<td>200</td>
+<td>3.5 s</td>
+<td>200008</td>
+</tr>
+</tbody>
+</table>
+<p>Each 200 was a real completion (<code>finish_reason: length</code>). <code>POST /health</code> with an 18 KB body returns 405 in about 0.3 s. Nothing in this range is dropped, and a request rejected for a bad key is not billed.</p>
+<p>If you still see <code>curl (28)</code> only above ~14 KB, that is on the client-code side of the connection. A proxy that keeps uploading after the server has already answered, and does not read the response until the upload finishes, will block once its buffer fills and then report a timeout with no body. From this API those sizes get a normal status line.</p>
+<p>Also, we attached the test script that can be ran with a valid OBK api key.
+<code>OPENBROKER_API_KEY='obk-...' python3 openbroker_body_size_check.py</code></p>
+<p>Test report:</p>
+<pre><code>&gt; POST https://api.openbroker.gonka.gg/v1/chat/completions
+&gt; timeout 20 s
+&gt; ok    invalid 14008 h2              http 401      0.012130s  uploaded 14008    source openbroker    expect 401
+&gt; ok    invalid 14008 h1              http 401      0.009832s  uploaded 14008    source openbroker    expect 401
+&gt; ok    invalid 14408 h2              http 401      0.010042s  uploaded 14408    source openbroker    expect 401
+&gt; ok    invalid 14408 h1              http 401      0.010590s  uploaded 14408    source openbroker    expect 401
+&gt; ok    extra /health 18000           http 405      0.010419s  uploaded 18000    source -             expect 405
+&gt; ok    extra /v1/models 18000        http 405      0.017727s  uploaded 18000    source -             expect 405
+&gt; ok    extra /v1/nonexistent 18000   http 405      0.014436s  uploaded 18000    source -             expect 405
+&gt; valid key prefix obk-c030b3c378
+&gt; ok    valid 14008 h2                http 200      1.228530s  uploaded 14008    source -             expect 200
+&gt; ok    valid 14408 h2                http 200      0.105048s  uploaded 14408    source -             expect 200
+&gt; ok    valid 80008 h2                http 200      0.149533s  uploaded 80008    source -             expect 200
+&gt; ok    valid 200008 h2               http 200      19.904983s  uploaded 200008   source -             expect 200
+&gt; pass
+</code></pre>
+<p>The 200008 byte completion finished in 19.9 seconds, just inside the 20 second limit, and still returned 200.</p>
+<p>Looking forward to investigate further if the issue is not cleared,
+Gonka Labs team.</p>
+<p><a href="https://github.com/user-attachments/files/34451284/openbroker_body_size_check.py">openbroker_body_size_check.py</a></p>
+  </div>
 </div>
 
 ---

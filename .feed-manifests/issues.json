@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-05T18:56:15.805004+00:00",
+  "snapshot_time": "2026-11-06T00:34:07.272721+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4544,10 +4544,12 @@
     "02198-dspark-on-deepseek-v4-flash-0731-what-a-host-needs-for-valid.md": {
       "title": "#2198 — DSpark on DeepSeek-V4-Flash-0731: what a host needs for valid answers and votes",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    DSpark on DeepSeek-V4-Flash-0731: what a host needs for valid answers and votes\n    <span class=\"issues-number\">#2198</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-11-02 05:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "537ea3649eb7340b8802688b485c2d9a271363248e3b710294a31dd59b7f3009"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    DSpark on DeepSeek-V4-Flash-0731: what a host needs for valid answers and votes\n    <span class=\"issues-number\">#2198</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-11-02 05:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"mar",
+      "comment_checksum": "77f52084222d1801fbf980bd447e8cba6dea8332ebf1cc20d0dca84e0ed5868f",
+      "comment_bodies": [
+        "An update to this issue: a correction, a plan, and three questions. @vbgd0, it touches decode PoC and #2215, so you may be the right person to answer. Correction. \"What this does not solve\" says a DSpark host is usable while the prefill scheme is live. That is incomplete. From v0.2.17 the first confirmation PoC of each epoch runs decode as a trial (#2036; ConfirmationRecipe in inference-chain/x/in"
+      ],
+      "checksum": "efd37a365f980860f7eb5050647bb9e4d973d00f080f76fdc2cfe3773d7692bb"
     },
     "02201-dapi-final-window-storecommit-can-land-in-the-same-block-as-.md": {
       "title": "#2201 — dapi: final-window StoreCommit can land in the same block as the previous one and is rejected (only one commit per block allowed)",
@@ -4601,10 +4603,28 @@
     "02221-bug-openbroker-request-bodies-above-14-kib-are-never-read-no.md": {
       "title": "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error\n    <span class=\"issues-number\">#2221</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error\n    <span class=\"issues-number\">#2221</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"i",
+      "comment_checksum": "5709f90e8c8130f120b412e1eef44ec9bba791a9a90e775ae8f1f0fe4dd66da3",
+      "comment_bodies": [
+        "Hello, @ludmilavasilievna3-cmd We could not reproduce a body-size cutoff on POST https://api.openbroker.gonka.gg/v1/chat/completions. There is no ~14 KB read limit. The same request shape from the report (zai-org/GLM-5.3-Flash, max_tokens 8, one user message padded with x, 20 s client timeout) was sent at the two exact sizes, over both HTTP/2 and HTTP/1.1. With an invalid key (Bearer sk-invalid-te"
+      ],
+      "checksum": "936ac7377110967553e1fd84560be4a83b248bdb32ad84281dd78935d364bbb7"
+    },
+    "02223-authz-cache-holds-the-global-lock-across-signer-queries-1430.md": {
+      "title": "#2223 — authz cache holds the global lock across signer queries (#1430 fix never landed)",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    authz cache holds the global lock across signer queries (#1430 fix never landed)\n    <span class=\"issues-number\">#2223</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 20:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-",
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
-      "checksum": "92c9b36e7851253dc06339fdd4dd76aecc2e78f230ef7070e019acdba4957ada"
+      "checksum": "b582f1a60ee8a04c74b34a011a8fe72dbd7a33ebdb76ee314274ebb56b4680ba"
+    },
+    "02225-validate-that-reasoning-is-enabled-on-hosts.md": {
+      "title": "#2225 — Validate that reasoning is enabled on hosts",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Validate that reasoning is enabled on hosts\n    <span class=\"issues-number\">#2225</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-05 21:34 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "91ed39b89f6744148798d9adbaf1cd6a4ba576042e36c60f8082196c80efaad1"
     }
   }
 }

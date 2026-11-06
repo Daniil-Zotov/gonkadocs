@@ -2,7 +2,7 @@
 title: "#1229 — Request for phased DevShards creator allowlist access for local gateway MVP validation"
 source: https://github.com/gonka-ai/gonka/issues/1229
 issue_number: 1229
-synced_at: 2026-11-05T18:51:29Z
+synced_at: 2026-11-06T00:26:35Z
 template: issues-main.html
 ---
 
