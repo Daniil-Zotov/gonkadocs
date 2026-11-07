@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-06T21:01:36.733057+00:00",
+  "snapshot_time": "2026-11-07T01:06:41.081791+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3904,12 +3904,13 @@
     "01821-cosmos-sdk-fork-security-v0218.md": {
       "title": "#1821 — Cosmos SDK / fork security v0.2.18",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Cosmos SDK / fork security v0.2.18\n    <span class=\"issues-number\">#1821</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 02:35 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"ba",
-      "comment_checksum": "1d2cbd7465300a5e71f9cb046cce49703c20da745d6898a468d88debacb9427f",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Cosmos SDK / fork security v0.2.18\n    <span class=\"issues-number\">#1821</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 02:35 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b",
+      "comment_checksum": "2538f86b2488a49d82ab1a36f7d132047862dde03cb9c6326fa32901a81ac473",
       "comment_bodies": [
-        "Local test pass over the fork PRs listed here, since the fork's own CI doesn't run them (every job on outside PRs sits action_required/cancelled, and most jobs were cancelled on #18 too). Environment: WSL, go1.24.2, gonka-ai/cosmos-sdk release/v0.53.x @ c8229ef61 (= v0.53.3-ps19-observability, the tag inference-chain pins). Details are in each PR: gonka-ai/cosmos-sdk#19 (ValidatorByConsAddr → (nil"
+        "Local test pass over the fork PRs listed here, since the fork's own CI doesn't run them (every job on outside PRs sits action_required/cancelled, and most jobs were cancelled on #18 too). Environment: WSL, go1.24.2, gonka-ai/cosmos-sdk release/v0.53.x @ c8229ef61 (= v0.53.3-ps19-observability, the tag inference-chain pins). Details are in each PR: gonka-ai/cosmos-sdk#19 (ValidatorByConsAddr → (nil",
+        "https://github.com/gonka-ai/cosmos-sdk/pull/26"
       ],
-      "checksum": "3d9ab8b46cc8b97f6b5a47e0319cab8b68a3380de441db0b463f139ce4d9ed8d"
+      "checksum": "4d4652c205178d028553d08f2082a1a688cb179ad2cf41a244f4dfcd24608098"
     },
     "01822-devshard-missing-finish.md": {
       "title": "#1822 — `devshard`: Missing Finish",
@@ -4677,10 +4678,13 @@
     "02234-maintenance-window-review-activation.md": {
       "title": "#2234 — Maintenance window: Review & activation",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Maintenance window: Review & activation\n    <span class=\"issues-number\">#2234</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "82397b741b06b978bb5f5d8aadfc2bc68b031488117465482984bc974743c9de"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Maintenance window: Review & activation\n    <span class=\"issues-number\">#2234</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:14 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty",
+      "comment_checksum": "b7bc0cb25e6038c2e3e4905858659de647edf4bbf7a249d65053e4d5baf9b358",
+      "comment_bodies": [
+        "1850 is relevant here. With current params the confirmation PoC trigger comes 281 blocks before evaluation, and the schedule lead is only 100 blocks, so a host that sees the trigger can still put a 1-block window on the evaluation block and be skipped by it. The PR rejects any window that covers an in-progress evaluation.",
+        "One thing to fix first, in ClaimRewards: a window touching an epoch at all (a single block at its end is enough) currently skips the missed-validation check for the entire epoch. Once claim_validation_enabled is on as well, default credit params let a host validate in just 1 epoch out of 21. My PR #2212 limits the waiver to inferences created inside the window."
+      ],
+      "checksum": "55f906c0bce54e02e66e15efab60ab7e598bf4cb4279ada1a16e8bb6a374e0fb"
     },
     "02239-optimize-token-id-handling-in-vllm-responses.md": {
       "title": "#2239 — Optimize token ID handling in vLLM responses",
@@ -4689,6 +4693,46 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "8b45691d788824fc044c0425dd1545bc48a9732f1bbed1acf6662f038bf6f7ec"
+    },
+    "02240-explore-delegation-across-multiple-nodes.md": {
+      "title": "#2240 — Explore delegation across multiple nodes",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Explore delegation across multiple nodes\n    <span class=\"issues-number\">#2240</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 22:42 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"is",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "5362c62c67eef1ec6626b16428050ada1a56ec6dff55ea4d84dcd88b133326f0"
+    },
+    "02241-perf-grpc-caching.md": {
+      "title": "#2241 — perf: gRPC caching",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    perf: gRPC caching\n    <span class=\"issues-number\">#2241</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 22:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "57df981aa51f8c2266c91ed7f4d6e82d8f9a39b36b2fa5e4c15f9728a62d2485"
+    },
+    "02242-long-running-poc-v2-improvements-and-future-direction.md": {
+      "title": "#2242 — Long-running PoC v2: improvements and future direction",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Long-running PoC v2: improvements and future direction\n    <span class=\"issues-number\">#2242</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 22:53 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "285f88b925f0e9ec33a2621eb5952c913c3171c7f711cb22a63809dd669894ca"
+    },
+    "02243-discussion-idea-automatically-create-an-intent-when-launchin.md": {
+      "title": "#2243 — Discussion idea: automatically create an intent when launching a node",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Discussion idea: automatically create an intent when launching a node\n    <span class=\"issues-number\">#2243</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 22:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\">",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "98c8120aa38b5f63353e1be53557ae6f1ad580d2aa0e9564a12033438467a0ff"
+    },
+    "02244-discussion-tx-fees-enable-the-remaining-groups.md": {
+      "title": "#2244 — [Discussion] Tx fees: enable the remaining groups?",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [Discussion] Tx fees: enable the remaining groups?\n    <span class=\"issues-number\">#2244</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 23:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "2416110dfe7228a54db474fd9ce3083a83e18b63a97a1f75f19aedfa922b0cfd"
     }
   }
 }

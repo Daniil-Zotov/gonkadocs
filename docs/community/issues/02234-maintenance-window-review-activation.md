@@ -2,7 +2,7 @@
 title: "#2234 — Maintenance window: Review & activation"
 source: https://github.com/gonka-ai/gonka/issues/2234
 issue_number: 2234
-synced_at: 2026-11-06T20:56:55Z
+synced_at: 2026-11-07T00:58:37Z
 template: issues-main.html
 ---
 
@@ -15,14 +15,37 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-11-06 06:14 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-06 06:14 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-06 22:45 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #c2e0c6; color: #24292f; border-color: #c2e0c6;">Priority: Low</span></div>
 </div>
 
 <div class="issues-content" markdown="1">
 *(empty)*
+</div>
+
+---
+
+## 💬 Comments (2)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/cyberdelamain">@cyberdelamain</a></span>
+    <span class="issues-meta-item">commented 2026-11-06 22:24 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <h1>1850 is relevant here. With current params the confirmation PoC trigger comes 281 blocks before evaluation, and the schedule lead is only 100 blocks, so a host that sees the trigger can still put a 1-block window on the evaluation block and be skipped by it. The PR rejects any window that covers an in-progress evaluation.</h1>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/maksimenkoff">@maksimenkoff</a></span>
+    <span class="issues-meta-item">commented 2026-11-06 22:45 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>One thing to fix first, in ClaimRewards: a window touching an epoch at all (a single block at its end is enough) currently skips the missed-validation check for the entire epoch. Once claim_validation_enabled is on as well, default credit params let a host validate in just 1 epoch out of 21. My PR #2212 limits the waiver to inferences created inside the window.</p>
+  </div>
 </div>
 
 ---

@@ -2,7 +2,7 @@
 title: "#440 — All the old keys from the cluster entered the new epoch, even though that cluster was deleted"
 source: https://github.com/gonka-ai/gonka/issues/440
 issue_number: 440
-synced_at: 2026-11-06T21:00:08Z
+synced_at: 2026-11-07T01:01:28Z
 template: issues-main.html
 ---
 

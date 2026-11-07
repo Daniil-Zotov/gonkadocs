@@ -2,7 +2,7 @@
 title: "#1821 — Cosmos SDK / fork security v0.2.18"
 source: https://github.com/gonka-ai/gonka/issues/1821
 issue_number: 1821
-synced_at: 2026-11-06T20:57:12Z
+synced_at: 2026-11-07T00:58:58Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-09-22 02:35 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-10-27 19:26 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-06 23:35 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
 </div>
@@ -44,7 +44,7 @@ Needs thorough testing before merge.
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -66,6 +66,15 @@ Needs thorough testing before merge.
 - <code>tests/integration/{distribution,evidence,gov,slashing,staking}</code></p>
 <p>The failures I traced are stock-SDK expectations of paths the fork disabled on purpose: <code>MsgDelegate</code>/<code>MsgUndelegate</code>/<code>MsgBeginRedelegate</code>/<code>MsgCancelUnbondingDelegation</code> return "is disabled", <code>RemoveValidatorTokensAndShares is disabled after genesis in Proof of Compute mode</code>, and the no-op bank keeper leaves balances untouched. I haven't classified all 69, and <code>types</code>/<code>legacybech32</code> in particular I didn't look into. In this state the unit suites can't flag a regression, because every package that matters is already red.</p>
 <p>If it's useful, I can open a test-only PR against <code>release/v0.53.x</code> that marks the by-design divergences with <code>t.Skip</code> and a one-line reason each, and lists anything that doesn't fit that pattern for someone to look at. That would make a green baseline to test fork patches against. Happy to take a different approach if you'd rather delete those tests or keep them as they are.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-11-06 23:35 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>https://github.com/gonka-ai/cosmos-sdk/pull/26</p>
   </div>
 </div>
 

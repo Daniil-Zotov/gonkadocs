@@ -1,5 +1,117 @@
 [
   {
+    "id": "evt_20261107010212_b8ca7fce",
+    "timestamp": "2026-11-07T01:02:12.743715+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2240 — Explore delegation across multiple nodes",
+      "url": "/community/issues/02240-explore-delegation-across-multiple-nodes/",
+      "file": "02240-explore-delegation-across-multiple-nodes.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Explore delegation across multiple nodes\n    <span class=\"issues-number\">#2240</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 22:42 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"is"
+    },
+    "ai_description": "A new issue #2240 has been opened by @tcharchian to explore delegation across multiple nodes, inviting the community to consider how staking and compute power could be distributed more flexibly. This is a forward-looking discussion that could shape how the network handles resource allocation and resilience. Jump in with your thoughts if you have ideas on multi-node delegation."
+  },
+  {
+    "id": "evt_20261107010212_2c2c57a1",
+    "timestamp": "2026-11-07T01:02:12.743745+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2241 — perf: gRPC caching",
+      "url": "/community/issues/02241-perf-grpc-caching/",
+      "file": "02241-perf-grpc-caching.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    perf: gRPC caching\n    <span class=\"issues-number\">#2241</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 22:48 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"background-color:"
+    },
+    "ai_description": "New issue #2241 opened by @tcharchian proposes adding caching to gRPC calls to reduce latency and network overhead. This performance improvement could help the network handle higher inference loads more efficiently, so it's worth giving it a look. Head over to the issue to share your thoughts if you're interested."
+  },
+  {
+    "id": "evt_20261107010212_910f7c57",
+    "timestamp": "2026-11-07T01:02:12.743762+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2242 — Long-running PoC v2: improvements and future direction",
+      "url": "/community/issues/02242-long-running-poc-v2-improvements-and-future-direction/",
+      "file": "02242-long-running-poc-v2-improvements-and-future-direction.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Long-running PoC v2: improvements and future direction\n    <span class=\"issues-number\">#2242</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 22:53 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n"
+    },
+    "ai_description": "New issue #2242 is now open, outlining a roadmap for improvements and the future direction of the long-running proof-of-concept v2. This is a key step for gathering community input on how to evolve the testnet experience, so check it out and share your thoughts. The issue is open for discussion, with no comments yet, making it a blank canvas for your feedback."
+  },
+  {
+    "id": "evt_20261107010212_f704c22c",
+    "timestamp": "2026-11-07T01:02:12.743778+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2243 — Discussion idea: automatically create an intent when launching a node",
+      "url": "/community/issues/02243-discussion-idea-automatically-create-an-intent-when-launchin/",
+      "file": "02243-discussion-idea-automatically-create-an-intent-when-launchin.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Discussion idea: automatically create an intent when launching a node\n    <span class=\"issues-number\">#2243</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 22:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\">"
+    },
+    "ai_description": "New discussion opened by @tcharchian: proposal to automatically create an intent when launching a node. This could streamline onboarding by removing a manual step for operators, worth weighing in on if you run nodes. Check issue #2243 and share your thoughts.New discussion opened by @tcharchian proposing to automatically create an intent when launching a node. This could streamline the setup process and reduce manual steps for operators, so your input is welcome. Jump into issue #2243 to share your perspective."
+  },
+  {
+    "id": "evt_20261107010212_2f4586d8",
+    "timestamp": "2026-11-07T01:02:12.743792+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2244 — [Discussion] Tx fees: enable the remaining groups?",
+      "url": "/community/issues/02244-discussion-tx-fees-enable-the-remaining-groups/",
+      "file": "02244-discussion-tx-fees-enable-the-remaining-groups.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [Discussion] Tx fees: enable the remaining groups?\n    <span class=\"issues-number\">#2244</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 23:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div"
+    },
+    "ai_description": "A new discussion issue (#2244) has been opened by @tcharchian to explore enabling the remaining transaction fee groups on the network. This is an open call for community input, so jump in with your thoughts on the proposal and its potential impact. Your feedback will help shape whether and how these fees are activated."
+  },
+  {
+    "id": "evt_20261107010212_20da69e4",
+    "timestamp": "2026-11-07T01:02:12.744003+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1821 — Cosmos SDK / fork security v0.2.18",
+      "url": "/community/issues/01821-cosmos-sdk-fork-security-v0218/",
+      "file": "01821-cosmos-sdk-fork-security-v0218.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Cosmos SDK / fork security v0.2.18\n    <span class=\"issues-number\">#1821</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 02:35 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"ba",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Cosmos SDK / fork security v0.2.18\n    <span class=\"issues-number\">#1821</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 02:35 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b"
+    },
+    "ai_description": "Issue #1821 on Cosmos SDK fork security has a new comment added, bringing the discussion to two comments total. The issue remains open, so the community is still actively weighing in on the security considerations for this version. Check it out if you're tracking fork-related risks in the Cosmos ecosystem.Issue #1821 on Cosmos SDK fork security v0.2.18 has received a new comment, bringing the discussion to two total. The issue remains open, so the conversation is still active — worth checking out if you're tracking fork-related risks in the ecosystem."
+  },
+  {
+    "id": "evt_20261107010212_0876725e",
+    "timestamp": "2026-11-07T01:02:12.744038+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2234 — Maintenance window: Review & activation",
+      "url": "/community/issues/02234-maintenance-window-review-activation/",
+      "file": "02234-maintenance-window-review-activation.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Maintenance window: Review & activation\n    <span class=\"issues-number\">#2234</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Maintenance window: Review & activation\n    <span class=\"issues-number\">#2234</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:14 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty"
+    },
+    "ai_description": "Issue #2234 on the maintenance window review and activation has been updated, with the comment count rising from 0 to 2. This signals active community discussion has begun on the proposal, so check in to share your input on the next steps. New feedback is coming in, so stay tuned for the latest perspectives on this topic."
+  },
+  {
     "id": "evt_20261106210104_09c512ee",
     "timestamp": "2026-11-06T21:01:04.306899+00:00",
     "section": "issues",
@@ -7896,110 +8008,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG: minor] devshard-gateway healthcheck uses curl, which the image does not contain → container permanently unhealthy\n    <span class=\"issues-number\">#2085</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-22 11:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n"
     },
     "ai_description": "New issue #2085 has been opened by @maria-mitina, flagging a minor bug where the devshard-gateway container healthcheck depends on curl, but the image doesn't include it, leaving the container permanently unhealthy. This is a quick fix worth addressing to keep node monitoring accurate and reliable."
-  },
-  {
-    "id": "evt_20261022152143_c161f154",
-    "timestamp": "2026-10-22T15:21:43.038737+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#310 — BUG-1: Preserved node disabling",
-      "url": null,
-      "file": "00310-bug-1-preserved-node-disabling.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    BUG-1: Preserved node disabling\n    <span class=\"issues-number\">#310</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-01 18:19 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"backg"
-    },
-    "ai_description": "Issue #310 about preserved node disabling has been removed from the community feed. This bug report, which tracked a problem with nodes staying active when they should be disabled, is no longer visible to the community. If you were following this issue, please check the repository directly for any updates or resolution. Removing it helps keep the feed focused on active, relevant discussion."
-  },
-  {
-    "id": "evt_20261022152143_d61c9741",
-    "timestamp": "2026-10-22T15:21:43.038743+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#311 — BUG-2: Local MLNode identifier & MLNode lookup in wrong group",
-      "url": null,
-      "file": "00311-bug-2-local-mlnode-identifier-mlnode-lookup-in-wrong-group.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    BUG-2: Local MLNode identifier & MLNode lookup in wrong group\n    <span class=\"issues-number\">#311</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gmorgachev\">@gmorgachev</a> opened 2025-09-02 09:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
-    },
-    "ai_description": "Issue #311 about the local MLNode identifier and lookup being in the wrong group has been removed from the feed. This closed bug report is no longer tracked here, which helps keep our activity stream focused on active discussions and ongoing work. Thanks to the team for cleaning up the backlog.Issue #311, which tracked a bug where the local MLNode identifier and lookup were placed in the wrong group, has been removed from the feed. This closed report is no longer relevant to our active work, keeping the community focused on current development. Great to see the backlog tidied up."
-  },
-  {
-    "id": "evt_20261022152143_bf4e938a",
-    "timestamp": "2026-10-22T15:21:43.038747+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#313 — [P0] Negative balance panic",
-      "url": null,
-      "file": "00313-p0-negative-balance-panic.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Negative balance panic\n    <span class=\"issues-number\">#313</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:43 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
-    },
-    "ai_description": "Issue #313 on negative balance panics has been removed from the board, signaling the team considers it resolved or no longer relevant. Keeping the tracker clean helps us focus on active problems, so thanks to @tcharchian for flagging it originally. Stay tuned for more updates. (Note: no funding was tied to this issue.)"
-  },
-  {
-    "id": "evt_20261022152143_842fb8a5",
-    "timestamp": "2026-10-22T15:21:43.038751+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#314 — [P0] Make Seed derived from private key",
-      "url": null,
-      "file": "00314-p0-make-seed-derived-from-private-key.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Make Seed derived from private key\n    <span class=\"issues-number\">#314</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\""
-    },
-    "ai_description": "Issue #314 on deriving the seed from a private key has been removed from the tracker. This P0 item is no longer active, so the community should not expect work on this specific approach going forward. Stay tuned for any updates that might reshape this requirement.Issue #314 on deriving the seed from a private key has been removed from the tracker, signaling a shift in priorities. This P0 item is no longer on the table, so the community can focus on the current roadmap instead. Watch for any future discussions that might revisit this approach."
-  },
-  {
-    "id": "evt_20261022152143_a7fde57b",
-    "timestamp": "2026-10-22T15:21:43.038767+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#315 — [P0] Move config to DB (like seed, etc)",
-      "url": null,
-      "file": "00315-p0-move-config-to-db-like-seed-etc.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Move config to DB (like seed, etc)\n    <span class=\"issues-number\">#315</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\""
-    },
-    "ai_description": "Issue #315 about moving configuration to the database has been closed and removed from the tracker. The proposal to store configs like seed values in the DB is no longer being tracked, so the community can consider this task resolved or deprioritized. Stay tuned for updates on how configuration will be handled going forward.Issue #315, which proposed moving configuration to the database, has been closed and removed from the tracker. This means the idea is no longer under active consideration, so the community can shift focus to other priorities. If you were tracking this change, you can now consider it settled."
-  },
-  {
-    "id": "evt_20261022152143_519bdf81",
-    "timestamp": "2026-10-22T15:21:43.038770+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#316 — [P0] Missing validation and inference request threshold adjustment / stattest",
-      "url": null,
-      "file": "00316-p0-missing-validation-and-inference-request-threshold-adjust.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Missing validation and inference request threshold adjustment / stattest\n    <span class=\"issues-number\">#316</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"i"
-    },
-    "ai_description": "Issue #316 about missing validation and inference request threshold adjustment has been closed and removed from the tracker. This likely means the underlying problem was resolved or deprioritized, so the community can shift focus to more active work items. Thanks to @tcharchian for flagging it initially.Issue #316 on missing validation and inference request threshold adjustment has been closed and removed from the tracker. It looks like the underlying concern was resolved or deprioritized, so the community can focus on active work items. Thanks to @tcharchian for raising it."
-  },
-  {
-    "id": "evt_20261022152143_951a6b58",
-    "timestamp": "2026-10-22T15:21:43.038782+00:00",
-    "section": "issues",
-    "action": "deleted",
-    "item": {
-      "title": "#317 — [P0] Epoch length",
-      "url": null,
-      "file": "00317-p0-epoch-length.md"
-    },
-    "details": {
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [P0] Epoch length\n    <span class=\"issues-number\">#317</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2025-09-03 22:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div c"
-    },
-    "ai_description": "Issue #317 on epoch length has been removed from the tracker. The closed P0 item is no longer active, so the community can focus on current priorities without this lingering distraction. If the epoch length concern resurfaces, it will need to be reopened as a fresh proposal.Issue #317 on epoch length has been closed and removed from the tracker, signaling that this P0 concern is no longer on the active agenda. With it cleared, the community can now redirect attention to more pressing open issues and ongoing discussions."
   }
 ]
