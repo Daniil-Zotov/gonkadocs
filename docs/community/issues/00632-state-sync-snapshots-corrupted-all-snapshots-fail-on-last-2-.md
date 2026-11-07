@@ -2,7 +2,7 @@
 title: "#632 — State sync snapshots corrupted - all snapshots fail on last 2 chunks (826-827/827)"
 source: https://github.com/gonka-ai/gonka/issues/632
 issue_number: 632
-synced_at: 2026-11-07T01:00:29Z
+synced_at: 2026-11-07T07:19:54Z
 template: issues-main.html
 ---
 

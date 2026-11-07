@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-07T01:06:41.081791+00:00",
+  "snapshot_time": "2026-11-07T07:22:42.153113+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -3482,10 +3482,12 @@
     "01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-.md": {
       "title": "#1671 — chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)\n    <span class=\"issues-number\">#1671</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-28 20:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "b9717bd55b151400da888755a5eb8ba8abd94f9856afe8755a09c2cdef60b749"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)\n    <span class=\"issues-number\">#1671</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-28 20:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style",
+      "comment_checksum": "398693ce97a51fbbb79972945161426ac681de213d699765e0379776ba2b1cb6",
+      "comment_bodies": [
+        "Status check against v0.53.3-ps19-observability (pinned by main, upgrade-v0.2.16, upgrade-v0.2.17 and upgrade-v0.2.18): none of the 55 upstream commits between v0.53.3 and v0.53.8 is in the fork, either by SHA or as a cherry-pick (checked by upstream PR number, subject and patch lines). 15 of them are fixes in runtime code: upstream commit subject c49441c822 fix(crypto): validate secp256k1 pubkey "
+      ],
+      "checksum": "9c874e38deb10068d5ddd4914aae0dc5dfe89bba2ccd2965d65dfda85e31d16f"
     },
     "01677-bug-gatewaymlnode-agent-sized-prefill-hangs-or-fails-with-no.md": {
       "title": "#1677 — [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error",

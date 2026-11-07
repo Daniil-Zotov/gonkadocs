@@ -2,7 +2,7 @@
 title: "#2194 — Track LFM3 support in MLNode and Gonka PoC"
 source: https://github.com/gonka-ai/gonka/issues/2194
 issue_number: 2194
-synced_at: 2026-11-07T00:58:50Z
+synced_at: 2026-11-07T07:17:55Z
 template: issues-main.html
 ---
 

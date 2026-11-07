@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261107072158_6b3429e0",
+    "timestamp": "2026-11-07T07:21:58.206440+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#1671 — chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)",
+      "url": "/community/issues/01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-/",
+      "file": "01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)\n    <span class=\"issues-number\">#1671</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-28 20:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)\n    <span class=\"issues-number\">#1671</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-28 20:22 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
+    },
+    "ai_description": "Issue #1671 now has a new comment from the community. The discussion is ongoing around the proposed rebase of the forked cosmos-sdk from v0.53.3 to v0.53.8, which would bring in roughly five patch releases of upstream fixes. This update is important as it keeps our dependency base current and reduces technical debt for future integrations."
+  },
+  {
     "id": "evt_20261107010212_b8ca7fce",
     "timestamp": "2026-11-07T01:02:12.743715+00:00",
     "section": "issues",
@@ -7992,21 +8008,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] devshardctl: one escrow's runtime build error at startup stops the whole gateway\n    <span class=\"issues-number\">#2034</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/snevolin\">@snevolin</a> opened 2026-10-15 20:27 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
     },
     "ai_description": "A new bug report has been filed for devshardctl: a runtime build error in a single escrow can crash the entire gateway at startup. This is a critical resilience issue, as one faulty escrow should not take down the whole service. Worth prioritizing so the gateway can isolate and survive individual escrow failures."
-  },
-  {
-    "id": "evt_20261022152143_3044fb55",
-    "timestamp": "2026-10-22T15:21:43.038672+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#2085 — [BUG: minor] devshard-gateway healthcheck uses curl, which the image does not contain → container permanently unhealthy",
-      "url": "/community/issues/02085-bug-minor-devshard-gateway-healthcheck-uses-curl-which-the-i/",
-      "file": "02085-bug-minor-devshard-gateway-healthcheck-uses-curl-which-the-i.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG: minor] devshard-gateway healthcheck uses curl, which the image does not contain → container permanently unhealthy\n    <span class=\"issues-number\">#2085</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-22 11:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n"
-    },
-    "ai_description": "New issue #2085 has been opened by @maria-mitina, flagging a minor bug where the devshard-gateway container healthcheck depends on curl, but the image doesn't include it, leaving the container permanently unhealthy. This is a quick fix worth addressing to keep node monitoring accurate and reliable."
   }
 ]

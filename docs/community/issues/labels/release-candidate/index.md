@@ -6,11 +6,26 @@ template: issues-main.html
 # Issues: release-candidate
 
 Issues with label **release-candidate**. Total: **12**.
-Updated: `2026-11-07 01:02 UTC`.
+Updated: `2026-11-07 07:21 UTC`.
 
 [← All Issues](../../index.md)
 
 <ul class="issues-list">
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-/">chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)</a>
+      <span class="issues-number">#1671</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 2 hours ago</span>
+      
+    </div>
+  </div>
+</li>
 <li class="issues-list-item">
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
@@ -21,7 +36,7 @@ Updated: `2026-11-07 01:02 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span> <span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 1 hour ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 7 hours ago</span>
       
     </div>
   </div>
@@ -36,7 +51,7 @@ Updated: `2026-11-07 01:02 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 18 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 1 day ago</span>
       
     </div>
   </div>
@@ -122,21 +137,6 @@ Updated: `2026-11-07 01:02 UTC`.
     <div class="issues-title">
       <a href="../../01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n/">Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)</a>
       <span class="issues-number">#1539</span>
-    </div>
-    
-    <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 10 days ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-/">chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)</a>
-      <span class="issues-number">#1671</span>
     </div>
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
