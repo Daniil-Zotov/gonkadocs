@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-07T07:22:42.153113+00:00",
+  "snapshot_time": "2026-11-07T14:12:59.171610+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4691,10 +4691,12 @@
     "02239-optimize-token-id-handling-in-vllm-responses.md": {
       "title": "#2239 — Optimize token ID handling in vLLM responses",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Optimize token ID handling in vLLM responses\n    <span class=\"issues-number\">#2239</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 19:10 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "8b45691d788824fc044c0425dd1545bc48a9732f1bbed1acf6662f038bf6f7ec"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Optimize token ID handling in vLLM responses\n    <span class=\"issues-number\">#2239</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 19:10 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=",
+      "comment_checksum": "780c347cd44d60f79540037a6b8fa9370431a63091dc37cd949f699f2d4f40e9",
+      "comment_bodies": [
+        "I looked at where return_token_ids costs time on devshard v7 (860cd69d5) and the vLLM forks (release/v0.25.1, v0.28.0-glm53, v0.30.0-decode-int). Why it can't simply be turned off. In serving_chat.py the flag does two things: it attaches ids, and it keeps chunks whose delta_message is None (reasoning &lt;think&gt;/&lt;/think&gt;, tool-call control tokens) — if output.finish_reason is None and (not"
+      ],
+      "checksum": "e583d4d5f8a337de9a961b98a6607f735d238f3c6f6bcc41f967df45ba169d30"
     },
     "02240-explore-delegation-across-multiple-nodes.md": {
       "title": "#2240 — Explore delegation across multiple nodes",

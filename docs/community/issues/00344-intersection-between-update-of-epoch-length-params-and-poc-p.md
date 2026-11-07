@@ -2,7 +2,7 @@
 title: "#344 — Intersection between update of `epoch_length` params and PoC procedure can lead to consensus failure"
 source: https://github.com/gonka-ai/gonka/issues/344
 issue_number: 344
-synced_at: 2026-11-07T07:20:45Z
+synced_at: 2026-11-07T14:11:46Z
 template: issues-main.html
 ---
 

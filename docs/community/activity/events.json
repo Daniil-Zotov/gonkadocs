@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261107141253_2fe1c603",
+    "timestamp": "2026-11-07T14:12:53.504890+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2239 — Optimize token ID handling in vLLM responses",
+      "url": "/community/issues/02239-optimize-token-id-handling-in-vllm-responses/",
+      "file": "02239-optimize-token-id-handling-in-vllm-responses.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Optimize token ID handling in vLLM responses\n    <span class=\"issues-number\">#2239</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 19:10 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Optimize token ID handling in vLLM responses\n    <span class=\"issues-number\">#2239</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 19:10 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
+    },
+    "ai_description": "Issue #2239 on optimizing token ID handling in vLLM responses has a new comment, bringing the discussion count to one. Head over to the thread to see what was added and join the conversation.Issue #2239 on optimizing token ID handling in vLLM responses just received its first comment, bringing the discussion count to one. Check out the thread to see what was added and share your own thoughts on this optimization."
+  },
+  {
     "id": "evt_20261107072158_6b3429e0",
     "timestamp": "2026-11-07T07:21:58.206440+00:00",
     "section": "issues",
@@ -7992,21 +8008,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Mnemonic phrase transfer\n    <span class=\"issues-number\">#2033</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-15 19:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" ma"
     },
     "ai_description": "A new issue #2033 has been opened by @tcharchian proposing mnemonic phrase transfer functionality. This is an important topic for wallet recovery and key management in our decentralized network. The community should weigh in on the design and security implications of this feature. Head over to the issue to share your thoughts."
-  },
-  {
-    "id": "evt_20261022192049_a810b047",
-    "timestamp": "2026-10-22T19:20:49.450640+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#2034 — [BUG] devshardctl: one escrow's runtime build error at startup stops the whole gateway",
-      "url": "/community/issues/02034-bug-devshardctl-one-escrows-runtime-build-error-at-startup-s/",
-      "file": "02034-bug-devshardctl-one-escrows-runtime-build-error-at-startup-s.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] devshardctl: one escrow's runtime build error at startup stops the whole gateway\n    <span class=\"issues-number\">#2034</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/snevolin\">@snevolin</a> opened 2026-10-15 20:27 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
-    },
-    "ai_description": "A new bug report has been filed for devshardctl: a runtime build error in a single escrow can crash the entire gateway at startup. This is a critical resilience issue, as one faulty escrow should not take down the whole service. Worth prioritizing so the gateway can isolate and survive individual escrow failures."
   }
 ]
