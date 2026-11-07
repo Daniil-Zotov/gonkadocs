@@ -2,7 +2,7 @@
 title: "#2011 — [BUG] Wrong report for long running POC status"
 source: https://github.com/gonka-ai/gonka/issues/2011
 issue_number: 2011
-synced_at: 2026-11-07T18:51:34Z
+synced_at: 2026-11-07T22:49:28Z
 template: issues-main.html
 ---
 
