@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-11-06T23:53:44.515631+00:00",
+  "snapshot_time": "2026-11-07T03:59:14.435961+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -18,7 +18,7 @@
       "title": "Architecture",
       "status": null,
       "content_preview": "# Architecture\n\n## Inference flow across Gonka\n\nThe diagram and description below outline how inference requests travel through Gonka, a decentralized network designed to balance performance with cryptographic guarantees. \nGonka only records transactions and artifacts for inference validation. The actual computation happens off-chain.\n\nInference requests move across independent Hosts (all network participants, not a central scheduler). The system is decentralized, with no single point directing inference requests to the network nodes. In practice, each Host deploys at least two nodes: \n\n- Network Node handles communication and consists of: \n    - a Chain Node that connects to the blockchain\n    - an API Node that manages user requests\n- One or more ML Nodes (inference) which perform LLM in",
-      "checksum": "b946fa03cf5182b2d72688581197c0b462293c5632ecfd6b8a8ca556072635fa"
+      "checksum": "a43c734aeca5159113732eb48e39d00e15a798f7a2230b875a846fcf2fda99cc"
     },
     "bounty-program.md": {
       "title": "Bounty program",
@@ -156,7 +156,7 @@
       "title": "Glossary",
       "status": null,
       "content_preview": "# Glossary \n\n**AI Token** is a model-specific unit of compute that quantifies the computational cost required for training or inference operations. For instance, in the context of a QwQ-32B model (FP16, 32K context), one AI Token may represent the resources needed to process a fixed number of input and/or output tokens. AI Tokens are tightly coupled to the characteristics of the base model and reflect actual memory, FLOP, etc. \n\n**Collateral** mechanism allows participants to lock GNK coins in order to activate a portion of their already earned Proof of Compute (PoC) weight. Voting power is never derived solely from holding coins. GNK coins serve as economic collateral, not as a source of influence. Influence is earned through continuous computational contribution, while locking GNK collat",
-      "checksum": "858759c1bb61068c5cf69cc1f8f5632096c269ae41275f853588b3f45c509cbd"
+      "checksum": "d3a562fa68c0d04d6bf634ebade083d3bae26300ec8b6d8f0c69c5928d05c8d6"
     },
     "governance/creating-proposals.md": {
       "title": "How to Create and Submit a Governance Proposal on Gonka",
