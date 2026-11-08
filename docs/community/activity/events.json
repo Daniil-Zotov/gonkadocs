@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261108150155_90e2f0b0",
+    "timestamp": "2026-11-08T15:01:55.583446+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#2248 — Research milestones for split delegation (#2240) and optional launch-time intents (#2243)",
+      "url": "/community/discussion/protocol-improvements/2248-research-milestones-for-split-delegation-2240-and-optional-l/",
+      "file": "protocol-improvements/2248-research-milestones-for-split-delegation-2240-and-optional-l.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #2248](https://github.com/gonka-ai/gonka/discussions/2248) every hour. \n\n# Research milestones for split delegation (#2240) and optional launch-time intents (#2243)\n\n**Автор:** [@startupcompliancekit](https://github.com/startupcompliancekit) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-08 07:42 UTC · \n\n---\n\n## 📝 Описание\n\nI propose two bounded research milestones for #2240 and #2243, with designs, compatibility analysis and reproducible local simulations. These would establish implementation requirements before changing protocol behavior.\n\nFor #2240, the deliverable would distinguish governance voting authorization, fractional voting choices and stake delegation; trace the current implementation; specify fractional allocation, per"
+    },
+    "ai_description": "A new research milestone proposal has been added to the Discussions section, outlining two bounded studies for split delegation and optional launch-time intents. The goal is to map current implementation details and run local simulations before any protocol changes, ensuring we fully understand compatibility and requirements first. This is a solid step toward making these improvements safely and reproducibly."
+  },
+  {
     "id": "evt_20261108103735_4d691ad7",
     "timestamp": "2026-11-08T10:37:35.975209+00:00",
     "section": "issues",
@@ -7991,21 +8007,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v7 should account inferences, not nonces\n    <span class=\"issues-number\">#1992</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-13 18:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style="
     },
     "ai_description": "A new issue #1992 has been opened by @a-kuprin proposing that the upcoming v7 protocol version should track actual inferences performed rather than nonces. This is an important design consideration for the community, as it suggests a shift in how usage and rewards are accounted for on the network. Worth keeping an eye on as the discussion develops."
-  },
-  {
-    "id": "evt_20261022192049_cb387a1f",
-    "timestamp": "2026-10-22T19:20:49.450590+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1994 — Letter to the Founders of Gonka:",
-      "url": "/community/issues/01994-letter-to-the-founders-of-gonka/",
-      "file": "01994-letter-to-the-founders-of-gonka.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Letter to the Founders of Gonka:\n    <span class=\"issues-number\">#1994</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/nikolay2828\">@nikolay2828</a> opened 2026-10-14 03:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-c"
-    },
-    "ai_description": "New issue #1994 has been opened by @nikolay2828 with a letter addressed to the Gonka founders. The issue is currently open with no comments yet, so it's a fresh call for the team's attention. Head over to read the full letter and share your thoughts if you want to weigh in on the discussion."
   }
 ]

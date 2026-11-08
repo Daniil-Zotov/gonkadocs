@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-11-08T07:12:56.197020+00:00",
+  "snapshot_time": "2026-11-08T15:02:42.544758+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -511,6 +511,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1990](https://github.com/gonka-ai/gonka/discussions/1990) every hour. \n\n# BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens of Protected Data\n\n**Автор:** [@nikolay2828](https://github.com/nikolay2828) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-10-13 10:17 UTC · \n\n---\n\n## 📝 Описание\n\nLetter to the Founders of Gonka:\n[Gonka-FINAL-EN.pdf](https://github.com/user-attachments/files/33379435/Gonka-FINAL-EN.pdf)\n[BioFi   DeSci Core for Gonka  Patient-Sovereign Confidential Health Comput1e.md](https://github.com/user-attachments/files/33379604/BioFi.DeSci.Core.for.Gonka.Patient-Sovereign.Confidential.Health.Comput1e.md)\n\n---\n\n## 💬 Комментарии (1)\n\n### Комментарий 1 — [@nikolay2828](https://github.com/nikolay2828)\n\n*2026-10-13",
       "checksum": "6ee4846e925f9767d20046b16141127e26c241748f511bf9b9d381ff57548cbd"
+    },
+    "protocol-improvements/2248-research-milestones-for-split-delegation-2240-and-optional-l.md": {
+      "title": "#2248 — Research milestones for split delegation (#2240) and optional launch-time intents (#2243)",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2248](https://github.com/gonka-ai/gonka/discussions/2248) every hour. \n\n# Research milestones for split delegation (#2240) and optional launch-time intents (#2243)\n\n**Автор:** [@startupcompliancekit](https://github.com/startupcompliancekit) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-08 07:42 UTC · \n\n---\n\n## 📝 Описание\n\nI propose two bounded research milestones for #2240 and #2243, with designs, compatibility analysis and reproducible local simulations. These would establish implementation requirements before changing protocol behavior.\n\nFor #2240, the deliverable would distinguish governance voting authorization, fractional voting choices and stake delegation; trace the current implementation; specify fractional allocation, per",
+      "checksum": "b73da9d6c490590b943ed5e45a1f1d62d7822e939c37acf4e90c352fce875258"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "#796 — Are there plans to add prompt-level confidentiality for hosts?",
