@@ -3,7 +3,7 @@ title: "#1742 — Proposal #102: Ratify Quant Mesh Limited as the Ledger Integra
 source: https://github.com/gonka-ai/gonka/discussions/1742
 discussion_number: 1742
 category: governance-proposal-reports
-synced_at: 2026-11-08T19:33:13Z
+synced_at: 2026-11-08T23:38:48Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1742](https://github.com/gonka-ai/gonka/discussions/1742) every hour. 
