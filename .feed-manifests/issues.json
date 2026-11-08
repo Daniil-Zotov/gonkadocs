@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-08T02:36:26.135020+00:00",
+  "snapshot_time": "2026-11-08T10:39:22.382494+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -2690,10 +2690,10 @@
       ],
       "checksum": "80fce7e5718e5e1cfe2bfee0858372db7a9ca9cfd5d7401475f5728e10bbc3b7"
     },
-    "01219-p0-basic-primitives-for-training.md": {
-      "title": "#1219 — [P0] Basic primitives for training",
+    "01219-p0-basic-primitives-for-training-stage-1-stage-2.md": {
+      "title": "#1219 — [P0] Basic primitives for training: stage 1 + stage 2",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training\n    <span class=\"issues-number\">#1219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training: stage 1 + stage 2\n    <span class=\"issues-number\">#1219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"iss",
       "comment_checksum": "29e98c5edee55e0b12921140198d8494a9e5a77581a0009dd1e7503e12a6dd74",
       "comment_bodies": [
         "Here's the draft plan and draft of the first-stage PR: Plan (draft): https://docs.google.com/document/d/1LLZngQ7VoIL3DVT8St40XLE8HcRcxyNXZueyzoQfWuE/edit?usp=sharing PR (stage 1): #1350 Any help is welcome, from shaping the plan to implementation and reviews",
@@ -2703,7 +2703,7 @@
         "Hi @orvionx ! Just checking in - how are you doing? Were you able to make any progress on this?",
         "@x0152 Hi, I didn't make any progress yet"
       ],
-      "checksum": "42db3d5f84ef5acf3ae58c04785129804b2f87fe17f562c3f42c7e7cfcc88567"
+      "checksum": "9c737fd4d40a853613cee977ae959b543eab953ac743db3f1416743f8d0ebc57"
     },
     "01220-p0-off-chain-devshard-implementation-track.md": {
       "title": "#1220 — [P0] Off-chain / devshard implementation track",
@@ -4737,6 +4737,14 @@
       "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "comment_bodies": [],
       "checksum": "2416110dfe7228a54db474fd9ce3083a83e18b63a97a1f75f19aedfa922b0cfd"
+    },
+    "02247-p0-basic-primitives-for-training-stage-3.md": {
+      "title": "#2247 — [P0] Basic primitives for training: stage 3",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training: stage 3\n    <span class=\"issues-number\">#2247</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-08 07:13 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "afac33948f406e7df481ce6de2c8c192409cc11517e3ca8fe6f7a6caf93e2468"
     }
   }
 }

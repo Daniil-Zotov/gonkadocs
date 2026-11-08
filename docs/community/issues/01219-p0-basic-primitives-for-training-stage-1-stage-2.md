@@ -1,22 +1,22 @@
 ---
-title: "#1219 — [P0] Basic primitives for training"
+title: "#1219 — [P0] Basic primitives for training: stage 1 + stage 2"
 source: https://github.com/gonka-ai/gonka/issues/1219
 issue_number: 1219
-synced_at: 2026-11-08T02:34:07Z
+synced_at: 2026-11-08T10:33:41Z
 template: issues-main.html
 ---
 
 <div class="issues-detail-header">
   <h1 class="issues-detail-title">
     <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-    [P0] Basic primitives for training
+    [P0] Basic primitives for training: stage 1 + stage 2
     <span class="issues-number">#1219</span>
   </h1>
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>
     <span class="issues-meta-item">6 comments</span>
-    <span class="issues-meta-item">Updated 2026-09-17 23:27 UTC</span>
+    <span class="issues-meta-item">Updated 2026-11-08 07:14 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
 </div>

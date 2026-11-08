@@ -1,5 +1,52 @@
 [
   {
+    "id": "evt_20261108103735_4d691ad7",
+    "timestamp": "2026-11-08T10:37:35.975209+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#1219 — [P0] Basic primitives for training: stage 1 + stage 2",
+      "url": "/community/issues/01219-p0-basic-primitives-for-training-stage-1-stage-2/",
+      "file": "01219-p0-basic-primitives-for-training-stage-1-stage-2.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training: stage 1 + stage 2\n    <span class=\"issues-number\">#1219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"iss"
+    },
+    "ai_description": "New issue #1219 has been opened by @tcharchian, a P0 priority request for basic training primitives covering both stage 1 and stage 2. This signals a critical foundational step for the network's training pipeline, so keep an eye on the discussion as it develops. Head over to the issue to weigh in with your thoughts."
+  },
+  {
+    "id": "evt_20261108103735_9462ca01",
+    "timestamp": "2026-11-08T10:37:35.975241+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2247 — [P0] Basic primitives for training: stage 3",
+      "url": "/community/issues/02247-p0-basic-primitives-for-training-stage-3/",
+      "file": "02247-p0-basic-primitives-for-training-stage-3.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training: stage 3\n    <span class=\"issues-number\">#2247</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-08 07:13 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class="
+    },
+    "ai_description": "New issue #2247 is now open, marking stage 3 of the P0 work on basic training primitives. This is a critical next step for the network's core training capabilities, so keep an eye on it as discussions develop. Jump in with feedback if you have context on the earlier stages.New issue #2247 is now open, marking stage 3 of the P0 work on basic training primitives. This is a critical next step for the network's core training capabilities, so keep an eye on it as discussions develop. Jump in with feedback if you have context on the earlier stages."
+  },
+  {
+    "id": "evt_20261108103735_c9285032",
+    "timestamp": "2026-11-08T10:37:35.975263+00:00",
+    "section": "issues",
+    "action": "deleted",
+    "item": {
+      "title": "#1219 — [P0] Basic primitives for training",
+      "url": null,
+      "file": "01219-p0-basic-primitives-for-training.md"
+    },
+    "details": {
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Basic primitives for training\n    <span class=\"issues-number\">#1219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-21 21:56 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"b"
+    },
+    "ai_description": "Issue #1219 on basic training primitives has been removed from our tracker. This was an open P0 item with six comments, and its removal likely means the work is being handled elsewhere or has been deprioritized. Community members should check related threads to confirm next steps. Let us know if you have questions about where this task went."
+  },
+  {
     "id": "evt_20261107141253_2fe1c603",
     "timestamp": "2026-11-07T14:12:53.504890+00:00",
     "section": "issues",
@@ -7960,53 +8007,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Letter to the Founders of Gonka:\n    <span class=\"issues-number\">#1994</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/nikolay2828\">@nikolay2828</a> opened 2026-10-14 03:19 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-c"
     },
     "ai_description": "New issue #1994 has been opened by @nikolay2828 with a letter addressed to the Gonka founders. The issue is currently open with no comments yet, so it's a fresh call for the team's attention. Head over to read the full letter and share your thoughts if you want to weigh in on the discussion."
-  },
-  {
-    "id": "evt_20261022192049_4c4c4881",
-    "timestamp": "2026-10-22T19:20:49.450603+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#2016 — devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start",
-      "url": "/community/issues/02016-devshard-gateway-logprobs-optimization-override-is-ignored-a/",
-      "file": "02016-devshard-gateway-logprobs-optimization-override-is-ignored-a.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start\n    <span class=\"issues-number\">#2016</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-10-15 10:51 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
-    },
-    "ai_description": "New issue #2016 reports that the GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE environment variable stops working after the gateway's first startup, meaning the optimization override is only applied on initial launch. This is important for operators who rely on that flag to fine-tune logprob behavior, as subsequent restarts silently ignore their configuration. Please check the issue and share if you have encountered the same behavior."
-  },
-  {
-    "id": "evt_20261022192049_d31c12e3",
-    "timestamp": "2026-10-22T19:20:49.450615+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#2032 — Residual: whitespace `InferenceUrl` overwrites a live one",
-      "url": "/community/issues/02032-residual-whitespace-inferenceurl-overwrites-a-live-one/",
-      "file": "02032-residual-whitespace-inferenceurl-overwrites-a-live-one.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Residual: whitespace `InferenceUrl` overwrites a live one\n    <span class=\"issues-number\">#2032</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-15 18:01 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issu"
-    },
-    "ai_description": "New issue #2032 has been opened by @a-kuprin flagging a bug where whitespace in an InferenceUrl can overwrite a live endpoint. This is a sharp catch that could cause silent misrouting of inference requests, so it deserves community attention for a quick fix. Head over to the issue to confirm the behavior and weigh in on the best sanitization approach."
-  },
-  {
-    "id": "evt_20261022192049_9fb37fe6",
-    "timestamp": "2026-10-22T19:20:49.450628+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#2033 — Mnemonic phrase transfer",
-      "url": "/community/issues/02033-mnemonic-phrase-transfer/",
-      "file": "02033-mnemonic-phrase-transfer.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Mnemonic phrase transfer\n    <span class=\"issues-number\">#2033</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-15 19:15 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" ma"
-    },
-    "ai_description": "A new issue #2033 has been opened by @tcharchian proposing mnemonic phrase transfer functionality. This is an important topic for wallet recovery and key management in our decentralized network. The community should weigh in on the design and security implications of this feature. Head over to the issue to share your thoughts."
   }
 ]

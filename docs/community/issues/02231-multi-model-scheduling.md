@@ -2,7 +2,7 @@
 title: "#2231 — Multi-Model Scheduling"
 source: https://github.com/gonka-ai/gonka/issues/2231
 issue_number: 2231
-synced_at: 2026-11-08T02:33:09Z
+synced_at: 2026-11-08T10:33:48Z
 template: issues-main.html
 ---
 
