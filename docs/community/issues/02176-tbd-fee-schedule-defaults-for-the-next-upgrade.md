@@ -2,7 +2,7 @@
 title: "#2176 — TBD: Fee schedule defaults for the next upgrade"
 source: https://github.com/gonka-ai/gonka/issues/2176
 issue_number: 2176
-synced_at: 2026-11-07T22:49:12Z
+synced_at: 2026-11-08T02:33:23Z
 template: issues-main.html
 ---
 
