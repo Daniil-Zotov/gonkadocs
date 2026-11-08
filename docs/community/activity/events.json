@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261108212003_ac43a7b3",
+    "timestamp": "2026-11-08T21:20:03.825160+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2249 — DevShard mempool: decoded-message limits and late gossip retention",
+      "url": "/community/issues/02249-devshard-mempool-decoded-message-limits-and-late-gossip-rete/",
+      "file": "02249-devshard-mempool-decoded-message-limits-and-late-gossip-rete.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    DevShard mempool: decoded-message limits and late gossip retention\n    <span class=\"issues-number\">#2249</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-11-08 18:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
+    },
+    "ai_description": "New issue #2249 from @ilyar proposes adding decoded-message limits and late gossip retention to the DevShard mempool, aiming to tighten resource usage and improve message propagation reliability. These changes should help prevent memory overload and ensure smoother network behavior under load. Worth a look for anyone running DevShard nodes."
+  },
+  {
     "id": "evt_20261108150155_90e2f0b0",
     "timestamp": "2026-11-08T15:01:55.583446+00:00",
     "section": "discussions",
@@ -7991,21 +8007,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard: store I/O under the per-escrow Session.mu serialises all requests of an escrow under load\n    <span class=\"issues-number\">#1986</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-10-12 22:21 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\""
     },
     "ai_description": "New issue #1986 from @kaileido flags a performance bottleneck in devshard: the per-escrow Session.mu lock serialises all I/O requests under heavy load, which could throttle throughput for active escrows. Worth a look if you're running high-concurrency workloads. Head over to the tracker to weigh in on the proposed fix."
-  },
-  {
-    "id": "evt_20261022192049_773514c2",
-    "timestamp": "2026-10-22T19:20:49.450576+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1992 — v7 should account inferences, not nonces",
-      "url": "/community/issues/01992-v7-should-account-inferences-not-nonces/",
-      "file": "01992-v7-should-account-inferences-not-nonces.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v7 should account inferences, not nonces\n    <span class=\"issues-number\">#1992</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-13 18:11 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style="
-    },
-    "ai_description": "A new issue #1992 has been opened by @a-kuprin proposing that the upcoming v7 protocol version should track actual inferences performed rather than nonces. This is an important design consideration for the community, as it suggests a shift in how usage and rewards are accounted for on the network. Worth keeping an eye on as the discussion develops."
   }
 ]
