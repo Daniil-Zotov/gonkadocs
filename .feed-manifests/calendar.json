@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-11-09T03:50:40.401410+00:00",
+  "snapshot_time": "2026-11-09T08:33:26.617714+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2404,6 +2404,15 @@
       "url": "/proposals/proposals/2026-q4/115/",
       "content_preview": "Dynamic PoC coefficients were introduced in v0.2.16 with ranges limited to 10% above or below the existing static coefficients.\n\nThis proposal widens the ranges for GLM and DeepSeek so coefficient adj…",
       "checksum": "49be5fd83068094a9535161a298efa40ca6899bef85b80c037ab7e86aa554ab5"
+    },
+    "1cb275c95811029651f15dca27ee29c098c473bb29f6b627f02072ed27a1ee18": {
+      "title": "Voting ends: #116 – Approve DevShard v6 and distribute bounty rewards",
+      "date": "2026-11-11",
+      "time": "07:58 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/116/",
+      "content_preview": "Devshard v6\n\nThis proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.\n\nThe main change in …",
+      "checksum": "8779b00065b3e5df205e795ae6b9bfe37b0b6159a9e9f1308ca36c1a8ccdd76d"
     }
   }
 }
