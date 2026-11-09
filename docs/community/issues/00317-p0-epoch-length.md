@@ -2,7 +2,7 @@
 title: "#317 — [P0] Epoch length"
 source: https://github.com/gonka-ai/gonka/issues/317
 issue_number: 317
-synced_at: 2026-11-08T21:18:42Z
+synced_at: 2026-11-09T01:02:54Z
 template: issues-main.html
 ---
 
