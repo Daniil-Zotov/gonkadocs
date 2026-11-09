@@ -90,18 +90,18 @@ Recipient amounts, exclusions, and rationale are in the bounty estimation docume
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:0.0%"></div>
+    <div class="prop-tally-yes" style="width:0.3%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>50.0%</strong> (1)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (5,799)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-veto-text">Veto <strong>50.0%</strong> (1)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 2 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>0.0%</strong> (2 / 2,226,638) · Quorum <strong>25%</strong> (556,659)</span>
+    <span class="prop-tally-total-text">Total 5,799 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>0.3%</strong> (5,799 / 2,226,638) · Quorum <strong>25%</strong> (556,659)</span>
   </div>
 </div>
 
@@ -113,6 +113,7 @@ Recipient amounts, exclusions, and rationale are in the bounty estimation docume
 <table class="prop-voters">
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
+<tr><td><a href="https://gonka.gg/address/gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl" target="_blank" class="prop-voter-addr">gonka1qwfrtz…33xdkl</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1k45p6gzq6970v9u650mdl5l4r34h9dvtz2gmxt" target="_blank" class="prop-voter-addr">gonka1k45p6g…z2gmxt</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1ue6k3pcgdg2g962l2n0g8hpg3r4vf827a4hpgh" target="_blank" class="prop-voter-addr">gonka1ue6k3p…a4hpgh</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 </tbody>
