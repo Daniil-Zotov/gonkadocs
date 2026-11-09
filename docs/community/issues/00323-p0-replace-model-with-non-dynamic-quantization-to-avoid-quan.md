@@ -2,7 +2,7 @@
 title: "#323 — [P0] Replace model with non-dynamic quantization to avoid quantization mismatch"
 source: https://github.com/gonka-ai/gonka/issues/323
 issue_number: 323
-synced_at: 2026-11-09T08:10:31Z
+synced_at: 2026-11-09T18:58:52Z
 template: issues-main.html
 ---
 

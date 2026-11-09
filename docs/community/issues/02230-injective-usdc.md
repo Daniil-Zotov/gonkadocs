@@ -2,7 +2,7 @@
 title: "#2230 — Injective USDC"
 source: https://github.com/gonka-ai/gonka/issues/2230
 issue_number: 2230
-synced_at: 2026-11-09T08:06:34Z
+synced_at: 2026-11-09T18:55:18Z
 template: issues-main.html
 ---
 

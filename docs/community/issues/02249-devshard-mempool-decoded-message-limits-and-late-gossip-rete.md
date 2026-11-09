@@ -2,7 +2,7 @@
 title: "#2249 — DevShard mempool: decoded-message limits and late gossip retention"
 source: https://github.com/gonka-ai/gonka/issues/2249
 issue_number: 2249
-synced_at: 2026-11-09T08:06:20Z
+synced_at: 2026-11-09T18:55:05Z
 template: issues-main.html
 ---
 
