@@ -7,6 +7,18 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#116 – Approve DevShard v6 and distribute bounty rewards</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q4/116/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/116/</guid>
+      <pubDate>Mon, 09 Nov 2026 07:58:21 +0000</pubDate>
+      <category>Voting</category>
+      <description>Devshard v6
+
+This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.
+
+The main change in Devshard v6 is authenticated peer gRPC over HTTP/2 on InferenceUrl (Connect; HTTP/1.1 fallback while the host is still on the old wrapping). A peer authenticates once with Attach, then reuses one multiplexed connection for chat, Watch, and the other RPCs. Gzip on that path and per-peer / per-connect</description>
+    </item>
+    <item>
       <title>#115 – Activate full range Dynamic Coeff</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q4/115/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/115/</guid>

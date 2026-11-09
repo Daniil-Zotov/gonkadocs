@@ -1,0 +1,162 @@
+[
+  {
+    "@type": "/inference.inference.MsgPutDevshardApprovedVersion",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "version": {
+      "name": "v6",
+      "binary": "https://github.com/gonka-ai/gonka/releases/download/devshard%2Fv6.0.0/devshardd.zip",
+      "sha256": "531eb433392a56d009c14c63a74070cac410110f4c761437614af1a4360722e2"
+    }
+  },
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56",
+    "amount": [
+      {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "10000000000"
+      }
+    ]
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "10000000000",
+        "recipient": "gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "14500000000",
+        "recipient": "gonka1j3f2xkapx8cmczpjqcsrh7cc3peyj3ngkjv4p8"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "9000000000",
+        "recipient": "gonka1vnupswg7qz2w5k5ax6zrp02mxmln6arnvjc87h"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "19125000000",
+        "recipient": "gonka1frlfyz2wtltdy47dq3w9pwc8ruvjvlthp2lh53"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "5500000000",
+        "recipient": "gonka15u0r3mf6t7zsfuslusnyt7hsjrq357yumpe8st"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "500000000",
+        "recipient": "gonka1uqt4hue8tljwwgdkvtthyl3n8kkkqtydyns4cm"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "300000000",
+        "recipient": "gonka105ce4495mj0mwkxqeasgdzqfq5jjrfq32eza5l"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_ibc": {
+        "denom": "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4",
+        "amount": "500000000",
+        "recipient": "gonka1zqss46r6jf6dhhyaa777kc2ppvjhn0ufkx4y57"
+      }
+    },
+    "funds": []
+  },
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "85000000000000"
+      }
+    ]
+  },
+  {
+    "@type": "/inference.streamvesting.MsgBatchTransferWithVesting",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "outputs": [
+      {
+        "recipient": "gonka1ejkupq3cy6p8xd64ew2wlzveml86ckpzn9dl56",
+        "amount": [
+          {
+            "denom": "ngonka",
+            "amount": "30000000000000"
+          }
+        ]
+      },
+      {
+        "recipient": "gonka1j3f2xkapx8cmczpjqcsrh7cc3peyj3ngkjv4p8",
+        "amount": [
+          {
+            "denom": "ngonka",
+            "amount": "55000000000000"
+          }
+        ]
+      }
+    ],
+    "vesting_epochs": "365"
+  }
+]

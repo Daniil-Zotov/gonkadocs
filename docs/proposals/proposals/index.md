@@ -34,16 +34,16 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">114</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">77</span><span class="qs-desc">Passed (68%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">36</span><span class="qs-desc">Rejected (32%)</span></div>
+<div class="qs-stat total"><span class="qs-num">115</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">77</span><span class="qs-desc">Passed (67%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">36</span><span class="qs-desc">Rejected (31%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:41%"></span></span><span class="qs-value">47</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:42%"></span></span><span class="qs-value">48</span></div>
 <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:32%"></span></span><span class="qs-value">37</span></div>
-<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:18%"></span></span><span class="qs-value">20</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">20</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">5</span></div>
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">3</span></div>
 <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">2</span></div>
@@ -58,7 +58,22 @@ hide:
 <div class="prop-quarter" id="2026-q4" markdown="1">
 ## 2026-Q4
 
-*6 proposals*
+*7 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-11T07:58:21.061917426Z">
+  <div class="prop-card-header">
+    <a href="2026-q4/116/" class="prop-card-title">#116 – Approve DevShard v6 and distribute bounty rewards</a>
+    <span class="prop-vote-countdown" data-deadline="2026-11-11T07:58:21.061917426Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-11-09</span>
+    <span>Voting ends 2026-11-11</span>
+  </div>
+  <div class="prop-card-desc">Devshard v6  This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.  The main change in …</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>50.0%</strong> (1)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>50.0%</strong> (1)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>0.0%</strong> (2 / 2,226,638) · Quorum <strong>25%</strong> (556,659)</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
@@ -1621,7 +1636,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>114 proposals across 6 quarters. Last updated: 2026-11-09 07:42 UTC</em>
+<em>115 proposals across 6 quarters. Last updated: 2026-11-09 08:21 UTC</em>
 </div>
 
 <script>

@@ -1546,5 +1546,17 @@
     "tags": [
       "passed"
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #116 – Approve DevShard v6 and distribute bounty rewards",
+    "url": "/proposals/proposals/2026-q4/116/",
+    "time": "07:58 UTC",
+    "description": "Devshard v6\n\nThis proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.\n\nThe main change in …",
+    "tags": [
+      "voting"
+    ]
   }
 ]
