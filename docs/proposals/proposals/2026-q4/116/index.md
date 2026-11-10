@@ -90,18 +90,18 @@ Recipient amounts, exclusions, and rationale are in the bounty estimation docume
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:18.6%"></div>
+    <div class="prop-tally-yes" style="width:22.9%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (414,557)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (428,682)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 414,557 votes</span>
-    <span class="prop-tally-veto-text">✗ Turnout <strong>18.6%</strong> (414,557 / 2,233,602) · Quorum <strong>25%</strong> (558,400)</span>
+    <span class="prop-tally-total-text">Total 428,682 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>22.9%</strong> (428,682 / 1,869,155) · Quorum <strong>25%</strong> (467,288)</span>
   </div>
 </div>
 
