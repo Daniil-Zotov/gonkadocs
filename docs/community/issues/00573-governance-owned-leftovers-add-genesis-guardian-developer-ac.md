@@ -2,7 +2,7 @@
 title: "#573 — Governance-owned leftovers; add genesis guardian + developer access param groups"
 source: https://github.com/gonka-ai/gonka/issues/573
 issue_number: 573
-synced_at: 2026-11-09T18:58:38Z
+synced_at: 2026-11-10T02:20:00Z
 template: issues-main.html
 ---
 

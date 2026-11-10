@@ -2,7 +2,7 @@
 title: "#2173 — Gateway admin API silently ignores EOF failure threshold updates"
 source: https://github.com/gonka-ai/gonka/issues/2173
 issue_number: 2173
-synced_at: 2026-11-09T18:55:29Z
+synced_at: 2026-11-10T02:16:31Z
 template: issues-main.html
 ---
 

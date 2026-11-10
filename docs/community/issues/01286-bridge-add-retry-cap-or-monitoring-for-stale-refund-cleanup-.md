@@ -2,7 +2,7 @@
 title: "#1286 — Bridge: add retry cap or monitoring for stale refund cleanup retries"
 source: https://github.com/gonka-ai/gonka/issues/1286
 issue_number: 1286
-synced_at: 2026-11-09T18:56:26Z
+synced_at: 2026-11-10T02:17:34Z
 template: issues-main.html
 ---
 
