@@ -3,7 +3,7 @@ title: "#2248 — Research milestones for split delegation (#2240) and optional 
 source: https://github.com/gonka-ai/gonka/discussions/2248
 discussion_number: 2248
 category: protocol-improvements
-synced_at: 2026-11-10T17:41:19Z
+synced_at: 2026-11-10T23:10:10Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2248](https://github.com/gonka-ai/gonka/discussions/2248) every hour. 

@@ -3,7 +3,7 @@ title: "#864 — Proposal: Deploy Gonka AI Web Platform v1 to Production (app.go
 source: https://github.com/gonka-ai/gonka/discussions/864
 discussion_number: 864
 category: ecosystem
-synced_at: 2026-11-10T17:41:56Z
+synced_at: 2026-11-10T23:10:51Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #864](https://github.com/gonka-ai/gonka/discussions/864) every hour. 
