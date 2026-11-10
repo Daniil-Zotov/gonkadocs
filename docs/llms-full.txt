@@ -32896,7 +32896,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-115 proposals across 6 quarters. Last updated: 2026-11-10 08:01 UTC
+115 proposals across 6 quarters. Last updated: 2026-11-10 09:20 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -84173,7 +84173,7 @@ gonka105ce44…2eza5lYes 100.0%
 gonka133xdfv…ptfwuhYes 100.0%
 gonka1k45p6g…z2gmxtYes 100.0%
 gonka168rtjf…lnkns2Yes 100.0%
-gonka1ue6k3p…a4hpghNo_With_Veto 100.0%
+gonka1ue6k3p…a4hpghAbstain 100.0%
 gonka1ajmhqg…z8s939Yes 100.0%
 
 ---
