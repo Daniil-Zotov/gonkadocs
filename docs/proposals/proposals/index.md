@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-11-11</span>
   </div>
   <div class="prop-card-desc">Devshard v6  This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.  The main change in …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (498,059)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>26.6%</strong> (498,059 / 1,869,155) · Quorum <strong>25%</strong> (467,288)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (581,966)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>31.2%</strong> (581,966 / 1,867,694) · Quorum <strong>25%</strong> (466,923)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1636,7 +1636,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>115 proposals across 6 quarters. Last updated: 2026-11-10 06:40 UTC</em>
+<em>115 proposals across 6 quarters. Last updated: 2026-11-10 07:00 UTC</em>
 </div>
 
 <script>
