@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-10T02:20:20.254253+00:00",
+  "snapshot_time": "2026-11-10T10:06:14.803766+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4607,12 +4607,13 @@
     "02221-bug-openbroker-request-bodies-above-14-kib-are-never-read-no.md": {
       "title": "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error\n    <span class=\"issues-number\">#2221</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"i",
-      "comment_checksum": "5709f90e8c8130f120b412e1eef44ec9bba791a9a90e775ae8f1f0fe4dd66da3",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error\n    <span class=\"issues-number\">#2221</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"",
+      "comment_checksum": "3f17c5d32b9da44e93ff2d5286617e028b732a9fee22c8a2a851c27f0b3af85b",
       "comment_bodies": [
-        "Hello, @ludmilavasilievna3-cmd We could not reproduce a body-size cutoff on POST https://api.openbroker.gonka.gg/v1/chat/completions. There is no ~14 KB read limit. The same request shape from the report (zai-org/GLM-5.3-Flash, max_tokens 8, one user message padded with x, 20 s client timeout) was sent at the two exact sizes, over both HTTP/2 and HTTP/1.1. With an invalid key (Bearer sk-invalid-te"
+        "Hello, @ludmilavasilievna3-cmd We could not reproduce a body-size cutoff on POST https://api.openbroker.gonka.gg/v1/chat/completions. There is no ~14 KB read limit. The same request shape from the report (zai-org/GLM-5.3-Flash, max_tokens 8, one user message padded with x, 20 s client timeout) was sent at the two exact sizes, over both HTTP/2 and HTTP/1.1. With an invalid key (Bearer sk-invalid-te",
+        "Follow-up with direct measurements taken on 2026-11-10. Setup: \"curl\" directly against \"https://api.openbroker.gonka.gg/v1/chat/completions\" with a valid \"obk-…\" key — no proxy, no gateway, nothing in between. request body result (3 runs each) 32 000 B 200 33 090 B 200 — 3/3 33 290 B connection reset — 3/3, 19.4–19.5 s 80 028 B reset, 19.2 s The threshold is stable across days and identical on all"
       ],
-      "checksum": "e29486a1946db583fd72f7ec92c048a32166a780843e91aff080d1308ff5c2ba"
+      "checksum": "80de64aee2a2b9f983c65c10a58b0c746d1edea39d210ba1e364f064dea08791"
     },
     "02223-authz-cache-holds-the-global-lock-across-signer-queries-1430.md": {
       "title": "#2223 — authz cache holds the global lock across signer queries (#1430 fix never landed)",

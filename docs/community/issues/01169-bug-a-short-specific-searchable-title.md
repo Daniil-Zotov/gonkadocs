@@ -2,7 +2,7 @@
 title: "#1169 — [BUG] A short, specific, searchable title."
 source: https://github.com/gonka-ai/gonka/issues/1169
 issue_number: 1169
-synced_at: 2026-11-10T02:18:16Z
+synced_at: 2026-11-10T10:02:47Z
 template: issues-main.html
 ---
 

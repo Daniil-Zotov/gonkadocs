@@ -2,7 +2,7 @@
 title: "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error"
 source: https://github.com/gonka-ai/gonka/issues/2221
 issue_number: 2221
-synced_at: 2026-11-10T02:16:20Z
+synced_at: 2026-11-10T10:00:00Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/ludmilavasilievna3-cmd">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-11-05 22:32 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-10 09:46 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
 </div>
@@ -64,7 +64,7 @@ Request: confirm whether a ~14 KiB body limit or read buffer is intentional; if 
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -163,6 +163,51 @@ Request: confirm whether a ~14 KiB body limit or read buffer is intentional; if 
 <p>Looking forward to investigate further if the issue is not cleared,
 Gonka Labs team.</p>
 <p><a href="https://github.com/user-attachments/files/34451284/openbroker_body_size_check.py">openbroker_body_size_check.py</a></p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/ludmilavasilievna3-cmd">@ludmilavasilievna3-cmd</a></span>
+    <span class="issues-meta-item">commented 2026-11-10 09:46 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Follow-up with direct measurements taken on 2026-11-10.</p>
+<p>Setup: "curl" directly against "https://api.openbroker.gonka.gg/v1/chat/completions" with a valid "obk-…" key — no proxy, no gateway, nothing in between.</p>
+<table>
+<thead>
+<tr>
+<th>request body</th>
+<th>result (3 runs each)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>32 000 B</td>
+<td>200</td>
+</tr>
+<tr>
+<td>33 090 B</td>
+<td>200 — 3/3</td>
+</tr>
+<tr>
+<td><strong>33 290 B</strong></td>
+<td><strong>connection reset — 3/3, 19.4–19.5 s</strong></td>
+</tr>
+<tr>
+<td>80 028 B</td>
+<td>reset, 19.2 s</td>
+</tr>
+</tbody>
+</table>
+<p>The threshold is stable across days and identical on all three models (GLM-5.3-Flash, DeepSeek-V4-Flash-0731, MiniMax-M2.7). It is counted in bytes, not tokens: dense random text breaks at the same byte count as repeated characters.</p>
+<p>Note on the original report: the ~14 KB figure was measured through an intermediate proxy and does not reproduce. The numbers above are direct and reproducible.</p>
+<p>Practical consequence for agent clients: a request carrying a system prompt and tool definitions is 30–200 KB, i.e. always above the threshold. Such requests terminate at 19.5 s with no error body, while "/v1/models" answers in 0.24 s and small requests return 200. The endpoint appears healthy and fails on all agent-shaped traffic.</p>
+<p>This also makes the advertised 400K context unreachable: 33 KB is roughly 8K tokens, a small fraction of the window. For any tool-using client the service is not usable at the documented context size.</p>
+<p>Requests:</p>
+<ol>
+<li>Confirm what the ~33 KB limit is and where it applies — edge, proxy, or a per-key quota. If it is intentional, return "413" with a message and document the number; currently the client receives only a reset and cannot determine whether the request was billed.</li>
+<li>If the limit can be raised, state the conditions. At ~33 KB the 400K context advertised for these models cannot be used.</li>
+</ol>
   </div>
 </div>
 

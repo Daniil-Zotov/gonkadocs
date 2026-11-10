@@ -2,7 +2,7 @@
 title: "#2223 — authz cache holds the global lock across signer queries (#1430 fix never landed)"
 source: https://github.com/gonka-ai/gonka/issues/2223
 issue_number: 2223
-synced_at: 2026-11-10T02:16:12Z
+synced_at: 2026-11-10T10:00:13Z
 template: issues-main.html
 ---
 
