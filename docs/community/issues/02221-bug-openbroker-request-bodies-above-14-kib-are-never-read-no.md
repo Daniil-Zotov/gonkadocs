@@ -2,7 +2,7 @@
 title: "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error"
 source: https://github.com/gonka-ai/gonka/issues/2221
 issue_number: 2221
-synced_at: 2026-11-10T10:00:00Z
+synced_at: 2026-11-10T17:57:18Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/ludmilavasilievna3-cmd">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-10 09:46 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-10 12:56 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
 </div>
@@ -64,7 +64,7 @@ Request: confirm whether a ~14 KiB body limit or read buffer is intentional; if 
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -208,6 +208,90 @@ Gonka Labs team.</p>
 <li>Confirm what the ~33 KB limit is and where it applies — edge, proxy, or a per-key quota. If it is intentional, return "413" with a message and document the number; currently the client receives only a reset and cannot determine whether the request was billed.</li>
 <li>If the limit can be raised, state the conditions. At ~33 KB the 400K context advertised for these models cannot be used.</li>
 </ol>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
+    <span class="issues-meta-item">commented 2026-11-10 12:31 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@ludmilavasilievna3-cmd Hey!</p>
+<p>We measured the sizes from this follow-up directly against https://api.openbroker.gonka.gg/v1/chat/completions today (GLM-5.3-Flash, max_tokens 8, 45s client timeout, valid key).</p>
+<table>
+<thead>
+<tr>
+<th>Body</th>
+<th>Result</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>32000</td>
+<td>200</td>
+<td>3.3s</td>
+</tr>
+<tr>
+<td>33090</td>
+<td>200</td>
+<td>3.2s</td>
+</tr>
+<tr>
+<td>33290, three runs</td>
+<td>200</td>
+<td>2.5s, 0.32s, 0.30s</td>
+</tr>
+<tr>
+<td>33290, HTTP/1.1</td>
+<td>200</td>
+<td>0.33s</td>
+</tr>
+<tr>
+<td>33290, non-repeated text</td>
+<td>200</td>
+<td>2.8s</td>
+</tr>
+<tr>
+<td>80028</td>
+<td>200</td>
+<td>4.2s</td>
+</tr>
+</tbody>
+</table>
+<p>No connection reset. The full body was uploaded and each 200 was a completion with finish_reason length.</p>
+<p>The same endpoint is serving much larger prompts in production. In the 6 hours before this check, 23378 requests with at least 20000 prompt tokens returned 200, on DeepSeek-V4-Flash-0731, GLM-5.3-Flash, and MiniMax-M2.7. The largest prompt in that window was 368620 tokens.</p>
+<p>There is no ~33KB limit on this API. The edge reads the body with no size cap, and the gateway cap behind it is 10MB. A completion that is still running at 19.5s has not been rejected for size. A 200KB completion from this endpoint previously returned 200 at 19.9s, just inside a 20s client timeout.</p>
+<p>Can you provide logs / network capture results? Looks like there is something between OpenBroker infra and your client code.</p>
+<p><strong>Best regards,
+Gonka Labs team.</strong></p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gonkalabs">@gonkalabs</a></span>
+    <span class="issues-meta-item">commented 2026-11-10 12:55 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@ludmilavasilievna3-cmd just one more thing to get around</p>
+<p>Recently we've been playing around with multi-agent systems powered by Gonka inferece. And one of the tasks was to aggregate 10s of separte PCs with bot workers (each of them was connected to Proxy) in a pool. We encountered pretty similar issue on one of our ubuntu PCs that we used to call proxy (not OpenBroker, but proxy.gonka.gg, but it doesn't matter in this case).</p>
+<p>The 35 KB figure is not a limit set anywhere in the app. It is how far a request got on your network before the connection stopped being acknowledged.</p>
+<p>Small requests to OpenBroker from your machine complete normally. A body of about 2 KB returns in a few seconds, and about 8 KB still completes. A body of about 35 KB opens the connection, sends the first chunk, and then sits there until the client times out. At that point the operating system still has roughly 30–35 KB queued for send, and the other side has never acknowledged it. The same 35 KB body from another network returns in about 2 seconds for you i assume as well as it was for us. A 40 KB upload from your machine to an unrelated host also completes in about a second, so your computer can send that much data. The path from your network to OpenBroker is what stalls.</p>
+<p>Nothing in a normal app configuration caps requests at 35 KB. That size is about where the first burst of a TCP upload sits when acknowledgements stop: the kernel has accepted a chunk on the order of 32 KB, put it on the wire, and no ACK comes back. Ping packets of a full 1500 bytes reach the server, and forcing smaller TCP packets (MSS 1100) does not clear the stall, so this is not the usual “the link cannot carry a 1500-byte packet” failure.</p>
+<p>On your side, the things that produce exactly this pattern:</p>
+<ul>
+<li>The home router or the ISP modem. Stateful firewalls, “DoS protection,” and old NAT implementations often pass a short request and then drop or stop acknowledging a longer POST. PPPoE links with a broken MSS clamp do this too. A firmware update, a reboot, and a quick test with flood protection and smart QoS turned off separates a bad router from the PC.</li>
+<li>Wi-Fi, rather than the machine itself. Some Wi-Fi chips and access points mishandle a burst (TCP segmentation offload, power-save, or frame aggregation). A large send dies; a short one does not. Plugging the same PC in with Ethernet, or turning off Large Send Offload on the Wi-Fi adapter, tells you whether the radio path is the problem.</li>
+<li>Security software on the PC. Antivirus HTTPS scanning, an “internet accelerator,” or a VPN client that is only half-connected will buffer a POST and stall once the body exceeds its scan buffer. A retry with that software exited, and with any VPN disconnected, checks this.</li>
+<li>The ISP route to OpenBroker, not his LAN. If Ethernet, a clean boot, and a phone hotspot on cellular all still stall, while a hotspot or another network succeeds, your provider’s route is dropping the larger flow. Your router and PC are then doing what they should.</li>
+</ul>
+<p><strong>The useful split is three tests from the same PC, using one request that is known to be over 35 KB:</strong></p>
+<ul>
+<li>Home Wi-Fi.</li>
+<li>Ethernet to the same router.</li>
+<li>Phone hotspot, VPN off.</li>
+</ul>
+<p>If only Wi-Fi fails, it is the adapter or the access point. If Wi-Fi and Ethernet both fail but the hotspot works, it is the router or the ISP. If the hotspot fails too, it is software on the PC.</p>
   </div>
 </div>
 

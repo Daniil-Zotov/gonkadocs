@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261110180155_5f44c992",
+    "timestamp": "2026-11-10T18:01:55.901204+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2256 — Do not halt consensus when the first epoch has no eligible PoC participants",
+      "url": "/community/issues/02256-do-not-halt-consensus-when-the-first-epoch-has-no-eligible-p/",
+      "file": "02256-do-not-halt-consensus-when-the-first-epoch-has-no-eligible-p.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Do not halt consensus when the first epoch has no eligible PoC participants\n    <span class=\"issues-number\">#2256</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-10 16:41 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-to"
+    },
+    "ai_description": "A new issue #2256 has been opened by @maria-mitina to prevent consensus from halting when the first epoch lacks eligible Proof of Capacity participants. This is an important robustness fix that ensures the network can bootstrap smoothly even in edge cases where no valid PoC actors are initially available. The community should weigh in on this proposal to keep the network resilient from day one."
+  },
+  {
+    "id": "evt_20261110180155_3a05b10d",
+    "timestamp": "2026-11-10T18:01:55.901448+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error",
+      "url": "/community/issues/02221-bug-openbroker-request-bodies-above-14-kib-are-never-read-no/",
+      "file": "02221-bug-openbroker-request-bodies-above-14-kib-are-never-read-no.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error\n    <span class=\"issues-number\">#2221</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error\n    <span class=\"issues-number\">#2221</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ludmilavasilievna3-cmd\">@ludmilavasilievna3-cmd</a> opened 2026-11-05 16:05 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\""
+    },
+    "ai_description": "Issue #2221 on OpenBroker has received two new comments, bringing the total to four. The discussion is building around the bug where request bodies over roughly 14 KiB get ignored, so stay tuned for any proposed fixes or workarounds from the community. If you have hit this limit, your input could help move this forward."
+  },
+  {
     "id": "evt_20261110100521_64e34723",
     "timestamp": "2026-11-10T10:05:21.388758+00:00",
     "section": "issues",
@@ -7979,37 +8011,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Upgrade zips are built without BLST_PORTABLE: SIGILL in blst_cgo_init on x86-64 CPUs without ADX\n    <span class=\"issues-number\">#1949</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/unameisfine\">@unameisfine</a> opened 2026-10-08 17:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issue"
     },
     "ai_description": "A new bug report has been filed regarding upgrade zips being built without the BLST_PORTABLE flag, which causes SIGILL crashes on x86-64 CPUs lacking the ADX instruction set. This is important for the community because it affects users on older hardware who may encounter fatal errors during upgrades. The issue is currently open and awaiting discussion."
-  },
-  {
-    "id": "evt_20261022192049_c188838c",
-    "timestamp": "2026-10-22T19:20:49.450520+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1954 — Keplr transaction issues after Gonka chain upgrade v0.2.16",
-      "url": "/community/issues/01954-keplr-transaction-issues-after-gonka-chain-upgrade-v0216/",
-      "file": "01954-keplr-transaction-issues-after-gonka-chain-upgrade-v0216.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Keplr transaction issues after Gonka chain upgrade v0.2.16\n    <span class=\"issues-number\">#1954</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-08 21:54 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
-    },
-    "ai_description": "New issue #1954 has been opened and closed regarding Keplr transaction problems following the Gonka chain upgrade to v0.2.16. The report highlights potential compatibility concerns with the wallet after the update, so the team should verify that the latest release works smoothly with Keplr integrations. Community members are encouraged to test their transactions and report any lingering issues."
-  },
-  {
-    "id": "evt_20261022192049_0dc07c3c",
-    "timestamp": "2026-10-22T19:20:49.450537+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1968 — v0.2.17: Pay the two stuck epoch-418 bridge records, with one shared active-weight check",
-      "url": "/community/issues/01968-v0217-pay-the-two-stuck-epoch-418-bridge-records-with-one-sh/",
-      "file": "01968-v0217-pay-the-two-stuck-epoch-418-bridge-records-with-one-sh.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.17: Pay the two stuck epoch-418 bridge records, with one shared active-weight check\n    <span class=\"issues-number\">#1968</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-10 00:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style="
-    },
-    "ai_description": "A new issue #1968 has been opened for the v0.2.17 release, proposing to pay out the two stuck bridge records from epoch 418 with a single shared active-weight check. This cleanup targets a specific edge case where those records were left unresolved, and consolidating the check should streamline the payout process. Worth a look if you've been tracking bridge settlement issues."
   }
 ]

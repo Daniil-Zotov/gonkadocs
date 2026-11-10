@@ -2,7 +2,7 @@
 title: "#574 — Membership for correct epoch for Validation requests"
 source: https://github.com/gonka-ai/gonka/issues/574
 issue_number: 574
-synced_at: 2026-11-10T10:04:27Z
+synced_at: 2026-11-10T18:01:07Z
 template: issues-main.html
 ---
 
