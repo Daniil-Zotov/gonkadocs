@@ -2,7 +2,7 @@
 title: "#1992 — v7 should account inferences, not nonces"
 source: https://github.com/gonka-ai/gonka/issues/1992
 issue_number: 1992
-synced_at: 2026-11-10T17:58:10Z
+synced_at: 2026-11-10T23:31:53Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#925 — Bridge normalization issue"
 source: https://github.com/gonka-ai/gonka/issues/925
 issue_number: 925
-synced_at: 2026-11-10T17:59:49Z
+synced_at: 2026-11-10T23:34:01Z
 template: issues-main.html
 ---
 

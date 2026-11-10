@@ -2,7 +2,7 @@
 title: "#2182 — OpenBroker registration fails: POST /api/auth/send-code → 500 failed to send email"
 source: https://github.com/gonka-ai/gonka/issues/2182
 issue_number: 2182
-synced_at: 2026-11-10T17:57:41Z
+synced_at: 2026-11-10T23:31:15Z
 template: issues-main.html
 ---
 

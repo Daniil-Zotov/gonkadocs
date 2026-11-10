@@ -2,21 +2,21 @@
 title: "#2256 — Do not halt consensus when the first epoch has no eligible PoC participants"
 source: https://github.com/gonka-ai/gonka/issues/2256
 issue_number: 2256
-synced_at: 2026-11-10T17:57:18Z
+synced_at: 2026-11-10T23:30:45Z
 template: issues-main.html
 ---
 
 <div class="issues-detail-header">
   <h1 class="issues-detail-title">
-    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
     Do not halt consensus when the first epoch has no eligible PoC participants
     <span class="issues-number">#2256</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-11-10 16:41 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-11-10 16:42 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-10 21:03 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
 </div>
@@ -73,7 +73,7 @@ This does not treat `validated_weight=-1` as a pass. Epoch 1 still gets no activ
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -82,6 +82,18 @@ This does not treat `validated_weight=-1` as a pass. Epoch 1 still gets no activ
   </div>
   <div class="issues-comment-body issues-content">
     <p>@tcharchian this is needed to unblock testnet</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/maria-mitina">@maria-mitina</a></span>
+    <span class="issues-meta-item">commented 2026-11-10 20:56 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>The issue above only shifted the chain halt left and put it sooner. The rebuilt binary still ended up with a chain halt due to the root cause below. The issue above could be left alone, however fixing it could buy some time to slow models loading in mlnode and not being on time for epoc 0 and 1 POCs. </p>
+<p>The real source of the issue was validation votes -1 (fraud detected) for all hosts (including themselves) when testnet machines used mlnode ghcr.io/gonka-ai/mlnode:3.0.16@sha256:1b9b7ce55feecab837f1d7ce974fc5f377ae0a04a4fb403eeeb50130e7728ee1
+this mlnode is default on upgrade 2.16 branch. 
+after changing mlnodes to ghcr.io/gonka-ai/mlnode:4.0.0-sigma2 the root cause issue is gone, </p>
   </div>
 </div>
 
