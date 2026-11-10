@@ -22315,7 +22315,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 45Expired
 66Votes
-469.3K GNKTotal Bid
+454.8K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
@@ -22351,8 +22351,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 113.6K GNK | 2026-07-10 |
-| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 113.6K GNK | 2026-07-10 |
+| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 109.9K GNK | 2026-07-10 |
+| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 109.9K GNK | 2026-07-10 |
 | 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 0 | 0.00 GNK | 2026-06-05 |
 | 🔴 | [Bring Gonka to EBC12 as a Gold Sponsor](./29baf37b-811f-4c36-b517-66a578383f1c/) | Heydar Naghiyev | 0 | 0.00 GNK | 2026-06-04 |
 | 🔴 | [Большое видео на канале Falcon Finance (Александр Соколовский)](./550f71de-897f-4ce5-8af8-97854775f8b2/) | Дмитрий В | 0 | 0.00 GNK | 2026-05-28 |
@@ -22367,7 +22367,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-11-10 00:39 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-11-10 08:21 UTC*
 
 ---
 
@@ -27214,7 +27214,7 @@ https://t.me/gonka_hosts
 **Closes:** 2026-07-10 15:58 UTC
 **Language:** EN
 **Votes:** 2
-**Avg. Bid:** 113.6K GNK
+**Avg. Bid:** 109.9K GNK
 
 This proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.
 
@@ -30547,7 +30547,7 @@ https://youtu.be/hwX_4_v6xxI
 **Closes:** 2026-07-10 11:28 UTC
 **Language:** EN
 **Votes:** 2
-**Avg. Bid:** 113.6K GNK
+**Avg. Bid:** 109.9K GNK
 
 Gonka Media Library — Explainer Library & Platform
 Explainer series (20 ep., 40 min) + web download & self-branding platform
@@ -31572,8 +31572,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-11
   
   Devshard v6  This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.  The main change in …
-  Yes 100.0% (414,557) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
-  ✗ Turnout 18.6% (414,557 / 2,233,602) · Quorum 25% (558,400)
+  Yes 100.0% (581,966) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
+  ✓ Turnout 31.2% (581,966 / 1,867,694) · Quorum 25% (466,923)
 
   
     #115 – Activate full range Dynamic Coeff
@@ -32896,7 +32896,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-115 proposals across 6 quarters. Last updated: 2026-11-10 00:52 UTC
+115 proposals across 6 quarters. Last updated: 2026-11-10 08:01 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82218,8 +82218,8 @@ $106,250 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-11-11
   
   Devshard v6  This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.  The main change in …
-  Yes 100.0% (414,557) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
-  ✗ Turnout 18.6% (414,557 / 2,233,602) · Quorum 25% (558,400)
+  Yes 100.0% (581,966) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
+  ✓ Turnout 31.2% (581,966 / 1,867,694) · Quorum 25% (466,923)
 
   
     #115 – Activate full range Dynamic Coeff
@@ -84152,12 +84152,12 @@ Recipient amounts, exclusions, and rationale are in the bounty estimation docume
     
   
   
-    Yes 100.0% (414,557)
+    Yes 100.0% (581,966)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 414,557 votes
-    ✗ Turnout 18.6% (414,557 / 2,233,602) · Quorum 25% (558,400)
+    Total 581,966 votes
+    ✓ Turnout 31.2% (581,966 / 1,867,694) · Quorum 25% (466,923)
   
 
 Voters
@@ -84168,11 +84168,13 @@ gonka1qwfrtz…33xdklYes 100.0%
 gonka1rqm2u7…mgd53tYes 100.0%
 gonka19wskgk…ezmhjkYes 100.0%
 gonka190ey5n…qfels3Yes 100.0%
+gonka18x6wpr…8rvmw4Yes 100.0%
 gonka105ce44…2eza5lYes 100.0%
 gonka133xdfv…ptfwuhYes 100.0%
 gonka1k45p6g…z2gmxtYes 100.0%
 gonka168rtjf…lnkns2Yes 100.0%
 gonka1ue6k3p…a4hpghNo_With_Veto 100.0%
+gonka1ajmhqg…z8s939Yes 100.0%
 
 ---
 ## Messages
