@@ -31572,8 +31572,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-11
   
   Devshard v6  This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.  The main change in …
-  Yes 100.0% (5,799) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
-  ✗ Turnout 0.3% (5,799 / 2,226,638) · Quorum 25% (556,659)
+  Yes 100.0% (414,557) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
+  ✗ Turnout 18.6% (414,557 / 2,233,602) · Quorum 25% (558,400)
 
   
     #115 – Activate full range Dynamic Coeff
@@ -32896,7 +32896,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-115 proposals across 6 quarters. Last updated: 2026-11-09 17:49 UTC
+115 proposals across 6 quarters. Last updated: 2026-11-10 00:52 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82218,8 +82218,8 @@ $106,250 · Community Pool · 132,896 GNK · Gov Module
     Voting ends 2026-11-11
   
   Devshard v6  This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.  The main change in …
-  Yes 100.0% (5,799) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
-  ✗ Turnout 0.3% (5,799 / 2,226,638) · Quorum 25% (556,659)
+  Yes 100.0% (414,557) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
+  ✗ Turnout 18.6% (414,557 / 2,233,602) · Quorum 25% (558,400)
 
   
     #115 – Activate full range Dynamic Coeff
@@ -84152,12 +84152,12 @@ Recipient amounts, exclusions, and rationale are in the bounty estimation docume
     
   
   
-    Yes 100.0% (5,799)
+    Yes 100.0% (414,557)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 5,799 votes
-    ✗ Turnout 0.3% (5,799 / 2,226,638) · Quorum 25% (556,659)
+    Total 414,557 votes
+    ✗ Turnout 18.6% (414,557 / 2,233,602) · Quorum 25% (558,400)
   
 
 Voters
@@ -84165,8 +84165,13 @@ Voters
 VoterVote
 
 gonka1qwfrtz…33xdklYes 100.0%
+gonka1rqm2u7…mgd53tYes 100.0%
+gonka19wskgk…ezmhjkYes 100.0%
 gonka190ey5n…qfels3Yes 100.0%
+gonka105ce44…2eza5lYes 100.0%
+gonka133xdfv…ptfwuhYes 100.0%
 gonka1k45p6g…z2gmxtYes 100.0%
+gonka168rtjf…lnkns2Yes 100.0%
 gonka1ue6k3p…a4hpghNo_With_Veto 100.0%
 
 ---
