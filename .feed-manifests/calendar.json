@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-11-11T16:29:39.637233+00:00",
+  "snapshot_time": "2026-11-11T22:58:38.655494+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2422,6 +2422,24 @@
       "url": "/proposals/proposals/2026-q4/116/",
       "content_preview": "Devshard v6\n\nThis proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.\n\nThe main change in …",
       "checksum": "50a9866e6c73e038f0d4bc680de5f1802554475c363991a29347b7834831efcd"
+    },
+    "22c7deb1605acd9adadaf3ece56b36f5dd4439aacf9fe888b85c215014dbaf5e": {
+      "title": "Voting ends: #118 – Dev Team Funding",
+      "date": "2026-11-13",
+      "time": "17:29 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/118/",
+      "content_preview": "This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …",
+      "checksum": "8f5914d59425c9db7290fdafcceb21cf96eb1d3a63f91b11fbfc802588ea98a4"
+    },
+    "8e38adaea6631987d503a1f0bd8eb90f22435fd68b28af4b08e39b91cad3aac5": {
+      "title": "Voting ends: #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit",
+      "date": "2026-11-13",
+      "time": "16:43 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/117/",
+      "content_preview": "Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK. \n\nOf this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…",
+      "checksum": "cdc62c7b07f2fed29d0a50bd479001f90157af5e3a7d454b58cb9947b7f9a37c"
     }
   }
 }
