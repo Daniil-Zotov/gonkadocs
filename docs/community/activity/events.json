@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20261111162939_75e2290c",
+    "timestamp": "2026-11-11T16:29:39.613409+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "AMA: Эволюция токеномики Gonka",
+      "url": "None",
+      "file": "6bc25f6f68fd3ccfb2f2e2b8c3fc10e578ed4f75f1606e0248d224a737ae768a"
+    },
+    "details": {
+      "status": null,
+      "content": "Присоединяйтесь к нам в этот четверг, 12 ноября, на AMA-сессию о токеномике Gonka и её возможном развитии.\n\n🕣 Четверг, 12 ноября | 9:00 AM PT · 18:00 CET · 21:00 Дубай\n🎙 Гости: Давид Либерман (ко-криэйтор Gonka), Вадим Крутов и Дмитрий Струков (Bitfury)\n🗣 Язык: английский\n💻 Zoom: следите за обновлениями",
+      "date": "2026-11-12",
+      "time": "17:00 UTC",
+      "event_type": "ama",
+      "url": "None"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261111154437_ee68e41a",
     "timestamp": "2026-11-11T15:44:37.031759+00:00",
     "section": "gonka_docs",
@@ -8007,21 +8027,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard work-coin payouts bypass WorkVestingPeriod on late-settle and unsettled-prune paths (diverges from tokenomics.md)\n    <span class=\"issues-number\">#1909</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-10-03 00:14 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div"
     },
     "ai_description": "A new issue has been opened by @kaileido highlighting that devshard work-coin payouts bypass the WorkVestingPeriod on late-settle and unsettled-prune paths, which diverges from the tokenomics.md spec. This is a meaningful catch because it means those coins could be released without the intended vesting lock, potentially affecting token supply dynamics. The community should weigh in on whether this is a bug to fix or an intentional edge case to document."
-  },
-  {
-    "id": "evt_20261022192049_6dd25984",
-    "timestamp": "2026-10-22T19:20:49.450448+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1911 — Epoch model arguments can be overridden by equivalent local CLI spellings",
-      "url": "/community/issues/01911-epoch-model-arguments-can-be-overridden-by-equivalent-local-/",
-      "file": "01911-epoch-model-arguments-can-be-overridden-by-equivalent-local-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Epoch model arguments can be overridden by equivalent local CLI spellings\n    <span class=\"issues-number\">#1911</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-10-03 11:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
-    },
-    "ai_description": "New issue #1911 has been opened by @vitaly-andr, highlighting a potential configuration bug where epoch model arguments can be silently overridden when users pass equivalent spellings through the local CLI. This matters because it could lead to unexpected training behavior if the intended epoch settings are not applied. Worth a look for anyone running inference or training workloads with custom CLI flags."
   }
 ]
