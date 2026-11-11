@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-11-11T07:25:16.388622+00:00",
+  "snapshot_time": "2026-11-11T15:45:29.755336+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -329,8 +329,8 @@
     "network-updates.md": {
       "title": "Announcements",
       "status": null,
-      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## October 17, 2026\n\n**PROPOSAL PASSED: wider ranges for dynamic PoC coefficients**\n\nThe on-chain vote for [proposal #115](https://gonka.gg/network/proposals/115) has passed. The new allowed coefficient ranges are now recorded in the network parameters:\n\n- ",
-      "checksum": "f30b6100a5a21c071fe3f8c7e9041603a589df0d3a06ac440f554f6ca0e3ca73"
+      "content_preview": "# Announcements\n\n!!! note \"About this page\"\n\n    This page is maintained and updated by community members.\n   \n    To publish an announcement, for example, about a governance vote you started, please open a pull request in the gonka-docs repository: [https://github.com/gonka-ai/gonka-docs](https://github.com/gonka-ai/gonka-docs)\n   \n    This page is not guaranteed to be exhaustive. For the latest information, including governance vote launches and their current status, refer to on-chain data or check available explorers and dashboards.\n\n## November 11, 2026\n\n**A new version of DevShard is now available, bringing** **improvements to network performance, stability, and security.**\n\n**What's new in [v6](https://github.com/gonka-ai/gonka/releases/tag/devshard%2Fv6.0.0)**\n\n**• 30–50% higher thr",
+      "checksum": "107c319025e0a7308bd13aa272e1de89009f26c61dbdb0e2cbbe0664d32f8547"
     },
     "participant/README.md": {
       "title": "Redirecting to Host Section",
