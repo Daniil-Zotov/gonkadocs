@@ -34,14 +34,14 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">115</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">78</span><span class="qs-desc">Passed (68%)</span></div>
+<div class="qs-stat total"><span class="qs-num">117</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">78</span><span class="qs-desc">Passed (67%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">36</span><span class="qs-desc">Rejected (31%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:42%"></span></span><span class="qs-value">48</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:43%"></span></span><span class="qs-value">50</span></div>
 <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:32%"></span></span><span class="qs-value">37</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">20</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:4%"></span></span><span class="qs-value">5</span></div>
@@ -58,7 +58,36 @@ hide:
 <div class="prop-quarter" id="2026-q4" markdown="1">
 ## 2026-Q4
 
-*7 proposals*
+*9 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-13T17:29:39.951923264Z">
+  <div class="prop-card-header">
+    <a href="2026-q4/118/" class="prop-card-title">#118 – Dev Team Funding</a>
+    <span class="prop-vote-countdown" data-deadline="2026-11-13T17:29:39.951923264Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-11-11</span>
+    <span>Voting ends 2026-11-13</span>
+  </div>
+  <div class="prop-card-desc">This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+</div>
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-13T16:43:30.468794619Z">
+  <div class="prop-card-header">
+    <a href="2026-q4/117/" class="prop-card-title">#117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit</a>
+    <span class="prop-vote-countdown" data-deadline="2026-11-13T16:43:30.468794619Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-11-11</span>
+    <span>Voting ends 2026-11-13</span>
+  </div>
+  <div class="prop-card-desc">Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (851,665)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>56.5%</strong> (851,665 / 1,506,224) · Quorum <strong>25%</strong> (376,556)</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
@@ -1635,7 +1664,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>115 proposals across 6 quarters. Last updated: 2026-11-11 16:23 UTC</em>
+<em>117 proposals across 6 quarters. Last updated: 2026-11-11 18:23 UTC</em>
 </div>
 
 <script>

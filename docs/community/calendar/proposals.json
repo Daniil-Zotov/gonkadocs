@@ -1558,5 +1558,29 @@
     "tags": [
       "passed"
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #118 – Dev Team Funding",
+    "url": "/proposals/proposals/2026-q4/118/",
+    "time": "17:29 UTC",
+    "description": "This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …",
+    "tags": [
+      "voting"
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit",
+    "url": "/proposals/proposals/2026-q4/117/",
+    "time": "16:43 UTC",
+    "description": "Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK. \n\nOf this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…",
+    "tags": [
+      "voting"
+    ]
   }
 ]

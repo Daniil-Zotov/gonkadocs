@@ -1,0 +1,34 @@
+[
+  {
+    "@type": "/cosmos.authz.v1beta1.MsgExec",
+    "grantee": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "msgs": [
+      {
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "sender": "gonka1as7g7ansh8wurv22gqqa9kq7592eclt8tkyycg",
+        "contract": "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk",
+        "msg": {
+          "send": {
+            "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+            "amount": "1750000000000",
+            "msg": "e30="
+          }
+        },
+        "funds": []
+      }
+    ]
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_cw20": {
+        "contract_addr": "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk",
+        "amount": "607250000000",
+        "recipient": "gonka1as7g7ansh8wurv22gqqa9kq7592eclt8tkyycg"
+      }
+    },
+    "funds": []
+  }
+]

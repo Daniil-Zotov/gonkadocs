@@ -7,6 +7,28 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#118 – Dev Team Funding</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q4/118/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/118/</guid>
+      <pubDate>Wed, 11 Nov 2026 17:29:39 +0000</pubDate>
+      <category>Voting</category>
+      <description>This proposal is to cover two months of work on the Gonka network by MillCreek R&amp;D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, technical review and guidance for external teams, technical marketing, and support for hosts and brokers. The fee is 866,000 USDT, paid from the community pool to MillCreek in a single transfer. The two months run from November 9, 2026 through January 8, 2027. The full scope of work and the terms ar</description>
+    </item>
+    <item>
+      <title>#117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q4/117/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/117/</guid>
+      <pubDate>Wed, 11 Nov 2026 16:43:30 +0000</pubDate>
+      <category>Voting</category>
+      <description>Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK. 
+
+Of this amount, 607,250 USDT is returned to Bitfury as reimbursement for security audit contracts with HackerOne and Trail of Bits, which Bitfury paid in fiat directly to vendors, because Gonka had no legal entity at the time which both providers needed. 
+
+The remaining part of 1,142,750 USDT stays on the Community Pool. 
+
+If the proposal is not approved, none of these</description>
+    </item>
+    <item>
       <title>#116 – Approve DevShard v6 and distribute bounty rewards</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q4/116/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/116/</guid>

@@ -1,0 +1,15 @@
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_cw20": {
+        "contract_addr": "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk",
+        "amount": "866000000000",
+        "recipient": "gonka18vmr86x9pjmldpckswsfc6lpvapm6u7zm47cn2"
+      }
+    },
+    "funds": []
+  }
+]
