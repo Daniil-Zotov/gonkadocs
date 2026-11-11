@@ -4,12 +4,13 @@ title: ":speech_balloon: General"
 
 # :speech_balloon: General
 
-Дискуссии в категории **:speech_balloon: General**. Всего: **7**. Обновлено: `2026-11-11 14:04 UTC`.
+Дискуссии в категории **:speech_balloon: General**. Всего: **8**. Обновлено: `2026-11-11 21:25 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [2260](2260-proposal-118-dev-team-funding.md) | [Proposal #118: Dev Team Funding](2260-proposal-118-dev-team-funding.md) | [@gmorgachev](https://github.com/gmorgachev) | 2026-11-11 |
 | [1747](1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe.md) | [Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026](1747-proposal-reimbursement-of-expenses-for-daniil-and-david-libe.md) | [@sultee](https://github.com/sultee) | 2026-10-20 |
 | [1619](1619-phase-out-kimi-k26.md) | [Phase out Kimi K2.6](1619-phase-out-kimi-k26.md) | [@paranjko](https://github.com/paranjko) | 2026-09-07 |
 | [1304](1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | [APS for delegated wallets and agent accounts (Track 2, Project 3)](1304-aps-for-delegated-wallets-and-agent-accounts-track-2-project.md) | [@aeoess](https://github.com/aeoess) | 2026-10-20 |

@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261111212512_8650917b",
+    "timestamp": "2026-11-11T21:25:12.148988+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#2260 — Proposal #118: Dev Team Funding",
+      "url": "/community/discussion/general/2260-proposal-118-dev-team-funding/",
+      "file": "general/2260-proposal-118-dev-team-funding.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #2260](https://github.com/gonka-ai/gonka/discussions/2260) every hour. \n\n# Proposal #118: Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :speech_balloon: General · **Создано:** 2026-11-11 17:36 UTC · \n\n---\n\n## 📝 Описание\n\nDear Gonka community,\n\nI’m happy to announce that @mtvnastya and I have founded a new company, MillCreek R&D.\nWe’re building a strong team with deep expertise in the research, development, and marketing of verifiable AI, with a focus on inference and training in distributed, untrusted environments.\n\nYou might remember the[ idea](https://github.com/gonka-ai/gonka/discussions/1464) of funding a Dev Team that I brought to your attention several months ago. MillCreek is a spiritual successor to th"
+    },
+    "ai_description": "A new discussion, Proposal #118, has been posted by @gmorgachev seeking community funding to support the Dev Team behind their newly founded company, MillCreek R&D. This initiative aims to advance verifiable AI research and development, focusing on distributed inference and training in untrusted environments, building on an earlier idea the community discussed. Your input on this funding proposal will help shape the next steps for the network's growth."
+  },
+  {
     "id": "evt_20261111162939_75e2290c",
     "timestamp": "2026-11-11T16:29:39.613409+00:00",
     "section": "calendar",
@@ -8011,21 +8027,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Preserve settlement decision across restart for pending escrows\n    <span class=\"issues-number\">#1906</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/qdanik\">@qdanik</a> opened 2026-10-02 18:44 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n"
     },
     "ai_description": "A new issue #1906 has been opened by @qdanik proposing that settlement decisions for pending escrows be preserved across restarts. This matters because it would prevent loss of critical state during node reboots, ensuring fair and consistent dispute resolution in the network. Keep an eye on this one, as it touches core reliability for escrow handling."
-  },
-  {
-    "id": "evt_20261022192049_c1b04268",
-    "timestamp": "2026-10-22T19:20:49.450436+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1909 — Devshard work-coin payouts bypass WorkVestingPeriod on late-settle and unsettled-prune paths (diverges from tokenomics.md)",
-      "url": "/community/issues/01909-devshard-work-coin-payouts-bypass-workvestingperiod-on-late-/",
-      "file": "01909-devshard-work-coin-payouts-bypass-workvestingperiod-on-late-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard work-coin payouts bypass WorkVestingPeriod on late-settle and unsettled-prune paths (diverges from tokenomics.md)\n    <span class=\"issues-number\">#1909</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-10-03 00:14 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div"
-    },
-    "ai_description": "A new issue has been opened by @kaileido highlighting that devshard work-coin payouts bypass the WorkVestingPeriod on late-settle and unsettled-prune paths, which diverges from the tokenomics.md spec. This is a meaningful catch because it means those coins could be released without the intended vesting lock, potentially affecting token supply dynamics. The community should weigh in on whether this is a bug to fix or an intentional edge case to document."
   }
 ]

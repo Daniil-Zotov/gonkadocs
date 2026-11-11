@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-11-11T14:04:26.360934+00:00",
+  "snapshot_time": "2026-11-11T21:25:58.859402+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -121,6 +121,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1747](https://github.com/gonka-ai/gonka/discussions/1747) every hour. \n\n# Proposal: Reimbursement of Expenses for Daniil and David Liberman’s Participation in All-In Summit 2026\n\n**Автор:** [@sultee](https://github.com/sultee) · **Категория:** :speech_balloon: General · **Создано:** 2026-09-10 12:06 UTC · \n\n---\n\n## 📝 Описание\n\n## **Summary**\n\nWe are proposing to allocate **15,500 USDT from the Gonka Community Pool** to reimburse the cost of two tickets for **All-In Summit 2026** for Daniil and David Liberman, co-creators of the Gonka protocol.\n\nAll-In Summit will take place on **September 13–15, 2026, in Los Angeles** and will bring together more than **2,500 hand-selected attendees**, including tech founders, investors, executives, and leaders from the",
       "checksum": "93107fadd1a3653db02302c2480efa5c2bfb0aa2ea58028cafcada4fd233d6fa"
+    },
+    "general/2260-proposal-118-dev-team-funding.md": {
+      "title": "#2260 — Proposal #118: Dev Team Funding",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2260](https://github.com/gonka-ai/gonka/discussions/2260) every hour. \n\n# Proposal #118: Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :speech_balloon: General · **Создано:** 2026-11-11 17:36 UTC · \n\n---\n\n## 📝 Описание\n\nDear Gonka community,\n\nI’m happy to announce that @mtvnastya and I have founded a new company, MillCreek R&D.\nWe’re building a strong team with deep expertise in the research, development, and marketing of verifiable AI, with a focus on inference and training in distributed, untrusted environments.\n\nYou might remember the[ idea](https://github.com/gonka-ai/gonka/discussions/1464) of funding a Dev Team that I brought to your attention several months ago. MillCreek is a spiritual successor to th",
+      "checksum": "752ef02e6494722b89074d8a0a2bb1bad3d33cb6868a9e757d0a8535945eb3a9"
     },
     "governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md": {
       "title": "#1477 — Proposal #74: Gonka Labs - Monthly Report No.1",

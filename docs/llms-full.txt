@@ -21937,7 +21937,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-11-11 15:36 UTC
+2026-11-11 19:58 UTC
 
 ---
 
@@ -21991,7 +21991,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 7,775,718 GNK
+Current balance: 7,776,718 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -31593,7 +31593,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  Yes 100.0% (204,169) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 13.6% (204,169 / 1,506,224) · Quorum 25% (376,556)
 
   
     #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
@@ -31605,8 +31606,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
-  Yes 100.0% (851,665) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 56.5% (851,665 / 1,506,224) · Quorum 25% (376,556)
+  Yes 100.0% (1,055,834) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 70.1% (1,055,834 / 1,506,224) · Quorum 25% (376,556)
 
   
     #116 – Approve DevShard v6 and distribute bounty rewards
@@ -32941,7 +32942,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-117 proposals across 6 quarters. Last updated: 2026-11-11 18:23 UTC
+117 proposals across 6 quarters. Last updated: 2026-11-11 19:22 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82263,7 +82264,8 @@ Software Upgrade1
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  Yes 100.0% (204,169) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✗ Turnout 13.6% (204,169 / 1,506,224) · Quorum 25% (376,556)
 
   
     #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
@@ -82275,8 +82277,8 @@ Software Upgrade1
     Voting ends 2026-11-13
   
   Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
-  Yes 100.0% (851,665) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 56.5% (851,665 / 1,506,224) · Quorum 25% (376,556)
+  Yes 100.0% (1,055,834) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 70.1% (1,055,834 / 1,506,224) · Quorum 25% (376,556)
 
   
     #116 – Approve DevShard v6 and distribute bounty rewards
@@ -84474,24 +84476,26 @@ If the proposal is not approved, none of these transactions will take place.
     
   
   
-    Yes 100.0% (851,665)
+    Yes 100.0% (1,055,834)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 851,665 votes
-    ✓ Turnout 56.5% (851,665 / 1,506,224) · Quorum 25% (376,556)
+    Total 1,055,834 votes
+    ✓ Turnout 70.1% (1,055,834 / 1,506,224) · Quorum 25% (376,556)
   
 
 Voters
 
 VoterVote
 
+gonka19wskgk…ezmhjkYes 100.0%
 gonka133xdfv…ptfwuhYes 100.0%
 gonka1nurzpp…9rggstYes 100.0%
 gonka147qfck…4gpvz8Yes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
 gonka168rtjf…lnkns2Yes 100.0%
 gonka16dgkvx…6j0skkYes 100.0%
+gonka1ajmhqg…z8s939Yes 100.0%
 
 ---
 ## Messages
@@ -84566,6 +84570,31 @@ This proposal is to cover two months of work on the Gonka network by MillCreek R
 
 ---
 
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 100.0% (204,169)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
+    Total 204,169 votes
+    ✗ Turnout 13.6% (204,169 / 1,506,224) · Quorum 25% (376,556)
+  
+
+Voters
+
+VoterVote
+
+gonka19wskgk…ezmhjkYes 100.0%
+gonka1ajmhqg…z8s939Yes 100.0%
+
+---
 ## Messages
 
 | # | Type |
