@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20261111004829_4ab30f53",
+    "timestamp": "2026-11-11T00:48:29.654146+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Voting ends: #116 – Approve DevShard v6 and distribute bounty rewards",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #116 – Approve DevShard v6 and distribute bounty rewards",
+          "date": "2026-11-11",
+          "time": "07:58 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q4/116/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261110233629_e7acd2cd",
     "timestamp": "2026-11-10T23:36:29.523634+00:00",
     "section": "issues",
@@ -7995,21 +8019,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Route `StateSignatureContent` through `CanonicalSignedBytes`\n    <span class=\"issues-number\">#1939</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-07 14:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\""
     },
     "ai_description": "New issue #1939 from @a-kuprin proposes routing StateSignatureContent through CanonicalSignedBytes to standardize how state signatures are serialized and verified. This change would unify the signing path with canonical encoding, making state signatures more consistent and less error-prone across the network. Worth a look if you're working on consensus or state verification."
-  },
-  {
-    "id": "evt_20261022192049_38622522",
-    "timestamp": "2026-10-22T19:20:49.450496+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1943 — v0.2.17: Mark `/admin/v1/setup/report` failed when this node cannot pay one epoch of fees",
-      "url": "/community/issues/01943-v0217-mark-adminv1setupreport-failed-when-this-node-cannot-p/",
-      "file": "01943-v0217-mark-adminv1setupreport-failed-when-this-node-cannot-p.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.17: Mark `/admin/v1/setup/report` failed when this node cannot pay one epoch of fees\n    <span class=\"issues-number\">#1943</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-10-07 21:55 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
-    },
-    "ai_description": "New issue #1943 is open, proposing that v0.2.17 should mark the /admin/v1/setup/report endpoint as failed when a node cannot cover one epoch of fees. This is a practical safeguard to surface financial shortfalls early, helping node operators avoid running in a degraded state. Worth a look if you manage node economics."
   }
 ]
