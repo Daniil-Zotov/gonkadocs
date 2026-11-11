@@ -32,6 +32,40 @@ This proposal is to cover two months of work on the Gonka network by MillCreek R
 
 ---
 
+## Final Tally
+
+
+<div class="prop-tally">
+  <div class="prop-tally-bar">
+    <div class="prop-tally-yes" style="width:5.3%"></div>
+    <div class="prop-tally-no" style="width:0.0%"></div>
+    <div class="prop-tally-veto" style="width:0.0%"></div>
+    <div class="prop-tally-abstain" style="width:0.0%"></div>
+  </div>
+  <div class="prop-tally-stats">
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (79,247)</span>
+    <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
+    <span class="prop-tally-total-text">Total 79,247 votes</span>
+    <span class="prop-tally-veto-text">✗ Turnout <strong>5.3%</strong> (79,247 / 1,506,224) · Quorum <strong>25%</strong> (376,556)</span>
+  </div>
+</div>
+
+
+
+<h2 id="voters">Voters</h2>
+
+<div class="prop-voters-wrap">
+<table class="prop-voters">
+<thead><tr><th>Voter</th><th>Vote</th></tr></thead>
+<tbody>
+<tr><td><a href="https://gonka.gg/address/gonka1ajmhqgvkf76hss5xe35kcnntqqhs7r8jz8s939" target="_blank" class="prop-voter-addr">gonka1ajmhqg…z8s939</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+</tbody>
+</table>
+</div>
+
+---
 ## Messages
 
 | # | Type |
