@@ -229,7 +229,7 @@ def fetch_json(url, timeout=30):
 
 def format_balance(amount_str, denom):
     try:
-        amt = int(amount_str.split(".")[0])
+        amt = int(str(amount_str).split(".")[0])
         if denom == "ngonka":
             return f"{amt / 1_000_000_000:,.0f}"
         elif denom == USDT_IBC_DENOM:
@@ -470,7 +470,7 @@ def generate_sale_balance_line(sale_balances):
     gnk_val = format_balance(gnk, "ngonka")
     usdt_val = format_balance(usdt, USDT_IBC_DENOM)
     try:
-        gnk_raw = int(gnk.split(".")[0]) / 1_000_000_000
+        gnk_raw = int(str(gnk).split(".")[0]) / 1_000_000_000
         equiv = gnk_raw * 0.6
         equiv_str = f"{equiv:,.0f}"
     except (ValueError, TypeError):
