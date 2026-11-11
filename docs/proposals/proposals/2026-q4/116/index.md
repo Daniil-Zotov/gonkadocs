@@ -90,18 +90,18 @@ Recipient amounts, exclusions, and rationale are in the bounty estimation docume
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:31.2%"></div>
+    <div class="prop-tally-yes" style="width:28.7%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (581,966)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (610,318)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 581,966 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>31.2%</strong> (581,966 / 1,867,694) · Quorum <strong>25%</strong> (466,923)</span>
+    <span class="prop-tally-total-text">Total 610,318 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>28.7%</strong> (610,318 / 2,123,234) · Quorum <strong>25%</strong> (530,808)</span>
   </div>
 </div>
 
@@ -114,11 +114,14 @@ Recipient amounts, exclusions, and rationale are in the bounty estimation docume
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl" target="_blank" class="prop-voter-addr">gonka1qwfrtz…33xdkl</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1q60h5av2pxe6gz3edmlcvd8p36vtj7r24fm43v" target="_blank" class="prop-voter-addr">gonka1q60h5a…4fm43v</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1pckmegery0q58lghaw4av9zl2fl4nw956zsyrs" target="_blank" class="prop-voter-addr">gonka1pckmeg…6zsyrs</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1rqm2u7lxzn7r68y0drcyhag6xnckpsnfmgd53t" target="_blank" class="prop-voter-addr">gonka1rqm2u7…mgd53t</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka19wskgkz4xwwxa9s80nfx4q97w2ucmcyfezmhjk" target="_blank" class="prop-voter-addr">gonka19wskgk…ezmhjk</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka190ey5n74v0wufy408yv0ggmpghctkvhxqfels3" target="_blank" class="prop-voter-addr">gonka190ey5n…qfels3</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka18x6wprs8c4x7awjgvn5t0e04fscrrash8rvmw4" target="_blank" class="prop-voter-addr">gonka18x6wpr…8rvmw4</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka105ce4495mj0mwkxqeasgdzqfq5jjrfq32eza5l" target="_blank" class="prop-voter-addr">gonka105ce44…2eza5l</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka10eg5wakkmc0tee3llwj2qwa67knzk48cht38c5" target="_blank" class="prop-voter-addr">gonka10eg5wa…ht38c5</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka133xdfvcyj2ccv38jrl0qjp970u9lz5plptfwuh" target="_blank" class="prop-voter-addr">gonka133xdfv…ptfwuh</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1k45p6gzq6970v9u650mdl5l4r34h9dvtz2gmxt" target="_blank" class="prop-voter-addr">gonka1k45p6g…z2gmxt</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka168rtjfkszuhcggg4dfyse4yh7xn9zwfglnkns2" target="_blank" class="prop-voter-addr">gonka168rtjf…lnkns2</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
