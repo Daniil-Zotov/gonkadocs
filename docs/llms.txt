@@ -20,7 +20,8 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- 2026-11-11 07:58 UTC — Voting ends: #116 – Approve DevShard v6 and distribute bounty rewards: https://gonkadocs.com/proposals/proposals/2026-q4/116/
+- 2026-11-11 07:58 UTC — Passed: #116 – Approve DevShard v6 and distribute bounty rewards: https://gonkadocs.com/proposals/proposals/2026-q4/116/
+- 2026-11-12 17:00 UTC — AMA: Эволюция токеномики Gonka: https://gonkadocs.com
 
 ## Protocol Documentation
 
