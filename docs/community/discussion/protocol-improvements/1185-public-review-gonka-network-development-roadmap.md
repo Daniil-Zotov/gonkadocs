@@ -3,7 +3,7 @@ title: "#1185 — [Public Review] Gonka Network Development Roadmap"
 source: https://github.com/gonka-ai/gonka/discussions/1185
 discussion_number: 1185
 category: protocol-improvements
-synced_at: 2026-11-11T05:58:29Z
+synced_at: 2026-11-11T14:04:01Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1185](https://github.com/gonka-ai/gonka/discussions/1185) every hour. 
@@ -140,7 +140,7 @@ Marketing also shouldn't go before start of real demand of Gonka network. We alr
 
 It could be smart marketing. Like popularization of decentralized AI idea, where gonka not even mentioned before it is really ready and usable.
 
-### Комментарий 5 — [@afedorov-bf](https://github.com/afedorov-bf)
+### Комментарий 5 — [@bitfury-com](https://github.com/bitfury-com)
 
 *2026-05-27 18:43 UTC*
 

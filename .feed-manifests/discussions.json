@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-11-11T05:58:53.582885+00:00",
+  "snapshot_time": "2026-11-11T14:04:26.360934+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -330,7 +330,7 @@
       "title": "#1185 — [Public Review] Gonka Network Development Roadmap",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #1185](https://github.com/gonka-ai/gonka/discussions/1185) every hour. \n\n# [Public Review] Gonka Network Development Roadmap\n\n**Автор:** [@paranjko](https://github.com/paranjko) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-05-18 15:32 UTC · \n\n---\n\n## 📝 Описание\n\nHi everyone,\n\nOver the last month, I have been working on the **Gonka Network Development Roadmap**.\n\nLast week, we had an initial working discussion with a group of active hosts and community contributors. Now I want to open the document for broader public review and invite everyone to comment and improve it.\n\nThe idea is simple: Gonka has already built a foundation of distributed GPU capacity. The next question is what we should build around this capacity to turn it into re",
-      "checksum": "357b981f7ef3d207d62f51ef6fd5748095485b87d01d3696a09e77015c0c83fe"
+      "checksum": "96895659cd361f6d4e330361c337fd83a0b8cbe999643de0f2d8f88b4ca98f5d"
     },
     "protocol-improvements/1188-devshard-improvements-height-sync-protocol-needed-to-support.md": {
       "title": "#1188 — `devshard improvements` Height-sync protocol (needed to support cPoC at devshard and new validation protocol)",

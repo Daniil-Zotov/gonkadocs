@@ -4,7 +4,7 @@ title: ":bookmark_tabs: Governance Proposal Reports"
 
 # :bookmark_tabs: Governance Proposal Reports
 
-Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **16**. Обновлено: `2026-11-11 05:58 UTC`.
+Дискуссии в категории **:bookmark_tabs: Governance Proposal Reports**. Всего: **16**. Обновлено: `2026-11-11 14:04 UTC`.
 
 [← ко всем категориям](../index.md)
 
