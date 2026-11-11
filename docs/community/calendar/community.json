@@ -360,5 +360,25 @@
     "duration_minutes": 90,
     "uid": "gonka-2026-10-30-0d1817a45dc4@gonkadocs.com",
     "location": "https://us06web.zoom.us/j/82135820519"
+  },
+  {
+    "date": "2026-11-12",
+    "category": "community",
+    "type": "ama",
+    "title": "AMA: Эволюция токеномики Gonka",
+    "url": null,
+    "time": "17:00 UTC",
+    "description": "Присоединяйтесь к нам в этот четверг, 12 ноября, на AMA-сессию о токеномике Gonka и её возможном развитии.\n\n🕣 Четверг, 12 ноября | 9:00 AM PT · 18:00 CET · 21:00 Дубай\n🎙 Гости: Давид Либерман (ко-криэйтор Gonka), Вадим Крутов и Дмитрий Струков (Bitfury)\n🗣 Язык: английский\n💻 Zoom: следите за обновлениями",
+    "tags": [
+      "ama",
+      "tokenomics",
+      "gnk",
+      "bitfury",
+      "libermans"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "uid": "gonka-2026-11-12-ac85fc9ae91a@gonkadocs.com",
+    "location": null
   }
 ]
