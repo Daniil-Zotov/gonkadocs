@@ -2,7 +2,7 @@
 title: "#2154 — Decode: List of chain fixes we have to do in v0.2.18"
 source: https://github.com/gonka-ai/gonka/issues/2154
 issue_number: 2154
-synced_at: 2026-11-11T06:43:55Z
+synced_at: 2026-11-11T15:24:46Z
 template: issues-main.html
 ---
 

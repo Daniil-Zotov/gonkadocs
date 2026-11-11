@@ -2,7 +2,7 @@
 title: "#2104 — devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later"
 source: https://github.com/gonka-ai/gonka/issues/2104
 issue_number: 2104
-synced_at: 2026-11-11T06:44:02Z
+synced_at: 2026-11-11T15:24:57Z
 template: issues-main.html
 ---
 

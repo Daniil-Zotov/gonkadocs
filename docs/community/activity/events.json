@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261111153109_2707c8b5",
+    "timestamp": "2026-11-11T15:31:09.395350+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2244 — [Discussion] Tx fees: enable the remaining groups?",
+      "url": "/community/issues/02244-discussion-tx-fees-enable-the-remaining-groups/",
+      "file": "02244-discussion-tx-fees-enable-the-remaining-groups.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [Discussion] Tx fees: enable the remaining groups?\n    <span class=\"issues-number\">#2244</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 23:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [Discussion] Tx fees: enable the remaining groups?\n    <span class=\"issues-number\">#2244</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 23:16 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div "
+    },
+    "ai_description": "Discussion #2244 on enabling the remaining transaction fee groups has received its first comment. The issue remains open, inviting the community to weigh in on whether the current fee structure should be extended. Head over to the thread to share your thoughts on this important topic.Discussion #2244 on enabling the remaining transaction fee groups just got its first comment, keeping the conversation open for community input. If you have a take on whether those fee groups should be activated, now's the time to chime in."
+  },
+  {
     "id": "evt_20261111081206_9d77f1d1",
     "timestamp": "2026-11-11T08:12:06.522541+00:00",
     "section": "calendar",
@@ -8007,21 +8023,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Applying a diff copies the whole escrow state, and the copy grows for the life of the escrow\n    <span class=\"issues-number\">#1914</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-10-04 13:06 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\""
     },
     "ai_description": "New issue #1914 is now open, filed by @a-kuprin, highlighting a performance concern with escrow state handling. The report explains that applying a diff duplicates the entire escrow state, and this copy continues to grow for the escrow's entire lifetime. This matters because it could lead to unnecessary memory bloat over time, so it's worth a look from the community to find a more efficient approach."
-  },
-  {
-    "id": "evt_20261022192049_8bb8ce94",
-    "timestamp": "2026-10-22T19:20:49.450472+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1915 — PoC delegation: participation is judged at PoC validation only, so a \"bait\" node switched off right after PoC still collects the 5% share (or escapes the 15% penalty) for the whole epoch",
-      "url": "/community/issues/01915-poc-delegation-participation-is-judged-at-poc-validation-onl/",
-      "file": "01915-poc-delegation-participation-is-judged-at-poc-validation-onl.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC delegation: participation is judged at PoC validation only, so a \"bait\" node switched off right after PoC still collects the 5% share (or escapes the 15% penalty) for the whole epoch\n    <span class=\"issues-number\">#1915</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aktum1\">@Aktum1</a> opened 2026-10-04 15:52 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</spa"
-    },
-    "ai_description": "A new issue #1915 has been opened by @Aktum1 highlighting a potential exploit in PoC delegation: a node only needs to be online during validation to earn the 5% share or dodge the 15% penalty, then can go offline for the rest of the epoch. This is a fairness concern for the community, as it could let \"bait\" nodes game the system at the expense of honest participants. Worth keeping an eye on this one for a fix."
   }
 ]
