@@ -2,7 +2,7 @@
 title: "#820 — Investigate missed inference on some nodes (root causes + mitigation)"
 source: https://github.com/gonka-ai/gonka/issues/820
 issue_number: 820
-synced_at: 2026-11-11T15:25:36Z
+synced_at: 2026-11-11T22:04:46Z
 template: issues-main.html
 ---
 

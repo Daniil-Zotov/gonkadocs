@@ -2,7 +2,7 @@
 title: "#2208 — x/inference: failed confirmation PoC is slashed by slash_fraction_downtime; confirmation_poc_params.slash_fraction is never read"
 source: https://github.com/gonka-ai/gonka/issues/2208
 issue_number: 2208
-synced_at: 2026-11-11T15:25:02Z
+synced_at: 2026-11-11T22:04:21Z
 template: issues-main.html
 ---
 
