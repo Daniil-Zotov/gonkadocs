@@ -21937,7 +21937,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-11-11 04:21 UTC
+2026-11-11 15:36 UTC
 
 ---
 
@@ -21945,7 +21945,7 @@ Last updated:
 
 **Address:** [`gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa`](https://gonka.gg/address/gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa)
 
-Current balance: 102,705,110 GNK · $10,000 USDT
+Current balance: 102,620,110 GNK
 
 The Community Pool is the protocol-controlled treasury of the Gonka network. It accrues value through a **2% community tax** applied to every inflation reward and network fee. These funds can only be spent through a successful governance vote — no single key controls them.
 
@@ -21967,7 +21967,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 **Address:** [`gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2`](https://gonka.gg/address/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2)
 
-Current balance: 17,499,998 GNK (~$10,499,999 USDT) · $60,850 USDT
+Current balance: 17,499,998 GNK (~$10,499,999 USDT) · $1,425 USDT
 
 This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme at a fixed price of **$0.60 per GNK**.
 
@@ -21991,7 +21991,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 7,776,218 GNK
+Current balance: 7,775,718 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -22021,6 +22021,7 @@ All **passed** governance proposals that received funding from the Community Poo
 
 | Proposal | Date | Description | Source | Amount GNK | Amount USDT |
 | :------ | :--: | :---------- | :---- | ---------: | ---------: |
+| [#116](https://gonkadocs.com/proposals/proposals/2026-q4/116/) | 2026-11-11 | Approve DevShard v6 and distribute bounty rewards | Community Pool + Gov Module | 170,000 | $69,425 |
 | [#113](https://gonkadocs.com/proposals/proposals/2026-q4/113/) | 2026-10-08 | Distribute v0.2.16 bounty rewards | Community Pool | — | $104,150 |
 | [#110](https://gonkadocs.com/proposals/proposals/2026-q4/110/) | 2026-10-03 | GRC Proposal #4 - Restitution | Community Pool + Gov Module | 132,896 | $2,100 |
 | [#105](https://gonkadocs.com/proposals/proposals/2026-q3/105/) | 2026-09-18 | Approve devshard v5 and bounty payouts | Community Pool | — | $91,300 |
@@ -22059,13 +22060,13 @@ All **passed** governance proposals that received funding from the Community Poo
 
 | Metric | Value |
 | :----- | :---- |
-| Total governance proposals | 28 |
-| Total GNK approved (proposals) | 25,126,928 GNK |
-| Total USDT approved (proposals) | $1,295,000 |
-| From Community Pool | 21,126,619 GNK + $1,295,000 |
-| From Gov Module | 4,867,678 GNK |
+| Total governance proposals | 29 |
+| Total GNK approved (proposals) | 25,296,928 GNK |
+| Total USDT approved (proposals) | $1,364,425 |
+| From Community Pool | 21,296,619 GNK + $1,364,425 |
+| From Gov Module | 5,037,678 GNK |
 | Largest funding | #14 — 20,000,000 GNK |
-| Most recent | #113 — 0 GNK + $104,150 USDT |
+| Most recent | #116 — 170,000 GNK + $69,425 USDT |
 | **Upgrade distributions** | **7** |
 | Total GNK distributed (upgrades) | 203,750 GNK |
 | Total USDT distributed (upgrades) | $144,150 |
@@ -22387,7 +22388,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-11-11 10:46 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-11-11 18:38 UTC*
 
 ---
 
@@ -31563,12 +31564,12 @@ HardCore Arena позволит протестировать модель на �
 
 ## Overview
 
-115Total Proposals
-78Passed (68%)
+117Total Proposals
+78Passed (67%)
 36Rejected (31%)
 1Failed (1%)
 
-Funding / Grants48
+Funding / Grants50
 Governance Parameters37
 Software Upgrade20
 Other5
@@ -31580,7 +31581,32 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q4
 
-*7 proposals*
+*9 proposals*
+
+  
+    #118 – Dev Team Funding
+    
+    Voting
+  
+  
+    Submitted 2026-11-11
+    Voting ends 2026-11-13
+  
+  This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
+  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+
+  
+    #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
+    
+    Voting
+  
+  
+    Submitted 2026-11-11
+    Voting ends 2026-11-13
+  
+  Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
+  Yes 100.0% (851,665) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 56.5% (851,665 / 1,506,224) · Quorum 25% (376,556)
 
   
     #116 – Approve DevShard v6 and distribute bounty rewards
@@ -32915,7 +32941,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-115 proposals across 6 quarters. Last updated: 2026-11-11 15:41 UTC
+117 proposals across 6 quarters. Last updated: 2026-11-11 18:23 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82213,11 +82239,11 @@ Contract Details
 
 ## 2026-Q4 Summary
 
-7Total Proposals
-6Passed (86%)
-1Rejected (14%)
+9Total Proposals
+6Passed (67%)
+1Rejected (11%)
 
-Funding / Grants4
+Funding / Grants6
 Governance Parameters1
 Other1
 Software Upgrade1
@@ -82225,7 +82251,32 @@ Software Upgrade1
 85,000 GNK · $175,675 · Community Pool · 217,896 GNK · Gov Module
 
 2026-Q4
-7 proposals
+9 proposals
+
+  
+    #118 – Dev Team Funding
+    
+    Voting
+  
+  
+    Submitted 2026-11-11
+    Voting ends 2026-11-13
+  
+  This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
+  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+
+  
+    #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
+    
+    Voting
+  
+  
+    Submitted 2026-11-11
+    Voting ends 2026-11-13
+  
+  Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
+  Yes 100.0% (851,665) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 56.5% (851,665 / 1,506,224) · Quorum 25% (376,556)
 
   
     #116 – Approve DevShard v6 and distribute bounty rewards
@@ -84378,6 +84429,165 @@ Contract Details
       }
     ],
     "vesting_epochs": "365"
+  }
+]
+```
+
+---
+
+## Index
+
+# #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
+
+Voting
+
+**Proposal ID:** `117`
+
+**Type:** Exec, Execute Contract
+
+**Submit:** 2026-11-11 16:43 UTC
+
+**Voting:** 2026-11-11 16:43 UTC → 2026-11-13 16:43 UTC
+
+**Proposer:** [`gonka1as7g7ansh8wurv22gqqa9kq7592eclt8tkyycg`](https://gonka.gg/address/gonka1as7g7ansh8wurv22gqqa9kq7592eclt8tkyycg){:target="_blank"}
+
+**Metadata:** [https://github.com/bitfury-com/gonka/blob/6c8444c4153e1c313c1bb383e587b3ce5ef69942/proposals/117/readme.md](https://github.com/bitfury-com/gonka/blob/6c8444c4153e1c313c1bb383e587b3ce5ef69942/proposals/117/readme.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/117){:target="_blank"}
+
+Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK. 
+
+Of this amount, 607,250 USDT is returned to Bitfury as reimbursement for security audit contracts with HackerOne and Trail of Bits, which Bitfury paid in fiat directly to vendors, because Gonka had no legal entity at the time which both providers needed. 
+
+The remaining part of 1,142,750 USDT stays on the Community Pool. 
+
+If the proposal is not approved, none of these transactions will take place.
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 100.0% (851,665)
+    No 0.0% (0)
+    Veto 0.0% (0)
+    Abstain 0.0% (0)
+    Total 851,665 votes
+    ✓ Turnout 56.5% (851,665 / 1,506,224) · Quorum 25% (376,556)
+  
+
+Voters
+
+VoterVote
+
+gonka133xdfv…ptfwuhYes 100.0%
+gonka1nurzpp…9rggstYes 100.0%
+gonka147qfck…4gpvz8Yes 100.0%
+gonka1kvmerz…lzldumYes 100.0%
+gonka168rtjf…lnkns2Yes 100.0%
+gonka16dgkvx…6j0skkYes 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmos.authz.v1beta1.MsgExec` |
+| 2 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmos.authz.v1beta1.MsgExec",
+    "grantee": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "msgs": [
+      {
+        "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+        "sender": "gonka1as7g7ansh8wurv22gqqa9kq7592eclt8tkyycg",
+        "contract": "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk",
+        "msg": {
+          "send": {
+            "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+            "amount": "1750000000000",
+            "msg": "e30="
+          }
+        },
+        "funds": []
+      }
+    ]
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_cw20": {
+        "contract_addr": "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk",
+        "amount": "607250000000",
+        "recipient": "gonka1as7g7ansh8wurv22gqqa9kq7592eclt8tkyycg"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+---
+
+## #118 – Dev Team Funding
+
+# #118 – Dev Team Funding
+
+Voting
+
+**Proposal ID:** `118`
+
+**Type:** Execute Contract
+
+**Submit:** 2026-11-11 17:29 UTC
+
+**Voting:** 2026-11-11 17:29 UTC → 2026-11-13 17:29 UTC
+
+**Proposer:** [`gonka18vmr86x9pjmldpckswsfc6lpvapm6u7zm47cn2`](https://gonka.gg/address/gonka18vmr86x9pjmldpckswsfc6lpvapm6u7zm47cn2){:target="_blank"}
+
+**Metadata:** [https://github.com/millcreek-rd/gonka-public/blob/f91e281fd9cb16e2a362dd1a4870c8b1d8b0eefc/proposals/funding/README.md](https://github.com/millcreek-rd/gonka-public/blob/f91e281fd9cb16e2a362dd1a4870c8b1d8b0eefc/proposals/funding/README.md)
+
+[View on gonka.gg](https://gonka.gg/network/proposals/118){:target="_blank"}
+
+This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, technical review and guidance for external teams, technical marketing, and support for hosts and brokers. The fee is 866,000 USDT, paid from the community pool to MillCreek in a single transfer. The two months run from November 9, 2026 through January 8, 2027. The full scope of work and the terms are in the proposal metadata.
+
+---
+
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_cw20": {
+        "contract_addr": "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk",
+        "amount": "866000000000",
+        "recipient": "gonka18vmr86x9pjmldpckswsfc6lpvapm6u7zm47cn2"
+      }
+    },
+    "funds": []
   }
 ]
 ```
