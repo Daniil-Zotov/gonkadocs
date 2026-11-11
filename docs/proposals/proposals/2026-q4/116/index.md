@@ -12,7 +12,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-11-11T07:58:21.061917426Z"></span></div>
+<span class="prop-badge prop-passed">Passed</span>
 
 **Proposal ID:** `116`
 
@@ -26,7 +26,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/devshard-0.2.x-v6/devshard/docs/release-0.2.16-v6.md](https://github.com/gonka-ai/gonka/blob/devshard-0.2.x-v6/devshard/docs/release-0.2.16-v6.md)
 
-<div class="prop-funding-line prop-funding-line-voting">85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module</div>
+<div class="prop-funding-line">85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/116){:target="_blank"}

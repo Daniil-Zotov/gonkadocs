@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">115</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">77</span><span class="qs-desc">Passed (67%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">78</span><span class="qs-desc">Passed (68%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">36</span><span class="qs-desc">Rejected (31%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
@@ -49,7 +49,7 @@ hide:
 <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">2</span></div>
 </div>
 
-<div class="qs-funding-line">20,302,572 GNK · $1,295,000 · Community Pool · 4,824,356 GNK · Gov Module</div>
+<div class="qs-funding-line">20,387,572 GNK · $1,364,425 · Community Pool · 4,909,356 GNK · Gov Module</div>
 <div class="qs-bounty-line">$144,150 USDT · 203,750 GNK · Bounty Reward</div>
 
 
@@ -60,18 +60,17 @@ hide:
 
 *7 proposals*
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-11T07:58:21.061917426Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="2026-q4/116/" class="prop-card-title">#116 – Approve DevShard v6 and distribute bounty rewards</a>
-    <span class="prop-vote-countdown" data-deadline="2026-11-11T07:58:21.061917426Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-11-09</span>
     <span>Voting ends 2026-11-11</span>
   </div>
   <div class="prop-card-desc">Devshard v6  This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.  The main change in …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (610,318)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (610,318)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>37.6%</strong> (610,318 / 1,624,785) · Quorum <strong>25%</strong> (406,196)</span></div>
 </div>
 
@@ -1636,7 +1635,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>115 proposals across 6 quarters. Last updated: 2026-11-11 07:42 UTC</em>
+<em>115 proposals across 6 quarters. Last updated: 2026-11-11 08:01 UTC</em>
 </div>
 
 <script>
