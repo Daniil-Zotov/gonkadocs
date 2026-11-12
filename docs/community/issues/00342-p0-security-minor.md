@@ -2,7 +2,7 @@
 title: "#342 — [P0] Security: Minor"
 source: https://github.com/gonka-ai/gonka/issues/342
 issue_number: 342
-synced_at: 2026-11-11T22:09:01Z
+synced_at: 2026-11-12T03:12:45Z
 template: issues-main.html
 ---
 

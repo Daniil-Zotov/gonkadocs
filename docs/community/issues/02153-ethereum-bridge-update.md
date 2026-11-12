@@ -2,7 +2,7 @@
 title: "#2153 — Ethereum bridge update"
 source: https://github.com/gonka-ai/gonka/issues/2153
 issue_number: 2153
-synced_at: 2026-11-11T22:04:09Z
+synced_at: 2026-11-12T03:08:18Z
 template: issues-main.html
 ---
 

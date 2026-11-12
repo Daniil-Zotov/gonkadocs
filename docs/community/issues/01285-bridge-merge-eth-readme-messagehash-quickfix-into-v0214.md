@@ -2,7 +2,7 @@
 title: "#1285 — Bridge: merge ETH README messageHash quickfix into v0.2.14"
 source: https://github.com/gonka-ai/gonka/issues/1285
 issue_number: 1285
-synced_at: 2026-11-11T22:04:14Z
+synced_at: 2026-11-12T03:08:22Z
 template: issues-main.html
 ---
 
