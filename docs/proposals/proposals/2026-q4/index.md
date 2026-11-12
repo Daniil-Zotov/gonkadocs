@@ -67,7 +67,7 @@ hide:
   </div>
   <div class="prop-card-desc">The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (539,502)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>38.1%</strong> (539,502 / 1,416,188) · Quorum <strong>25%</strong> (354,047)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>37.9%</strong> (539,502 / 1,421,720) · Quorum <strong>25%</strong> (355,430)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-13T17:29:39.951923264Z">
@@ -81,8 +81,8 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (884,562)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>62.5%</strong> (884,562 / 1,416,188) · Quorum <strong>25%</strong> (354,047)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (890,094)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>62.6%</strong> (890,094 / 1,421,720) · Quorum <strong>25%</strong> (355,430)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-13T16:43:30.468794619Z">
@@ -96,8 +96,8 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (967,761)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>68.3%</strong> (967,761 / 1,416,188) · Quorum <strong>25%</strong> (354,047)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (973,293)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>68.5%</strong> (973,293 / 1,421,720) · Quorum <strong>25%</strong> (355,430)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
