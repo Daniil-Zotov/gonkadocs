@@ -123,6 +123,10 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [Go-to-market committee: Active Members & Expertise](/community/go-to-market committee/members/): Auto-synced content
 - [**Устав Комитета поддержки самоуправления**](/community/governance support committee/regulation/): Auto-synced content
 
+## Foundation
+
+- [Community Support for the Gonka Foundation](/foundation/): Endorsement proposal: Foundation mission, scope, legal status, board and commitments to the community
+
 ## On-Chain Proposals
 
 - [Proposals Dashboard](/proposals/README/): Full table of on-chain governance proposals
