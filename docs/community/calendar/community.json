@@ -365,10 +365,10 @@
     "date": "2026-11-12",
     "category": "community",
     "type": "ama",
-    "title": "AMA: Эволюция токеномики Gonka",
-    "url": null,
+    "title": "AMA: Эволюция токеномики Gonka | Evolution of Gonka Tokenomics",
+    "url": "https://us06web.zoom.us/s/87876084992",
     "time": "17:00 UTC",
-    "description": "Присоединяйтесь к нам в этот четверг, 12 ноября, на AMA-сессию о токеномике Gonka и её возможном развитии.\n\n🕣 Четверг, 12 ноября | 9:00 AM PT · 18:00 CET · 21:00 Дубай\n🎙 Гости: Давид Либерман (ко-криэйтор Gonka), Вадим Крутов и Дмитрий Струков (Bitfury)\n🗣 Язык: английский\n💻 Zoom: следите за обновлениями",
+    "description": "Присоединяйтесь к нам в этот четверг, 12 ноября, на AMA-сессию о токеномике Gonka и её возможном развитии.\n\n🕣 Четверг, 12 ноября | 9:00 AM PT · 18:00 CET · 21:00 Дубай\n🎙 Гости: Давид Либерман (ко-криэйтор Gonka), Вадим Крутов и Дмитрий Струков (Bitfury)\n🗣 Язык: английский\n💻 Zoom: https://us06web.zoom.us/s/87876084992\n\n---\n\nJoin us this Thursday, November 12, for an AMA session on Gonka tokenomics and its possible evolution.\n\n🕣 Thursday, November 12 | 9:00 AM PT · 18:00 CET · 21:00 Dubai\n🎙 Guests: David Liberman (co-creator of Gonka), Vadim Krutov and Dmitry Strukov (Bitfury)\n🗣 Language: English\n💻 Zoom: https://us06web.zoom.us/s/87876084992",
     "tags": [
       "ama",
       "tokenomics",
@@ -378,17 +378,17 @@
     ],
     "is_all_day": false,
     "duration_minutes": 60,
-    "uid": "gonka-2026-11-12-ac85fc9ae91a@gonkadocs.com",
-    "location": null
+    "uid": "gonka-2026-11-12-a90217c4e7d9@gonkadocs.com",
+    "location": "https://us06web.zoom.us/s/87876084992"
   },
   {
     "date": "2026-11-12",
     "category": "community",
     "type": "ama",
-    "title": "⚫️ АМА по пропозалу от MillCreek R&D",
+    "title": "⚫️ АМА по пропозалу от MillCreek R&D | ⚫️ AMA on the MillCreek R&D Proposal",
     "url": "https://us06web.zoom.us/j/89408236633",
     "time": "18:30 UTC",
-    "description": "АМА по пропозалу от MillCreek R&D\n\nРебята ответят на вопросы сообщества о своих планах и предложении о финансировании.\n\nПрисоединяйтесь к AMA в этот четверг, 12 ноября: обсудим предложение MillCreek о финансировании. Встреча сразу после встречи по токеномике!\n\n🕣 Четверг, 12 ноября | 10:30 PT · 18:30 UTC · 21:30 МСК (GMT+3)\n🎙 Гости: Глеб Моргачёв и Анастасия Матвеева\n🗣 Язык: EN\n\n💻 Zoom: https://us06web.zoom.us/j/89408236633",
+    "description": "АМА по пропозалу от MillCreek R&D\n\nРебята ответят на вопросы сообщества о своих планах и предложении о финансировании.\n\nПрисоединяйтесь к AMA в этот четверг, 12 ноября: обсудим предложение MillCreek о финансировании. Встреча сразу после встречи по токеномике!\n\n🕣 Четверг, 12 ноября | 10:30 PT · 18:30 UTC · 21:30 МСК (GMT+3)\n🎙 Гости: Глеб Моргачёв и Анастасия Матвеева\n🗣 Язык: EN\n\n💻 Zoom: https://us06web.zoom.us/j/89408236633\n\n---\n\nAMA on the proposal from MillCreek R&D\n\nThe team will answer the community's questions about their plans and funding proposal.\n\nJoin the AMA this Thursday, November 12: let's discuss the MillCreek funding proposal. The meeting takes place right after the tokenomics meeting!\n\n🕣 Thursday, November 12 | 10:30 PT · 18:30 UTC · 21:30 MSK (GMT+3)\n🎙 Guests: Gleb Morgachev and Anastasia Matveeva\n🗣 Language: EN\n\n💻 Zoom: https://us06web.zoom.us/j/89408236633",
     "tags": [
       "ama",
       "millcreek",
@@ -397,7 +397,7 @@
     ],
     "is_all_day": false,
     "duration_minutes": 60,
-    "uid": "gonka-2026-11-12-eb84e7435f58@gonkadocs.com",
+    "uid": "gonka-2026-11-12-eb7fc150f810@gonkadocs.com",
     "location": "https://us06web.zoom.us/j/89408236633"
   }
 ]
