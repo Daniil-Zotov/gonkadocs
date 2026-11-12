@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **118**. Обновлено: `2026-11-11 21:25 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **118**. Обновлено: `2026-11-12 02:52 UTC`.
 
 ## 📂 Категории
 
@@ -22,7 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
-| [2260](general/2260-proposal-118-dev-team-funding.md) | [Proposal #118: Dev Team Funding](general/2260-proposal-118-dev-team-funding.md) | :speech_balloon: General | [@gmorgachev](https://github.com/gmorgachev) | 2026-11-11 |
+| [2260](general/2260-proposal-118-dev-team-funding.md) | [Proposal #118: Dev Team Funding](general/2260-proposal-118-dev-team-funding.md) | :speech_balloon: General | [@gmorgachev](https://github.com/gmorgachev) | 2026-11-12 |
 | [2248](protocol-improvements/2248-research-milestones-for-split-delegation-2240-and-optional-l.md) | [Research milestones for split delegation (#2240) and optional launch-time intents (#2243)](protocol-improvements/2248-research-milestones-for-split-delegation-2240-and-optional-l.md) | :gear: Protocol Improvements | [@startupcompliancekit](https://github.com/startupcompliancekit) | 2026-11-08 |
 | [2216](governance-proposal-reports/2216-proposal-77-input-global-monthly-report-october.md) | [Proposal #77: INPUT Global - Monthly Report \|\| October](governance-proposal-reports/2216-proposal-77-input-global-monthly-report-october.md) | :bookmark_tabs: Governance Proposal Reports | [@apakhtina](https://github.com/apakhtina) | 2026-11-04 |
 | [2195](show-and-tell/2195-qun-gonka-exploring-collaboration-on-accessible-distributed-.md) | [**QUN × Gonka — exploring collaboration on accessible distributed compute**](show-and-tell/2195-qun-gonka-exploring-collaboration-on-accessible-distributed-.md) | :raised_hands: Show and Tell | [@PavelNovikovU](https://github.com/PavelNovikovU) | 2026-10-31 |

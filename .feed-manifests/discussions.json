@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-11-11T21:25:58.859402+00:00",
+  "snapshot_time": "2026-11-12T02:52:25.702627+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -126,7 +126,7 @@
       "title": "#2260 — Proposal #118: Dev Team Funding",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2260](https://github.com/gonka-ai/gonka/discussions/2260) every hour. \n\n# Proposal #118: Dev Team Funding\n\n**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :speech_balloon: General · **Создано:** 2026-11-11 17:36 UTC · \n\n---\n\n## 📝 Описание\n\nDear Gonka community,\n\nI’m happy to announce that @mtvnastya and I have founded a new company, MillCreek R&D.\nWe’re building a strong team with deep expertise in the research, development, and marketing of verifiable AI, with a focus on inference and training in distributed, untrusted environments.\n\nYou might remember the[ idea](https://github.com/gonka-ai/gonka/discussions/1464) of funding a Dev Team that I brought to your attention several months ago. MillCreek is a spiritual successor to th",
-      "checksum": "752ef02e6494722b89074d8a0a2bb1bad3d33cb6868a9e757d0a8535945eb3a9"
+      "checksum": "3319c4d55cce95518b080709259f715bd07161351978ea9bcdbc8368a261bc3d"
     },
     "governance-proposal-reports/1477-proposal-74-gonka-labs-monthly-report-no1.md": {
       "title": "#1477 — Proposal #74: Gonka Labs - Monthly Report No.1",

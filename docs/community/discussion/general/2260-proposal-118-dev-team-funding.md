@@ -3,14 +3,14 @@ title: "#2260 — Proposal #118: Dev Team Funding"
 source: https://github.com/gonka-ai/gonka/discussions/2260
 discussion_number: 2260
 category: general
-synced_at: 2026-11-11T21:24:21Z
+synced_at: 2026-11-12T02:51:38Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2260](https://github.com/gonka-ai/gonka/discussions/2260) every hour. 
 
 # Proposal #118: Dev Team Funding
 
-**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :speech_balloon: General · **Создано:** 2026-11-11 17:36 UTC · **Обновлено:** 2026-11-11 19:49 UTC
+**Автор:** [@gmorgachev](https://github.com/gmorgachev) · **Категория:** :speech_balloon: General · **Создано:** 2026-11-11 17:36 UTC · **Обновлено:** 2026-11-12 01:04 UTC
 
 ---
 
@@ -35,7 +35,7 @@ Full descciption: https://github.com/millcreek-rd/gonka-public/blob/f91e281fd9cb
 
 ---
 
-## 💬 Комментарии (2)
+## 💬 Комментарии (3)
 
 ### Комментарий 1 — [@Dolper](https://github.com/Dolper)
 
@@ -61,3 +61,33 @@ We (Kaitaku) work on some of the external tracks you list - MLNode/vLLM and hard
 2. Are you planning a short spending summary at the end of the period (team / servers / services / admin), like in [#1464](https://github.com/gonka-ai/gonka/discussions/1464)? That would help with the next funding rounds.
 
 Thanks!
+
+**↳ Ответ от [@gmorgachev](https://github.com/gmorgachev)** · *2026-11-11 21:57 UTC*
+
+> Hi Mykola!
+>
+> > 1. Several items are marked as depending on "additional engineering resources", e.g. bounty teams ([L17](https://github.com/millcreek-rd/gonka-public/blob/f91e281fd9cb16e2a362dd1a4870c8b1d8b0eefc/proposals/funding/README.md?plain=1#L17)).
+>
+> About such directions themselves:
+> - Image support: the inference engine part is essentially finished. The remaining work is mainly devshard integration, which is fairly simple to implement but may take time to test and audit because it could affect network security. Devshard contributors need enough time to give this proper attention but might lower its priority in favor of other features
+> - Large-scale training experiments should start from a concrete experimental goal, with the exact setup depending on an R&D group
+> - Work on KV-cache usage and devshard settlement is ongoing with several devshard contributors. I put these items in this category because their delivery depends on work of people inside and outside of such unit 
+>
+> We don't see this list as a roadmap for the network as a whole but rather as a list of our priorities. It covers directions we think are worth participating in through technical review and advice. Implementing these projects is not explicitly among our goals for the next couple of months. We will provide feedback on both bounty-funded projects in these directions and host-driven initiatives, such as support for specific hardware
+>
+> On bounties, I think the work should continue in the spirit of a decentralized system, where contributors propose projects to the community, hosts / the Foundation vote on them
+>
+> From my personal perspective, work in this direction should focus on solving specific problems. With the current volume of inference on the network, we have a working feedback loop to make sure improvements / new features reach production quality. This loop works quite well in devshard development already
+>
+> > 2. Are you planning a short spending summary at the end of the period?
+>
+> Yes, we will provide a high-level update on progress and spending at the end of the period
+
+### Комментарий 3 — [@geeky02](https://github.com/geeky02)
+
+*2026-11-12 01:04 UTC*
+
+@gmorgachev 
+One question in that direction. You mentioned that bounty projects are proposed by contributors and voted on by Hosts or the Foundation. For the tracks MillCreek lists as needing external engineering (devshard settlement, KV-cache work, observability around MLNode/vLLM), would MillCreek publish scoped items with acceptance criteria as `up-for-grabs` issues, or should contributors draft the scope themselves in a Discussion and have MillCreek review it before Hosts vote? 
+
+For context on where I can help: I'm a backend/AI infra engineer (11 years), mostly Python services, vLLM and local-LLM deployment, Docker/Kubernetes, and distributed-systems debugging. I'm happy to take an MLNode or observability item first, since those overlap most with what I run day to day.
