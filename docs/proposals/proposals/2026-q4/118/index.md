@@ -37,18 +37,18 @@ This proposal is to cover two months of work on the Gonka network by MillCreek R
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:65.6%"></div>
+    <div class="prop-tally-yes" style="width:62.6%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (988,006)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (890,149)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 988,006 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>65.6%</strong> (988,006 / 1,506,224) · Quorum <strong>25%</strong> (376,556)</span>
+    <span class="prop-tally-total-text">Total 890,149 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>62.6%</strong> (890,149 / 1,421,775) · Quorum <strong>25%</strong> (355,443)</span>
   </div>
 </div>
 
@@ -61,6 +61,7 @@ This proposal is to cover two months of work on the Gonka network by MillCreek R
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1qwfrtz9c7kcrfkrrlne2pkcye74mj6ce33xdkl" target="_blank" class="prop-voter-addr">gonka1qwfrtz…33xdkl</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1p2lhgng7tcqju7emk989s5fpdr7k2c3ek6h26m" target="_blank" class="prop-voter-addr">gonka1p2lhgn…k6h26m</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka19wskgkz4xwwxa9s80nfx4q97w2ucmcyfezmhjk" target="_blank" class="prop-voter-addr">gonka19wskgk…ezmhjk</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst" target="_blank" class="prop-voter-addr">gonka1nurzpp…9rggst</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8" target="_blank" class="prop-voter-addr">gonka147qfck…4gpvz8</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
