@@ -380,5 +380,24 @@
     "duration_minutes": 60,
     "uid": "gonka-2026-11-12-ac85fc9ae91a@gonkadocs.com",
     "location": null
+  },
+  {
+    "date": "2026-11-12",
+    "category": "community",
+    "type": "ama",
+    "title": "⚫️ АМА по пропозалу от MillCreek R&D",
+    "url": "https://us06web.zoom.us/j/89408236633",
+    "time": "18:30 UTC",
+    "description": "АМА по пропозалу от MillCreek R&D\n\nРебята ответят на вопросы сообщества о своих планах и предложении о финансировании.\n\nПрисоединяйтесь к AMA в этот четверг, 12 ноября: обсудим предложение MillCreek о финансировании. Встреча сразу после встречи по токеномике!\n\n🕣 Четверг, 12 ноября | 10:30 PT · 18:30 UTC · 21:30 МСК (GMT+3)\n🎙 Гости: Глеб Моргачёв и Анастасия Матвеева\n🗣 Язык: EN\n\n💻 Zoom: https://us06web.zoom.us/j/89408236633",
+    "tags": [
+      "ama",
+      "millcreek",
+      "proposal",
+      "funding"
+    ],
+    "is_all_day": false,
+    "duration_minutes": 60,
+    "uid": "gonka-2026-11-12-eb84e7435f58@gonkadocs.com",
+    "location": "https://us06web.zoom.us/j/89408236633"
   }
 ]
