@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-11-12T04:03:05.494420+00:00",
+  "snapshot_time": "2026-11-12T13:07:26.332766+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -182,14 +182,23 @@
       "content_preview": "Важное событие для всех, кто следит за развитием экосистемы. Со-создатели Gonka и члены совета директоров проведут открытую сессию вопросов и ответов, посвящённую официальному запуску Gonka Foundation.\n\n📅 Когда: 30 октября 2026 года.\n⏰ Время: 19:00 по МСК (16:00 UTC).\n💻 Где: Discord (ссылка на событие).\n🗣 Язык: английский.\n⏳ Длительность: 1.5 часа.\n\n🎯 Что обсудят:\n— Структуру и управление Фонда.\n— Финансирование и планы на развитие.\n— Стратегию выхода на глобальный рынок.\n— Ответы на вопросы от сообщества.\n\nЭто возможность услышать информацию из первых уст и задать свои вопросы напрямую членам совета. Если вы хотите понимать, куда движется проект на институциональном уровне, этот эфир стоит посетить.\n\n🔗 Ссылка на событие в Discord https://discord.com/events/1336477374442770503/156500671531",
       "checksum": "17d3117f191a9ed505499bedaceb05bc0568dc11cebb8821d0be0146e73751b3"
     },
-    "6bc25f6f68fd3ccfb2f2e2b8c3fc10e578ed4f75f1606e0248d224a737ae768a": {
-      "title": "AMA: Эволюция токеномики Gonka",
+    "1c7811e56afcebd4eacf6e650f95bd0d80d23d61eed01a1adee38099d627a735": {
+      "title": "AMA: Эволюция токеномики Gonka | Evolution of Gonka Tokenomics",
       "date": "2026-11-12",
       "time": "17:00 UTC",
       "event_type": "ama",
-      "url": "None",
-      "content_preview": "Присоединяйтесь к нам в этот четверг, 12 ноября, на AMA-сессию о токеномике Gonka и её возможном развитии.\n\n🕣 Четверг, 12 ноября | 9:00 AM PT · 18:00 CET · 21:00 Дубай\n🎙 Гости: Давид Либерман (ко-криэйтор Gonka), Вадим Крутов и Дмитрий Струков (Bitfury)\n🗣 Язык: английский\n💻 Zoom: следите за обновлениями",
-      "checksum": "e306df3773299e2582d837526912e7794dc306d7b804bee9611f5fb619af0cb5"
+      "url": "https://us06web.zoom.us/s/87876084992",
+      "content_preview": "Присоединяйтесь к нам в этот четверг, 12 ноября, на AMA-сессию о токеномике Gonka и её возможном развитии.\n\n🕣 Четверг, 12 ноября | 9:00 AM PT · 18:00 CET · 21:00 Дубай\n🎙 Гости: Давид Либерман (ко-криэйтор Gonka), Вадим Крутов и Дмитрий Струков (Bitfury)\n🗣 Язык: английский\n💻 Zoom: https://us06web.zoom.us/s/87876084992\n\n---\n\nJoin us this Thursday, November 12, for an AMA session on Gonka tokenomics and its possible evolution.\n\n🕣 Thursday, November 12 | 9:00 AM PT · 18:00 CET · 21:00 Dubai\n🎙 Guests: David Liberman (co-creator of Gonka), Vadim Krutov and Dmitry Strukov (Bitfury)\n🗣 Language: English\n💻 Zoom: https://us06web.zoom.us/s/87876084992",
+      "checksum": "db8167f1b2a2f3acf8bcad67b30d95bdf0fcbb3ec6d7aac68c12cff1b7e81270"
+    },
+    "8fca75f73631cabf153631607fa6e913886d2f6ef7673800fdbb7ee71c563535": {
+      "title": "⚫️ АМА по пропозалу от MillCreek R&D | ⚫️ AMA on the MillCreek R&D Proposal",
+      "date": "2026-11-12",
+      "time": "18:30 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/89408236633",
+      "content_preview": "АМА по пропозалу от MillCreek R&D\n\nРебята ответят на вопросы сообщества о своих планах и предложении о финансировании.\n\nПрисоединяйтесь к AMA в этот четверг, 12 ноября: обсудим предложение MillCreek о финансировании. Встреча сразу после встречи по токеномике!\n\n🕣 Четверг, 12 ноября | 10:30 PT · 18:30 UTC · 21:30 МСК (GMT+3)\n🎙 Гости: Глеб Моргачёв и Анастасия Матвеева\n🗣 Язык: EN\n\n💻 Zoom: https://us06web.zoom.us/j/89408236633\n\n---\n\nAMA on the proposal from MillCreek R&D\n\nThe team will answer the community's questions about their plans and funding proposal.\n\nJoin the AMA this Thursday, November 12: let's discuss the MillCreek funding proposal. The meeting takes place right after the tokenomics meeting!\n\n🕣 Thursday, November 12 | 10:30 PT · 18:30 UTC · 21:30 MSK (GMT+3)\n🎙 Guests: Gleb Morgachev",
+      "checksum": "aa0e937db65ade511024217f422f1ad423b2e5cbfff98735ddde567e919eb06d"
     },
     "60130ca155a868e409b7aa0642525df006c4e05da481ba6f8787253101992676": {
       "title": "Migrate community-sale and wrapped-token contracts",
@@ -2440,6 +2449,15 @@
       "url": "/proposals/proposals/2026-q4/117/",
       "content_preview": "Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK. \n\nOf this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…",
       "checksum": "cdc62c7b07f2fed29d0a50bd479001f90157af5e3a7d454b58cb9947b7f9a37c"
+    },
+    "5e06c80d0e38461797f5f3bd71fed85a346ec300754aa600725a91220e3e573e": {
+      "title": "Voting ends: #119 – Community Support for the Gonka Foundation",
+      "date": "2026-11-14",
+      "time": "06:29 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/119/",
+      "content_preview": "The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…",
+      "checksum": "6b68d50dcc2d7c2e66b56909f0ddce8b060748520fc97b9094e4de5aa82c4f37"
     }
   }
 }

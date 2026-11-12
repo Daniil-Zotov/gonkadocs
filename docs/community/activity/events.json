@@ -1,5 +1,65 @@
 [
   {
+    "id": "evt_20261112130726_ad0f3dd3",
+    "timestamp": "2026-11-12T13:07:26.265692+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "AMA: Эволюция токеномики Gonka | Evolution of Gonka Tokenomics",
+      "url": "https://us06web.zoom.us/s/87876084992",
+      "file": "1c7811e56afcebd4eacf6e650f95bd0d80d23d61eed01a1adee38099d627a735"
+    },
+    "details": {
+      "status": null,
+      "content": "Присоединяйтесь к нам в этот четверг, 12 ноября, на AMA-сессию о токеномике Gonka и её возможном развитии.\n\n🕣 Четверг, 12 ноября | 9:00 AM PT · 18:00 CET · 21:00 Дубай\n🎙 Гости: Давид Либерман (ко-криэйтор Gonka), Вадим Крутов и Дмитрий Струков (Bitfury)\n🗣 Язык: английский\n💻 Zoom: https://us06web.zoom.us/s/87876084992\n\n---\n\nJoin us this Thursday, November 12, for an AMA session on Gonka tokenomics and its possible evolution.\n\n🕣 Thursday, November 12 | 9:00 AM PT · 18:00 CET · 21:00 Dubai\n🎙 Guests: David Liberman (co-creator of Gonka), Vadim Krutov and Dmitry Strukov (Bitfury)\n🗣 Language: English\n💻 Zoom: https://us06web.zoom.us/s/87876084992",
+      "date": "2026-11-12",
+      "time": "17:00 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/s/87876084992"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261112130726_f9a10524",
+    "timestamp": "2026-11-12T13:07:26.265721+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #119 – Community Support for the Gonka Foundation",
+      "url": "/proposals/proposals/2026-q4/119/",
+      "file": "5e06c80d0e38461797f5f3bd71fed85a346ec300754aa600725a91220e3e573e"
+    },
+    "details": {
+      "status": null,
+      "content": "The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…",
+      "date": "2026-11-14",
+      "time": "06:29 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/119/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261112130726_857513c3",
+    "timestamp": "2026-11-12T13:07:26.265736+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "⚫️ АМА по пропозалу от MillCreek R&D | ⚫️ AMA on the MillCreek R&D Proposal",
+      "url": "https://us06web.zoom.us/j/89408236633",
+      "file": "8fca75f73631cabf153631607fa6e913886d2f6ef7673800fdbb7ee71c563535"
+    },
+    "details": {
+      "status": null,
+      "content": "АМА по пропозалу от MillCreek R&D\n\nРебята ответят на вопросы сообщества о своих планах и предложении о финансировании.\n\nПрисоединяйтесь к AMA в этот четверг, 12 ноября: обсудим предложение MillCreek о финансировании. Встреча сразу после встречи по токеномике!\n\n🕣 Четверг, 12 ноября | 10:30 PT · 18:30 UTC · 21:30 МСК (GMT+3)\n🎙 Гости: Глеб Моргачёв и Анастасия Матвеева\n🗣 Язык: EN\n\n💻 Zoom: https://us06web.zoom.us/j/89408236633\n\n---\n\nAMA on the proposal from MillCreek R&D\n\nThe team will answer the community's questions about their plans and funding proposal.\n\nJoin the AMA this Thursday, November 12: let's discuss the MillCreek funding proposal. The meeting takes place right after the tokenomics meeting!\n\n🕣 Thursday, November 12 | 10:30 PT · 18:30 UTC · 21:30 MSK (GMT+3)\n🎙 Guests: Gleb Morgachev",
+      "date": "2026-11-12",
+      "time": "18:30 UTC",
+      "event_type": "ama",
+      "url": "https://us06web.zoom.us/j/89408236633"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261112040305_d65c7184",
     "timestamp": "2026-11-12T04:03:05.563412+00:00",
     "section": "calendar",
@@ -7995,53 +8055,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: stream chunks signature and empty stream detection\n    <span class=\"issues-number\">#1841</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-24 18:42 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n"
     },
     "ai_description": "A new issue #1841 has been opened by @tcharchian proposing stream chunk signatures and empty stream detection for devshard. This could improve data integrity verification and handling of incomplete streams in inference workloads. Worth a look if you work with devshard.A new issue #1841 has been opened by @tcharchian proposing stream chunk signatures and empty stream detection for devshard. This targets stronger data integrity checks and cleaner handling of incomplete streams, which could improve reliability in inference workloads. Worth a look if you rely on devshard."
-  },
-  {
-    "id": "evt_20261022192049_ebff8d76",
-    "timestamp": "2026-10-22T19:20:49.450362+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1851 — `devshard`: It would be worth adding small tests asserting `pool.Config().MaxConns` for both payload storage constructors. `ConfigureMaxConns` itself is well tested, but the current tests wouldn’t catch the helper being accidentally removed from either constructor.",
-      "url": "/community/issues/01851-devshard-it-would-be-worth-adding-small-tests-asserting-pool/",
-      "file": "01851-devshard-it-would-be-worth-adding-small-tests-asserting-pool.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `devshard`: It would be worth adding small tests asserting `pool.Config().MaxConns` for both payload storage constructors. `ConfigureMaxConns` itself is well tested, but the current tests wouldn’t catch the helper being accidentally removed from either constructor.\n    <span class=\"issues-number\">#1851</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://githu"
-    },
-    "ai_description": "New issue #1851 has been opened, proposing small tests to verify that both payload storage constructors correctly set pool.Config().MaxConns. While ConfigureMaxConns is already well covered, these tests would guard against the helper being accidentally dropped from either constructor. A worthwhile safety net for keeping the pool configuration robust."
-  },
-  {
-    "id": "evt_20261022192049_ad37ae6d",
-    "timestamp": "2026-10-22T19:20:49.450374+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1852 — Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM",
-      "url": "/community/issues/01852-decode-poc-move-to-vllm-0300-one-base-for-minimax-deepseek-a/",
-      "file": "01852-decode-poc-move-to-vllm-0300-one-base-for-minimax-deepseek-a.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Decode PoC: move to vLLM 0.30.0 — one base for MiniMax, DeepSeek and GLM\n    <span class=\"issues-number\">#1852</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/baychak\">@baychak</a> opened 2026-09-25 16:52 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
-    },
-    "ai_description": "Issue #1852 has been closed: a proposal to unify the decoding proof-of-concept on vLLM 0.30.0 as a single base for MiniMax, DeepSeek, and GLM. This consolidation simplifies maintenance and ensures consistent performance across all three models, a solid step for our inference stack."
-  },
-  {
-    "id": "evt_20261022192049_2de0fe56",
-    "timestamp": "2026-10-22T19:20:49.450387+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1867 — Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)",
-      "url": "/community/issues/01867-feature-expose-lightweight-participantweight-query-to-cosmwa/",
-      "file": "01867-feature-expose-lightweight-participantweight-query-to-cosmwa.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)\n    <span class=\"issues-number\">#1867</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DmitriyVoronov00\">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
-    },
-    "ai_description": "New issue #1867 has been opened by @DmitriyVoronov00 proposing a lightweight ParticipantWeight query for CosmWasm smart contracts. This would let on-chain modules check participant weights directly without heavy gRPC calls, making integrations faster and more efficient. Worth keeping an eye on as it could simplify how contracts interact with the network's consensus data."
   }
 ]
