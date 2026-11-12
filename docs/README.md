@@ -20,6 +20,11 @@
 - документы комитетов
 - документы foundation
 
+### foundation
+Документация Gonka Foundation (Gonka Stiftung):
+
+- предложение о поддержке Фонда сообществом
+
 ### proposals
 Всё, что связано с proposals:
 

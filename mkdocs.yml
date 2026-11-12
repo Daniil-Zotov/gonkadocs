@@ -32,6 +32,8 @@ not_in_nav: |
 
 nav:
   - Gonka.ai/docs: "/gonka/docs/"
+  - Foundation:
+    - Overview: foundation/index.md
   - Community:
     - Overview: community/README.md
     - Roadmap: 
@@ -326,6 +328,8 @@ extra:
   tabs:
     - title: Gonka.ai/docs
       url: /gonka/docs/
+    - title: Foundation
+      url: /foundation/
     - title: Community
       url: /community/
     - title: Proposals

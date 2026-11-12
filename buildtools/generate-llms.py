@@ -85,6 +85,15 @@ SECTIONS = [
         ],
     },
     {
+        "dir": "foundation",
+        "heading": "## Foundation",
+        "url_prefix": "/foundation/",
+        "desc": "The Gonka Foundation (Gonka Stiftung) — Swiss legal counterparty supporting the long-term development, neutrality and resilience of Gonka",
+        "entries": [
+            ("index.md", "Community Support for the Gonka Foundation", "Endorsement proposal: Foundation mission, scope, legal status, board and commitments to the community"),
+        ],
+    },
+    {
         "dir": "proposals",
         "heading": "## On-Chain Proposals",
         "url_prefix": "/proposals/",
