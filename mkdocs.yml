@@ -74,6 +74,7 @@ nav:
       - On-Chain Governance: proposals/proposals/index.md
       - 2026-Q4:
         - Overview: proposals/proposals/2026-q4/index.md
+        - "#119 – Community Support for the Gonka Foundation": proposals/proposals/2026-q4/119/index.md
         - "#118 – Dev Team Funding": proposals/proposals/2026-q4/118/index.md
         - "#117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit": proposals/proposals/2026-q4/117/index.md
         - "#116 – Approve DevShard v6 and distribute bounty rewards": proposals/proposals/2026-q4/116/index.md

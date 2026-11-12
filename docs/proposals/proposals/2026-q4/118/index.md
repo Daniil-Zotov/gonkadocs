@@ -37,18 +37,18 @@ This proposal is to cover two months of work on the Gonka network by MillCreek R
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:62.6%"></div>
+    <div class="prop-tally-yes" style="width:62.5%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (890,149)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (884,562)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 890,149 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>62.6%</strong> (890,149 / 1,421,775) · Quorum <strong>25%</strong> (355,443)</span>
+    <span class="prop-tally-total-text">Total 884,562 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>62.5%</strong> (884,562 / 1,416,188) · Quorum <strong>25%</strong> (354,047)</span>
   </div>
 </div>
 

@@ -34,17 +34,17 @@ hide:
 ## 2026-Q4 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">9</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">6</span><span class="qs-desc">Passed (67%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">1</span><span class="qs-desc">Rejected (11%)</span></div>
+<div class="qs-stat total"><span class="qs-num">10</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">6</span><span class="qs-desc">Passed (60%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">1</span><span class="qs-desc">Rejected (10%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:67%"></span></span><span class="qs-value">6</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:11%"></span></span><span class="qs-value">1</span></div>
-<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:11%"></span></span><span class="qs-value">1</span></div>
-<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:11%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:60%"></span></span><span class="qs-value">6</span></div>
+<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:20%"></span></span><span class="qs-value">2</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:10%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:10%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-funding-line">85,000 GNK · $175,675 · Community Pool · 217,896 GNK · Gov Module</div>
@@ -54,7 +54,22 @@ hide:
 
 <div class="prop-quarter">
 <h2>2026-Q4</h2>
-<p>9 proposals</p>
+<p>10 proposals</p>
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-14T06:29:55.946087176Z">
+  <div class="prop-card-header">
+    <a href="119/" class="prop-card-title">#119 – Community Support for the Gonka Foundation</a>
+    <span class="prop-vote-countdown" data-deadline="2026-11-14T06:29:55.946087176Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-11-12</span>
+    <span>Voting ends 2026-11-14</span>
+  </div>
+  <div class="prop-card-desc">The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (539,502)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>38.1%</strong> (539,502 / 1,416,188) · Quorum <strong>25%</strong> (354,047)</span></div>
+</div>
+
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-13T17:29:39.951923264Z">
   <div class="prop-card-header">
     <a href="118/" class="prop-card-title">#118 – Dev Team Funding</a>
@@ -66,8 +81,8 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (890,149)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>62.6%</strong> (890,149 / 1,421,775) · Quorum <strong>25%</strong> (355,443)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (884,562)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>62.5%</strong> (884,562 / 1,416,188) · Quorum <strong>25%</strong> (354,047)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-13T16:43:30.468794619Z">
@@ -81,8 +96,8 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (973,348)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>68.5%</strong> (973,348 / 1,421,775) · Quorum <strong>25%</strong> (355,443)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (967,761)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>68.3%</strong> (967,761 / 1,416,188) · Quorum <strong>25%</strong> (354,047)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
