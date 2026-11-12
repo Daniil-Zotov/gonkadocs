@@ -31593,8 +31593,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 100.0% (988,006) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 65.6% (988,006 / 1,506,224) · Quorum 25% (376,556)
+  Yes 100.0% (890,149) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 62.6% (890,149 / 1,421,775) · Quorum 25% (355,443)
 
   
     #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
@@ -31606,8 +31606,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
-  Yes 100.0% (1,061,869) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 70.5% (1,061,869 / 1,506,224) · Quorum 25% (376,556)
+  Yes 100.0% (973,348) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 68.5% (973,348 / 1,421,775) · Quorum 25% (355,443)
 
   
     #116 – Approve DevShard v6 and distribute bounty rewards
@@ -32942,7 +32942,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-117 proposals across 6 quarters. Last updated: 2026-11-11 22:46 UTC
+117 proposals across 6 quarters. Last updated: 2026-11-12 03:26 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82264,8 +82264,8 @@ Software Upgrade1
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 100.0% (988,006) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 65.6% (988,006 / 1,506,224) · Quorum 25% (376,556)
+  Yes 100.0% (890,149) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 62.6% (890,149 / 1,421,775) · Quorum 25% (355,443)
 
   
     #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
@@ -82277,8 +82277,8 @@ Software Upgrade1
     Voting ends 2026-11-13
   
   Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
-  Yes 100.0% (1,061,869) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 70.5% (1,061,869 / 1,506,224) · Quorum 25% (376,556)
+  Yes 100.0% (973,348) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 68.5% (973,348 / 1,421,775) · Quorum 25% (355,443)
 
   
     #116 – Approve DevShard v6 and distribute bounty rewards
@@ -84476,12 +84476,12 @@ If the proposal is not approved, none of these transactions will take place.
     
   
   
-    Yes 100.0% (1,061,869)
+    Yes 100.0% (973,348)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 1,061,869 votes
-    ✓ Turnout 70.5% (1,061,869 / 1,506,224) · Quorum 25% (376,556)
+    Total 973,348 votes
+    ✓ Turnout 68.5% (973,348 / 1,421,775) · Quorum 25% (355,443)
   
 
 Voters
@@ -84489,6 +84489,7 @@ Voters
 VoterVote
 
 gonka1qwfrtz…33xdklYes 100.0%
+gonka1p2lhgn…k6h26mYes 100.0%
 gonka19wskgk…ezmhjkYes 100.0%
 gonka133xdfv…ptfwuhYes 100.0%
 gonka1nurzpp…9rggstYes 100.0%
@@ -84580,12 +84581,12 @@ This proposal is to cover two months of work on the Gonka network by MillCreek R
     
   
   
-    Yes 100.0% (988,006)
+    Yes 100.0% (890,149)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 988,006 votes
-    ✓ Turnout 65.6% (988,006 / 1,506,224) · Quorum 25% (376,556)
+    Total 890,149 votes
+    ✓ Turnout 62.6% (890,149 / 1,421,775) · Quorum 25% (355,443)
   
 
 Voters
@@ -84593,6 +84594,7 @@ Voters
 VoterVote
 
 gonka1qwfrtz…33xdklYes 100.0%
+gonka1p2lhgn…k6h26mYes 100.0%
 gonka19wskgk…ezmhjkYes 100.0%
 gonka1nurzpp…9rggstYes 100.0%
 gonka147qfck…4gpvz8Yes 100.0%
