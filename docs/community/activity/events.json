@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20261112040305_d65c7184",
+    "timestamp": "2026-11-12T04:03:05.563412+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — AMA: Эволюция токеномики Gonka",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "AMA: Эволюция токеномики Gonka",
+          "date": "2026-11-12",
+          "time": "17:00 UTC",
+          "event_type": "ama",
+          "url": "None"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261111225838_d6031102",
     "timestamp": "2026-11-11T22:58:38.625853+00:00",
     "section": "calendar",
@@ -8019,21 +8043,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Feature: Expose lightweight ParticipantWeight query to CosmWasm (AcceptedGrpcQueries)\n    <span class=\"issues-number\">#1867</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/DmitriyVoronov00\">@DmitriyVoronov00</a> opened 2026-09-28 11:12 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-label"
     },
     "ai_description": "New issue #1867 has been opened by @DmitriyVoronov00 proposing a lightweight ParticipantWeight query for CosmWasm smart contracts. This would let on-chain modules check participant weights directly without heavy gRPC calls, making integrations faster and more efficient. Worth keeping an eye on as it could simplify how contracts interact with the network's consensus data."
-  },
-  {
-    "id": "evt_20261022192049_f2437f75",
-    "timestamp": "2026-10-22T19:20:49.450399+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1881 — The Gateway That Never Forgets",
-      "url": "/community/issues/01881-the-gateway-that-never-forgets/",
-      "file": "01881-the-gateway-that-never-forgets.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    The Gateway That Never Forgets\n    <span class=\"issues-number\">#1881</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-09-29 23:35 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
-    },
-    "ai_description": "A new issue, \"The Gateway That Never Forgets\" (#1881), has been opened by @paranjko and is already closed with two comments. This suggests a proposal or discussion that was quickly resolved, so check the thread to see what was decided and if any action items matter for the network. Stay tuned for the outcome."
   }
 ]
