@@ -31606,8 +31606,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 100.0% (945,016) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 66.5% (945,016 / 1,421,720) · Quorum 25% (355,430)
+  Yes 91.9% (945,016) · No 8.1% (83,199) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 72.3% (1,028,215 / 1,421,720) · Quorum 25% (355,430)
 
   
     #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
@@ -32955,7 +32955,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-118 proposals across 6 quarters. Last updated: 2026-11-12 17:23 UTC
+118 proposals across 6 quarters. Last updated: 2026-11-12 19:43 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82290,8 +82290,8 @@ Software Upgrade1
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 100.0% (945,016) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 66.5% (945,016 / 1,421,720) · Quorum 25% (355,430)
+  Yes 91.9% (945,016) · No 8.1% (83,199) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 72.3% (1,028,215 / 1,421,720) · Quorum 25% (355,430)
 
   
     #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
@@ -84609,12 +84609,12 @@ This proposal is to cover two months of work on the Gonka network by MillCreek R
     
   
   
-    Yes 100.0% (945,016)
-    No 0.0% (0)
+    Yes 91.9% (945,016)
+    No 8.1% (83,199)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 945,016 votes
-    ✓ Turnout 66.5% (945,016 / 1,421,720) · Quorum 25% (355,430)
+    Total 1,028,215 votes
+    ✓ Turnout 72.3% (1,028,215 / 1,421,720) · Quorum 25% (355,430)
   
 
 Voters
@@ -84625,6 +84625,7 @@ gonka1qwfrtz…33xdklYes 100.0%
 gonka1p2lhgn…k6h26mYes 100.0%
 gonka19wskgk…ezmhjkYes 100.0%
 gonka1g0guvd…ex0gz9Yes 100.0%
+gonka133xdfv…ptfwuhNo 100.0%
 gonka1nurzpp…9rggstYes 100.0%
 gonka14fm55m…k4yjufYes 100.0%
 gonka147qfck…4gpvz8Yes 100.0%

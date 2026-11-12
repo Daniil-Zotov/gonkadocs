@@ -2,7 +2,7 @@
 title: "#2244 — [Discussion] Tx fees: enable the remaining groups?"
 source: https://github.com/gonka-ai/gonka/issues/2244
 issue_number: 2244
-synced_at: 2026-11-12T11:29:03Z
+synced_at: 2026-11-12T20:05:57Z
 template: issues-main.html
 ---
 

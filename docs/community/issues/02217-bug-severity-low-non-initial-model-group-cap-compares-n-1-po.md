@@ -2,7 +2,7 @@
 title: "#2217 — BUG: Severity Low: Non-initial model group cap compares N-1 post-collateral weight against pre-collateral contribution"
 source: https://github.com/gonka-ai/gonka/issues/2217
 issue_number: 2217
-synced_at: 2026-11-12T11:29:21Z
+synced_at: 2026-11-12T20:06:17Z
 template: issues-main.html
 ---
 
