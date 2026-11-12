@@ -20,7 +20,6 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- 2026-11-11 07:58 UTC — Passed: #116 – Approve DevShard v6 and distribute bounty rewards: https://gonkadocs.com/proposals/proposals/2026-q4/116/
 - 2026-11-12 17:00 UTC — AMA: Эволюция токеномики Gonka: https://gonkadocs.com
 - 2026-11-13 16:43 UTC — Voting ends: #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit: https://gonkadocs.com/proposals/proposals/2026-q4/117/
 - 2026-11-13 17:29 UTC — Voting ends: #118 – Dev Team Funding: https://gonkadocs.com/proposals/proposals/2026-q4/118/

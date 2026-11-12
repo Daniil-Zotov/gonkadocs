@@ -22336,7 +22336,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 45Expired
 66Votes
-421.0K GNKTotal Bid
+419.4K GNKTotal Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closed |
 | :----- | :----- | :----- | ----: | -------: | :----- |
@@ -22372,8 +22372,8 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 | 🔴 | [3. Team Gonka Wallet Grant Request](./2b6b2142-685a-4eda-b2a1-f8853228f3e6/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [Team Gonka.AI \| Inside Grant Request](./4792a93f-127a-4a0e-9a12-acd229c1e865/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
 | 🔴 | [1. Team Veylox Grant Request](./66e6583a-27b4-4bae-91fb-8f0489736b0d/) | Slava MyGonka | 0 | 0.00 GNK | 2026-07-11 |
-| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 101.5K GNK | 2026-07-10 |
-| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 101.5K GNK | 2026-07-10 |
+| 🔴 | [Go-To-Market Team for 3 Month to Set Up the Basis](./cb7f643f-3d56-47ec-9193-f9f2f80a99fb/) | Dem \| Démíngān | 2 | 101.1K GNK | 2026-07-10 |
+| 🔴 | [Gonka Media Library by Saccade](./f215996d-e562-42b5-b2b1-400226e612fa/) | Dem \| Démíngān | 2 | 101.1K GNK | 2026-07-10 |
 | 🔴 | [Стресс тест инфиренса](./efc0edeb-bc49-4c6b-a6e7-5b20ccfbe571/) | Mitch | 0 | 0.00 GNK | 2026-06-05 |
 | 🔴 | [Bring Gonka to EBC12 as a Gold Sponsor](./29baf37b-811f-4c36-b517-66a578383f1c/) | Heydar Naghiyev | 0 | 0.00 GNK | 2026-06-04 |
 | 🔴 | [Большое видео на канале Falcon Finance (Александр Соколовский)](./550f71de-897f-4ce5-8af8-97854775f8b2/) | Дмитрий В | 0 | 0.00 GNK | 2026-05-28 |
@@ -22388,7 +22388,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-11-11 18:38 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-11-12 01:29 UTC*
 
 ---
 
@@ -27235,7 +27235,7 @@ https://t.me/gonka_hosts
 **Closes:** 2026-07-10 15:58 UTC
 **Language:** EN
 **Votes:** 2
-**Avg. Bid:** 101.5K GNK
+**Avg. Bid:** 101.1K GNK
 
 This proposal describes ecosystem we should do for the Gonka, including basics, go-to-market actions, the team and the budgets for the next 3 months.
 
@@ -30568,7 +30568,7 @@ https://youtu.be/hwX_4_v6xxI
 **Closes:** 2026-07-10 11:28 UTC
 **Language:** EN
 **Votes:** 2
-**Avg. Bid:** 101.5K GNK
+**Avg. Bid:** 101.1K GNK
 
 Gonka Media Library — Explainer Library & Platform
 Explainer series (20 ep., 40 min) + web download & self-branding platform
@@ -31593,8 +31593,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 100.0% (204,169) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 13.6% (204,169 / 1,506,224) · Quorum 25% (376,556)
+  Yes 100.0% (988,006) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 65.6% (988,006 / 1,506,224) · Quorum 25% (376,556)
 
   
     #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
@@ -31606,8 +31606,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
-  Yes 100.0% (1,055,834) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 70.1% (1,055,834 / 1,506,224) · Quorum 25% (376,556)
+  Yes 100.0% (1,061,869) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 70.5% (1,061,869 / 1,506,224) · Quorum 25% (376,556)
 
   
     #116 – Approve DevShard v6 and distribute bounty rewards
@@ -32942,7 +32942,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-117 proposals across 6 quarters. Last updated: 2026-11-11 19:22 UTC
+117 proposals across 6 quarters. Last updated: 2026-11-11 22:46 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82264,8 +82264,8 @@ Software Upgrade1
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 100.0% (204,169) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✗ Turnout 13.6% (204,169 / 1,506,224) · Quorum 25% (376,556)
+  Yes 100.0% (988,006) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 65.6% (988,006 / 1,506,224) · Quorum 25% (376,556)
 
   
     #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
@@ -82277,8 +82277,8 @@ Software Upgrade1
     Voting ends 2026-11-13
   
   Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
-  Yes 100.0% (1,055,834) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 70.1% (1,055,834 / 1,506,224) · Quorum 25% (376,556)
+  Yes 100.0% (1,061,869) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 70.5% (1,061,869 / 1,506,224) · Quorum 25% (376,556)
 
   
     #116 – Approve DevShard v6 and distribute bounty rewards
@@ -84476,18 +84476,19 @@ If the proposal is not approved, none of these transactions will take place.
     
   
   
-    Yes 100.0% (1,055,834)
+    Yes 100.0% (1,061,869)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 1,055,834 votes
-    ✓ Turnout 70.1% (1,055,834 / 1,506,224) · Quorum 25% (376,556)
+    Total 1,061,869 votes
+    ✓ Turnout 70.5% (1,061,869 / 1,506,224) · Quorum 25% (376,556)
   
 
 Voters
 
 VoterVote
 
+gonka1qwfrtz…33xdklYes 100.0%
 gonka19wskgk…ezmhjkYes 100.0%
 gonka133xdfv…ptfwuhYes 100.0%
 gonka1nurzpp…9rggstYes 100.0%
@@ -84579,19 +84580,25 @@ This proposal is to cover two months of work on the Gonka network by MillCreek R
     
   
   
-    Yes 100.0% (204,169)
+    Yes 100.0% (988,006)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 204,169 votes
-    ✗ Turnout 13.6% (204,169 / 1,506,224) · Quorum 25% (376,556)
+    Total 988,006 votes
+    ✓ Turnout 65.6% (988,006 / 1,506,224) · Quorum 25% (376,556)
   
 
 Voters
 
 VoterVote
 
+gonka1qwfrtz…33xdklYes 100.0%
 gonka19wskgk…ezmhjkYes 100.0%
+gonka1nurzpp…9rggstYes 100.0%
+gonka147qfck…4gpvz8Yes 100.0%
+gonka1kvmerz…lzldumYes 100.0%
+gonka168rtjf…lnkns2Yes 100.0%
+gonka16dgkvx…6j0skkYes 100.0%
 gonka1ajmhqg…z8s939Yes 100.0%
 
 ---
