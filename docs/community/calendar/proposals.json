@@ -1562,13 +1562,13 @@
   {
     "date": "2026-11-13",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #118 – Dev Team Funding",
+    "type": "proposal_report",
+    "title": "Passed: #118 – Dev Team Funding",
     "url": "/proposals/proposals/2026-q4/118/",
     "time": "17:29 UTC",
     "description": "This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …",
     "tags": [
-      "voting"
+      "passed"
     ]
   },
   {
