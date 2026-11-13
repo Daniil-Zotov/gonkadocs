@@ -2,7 +2,7 @@
 title: "#783 — [4/4] `StartInference` and `FinishInference`"
 source: https://github.com/gonka-ai/gonka/issues/783
 issue_number: 783
-synced_at: 2026-11-13T08:11:35Z
+synced_at: 2026-11-13T16:35:21Z
 template: issues-main.html
 ---
 

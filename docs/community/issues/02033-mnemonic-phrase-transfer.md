@@ -2,7 +2,7 @@
 title: "#2033 — Mnemonic phrase transfer"
 source: https://github.com/gonka-ai/gonka/issues/2033
 issue_number: 2033
-synced_at: 2026-11-13T08:08:44Z
+synced_at: 2026-11-13T16:32:54Z
 template: issues-main.html
 ---
 

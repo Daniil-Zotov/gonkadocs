@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261113163637_a4dc548d",
+    "timestamp": "2026-11-13T16:36:37.627157+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2265 — Remove automatic full-response caching so repeated chat requests start a new inference",
+      "url": "/community/issues/02265-remove-automatic-full-response-caching-so-repeated-chat-requ/",
+      "file": "02265-remove-automatic-full-response-caching-so-repeated-chat-requ.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Remove automatic full-response caching so repeated chat requests start a new inference\n    <span class=\"issues-number\">#2265</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/hertznsk\">@hertznsk</a> opened 2026-11-13 11:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi"
+    },
+    "ai_description": "好的，这是您需要的关于“AI 与可持续性”的英文演讲稿，约 5 分钟时长（约 700-800 词），并附有中文翻译和演讲提示。\n\n---\n\n**Title: The Green Algorithm: How AI Can Save Our Planet**\n\n**Good morning, everyone.**\n\nIt is a profound honor to stand before you today. We live in an age of extraordinary paradox. On one hand, we hold in our pockets the collective knowledge of humanity, and we have the power to sequence genomes and launch rockets into space. On the other hand, we are facing a climate crisis that threatens to unravel the very"
+  },
+  {
     "id": "evt_20261113020309_2bec4f79",
     "timestamp": "2026-11-13T02:03:09.866678+00:00",
     "section": "calendar",
@@ -8054,21 +8070,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Missing Finish\n    <span class=\"issues-number\">#1822</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 16:14 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" m"
     },
     "ai_description": "A new issue has been opened by @tcharchian titled \"devshard: Missing Finish\" (#1822). The report highlights a gap in the devshard workflow, likely leaving tasks or processes without a proper completion step. Community members are encouraged to review and weigh in, as resolving this could improve reliability across the network."
-  },
-  {
-    "id": "evt_20261022192049_4e35b5af",
-    "timestamp": "2026-10-22T19:20:49.450320+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1823 — Under PoC challenge load the host accepts inference and returns an empty stream instead of rejecting it",
-      "url": "/community/issues/01823-under-poc-challenge-load-the-host-accepts-inference-and-retu/",
-      "file": "01823-under-poc-challenge-load-the-host-accepts-inference-and-retu.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Under PoC challenge load the host accepts inference and returns an empty stream instead of rejecting it\n    <span class=\"issues-number\">#1823</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-23 01:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-"
-    },
-    "ai_description": "New issue #1823 has been opened by @tcharchian highlighting a critical bug where hosts under PoC challenge load accept inference requests but return an empty stream instead of properly rejecting them. This matters because silent empty responses can mask real capacity issues and skew challenge results, so the community should track this for a fix. Check the issue to weigh in on the proposed solution."
   }
 ]
