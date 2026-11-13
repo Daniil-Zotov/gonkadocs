@@ -2,7 +2,7 @@
 title: "#2264 — Gateway allowlist request - self-hosted developer gateway"
 source: https://github.com/gonka-ai/gonka/issues/2264
 issue_number: 2264
-synced_at: 2026-11-13T16:32:15Z
+synced_at: 2026-11-13T22:42:48Z
 template: issues-main.html
 ---
 

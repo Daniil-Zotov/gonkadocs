@@ -2,7 +2,7 @@
 title: "#2265 — Remove automatic full-response caching so repeated chat requests start a new inference"
 source: https://github.com/gonka-ai/gonka/issues/2265
 issue_number: 2265
-synced_at: 2026-11-13T16:32:15Z
+synced_at: 2026-11-13T22:42:47Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/hertznsk">@hertznsk</a> opened 2026-11-13 11:45 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-13 11:46 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-13 19:46 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -71,6 +71,20 @@ A regression test should send two identical client POSTs and assert two fresh ru
 
 The trade-off is additional compute for requests that would previously have been cache hits. For agent recovery, this is the intended cost of another attempt. Normal conversation turns change the history, while repeated prefixes can still benefit from KV caching.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-11-13 19:46 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>you can use different <code>seed</code> between requests to get a new response </p>
+  </div>
 </div>
 
 ---

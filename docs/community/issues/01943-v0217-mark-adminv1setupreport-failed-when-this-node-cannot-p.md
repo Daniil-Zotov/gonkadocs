@@ -2,7 +2,7 @@
 title: "#1943 — v0.2.17: Mark `/admin/v1/setup/report` failed when this node cannot pay one epoch of fees"
 source: https://github.com/gonka-ai/gonka/issues/1943
 issue_number: 1943
-synced_at: 2026-11-13T16:33:24Z
+synced_at: 2026-11-13T22:42:47Z
 template: issues-main.html
 ---
 
@@ -16,7 +16,7 @@ template: issues-main.html
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-10-07 21:55 UTC</span>
     <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-10-09 23:52 UTC</span>
+    <span class="issues-meta-item">Updated 2026-11-13 21:40 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #4cbc0f; color: #24292f; border-color: #4cbc0f;">up-for-grabs</span></div>
 </div>

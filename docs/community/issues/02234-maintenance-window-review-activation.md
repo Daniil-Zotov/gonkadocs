@@ -2,7 +2,7 @@
 title: "#2234 — Maintenance window: Review & activation"
 source: https://github.com/gonka-ai/gonka/issues/2234
 issue_number: 2234
-synced_at: 2026-11-13T16:32:25Z
+synced_at: 2026-11-13T22:42:58Z
 template: issues-main.html
 ---
 

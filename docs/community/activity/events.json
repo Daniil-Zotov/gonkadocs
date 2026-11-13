@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261113224725_98f151c0",
+    "timestamp": "2026-11-13T22:47:25.315216+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2265 — Remove automatic full-response caching so repeated chat requests start a new inference",
+      "url": "/community/issues/02265-remove-automatic-full-response-caching-so-repeated-chat-requ/",
+      "file": "02265-remove-automatic-full-response-caching-so-repeated-chat-requ.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Remove automatic full-response caching so repeated chat requests start a new inference\n    <span class=\"issues-number\">#2265</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/hertznsk\">@hertznsk</a> opened 2026-11-13 11:45 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margi",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Remove automatic full-response caching so repeated chat requests start a new inference\n    <span class=\"issues-number\">#2265</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/hertznsk\">@hertznsk</a> opened 2026-11-13 11:45 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
+    },
+    "ai_description": "Issue #2265 on removing automatic full-response caching just got its first comment. The proposal aims to make every repeated chat request trigger a fresh inference instead of serving cached results, which would improve response variety and accuracy. Worth a read if you care about getting genuinely new outputs from the network. Check it out and share your thoughts."
+  },
+  {
     "id": "evt_20261113175839_7203f9b5",
     "timestamp": "2026-11-13T17:58:39.078761+00:00",
     "section": "calendar",
@@ -8058,21 +8074,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [P0] Training on Gonka. ML part / verify locally and launch the experiment\n    <span class=\"issues-number\">#1820</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 00:41 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
     },
     "ai_description": "New issue #1820 has been opened by @tcharchian, flagged as P0 priority, to handle the ML side of training on Gonka: verifying the setup locally and launching the experiment. This is a critical first step for the community to get real training workloads running on the network, so keep an eye on it for updates."
-  },
-  {
-    "id": "evt_20261022192049_b2ed2689",
-    "timestamp": "2026-10-22T19:20:49.450295+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1821 — Cosmos SDK / fork security v0.2.18",
-      "url": "/community/issues/01821-cosmos-sdk-fork-security-v0218/",
-      "file": "01821-cosmos-sdk-fork-security-v0218.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Cosmos SDK / fork security v0.2.18\n    <span class=\"issues-number\">#1821</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 02:35 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"ba"
-    },
-    "ai_description": "A new issue (#1821) has been opened by @tcharchian proposing a security upgrade for the Cosmos SDK fork to version v0.2.18. This is an open discussion to review the fork's security posture, so community input is welcome. Head over to the issue to weigh in on the proposed changes."
   }
 ]
