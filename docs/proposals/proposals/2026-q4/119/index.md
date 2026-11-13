@@ -39,7 +39,7 @@ The full text of the proposal is in the proposal metadata.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:53.9%"></div>
+    <div class="prop-tally-yes" style="width:54.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
@@ -50,7 +50,7 @@ The full text of the proposal is in the proposal metadata.
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 993,874 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>53.9%</strong> (993,874 / 1,843,774) · Quorum <strong>25%</strong> (460,943)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>54.0%</strong> (993,874 / 1,841,754) · Quorum <strong>25%</strong> (460,438)</span>
   </div>
 </div>
 
