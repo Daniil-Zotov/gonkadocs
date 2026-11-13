@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-11-13T17:58:39.108973+00:00",
+  "snapshot_time": "2026-11-13T23:47:08.571852+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2432,14 +2432,14 @@
       "content_preview": "Devshard v6\n\nThis proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.\n\nThe main change in …",
       "checksum": "50a9866e6c73e038f0d4bc680de5f1802554475c363991a29347b7834831efcd"
     },
-    "22c7deb1605acd9adadaf3ece56b36f5dd4439aacf9fe888b85c215014dbaf5e": {
-      "title": "Voting ends: #118 – Dev Team Funding",
+    "41a540a844b3c8906c06a8842c10a084c06b818606bca2d46be08315cbec0c3a": {
+      "title": "Passed: #118 – Dev Team Funding",
       "date": "2026-11-13",
       "time": "17:29 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q4/118/",
       "content_preview": "This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …",
-      "checksum": "8f5914d59425c9db7290fdafcceb21cf96eb1d3a63f91b11fbfc802588ea98a4"
+      "checksum": "57c934541ce060bcc50f5a3aab7359a160e2070747d8c70d5e3359a8c7d8c468"
     },
     "11a2b49c5082e8bdd4e5172c32e22a88cb2230745b64c60c091f43ec8c07bc80": {
       "title": "Passed: #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit",
