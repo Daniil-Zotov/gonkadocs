@@ -45,18 +45,18 @@ If the proposal is not approved, none of these transactions will take place.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:72.3%"></div>
+    <div class="prop-tally-yes" style="width:49.6%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,028,215)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (973,211)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 1,028,215 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>72.3%</strong> (1,028,215 / 1,421,720) · Quorum <strong>25%</strong> (355,430)</span>
+    <span class="prop-tally-total-text">Total 973,211 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>49.6%</strong> (973,211 / 1,962,928) · Quorum <strong>25%</strong> (490,732)</span>
   </div>
 </div>
 
