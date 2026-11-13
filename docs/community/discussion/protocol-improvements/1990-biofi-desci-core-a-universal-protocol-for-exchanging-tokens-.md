@@ -3,7 +3,7 @@ title: "#1990 — BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens
 source: https://github.com/gonka-ai/gonka/discussions/1990
 discussion_number: 1990
 category: protocol-improvements
-synced_at: 2026-11-13T16:09:54Z
+synced_at: 2026-11-13T22:30:44Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1990](https://github.com/gonka-ai/gonka/discussions/1990) every hour. 
