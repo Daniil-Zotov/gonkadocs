@@ -1,5 +1,25 @@
 [
   {
+    "id": "evt_20261113175839_7203f9b5",
+    "timestamp": "2026-11-13T17:58:39.078761+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Passed: #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit",
+      "url": "/proposals/proposals/2026-q4/117/",
+      "file": "11a2b49c5082e8bdd4e5172c32e22a88cb2230745b64c60c091f43ec8c07bc80"
+    },
+    "details": {
+      "status": null,
+      "content": "Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK. \n\nOf this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…",
+      "date": "2026-11-13",
+      "time": "16:43 UTC",
+      "event_type": "proposal_report",
+      "url": "/proposals/proposals/2026-q4/117/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261113163637_a4dc548d",
     "timestamp": "2026-11-13T16:36:37.627157+00:00",
     "section": "issues",
@@ -8054,21 +8074,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Cosmos SDK / fork security v0.2.18\n    <span class=\"issues-number\">#1821</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 02:35 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" style=\"ba"
     },
     "ai_description": "A new issue (#1821) has been opened by @tcharchian proposing a security upgrade for the Cosmos SDK fork to version v0.2.18. This is an open discussion to review the fork's security posture, so community input is welcome. Head over to the issue to weigh in on the proposed changes."
-  },
-  {
-    "id": "evt_20261022192049_ee8c7771",
-    "timestamp": "2026-10-22T19:20:49.450308+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1822 — `devshard`: Missing Finish",
-      "url": "/community/issues/01822-devshard-missing-finish/",
-      "file": "01822-devshard-missing-finish.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Missing Finish\n    <span class=\"issues-number\">#1822</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-22 16:14 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" m"
-    },
-    "ai_description": "A new issue has been opened by @tcharchian titled \"devshard: Missing Finish\" (#1822). The report highlights a gap in the devshard workflow, likely leaving tasks or processes without a proper completion step. Community members are encouraged to review and weigh in, as resolving this could improve reliability across the network."
   }
 ]
