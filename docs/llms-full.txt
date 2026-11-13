@@ -21937,7 +21937,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-11-12 23:07 UTC
+2026-11-13 04:45 UTC
 
 ---
 
@@ -21991,7 +21991,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 7,900,776 GNK
+Current balance: 7,934,502 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -31593,8 +31593,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-14
   
   The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…
-  Yes 100.0% (831,056) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 58.5% (831,056 / 1,421,720) · Quorum 25% (355,430)
+  Yes 100.0% (873,225) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 44.5% (873,225 / 1,962,928) · Quorum 25% (490,732)
 
   
     #118 – Dev Team Funding
@@ -31606,8 +31606,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 100.0% (1,028,215) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 72.3% (1,028,215 / 1,421,720) · Quorum 25% (355,430)
+  Yes 100.0% (973,211) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 49.6% (973,211 / 1,962,928) · Quorum 25% (490,732)
 
   
     #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
@@ -31619,8 +31619,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
-  Yes 100.0% (1,028,215) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 72.3% (1,028,215 / 1,421,720) · Quorum 25% (355,430)
+  Yes 100.0% (973,211) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 49.6% (973,211 / 1,962,928) · Quorum 25% (490,732)
 
   
     #116 – Approve DevShard v6 and distribute bounty rewards
@@ -32955,7 +32955,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-118 proposals across 6 quarters. Last updated: 2026-11-13 00:15 UTC
+118 proposals across 6 quarters. Last updated: 2026-11-13 07:43 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82277,8 +82277,8 @@ Software Upgrade1
     Voting ends 2026-11-14
   
   The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…
-  Yes 100.0% (831,056) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 58.5% (831,056 / 1,421,720) · Quorum 25% (355,430)
+  Yes 100.0% (873,225) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 44.5% (873,225 / 1,962,928) · Quorum 25% (490,732)
 
   
     #118 – Dev Team Funding
@@ -82290,8 +82290,8 @@ Software Upgrade1
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 100.0% (1,028,215) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 72.3% (1,028,215 / 1,421,720) · Quorum 25% (355,430)
+  Yes 100.0% (973,211) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 49.6% (973,211 / 1,962,928) · Quorum 25% (490,732)
 
   
     #117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit
@@ -82303,8 +82303,8 @@ Software Upgrade1
     Voting ends 2026-11-13
   
   Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
-  Yes 100.0% (1,028,215) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 72.3% (1,028,215 / 1,421,720) · Quorum 25% (355,430)
+  Yes 100.0% (973,211) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 49.6% (973,211 / 1,962,928) · Quorum 25% (490,732)
 
   
     #116 – Approve DevShard v6 and distribute bounty rewards
@@ -84502,12 +84502,12 @@ If the proposal is not approved, none of these transactions will take place.
     
   
   
-    Yes 100.0% (1,028,215)
+    Yes 100.0% (973,211)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 1,028,215 votes
-    ✓ Turnout 72.3% (1,028,215 / 1,421,720) · Quorum 25% (355,430)
+    Total 973,211 votes
+    ✓ Turnout 49.6% (973,211 / 1,962,928) · Quorum 25% (490,732)
   
 
 Voters
@@ -84609,12 +84609,12 @@ This proposal is to cover two months of work on the Gonka network by MillCreek R
     
   
   
-    Yes 100.0% (1,028,215)
+    Yes 100.0% (973,211)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 1,028,215 votes
-    ✓ Turnout 72.3% (1,028,215 / 1,421,720) · Quorum 25% (355,430)
+    Total 973,211 votes
+    ✓ Turnout 49.6% (973,211 / 1,962,928) · Quorum 25% (490,732)
   
 
 Voters
@@ -84698,12 +84698,12 @@ The full text of the proposal is in the proposal metadata.
     
   
   
-    Yes 100.0% (831,056)
+    Yes 100.0% (873,225)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 831,056 votes
-    ✓ Turnout 58.5% (831,056 / 1,421,720) · Quorum 25% (355,430)
+    Total 873,225 votes
+    ✓ Turnout 44.5% (873,225 / 1,962,928) · Quorum 25% (490,732)
   
 
 Voters
@@ -84717,6 +84717,7 @@ gonka147qfck…4gpvz8Yes 100.0%
 gonka1kvmerz…lzldumYes 100.0%
 gonka168rtjf…lnkns2Yes 100.0%
 gonka16dgkvx…6j0skkYes 100.0%
+gonka1u5q25e…027kl3Yes 100.0%
 gonka1ue6k3p…a4hpghNo 100.0%
 gonka1ajmhqg…z8s939Yes 100.0%
 
