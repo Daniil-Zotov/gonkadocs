@@ -2,7 +2,7 @@
 title: "#2239 — Optimize token ID handling in vLLM responses"
 source: https://github.com/gonka-ai/gonka/issues/2239
 issue_number: 2239
-synced_at: 2026-11-13T01:12:05Z
+synced_at: 2026-11-13T08:08:06Z
 template: issues-main.html
 ---
 
