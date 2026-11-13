@@ -35,7 +35,7 @@ hide:
 
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">10</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">6</span><span class="qs-desc">Passed (60%)</span></div>
+<div class="qs-stat passed"><span class="qs-num">7</span><span class="qs-desc">Passed (70%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">1</span><span class="qs-desc">Rejected (10%)</span></div>
 
 </div>
@@ -85,11 +85,10 @@ hide:
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>59.4%</strong> (1,093,860 / 1,841,754) · Quorum <strong>25%</strong> (460,438)</span></div>
 </div>
 
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-13T16:43:30.468794619Z">
+<div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
     <a href="117/" class="prop-card-title">#117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit</a>
-    <span class="prop-vote-countdown" data-deadline="2026-11-13T16:43:30.468794619Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-passed">Passed</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-11-11</span>
