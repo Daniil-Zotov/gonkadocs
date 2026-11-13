@@ -39,18 +39,18 @@ The full text of the proposal is in the proposal metadata.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:47.4%"></div>
+    <div class="prop-tally-yes" style="width:53.9%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
-    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (873,225)</span>
+    <span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (993,874)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 873,225 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>47.4%</strong> (873,225 / 1,843,774) · Quorum <strong>25%</strong> (460,943)</span>
+    <span class="prop-tally-total-text">Total 993,874 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>53.9%</strong> (993,874 / 1,843,774) · Quorum <strong>25%</strong> (460,943)</span>
   </div>
 </div>
 
@@ -63,6 +63,7 @@ The full text of the proposal is in the proposal metadata.
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1g0guvdkl08x58lv0xemjeejfakc89ttwex0gz9" target="_blank" class="prop-voter-addr">gonka1g0guvd…ex0gz9</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1sk6fh7mm74w6hn5wq0667zca00lt3cpr7pfvyv" target="_blank" class="prop-voter-addr">gonka1sk6fh7…7pfvyv</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst" target="_blank" class="prop-voter-addr">gonka1nurzpp…9rggst</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka14fm55mflahd9t2qjhhgqzn58rzdnkzxuk4yjuf" target="_blank" class="prop-voter-addr">gonka14fm55m…k4yjuf</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8" target="_blank" class="prop-voter-addr">gonka147qfck…4gpvz8</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>

@@ -71,8 +71,8 @@ hide:
     <span>Voting ends 2026-11-14</span>
   </div>
   <div class="prop-card-desc">The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (873,225)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>47.4%</strong> (873,225 / 1,843,774) · Quorum <strong>25%</strong> (460,943)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (993,874)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>53.9%</strong> (993,874 / 1,843,774) · Quorum <strong>25%</strong> (460,943)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-13T17:29:39.951923264Z">
@@ -86,8 +86,8 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (973,211)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>52.8%</strong> (973,211 / 1,843,774) · Quorum <strong>25%</strong> (460,943)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>59.3%</strong> (1,093,860 / 1,843,774) · Quorum <strong>25%</strong> (460,943)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-13T16:43:30.468794619Z">
@@ -101,8 +101,8 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (973,211)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>52.8%</strong> (973,211 / 1,843,774) · Quorum <strong>25%</strong> (460,943)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>59.3%</strong> (1,093,860 / 1,843,774) · Quorum <strong>25%</strong> (460,943)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1680,7 +1680,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>118 proposals across 6 quarters. Last updated: 2026-11-13 12:03 UTC</em>
+<em>118 proposals across 6 quarters. Last updated: 2026-11-13 12:23 UTC</em>
 </div>
 
 <script>
