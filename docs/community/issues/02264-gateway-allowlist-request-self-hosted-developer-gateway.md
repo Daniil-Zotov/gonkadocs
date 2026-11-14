@@ -2,7 +2,7 @@
 title: "#2264 — Gateway allowlist request - self-hosted developer gateway"
 source: https://github.com/gonka-ai/gonka/issues/2264
 issue_number: 2264
-synced_at: 2026-11-14T03:22:51Z
+synced_at: 2026-11-14T10:40:51Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/jgfb9271-cyber">@jgfb9271-cyber</a> opened 2026-11-13 01:05 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-13 01:05 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-14 06:37 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -47,6 +47,21 @@ concurrency rather than claiming a guaranteed network capacity.
 We understand that inclusion is a governance decision and that submitting this
 request does not guarantee inclusion or a review timeline.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/tcharchian">@tcharchian</a></span>
+    <span class="issues-meta-item">commented 2026-11-14 06:37 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Hi @jgfb9271-cyber!  As you noted, inclusion is a governance decision, so this records the intent and doesn't set a timeline.
+If you need anything along the way, the OpenBroker folks are around — cc @gonkalabs</p>
+  </div>
 </div>
 
 ---

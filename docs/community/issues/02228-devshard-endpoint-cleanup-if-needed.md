@@ -2,7 +2,7 @@
 title: "#2228 — `devshard`: endpoint cleanup, if needed"
 source: https://github.com/gonka-ai/gonka/issues/2228
 issue_number: 2228
-synced_at: 2026-11-14T03:23:05Z
+synced_at: 2026-11-14T10:41:06Z
 template: issues-main.html
 ---
 

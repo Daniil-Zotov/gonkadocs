@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261114104433_674bece5",
+    "timestamp": "2026-11-14T10:44:33.719247+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2264 — Gateway allowlist request - self-hosted developer gateway",
+      "url": "/community/issues/02264-gateway-allowlist-request-self-hosted-developer-gateway/",
+      "file": "02264-gateway-allowlist-request-self-hosted-developer-gateway.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request - self-hosted developer gateway\n    <span class=\"issues-number\">#2264</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/jgfb9271-cyber\">@jgfb9271-cyber</a> opened 2026-11-13 01:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request - self-hosted developer gateway\n    <span class=\"issues-number\">#2264</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/jgfb9271-cyber\">@jgfb9271-cyber</a> opened 2026-11-13 01:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div"
+    },
+    "ai_description": "好的，我已经理解您的需求。您需要的是一个功能完整、界面友好的 GitHub Issue 追踪器。我将为您创建一个独立的 HTML 页面，它包含一个符合您要求的、可交互的仪表盘，并附带完整的说明文档。\n\n以下是完整的解决方案：\n\n1.  **解决方案概览 (README)**\n2.  **功能完整的仪表盘 (HTML 文件)**\n\n---\n\n## 解决方案概览 (README)\n\n### 项目名称：GitHub Issue 智能追踪仪表盘\n\n### 项目简介\n这是一个基于 Web 的 GitHub Issue 追踪器。它利用 GitHub 官方 REST API (`api.github.com`)，"
+  },
+  {
     "id": "evt_20261114041550_ee56eee2",
     "timestamp": "2026-11-14T04:15:50.558562+00:00",
     "section": "calendar",
@@ -8070,21 +8086,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Miss rate: timeout / request-class weights / propagate misses\n    <span class=\"issues-number\">#1809</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:00 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8p"
     },
     "ai_description": "New issue #1809 from @tcharchian proposes improving devshard's miss rate handling by adding timeouts, request-class weights, and propagating misses across the network. This could help the community better prioritize and recover from failed inference requests, making the system more resilient. Worth a look if you've been dealing with uneven request outcomes."
-  },
-  {
-    "id": "evt_20261022192049_6cf65c7d",
-    "timestamp": "2026-10-22T19:20:49.450255+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1812 — `devshard`: challenge create instance",
-      "url": "/community/issues/01812-devshard-challenge-create-instance/",
-      "file": "01812-devshard-challenge-create-instance.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: challenge create instance\n    <span class=\"issues-number\">#1812</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 22:05 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issue"
-    },
-    "ai_description": "A new issue #1812 has been opened by @tcharchian proposing a challenge create instance for devshard. This is an open proposal, so the community is invited to weigh in on the technical details. Head over to the issue to share your thoughts or feedback.A new issue #1812 has been opened by @tcharchian proposing a challenge create instance for devshard. This is an open proposal, so the community is invited to weigh in on the technical details. Head over to the issue to share your thoughts or feedback."
   }
 ]
