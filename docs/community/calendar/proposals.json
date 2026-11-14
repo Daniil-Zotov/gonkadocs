@@ -1586,13 +1586,13 @@
   {
     "date": "2026-11-14",
     "category": "governance",
-    "type": "proposal_vote_end",
-    "title": "Voting ends: #119 – Community Support for the Gonka Foundation",
+    "type": "proposal_report",
+    "title": "Passed: #119 – Community Support for the Gonka Foundation",
     "url": "/proposals/proposals/2026-q4/119/",
     "time": "06:29 UTC",
     "description": "The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…",
     "tags": [
-      "voting"
+      "passed"
     ]
   }
 ]
