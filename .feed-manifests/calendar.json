@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-11-14T06:54:53.360253+00:00",
+  "snapshot_time": "2026-11-14T14:24:45.347205+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2450,14 +2450,14 @@
       "content_preview": "Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK. \n\nOf this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…",
       "checksum": "0ec36883ab53eecf6277bb62d34b36e43e0d955e5dbe7b43192b1dbe53bdeb2b"
     },
-    "5e06c80d0e38461797f5f3bd71fed85a346ec300754aa600725a91220e3e573e": {
-      "title": "Voting ends: #119 – Community Support for the Gonka Foundation",
+    "0bb7ff2d6cb792f46f6aa56615ad8dd9b065f72d0fba8d064e04325665c5025e": {
+      "title": "Passed: #119 – Community Support for the Gonka Foundation",
       "date": "2026-11-14",
       "time": "06:29 UTC",
-      "event_type": "proposal_vote_end",
+      "event_type": "proposal_report",
       "url": "/proposals/proposals/2026-q4/119/",
       "content_preview": "The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…",
-      "checksum": "6b68d50dcc2d7c2e66b56909f0ddce8b060748520fc97b9094e4de5aa82c4f37"
+      "checksum": "a4e8114caf9a54f9ba3aa622a82e6093486a7538854fc94664e85a95309529e9"
     }
   }
 }
