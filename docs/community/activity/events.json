@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261114165931_ee606e73",
+    "timestamp": "2026-11-14T16:59:31.269890+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#2267 — [Proposal] Lightweight TypeScript CLI for Automated Ethereum Bridge Epoch Synchronization",
+      "url": "/community/discussion/protocol-improvements/2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b/",
+      "file": "protocol-improvements/2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #2267](https://github.com/gonka-ai/gonka/discussions/2267) every hour. \n\n# [Proposal] Lightweight TypeScript CLI for Automated Ethereum Bridge Epoch Synchronization\n\n**Автор:** [@kakavaanen](https://github.com/kakavaanen) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-14 13:58 UTC · \n\n---\n\n## 📝 Описание\n\n**Motivation**\nCurrently, submitting epoch updates to the Ethereum BridgeContract requires using the `submit-epoch-public.js` script located in `proposals/ethereum-bridge-contact/`. \n\nThis process has several bottlenecks:\n1. It requires a full Hardhat installation and Solidity compilation just to read an ABI.\n2. It requires the operator to manually query the Gonka API (`/epoch_data` and `/signing_history`), manually copy-paste the B"
+    },
+    "ai_description": "A new proposal has been added to the Discussions section: a lightweight TypeScript CLI to automate Ethereum Bridge epoch synchronization. It aims to replace the current manual workflow that relies on a full Hardhat setup and copy-pasting API data, making the process faster and more operator-friendly. Worth a read for anyone managing bridge operations."
+  },
+  {
     "id": "evt_20261114142445_12129eb7",
     "timestamp": "2026-11-14T14:24:45.328767+00:00",
     "section": "calendar",
@@ -8074,21 +8090,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Max context length\n    <span class=\"issues-number\">#1807</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:57 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-conten"
     },
     "ai_description": "A new issue #1807 has been opened by @tcharchian regarding the max context length for the devshard component. This is an important technical discussion for the community to track, as it directly impacts how much context can be processed in our inference workflows. Head over to the issue to share your input on this configuration parameter."
-  },
-  {
-    "id": "evt_20261022192049_ab94bde1",
-    "timestamp": "2026-10-22T19:20:49.450231+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1808 — `devshard`: Per-chunk stream signatures",
-      "url": "/community/issues/01808-devshard-per-chunk-stream-signatures/",
-      "file": "01808-devshard-per-chunk-stream-signatures.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Per-chunk stream signatures\n    <span class=\"issues-number\">#1808</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"iss"
-    },
-    "ai_description": "New issue #1808 from @tcharchian proposes adding per-chunk stream signatures to the devshard module. This would let each data chunk carry its own cryptographic signature, improving verification granularity for streamed inference workloads. Worth a look if you care about tamper-proofing data at the chunk level."
   }
 ]

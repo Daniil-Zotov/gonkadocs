@@ -4,12 +4,13 @@ title: ":gear: Protocol Improvements"
 
 # :gear: Protocol Improvements
 
-Дискуссии в категории **:gear: Protocol Improvements**. Всего: **50**. Обновлено: `2026-11-14 10:15 UTC`.
+Дискуссии в категории **:gear: Protocol Improvements**. Всего: **51**. Обновлено: `2026-11-14 16:59 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [2267](2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md) | [[Proposal] Lightweight TypeScript CLI for Automated Ethereum Bridge Epoch Synchronization](2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md) | [@kakavaanen](https://github.com/kakavaanen) | 2026-11-14 |
 | [2248](2248-research-milestones-for-split-delegation-2240-and-optional-l.md) | [Research milestones for split delegation (#2240) and optional launch-time intents (#2243)](2248-research-milestones-for-split-delegation-2240-and-optional-l.md) | [@startupcompliancekit](https://github.com/startupcompliancekit) | 2026-11-08 |
 | [1990](1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md) | [BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens of Protected Data](1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md) | [@nikolay2828](https://github.com/nikolay2828) | 2026-10-13 |
 | [1886](1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md) | [Proposal: a consistent integer-overflow policy for Gonka (#1222)](1886-proposal-a-consistent-integer-overflow-policy-for-gonka-1222.md) | [@zpoken](https://github.com/zpoken) | 2026-10-01 |

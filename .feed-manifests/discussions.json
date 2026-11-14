@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-11-14T10:15:42.507333+00:00",
+  "snapshot_time": "2026-11-14T16:59:45.034023+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -523,6 +523,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2248](https://github.com/gonka-ai/gonka/discussions/2248) every hour. \n\n# Research milestones for split delegation (#2240) and optional launch-time intents (#2243)\n\n**Автор:** [@startupcompliancekit](https://github.com/startupcompliancekit) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-08 07:42 UTC · \n\n---\n\n## 📝 Описание\n\nI propose two bounded research milestones for #2240 and #2243, with designs, compatibility analysis and reproducible local simulations. These would establish implementation requirements before changing protocol behavior.\n\nFor #2240, the deliverable would distinguish governance voting authorization, fractional voting choices and stake delegation; trace the current implementation; specify fractional allocation, per",
       "checksum": "b73da9d6c490590b943ed5e45a1f1d62d7822e939c37acf4e90c352fce875258"
+    },
+    "protocol-improvements/2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md": {
+      "title": "#2267 — [Proposal] Lightweight TypeScript CLI for Automated Ethereum Bridge Epoch Synchronization",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2267](https://github.com/gonka-ai/gonka/discussions/2267) every hour. \n\n# [Proposal] Lightweight TypeScript CLI for Automated Ethereum Bridge Epoch Synchronization\n\n**Автор:** [@kakavaanen](https://github.com/kakavaanen) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-14 13:58 UTC · \n\n---\n\n## 📝 Описание\n\n**Motivation**\nCurrently, submitting epoch updates to the Ethereum BridgeContract requires using the `submit-epoch-public.js` script located in `proposals/ethereum-bridge-contact/`. \n\nThis process has several bottlenecks:\n1. It requires a full Hardhat installation and Solidity compilation just to read an ABI.\n2. It requires the operator to manually query the Gonka API (`/epoch_data` and `/signing_history`), manually copy-paste the B",
+      "checksum": "8b96013646f1bddfd3c56e105f62f1312b6d5e3b29a3c635eeaa5ffd02a01837"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "#796 — Are there plans to add prompt-level confidentiality for hosts?",
