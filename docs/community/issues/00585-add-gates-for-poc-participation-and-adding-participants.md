@@ -2,7 +2,7 @@
 title: "#585 — Add gates for PoC participation and adding participants"
 source: https://github.com/gonka-ai/gonka/issues/585
 issue_number: 585
-synced_at: 2026-11-14T10:44:12Z
+synced_at: 2026-11-14T17:16:28Z
 template: issues-main.html
 ---
 
