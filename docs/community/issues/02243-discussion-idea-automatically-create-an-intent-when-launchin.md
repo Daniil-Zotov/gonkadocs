@@ -2,7 +2,7 @@
 title: "#2243 — Discussion idea: automatically create an intent when launching a node"
 source: https://github.com/gonka-ai/gonka/issues/2243
 issue_number: 2243
-synced_at: 2026-11-13T22:42:56Z
+synced_at: 2026-11-14T03:22:57Z
 template: issues-main.html
 ---
 

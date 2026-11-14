@@ -2,7 +2,7 @@
 title: "#381 — [P0] How to change `inference_url`"
 source: https://github.com/gonka-ai/gonka/issues/381
 issue_number: 381
-synced_at: 2026-11-13T22:47:15Z
+synced_at: 2026-11-14T03:26:22Z
 template: issues-main.html
 ---
 

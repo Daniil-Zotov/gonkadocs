@@ -2,7 +2,7 @@
 title: "#1986 — devshard: store I/O under the per-escrow Session.mu serialises all requests of an escrow under load"
 source: https://github.com/gonka-ai/gonka/issues/1986
 issue_number: 1986
-synced_at: 2026-11-13T22:43:44Z
+synced_at: 2026-11-14T03:23:36Z
 template: issues-main.html
 ---
 

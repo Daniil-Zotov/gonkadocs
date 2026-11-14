@@ -2,7 +2,7 @@
 title: "#2229 — `devshard`: escrow-owner validation responsibilities"
 source: https://github.com/gonka-ai/gonka/issues/2229
 issue_number: 2229
-synced_at: 2026-11-13T22:43:05Z
+synced_at: 2026-11-14T03:23:05Z
 template: issues-main.html
 ---
 
