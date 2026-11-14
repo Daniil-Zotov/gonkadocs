@@ -21937,7 +21937,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-11-13 20:15 UTC
+2026-11-14 01:12 UTC
 
 ---
 
@@ -21991,7 +21991,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 7,933,502 GNK
+Current balance: 7,978,090 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -31593,8 +31593,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-14
   
   The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…
-  Yes 100.0% (993,874) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 54.0% (993,874 / 1,841,754) · Quorum 25% (460,438)
+  Yes 100.0% (1,204,897) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 61.2% (1,204,897 / 1,969,215) · Quorum 25% (492,303)
 
   
     #118 – Dev Team Funding
@@ -32953,7 +32953,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-118 proposals across 6 quarters. Last updated: 2026-11-13 21:26 UTC
+118 proposals across 6 quarters. Last updated: 2026-11-14 01:34 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82275,8 +82275,8 @@ Software Upgrade1
     Voting ends 2026-11-14
   
   The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…
-  Yes 100.0% (993,874) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
-  ✓ Turnout 54.0% (993,874 / 1,841,754) · Quorum 25% (460,438)
+  Yes 100.0% (1,204,897) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
+  ✓ Turnout 61.2% (1,204,897 / 1,969,215) · Quorum 25% (492,303)
 
   
     #118 – Dev Team Funding
@@ -84696,12 +84696,12 @@ The full text of the proposal is in the proposal metadata.
     
   
   
-    Yes 100.0% (993,874)
+    Yes 100.0% (1,204,897)
     No 0.0% (0)
     Veto 0.0% (0)
     Abstain 0.0% (0)
-    Total 993,874 votes
-    ✓ Turnout 54.0% (993,874 / 1,841,754) · Quorum 25% (460,438)
+    Total 1,204,897 votes
+    ✓ Turnout 61.2% (1,204,897 / 1,969,215) · Quorum 25% (492,303)
   
 
 Voters
@@ -84718,6 +84718,7 @@ gonka168rtjf…lnkns2Yes 100.0%
 gonka16dgkvx…6j0skkYes 100.0%
 gonka1u5q25e…027kl3Yes 100.0%
 gonka1ue6k3p…a4hpghNo 100.0%
+gonka1u7s3mp…p80asyYes 100.0%
 gonka1ajmhqg…z8s939Yes 100.0%
 
 ---
