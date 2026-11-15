@@ -2,7 +2,7 @@
 title: "#1319 — Self-serve (no-broker) flow is documented as working but returns 401 "model requires an API key" — I want to spend my own GNK directly"
 source: https://github.com/gonka-ai/gonka/issues/1319
 issue_number: 1319
-synced_at: 2026-11-15T17:17:20Z
+synced_at: 2026-11-15T21:54:44Z
 template: issues-main.html
 ---
 
