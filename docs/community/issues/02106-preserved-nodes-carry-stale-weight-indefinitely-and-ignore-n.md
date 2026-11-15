@@ -2,7 +2,7 @@
 title: "#2106 — Preserved nodes carry stale weight indefinitely and ignore node changes (v0.2.17)"
 source: https://github.com/gonka-ai/gonka/issues/2106
 issue_number: 2106
-synced_at: 2026-11-15T01:59:10Z
+synced_at: 2026-11-15T09:35:48Z
 template: issues-main.html
 ---
 

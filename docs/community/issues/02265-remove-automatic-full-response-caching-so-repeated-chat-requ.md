@@ -2,7 +2,7 @@
 title: "#2265 — Remove automatic full-response caching so repeated chat requests start a new inference"
 source: https://github.com/gonka-ai/gonka/issues/2265
 issue_number: 2265
-synced_at: 2026-11-15T01:59:09Z
+synced_at: 2026-11-15T09:35:48Z
 template: issues-main.html
 ---
 
