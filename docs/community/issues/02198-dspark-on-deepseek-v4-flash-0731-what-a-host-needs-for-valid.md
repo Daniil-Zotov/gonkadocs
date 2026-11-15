@@ -2,7 +2,7 @@
 title: "#2198 — DSpark on DeepSeek-V4-Flash-0731: what a host needs for valid answers and votes"
 source: https://github.com/gonka-ai/gonka/issues/2198
 issue_number: 2198
-synced_at: 2026-11-14T21:34:30Z
+synced_at: 2026-11-15T01:59:27Z
 template: issues-main.html
 ---
 
