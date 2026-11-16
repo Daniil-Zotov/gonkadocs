@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei](https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei)
 
-<div class="prop-funding-line">$75,000 · Community Pool</div>
+<div class="prop-funding-line">$75,000 · Community Sale</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/77){:target="_blank"}

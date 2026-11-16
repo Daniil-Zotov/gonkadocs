@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/2](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/2)
 
-<div class="prop-funding-line">$20,000 · Community Pool</div>
+<div class="prop-funding-line">$20,000 · Community Sale</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/61){:target="_blank"}

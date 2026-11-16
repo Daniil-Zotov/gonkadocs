@@ -30,10 +30,10 @@ BOUNTY_BY_VERSION = {
     "v0.2.13": {"total": 18875, "denom": "USDT",  "source": "Community Sale",  "pr": 1168, "pr_status": "Merged"},
     "v0.2.14": {"total": 50250, "denom": "USDT",  "source": "Community Sale",  "pr": 1446, "pr_status": "Merged"},
     "v0.2.15": {"total": 39825, "denom": "USDT",  "source": "Community Sale",  "pr": 1503, "pr_status": "Merged"},
-    # v0.2.16 bounties were distributed via governance proposal #113
-    # (the upgrade handler defines distributeBountyRewards but never calls it)
-    "v0.2.16": {"total": 104150, "denom": "USDT", "source": "Community Sale", "pr": None,
-                 "link": "https://gonkadocs.com/proposals/proposals/2026-q4/113/", "link_label": "Proposal #113"},
+    # NOTE: v0.2.16 bounties were NOT distributed by the upgrade handler (it
+    # defines distributeBountyRewards but never calls it) and were NOT requested
+    # in the v0.2.16 upgrade proposal — they were requested and distributed via
+    # governance proposal #113, so no BOUNTY_BY_VERSION entry here.
 }
 
 RPC_ENDPOINTS = [
@@ -347,10 +347,12 @@ def parse_amounts_by_source(messages):
 
     Inflows and outflows are netted per source. Returns dict[str, tuple[int, int]]
     mapping source name to (gnk, usdt):
-    - "Community Pool" — net outflow (spending)
-    - "Community Pool (inflow)" — net inflow, e.g. #117: 1,750,000 USDT in,
-      607,250 USDT reimbursed back to Bitfury → +1,142,750 USDT to the pool
-    - "Gov Module" — GNK distributions
+    - "Community Pool" — MsgCommunityPoolSpend (real distribution-module spends)
+    - "Community Sale" — net USDT payouts from the Community Sale contract
+    - "Community Sale (inflow)" — net inflow, e.g. #117: 1,750,000 USDT in,
+      607,250 USDT reimbursed back to Bitfury → +1,142,750 USDT stays on the
+      community side of the Community Sale contract
+    - "Gov Module" — GNK vesting distributions
     """
     outflows = {}
     inflows = {}
@@ -363,8 +365,13 @@ def parse_amounts_by_source(messages):
     for m in iter_messages(messages):
         t = m.get("@type", "")
 
-        if "MsgCommunityPoolSpend" in t or "MsgExecuteContract" in t:
+        if "MsgCommunityPoolSpend" in t:
             source = "Community Pool"
+        elif "MsgExecuteContract" in t:
+            # withdraw_ibc / withdraw_cw20 are gov-module-authorized USDT payouts
+            # from the Community Sale contract (every on-chain MsgExecuteContract
+            # call in governance proposals targets that contract) — not the pool
+            source = "Community Sale"
         elif "MsgBatchTransferWithVesting" in t or "MsgTransferWithVesting" in t or "MsgMultiSend" in t:
             source = "Gov Module"
         else:

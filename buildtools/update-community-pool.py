@@ -378,18 +378,27 @@ def iter_messages(messages):
 
 
 def parse_funding_from_messages(messages):
-    """Extract GNK and USDT amounts from all message types in a proposal.
+    """Extract GNK and USDT amounts from all message types in a proposal, per source.
+
+    Sources:
+    - "Community Pool" — MsgCommunityPoolSpend (real distribution-module spends)
+    - "Community Sale" — MsgExecuteContract withdraw_ibc / withdraw_cw20
+      (gov-module-authorized USDT payouts from the Community Sale contract)
+    - "Gov Module" — vesting distributions (GNK)
 
     Inflows (CW20 send/transfer INTO pool-controlled addresses, e.g. #117
-    Bitfury tranche) and outflows (withdraw_ibc / withdraw_cw20, MsgCommunityPoolSpend,
-    vesting distributions) are netted per denom.
+    Bitfury tranche) are netted against "Community Sale" outflows per denom.
 
-    Returns (gnk_spend, usdt_spend, gnk_inflow, usdt_inflow) — non-negative ints.
+    Returns (sources, inflow): sources maps source name to (gnk, usdt)
+    non-negative ints (zero entries dropped); inflow is (gnk, usdt) net inflow.
     """
-    gnk_out = 0.0
-    usdt_out = 0.0
-    gnk_in = 0.0
-    usdt_in = 0.0
+    outflows = {}
+    inflows = {}
+
+    def _add(bucket, source, gnk=0.0, usdt=0.0):
+        b = bucket.setdefault(source, [0.0, 0.0])
+        b[0] += gnk
+        b[1] += usdt
 
     for m in iter_messages(messages):
         t = m.get("@type", "")
@@ -402,15 +411,18 @@ def parse_funding_from_messages(messages):
                 except (ValueError, TypeError):
                     continue
                 if denom == "ngonka":
-                    gnk_out += amt / 1_000_000_000
+                    _add(outflows, "Community Pool", gnk=amt / 1_000_000_000)
                 elif denom == USDT_IBC_DENOM:
-                    usdt_out += amt / 1_000_000
+                    _add(outflows, "Community Pool", usdt=amt / 1_000_000)
 
         elif "MsgExecuteContract" in t:
+            # All on-chain MsgExecuteContract calls in governance proposals target
+            # the Community Sale contract — its USDT payouts are a separate source,
+            # not Community Pool spending
             wi = m.get("msg", {}).get("withdraw_ibc", {})
             if wi and wi.get("denom") == USDT_IBC_DENOM:
                 try:
-                    usdt_out += int(wi.get("amount", "0")) / 1_000_000
+                    _add(outflows, "Community Sale", usdt=int(wi.get("amount", "0")) / 1_000_000)
                 except (ValueError, TypeError):
                     pass
             # withdraw_cw20 pays out bridged CW20 USDT from the Community Sale
@@ -418,7 +430,7 @@ def parse_funding_from_messages(messages):
             wc = m.get("msg", {}).get("withdraw_cw20", {})
             if wc and wc.get("contract_addr") == USDT_CW20_ADDR:
                 try:
-                    usdt_out += int(wc.get("amount", "0")) / 1_000_000
+                    _add(outflows, "Community Sale", usdt=int(wc.get("amount", "0")) / 1_000_000)
                 except (ValueError, TypeError):
                     pass
             for c in m.get("funds", []):
@@ -428,7 +440,7 @@ def parse_funding_from_messages(messages):
                 except (ValueError, TypeError):
                     continue
                 if denom == "ngonka":
-                    gnk_out += amt / 1_000_000_000
+                    _add(outflows, "Community Sale", gnk=amt / 1_000_000_000)
             # CW20 send/transfer INTO a pool-controlled address = USDT inflow (#117)
             inner = m.get("msg", {})
             if m.get("contract") == USDT_CW20_ADDR:
@@ -436,7 +448,7 @@ def parse_funding_from_messages(messages):
                 recipient = cw_payload.get("contract") or cw_payload.get("recipient") or ""
                 if recipient in (COMMUNITY_SALE_ADDR, COMMUNITY_POOL_ADDR):
                     try:
-                        usdt_in += int(cw_payload.get("amount", "0")) / 1_000_000
+                        _add(inflows, "Community Sale", usdt=int(cw_payload.get("amount", "0")) / 1_000_000)
                     except (ValueError, TypeError):
                         pass
 
@@ -449,9 +461,9 @@ def parse_funding_from_messages(messages):
                     except (ValueError, TypeError):
                         continue
                     if denom == "ngonka":
-                        gnk_out += amt / 1_000_000_000
+                        _add(outflows, "Gov Module", gnk=amt / 1_000_000_000)
                     elif denom == USDT_IBC_DENOM:
-                        usdt_out += amt / 1_000_000
+                        _add(outflows, "Gov Module", usdt=amt / 1_000_000)
 
         elif "MsgTransferWithVesting" in t:
             for c in m.get("amount", []):
@@ -461,7 +473,7 @@ def parse_funding_from_messages(messages):
                 except (ValueError, TypeError):
                     continue
                 if denom == "ngonka":
-                    gnk_out += amt / 1_000_000_000
+                    _add(outflows, "Gov Module", gnk=amt / 1_000_000_000)
 
         elif "MsgMultiSend" in t:
             for inp in m.get("inputs", []):
@@ -472,43 +484,45 @@ def parse_funding_from_messages(messages):
                     except (ValueError, TypeError):
                         continue
                     if denom == "ngonka":
-                        gnk_out += amt / 1_000_000_000
+                        _add(outflows, "Gov Module", gnk=amt / 1_000_000_000)
 
-    # Net inflows against outflows per denom
-    gnk_spend = max(gnk_out - gnk_in, 0.0)
-    usdt_spend = max(usdt_out - usdt_in, 0.0)
-    gnk_inflow = max(gnk_in - gnk_out, 0.0)
-    usdt_inflow = max(usdt_in - usdt_out, 0.0)
+    # Net inflows against outflows per source and denom
+    sources = {}
+    for s, (g_out, u_out) in outflows.items():
+        g_in, u_in = inflows.get(s, [0.0, 0.0])
+        g = max(g_out - g_in, 0.0)
+        u = max(u_out - u_in, 0.0)
+        if g > 0 or u > 0:
+            sources[s] = (int(g), int(u))
+    inflow_g = 0.0
+    inflow_u = 0.0
+    for s, (g_in, u_in) in inflows.items():
+        g_out, u_out = outflows.get(s, [0.0, 0.0])
+        inflow_g += max(g_in - g_out, 0.0)
+        inflow_u += max(u_in - u_out, 0.0)
 
-    return int(gnk_spend), int(usdt_spend), int(gnk_inflow), int(usdt_inflow)
+    return sources, (int(inflow_g), int(inflow_u))
 
 
-def determine_source(messages):
-    """Determine funding source for a proposal based on message types."""
-    has_pool_spend = False
-    has_gov_vesting = False
-    for m in messages:
-        t = m.get("@type", "")
-        if "MsgCommunityPoolSpend" in t or "MsgExecuteContract" in t:
-            has_pool_spend = True
-        if "MsgBatchTransferWithVesting" in t or "MsgTransferWithVesting" in t or "MsgMultiSend" in t:
-            has_gov_vesting = True
-    if has_pool_spend and has_gov_vesting:
-        return "Community Pool + Gov Module"
-    elif has_pool_spend:
-        return "Community Pool"
-    elif has_gov_vesting:
-        return "Gov Module"
-    return "—"
+def determine_source(sources):
+    """Build a combined source label from the per-source breakdown."""
+    names = [s for s in ("Community Pool", "Community Sale", "Gov Module") if sources.get(s)]
+    return " + ".join(names) if names else "—"
 
 
 def fetch_funding_history():
-    """Fetch all passed proposals and aggregate funding amounts."""
+    """Fetch all passed proposals and aggregate funding amounts.
+
+    Returns (funding, source_totals) where source_totals maps each source name
+    to (gnk, usdt) summed over per-message attribution (accurate for mixed
+    proposals, e.g. #116 = Community Pool + Community Sale + Gov Module).
+    """
     data = fetch_json("{BASE}/cosmos/gov/v1/proposals?pagination.limit=200")
     if not data:
-        return []
+        return [], {}
 
     funding = []
+    source_totals = {}
     for p in data.get("proposals", []):
         if p.get("status") not in PASSED_STATUSES:
             continue
@@ -518,7 +532,9 @@ def fetch_funding_history():
         msgs = p.get("messages", [])
         ts = fmt_time_short(p.get("voting_end_time", ""))
 
-        gnk_spend, usdt_spend, gnk_in, usdt_in = parse_funding_from_messages(msgs)
+        sources, (gnk_in, usdt_in) = parse_funding_from_messages(msgs)
+        gnk_spend = sum(g for g, _ in sources.values())
+        usdt_spend = sum(u for _, u in sources.values())
 
         if gnk_spend == 0 and usdt_spend == 0 and gnk_in == 0 and usdt_in == 0:
             continue
@@ -540,13 +556,18 @@ def fetch_funding_history():
         }
 
         if gnk_spend > 0 or usdt_spend > 0:
-            funding.append({**base, "source": determine_source(msgs), "gnk": gnk_spend, "usdt": usdt_spend, "inflow": False})
+            funding.append({**base, "source": determine_source(sources), "gnk": gnk_spend, "usdt": usdt_spend, "inflow": False})
 
-        # Net inflow (e.g. #117 — Bitfury Community Sale tranche left +$1,142,750 on the pool)
+        # Net inflow (e.g. #117 — Bitfury tranche left +$1,142,750 in the Community Sale contract)
         if gnk_in > 0 or usdt_in > 0:
-            funding.append({**base, "source": "Community Pool (inflow)", "gnk": gnk_in, "usdt": usdt_in, "inflow": True})
+            funding.append({**base, "source": "Community Sale (inflow)", "gnk": gnk_in, "usdt": usdt_in, "inflow": True})
 
-    return funding
+        # Accumulate per-source totals for the summary
+        for s, (g, u) in sources.items():
+            pg, pu = source_totals.get(s, (0, 0))
+            source_totals[s] = (pg + g, pu + u)
+
+    return funding, source_totals
 
 
 # ── Generate content ───────────────────────────────────────────
@@ -648,16 +669,18 @@ def _amount_label(f):
     return " + ".join(parts) if parts else "—"
 
 
-def generate_summary(funding):
+def generate_summary(funding, source_totals):
     spends = [f for f in funding if not f.get("inflow")]
     inflows = [f for f in funding if f.get("inflow")]
     total_gnk = sum(f["gnk"] for f in spends)
     total_usdt = sum(f["usdt"] for f in spends)
-    pool_gnk = sum(f["gnk"] for f in spends if "Community Pool" in f["source"])
-    pool_usdt = sum(f["usdt"] for f in spends if "Community Pool" in f["source"])
-    gov_gnk = sum(f["gnk"] for f in spends if "Gov Module" in f["source"])
+    # Per-source totals use per-message attribution (accurate for mixed proposals
+    # like #116 = Community Pool + Community Sale + Gov Module)
+    pool_gnk, pool_usdt = source_totals.get("Community Pool", (0, 0))
+    sale_gnk, sale_usdt = source_totals.get("Community Sale", (0, 0))
+    gov_gnk, _ = source_totals.get("Gov Module", (0, 0))
 
-    # Net inflows (e.g. #117 Bitfury Community Sale tranche)
+    # Net inflows (e.g. #117 Bitfury tranche into the Community Sale contract)
     inflow_gnk = sum(f["gnk"] for f in inflows)
     inflow_usdt = sum(f["usdt"] for f in inflows)
 
@@ -681,7 +704,7 @@ def generate_summary(funding):
             parts.append(f"+{inflow_gnk:,} GNK")
         if inflow_usdt > 0:
             parts.append(f"+${inflow_usdt:,}")
-        inflow_row = f"\n| Community Pool inflows (proposals) | {' + '.join(parts)} |"
+        inflow_row = f"\n| Community Sale inflows (proposals) | {' + '.join(parts)} |"
 
     return f"""| Metric | Value |
 | :----- | :---- |
@@ -689,6 +712,7 @@ def generate_summary(funding):
 | Total GNK approved (proposals) | {total_gnk:,} GNK |
 | Total USDT approved (proposals) | ${total_usdt:,} |
 | From Community Pool | {pool_gnk:,} GNK + ${pool_usdt:,} |
+| From Community Sale (proposals) | {sale_gnk:,} GNK + ${sale_usdt:,} |
 | From Gov Module | {gov_gnk:,} GNK |{inflow_row}
 | Largest funding | {largest_label} |
 | Most recent | {recent_label} |
@@ -776,7 +800,7 @@ def update_file():
     gov_balances = fetch_account_balance(GOV_MODULE_ADDR)
 
     print("Fetching funding history from proposals...")
-    funding = fetch_funding_history()
+    funding, source_totals = fetch_funding_history()
 
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     pool_cw20 = fetch_cw20_balance(USDT_CW20_ADDR, COMMUNITY_POOL_ADDR)
@@ -786,7 +810,7 @@ def update_file():
     sale_line = generate_sale_balance_line(sale_balances, sale_cw20)
     gov_line = generate_gov_balance_line(gov_balances)
     fund_table = generate_funding_table(funding)
-    summary = generate_summary(funding) if funding else ""
+    summary = generate_summary(funding, source_totals) if funding else ""
 
     content = replace_between_markers(
         content, "<!-- UPDATE_TIMESTAMP -->", "<!-- /UPDATE_TIMESTAMP -->", now_utc

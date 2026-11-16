@@ -24,7 +24,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1388](https://github.com/gonka-ai/gonka/discussions/1388)
 
-<div class="prop-funding-line">80,000 GNK · $88,000 · Community Pool</div>
+<div class="prop-funding-line">80,000 GNK · Community Pool · $88,000 · Community Sale</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/82){:target="_blank"}

@@ -24849,7 +24849,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-11-16 12:52 UTC
+2026-11-16 15:17 UTC
 
 ---
 
@@ -24887,7 +24887,7 @@ The mechanism works as a simple swap: participants deposit **USDT** and receive 
 
 Buyer USDT arrives in two forms: the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4`, and the **bridged CW20 USDT** — token contract [`gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk`](https://gonka.gg/address/gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk) ("Tether USD", 6 decimals, bridged from Ethereum `0xdAC17f958D2ee523a2206206994597C13d831ec7`).
 
-**[Proposal #117](/proposals/proposals/2026-q4/117/)** (passed 2026-11-13) used the CW20 route: Bitfury paid **1,750,000 USDT** for the next tranche of the previously approved 12M USDT Community Sale commitment at $0.60 per GNK. Of that, **607,250 USDT** was paid back to Bitfury as reimbursement for the HackerOne and Trail of Bits security costs it had covered in fiat directly to vendors, so the net **+1,142,750 USDT** stayed with the Community Pool, and **2,916,666 GNK** (1.75M ÷ $0.60) left the sale inventory.
+**[Proposal #117](/proposals/proposals/2026-q4/117/)** (passed 2026-11-13) used the CW20 route: Bitfury paid **1,750,000 USDT** for the next tranche of the previously approved 12M USDT Community Sale commitment at $0.60 per GNK. Of that, **607,250 USDT** was paid back to Bitfury as reimbursement for the HackerOne and Trail of Bits security costs it had covered in fiat directly to vendors, so the net **+1,142,750 USDT** stayed in the Community Sale contract (community treasury side), and **2,916,666 GNK** (1.75M ÷ $0.60) left the sale inventory.
 
 For security, sale proceeds are distributed in **tranches** rather than all at once. The contract releases batches of GNK gradually to mitigate risk and ensure safe execution.
 
@@ -24926,7 +24926,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka10d07
 
 ## How Community Pool Spending Works
 
-1. A governance proposal includes one or more funding messages — `MsgCommunityPoolSpend` (GNK/USDT from the Community Pool) or batch-vesting transfers (GNK from the Gov Module).
+1. A governance proposal includes one or more funding messages — `MsgCommunityPoolSpend` (GNK/USDT from the Community Pool), `MsgExecuteContract` (USDT from the Community Sale contract), or batch-vesting transfers (GNK from the Gov Module).
 2. If the proposal **passes**, the Gov Module authority address executes the transfers.
 3. USDT is paid out from the **Community Sale contract** via `MsgExecuteContract` — either as the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4` (`withdraw_ibc`, e.g. #113, #116) or as the bridged CW20 USDT `gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk` (`withdraw_cw20`, e.g. #117, #118). USDT held in the Community Pool itself sits as the IBC denom.
 
@@ -24936,37 +24936,37 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka10d07
 
 ## Historical Funding
 
-All **passed** governance proposals that moved funds through the Community Pool or Gov Module, sorted by descending proposal number. Rows marked **(inflow)** are net additions to community funds rather than spending — e.g. **#117**, where Bitfury's 1.75M USDT Community Sale tranche minus its 607,250 USDT reimbursement left **+$1,142,750** on the pool.
+All **passed** governance proposals that moved funds through the Community Pool, the Community Sale contract, or the Gov Module, sorted by descending proposal number. Rows marked **(inflow)** are net additions to community funds rather than spending — e.g. **#117**, where Bitfury's 1.75M USDT Community Sale tranche minus its 607,250 USDT reimbursement left **+$1,142,750** in the Community Sale contract.
 
 | Proposal | Date | Description | Source | Amount GNK | Amount USDT |
 | :------ | :--: | :---------- | :---- | ---------: | ---------: |
-| [#118](https://gonkadocs.com/proposals/proposals/2026-q4/118/) | 2026-11-13 | Dev Team Funding | Community Pool | — | $866,000 |
-| [#117](https://gonkadocs.com/proposals/proposals/2026-q4/117/) | 2026-11-13 | Bitfury buys another tranche of GNK for 1.75M USDT as part … | Community Pool (inflow) | — | +$1,142,750 |
-| [#116](https://gonkadocs.com/proposals/proposals/2026-q4/116/) | 2026-11-11 | Approve DevShard v6 and distribute bounty rewards | Community Pool + Gov Module | 170,000 | $69,425 |
-| [#113](https://gonkadocs.com/proposals/proposals/2026-q4/113/) | 2026-10-08 | Distribute v0.2.16 bounty rewards | Community Pool | — | $104,150 |
-| [#110](https://gonkadocs.com/proposals/proposals/2026-q4/110/) | 2026-10-03 | GRC Proposal #4 - Restitution | Community Pool + Gov Module | 132,896 | $2,100 |
-| [#105](https://gonkadocs.com/proposals/proposals/2026-q3/105/) | 2026-09-18 | Approve devshard v5 and bounty payouts | Community Pool | — | $91,300 |
-| [#103](https://gonkadocs.com/proposals/proposals/2026-q3/103/) | 2026-09-12 | Reimbursement of Expenses for Daniil and David Liberman's P… | Community Pool | — | $15,500 |
-| [#102](https://gonkadocs.com/proposals/proposals/2026-q3/102/) | 2026-09-11 | Ratify Quant Mesh Limited as the Ledger Integration Counter… | Community Pool | — | $350,350 |
-| [#99](https://gonkadocs.com/proposals/proposals/2026-q3/99/) | 2026-09-04 | Support Gonka's presence at TOKEN2049 Singapore | Community Pool | — | $100,000 |
-| [#82](https://gonkadocs.com/proposals/proposals/2026-q3/82/) | 2026-07-10 | External Test Lab x Community DevNet | Community Pool | 80,000 | $88,000 |
-| [#77](https://gonkadocs.com/proposals/proposals/2026-q2/77/) | 2026-06-26 | Gonka PR Proposal for US/Global Regions | Community Pool | — | $75,000 |
-| [#76](https://gonkadocs.com/proposals/proposals/2026-q2/76/) | 2026-06-17 | Governance 16: devshard v2 and bounty payouts | Community Pool | — | $93,600 |
-| [#74](https://gonkadocs.com/proposals/proposals/2026-q2/74/) | 2026-06-12 | Gonka Labs: Maintaining Infrastructure, Improving Products,… | Community Pool + Gov Module | 330,000 | $70,000 |
-| [#68](https://gonkadocs.com/proposals/proposals/2026-q2/68/) | 2026-06-07 | Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovs… | Community Pool | — | $70,000 |
+| [#118](https://gonkadocs.com/proposals/proposals/2026-q4/118/) | 2026-11-13 | Dev Team Funding | Community Sale | — | $866,000 |
+| [#117](https://gonkadocs.com/proposals/proposals/2026-q4/117/) | 2026-11-13 | Bitfury buys another tranche of GNK for 1.75M USDT as part … | Community Sale (inflow) | — | +$1,142,750 |
+| [#116](https://gonkadocs.com/proposals/proposals/2026-q4/116/) | 2026-11-11 | Approve DevShard v6 and distribute bounty rewards | Community Pool + Community Sale + Gov Module | 170,000 | $69,425 |
+| [#113](https://gonkadocs.com/proposals/proposals/2026-q4/113/) | 2026-10-08 | Distribute v0.2.16 bounty rewards | Community Sale | — | $104,150 |
+| [#110](https://gonkadocs.com/proposals/proposals/2026-q4/110/) | 2026-10-03 | GRC Proposal #4 - Restitution | Community Sale + Gov Module | 132,896 | $2,100 |
+| [#105](https://gonkadocs.com/proposals/proposals/2026-q3/105/) | 2026-09-18 | Approve devshard v5 and bounty payouts | Community Sale | — | $91,300 |
+| [#103](https://gonkadocs.com/proposals/proposals/2026-q3/103/) | 2026-09-12 | Reimbursement of Expenses for Daniil and David Liberman's P… | Community Sale | — | $15,500 |
+| [#102](https://gonkadocs.com/proposals/proposals/2026-q3/102/) | 2026-09-11 | Ratify Quant Mesh Limited as the Ledger Integration Counter… | Community Sale | — | $350,350 |
+| [#99](https://gonkadocs.com/proposals/proposals/2026-q3/99/) | 2026-09-04 | Support Gonka's presence at TOKEN2049 Singapore | Community Sale | — | $100,000 |
+| [#82](https://gonkadocs.com/proposals/proposals/2026-q3/82/) | 2026-07-10 | External Test Lab x Community DevNet | Community Pool + Community Sale | 80,000 | $88,000 |
+| [#77](https://gonkadocs.com/proposals/proposals/2026-q2/77/) | 2026-06-26 | Gonka PR Proposal for US/Global Regions | Community Sale | — | $75,000 |
+| [#76](https://gonkadocs.com/proposals/proposals/2026-q2/76/) | 2026-06-17 | Governance 16: devshard v2 and bounty payouts | Community Sale | — | $93,600 |
+| [#74](https://gonkadocs.com/proposals/proposals/2026-q2/74/) | 2026-06-12 | Gonka Labs: Maintaining Infrastructure, Improving Products,… | Community Sale + Gov Module | 330,000 | $70,000 |
+| [#68](https://gonkadocs.com/proposals/proposals/2026-q2/68/) | 2026-06-07 | Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovs… | Community Sale | — | $70,000 |
 | [#67](https://gonkadocs.com/proposals/proposals/2026-q2/67/) | 2026-06-05 | Kimi Restitution (epochs 265-276) | Gov Module | 946,509 | — |
 | [#65](https://gonkadocs.com/proposals/proposals/2026-q2/65/) | 2026-06-04 | TheSoul - Offer 2.3: Digital strategy (100,000 GNK) | Community Pool | 100,000 | — |
 | [#64](https://gonkadocs.com/proposals/proposals/2026-q2/64/) | 2026-06-04 | TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK) | Community Pool | 28,000 | — |
-| [#63](https://gonkadocs.com/proposals/proposals/2026-q2/63/) | 2026-06-04 | TheSoul - Offer 2.1: Website and landings (10,000 USDT) | Community Pool | — | $10,000 |
-| [#62](https://gonkadocs.com/proposals/proposals/2026-q2/62/) | 2026-06-04 | TheSoul - Offer 1.3: Influencer pilot (50,000 USDT) | Community Pool | — | $50,000 |
-| [#61](https://gonkadocs.com/proposals/proposals/2026-q2/61/) | 2026-06-04 | TheSoul - Offer 1.2: Brandbook (20,000 USDT) | Community Pool | — | $20,000 |
-| [#60](https://gonkadocs.com/proposals/proposals/2026-q2/60/) | 2026-06-04 | TheSoul - Offer 1.1: Brand positioning (25,000 USDT) | Community Pool | — | $25,000 |
+| [#63](https://gonkadocs.com/proposals/proposals/2026-q2/63/) | 2026-06-04 | TheSoul - Offer 2.1: Website and landings (10,000 USDT) | Community Sale | — | $10,000 |
+| [#62](https://gonkadocs.com/proposals/proposals/2026-q2/62/) | 2026-06-04 | TheSoul - Offer 1.3: Influencer pilot (50,000 USDT) | Community Sale | — | $50,000 |
+| [#61](https://gonkadocs.com/proposals/proposals/2026-q2/61/) | 2026-06-04 | TheSoul - Offer 1.2: Brandbook (20,000 USDT) | Community Sale | — | $20,000 |
+| [#60](https://gonkadocs.com/proposals/proposals/2026-q2/60/) | 2026-06-04 | TheSoul - Offer 1.1: Brand positioning (25,000 USDT) | Community Sale | — | $25,000 |
 | [#55](https://gonkadocs.com/proposals/proposals/2026-q2/55/) | 2026-05-23 | GRC Proposal #2 - Restitution (epochs 248-254) | Community Pool + Gov Module | 346,029 | — |
-| [#51](https://gonkadocs.com/proposals/proposals/2026-q2/51/) | 2026-05-15 | Support Gonka's presence at WebX Asia | Community Pool | — | $75,000 |
+| [#51](https://gonkadocs.com/proposals/proposals/2026-q2/51/) | 2026-05-15 | Support Gonka's presence at WebX Asia | Community Sale | — | $75,000 |
 | [#50](https://gonkadocs.com/proposals/proposals/2026-q2/50/) | 2026-05-09 | Retroactive bounty: open-source PoC throughput optimization… | Community Pool | 20,000 | — |
-| [#49](https://gonkadocs.com/proposals/proposals/2026-q2/49/) | 2026-05-07 | Gonka Media Dominance in TechL/AI with 5 AI Influencers | Community Pool | — | $45,000 |
+| [#49](https://gonkadocs.com/proposals/proposals/2026-q2/49/) | 2026-05-07 | Gonka Media Dominance in TechL/AI with 5 AI Influencers | Community Sale | — | $45,000 |
 | [#46](https://gonkadocs.com/proposals/proposals/2026-q2/46/) | 2026-05-04 | Epochs 132-247 compensation payout from gov module (batch v… | Gov Module | 3,053,800 | — |
-| [#42](https://gonkadocs.com/proposals/proposals/2026-q2/42/) | 2026-04-19 | Support Gonka at Global Compute Sovereignty Summit | Community Pool | — | $10,000 |
+| [#42](https://gonkadocs.com/proposals/proposals/2026-q2/42/) | 2026-04-19 | Support Gonka at Global Compute Sovereignty Summit | Community Sale | — | $10,000 |
 | [#39](https://gonkadocs.com/proposals/proposals/2026-q2/39/) | 2026-04-10 | Community Series Film — Why Gonka Exists | Community Pool | 31,250 | — |
 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | Epochs 132-133 compensation payout from gov module | Community Pool + Gov Module | 27,906 | — |
 | [#32](https://gonkadocs.com/proposals/proposals/2026-q1/32/) | 2026-03-24 | Epoch 158 compensation payout from gov module (batch vestin… | Community Pool + Gov Module | 30,538 | — |
@@ -24984,9 +24984,10 @@ All **passed** governance proposals that moved funds through the Community Pool 
 | Total governance proposals | 31 |
 | Total GNK approved (proposals) | 25,296,928 GNK |
 | Total USDT approved (proposals) | $2,230,425 |
-| From Community Pool | 21,296,619 GNK + $2,230,425 |
-| From Gov Module | 5,037,678 GNK |
-| Community Pool inflows (proposals) | +$1,142,750 |
+| From Community Pool | 20,387,572 GNK + $10,000 |
+| From Community Sale (proposals) | 0 GNK + $2,220,425 |
+| From Gov Module | 4,909,356 GNK |
+| Community Sale inflows (proposals) | +$1,142,750 |
 | Largest funding | #14 — 20,000,000 GNK |
 | Most recent | #118 — $866,000 USDT |
 | **Bounty distributions** | **8** |
@@ -34523,8 +34524,8 @@ Other6
 GRC / Restitution3
 Models / IBC2
 
-20,387,572 GNK · $2,230,425 · Community Pool · +$1,142,750 · Community Pool (inflow) · 4,909,356 GNK · Gov Module
-$248,300 USDT · 203,750 GNK · Bounty Reward
+20,387,572 GNK · $10,000 · Community Pool · $2,220,425 · Community Sale · +$1,142,750 · Community Sale (inflow) · 4,909,356 GNK · Gov Module
+$144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q4
 
@@ -34551,7 +34552,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 100.0% (1,093,860) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$866,000 · Community Pool
+  Yes 100.0% (1,093,860) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$866,000 · Community Sale
   ✓ Turnout 38.2% (1,093,860 / 2,862,640) · Quorum 25% (715,660)
 
   
@@ -34563,7 +34564,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-13
   
   Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
-  Yes 100.0% (1,093,860) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)+$1,142,750 · Community Pool (inflow)
+  Yes 100.0% (1,093,860) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)+$1,142,750 · Community Sale (inflow)
   ✓ Turnout 38.2% (1,093,860 / 2,862,640) · Quorum 25% (715,660)
 
   
@@ -34575,7 +34576,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-11
   
   Devshard v6  This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.  The main change in …
-  Yes 100.0% (610,318) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
+  Yes 100.0% (610,318) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $10,000 · Community Pool · $59,425 · Community Sale · 85,000 GNK · Gov Module
   ✓ Turnout 37.6% (610,318 / 1,624,785) · Quorum 25% (406,196)
 
   
@@ -34611,7 +34612,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-08
   
   Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…
-  Yes 84.3% (634,435) · No 0.9% (6,416) · Veto 0.0% (0) · Abstain 14.8% (111,460)$104,150 · Community Pool
+  Yes 84.3% (634,435) · No 0.9% (6,416) · Veto 0.0% (0) · Abstain 14.8% (111,460)$104,150 · Community Sale
   ✓ Turnout 68.4% (752,311 / 1,099,580) · Quorum 25% (274,895)
 
   
@@ -34623,7 +34624,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-08
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …
-  Yes 100.0% (805,773) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$104,150 USDT · Bounty Reward
+  Yes 100.0% (805,773) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
   ✓ Turnout 73.3% (805,773 / 1,099,580) · Quorum 25% (274,895)
 
   
@@ -34635,7 +34636,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-04
   
   # Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …
-  Yes 0.0% (0) · No 53.7% (314,609) · Veto 44.9% (263,118) · Abstain 1.4% (8,495)$160,000 · Community Pool
+  Yes 0.0% (0) · No 53.7% (314,609) · Veto 44.9% (263,118) · Abstain 1.4% (8,495)$160,000 · Community Sale
   ✓ Turnout 51.1% (586,222 / 1,147,939) · Quorum 25% (286,984)
 
   
@@ -34647,7 +34648,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-03
   
   Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…
-  Yes 79.6% (507,134) · No 0.1% (941) · Veto 1.3% (8,495) · Abstain 19.0% (120,922)$2,100 · Community Pool · 132,896 GNK · Gov Module
+  Yes 79.6% (507,134) · No 0.1% (941) · Veto 1.3% (8,495) · Abstain 19.0% (120,922)$2,100 · Community Sale · 132,896 GNK · Gov Module
   ✓ Turnout 60.2% (637,492 / 1,059,370) · Quorum 25% (264,842)
 
 ## 2026-Q3
@@ -34663,7 +34664,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-10-02
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…
-  Yes 78.2% (102,985) · No 0.0% (0) · Veto 0.0% (0) · Abstain 21.8% (28,655)$104,150 USDT · Bounty Reward
+  Yes 78.2% (102,985) · No 0.0% (0) · Veto 0.0% (0) · Abstain 21.8% (28,655)
   ✗ Turnout 24.5% (131,640 / 537,228) · Quorum 25% (134,307)
 
   
@@ -34687,7 +34688,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-25
   
   HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…
-  Yes 0.0% (0) · No 89.6% (349,017) · Veto 0.0% (0) · Abstain 10.4% (40,556)$15,000 · Community Pool
+  Yes 0.0% (0) · No 89.6% (349,017) · Veto 0.0% (0) · Abstain 10.4% (40,556)$15,000 · Community Sale
   ✓ Turnout 57.1% (389,573 / 681,970) · Quorum 25% (170,492)
 
   
@@ -34699,7 +34700,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-23
   
   The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
-  Yes 6.8% (26,026) · No 28.1% (107,375) · Veto 0.0% (0) · Abstain 65.1% (248,932)50,000 GNK · $6,800 · Community Pool
+  Yes 6.8% (26,026) · No 28.1% (107,375) · Veto 0.0% (0) · Abstain 65.1% (248,932)50,000 GNK · Community Pool · $6,800 · Community Sale
   ✓ Turnout 57.9% (382,333 / 659,924) · Quorum 25% (164,981)
 
   
@@ -34711,7 +34712,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-18
   
   Approve DevShard v5 and contributor bounty payouts  This proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…
-  Yes 100.0% (123,754) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
+  Yes 100.0% (123,754) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Sale
   ✓ Turnout 35.9% (123,754 / 344,301) · Quorum 25% (86,075)
 
   
@@ -34723,7 +34724,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-16
   
   Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.
-  Yes 100.0% (25,291) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
+  Yes 100.0% (25,291) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Sale
   ✗ Turnout 5.0% (25,291 / 506,660) · Quorum 25% (126,665)
 
   
@@ -34735,7 +34736,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-12
   
   We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…
-  Yes 100.0% (184,762) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Pool
+  Yes 100.0% (184,762) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Sale
   ✓ Turnout 29.9% (184,762 / 618,047) · Quorum 25% (154,511)
 
   
@@ -34747,7 +34748,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-11
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
-  Yes 96.3% (146,903) · No 0.0% (0) · Veto 0.0% (0) · Abstain 3.7% (5,568)$350,350 · Community Pool
+  Yes 96.3% (146,903) · No 0.0% (0) · Veto 0.0% (0) · Abstain 3.7% (5,568)$350,350 · Community Sale
   ✓ Turnout 29.8% (152,471 / 512,102) · Quorum 25% (128,025)
 
   
@@ -34783,7 +34784,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-09-04
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
-  Yes 80.5% (170,667) · No 1.5% (3,077) · Veto 18.1% (38,330) · Abstain 0.0% (4)$100,000 · Community Pool
+  Yes 80.5% (170,667) · No 1.5% (3,077) · Veto 18.1% (38,330) · Abstain 0.0% (4)$100,000 · Community Sale
   ✓ Turnout 37.1% (212,078 / 571,646) · Quorum 25% (142,911)
 
   
@@ -34891,7 +34892,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-23
   
   Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…
-  Yes 57.3% (190,646) · No 1.9% (6,269) · Veto 40.1% (133,354) · Abstain 0.7% (2,324)240,000 GNK · $57,000 · Community Pool
+  Yes 57.3% (190,646) · No 1.9% (6,269) · Veto 40.1% (133,354) · Abstain 0.7% (2,324)240,000 GNK · Community Pool · $57,000 · Community Sale
   ✓ Turnout 58.4% (332,593 / 569,511) · Quorum 25% (142,377)
 
   
@@ -34951,7 +34952,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-12
   
   We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…
-  Yes 73.5% (41,668) · No 0.0% (8) · Veto 26.4% (14,932) · Abstain 0.1% (45)600,000 GNK · $36,000 · Community Pool
+  Yes 73.5% (41,668) · No 0.0% (8) · Veto 26.4% (14,932) · Abstain 0.1% (45)600,000 GNK · Community Pool · $36,000 · Community Sale
   ✗ Turnout 7.6% (56,653 / 741,825) · Quorum 25% (185,456)
 
   
@@ -34963,7 +34964,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-11
   
   My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
-  Yes 0.4% (1,221) · No 0.8% (2,404) · Veto 98.8% (290,022) · Abstain 0.0% (3)20,000 GNK · $50,000 · Community Pool
+  Yes 0.4% (1,221) · No 0.8% (2,404) · Veto 98.8% (290,022) · Abstain 0.0% (3)20,000 GNK · Community Pool · $50,000 · Community Sale
   ✓ Turnout 39.6% (293,650 / 741,825) · Quorum 25% (185,456)
 
   
@@ -34987,7 +34988,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 98.2% (368,084) · No 0.1% (468) · Veto 0.0% (94) · Abstain 1.6% (6,141)80,000 GNK · $88,000 · Community Pool
+  Yes 98.2% (368,084) · No 0.1% (468) · Veto 0.0% (94) · Abstain 1.6% (6,141)80,000 GNK · Community Pool · $88,000 · Community Sale
   ✓ Turnout 50.5% (374,787 / 741,825) · Quorum 25% (185,456)
   report12026-08-12
 
@@ -35050,7 +35051,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-26
   
   We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…
-  Yes 100.0% (152,042) · No 0.0% (71) · Veto 0.0% (0) · Abstain 0.0% (0)$75,000 · Community Pool
+  Yes 100.0% (152,042) · No 0.0% (71) · Veto 0.0% (0) · Abstain 0.0% (0)$75,000 · Community Sale
   report12026-07-17
   report22026-07-24
   report32026-07-31
@@ -35070,7 +35071,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-17
   
   Register devshard approved version v2.
-  Yes 100.0% (239,924) · No 0.0% (17) · Veto 0.0% (0) · Abstain 0.0% (16)$93,600 · Community Pool
+  Yes 100.0% (239,924) · No 0.0% (17) · Veto 0.0% (0) · Abstain 0.0% (16)$93,600 · Community Sale
 
   
     #75 – Private Inc × Gonka — Network Growth Initiative
@@ -35091,7 +35092,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-12
   
   Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…
-  Yes 79.6% (305,163) · No 1.0% (3,791) · Veto 0.0% (15) · Abstain 19.4% (74,304)$70,000 · Community Pool · 330,000 GNK · Gov Module
+  Yes 79.6% (305,163) · No 1.0% (3,791) · Veto 0.0% (15) · Abstain 19.4% (74,304)$70,000 · Community Sale · 330,000 GNK · Gov Module
   report12026-07-18
   report22026-08-19
   report32026-09-19
@@ -35127,7 +35128,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-10
   
   We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…
-  Yes 99.8% (180,108) · No 0.0% (72) · Veto 0.0% (0) · Abstain 0.1% (233)$75,000 · Community Pool
+  Yes 99.8% (180,108) · No 0.0% (72) · Veto 0.0% (0) · Abstain 0.1% (233)$75,000 · Community Sale
 
   
     #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
@@ -35160,7 +35161,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-07
   
   The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.  • There are no changes to the substance of the proposal; only timeline commitment…
-  Yes 96.4% (260,353) · No 0.3% (749) · Veto 2.3% (6,288) · Abstain 0.9% (2,546)$70,000 · Community Pool
+  Yes 96.4% (260,353) · No 0.3% (749) · Veto 2.3% (6,288) · Abstain 0.9% (2,546)$70,000 · Community Sale
 
   
     #67 – Kimi Restitution (epochs 265-276)
@@ -35214,7 +35215,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-04
   
   Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …
-  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$10,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$10,000 · Community Sale
 
   
     #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)
@@ -35225,7 +35226,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-04
   
   Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …
-  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$50,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$50,000 · Community Sale
 
   
     #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
@@ -35236,7 +35237,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-04
   
   Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…
-  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$20,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$20,000 · Community Sale
 
   
     #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
@@ -35247,7 +35248,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-04
   
   Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
-  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$25,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$25,000 · Community Sale
 
   
     #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
@@ -35258,7 +35259,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-06-02
   
   Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…
-  Yes 43.6% (24,505) · No 0.0% (0) · Veto 0.0% (0) · Abstain 56.4% (31,699)$5,000 · Community Pool
+  Yes 43.6% (24,505) · No 0.0% (0) · Veto 0.0% (0) · Abstain 56.4% (31,699)$5,000 · Community Sale
 
   
     #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -35269,7 +35270,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-30
   
   # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…
-  Yes 53.4% (98,018) · No 0.0% (0) · Veto 46.6% (85,697) · Abstain 0.0% (0)$70,000 · Community Pool
+  Yes 53.4% (98,018) · No 0.0% (0) · Veto 46.6% (85,697) · Abstain 0.0% (0)$70,000 · Community Sale
 
   
     #57 – Approve the Gonka Network Development Roadmap
@@ -35291,7 +35292,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-27
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 58.6% (31,851) · No 17.6% (9,566) · Veto 23.8% (12,961) · Abstain 0.0% (0)$50,000 · Community Pool
+  Yes 58.6% (31,851) · No 17.6% (9,566) · Veto 23.8% (12,961) · Abstain 0.0% (0)$50,000 · Community Sale
 
   
     #55 – GRC Proposal #2 - Restitution (epochs 248-254)
@@ -35324,7 +35325,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-21
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 46.8% (139,052) · No 0.0% (0) · Veto 53.2% (158,195) · Abstain 0.0% (0)$50,000 · Community Pool
+  Yes 46.8% (139,052) · No 0.0% (0) · Veto 53.2% (158,195) · Abstain 0.0% (0)$50,000 · Community Sale
 
   
     #52 – Upgrade Proposal: v0.2.13
@@ -35346,7 +35347,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-15
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
-  Yes 62.8% (395,003) · No 0.3% (1,767) · Veto 10.2% (64,217) · Abstain 26.7% (168,275)$75,000 · Community Pool
+  Yes 62.8% (395,003) · No 0.3% (1,767) · Veto 10.2% (64,217) · Abstain 26.7% (168,275)$75,000 · Community Sale
   report12026-08-03
 
   
@@ -35369,7 +35370,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-05-07
   
   We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …
-  Yes 71.1% (496,683) · No 0.0% (0) · Veto 0.0% (0) · Abstain 28.9% (201,560)$45,000 · Community Pool
+  Yes 71.1% (496,683) · No 0.0% (0) · Veto 0.0% (0) · Abstain 28.9% (201,560)$45,000 · Community Sale
   report12026-07-21
 
   
@@ -35447,7 +35448,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-04-19
   
   We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …
-  Yes 68.6% (375,771) · No 0.0% (0) · Veto 0.0% (0) · Abstain 31.4% (172,050)$10,000 · Community Pool
+  Yes 68.6% (375,771) · No 0.0% (0) · Veto 0.0% (0) · Abstain 31.4% (172,050)$10,000 · Community Sale
 
   
     #41 – INC4 | Gonka Node Observability Platform
@@ -35899,7 +35900,7 @@ $248,300 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-118 proposals across 6 quarters. Last updated: 2026-11-16 12:54 UTC
+118 proposals across 6 quarters. Last updated: 2026-11-16 15:27 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -47451,7 +47452,7 @@ GRC / Restitution2
 Other1
 Models / IBC1
 
-218,972 GNK · $543,600 · Community Pool · 4,636,616 GNK · Gov Module
+218,972 GNK · Community Pool · $543,600 · Community Sale · 4,636,616 GNK · Gov Module
 $54,075 USDT · Bounty Reward
 
 2026-Q2
@@ -47488,7 +47489,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-26
   
   We are INPUT Global - a leading web3 marketing communications agency. We offer 3 month PR campaign to establish trust and market legitimacy of Gonka across 2 audiences: global business and crypto-nati…
-  Yes 100.0% (152,042) · No 0.0% (71) · Veto 0.0% (0) · Abstain 0.0% (0)$75,000 · Community Pool
+  Yes 100.0% (152,042) · No 0.0% (71) · Veto 0.0% (0) · Abstain 0.0% (0)$75,000 · Community Sale
   report12026-07-17
   report22026-07-24
   report32026-07-31
@@ -47508,7 +47509,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-17
   
   Register devshard approved version v2.
-  Yes 100.0% (239,924) · No 0.0% (17) · Veto 0.0% (0) · Abstain 0.0% (16)$93,600 · Community Pool
+  Yes 100.0% (239,924) · No 0.0% (17) · Veto 0.0% (0) · Abstain 0.0% (16)$93,600 · Community Sale
 
   
     #75 – Private Inc × Gonka — Network Growth Initiative
@@ -47529,7 +47530,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-12
   
   Full proposal: https://gonkalabs.com/proposal  This proposal funds the next six months of work for the Gonka ecosystem.  The focus is production-grade infrastructure and high-use products: Gonka.gg V2…
-  Yes 79.6% (305,163) · No 1.0% (3,791) · Veto 0.0% (15) · Abstain 19.4% (74,304)$70,000 · Community Pool · 330,000 GNK · Gov Module
+  Yes 79.6% (305,163) · No 1.0% (3,791) · Veto 0.0% (15) · Abstain 19.4% (74,304)$70,000 · Community Sale · 330,000 GNK · Gov Module
   report12026-07-18
   report22026-08-19
   report32026-09-19
@@ -47565,7 +47566,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-10
   
   We're a comms team specializing in Organic PR for crypto and tech projects. With strong competition in the space and no active events or marketing currently running for Gonka, we propose a 3-month Org…
-  Yes 99.8% (180,108) · No 0.0% (72) · Veto 0.0% (0) · Abstain 0.1% (233)$75,000 · Community Pool
+  Yes 99.8% (180,108) · No 0.0% (72) · Veto 0.0% (0) · Abstain 0.1% (233)$75,000 · Community Sale
 
   
     #70 – GNK Racers: Launch GameFi Mini-App to Drive User Growth & Wallet Activity
@@ -47598,7 +47599,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-07
   
   The proposal is reopened for voting at the initiative of several hosts who did not participate in the previous round.  • There are no changes to the substance of the proposal; only timeline commitment…
-  Yes 96.4% (260,353) · No 0.3% (749) · Veto 2.3% (6,288) · Abstain 0.9% (2,546)$70,000 · Community Pool
+  Yes 96.4% (260,353) · No 0.3% (749) · Veto 2.3% (6,288) · Abstain 0.9% (2,546)$70,000 · Community Sale
 
   
     #67 – Kimi Restitution (epochs 265-276)
@@ -47652,7 +47653,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-04
   
   Full redesign of gonka.ai plus dedicated landing pages for miners, inference buyers, and investors, built on the brandbook from Offer 1.2. Single-tranche payment of 10,000 USDT to TheSoul on proposal …
-  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$10,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$10,000 · Community Sale
 
   
     #62 – TheSoul - Offer 1.3: Influencer pilot (50,000 USDT)
@@ -47663,7 +47664,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-04
   
   Crypto-influencer pilot campaign for Gonka.AI across selected tier-1 creators, with a full performance report and scaling recommendations. Single-tranche payment of 50,000 USDT to TheSoul on proposal …
-  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$50,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$50,000 · Community Sale
 
   
     #61 – TheSoul - Offer 1.2: Brandbook (20,000 USDT)
@@ -47674,7 +47675,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-04
   
   Brand identity system for Gonka.AI: logo, typography, color system, graphic language, layout principles, and templates, built on the positioning from Offer 1.1. Single-tranche payment of 20,000 USDT t…
-  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$20,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$20,000 · Community Sale
 
   
     #60 – TheSoul - Offer 1.1: Brand positioning (25,000 USDT)
@@ -47685,7 +47686,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-04
   
   Brand audit, competitive positioning, and audience segmentation for Gonka.AI. Single-tranche payment of 25,000 USDT to TheSoul on proposal pass. Full offer document: see the metadata URL.
-  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$25,000 · Community Pool
+  Yes 67.9% (220,798) · No 0.0% (0) · Veto 21.5% (70,043) · Abstain 10.6% (34,369)$25,000 · Community Sale
 
   
     #59 – Gonka Onboarding Video Guide — Milestone 1 (Prepayment)
@@ -47696,7 +47697,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-06-02
   
   Funds milestone 1 (upfront prepayment) of a community-produced onboarding video guide for Gonka. Deliverable: a series of ~15 short, interactive, easy-to-follow videos covering A-to-Z onboarding for b…
-  Yes 43.6% (24,505) · No 0.0% (0) · Veto 0.0% (0) · Abstain 56.4% (31,699)$5,000 · Community Pool
+  Yes 43.6% (24,505) · No 0.0% (0) · Veto 0.0% (0) · Abstain 56.4% (31,699)$5,000 · Community Sale
 
   
     #58 – Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)
@@ -47707,7 +47708,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-30
   
   # Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovsky)  70,000 USDT from the CommunityPool for a dedicated Falcon Finance deep-dive on Gonka AI. Full proposal: https://vote.gonka.vip/tenders…
-  Yes 53.4% (98,018) · No 0.0% (0) · Veto 46.6% (85,697) · Abstain 0.0% (0)$70,000 · Community Pool
+  Yes 53.4% (98,018) · No 0.0% (0) · Veto 46.6% (85,697) · Abstain 0.0% (0)$70,000 · Community Sale
 
   
     #57 – Approve the Gonka Network Development Roadmap
@@ -47729,7 +47730,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-27
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 58.6% (31,851) · No 17.6% (9,566) · Veto 23.8% (12,961) · Abstain 0.0% (0)$50,000 · Community Pool
+  Yes 58.6% (31,851) · No 17.6% (9,566) · Veto 23.8% (12,961) · Abstain 0.0% (0)$50,000 · Community Sale
 
   
     #55 – GRC Proposal #2 - Restitution (epochs 248-254)
@@ -47762,7 +47763,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-21
   
   # Gonka NOP: grant for the node deployment tool  50,000 USDT from the CommunityPool to INC4 Full proposal: https://github.com/gonka-ai/gonka/discussions/1192  ## What it is  gonka-nop (Node Onboarding…
-  Yes 46.8% (139,052) · No 0.0% (0) · Veto 53.2% (158,195) · Abstain 0.0% (0)$50,000 · Community Pool
+  Yes 46.8% (139,052) · No 0.0% (0) · Veto 53.2% (158,195) · Abstain 0.0% (0)$50,000 · Community Sale
 
   
     #52 – Upgrade Proposal: v0.2.13
@@ -47784,7 +47785,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-15
   
   6Block, a long-term Gonka mining and infrastructure participant, proposes that the Gonka community allocate 75,000 USDT to support Gonka's participation at WebX Asia / WebX 2026 in Tokyo. 6Block has a…
-  Yes 62.8% (395,003) · No 0.3% (1,767) · Veto 10.2% (64,217) · Abstain 26.7% (168,275)$75,000 · Community Pool
+  Yes 62.8% (395,003) · No 0.3% (1,767) · Veto 10.2% (64,217) · Abstain 26.7% (168,275)$75,000 · Community Sale
   report12026-08-03
 
   
@@ -47807,7 +47808,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-05-07
   
   We're ICG - AI Influencer Lab, a team that builds and scales hyper-realistic AI avatars on Instagram, TikTok, and YouTube as full ambassadors across verticals. We manage 160+ accounts in AI, finance, …
-  Yes 71.1% (496,683) · No 0.0% (0) · Veto 0.0% (0) · Abstain 28.9% (201,560)$45,000 · Community Pool
+  Yes 71.1% (496,683) · No 0.0% (0) · Veto 0.0% (0) · Abstain 28.9% (201,560)$45,000 · Community Sale
   report12026-07-21
 
   
@@ -47885,7 +47886,7 @@ $54,075 USDT · Bounty Reward
     Voting ends 2026-04-19
   
   We are DeAI Nation, a global nonprofit organization supporting and promoting the decentralized AI ecosystem, and authors of the State of DeAI 2026 report. We propose that the Gonka community become a …
-  Yes 68.6% (375,771) · No 0.0% (0) · Veto 0.0% (0) · Abstain 31.4% (172,050)$10,000 · Community Pool
+  Yes 68.6% (375,771) · No 0.0% (0) · Veto 0.0% (0) · Abstain 31.4% (172,050)$10,000 · Community Sale
 
   
     #41 – INC4 | Gonka Node Observability Platform
@@ -48708,7 +48709,7 @@ Passed
 
 **Metadata:** [https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md](https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md)
 
-$10,000 · Community Pool
+$10,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/42){:target="_blank"}
 
@@ -64671,7 +64672,7 @@ Passed
 
 **Metadata:** [https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2](https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2)
 
-$45,000 · Community Pool
+$45,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/49){:target="_blank"}
 
@@ -64994,7 +64995,7 @@ Passed
 
 **Metadata:** [https://github.com/6block/gonka-webx-proposal/blob/main/README.md](https://github.com/6block/gonka-webx-proposal/blob/main/README.md)
 
-$75,000 · Community Pool
+$75,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/51){:target="_blank"}
 
@@ -65367,7 +65368,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-$50,000 · Community Pool
+$50,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/53){:target="_blank"}
 
@@ -66788,7 +66789,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-$50,000 · Community Pool
+$50,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/56){:target="_blank"}
 
@@ -67008,7 +67009,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-$70,000 · Community Pool
+$70,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/58){:target="_blank"}
 
@@ -67102,7 +67103,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-$5,000 · Community Pool
+$5,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/59){:target="_blank"}
 
@@ -67234,7 +67235,7 @@ Passed
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/1](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/1)
 
-$25,000 · Community Pool
+$25,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/60){:target="_blank"}
 
@@ -67366,7 +67367,7 @@ Passed
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/2](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/2)
 
-$20,000 · Community Pool
+$20,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/61){:target="_blank"}
 
@@ -67498,7 +67499,7 @@ Passed
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/3](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/3)
 
-$50,000 · Community Pool
+$50,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/62){:target="_blank"}
 
@@ -67630,7 +67631,7 @@ Passed
 
 **Metadata:** [https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/4](https://github.com/ADME-CY-LTD/thesoul-gonka-proposals/issues/4)
 
-$10,000 · Community Pool
+$10,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/63){:target="_blank"}
 
@@ -67951,7 +67952,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-$1,000,000 · Community Pool
+$1,000,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/66){:target="_blank"}
 
@@ -69337,7 +69338,7 @@ Passed
 
 **Metadata:** [https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2](https://vote.gonka.vip/tenders/550f71de-897f-4ce5-8af8-97854775f8b2)
 
-$70,000 · Community Pool
+$70,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/68){:target="_blank"}
 
@@ -69759,7 +69760,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-$75,000 · Community Pool
+$75,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/71){:target="_blank"}
 
@@ -70719,7 +70720,7 @@ Passed
 
 **Metadata:** [https://gonkalabs.com/proposal](https://gonkalabs.com/proposal)
 
-$70,000 · Community Pool · 330,000 GNK · Gov Module
+$70,000 · Community Sale · 330,000 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/74){:target="_blank"}
 
@@ -71511,7 +71512,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-$300,000 · Community Pool
+$300,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/75){:target="_blank"}
 
@@ -71650,7 +71651,7 @@ Passed
 
 **Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
 
-$93,600 · Community Pool
+$93,600 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/76){:target="_blank"}
 
@@ -72272,7 +72273,7 @@ Passed
 
 **Metadata:** [https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei](https://www.figma.com/deck/qd7a7bkcit9O1LZ8whP9Ei)
 
-$75,000 · Community Pool
+$75,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/77){:target="_blank"}
 
@@ -73634,7 +73635,7 @@ Software Upgrade3
 Other1
 GRC / Restitution1
 
-80,000 GNK · $645,150 · Community Pool
+80,000 GNK · Community Pool · $645,150 · Community Sale
 $90,075 USDT · Bounty Reward
 
 2026-Q3
@@ -73649,7 +73650,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-10-02
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…
-  Yes 78.2% (102,985) · No 0.0% (0) · Veto 0.0% (0) · Abstain 21.8% (28,655)$104,150 USDT · Bounty Reward
+  Yes 78.2% (102,985) · No 0.0% (0) · Veto 0.0% (0) · Abstain 21.8% (28,655)
   ✗ Turnout 24.5% (131,640 / 537,228) · Quorum 25% (134,307)
 
   
@@ -73673,7 +73674,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-25
   
   HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…
-  Yes 0.0% (0) · No 89.6% (349,017) · Veto 0.0% (0) · Abstain 10.4% (40,556)$15,000 · Community Pool
+  Yes 0.0% (0) · No 89.6% (349,017) · Veto 0.0% (0) · Abstain 10.4% (40,556)$15,000 · Community Sale
   ✓ Turnout 57.1% (389,573 / 681,970) · Quorum 25% (170,492)
 
   
@@ -73685,7 +73686,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-23
   
   The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…
-  Yes 6.8% (26,026) · No 28.1% (107,375) · Veto 0.0% (0) · Abstain 65.1% (248,932)50,000 GNK · $6,800 · Community Pool
+  Yes 6.8% (26,026) · No 28.1% (107,375) · Veto 0.0% (0) · Abstain 65.1% (248,932)50,000 GNK · Community Pool · $6,800 · Community Sale
   ✓ Turnout 57.9% (382,333 / 659,924) · Quorum 25% (164,981)
 
   
@@ -73697,7 +73698,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-18
   
   Approve DevShard v5 and contributor bounty payouts  This proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…
-  Yes 100.0% (123,754) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
+  Yes 100.0% (123,754) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Sale
   ✓ Turnout 35.9% (123,754 / 344,301) · Quorum 25% (86,075)
 
   
@@ -73709,7 +73710,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-16
   
   Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.
-  Yes 100.0% (25,291) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Pool
+  Yes 100.0% (25,291) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$91,300 · Community Sale
   ✗ Turnout 5.0% (25,291 / 506,660) · Quorum 25% (126,665)
 
   
@@ -73721,7 +73722,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-12
   
   We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…
-  Yes 100.0% (184,762) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Pool
+  Yes 100.0% (184,762) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$15,500 · Community Sale
   ✓ Turnout 29.9% (184,762 / 618,047) · Quorum 25% (154,511)
 
   
@@ -73733,7 +73734,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-11
   
   6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…
-  Yes 96.3% (146,903) · No 0.0% (0) · Veto 0.0% (0) · Abstain 3.7% (5,568)$350,350 · Community Pool
+  Yes 96.3% (146,903) · No 0.0% (0) · Veto 0.0% (0) · Abstain 3.7% (5,568)$350,350 · Community Sale
   ✓ Turnout 29.8% (152,471 / 512,102) · Quorum 25% (128,025)
 
   
@@ -73769,7 +73770,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-09-04
   
   6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…
-  Yes 80.5% (170,667) · No 1.5% (3,077) · Veto 18.1% (38,330) · Abstain 0.0% (4)$100,000 · Community Pool
+  Yes 80.5% (170,667) · No 1.5% (3,077) · Veto 18.1% (38,330) · Abstain 0.0% (4)$100,000 · Community Sale
   ✓ Turnout 37.1% (212,078 / 571,646) · Quorum 25% (142,911)
 
   
@@ -73877,7 +73878,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-23
   
   Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…
-  Yes 57.3% (190,646) · No 1.9% (6,269) · Veto 40.1% (133,354) · Abstain 0.7% (2,324)240,000 GNK · $57,000 · Community Pool
+  Yes 57.3% (190,646) · No 1.9% (6,269) · Veto 40.1% (133,354) · Abstain 0.7% (2,324)240,000 GNK · Community Pool · $57,000 · Community Sale
   ✓ Turnout 58.4% (332,593 / 569,511) · Quorum 25% (142,377)
 
   
@@ -73937,7 +73938,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-12
   
   We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…
-  Yes 73.5% (41,668) · No 0.0% (8) · Veto 26.4% (14,932) · Abstain 0.1% (45)600,000 GNK · $36,000 · Community Pool
+  Yes 73.5% (41,668) · No 0.0% (8) · Veto 26.4% (14,932) · Abstain 0.1% (45)600,000 GNK · Community Pool · $36,000 · Community Sale
   ✗ Turnout 7.6% (56,653 / 741,825) · Quorum 25% (185,456)
 
   
@@ -73949,7 +73950,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-11
   
   My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…
-  Yes 0.4% (1,221) · No 0.8% (2,404) · Veto 98.8% (290,022) · Abstain 0.0% (3)20,000 GNK · $50,000 · Community Pool
+  Yes 0.4% (1,221) · No 0.8% (2,404) · Veto 98.8% (290,022) · Abstain 0.0% (3)20,000 GNK · Community Pool · $50,000 · Community Sale
   ✓ Turnout 39.6% (293,650 / 741,825) · Quorum 25% (185,456)
 
   
@@ -73973,7 +73974,7 @@ $90,075 USDT · Bounty Reward
     Voting ends 2026-07-10
   
   4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: https://github.com/gonka-ai/gonka/discussions/1388  The budget is he…
-  Yes 98.2% (368,084) · No 0.1% (468) · Veto 0.0% (94) · Abstain 1.6% (6,141)80,000 GNK · $88,000 · Community Pool
+  Yes 98.2% (368,084) · No 0.1% (468) · Veto 0.0% (94) · Abstain 1.6% (6,141)80,000 GNK · Community Pool · $88,000 · Community Sale
   ✓ Turnout 50.5% (374,787 / 741,825) · Quorum 25% (185,456)
   report12026-08-12
 
@@ -75146,7 +75147,7 @@ Passed
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1589](https://github.com/gonka-ai/gonka/discussions/1589)
 
-$350,350 · Community Pool
+$350,350 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/102){:target="_blank"}
 
@@ -75244,7 +75245,7 @@ Passed
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1747](https://github.com/gonka-ai/gonka/discussions/1747)
 
-$15,500 · Community Pool
+$15,500 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/103){:target="_blank"}
 
@@ -75338,7 +75339,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-$91,300 · Community Pool
+$91,300 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/104){:target="_blank"}
 
@@ -75965,7 +75966,7 @@ Passed
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/devshard-0.2.15-v5/proposals/governance-artifacts/update-v0.2.15-devshard-v5/README.md](https://github.com/gonka-ai/gonka/blob/devshard-0.2.15-v5/proposals/governance-artifacts/update-v0.2.15-devshard-v5/README.md)
 
-$91,300 · Community Pool
+$91,300 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/105){:target="_blank"}
 
@@ -76618,7 +76619,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-50,000 GNK · $6,800 · Community Pool
+50,000 GNK · Community Pool · $6,800 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/106){:target="_blank"}
 
@@ -76727,7 +76728,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-$15,000 · Community Pool
+$15,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/107){:target="_blank"}
 
@@ -77357,8 +77358,6 @@ Rejected
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/beb159be59e1b980f63e1caffcb51c89fce7bc23/proposals/governance-artifacts/update-v0.2.16/README.md](https://github.com/gonka-ai/gonka/blob/beb159be59e1b980f63e1caffcb51c89fce7bc23/proposals/governance-artifacts/update-v0.2.16/README.md)
 
 **Failed reason:** proposal did not get enough votes to pass
-
-Bounty Reward из Community Pool: $104,150 USDT · Community Sale · Proposal #113
 
 [View on gonka.gg](https://gonka.gg/network/proposals/109){:target="_blank"}
 
@@ -78691,7 +78690,7 @@ Passed
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1388](https://github.com/gonka-ai/gonka/discussions/1388)
 
-80,000 GNK · $88,000 · Community Pool
+80,000 GNK · Community Pool · $88,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/82){:target="_blank"}
 
@@ -79532,7 +79531,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-20,000 GNK · $50,000 · Community Pool
+20,000 GNK · Community Pool · $50,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/84){:target="_blank"}
 
@@ -79820,7 +79819,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-600,000 GNK · $36,000 · Community Pool
+600,000 GNK · Community Pool · $36,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/85){:target="_blank"}
 
@@ -81798,7 +81797,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-240,000 GNK · $57,000 · Community Pool
+240,000 GNK · Community Pool · $57,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/90){:target="_blank"}
 
@@ -85102,7 +85101,7 @@ Passed
 
 **Metadata:** [https://github.com/gonka-ai/gonka/discussions/1704](https://github.com/gonka-ai/gonka/discussions/1704)
 
-$100,000 · Community Pool
+$100,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/99){:target="_blank"}
 
@@ -85208,8 +85207,7 @@ Other2
 Governance Parameters1
 Software Upgrade1
 
-85,000 GNK · $1,041,675 · Community Pool · +$1,142,750 · Community Pool (inflow) · 217,896 GNK · Gov Module
-$104,150 USDT · Bounty Reward
+85,000 GNK · $10,000 · Community Pool · $1,031,675 · Community Sale · +$1,142,750 · Community Sale (inflow) · 217,896 GNK · Gov Module
 
 2026-Q4
 10 proposals
@@ -85235,7 +85233,7 @@ $104,150 USDT · Bounty Reward
     Voting ends 2026-11-13
   
   This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …
-  Yes 100.0% (1,093,860) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$866,000 · Community Pool
+  Yes 100.0% (1,093,860) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$866,000 · Community Sale
   ✓ Turnout 38.2% (1,093,860 / 2,862,640) · Quorum 25% (715,660)
 
   
@@ -85247,7 +85245,7 @@ $104,150 USDT · Bounty Reward
     Voting ends 2026-11-13
   
   Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…
-  Yes 100.0% (1,093,860) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)+$1,142,750 · Community Pool (inflow)
+  Yes 100.0% (1,093,860) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)+$1,142,750 · Community Sale (inflow)
   ✓ Turnout 38.2% (1,093,860 / 2,862,640) · Quorum 25% (715,660)
 
   
@@ -85259,7 +85257,7 @@ $104,150 USDT · Bounty Reward
     Voting ends 2026-11-11
   
   Devshard v6  This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.  The main change in …
-  Yes 100.0% (610,318) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
+  Yes 100.0% (610,318) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)85,000 GNK · $10,000 · Community Pool · $59,425 · Community Sale · 85,000 GNK · Gov Module
   ✓ Turnout 37.6% (610,318 / 1,624,785) · Quorum 25% (406,196)
 
   
@@ -85295,7 +85293,7 @@ $104,150 USDT · Bounty Reward
     Voting ends 2026-10-08
   
   Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…
-  Yes 84.3% (634,435) · No 0.9% (6,416) · Veto 0.0% (0) · Abstain 14.8% (111,460)$104,150 · Community Pool
+  Yes 84.3% (634,435) · No 0.9% (6,416) · Veto 0.0% (0) · Abstain 14.8% (111,460)$104,150 · Community Sale
   ✓ Turnout 68.4% (752,311 / 1,099,580) · Quorum 25% (274,895)
 
   
@@ -85307,7 +85305,7 @@ $104,150 USDT · Bounty Reward
     Voting ends 2026-10-08
   
   Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …
-  Yes 100.0% (805,773) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)$104,150 USDT · Bounty Reward
+  Yes 100.0% (805,773) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
   ✓ Turnout 73.3% (805,773 / 1,099,580) · Quorum 25% (274,895)
 
   
@@ -85319,7 +85317,7 @@ $104,150 USDT · Bounty Reward
     Voting ends 2026-10-04
   
   # Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …
-  Yes 0.0% (0) · No 53.7% (314,609) · Veto 44.9% (263,118) · Abstain 1.4% (8,495)$160,000 · Community Pool
+  Yes 0.0% (0) · No 53.7% (314,609) · Veto 44.9% (263,118) · Abstain 1.4% (8,495)$160,000 · Community Sale
   ✓ Turnout 51.1% (586,222 / 1,147,939) · Quorum 25% (286,984)
 
   
@@ -85331,7 +85329,7 @@ $104,150 USDT · Bounty Reward
     Voting ends 2026-10-03
   
   Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…
-  Yes 79.6% (507,134) · No 0.1% (941) · Veto 1.3% (8,495) · Abstain 19.0% (120,922)$2,100 · Community Pool · 132,896 GNK · Gov Module
+  Yes 79.6% (507,134) · No 0.1% (941) · Veto 1.3% (8,495) · Abstain 19.0% (120,922)$2,100 · Community Sale · 132,896 GNK · Gov Module
   ✓ Turnout 60.2% (637,492 / 1,059,370) · Quorum 25% (264,842)
 
 ← Back to all proposals
@@ -85356,7 +85354,7 @@ Passed
 
 **Metadata:** [https://github.com/votkon/grc-proposal-4](https://github.com/votkon/grc-proposal-4)
 
-$2,100 · Community Pool · 132,896 GNK · Gov Module
+$2,100 · Community Sale · 132,896 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/110){:target="_blank"}
 
@@ -85762,7 +85760,7 @@ Rejected
 
 **Failed reason:** proposal did not get enough votes to pass
 
-$160,000 · Community Pool
+$160,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/111){:target="_blank"}
 
@@ -85867,8 +85865,6 @@ Passed
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/136041c81ea8ff38e7620d76af66a7c7fe7eec50/proposals/governance-artifacts/update-v0.2.16/README.md](https://github.com/gonka-ai/gonka/blob/136041c81ea8ff38e7620d76af66a7c7fe7eec50/proposals/governance-artifacts/update-v0.2.16/README.md)
 
-Bounty Reward из Community Pool: $104,150 USDT · Community Sale · Proposal #113
-
 [View on gonka.gg](https://gonka.gg/network/proposals/112){:target="_blank"}
 
 Upgrade Proposal: v0.2.16
@@ -85972,7 +85968,7 @@ Passed
 
 **Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
 
-$104,150 · Community Pool
+$104,150 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/113){:target="_blank"}
 
@@ -87131,7 +87127,7 @@ Passed
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/devshard-0.2.x-v6/devshard/docs/release-0.2.16-v6.md](https://github.com/gonka-ai/gonka/blob/devshard-0.2.x-v6/devshard/docs/release-0.2.16-v6.md)
 
-85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module
+85,000 GNK · $10,000 · Community Pool · $59,425 · Community Sale · 85,000 GNK · Gov Module
 
 [View on gonka.gg](https://gonka.gg/network/proposals/116){:target="_blank"}
 
@@ -87427,7 +87423,7 @@ Passed
 
 **Metadata:** [https://github.com/bitfury-com/gonka/blob/6c8444c4153e1c313c1bb383e587b3ce5ef69942/proposals/117/readme.md](https://github.com/bitfury-com/gonka/blob/6c8444c4153e1c313c1bb383e587b3ce5ef69942/proposals/117/readme.md)
 
-+$1,142,750 · Community Pool (inflow)
++$1,142,750 · Community Sale (inflow)
 
 [View on gonka.gg](https://gonka.gg/network/proposals/117){:target="_blank"}
 
@@ -87543,7 +87539,7 @@ Passed
 
 **Metadata:** [https://github.com/millcreek-rd/gonka-public/blob/f91e281fd9cb16e2a362dd1a4870c8b1d8b0eefc/proposals/funding/README.md](https://github.com/millcreek-rd/gonka-public/blob/f91e281fd9cb16e2a362dd1a4870c8b1d8b0eefc/proposals/funding/README.md)
 
-$866,000 · Community Pool
+$866,000 · Community Sale
 
 [View on gonka.gg](https://gonka.gg/network/proposals/118){:target="_blank"}
 

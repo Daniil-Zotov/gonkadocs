@@ -136,7 +136,7 @@ Key sections:
   /community/issues/     → GitHub Issues (bugs, features, enhancements)
   /community/gonka restitution committee/ → GRC (bug compensation)
   /community/governance support committee/ → GSC (self-governance)
-  /proposals/proposals/  → On-chain governance proposals by quarter with funding amounts and source (Community Pool / Gov Module)
+  /proposals/proposals/  → On-chain governance proposals by quarter with funding amounts and source (Community Pool / Community Sale / Gov Module)
   /proposals/preproposals/ → Community pre-proposals (off-chain indicative polls)
 
 Every page is also available as markdown at {url}.html.md (e.g. /gonka/docs/architecture/index.html.md).
@@ -193,7 +193,7 @@ Key topics:
 - Governance: Proposals, voting
 - GRC (Restitution): /community/gonka restitution committee/
 - GSC (Self-Governance): /community/governance support committee/
-- On-Chain Proposals: /proposals/proposals/ — quarterly overviews with status, funding amounts, and source (Community Pool / Gov Module)
+- On-Chain Proposals: /proposals/proposals/ — quarterly overviews with status, funding amounts, and source (Community Pool / Community Sale / Gov Module)
 - Pre-Proposals: /proposals/preproposals/ — community grant requests and polls
 - Issues: Bugs, feature requests, enhancements from gonka-ai/gonka
 - Chinese docs: /gonka/docs/zh/
@@ -239,7 +239,7 @@ for doc in search_index["docs"]:
 - **Get started quickly** — developer quickstart, gateway setup, host GPU resources
 - **Manage wallets** — accounts, collateral, cross-chain bridges (USDT/GNK via Ethereum/IBC)
 - **Participate in governance** — read and submit proposals, vote, understand GRC/GSC
-- **Track on-chain funding** — each proposal shows the funding amount and source (`Community Pool` or `Gov Module`), organized by quarter with per-quarter summaries and totals
+- **Track on-chain funding** — each proposal shows the funding amount and source (`Community Pool`, `Community Sale`, or `Gov Module`), organized by quarter with per-quarter summaries and totals
 - **Explore community** — discussions, show-and-tell projects, Q&A, roadmap, committees
 - **Read Chinese docs** — `/gonka/docs/zh/` for translated protocol documentation
 - **Use the API** — OpenAI-compatible inference endpoint, node management APIs
@@ -270,7 +270,7 @@ for doc in search_index["docs"]:
   <p class="agents-example-a">
     Agent fetches <code>/proposals/proposals/</code> page, identifies active proposals
     by status badge, and lists them with their descriptions, tally results, and
-    funding amounts with sources (<code>Community Pool</code> / <code>Gov Module</code>).
+    funding amounts with sources (<code>Community Pool</code> / <code>Community Sale</code> / <code>Gov Module</code>).
   </p>
 </div>
 
@@ -279,7 +279,7 @@ for doc in search_index["docs"]:
   <p class="agents-example-a">
     Agent fetches <code>/proposals/proposals/</code>, reads the current quarter's summary
     section which includes the total approved GNK/USDT broken down by funding source
-    (<code>Community Pool</code> and <code>Gov Module</code>).
+    (<code>Community Pool</code>, <code>Community Sale</code>, and <code>Gov Module</code>).
   </p>
 </div>
 

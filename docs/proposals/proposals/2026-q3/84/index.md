@@ -26,7 +26,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
-<div class="prop-funding-line prop-funding-line-rejected">20,000 GNK · $50,000 · Community Pool</div>
+<div class="prop-funding-line prop-funding-line-rejected">20,000 GNK · Community Pool · $50,000 · Community Sale</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/84){:target="_blank"}

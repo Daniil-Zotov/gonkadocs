@@ -47,8 +47,7 @@ hide:
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:10%"></span></span><span class="qs-value">1</span></div>
 </div>
 
-<div class="qs-funding-line">85,000 GNK · $1,041,675 · Community Pool · +$1,142,750 · Community Pool (inflow) · 217,896 GNK · Gov Module</div>
-<div class="qs-bounty-line">$104,150 USDT · Bounty Reward</div>
+<div class="qs-funding-line">85,000 GNK · $10,000 · Community Pool · $1,031,675 · Community Sale · +$1,142,750 · Community Sale (inflow) · 217,896 GNK · Gov Module</div>
 
 
 </div>
@@ -80,7 +79,7 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">$866,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">$866,000 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>38.2%</strong> (1,093,860 / 2,862,640) · Quorum <strong>25%</strong> (715,660)</span></div>
 </div>
 
@@ -94,7 +93,7 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">+$1,142,750 · Community Pool (inflow)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">+$1,142,750 · Community Sale (inflow)</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>38.2%</strong> (1,093,860 / 2,862,640) · Quorum <strong>25%</strong> (715,660)</span></div>
 </div>
 
@@ -108,7 +107,7 @@ hide:
     <span>Voting ends 2026-11-11</span>
   </div>
   <div class="prop-card-desc">Devshard v6  This proposal adds v6 to the approved devshard versions and distributes contributor bounty rewards for the release. The existing v4.1 and v4.2 entries stay unchanged.  The main change in …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (610,318)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (610,318)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">85,000 GNK · $10,000 · Community Pool · $59,425 · Community Sale · 85,000 GNK · Gov Module</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>37.6%</strong> (610,318 / 1,624,785) · Quorum <strong>25%</strong> (406,196)</span></div>
 </div>
 
@@ -150,7 +149,7 @@ hide:
     <span>Voting ends 2026-10-08</span>
   </div>
   <div class="prop-card-desc">Bounty Payments Associated with v0.2.16  This proposal covers 104,150 USDT from community funds for development, research, infrastructure, security reporting, and code review work on the Gonka protoco…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>84.3%</strong> (634,435)</span> · <span class="prop-tally-no-text">No <strong>0.9%</strong> (6,416)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>14.8%</strong> (111,460)</span><span class="prop-card-funding">$104,150 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>84.3%</strong> (634,435)</span> · <span class="prop-tally-no-text">No <strong>0.9%</strong> (6,416)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>14.8%</strong> (111,460)</span><span class="prop-card-funding">$104,150 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>68.4%</strong> (752,311 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span></div>
 </div>
 
@@ -164,7 +163,7 @@ hide:
     <span>Voting ends 2026-10-08</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (805,773)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-bounty">$104,150 USDT · Bounty Reward</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (805,773)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>73.3%</strong> (805,773 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span></div>
 </div>
 
@@ -178,7 +177,7 @@ hide:
     <span>Voting ends 2026-10-04</span>
   </div>
   <div class="prop-card-desc"># Bringing AMD and AI ASICs to Gonka  Gonka's approved hardware list contains six NVIDIA GPU models. Every other accelerator is excluded, including the purpose-built inference ASICs that now form the …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>53.7%</strong> (314,609)</span> · <span class="prop-tally-veto-text">Veto <strong>44.9%</strong> (263,118)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.4%</strong> (8,495)</span><span class="prop-card-funding prop-card-funding-rejected">$160,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>53.7%</strong> (314,609)</span> · <span class="prop-tally-veto-text">Veto <strong>44.9%</strong> (263,118)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.4%</strong> (8,495)</span><span class="prop-card-funding prop-card-funding-rejected">$160,000 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>51.1%</strong> (586,222 / 1,147,939) · Quorum <strong>25%</strong> (286,984)</span></div>
 </div>
 
@@ -192,7 +191,7 @@ hide:
     <span>Voting ends 2026-10-03</span>
   </div>
   <div class="prop-card-desc">Restitution for four validated GRC cases: epoch 272 devshard miss rate, epoch 267 failed cPoC Kimi shortfall, epoch 276 UpgradeProtectionWindow cPoC misfire (all three carried over from rejected Propo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>79.6%</strong> (507,134)</span> · <span class="prop-tally-no-text">No <strong>0.1%</strong> (941)</span> · <span class="prop-tally-veto-text">Veto <strong>1.3%</strong> (8,495)</span> · <span class="prop-tally-abstain-text">Abstain <strong>19.0%</strong> (120,922)</span><span class="prop-card-funding">$2,100 · Community Pool · 132,896 GNK · Gov Module</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>79.6%</strong> (507,134)</span> · <span class="prop-tally-no-text">No <strong>0.1%</strong> (941)</span> · <span class="prop-tally-veto-text">Veto <strong>1.3%</strong> (8,495)</span> · <span class="prop-tally-abstain-text">Abstain <strong>19.0%</strong> (120,922)</span><span class="prop-card-funding">$2,100 · Community Sale · 132,896 GNK · Gov Module</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>60.2%</strong> (637,492 / 1,059,370) · Quorum <strong>25%</strong> (264,842)</span></div>
 </div>
 

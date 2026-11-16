@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/millcreek-rd/gonka-public/blob/f91e281fd9cb16e2a362dd1a4870c8b1d8b0eefc/proposals/funding/README.md](https://github.com/millcreek-rd/gonka-public/blob/f91e281fd9cb16e2a362dd1a4870c8b1d8b0eefc/proposals/funding/README.md)
 
-<div class="prop-funding-line">$866,000 · Community Pool</div>
+<div class="prop-funding-line">$866,000 · Community Sale</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/118){:target="_blank"}

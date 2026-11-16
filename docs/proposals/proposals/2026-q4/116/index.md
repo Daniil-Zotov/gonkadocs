@@ -26,7 +26,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/gonka-ai/gonka/blob/devshard-0.2.x-v6/devshard/docs/release-0.2.16-v6.md](https://github.com/gonka-ai/gonka/blob/devshard-0.2.x-v6/devshard/docs/release-0.2.16-v6.md)
 
-<div class="prop-funding-line">85,000 GNK · $69,425 · Community Pool · 85,000 GNK · Gov Module</div>
+<div class="prop-funding-line">85,000 GNK · $10,000 · Community Pool · $59,425 · Community Sale · 85,000 GNK · Gov Module</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/116){:target="_blank"}

@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md](https://github.com/DeAI-Nation/summit-proposal/blob/main/README.md)
 
-<div class="prop-funding-line">$10,000 · Community Pool</div>
+<div class="prop-funding-line">$10,000 · Community Sale</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/42){:target="_blank"}

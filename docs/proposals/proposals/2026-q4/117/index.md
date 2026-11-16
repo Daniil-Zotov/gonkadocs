@@ -24,7 +24,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/bitfury-com/gonka/blob/6c8444c4153e1c313c1bb383e587b3ce5ef69942/proposals/117/readme.md](https://github.com/bitfury-com/gonka/blob/6c8444c4153e1c313c1bb383e587b3ce5ef69942/proposals/117/readme.md)
 
-<div class="prop-funding-line">+$1,142,750 · Community Pool (inflow)</div>
+<div class="prop-funding-line">+$1,142,750 · Community Sale (inflow)</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/117){:target="_blank"}

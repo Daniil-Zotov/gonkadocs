@@ -10,7 +10,7 @@ hide:
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-11-16 12:52 UTC
+2026-11-16 15:17 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 ---
@@ -60,7 +60,7 @@ The mechanism works as a simple swap: participants deposit **USDT** and receive 
 
 Buyer USDT arrives in two forms: the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4`, and the **bridged CW20 USDT** — token contract [`gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk`](https://gonka.gg/address/gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk) ("Tether USD", 6 decimals, bridged from Ethereum `0xdAC17f958D2ee523a2206206994597C13d831ec7`).
 
-**[Proposal #117](/proposals/proposals/2026-q4/117/)** (passed 2026-11-13) used the CW20 route: Bitfury paid **1,750,000 USDT** for the next tranche of the previously approved 12M USDT Community Sale commitment at $0.60 per GNK. Of that, **607,250 USDT** was paid back to Bitfury as reimbursement for the HackerOne and Trail of Bits security costs it had covered in fiat directly to vendors, so the net **+1,142,750 USDT** stayed with the Community Pool, and **2,916,666 GNK** (1.75M ÷ $0.60) left the sale inventory.
+**[Proposal #117](/proposals/proposals/2026-q4/117/)** (passed 2026-11-13) used the CW20 route: Bitfury paid **1,750,000 USDT** for the next tranche of the previously approved 12M USDT Community Sale commitment at $0.60 per GNK. Of that, **607,250 USDT** was paid back to Bitfury as reimbursement for the HackerOne and Trail of Bits security costs it had covered in fiat directly to vendors, so the net **+1,142,750 USDT** stayed in the Community Sale contract (community treasury side), and **2,916,666 GNK** (1.75M ÷ $0.60) left the sale inventory.
 
 For security, sale proceeds are distributed in **tranches** rather than all at once. The contract releases batches of GNK gradually to mitigate risk and ensure safe execution.
 
@@ -109,7 +109,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka10d07
 
 ## How Community Pool Spending Works
 
-1. A governance proposal includes one or more funding messages — `MsgCommunityPoolSpend` (GNK/USDT from the Community Pool) or batch-vesting transfers (GNK from the Gov Module).
+1. A governance proposal includes one or more funding messages — `MsgCommunityPoolSpend` (GNK/USDT from the Community Pool), `MsgExecuteContract` (USDT from the Community Sale contract), or batch-vesting transfers (GNK from the Gov Module).
 2. If the proposal **passes**, the Gov Module authority address executes the transfers.
 3. USDT is paid out from the **Community Sale contract** via `MsgExecuteContract` — either as the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4` (`withdraw_ibc`, e.g. #113, #116) or as the bridged CW20 USDT `gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk` (`withdraw_cw20`, e.g. #117, #118). USDT held in the Community Pool itself sits as the IBC denom.
 
@@ -119,38 +119,38 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka10d07
 
 ## Historical Funding
 
-All **passed** governance proposals that moved funds through the Community Pool or Gov Module, sorted by descending proposal number. Rows marked **(inflow)** are net additions to community funds rather than spending — e.g. **#117**, where Bitfury's 1.75M USDT Community Sale tranche minus its 607,250 USDT reimbursement left **+$1,142,750** on the pool.
+All **passed** governance proposals that moved funds through the Community Pool, the Community Sale contract, or the Gov Module, sorted by descending proposal number. Rows marked **(inflow)** are net additions to community funds rather than spending — e.g. **#117**, where Bitfury's 1.75M USDT Community Sale tranche minus its 607,250 USDT reimbursement left **+$1,142,750** in the Community Sale contract.
 
 <!-- SPENT_HISTORY_START -->
 | Proposal | Date | Description | Source | Amount GNK | Amount USDT |
 | :------ | :--: | :---------- | :---- | ---------: | ---------: |
-| [#118](https://gonkadocs.com/proposals/proposals/2026-q4/118/) | 2026-11-13 | Dev Team Funding | Community Pool | — | $866,000 |
-| [#117](https://gonkadocs.com/proposals/proposals/2026-q4/117/) | 2026-11-13 | Bitfury buys another tranche of GNK for 1.75M USDT as part … | Community Pool (inflow) | — | +$1,142,750 |
-| [#116](https://gonkadocs.com/proposals/proposals/2026-q4/116/) | 2026-11-11 | Approve DevShard v6 and distribute bounty rewards | Community Pool + Gov Module | 170,000 | $69,425 |
-| [#113](https://gonkadocs.com/proposals/proposals/2026-q4/113/) | 2026-10-08 | Distribute v0.2.16 bounty rewards | Community Pool | — | $104,150 |
-| [#110](https://gonkadocs.com/proposals/proposals/2026-q4/110/) | 2026-10-03 | GRC Proposal #4 - Restitution | Community Pool + Gov Module | 132,896 | $2,100 |
-| [#105](https://gonkadocs.com/proposals/proposals/2026-q3/105/) | 2026-09-18 | Approve devshard v5 and bounty payouts | Community Pool | — | $91,300 |
-| [#103](https://gonkadocs.com/proposals/proposals/2026-q3/103/) | 2026-09-12 | Reimbursement of Expenses for Daniil and David Liberman's P… | Community Pool | — | $15,500 |
-| [#102](https://gonkadocs.com/proposals/proposals/2026-q3/102/) | 2026-09-11 | Ratify Quant Mesh Limited as the Ledger Integration Counter… | Community Pool | — | $350,350 |
-| [#99](https://gonkadocs.com/proposals/proposals/2026-q3/99/) | 2026-09-04 | Support Gonka's presence at TOKEN2049 Singapore | Community Pool | — | $100,000 |
-| [#82](https://gonkadocs.com/proposals/proposals/2026-q3/82/) | 2026-07-10 | External Test Lab x Community DevNet | Community Pool | 80,000 | $88,000 |
-| [#77](https://gonkadocs.com/proposals/proposals/2026-q2/77/) | 2026-06-26 | Gonka PR Proposal for US/Global Regions | Community Pool | — | $75,000 |
-| [#76](https://gonkadocs.com/proposals/proposals/2026-q2/76/) | 2026-06-17 | Governance 16: devshard v2 and bounty payouts | Community Pool | — | $93,600 |
-| [#74](https://gonkadocs.com/proposals/proposals/2026-q2/74/) | 2026-06-12 | Gonka Labs: Maintaining Infrastructure, Improving Products,… | Community Pool + Gov Module | 330,000 | $70,000 |
-| [#68](https://gonkadocs.com/proposals/proposals/2026-q2/68/) | 2026-06-07 | Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovs… | Community Pool | — | $70,000 |
+| [#118](https://gonkadocs.com/proposals/proposals/2026-q4/118/) | 2026-11-13 | Dev Team Funding | Community Sale | — | $866,000 |
+| [#117](https://gonkadocs.com/proposals/proposals/2026-q4/117/) | 2026-11-13 | Bitfury buys another tranche of GNK for 1.75M USDT as part … | Community Sale (inflow) | — | +$1,142,750 |
+| [#116](https://gonkadocs.com/proposals/proposals/2026-q4/116/) | 2026-11-11 | Approve DevShard v6 and distribute bounty rewards | Community Pool + Community Sale + Gov Module | 170,000 | $69,425 |
+| [#113](https://gonkadocs.com/proposals/proposals/2026-q4/113/) | 2026-10-08 | Distribute v0.2.16 bounty rewards | Community Sale | — | $104,150 |
+| [#110](https://gonkadocs.com/proposals/proposals/2026-q4/110/) | 2026-10-03 | GRC Proposal #4 - Restitution | Community Sale + Gov Module | 132,896 | $2,100 |
+| [#105](https://gonkadocs.com/proposals/proposals/2026-q3/105/) | 2026-09-18 | Approve devshard v5 and bounty payouts | Community Sale | — | $91,300 |
+| [#103](https://gonkadocs.com/proposals/proposals/2026-q3/103/) | 2026-09-12 | Reimbursement of Expenses for Daniil and David Liberman's P… | Community Sale | — | $15,500 |
+| [#102](https://gonkadocs.com/proposals/proposals/2026-q3/102/) | 2026-09-11 | Ratify Quant Mesh Limited as the Ledger Integration Counter… | Community Sale | — | $350,350 |
+| [#99](https://gonkadocs.com/proposals/proposals/2026-q3/99/) | 2026-09-04 | Support Gonka's presence at TOKEN2049 Singapore | Community Sale | — | $100,000 |
+| [#82](https://gonkadocs.com/proposals/proposals/2026-q3/82/) | 2026-07-10 | External Test Lab x Community DevNet | Community Pool + Community Sale | 80,000 | $88,000 |
+| [#77](https://gonkadocs.com/proposals/proposals/2026-q2/77/) | 2026-06-26 | Gonka PR Proposal for US/Global Regions | Community Sale | — | $75,000 |
+| [#76](https://gonkadocs.com/proposals/proposals/2026-q2/76/) | 2026-06-17 | Governance 16: devshard v2 and bounty payouts | Community Sale | — | $93,600 |
+| [#74](https://gonkadocs.com/proposals/proposals/2026-q2/74/) | 2026-06-12 | Gonka Labs: Maintaining Infrastructure, Improving Products,… | Community Sale + Gov Module | 330,000 | $70,000 |
+| [#68](https://gonkadocs.com/proposals/proposals/2026-q2/68/) | 2026-06-07 | Big YouTube Deep-Dive on Falcon Finance (Alexander Sokolovs… | Community Sale | — | $70,000 |
 | [#67](https://gonkadocs.com/proposals/proposals/2026-q2/67/) | 2026-06-05 | Kimi Restitution (epochs 265-276) | Gov Module | 946,509 | — |
 | [#65](https://gonkadocs.com/proposals/proposals/2026-q2/65/) | 2026-06-04 | TheSoul - Offer 2.3: Digital strategy (100,000 GNK) | Community Pool | 100,000 | — |
 | [#64](https://gonkadocs.com/proposals/proposals/2026-q2/64/) | 2026-06-04 | TheSoul - Offer 2.2: Analytics and attribution (28,000 GNK) | Community Pool | 28,000 | — |
-| [#63](https://gonkadocs.com/proposals/proposals/2026-q2/63/) | 2026-06-04 | TheSoul - Offer 2.1: Website and landings (10,000 USDT) | Community Pool | — | $10,000 |
-| [#62](https://gonkadocs.com/proposals/proposals/2026-q2/62/) | 2026-06-04 | TheSoul - Offer 1.3: Influencer pilot (50,000 USDT) | Community Pool | — | $50,000 |
-| [#61](https://gonkadocs.com/proposals/proposals/2026-q2/61/) | 2026-06-04 | TheSoul - Offer 1.2: Brandbook (20,000 USDT) | Community Pool | — | $20,000 |
-| [#60](https://gonkadocs.com/proposals/proposals/2026-q2/60/) | 2026-06-04 | TheSoul - Offer 1.1: Brand positioning (25,000 USDT) | Community Pool | — | $25,000 |
+| [#63](https://gonkadocs.com/proposals/proposals/2026-q2/63/) | 2026-06-04 | TheSoul - Offer 2.1: Website and landings (10,000 USDT) | Community Sale | — | $10,000 |
+| [#62](https://gonkadocs.com/proposals/proposals/2026-q2/62/) | 2026-06-04 | TheSoul - Offer 1.3: Influencer pilot (50,000 USDT) | Community Sale | — | $50,000 |
+| [#61](https://gonkadocs.com/proposals/proposals/2026-q2/61/) | 2026-06-04 | TheSoul - Offer 1.2: Brandbook (20,000 USDT) | Community Sale | — | $20,000 |
+| [#60](https://gonkadocs.com/proposals/proposals/2026-q2/60/) | 2026-06-04 | TheSoul - Offer 1.1: Brand positioning (25,000 USDT) | Community Sale | — | $25,000 |
 | [#55](https://gonkadocs.com/proposals/proposals/2026-q2/55/) | 2026-05-23 | GRC Proposal #2 - Restitution (epochs 248-254) | Community Pool + Gov Module | 346,029 | — |
-| [#51](https://gonkadocs.com/proposals/proposals/2026-q2/51/) | 2026-05-15 | Support Gonka's presence at WebX Asia | Community Pool | — | $75,000 |
+| [#51](https://gonkadocs.com/proposals/proposals/2026-q2/51/) | 2026-05-15 | Support Gonka's presence at WebX Asia | Community Sale | — | $75,000 |
 | [#50](https://gonkadocs.com/proposals/proposals/2026-q2/50/) | 2026-05-09 | Retroactive bounty: open-source PoC throughput optimization… | Community Pool | 20,000 | — |
-| [#49](https://gonkadocs.com/proposals/proposals/2026-q2/49/) | 2026-05-07 | Gonka Media Dominance in TechL/AI with 5 AI Influencers | Community Pool | — | $45,000 |
+| [#49](https://gonkadocs.com/proposals/proposals/2026-q2/49/) | 2026-05-07 | Gonka Media Dominance in TechL/AI with 5 AI Influencers | Community Sale | — | $45,000 |
 | [#46](https://gonkadocs.com/proposals/proposals/2026-q2/46/) | 2026-05-04 | Epochs 132-247 compensation payout from gov module (batch v… | Gov Module | 3,053,800 | — |
-| [#42](https://gonkadocs.com/proposals/proposals/2026-q2/42/) | 2026-04-19 | Support Gonka at Global Compute Sovereignty Summit | Community Pool | — | $10,000 |
+| [#42](https://gonkadocs.com/proposals/proposals/2026-q2/42/) | 2026-04-19 | Support Gonka at Global Compute Sovereignty Summit | Community Sale | — | $10,000 |
 | [#39](https://gonkadocs.com/proposals/proposals/2026-q2/39/) | 2026-04-10 | Community Series Film — Why Gonka Exists | Community Pool | 31,250 | — |
 | [#33](https://gonkadocs.com/proposals/proposals/2026-q1/33/) | 2026-03-27 | Epochs 132-133 compensation payout from gov module | Community Pool + Gov Module | 27,906 | — |
 | [#32](https://gonkadocs.com/proposals/proposals/2026-q1/32/) | 2026-03-24 | Epoch 158 compensation payout from gov module (batch vestin… | Community Pool + Gov Module | 30,538 | — |
@@ -168,9 +168,10 @@ All **passed** governance proposals that moved funds through the Community Pool 
 | Total governance proposals | 31 |
 | Total GNK approved (proposals) | 25,296,928 GNK |
 | Total USDT approved (proposals) | $2,230,425 |
-| From Community Pool | 21,296,619 GNK + $2,230,425 |
-| From Gov Module | 5,037,678 GNK |
-| Community Pool inflows (proposals) | +$1,142,750 |
+| From Community Pool | 20,387,572 GNK + $10,000 |
+| From Community Sale (proposals) | 0 GNK + $2,220,425 |
+| From Gov Module | 4,909,356 GNK |
+| Community Sale inflows (proposals) | +$1,142,750 |
 | Largest funding | #14 — 20,000,000 GNK |
 | Most recent | #118 — $866,000 USDT |
 | **Bounty distributions** | **8** |

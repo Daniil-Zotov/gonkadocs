@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2](https://app.notion.com/p/Gonka-AI-AI-Influencer-Lab-Proposal-3514ff1f5a9a81faae76efbeb153cbe2)
 
-<div class="prop-funding-line">$45,000 · Community Pool</div>
+<div class="prop-funding-line">$45,000 · Community Sale</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/49){:target="_blank"}

@@ -22,7 +22,7 @@ template: proposals-proposals-main.html
 
 **Proposer:** [`gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le`](https://gonka.gg/address/gonka1y2a9p56kv044327uycmqdexl7zs82fs5ryv5le){:target="_blank"}
 
-<div class="prop-funding-line">$104,150 · Community Pool</div>
+<div class="prop-funding-line">$104,150 · Community Sale</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/113){:target="_blank"}

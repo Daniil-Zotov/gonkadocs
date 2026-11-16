@@ -48,7 +48,7 @@ hide:
 <div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">1</span></div>
 </div>
 
-<div class="qs-funding-line">80,000 GNK · $645,150 · Community Pool</div>
+<div class="qs-funding-line">80,000 GNK · Community Pool · $645,150 · Community Sale</div>
 <div class="qs-bounty-line">$90,075 USDT · Bounty Reward</div>
 
 
@@ -67,7 +67,7 @@ hide:
     <span>Voting ends 2026-10-02</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>78.2%</strong> (102,985)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.8%</strong> (28,655)</span><span class="prop-card-bounty prop-card-bounty-rejected">$104,150 USDT · Bounty Reward</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>78.2%</strong> (102,985)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.8%</strong> (28,655)</span></div>
   <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>24.5%</strong> (131,640 / 537,228) · Quorum <strong>25%</strong> (134,307)</span></div>
 </div>
 
@@ -95,7 +95,7 @@ hide:
     <span>Voting ends 2026-09-25</span>
   </div>
   <div class="prop-card-desc">HSC Asset Management proposes that the Gonka community allocate 15,000 USDT from the Community Pool for a fireside chat on AI for Gonka's founders at HSC Asset Management Singapore, a one-day institut…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>89.6%</strong> (349,017)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>10.4%</strong> (40,556)</span><span class="prop-card-funding prop-card-funding-rejected">$15,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>89.6%</strong> (349,017)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>10.4%</strong> (40,556)</span><span class="prop-card-funding prop-card-funding-rejected">$15,000 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>57.1%</strong> (389,573 / 681,970) · Quorum <strong>25%</strong> (170,492)</span></div>
 </div>
 
@@ -109,7 +109,7 @@ hide:
     <span>Voting ends 2026-09-23</span>
   </div>
   <div class="prop-card-desc">The Gonka Marketing Committee requests 6,800 USDT + 50,000 GNK from the Community Pool to support ongoing Committee work and a separate two-month Reddit Contributor Pilot.  The Committee acts as a com…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>6.8%</strong> (26,026)</span> · <span class="prop-tally-no-text">No <strong>28.1%</strong> (107,375)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>65.1%</strong> (248,932)</span><span class="prop-card-funding prop-card-funding-rejected">50,000 GNK · $6,800 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>6.8%</strong> (26,026)</span> · <span class="prop-tally-no-text">No <strong>28.1%</strong> (107,375)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>65.1%</strong> (248,932)</span><span class="prop-card-funding prop-card-funding-rejected">50,000 GNK · Community Pool · $6,800 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>57.9%</strong> (382,333 / 659,924) · Quorum <strong>25%</strong> (164,981)</span></div>
 </div>
 
@@ -123,7 +123,7 @@ hide:
     <span>Voting ends 2026-09-18</span>
   </div>
   <div class="prop-card-desc">Approve DevShard v5 and contributor bounty payouts  This proposal adds DevShard v5 to the approved list of devshard versions and distributes 91,300 USDT from the community-sale contract to contributor…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (123,754)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">$91,300 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (123,754)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">$91,300 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>35.9%</strong> (123,754 / 344,301) · Quorum <strong>25%</strong> (86,075)</span></div>
 </div>
 
@@ -137,7 +137,7 @@ hide:
     <span>Voting ends 2026-09-16</span>
   </div>
   <div class="prop-card-desc">Add v5 to the approved list of devshard versions and distribute 91300 USDT in contributor bounties from the community-sale contract.</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (25,291)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-rejected">$91,300 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (25,291)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-rejected">$91,300 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>5.0%</strong> (25,291 / 506,660) · Quorum <strong>25%</strong> (126,665)</span></div>
 </div>
 
@@ -151,7 +151,7 @@ hide:
     <span>Voting ends 2026-09-12</span>
   </div>
   <div class="prop-card-desc">We are proposing to allocate 15,500 USDT from the Gonka Community Pool to reimburse the cost of two tickets for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. All…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (184,762)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">$15,500 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (184,762)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">$15,500 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>29.9%</strong> (184,762 / 618,047) · Quorum <strong>25%</strong> (154,511)</span></div>
 </div>
 
@@ -165,7 +165,7 @@ hide:
     <span>Voting ends 2026-09-11</span>
   </div>
   <div class="prop-card-desc">6Block proposes that the Gonka community ratify and authorize Quant Mesh Limited as the legal contracting counterparty for the Gonka-Ledger integration and allocate 350,350 USDT from the Community Poo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>96.3%</strong> (146,903)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>3.7%</strong> (5,568)</span><span class="prop-card-funding">$350,350 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>96.3%</strong> (146,903)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>3.7%</strong> (5,568)</span><span class="prop-card-funding">$350,350 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>29.8%</strong> (152,471 / 512,102) · Quorum <strong>25%</strong> (128,025)</span></div>
 </div>
 
@@ -207,7 +207,7 @@ hide:
     <span>Voting ends 2026-09-04</span>
   </div>
   <div class="prop-card-desc">6Block proposes that the Gonka community allocate 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sand…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>80.5%</strong> (170,667)</span> · <span class="prop-tally-no-text">No <strong>1.5%</strong> (3,077)</span> · <span class="prop-tally-veto-text">Veto <strong>18.1%</strong> (38,330)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (4)</span><span class="prop-card-funding">$100,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>80.5%</strong> (170,667)</span> · <span class="prop-tally-no-text">No <strong>1.5%</strong> (3,077)</span> · <span class="prop-tally-veto-text">Veto <strong>18.1%</strong> (38,330)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (4)</span><span class="prop-card-funding">$100,000 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>37.1%</strong> (212,078 / 571,646) · Quorum <strong>25%</strong> (142,911)</span></div>
 </div>
 
@@ -333,7 +333,7 @@ hide:
     <span>Voting ends 2026-07-23</span>
   </div>
   <div class="prop-card-desc">Currently Gonka has a lot of marketing activities, but doesn't have analytics to measure the results of their work and doesn't have a vision which target audiences and how we need to attract and onboa…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>57.3%</strong> (190,646)</span> · <span class="prop-tally-no-text">No <strong>1.9%</strong> (6,269)</span> · <span class="prop-tally-veto-text">Veto <strong>40.1%</strong> (133,354)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.7%</strong> (2,324)</span><span class="prop-card-funding prop-card-funding-rejected">240,000 GNK · $57,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>57.3%</strong> (190,646)</span> · <span class="prop-tally-no-text">No <strong>1.9%</strong> (6,269)</span> · <span class="prop-tally-veto-text">Veto <strong>40.1%</strong> (133,354)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.7%</strong> (2,324)</span><span class="prop-card-funding prop-card-funding-rejected">240,000 GNK · Community Pool · $57,000 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>58.4%</strong> (332,593 / 569,511) · Quorum <strong>25%</strong> (142,377)</span></div>
 </div>
 
@@ -403,7 +403,7 @@ hide:
     <span>Voting ends 2026-07-12</span>
   </div>
   <div class="prop-card-desc">We will run hundreds of experiments across different target audience hypotheses and set up the basis: acquisition funnels, analytics, sharable target audience deep understanding. Our key performance m…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>73.5%</strong> (41,668)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (8)</span> · <span class="prop-tally-veto-text">Veto <strong>26.4%</strong> (14,932)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.1%</strong> (45)</span><span class="prop-card-funding prop-card-funding-rejected">600,000 GNK · $36,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>73.5%</strong> (41,668)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (8)</span> · <span class="prop-tally-veto-text">Veto <strong>26.4%</strong> (14,932)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.1%</strong> (45)</span><span class="prop-card-funding prop-card-funding-rejected">600,000 GNK · Community Pool · $36,000 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>7.6%</strong> (56,653 / 741,825) · Quorum <strong>25%</strong> (185,456)</span></div>
 </div>
 
@@ -417,7 +417,7 @@ hide:
     <span>Voting ends 2026-07-11</span>
   </div>
   <div class="prop-card-desc">My name is Andrey Orlovsky, and through this proposal I represent our team and an initiative to attract at least $3 million in new long-term capital to GONKA through Uniswap.  Below is a condensed ver…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.4%</strong> (1,221)</span> · <span class="prop-tally-no-text">No <strong>0.8%</strong> (2,404)</span> · <span class="prop-tally-veto-text">Veto <strong>98.8%</strong> (290,022)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (3)</span><span class="prop-card-funding prop-card-funding-rejected">20,000 GNK · $50,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.4%</strong> (1,221)</span> · <span class="prop-tally-no-text">No <strong>0.8%</strong> (2,404)</span> · <span class="prop-tally-veto-text">Veto <strong>98.8%</strong> (290,022)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (3)</span><span class="prop-card-funding prop-card-funding-rejected">20,000 GNK · Community Pool · $50,000 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>39.6%</strong> (293,650 / 741,825) · Quorum <strong>25%</strong> (185,456)</span></div>
 </div>
 
@@ -445,7 +445,7 @@ hide:
     <span>Voting ends 2026-07-10</span>
   </div>
   <div class="prop-card-desc">4-month pilot of the External Test Lab & Community DevNet: a community-owned testing layer for Gonka. Full proposal and discussion: <a href="https://github.com/gonka-ai/gonka/discussions/1388" target="_blank">https://github.com/gonka-ai/gonka/discussions/1388</a>  The budget is he…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>98.2%</strong> (368,084)</span> · <span class="prop-tally-no-text">No <strong>0.1%</strong> (468)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (94)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.6%</strong> (6,141)</span><span class="prop-card-funding">80,000 GNK · $88,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>98.2%</strong> (368,084)</span> · <span class="prop-tally-no-text">No <strong>0.1%</strong> (468)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (94)</span> · <span class="prop-tally-abstain-text">Abstain <strong>1.6%</strong> (6,141)</span><span class="prop-card-funding">80,000 GNK · Community Pool · $88,000 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>50.5%</strong> (374,787 / 741,825) · Quorum <strong>25%</strong> (185,456)</span></div>
   <div class="prop-card-report"><a class="prop-report-link" href="82/report1/"><span class="prop-report-name">report1</span><span class="prop-report-date">2026-08-12</span></a></div>
 </div>
