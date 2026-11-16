@@ -4,7 +4,7 @@ title: ":speech_balloon: General"
 
 # :speech_balloon: General
 
-Дискуссии в категории **:speech_balloon: General**. Всего: **8**. Обновлено: `2026-11-16 09:29 UTC`.
+Дискуссии в категории **:speech_balloon: General**. Всего: **8**. Обновлено: `2026-11-16 20:20 UTC`.
 
 [← ко всем категориям](../index.md)
 
