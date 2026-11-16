@@ -2,7 +2,7 @@
 title: "#931 — Bridge safety issues: lexicographic block comparison, silent address validation failure, inconsistent chain ID mapping"
 source: https://github.com/gonka-ai/gonka/issues/931
 issue_number: 931
-synced_at: 2026-11-16T02:17:19Z
+synced_at: 2026-11-16T09:56:49Z
 template: issues-main.html
 ---
 
