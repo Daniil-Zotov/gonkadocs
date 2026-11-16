@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261116203933_4cf8efc9",
+    "timestamp": "2026-11-16T20:39:33.199333+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2272 — [BUG] PoC v2 vectors of a bf16 KV cache node change with the validation batch, so honest nodes fail validation",
+      "url": "/community/issues/02272-bug-poc-v2-vectors-of-a-bf16-kv-cache-node-change-with-the-v/",
+      "file": "02272-bug-poc-v2-vectors-of-a-bf16-kv-cache-node-change-with-the-v.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] PoC v2 vectors of a bf16 KV cache node change with the validation batch, so honest nodes fail validation\n    <span class=\"issues-number\">#2272</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-11-16 16:43 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></spa"
+    },
+    "ai_description": "A new bug report (#2272) has been filed by @yaUrich highlighting that PoC v2 vectors from a bf16 KV cache node shift depending on the validation batch, which causes honest nodes to incorrectly fail validation. The issue has already been closed, but it underscores a critical reproducibility concern for the network's integrity. The community should stay alert to any follow-up discussion or fix that ensures consistent node behavior."
+  },
+  {
+    "id": "evt_20261116203933_c577f663",
+    "timestamp": "2026-11-16T20:39:33.199563+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2234 — Maintenance window: Review & activation",
+      "url": "/community/issues/02234-maintenance-window-review-activation/",
+      "file": "02234-maintenance-window-review-activation.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Maintenance window: Review & activation\n    <span class=\"issues-number\">#2234</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:14 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Maintenance window: Review & activation\n    <span class=\"issues-number\">#2234</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-06 06:14 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-label\" sty"
+    },
+    "ai_description": "Issue #2234 on the maintenance window review and activation has been updated with a new comment, bringing the total to three. The issue remains open, so the community is still actively discussing the proposed maintenance plan. Stay tuned for further updates on the review and activation timeline.Issue #2234 on the maintenance window review and activation has picked up a new comment, now totaling three. The discussion is still open, so the community continues to weigh in on the proposed maintenance plan. Keep an eye on this thread for further input before activation moves forward."
+  },
+  {
     "id": "evt_20261114213823_6185e695",
     "timestamp": "2026-11-14T21:38:23.976640+00:00",
     "section": "issues",
@@ -8058,37 +8090,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    gRPC/Connect host transport\n    <span class=\"issues-number\">#1804</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:34 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
     },
     "ai_description": "New issue #1804 by @tcharchian proposes adding a gRPC/Connect host transport to Gonka, and it has already been closed. This suggests the idea was quickly reviewed and resolved, so check the linked discussion to see what direction the community decided on for expanding transport options. Either way, it is a sign that protocol flexibility remains a live topic for the network."
-  },
-  {
-    "id": "evt_20261022192049_bdc41f48",
-    "timestamp": "2026-10-22T19:20:49.450192+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1805 — `devshard`: Protocol-aware PoC / cPoC (preserved nodes)",
-      "url": "/community/issues/01805-devshard-protocol-aware-poc-cpoc-preserved-nodes/",
-      "file": "01805-devshard-protocol-aware-poc-cpoc-preserved-nodes.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Protocol-aware PoC / cPoC (preserved nodes)\n    <span class=\"issues-number\">#1805</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:50 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n"
-    },
-    "ai_description": "New issue #1805 has been opened by @tcharchian proposing a protocol-aware proof-of-concept for devshard, specifically focusing on preserved nodes and their role in cPoC validation. This is an important step toward refining how preserved nodes are handled in the network's consensus layer. Community members are encouraged to review and weigh in on the proposed approach."
-  },
-  {
-    "id": "evt_20261022192049_cc001a27",
-    "timestamp": "2026-10-22T19:20:49.450204+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1806 — `devshard`: Height-sync disputes",
-      "url": "/community/issues/01806-devshard-height-sync-disputes/",
-      "file": "01806-devshard-height-sync-disputes.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    `devshard`: Height-sync disputes\n    <span class=\"issues-number\">#1806</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:55 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-con"
-    },
-    "ai_description": "New issue #1806 has been opened by @tcharchian to address height-sync disputes in the devshard component. This is a key concern for keeping network state consistent, so your input on the matter is welcome. Check it out and join the discussion if you have insights to share.New issue #1806 has been opened by @tcharchian to address height-sync disputes in the devshard component, a critical step toward ensuring consistent network state across nodes. Your review and input on this topic are welcome as we work to strengthen the network's reliability."
   }
 ]

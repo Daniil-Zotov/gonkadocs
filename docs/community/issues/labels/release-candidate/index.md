@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: release-candidate
 
 Issues with label **release-candidate**. Total: **12**.
-Updated: `2026-11-16 09:58 UTC`.
+Updated: `2026-11-16 20:39 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -81,7 +81,7 @@ Updated: `2026-11-16 09:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 18 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 19 days ago</span>
       
     </div>
   </div>
@@ -96,7 +96,7 @@ Updated: `2026-11-16 09:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 18 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 19 days ago</span>
       
     </div>
   </div>
@@ -111,7 +111,7 @@ Updated: `2026-11-16 09:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span> <span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 18 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 19 days ago</span>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ Updated: `2026-11-16 09:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 19 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 20 days ago</span>
       
     </div>
   </div>
@@ -156,7 +156,7 @@ Updated: `2026-11-16 09:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 19 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 20 days ago</span>
       
     </div>
   </div>
@@ -171,7 +171,7 @@ Updated: `2026-11-16 09:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 19 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 20 days ago</span>
       
     </div>
   </div>
@@ -186,7 +186,7 @@ Updated: `2026-11-16 09:58 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 19 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vitaly-andr">@vitaly-andr</a> opened 20 days ago</span>
       
     </div>
   </div>

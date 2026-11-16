@@ -2,7 +2,7 @@
 title: "#2016 — devshard: GATEWAY_LOGPROBS_OPTIMIZATION_OVERRIDE is ignored after the gateway's first start"
 source: https://github.com/gonka-ai/gonka/issues/2016
 issue_number: 2016
-synced_at: 2026-11-16T09:54:56Z
+synced_at: 2026-11-16T20:34:39Z
 template: issues-main.html
 ---
 
