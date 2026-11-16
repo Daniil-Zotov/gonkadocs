@@ -47,7 +47,7 @@ hide:
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:10%"></span></span><span class="qs-value">1</span></div>
 </div>
 
-<div class="qs-funding-line">85,000 GNK · $175,675 · Community Pool · 217,896 GNK · Gov Module</div>
+<div class="qs-funding-line">85,000 GNK · $1,041,675 · Community Pool · +$1,142,750 · Community Pool (inflow) · 217,896 GNK · Gov Module</div>
 
 
 </div>
@@ -66,7 +66,7 @@ hide:
   </div>
   <div class="prop-card-desc">The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…</div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,204,897)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>61.2%</strong> (1,204,897 / 1,969,215) · Quorum <strong>25%</strong> (492,303)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>42.1%</strong> (1,204,897 / 2,862,640) · Quorum <strong>25%</strong> (715,660)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -79,8 +79,8 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">This proposal is to cover two months of work on the Gonka network by MillCreek R&D, Inc., a company founded by Gonka contributors Gleb Morgachev and Anastasia Matveeva. The work includes engineering, …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>59.4%</strong> (1,093,860 / 1,841,754) · Quorum <strong>25%</strong> (460,438)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">$866,000 · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>38.2%</strong> (1,093,860 / 2,862,640) · Quorum <strong>25%</strong> (715,660)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -93,8 +93,8 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>59.4%</strong> (1,093,860 / 1,841,754) · Quorum <strong>25%</strong> (460,438)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">+$1,142,750 · Community Pool (inflow)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>38.2%</strong> (1,093,860 / 2,862,640) · Quorum <strong>25%</strong> (715,660)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

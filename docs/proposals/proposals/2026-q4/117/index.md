@@ -24,6 +24,7 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/bitfury-com/gonka/blob/6c8444c4153e1c313c1bb383e587b3ce5ef69942/proposals/117/readme.md](https://github.com/bitfury-com/gonka/blob/6c8444c4153e1c313c1bb383e587b3ce5ef69942/proposals/117/readme.md)
 
+<div class="prop-funding-line">+$1,142,750 · Community Pool (inflow)</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/117){:target="_blank"}
@@ -45,7 +46,7 @@ If the proposal is not approved, none of these transactions will take place.
 
 <div class="prop-tally">
   <div class="prop-tally-bar">
-    <div class="prop-tally-yes" style="width:59.4%"></div>
+    <div class="prop-tally-yes" style="width:38.2%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
     <div class="prop-tally-veto" style="width:0.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
@@ -56,7 +57,7 @@ If the proposal is not approved, none of these transactions will take place.
     <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 1,093,860 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>59.4%</strong> (1,093,860 / 1,841,754) · Quorum <strong>25%</strong> (460,438)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>38.2%</strong> (1,093,860 / 2,862,640) · Quorum <strong>25%</strong> (715,660)</span>
   </div>
 </div>
 

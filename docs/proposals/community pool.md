@@ -10,7 +10,7 @@ hide:
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-11-16 07:34 UTC
+2026-11-16 09:56 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 ---
@@ -29,7 +29,7 @@ The Community Pool is the protocol-controlled treasury of the Gonka network. It 
 
 Since the network genesis, the Community Pool has received continuous inflows from transaction fees and inflation rewards, funding ecosystem development, marketing initiatives, and community programmes through passed governance proposals.
 
-*The $10,000 USDT held here was returned from **[proposal #42](https://gonkadocs.com/proposals/proposals/2026-q2/42/)** — the planned Global Compute Sovereignty Summit was cancelled, and the proposer returned the allocated funds. See the [return instructions](https://gonkadocs.com/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/) for details.*
+*Returned USDT sits in the pool as the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4` until it is spent through a governance vote — e.g. the **$10,000** returned from **[proposal #42](https://gonkadocs.com/proposals/proposals/2026-q2/42/)** after the planned Global Compute Sovereignty Summit was cancelled (see the [return instructions](https://gonkadocs.com/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/)). Note that most USDT payouts to contractors and bounty hunters are funded from the **Community Sale contract** below rather than from the distribution-module pool.*
 
 **Inflow rate:** ~13,150 GNK/day (varies with block time, fee volume, and staking ratio).
 
@@ -50,13 +50,17 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_p
 
 <!-- SALE_BALANCE_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:grey;font-size:0.95rem;font-weight:600">14,583,332 GNK</span> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">(~$8,749,999 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$1,425 USDT</span>
+<strong>Current balance:</strong> <span style="color:grey;font-size:0.95rem;font-weight:600">14,583,332 GNK</span> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">(~$8,749,999 USDT)</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$1,425 USDT</span> · <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">$276,751 USDT (CW20 bridged)</span>
 </p>
 <!-- SALE_BALANCE_END -->
 
 This address was created by **[proposal #14](/proposals/proposals/2025-q4/14/)** (passed 2025-11-27), which transferred **20,000,000 GNK** from the Community Pool to seed a community sale programme at a fixed price of **$0.60 per GNK**.
 
 The mechanism works as a simple swap: participants deposit **USDT** and receive **GNK** at the predetermined rate. The address holds both assets — USDT collected from buyers and the remaining GNK inventory.
+
+Buyer USDT arrives in two forms: the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4`, and the **bridged CW20 USDT** — token contract [`gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk`](https://gonka.gg/address/gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk) ("Tether USD", 6 decimals, bridged from Ethereum `0xdAC17f958D2ee523a2206206994597C13d831ec7`).
+
+**[Proposal #117](/proposals/proposals/2026-q4/117/)** (passed 2026-11-13) used the CW20 route: Bitfury paid **1,750,000 USDT** for the next tranche of the previously approved 12M USDT Community Sale commitment at $0.60 per GNK. Of that, **607,250 USDT** was paid back to Bitfury as reimbursement for the HackerOne and Trail of Bits security costs it had covered in fiat directly to vendors, so the net **+1,142,750 USDT** stayed with the Community Pool, and **2,916,666 GNK** (1.75M ÷ $0.60) left the sale inventory.
 
 For security, sale proceeds are distributed in **tranches** rather than all at once. The contract releases batches of GNK gradually to mitigate risk and ensure safe execution.
 
@@ -68,7 +72,10 @@ The USDT held here is used to pay **bug bounties and development rewards** — d
 <summary style="cursor:pointer;font-weight:500;padding-left:2.5em!important">Verify on-chain</summary>
 
 ```
+# GNK + IBC USDT held by the Community Sale contract
 curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2
+# CW20 bridged USDT held by the Community Sale contract
+curl -s "https://node3.gonka.ai/chain-api/cosmwasm/wasm/v1/contract/gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk/smart/eyJiYWxhbmNlIjp7ImFkZHJlc3MiOiJnb25rYTE4cGtxOW13eHhsbXlxN2tyNXR4aG0wNjB3ZW1nMnM0dTk0d3ZzZmQ5dzJrZGMwdTk5ZDZzcGs4cHoyIn19"
 ```
 
 </details>
@@ -104,7 +111,7 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka10d07
 
 1. A governance proposal includes one or more funding messages — `MsgCommunityPoolSpend` (GNK/USDT from the Community Pool) or batch-vesting transfers (GNK from the Gov Module).
 2. If the proposal **passes**, the Gov Module authority address executes the transfers.
-3. USDT is held in the Community Pool as the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4` and transferred via `MsgExecuteContract` (withdraw_ibc).
+3. USDT is paid out from the **Community Sale contract** via `MsgExecuteContract` — either as the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4` (`withdraw_ibc`, e.g. #113, #116) or as the bridged CW20 USDT `gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk` (`withdraw_cw20`, e.g. #117, #118). USDT held in the Community Pool itself sits as the IBC denom.
 
 **Key constraint:** No single key controls these funds — every spend requires a passed governance vote.
 
@@ -112,11 +119,13 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka10d07
 
 ## Historical Funding
 
-All **passed** governance proposals that received funding from the Community Pool or Gov Module, sorted by descending proposal number.
+All **passed** governance proposals that moved funds through the Community Pool or Gov Module, sorted by descending proposal number. Rows marked **(inflow)** are net additions to community funds rather than spending — e.g. **#117**, where Bitfury's 1.75M USDT Community Sale tranche minus its 607,250 USDT reimbursement left **+$1,142,750** on the pool.
 
 <!-- SPENT_HISTORY_START -->
 | Proposal | Date | Description | Source | Amount GNK | Amount USDT |
 | :------ | :--: | :---------- | :---- | ---------: | ---------: |
+| [#118](https://gonkadocs.com/proposals/proposals/2026-q4/118/) | 2026-11-13 | Dev Team Funding | Community Pool | — | $866,000 |
+| [#117](https://gonkadocs.com/proposals/proposals/2026-q4/117/) | 2026-11-13 | Bitfury buys another tranche of GNK for 1.75M USDT as part … | Community Pool (inflow) | — | +$1,142,750 |
 | [#116](https://gonkadocs.com/proposals/proposals/2026-q4/116/) | 2026-11-11 | Approve DevShard v6 and distribute bounty rewards | Community Pool + Gov Module | 170,000 | $69,425 |
 | [#113](https://gonkadocs.com/proposals/proposals/2026-q4/113/) | 2026-10-08 | Distribute v0.2.16 bounty rewards | Community Pool | — | $104,150 |
 | [#110](https://gonkadocs.com/proposals/proposals/2026-q4/110/) | 2026-10-03 | GRC Proposal #4 - Restitution | Community Pool + Gov Module | 132,896 | $2,100 |
@@ -156,13 +165,14 @@ All **passed** governance proposals that received funding from the Community Poo
 
 | Metric | Value |
 | :----- | :---- |
-| Total governance proposals | 29 |
+| Total governance proposals | 31 |
 | Total GNK approved (proposals) | 25,296,928 GNK |
-| Total USDT approved (proposals) | $1,364,425 |
-| From Community Pool | 21,296,619 GNK + $1,364,425 |
+| Total USDT approved (proposals) | $2,230,425 |
+| From Community Pool | 21,296,619 GNK + $2,230,425 |
 | From Gov Module | 5,037,678 GNK |
+| Community Pool inflows (proposals) | +$1,142,750 |
 | Largest funding | #14 — 20,000,000 GNK |
-| Most recent | #116 — 170,000 GNK + $69,425 USDT |
+| Most recent | #118 — $866,000 USDT |
 | **Upgrade distributions** | **7** |
 | Total GNK distributed (upgrades) | 203,750 GNK |
 | Total USDT distributed (upgrades) | $144,150 |

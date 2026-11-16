@@ -42,6 +42,13 @@ MKDOCS_YML = Path(os.environ.get("MKDOCS_YML", "mkdocs.yml"))
 MAX_RETRIES = 3
 RETRY_DELAY = 5  # seconds
 
+# ── Funding-source detection constants ──────────────────────────
+SALE_ADDR = "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2"  # Community Sale contract
+POOL_ADDR = "gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa"  # Community Pool (distribution module)
+USDT_IBC_DENOM = "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4"
+# Bridged CW20 USDT — "Tether USD", 6 decimals (Ethereum 0xdAC17f958D2ee523a2206206994597C13d831ec7)
+USDT_CW20_ADDR = "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk"
+
 
 def fetch_with_retry(url, timeout=30):
     """Try fetching URL across all RPC endpoints with retries."""
@@ -304,103 +311,52 @@ def categorize_type(msg_type):
         return "Other"
 
 
-def parse_amounts_from_messages(messages):
-    """Extract GNK and USDT amounts from proposal messages directly."""
-    USDT_IBC_DENOM = "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4"
-    gnk_total = 0
-    usdt_total = 0
-
-    def coin_amount(coins, denom_suffix):
-        total = 0
-        for c in coins:
-            denom = c.get("denom", "")
-            try:
-                amt = int(c.get("amount", "0"))
-            except (ValueError, TypeError):
-                amt = 0
-            if denom == "ngonka":
-                total += amt / 1_000_000_000
-            elif denom == "ugonka":
-                total += amt / 1_000_000
-            elif denom == USDT_IBC_DENOM:
-                usdt_total_local = amt / 1_000_000
-                return total, usdt_total_local
-            elif denom.endswith(denom_suffix):
-                total += amt
-        return total, 0
-
-    for m in messages:
+def iter_messages(messages):
+    """Yield effective messages, unwrapping cosmos.authz MsgExec envelopes (e.g. #117)."""
+    for m in (messages or []):
         t = m.get("@type", "")
-        if "MsgCommunityPoolSpend" in t:
-            for c in m.get("amount", []):
-                denom = c.get("denom", "")
-                try:
-                    amt = int(c.get("amount", "0"))
-                except (ValueError, TypeError):
-                    continue
-                if denom == "ngonka":
-                    gnk_total += amt / 1_000_000_000
-                elif denom == USDT_IBC_DENOM:
-                    usdt_total += amt / 1_000_000
+        if t.endswith(".MsgExec") and m.get("msgs"):
+            yield from iter_messages(m.get("msgs", []))
+        else:
+            yield m
 
-        elif "MsgExecuteContract" in t:
-            wi = m.get("msg", {}).get("withdraw_ibc", {})
-            if wi and wi.get("denom") == USDT_IBC_DENOM:
-                try:
-                    usdt_total += int(wi.get("amount", "0")) / 1_000_000
-                except (ValueError, TypeError):
-                    pass
-            for c in m.get("funds", []):
-                denom = c.get("denom", "")
-                try:
-                    amt = int(c.get("amount", "0"))
-                except (ValueError, TypeError):
-                    continue
-                if denom == "ngonka":
-                    gnk_total += amt / 1_000_000_000
 
-        elif "MsgBatchTransferWithVesting" in t:
-            for o in m.get("outputs", []):
-                try:
-                    gnk_total += int(o.get("amount", "0")) / 1_000_000_000
-                except (ValueError, TypeError):
-                    pass
-
-        elif "MsgTransferWithVesting" in t:
-            for c in m.get("amount", []):
-                denom = c.get("denom", "")
-                try:
-                    amt = int(c.get("amount", "0"))
-                except (ValueError, TypeError):
-                    continue
-                if denom == "ngonka":
-                    gnk_total += amt / 1_000_000_000
-
-        elif "MsgMultiSend" in t:
-            for inp in m.get("inputs", []):
-                for c in inp.get("coins", []):
-                    denom = c.get("denom", "")
-                    try:
-                        amt = int(c.get("amount", "0"))
-                    except (ValueError, TypeError):
-                        continue
-                    if denom == "ngonka":
-                        gnk_total += amt / 1_000_000_000
-
-    return int(gnk_total), int(usdt_total)
+def parse_amounts_from_messages(messages):
+    """Extract GNK and USDT amounts from proposal messages directly (net outflows)."""
+    by_source = parse_amounts_by_source(messages)
+    gnk = sum(v[0] for k, v in by_source.items() if "(inflow)" not in k)
+    usdt = sum(v[1] for k, v in by_source.items() if "(inflow)" not in k)
+    return gnk, usdt
 
 
 def parse_amounts_by_source(messages):
     """Extract GNK and USDT amounts grouped by funding source.
 
-    Returns dict[str, tuple[int, int]] mapping source name to (gnk, usdt).
-    Sources: "Community Pool" (MsgCommunityPoolSpend, MsgExecuteContract)
-             "Gov Module" (MsgBatchTransferWithVesting, MsgTransferWithVesting, MsgMultiSend)
-    """
-    USDT_IBC_DENOM = "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4"
-    raw = {}
+    Handles:
+    - MsgCommunityPoolSpend (GNK/USDT straight from the Community Pool)
+    - MsgExecuteContract: withdraw_ibc / withdraw_cw20 (USDT payout from the
+      Community Sale contract, gov-module-authorized) and CW20 send/transfer
+      INTO pool-controlled addresses (e.g. #117 Bitfury tranche = inflow)
+    - MsgBatchTransferWithVesting / MsgTransferWithVesting / MsgMultiSend
+      (GNK from the Gov Module)
+    - cosmos.authz MsgExec envelopes around any of the above (unwrapped)
 
-    for m in messages:
+    Inflows and outflows are netted per source. Returns dict[str, tuple[int, int]]
+    mapping source name to (gnk, usdt):
+    - "Community Pool" — net outflow (spending)
+    - "Community Pool (inflow)" — net inflow, e.g. #117: 1,750,000 USDT in,
+      607,250 USDT reimbursed back to Bitfury → +1,142,750 USDT to the pool
+    - "Gov Module" — GNK distributions
+    """
+    outflows = {}
+    inflows = {}
+
+    def _add(bucket, source, gnk=0, usdt=0):
+        b = bucket.setdefault(source, [0, 0])
+        b[0] += gnk
+        b[1] += usdt
+
+    for m in iter_messages(messages):
         t = m.get("@type", "")
 
         if "MsgCommunityPoolSpend" in t or "MsgExecuteContract" in t:
@@ -410,8 +366,6 @@ def parse_amounts_by_source(messages):
         else:
             continue
 
-        gnk_raw, usdt_raw = raw.get(source, (0, 0))
-
         if "MsgCommunityPoolSpend" in t:
             for c in m.get("amount", []):
                 denom = c.get("denom", "")
@@ -420,15 +374,23 @@ def parse_amounts_by_source(messages):
                 except (ValueError, TypeError):
                     continue
                 if denom == "ngonka":
-                    gnk_raw += amt
+                    _add(outflows, source, gnk=amt)
                 elif denom == USDT_IBC_DENOM:
-                    usdt_raw += amt
+                    _add(outflows, source, usdt=amt)
 
         elif "MsgExecuteContract" in t:
             wi = m.get("msg", {}).get("withdraw_ibc", {})
             if wi and wi.get("denom") == USDT_IBC_DENOM:
                 try:
-                    usdt_raw += int(wi.get("amount", "0"))
+                    _add(outflows, source, usdt=int(wi.get("amount", "0")))
+                except (ValueError, TypeError):
+                    pass
+            # withdraw_cw20 pays out the bridged CW20 USDT from the Community
+            # Sale contract (#117 reimbursement, #118 MillCreek fee)
+            wc = m.get("msg", {}).get("withdraw_cw20", {})
+            if wc and wc.get("contract_addr") == USDT_CW20_ADDR:
+                try:
+                    _add(outflows, source, usdt=int(wc.get("amount", "0")))
                 except (ValueError, TypeError):
                     pass
             for c in m.get("funds", []):
@@ -438,7 +400,17 @@ def parse_amounts_by_source(messages):
                 except (ValueError, TypeError):
                     continue
                 if denom == "ngonka":
-                    gnk_raw += amt
+                    _add(outflows, source, gnk=amt)
+            # CW20 send/transfer INTO a pool-controlled address = USDT inflow (#117)
+            inner = m.get("msg", {})
+            if m.get("contract") == USDT_CW20_ADDR:
+                cw_payload = inner.get("send") or inner.get("transfer") or {}
+                recipient = cw_payload.get("contract") or cw_payload.get("recipient") or ""
+                if recipient in (SALE_ADDR, POOL_ADDR):
+                    try:
+                        _add(inflows, source, usdt=int(cw_payload.get("amount", "0")))
+                    except (ValueError, TypeError):
+                        pass
 
         elif "MsgBatchTransferWithVesting" in t:
             for o in m.get("outputs", []):
@@ -449,9 +421,9 @@ def parse_amounts_by_source(messages):
                     except (ValueError, TypeError):
                         continue
                     if denom == "ngonka":
-                        gnk_raw += amt
+                        _add(outflows, source, gnk=amt)
                     elif denom == USDT_IBC_DENOM:
-                        usdt_raw += amt
+                        _add(outflows, source, usdt=amt)
 
         elif "MsgTransferWithVesting" in t:
             for c in m.get("amount", []):
@@ -461,7 +433,7 @@ def parse_amounts_by_source(messages):
                 except (ValueError, TypeError):
                     continue
                 if denom == "ngonka":
-                    gnk_raw += amt
+                    _add(outflows, source, gnk=amt)
 
         elif "MsgMultiSend" in t:
             for inp in m.get("inputs", []):
@@ -472,26 +444,39 @@ def parse_amounts_by_source(messages):
                     except (ValueError, TypeError):
                         continue
                     if denom == "ngonka":
-                        gnk_raw += amt
+                        _add(outflows, source, gnk=amt)
 
-        raw[source] = (gnk_raw, usdt_raw)
-
-    return {src: (int(gnk / 1_000_000_000), int(usdt / 1_000_000)) for src, (gnk, usdt) in raw.items()}
+    result = {}
+    for source in set(list(outflows) + list(inflows)):
+        g_out, u_out = outflows.get(source, (0, 0))
+        g_in, u_in = inflows.get(source, (0, 0))
+        g_net, u_net = g_in - g_out, u_in - u_out
+        if g_net > 0 or u_net > 0:
+            result[f"{source} (inflow)"] = (int(g_net), int(u_net))
+        if g_net < 0 or u_net < 0:
+            result[source] = (int(max(-g_net, 0)), int(max(-u_net, 0)))
+    # raw micro-denoms → human units (ngonka / 1e9, micro-USDT / 1e6)
+    return {
+        src: (int(g / 1_000_000_000), int(u / 1_000_000))
+        for src, (g, u) in result.items()
+    }
 
 
 def funding_parts_by_source(amt_by_source):
     """Convert parse_amounts_by_source result to display strings.
 
-    Returns list of strings like "100,000 GNK · Community Pool".
+    Returns list of strings like "100,000 GNK · Community Pool", or
+    "+$1,142,750 · Community Pool (inflow)" for net inflows (#117).
     """
     parts = []
     for source in sorted(amt_by_source.keys()):
         gnk, usdt = amt_by_source[source]
+        sign = "+" if "(inflow)" in source else ""
         sub = []
         if gnk > 0:
-            sub.append(f"{gnk:,} GNK")
+            sub.append(f"{sign}{gnk:,} GNK")
         if usdt > 0:
-            sub.append(f"${usdt:,}")
+            sub.append(f"{sign}${usdt:,}")
         if sub:
             sub.append(source)
             parts.append(" · ".join(sub))

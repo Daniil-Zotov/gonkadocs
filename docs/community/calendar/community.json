@@ -1,403 +1,403 @@
 [
-  {
-    "date": "2026-06-25",
-    "category": "community",
-    "type": "ama",
-    "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
-    "url": "https://us06web.zoom.us/j/88254388622",
-    "time": "15:00 UTC",
-    "description": "Second community AMA session with Vadim Krutov (COO of Bitfury) and David Liberman. The meeting focuses on breaking down the launch of the joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Mercer, HackerOne Senior Director of Sales Engineering, joins the AMA session!\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️\n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision behind the Gonka + Bitfury + HackerOne three-way partnership and strengthening network security.\n• Phased Rollout Plan: Shifting from private invites to an open form on gonka.ai, leading up to the final public launch on HackerOne.\n• Community Integration: How the report submission process works, gaining HackerOne access, and defining scope and reward tiers.\n• Transparency & Reporting: How the team plans to track and publish payout reports, considering that H1 bounties are processed off-chain.\n\n⏰ EVENT DETAILS\n📅 Date: Thursday, June 25, 2026\n🕣 Time: 08:00 AM PT / 15:00 UTC / 18:00 MSK\n🔗 Join via Zoom: https://us06web.zoom.us/j/88254388622",
-    "tags": [
-      "ama",
-      "bug-bounty",
-      "bitfury",
-      "hackerone",
-      "libermans"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": "https://us06web.zoom.us/j/88254388622",
-    "uid": "gonka-2026-06-25-f06d49c9c830@gonkadocs.com"
-  },
-  {
-    "date": "2026-07-30",
-    "category": "community",
-    "type": "livestream",
-    "title": "▶️ Ancapex Live: Gonka Overview",
-    "url": "https://www.youtube.com/@Ancapex",
-    "time": "11:00 UTC",
-    "description": "YouTube stream with Yakov, co-founder of Ancapex. A review of everything important in Gonka over the past months: inference, proposals v0.2.14–v0.2.15, model training, mining and token price, governance, and the roadmap.",
-    "tags": [
-      "livestream",
-      "ancapex"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": null,
-    "uid": "gonka-2026-07-30-7961c25d0050@gonkadocs.com"
-  },
-  {
-    "date": "2026-08-03",
-    "category": "community",
-    "type": "ama",
-    "title": "AMA with Gleb Morgachev — Dev Team Funding proposal",
-    "url": "https://github.com/gonka-ai/gonka/discussions/1464",
-    "time": "15:30 UTC",
-    "description": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: Russian. Hosts: @paranko and @dem_ww. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
-    "tags": [
-      "ama",
-      "dev-team-funding",
-      "gmorgachev"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": null,
-    "uid": "gonka-2026-08-03-56ca84a45c2d@gonkadocs.com"
-  },
-  {
-    "date": "2026-08-04",
-    "category": "community",
-    "type": "ama",
-    "title": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) — Dev Team Funding proposal",
-    "url": "https://github.com/gonka-ai/gonka/discussions/1464",
-    "time": "15:30 UTC",
-    "description": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: English. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
-    "tags": [
-      "ama",
-      "dev-team-funding",
-      "gmorgachev"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": null,
-    "uid": "gonka-2026-08-04-c64ee189be55@gonkadocs.com"
-  },
-  {
-    "date": "2026-08-06",
-    "category": "community",
-    "type": "community",
-    "title": "⛏ Покупка собственного оборудования для майнинга — Ancapex.ai | Purchasing our own mining equipment — Ancapex.ai",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform",
-    "time": "11:00 UTC",
-    "description": "⛏ Покупка собственного оборудования для майнинга.\n\nМы рассматриваем возможность приобретения собственных GPU-кластеров и ASIC-майнеров. Это следующий шаг для Ancapex — перейти от аренды мощностей к владению инфраструктурой.\n\nЕсли вы хотите стать одним из первых, кто владеет ASIC-оборудованием и получает с него прибыль, приходите на звонок. Обсудим, являются ли ASIC новой нефтью, как устроена бизнес-модель и как можно поучаствовать вместе с нами.\n\n🗓 Четверг, 14:00 МСК (11:00 UTC)\n📍 Zoom, ссылку вышлем на почту или в Telegram\n\nЧтобы получить ссылку, заполните форму: https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform\n\n---\n\nPurchasing our own mining equipment.\n\nWe are considering acquiring our own GPU clusters and ASIC miners. This is the next step for Ancapex — moving from renting capacity to owning infrastructure.\n\nIf you want to be among the first to own ASIC equipment and earn profit from it, join the call. We will discuss whether ASICs are the new oil, how the business model works, and how you can participate with us.\n\n🗓 Thursday, 14:00 MSK (11:00 UTC)\n📍 Zoom — the link will be sent to your email or Telegram\n\nTo get the link, fill in the form: https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform",
-    "tags": [
-      "ancapex",
-      "mining",
-      "asics",
-      "community"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": null,
-    "uid": "gonka-2026-08-06-69f33e1d8e71@gonkadocs.com"
-  },
-  {
-    "date": "2026-08-07",
-    "category": "community",
-    "type": "ama",
-    "title": "AMA с Давидом и Даниилом Либерманами — Award. libermans | AMA with David and Daniel Liberman — libermans",
-    "url": "https://us06web.zoom.us/j/87045531047",
-    "time": "15:30 UTC",
-    "description": "AMA-сессия с Дэвидом и Даниилом Либерманами посвящена состоянию рынка компьюта, итогам первого года протокола и дальнейшему развитию сети.\n\nПовестка:\n• Что происходит на рынке: становится ли компьют доступнее и как выход K3 повлиял на централизованных игроков\n• Год протоколу: что сделано и что ещё предстоит\n• Июль: каким он был для сети и как прошёл WebX Asia\n• Токен GNK: почему рост сети и спрос на неё важны для всех участников, от майнеров до разработчиков\n• Ожидания от будущего: следующий месяц и следующий год\n• Модели: какие появятся в сети и по какому принципу отбираются\n\n💻 Zoom: https://us06web.zoom.us/j/87045531047\n🗣️ Язык: русский\n🎙️ Гости: Дэвид и Даниил Либерманы\n🎤 Ведущий: @sultee\n\n---\n\nAMA session with David and Daniel Liberman dedicated to the state of the compute market, results of the protocol's first year, and the further development of the network.\n\nAgenda:\n• What is happening in the market — is compute becoming more affordable, and how did K3's release affect centralized players\n• A year of the protocol: what has been done and what lies ahead\n• July: how it went for the network and how WebX Asia went\n• GNK token: why the network's growth and demand matter to all participants, from miners to developers\n• Expectations for the future: the next month and the next year\n• Models: which will appear in the network and by what principle they are selected\n\n💻 Zoom · https://us06web.zoom.us/j/87045531047\n🗣️ Language: Russian\n🎙️ Guests: David and Dan Liberman\n🎤 Host: @sultee",
-    "tags": [
-      "ama",
-      "libermans",
-      "community"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": "https://us06web.zoom.us/j/87045531047",
-    "uid": "gonka-2026-08-07-ecfb3a95d4db@gonkadocs.com"
-  },
-  {
-    "date": "2026-08-10",
-    "category": "community",
-    "type": "community_call",
-    "title": "External Test Lab & Community DevNet — первый ежемесячный статус-колл | First Monthly Status Call",
-    "url": "https://meet.google.com/zqp-shgw-wtj",
-    "time": "15:30 UTC",
-    "description": "**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПриглашаем на первый ежемесячный статус-колл External Test Lab & Community DevNet в рамках принятого пропозала #82 (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПодведём итоги первого месяца работы:\n\n• будущая тест-стратегия лаборатории\n• первая версия DevNet\n• текущий статус инфраструктуры\n• планы и задачи на следующий месяц\n\nТакже познакомим сообщество с первым QA-инженером, который присоединился к лаборатории, и расскажем, как подключить своё оборудование к DevNet.\n\n📅 Понедельник, 10 августа\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj\n\n---\n\n**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nWe will review the results of the first month:\n\n• the future test strategy of the lab\n• the first version of DevNet\n• the current status of the infrastructure\n• plans and tasks for the next month\n\nWe will also introduce the community to the first QA engineer who joined the lab, and explain how to connect your own equipment to DevNet.\n\n📅 Monday, August 10\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj",
-    "tags": [
-      "test-lab",
-      "devnet",
-      "status-call",
-      "community"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": "https://meet.google.com/zqp-shgw-wtj",
-    "uid": "gonka-2026-08-10-b76ced51a5a1@gonkadocs.com"
-  },
-  {
-    "date": "2026-09-01",
-    "category": "community",
-    "type": "ama",
-    "title": "AMA with TheSoul — Q3 Progress Update (EN)",
-    "url": null,
-    "time": "15:30 UTC",
-    "description": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Tuesday, September 1, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: English\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
-    "tags": [
-      "ama",
-      "thesoul",
-      "pr",
-      "marketing",
-      "proposal-60"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": null,
-    "uid": "gonka-2026-09-01-thesoul-ama-en@gonkadocs.com"
-  },
-  {
-    "date": "2026-09-02",
-    "category": "community",
-    "type": "ama",
-    "title": "AMA with TheSoul — Q3 Progress Update (RU)",
-    "url": null,
-    "time": "15:30 UTC",
-    "description": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Wednesday, September 2, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: Russian\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
-    "tags": [
-      "ama",
-      "thesoul",
-      "pr",
-      "marketing",
-      "proposal-60"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": null,
-    "uid": "gonka-2026-09-02-thesoul-ama-ru@gonkadocs.com"
-  },
-  {
-    "date": "2026-09-03",
-    "category": "community",
-    "type": "ama",
-    "title": "Monthly AMA Session",
-    "url": null,
-    "time": "15:30 UTC",
-    "description": "This monthly AMA session will focus on the latest developments within the proposed protocol's usage and on the experiments planned by the contributors in the nearest future.\n\nRead details here and here.\n\nKey topics:\n• Where usage stands after DeepSeek, and the four-week 20B tokens/day target\n• Nearest plans for widening the model lineup\n• Growth to 100B tokens/day by the end of 2026, and what precedes paid inference\n• Experiments: any model size and modality, including on consumer GPUs\n• Your questions - please add them in the thread: THREAD LINK\n\n🎥 Zoom:\nThe link will be published before the session starts, keep an eye on Discord!\n\n🗣️ Language:\nEnglish\n\n❓ Questions:\nPost them in the thread under this announcement or in the chat during the session — the last 15 minutes are for them.\n\n👤 Guests:\n@Anastasia and @381466447723102219 \n\n🎙️ Hosts:\n@autoimago",
-    "tags": [
-      "ama",
-      "monthly-ama",
-      "deepseek",
-      "usage"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": null,
-    "uid": "gonka-2026-09-03-monthly-ama@gonkadocs.com"
-  },
-  {
-    "date": "2026-09-08",
-    "category": "community",
-    "type": "ama",
-    "title": "GONKA × LEDGER AMA",
-    "url": "https://us06web.zoom.us/j/86248510155",
-    "time": "11:00 UTC",
-    "description": "This session covers the upcoming proposal to fund the Ledger × Gonka integration.\n\n📅 Tuesday, September 8 — 11:00 UTC\n\n🕖 7:00 AM EDT · 11:00 AM UTC · 7:00 PM CST\n\n🗣️ Language: English\n\nKEY TOPICS:\n\n• What is Ledger, and how will Gonka be integrated with it?\n\n• Why is this integration important for Gonka?\n\n• The proposed agreement with Ledger — and why 6block is involved\n\nGUESTS:\n\n• Sebastien Vaillant — Ledger\n\n• Vadim Krutov — Bitfury\n\n• Sergey Ulankin — Gonka Community Contributor\n\nHost: @381466447723102219\n\nJOIN:\n\n🔗 Zoom: https://us06web.zoom.us/j/86248510155\n\n💬 GitHub Discussion: https://github.com/gonka-ai/gonka/discussions/1589\n\nBring your questions — drop them in the GitHub discussion ahead of time or ask live. See you there!",
-    "tags": [
-      "ama",
-      "ledger",
-      "bitfury",
-      "6block",
-      "gonka"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": "https://us06web.zoom.us/j/86248510155",
-    "uid": "gonka-2026-09-08-ed12c5cb21de@gonkadocs.com"
-  },
-  {
-    "date": "2026-09-11",
-    "category": "community",
-    "type": "community_call",
-    "title": "External Test Lab & Community DevNet — второй ежемесячный статус-колл | Second Monthly Status Call",
-    "url": "https://meet.google.com/mrj-tnhs-zvr",
-    "time": "14:00 UTC",
-    "description": "Второй ежемесячный статус-колл External Test Lab & Community DevNet — подведём итоги второго месяца работы, познакомим сообщество с новым участником команды и обсудим:\n\n– текущий статус инфраструктуры;\n– планы развития DevNet;\n– первые результаты тестирования;\n– шимы и адаптеры для брокеров;\n– отчёт по оборудованию и расходам на инфраструктуру;\n– планы и задачи на следующий месяц.\n\n📅 Пятница, 11 сентября\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/mrj-tnhs-zvr\n\n---\n\nSecond monthly status call of the External Test Lab & Community DevNet — we will review the results of the second month, introduce the community to the new team member, and discuss:\n\n– current infrastructure status;\n– DevNet development plans;\n– first testing results;\n– shims and adapters for brokers;\n– equipment and infrastructure cost report;\n– plans and tasks for the next month.\n\n📅 Friday, September 11\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/mrj-tnhs-zvr",
-    "tags": [
-      "test-lab",
-      "devnet",
-      "status-call",
-      "community"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": "https://meet.google.com/mrj-tnhs-zvr",
-    "uid": "gonka-2026-09-11-df8aac112790@gonkadocs.com"
-  },
-  {
-    "date": "2026-09-22",
-    "category": "community",
-    "type": "ama",
-    "title": "AMA-сессия: токеномика GNK",
-    "url": "https://drive.google.com/file/d/1-SVQaL-rA-ozJcNEPJoXjGO1UIpsoZkt/",
-    "time": "17:00 UTC",
-    "description": "Последние два месяца мы работали над улучшением токеномики Gonka. Цель — выровнять цену токена и сделать доход хостов более предсказуемым, в первую очередь за счёт внедрения механизма 🔥сжигания. Мы провели большую исследовательскую работу, сформировали набор решений и хотим вынести их на обсуждение с сообществом. На AMA-сессии Алексей, CTO Ancapex, расскажет о предложении и ответит на все вопросы.\n\n📅 Вторник, 22 сентября — 19:00 CET · 20:00 МСК (17:00 UTC)\n\n🗣️ Язык: русский\n\nДо начала можно ознакомиться с результатами исследования в презентации и оставить вопросы в Google-форме заранее:\n\n🔗 Презентация: https://drive.google.com/file/d/1-SVQaL-rA-ozJcNEPJoXjGO1UIpsoZkt/\n💬 Вопросы: https://forms.gle/b7WMHHqQBN5KCDW58",
-    "tags": [
-      "ama",
-      "tokenomics",
-      "gnk",
-      "burn",
-      "ancapex"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": null,
-    "uid": "gonka-2026-09-22-a7001bb6b624@gonkadocs.com"
-  },
-  {
-    "date": "2026-09-18",
-    "category": "community",
-    "type": "ama",
-    "title": "Встреча с контрибьюторами | Contributors Call",
-    "url": "https://us06web.zoom.us/j/86424784039",
-    "time": "17:00 UTC",
-    "description": "Встречаемся с контрибьюторами: обсудим, что нового в протоколе и что планируется!\n\n📅 Пятница, 18 сентября\n🕣 10:00 LA · 17:00 UTC · 20:00 МСК\n\n💻 Zoom: https://us06web.zoom.us/j/86424784039\n🗣️ Язык: русский\n\n🎙 Гости: @ak986 и @baridoka kaitaku\n🎤 Ведущие: @dem_ww и @paranko",
-    "tags": [
-      "ama",
-      "contributors",
-      "protocol",
-      "community"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": "https://us06web.zoom.us/j/86424784039",
-    "uid": "gonka-2026-09-18-2465524de3df@gonkadocs.com"
-  },
-  {
-    "date": "2026-09-22",
-    "category": "community",
-    "type": "ama",
-    "title": "Gonka AMA x HSC Asset Management",
-    "url": "https://meet.google.com/bvh-eauh-ien",
-    "time": "15:00 UTC",
-    "description": "Присоединяйтесь к нам на AMA, где мы обсудим предложение для Gonka об участии на HSC Asset Management, детали участия и стоимость, а затем перейдём к сессии вопросов и ответов с сообществом.\n\n🗓 Сегодня, 22 сентября\n⏰ 15:00 UTC · 18:00 MSK · 23:00 Singapore\n🔗 Ссылка: https://meet.google.com/bvh-eauh-ien",
-    "tags": [
-      "ama",
-      "hsc",
-      "asset-management",
-      "community"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": "https://meet.google.com/bvh-eauh-ien",
-    "uid": "gonka-2026-09-22-32bb2b7ba919@gonkadocs.com"
-  },
-  {
-    "date": "2026-09-25",
-    "category": "community",
-    "type": "ama",
-    "title": "100 PROPOSALS OVERVIEW",
-    "url": null,
-    "time": "16:30 UTC",
-    "description": "One hundred proposals in, what has the Gonka community achieved, and what have we learned along the way? Join us for a conversation about the results so far and how the proposal process is evolving.\n\nTopics:\n• Which proposals made a difference;\n• How ideas move from voting to delivery;\n• Execution, accountability and reporting.\n\n📅 Friday, September 25\n🕣 09:30 LA · 16:30 UTC · 19:30 MSK\n💻 Zoom\n🗣 Language: English\n🎙 Speakers: @pavelp221, @sultee, @paranko + special guest",
-    "tags": [
-      "ama",
-      "proposals",
-      "governance",
-      "overview"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": null,
-    "uid": "gonka-2026-09-25-fbbdf8b09660@gonkadocs.com"
-  },
-  {
-    "date": "2026-10-06",
-    "category": "community",
-    "type": "ama",
-    "title": "Ежемесячная AMA GONKA | Monthly AMA GONKA",
-    "url": "https://us06web.zoom.us/j/81184942251",
-    "time": "12:30 UTC",
-    "description": "Продолжается серия ежемесячных AMA-сессий с создателями Gonka. Давид Либерман при участии Вадима Крутова, COO Bitfury, расскажет, как прошёл сентябрь и что ждёт протокол в октябре, а также ответит на вопросы комьюнити.\n\nВ программе:\n• Итоги сентября: результаты, цифры, выводы\n• Token2049: участие Gonka и ключевые встречи\n• Foundation: назначение, роль в экосистеме и изменения для сообщества\n• Ответы на вопросы в прямом эфире\n\n🗣️ Язык: русский\n🎙️ Участники: Давид Либерман, Вадим Крутов (COO Bitfury)\n🎙️ Хост: @sultee\n\n📅 Вторник, 6 октября\n🕣 05:30–06:30 PDT (LA) · 12:30–13:30 UTC · 15:30–16:30 МСК\n📍 Присоединиться в Zoom: https://us06web.zoom.us/j/81184942251",
-    "tags": [
-      "ama",
-      "monthly-ama",
-      "bitfury",
-      "libermans",
-      "community"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": "https://us06web.zoom.us/j/81184942251",
-    "uid": "gonka-2026-10-06-ecd22369e477@gonkadocs.com"
-  },
-  {
-    "date": "2026-10-16",
-    "category": "community",
-    "type": "community_call",
-    "title": "External Test Lab & Community DevNet — третий ежемесячный статус-колл | Third Monthly Status Call",
-    "url": "https://meet.google.com/bqx-mfhi-arg",
-    "time": "14:00 UTC",
-    "description": "Третий ежемесячный статус-колл External Test Lab & Community DevNet — приглашаем на третий статус-колл и обсудим:\n\n– инфраструктуру Community DevNet;\n– тестирование L2: новых версий DevShard и Gateway;\n– мониторинг мейннета и девнета;\n– тестирование брокеров;\n– отчёт по расходам.\n\n📅 Пятница, 16 октября\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg\n\n---\n\nThird monthly status call of the External Test Lab & Community DevNet — we invite you to the third status call and will discuss:\n\n– Community DevNet infrastructure;\n– L2 testing: new versions of DevShard and Gateway;\n– mainnet and devnet monitoring;\n– broker testing;\n– expense report.\n\n📅 Friday, October 16\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg",
-    "tags": [
-      "test-lab",
-      "devnet",
-      "status-call",
-      "community"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "location": "https://meet.google.com/bqx-mfhi-arg",
-    "uid": "gonka-2026-10-16-9efe2589aaa1@gonkadocs.com"
-  },
-  {
-    "date": "2026-10-30",
-    "category": "community",
-    "type": "ama",
-    "title": "AMA GONKA FOUNDATION: Запуск фонда уже скоро | GONKA FOUNDATION AMA: Foundation launch is coming soon",
-    "url": "https://discord.com/events/1336477374442770503/1565006715311759450",
-    "time": "16:00 UTC",
-    "description": "Важное событие для всех, кто следит за развитием экосистемы. Со-создатели Gonka и члены совета директоров проведут открытую сессию вопросов и ответов, посвящённую официальному запуску Gonka Foundation.\n\n📅 Когда: 30 октября 2026 года.\n⏰ Время: 19:00 по МСК (16:00 UTC).\n💻 Где: Discord (ссылка на событие).\n🗣 Язык: английский.\n⏳ Длительность: 1.5 часа.\n\n🎯 Что обсудят:\n— Структуру и управление Фонда.\n— Финансирование и планы на развитие.\n— Стратегию выхода на глобальный рынок.\n— Ответы на вопросы от сообщества.\n\nЭто возможность услышать информацию из первых уст и задать свои вопросы напрямую членам совета. Если вы хотите понимать, куда движется проект на институциональном уровне, этот эфир стоит посетить.\n\n🔗 Ссылка на событие в Discord https://discord.com/events/1336477374442770503/1565006715311759450\n💻 Zoom: https://us06web.zoom.us/j/82135820519\n\n---\n\nAn important event for everyone following the ecosystem development. The co-founders of Gonka and members of the board of directors will host an open Q&A session dedicated to the official launch of the Gonka Foundation.\n\n📅 When: October 30, 2026.\n⏰ Time: 19:00 MSK (16:00 UTC).\n💻 Where: Discord (event link).\n🗣 Language: English.\n⏳ Duration: 1.5 hours.\n\n🎯 What will be discussed:\n— Foundation structure and governance.\n— Funding and development plans.\n— Global market expansion strategy.\n— Answers to community questions.\n\nThis is an opportunity to hear the information first-hand and ask your questions directly to the council members. If you want to understand where the project is heading at the institutional level, this broadcast is worth attending.\n\n🔗 Discord event link https://discord.com/events/1336477374442770503/1565006715311759450\n💻 Zoom: https://us06web.zoom.us/j/82135820519",
-    "tags": [
-      "ama",
-      "foundation",
-      "gonka",
-      "community"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 90,
-    "uid": "gonka-2026-10-30-0d1817a45dc4@gonkadocs.com",
-    "location": "https://us06web.zoom.us/j/82135820519"
-  },
-  {
-    "date": "2026-11-12",
-    "category": "community",
-    "type": "ama",
-    "title": "AMA: Эволюция токеномики Gonka | Evolution of Gonka Tokenomics",
-    "url": "https://us06web.zoom.us/s/87876084992",
-    "time": "17:00 UTC",
-    "description": "Присоединяйтесь к нам в этот четверг, 12 ноября, на AMA-сессию о токеномике Gonka и её возможном развитии.\n\n🕣 Четверг, 12 ноября | 9:00 AM PT · 18:00 CET · 21:00 Дубай\n🎙 Гости: Давид Либерман (ко-криэйтор Gonka), Вадим Крутов и Дмитрий Струков (Bitfury)\n🗣 Язык: английский\n💻 Zoom: https://us06web.zoom.us/s/87876084992\n\n---\n\nJoin us this Thursday, November 12, for an AMA session on Gonka tokenomics and its possible evolution.\n\n🕣 Thursday, November 12 | 9:00 AM PT · 18:00 CET · 21:00 Dubai\n🎙 Guests: David Liberman (co-creator of Gonka), Vadim Krutov and Dmitry Strukov (Bitfury)\n🗣 Language: English\n💻 Zoom: https://us06web.zoom.us/s/87876084992",
-    "tags": [
-      "ama",
-      "tokenomics",
-      "gnk",
-      "bitfury",
-      "libermans"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "uid": "gonka-2026-11-12-a90217c4e7d9@gonkadocs.com",
-    "location": "https://us06web.zoom.us/s/87876084992"
-  },
-  {
-    "date": "2026-11-12",
-    "category": "community",
-    "type": "ama",
-    "title": "⚫️ АМА по пропозалу от MillCreek R&D | ⚫️ AMA on the MillCreek R&D Proposal",
-    "url": "https://us06web.zoom.us/j/89408236633",
-    "time": "18:30 UTC",
-    "description": "АМА по пропозалу от MillCreek R&D\n\nРебята ответят на вопросы сообщества о своих планах и предложении о финансировании.\n\nПрисоединяйтесь к AMA в этот четверг, 12 ноября: обсудим предложение MillCreek о финансировании. Встреча сразу после встречи по токеномике!\n\n🕣 Четверг, 12 ноября | 10:30 PT · 18:30 UTC · 21:30 МСК (GMT+3)\n🎙 Гости: Глеб Моргачёв и Анастасия Матвеева\n🗣 Язык: EN\n\n💻 Zoom: https://us06web.zoom.us/j/89408236633\n\n---\n\nAMA on the proposal from MillCreek R&D\n\nThe team will answer the community's questions about their plans and funding proposal.\n\nJoin the AMA this Thursday, November 12: let's discuss the MillCreek funding proposal. The meeting takes place right after the tokenomics meeting!\n\n🕣 Thursday, November 12 | 10:30 PT · 18:30 UTC · 21:30 MSK (GMT+3)\n🎙 Guests: Gleb Morgachev and Anastasia Matveeva\n🗣 Language: EN\n\n💻 Zoom: https://us06web.zoom.us/j/89408236633",
-    "tags": [
-      "ama",
-      "millcreek",
-      "proposal",
-      "funding"
-    ],
-    "is_all_day": false,
-    "duration_minutes": 60,
-    "uid": "gonka-2026-11-12-eb7fc150f810@gonkadocs.com",
-    "location": "https://us06web.zoom.us/j/89408236633"
-  }
+ {
+  "date": "2026-06-25",
+  "category": "community",
+  "type": "ama",
+  "title": "AMA: Bitfury, HackerOne & Gonka — Bug Bounty Program Launch",
+  "url": "https://us06web.zoom.us/j/88254388622",
+  "time": "15:00 UTC",
+  "description": "Second community AMA session with Vadim Krutov (COO of Bitfury) and David Liberman. The meeting focuses on breaking down the launch of the joint Bug Bounty program.\n\n👥 SPEAKERS\n🔥 NEW GUEST: Laurie Mercer, HackerOne Senior Director of Sales Engineering, joins the AMA session!\n• Vadim Krutov — COO of Bitfury\n• @libermans — David Liberman\n\n⚠️ IMPORTANT NOTE: THIS SESSION IS HELD ENTIRELY IN ENGLISH. ⚠️\n\n🎙️ SESSION TOPICS\n• Joint Bounty Program Launch: The vision behind the Gonka + Bitfury + HackerOne three-way partnership and strengthening network security.\n• Phased Rollout Plan: Shifting from private invites to an open form on gonka.ai, leading up to the final public launch on HackerOne.\n• Community Integration: How the report submission process works, gaining HackerOne access, and defining scope and reward tiers.\n• Transparency & Reporting: How the team plans to track and publish payout reports, considering that H1 bounties are processed off-chain.\n\n⏰ EVENT DETAILS\n📅 Date: Thursday, June 25, 2026\n🕣 Time: 08:00 AM PT / 15:00 UTC / 18:00 MSK\n🔗 Join via Zoom: https://us06web.zoom.us/j/88254388622",
+  "tags": [
+   "ama",
+   "bug-bounty",
+   "bitfury",
+   "hackerone",
+   "libermans"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://us06web.zoom.us/j/88254388622",
+  "uid": "gonka-2026-06-25-f06d49c9c830@gonkadocs.com"
+ },
+ {
+  "date": "2026-07-30",
+  "category": "community",
+  "type": "livestream",
+  "title": "▶️ Ancapex Live: Gonka Overview",
+  "url": "https://www.youtube.com/@Ancapex",
+  "time": "11:00 UTC",
+  "description": "YouTube stream with Yakov, co-founder of Ancapex. A review of everything important in Gonka over the past months: inference, proposals v0.2.14–v0.2.15, model training, mining and token price, governance, and the roadmap.",
+  "tags": [
+   "livestream",
+   "ancapex"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": null,
+  "uid": "gonka-2026-07-30-7961c25d0050@gonkadocs.com"
+ },
+ {
+  "date": "2026-08-03",
+  "category": "community",
+  "type": "ama",
+  "title": "AMA with Gleb Morgachev — Dev Team Funding proposal",
+  "url": "https://github.com/gonka-ai/gonka/discussions/1464",
+  "time": "15:30 UTC",
+  "description": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: Russian. Hosts: @paranko and @dem_ww. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
+  "tags": [
+   "ama",
+   "dev-team-funding",
+   "gmorgachev"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": null,
+  "uid": "gonka-2026-08-03-56ca84a45c2d@gonkadocs.com"
+ },
+ {
+  "date": "2026-08-04",
+  "category": "community",
+  "type": "ama",
+  "title": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) — Dev Team Funding proposal",
+  "url": "https://github.com/gonka-ai/gonka/discussions/1464",
+  "time": "15:30 UTC",
+  "description": "AMA session with Gleb Morgachev (@gmorgachev, co-founder of Gonka) about the proposal to fund an independent development team (Dev Team Funding). We will discuss key issues: what tasks the funding is requested for; how the independent development team will be structured; the funding mechanics; cost transparency, reporting, and Gleb’s role in the initiative. Language: English. Zoom: the link will be provided at the start of the session. Proposal: https://github.com/gonka-ai/gonka/discussions/1464",
+  "tags": [
+   "ama",
+   "dev-team-funding",
+   "gmorgachev"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": null,
+  "uid": "gonka-2026-08-04-c64ee189be55@gonkadocs.com"
+ },
+ {
+  "date": "2026-08-06",
+  "category": "community",
+  "type": "community",
+  "title": "⛏ Покупка собственного оборудования для майнинга — Ancapex.ai | Purchasing our own mining equipment — Ancapex.ai",
+  "url": "https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform",
+  "time": "11:00 UTC",
+  "description": "⛏ Покупка собственного оборудования для майнинга.\n\nМы рассматриваем возможность приобретения собственных GPU-кластеров и ASIC-майнеров. Это следующий шаг для Ancapex — перейти от аренды мощностей к владению инфраструктурой.\n\nЕсли вы хотите стать одним из первых, кто владеет ASIC-оборудованием и получает с него прибыль, приходите на звонок. Обсудим, являются ли ASIC новой нефтью, как устроена бизнес-модель и как можно поучаствовать вместе с нами.\n\n🗓 Четверг, 14:00 МСК (11:00 UTC)\n📍 Zoom, ссылку вышлем на почту или в Telegram\n\nЧтобы получить ссылку, заполните форму: https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform\n\n---\n\nPurchasing our own mining equipment.\n\nWe are considering acquiring our own GPU clusters and ASIC miners. This is the next step for Ancapex — moving from renting capacity to owning infrastructure.\n\nIf you want to be among the first to own ASIC equipment and earn profit from it, join the call. We will discuss whether ASICs are the new oil, how the business model works, and how you can participate with us.\n\n🗓 Thursday, 14:00 MSK (11:00 UTC)\n📍 Zoom — the link will be sent to your email or Telegram\n\nTo get the link, fill in the form: https://docs.google.com/forms/d/e/1FAIpQLSfYCN7jbg9b5JOiLXjhhXCEY_n4BKAWyQdpYfcFz1UMrD7ARw/viewform",
+  "tags": [
+   "ancapex",
+   "mining",
+   "asics",
+   "community"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": null,
+  "uid": "gonka-2026-08-06-69f33e1d8e71@gonkadocs.com"
+ },
+ {
+  "date": "2026-08-07",
+  "category": "community",
+  "type": "ama",
+  "title": "AMA с Давидом и Даниилом Либерманами — Award. libermans | AMA with David and Daniel Liberman — libermans",
+  "url": "https://us06web.zoom.us/j/87045531047",
+  "time": "15:30 UTC",
+  "description": "AMA-сессия с Дэвидом и Даниилом Либерманами посвящена состоянию рынка компьюта, итогам первого года протокола и дальнейшему развитию сети.\n\nПовестка:\n• Что происходит на рынке: становится ли компьют доступнее и как выход K3 повлиял на централизованных игроков\n• Год протоколу: что сделано и что ещё предстоит\n• Июль: каким он был для сети и как прошёл WebX Asia\n• Токен GNK: почему рост сети и спрос на неё важны для всех участников, от майнеров до разработчиков\n• Ожидания от будущего: следующий месяц и следующий год\n• Модели: какие появятся в сети и по какому принципу отбираются\n\n💻 Zoom: https://us06web.zoom.us/j/87045531047\n🗣️ Язык: русский\n🎙️ Гости: Дэвид и Даниил Либерманы\n🎤 Ведущий: @sultee\n\n---\n\nAMA session with David and Daniel Liberman dedicated to the state of the compute market, results of the protocol's first year, and the further development of the network.\n\nAgenda:\n• What is happening in the market — is compute becoming more affordable, and how did K3's release affect centralized players\n• A year of the protocol: what has been done and what lies ahead\n• July: how it went for the network and how WebX Asia went\n• GNK token: why the network's growth and demand matter to all participants, from miners to developers\n• Expectations for the future: the next month and the next year\n• Models: which will appear in the network and by what principle they are selected\n\n💻 Zoom · https://us06web.zoom.us/j/87045531047\n🗣️ Language: Russian\n🎙️ Guests: David and Dan Liberman\n🎤 Host: @sultee",
+  "tags": [
+   "ama",
+   "libermans",
+   "community"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://us06web.zoom.us/j/87045531047",
+  "uid": "gonka-2026-08-07-ecfb3a95d4db@gonkadocs.com"
+ },
+ {
+  "date": "2026-08-10",
+  "category": "community",
+  "type": "community_call",
+  "title": "External Test Lab & Community DevNet — первый ежемесячный статус-колл | First Monthly Status Call",
+  "url": "https://meet.google.com/zqp-shgw-wtj",
+  "time": "15:30 UTC",
+  "description": "**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПриглашаем на первый ежемесячный статус-колл External Test Lab & Community DevNet в рамках принятого пропозала #82 (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nПодведём итоги первого месяца работы:\n\n• будущая тест-стратегия лаборатории\n• первая версия DevNet\n• текущий статус инфраструктуры\n• планы и задачи на следующий месяц\n\nТакже познакомим сообщество с первым QA-инженером, который присоединился к лаборатории, и расскажем, как подключить своё оборудование к DevNet.\n\n📅 Понедельник, 10 августа\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj\n\n---\n\n**First monthly status call** of the External Test Lab & Community DevNet under the approved **proposal #82** (https://gonkadocs.com/proposals/proposals/2026-q3/82/).\n\nWe will review the results of the first month:\n\n• the future test strategy of the lab\n• the first version of DevNet\n• the current status of the infrastructure\n• plans and tasks for the next month\n\nWe will also introduce the community to the first QA engineer who joined the lab, and explain how to connect your own equipment to DevNet.\n\n📅 Monday, August 10\n🕒 08:30 LA · 15:30 UTC · 18:30 UTC+3\n🔗 https://meet.google.com/zqp-shgw-wtj",
+  "tags": [
+   "test-lab",
+   "devnet",
+   "status-call",
+   "community"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/zqp-shgw-wtj",
+  "uid": "gonka-2026-08-10-b76ced51a5a1@gonkadocs.com"
+ },
+ {
+  "date": "2026-09-01",
+  "category": "community",
+  "type": "ama",
+  "title": "AMA with TheSoul — Q3 Progress Update (EN)",
+  "url": null,
+  "time": "15:30 UTC",
+  "description": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Tuesday, September 1, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: English\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
+  "tags": [
+   "ama",
+   "thesoul",
+   "pr",
+   "marketing",
+   "proposal-60"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": null,
+  "uid": "gonka-2026-09-01-0f88fabad358@gonkadocs.com"
+ },
+ {
+  "date": "2026-09-02",
+  "category": "community",
+  "type": "ama",
+  "title": "AMA with TheSoul — Q3 Progress Update (RU)",
+  "url": null,
+  "time": "15:30 UTC",
+  "description": "We plan to host AMA sessions to go through more detailed updates on the proposals accepted with TheSoul, progress, bottlenecks, and any other updates, and will leave 20 minutes at the end to answer your questions.\n\n📅 Wednesday, September 2, 2026 — 8:30 AM San Francisco · 5:30 PM CET · 6:30 PM Moscow\n🗣️ Language: Russian\n\nAGENDA:\nFormat: Updates + Questions\n• Where We Stand\n• Brand Positioning & Audience Strategy\n• Brand Identity\n• Influencer Marketing\n• Website & Landing Pages\n• Analytics & Attribution\n• Digital & Social Strategy\n• Keeping the Next Phase Moving\n• Questions\n\n🎦 Zoom: The link will be published before the session starts; monitor Discord for updates.\n\nPlease feel free to share any questions prior to the session!",
+  "tags": [
+   "ama",
+   "thesoul",
+   "pr",
+   "marketing",
+   "proposal-60"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": null,
+  "uid": "gonka-2026-09-02-b6029392f016@gonkadocs.com"
+ },
+ {
+  "date": "2026-09-03",
+  "category": "community",
+  "type": "ama",
+  "title": "Monthly AMA Session",
+  "url": null,
+  "time": "15:30 UTC",
+  "description": "This monthly AMA session will focus on the latest developments within the proposed protocol's usage and on the experiments planned by the contributors in the nearest future.\n\nRead details here and here.\n\nKey topics:\n• Where usage stands after DeepSeek, and the four-week 20B tokens/day target\n• Nearest plans for widening the model lineup\n• Growth to 100B tokens/day by the end of 2026, and what precedes paid inference\n• Experiments: any model size and modality, including on consumer GPUs\n• Your questions - please add them in the thread: THREAD LINK\n\n🎥 Zoom:\nThe link will be published before the session starts, keep an eye on Discord!\n\n🗣️ Language:\nEnglish\n\n❓ Questions:\nPost them in the thread under this announcement or in the chat during the session — the last 15 minutes are for them.\n\n👤 Guests:\n@Anastasia and @381466447723102219 \n\n🎙️ Hosts:\n@autoimago",
+  "tags": [
+   "ama",
+   "monthly-ama",
+   "deepseek",
+   "usage"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": null,
+  "uid": "gonka-2026-09-03-8379d95ef314@gonkadocs.com"
+ },
+ {
+  "date": "2026-09-08",
+  "category": "community",
+  "type": "ama",
+  "title": "GONKA × LEDGER AMA",
+  "url": "https://us06web.zoom.us/j/86248510155",
+  "time": "11:00 UTC",
+  "description": "This session covers the upcoming proposal to fund the Ledger × Gonka integration.\n\n📅 Tuesday, September 8 — 11:00 UTC\n\n🕖 7:00 AM EDT · 11:00 AM UTC · 7:00 PM CST\n\n🗣️ Language: English\n\nKEY TOPICS:\n\n• What is Ledger, and how will Gonka be integrated with it?\n\n• Why is this integration important for Gonka?\n\n• The proposed agreement with Ledger — and why 6block is involved\n\nGUESTS:\n\n• Sebastien Vaillant — Ledger\n\n• Vadim Krutov — Bitfury\n\n• Sergey Ulankin — Gonka Community Contributor\n\nHost: @381466447723102219\n\nJOIN:\n\n🔗 Zoom: https://us06web.zoom.us/j/86248510155\n\n💬 GitHub Discussion: https://github.com/gonka-ai/gonka/discussions/1589\n\nBring your questions — drop them in the GitHub discussion ahead of time or ask live. See you there!",
+  "tags": [
+   "ama",
+   "ledger",
+   "bitfury",
+   "6block",
+   "gonka"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://us06web.zoom.us/j/86248510155",
+  "uid": "gonka-2026-09-08-ed12c5cb21de@gonkadocs.com"
+ },
+ {
+  "date": "2026-09-11",
+  "category": "community",
+  "type": "community_call",
+  "title": "External Test Lab & Community DevNet — второй ежемесячный статус-колл | Second Monthly Status Call",
+  "url": "https://meet.google.com/mrj-tnhs-zvr",
+  "time": "14:00 UTC",
+  "description": "Второй ежемесячный статус-колл External Test Lab & Community DevNet — подведём итоги второго месяца работы, познакомим сообщество с новым участником команды и обсудим:\n\n– текущий статус инфраструктуры;\n– планы развития DevNet;\n– первые результаты тестирования;\n– шимы и адаптеры для брокеров;\n– отчёт по оборудованию и расходам на инфраструктуру;\n– планы и задачи на следующий месяц.\n\n📅 Пятница, 11 сентября\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/mrj-tnhs-zvr\n\n---\n\nSecond monthly status call of the External Test Lab & Community DevNet — we will review the results of the second month, introduce the community to the new team member, and discuss:\n\n– current infrastructure status;\n– DevNet development plans;\n– first testing results;\n– shims and adapters for brokers;\n– equipment and infrastructure cost report;\n– plans and tasks for the next month.\n\n📅 Friday, September 11\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/mrj-tnhs-zvr",
+  "tags": [
+   "test-lab",
+   "devnet",
+   "status-call",
+   "community"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/mrj-tnhs-zvr",
+  "uid": "gonka-2026-09-11-df8aac112790@gonkadocs.com"
+ },
+ {
+  "date": "2026-09-22",
+  "category": "community",
+  "type": "ama",
+  "title": "AMA-сессия: токеномика GNK",
+  "url": "https://drive.google.com/file/d/1-SVQaL-rA-ozJcNEPJoXjGO1UIpsoZkt/",
+  "time": "17:00 UTC",
+  "description": "Последние два месяца мы работали над улучшением токеномики Gonka. Цель — выровнять цену токена и сделать доход хостов более предсказуемым, в первую очередь за счёт внедрения механизма 🔥сжигания. Мы провели большую исследовательскую работу, сформировали набор решений и хотим вынести их на обсуждение с сообществом. На AMA-сессии Алексей, CTO Ancapex, расскажет о предложении и ответит на все вопросы.\n\n📅 Вторник, 22 сентября — 19:00 CET · 20:00 МСК (17:00 UTC)\n\n🗣️ Язык: русский\n\nДо начала можно ознакомиться с результатами исследования в презентации и оставить вопросы в Google-форме заранее:\n\n🔗 Презентация: https://drive.google.com/file/d/1-SVQaL-rA-ozJcNEPJoXjGO1UIpsoZkt/\n💬 Вопросы: https://forms.gle/b7WMHHqQBN5KCDW58",
+  "tags": [
+   "ama",
+   "tokenomics",
+   "gnk",
+   "burn",
+   "ancapex"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": null,
+  "uid": "gonka-2026-09-22-a7001bb6b624@gonkadocs.com"
+ },
+ {
+  "date": "2026-09-18",
+  "category": "community",
+  "type": "ama",
+  "title": "Встреча с контрибьюторами | Contributors Call",
+  "url": "https://us06web.zoom.us/j/86424784039",
+  "time": "17:00 UTC",
+  "description": "Встречаемся с контрибьюторами: обсудим, что нового в протоколе и что планируется!\n\n📅 Пятница, 18 сентября\n🕣 10:00 LA · 17:00 UTC · 20:00 МСК\n\n💻 Zoom: https://us06web.zoom.us/j/86424784039\n🗣️ Язык: русский\n\n🎙 Гости: @ak986 и @baridoka kaitaku\n🎤 Ведущие: @dem_ww и @paranko",
+  "tags": [
+   "ama",
+   "contributors",
+   "protocol",
+   "community"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://us06web.zoom.us/j/86424784039",
+  "uid": "gonka-2026-09-18-2465524de3df@gonkadocs.com"
+ },
+ {
+  "date": "2026-09-22",
+  "category": "community",
+  "type": "ama",
+  "title": "Gonka AMA x HSC Asset Management",
+  "url": "https://meet.google.com/bvh-eauh-ien",
+  "time": "15:00 UTC",
+  "description": "Присоединяйтесь к нам на AMA, где мы обсудим предложение для Gonka об участии на HSC Asset Management, детали участия и стоимость, а затем перейдём к сессии вопросов и ответов с сообществом.\n\n🗓 Сегодня, 22 сентября\n⏰ 15:00 UTC · 18:00 MSK · 23:00 Singapore\n🔗 Ссылка: https://meet.google.com/bvh-eauh-ien",
+  "tags": [
+   "ama",
+   "hsc",
+   "asset-management",
+   "community"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/bvh-eauh-ien",
+  "uid": "gonka-2026-09-22-32bb2b7ba919@gonkadocs.com"
+ },
+ {
+  "date": "2026-09-25",
+  "category": "community",
+  "type": "ama",
+  "title": "100 PROPOSALS OVERVIEW",
+  "url": null,
+  "time": "16:30 UTC",
+  "description": "One hundred proposals in, what has the Gonka community achieved, and what have we learned along the way? Join us for a conversation about the results so far and how the proposal process is evolving.\n\nTopics:\n• Which proposals made a difference;\n• How ideas move from voting to delivery;\n• Execution, accountability and reporting.\n\n📅 Friday, September 25\n🕣 09:30 LA · 16:30 UTC · 19:30 MSK\n💻 Zoom\n🗣 Language: English\n🎙 Speakers: @pavelp221, @sultee, @paranko + special guest",
+  "tags": [
+   "ama",
+   "proposals",
+   "governance",
+   "overview"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": null,
+  "uid": "gonka-2026-09-25-fbbdf8b09660@gonkadocs.com"
+ },
+ {
+  "date": "2026-10-06",
+  "category": "community",
+  "type": "ama",
+  "title": "Ежемесячная AMA GONKA | Monthly AMA GONKA",
+  "url": "https://us06web.zoom.us/j/81184942251",
+  "time": "12:30 UTC",
+  "description": "Продолжается серия ежемесячных AMA-сессий с создателями Gonka. Давид Либерман при участии Вадима Крутова, COO Bitfury, расскажет, как прошёл сентябрь и что ждёт протокол в октябре, а также ответит на вопросы комьюнити.\n\nВ программе:\n• Итоги сентября: результаты, цифры, выводы\n• Token2049: участие Gonka и ключевые встречи\n• Foundation: назначение, роль в экосистеме и изменения для сообщества\n• Ответы на вопросы в прямом эфире\n\n🗣️ Язык: русский\n🎙️ Участники: Давид Либерман, Вадим Крутов (COO Bitfury)\n🎙️ Хост: @sultee\n\n📅 Вторник, 6 октября\n🕣 05:30–06:30 PDT (LA) · 12:30–13:30 UTC · 15:30–16:30 МСК\n📍 Присоединиться в Zoom: https://us06web.zoom.us/j/81184942251",
+  "tags": [
+   "ama",
+   "monthly-ama",
+   "bitfury",
+   "libermans",
+   "community"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://us06web.zoom.us/j/81184942251",
+  "uid": "gonka-2026-10-06-ecd22369e477@gonkadocs.com"
+ },
+ {
+  "date": "2026-10-16",
+  "category": "community",
+  "type": "community_call",
+  "title": "External Test Lab & Community DevNet — третий ежемесячный статус-колл | Third Monthly Status Call",
+  "url": "https://meet.google.com/bqx-mfhi-arg",
+  "time": "14:00 UTC",
+  "description": "Третий ежемесячный статус-колл External Test Lab & Community DevNet — приглашаем на третий статус-колл и обсудим:\n\n– инфраструктуру Community DevNet;\n– тестирование L2: новых версий DevShard и Gateway;\n– мониторинг мейннета и девнета;\n– тестирование брокеров;\n– отчёт по расходам.\n\n📅 Пятница, 16 октября\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg\n\n---\n\nThird monthly status call of the External Test Lab & Community DevNet — we invite you to the third status call and will discuss:\n\n– Community DevNet infrastructure;\n– L2 testing: new versions of DevShard and Gateway;\n– mainnet and devnet monitoring;\n– broker testing;\n– expense report.\n\n📅 Friday, October 16\n07:00 LA · 14:00 UTC · 17:00 UTC+3\n🔗 https://meet.google.com/bqx-mfhi-arg",
+  "tags": [
+   "test-lab",
+   "devnet",
+   "status-call",
+   "community"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "location": "https://meet.google.com/bqx-mfhi-arg",
+  "uid": "gonka-2026-10-16-9efe2589aaa1@gonkadocs.com"
+ },
+ {
+  "date": "2026-10-30",
+  "category": "community",
+  "type": "ama",
+  "title": "AMA GONKA FOUNDATION: Запуск фонда уже скоро | GONKA FOUNDATION AMA: Foundation launch is coming soon",
+  "url": "https://discord.com/events/1336477374442770503/1565006715311759450",
+  "time": "16:00 UTC",
+  "description": "Важное событие для всех, кто следит за развитием экосистемы. Со-создатели Gonka и члены совета директоров проведут открытую сессию вопросов и ответов, посвящённую официальному запуску Gonka Foundation.\n\n📅 Когда: 30 октября 2026 года.\n⏰ Время: 19:00 по МСК (16:00 UTC).\n💻 Где: Discord (ссылка на событие).\n🗣 Язык: английский.\n⏳ Длительность: 1.5 часа.\n\n🎯 Что обсудят:\n— Структуру и управление Фонда.\n— Финансирование и планы на развитие.\n— Стратегию выхода на глобальный рынок.\n— Ответы на вопросы от сообщества.\n\nЭто возможность услышать информацию из первых уст и задать свои вопросы напрямую членам совета. Если вы хотите понимать, куда движется проект на институциональном уровне, этот эфир стоит посетить.\n\n🔗 Ссылка на событие в Discord https://discord.com/events/1336477374442770503/1565006715311759450\n💻 Zoom: https://us06web.zoom.us/j/82135820519\n\n---\n\nAn important event for everyone following the ecosystem development. The co-founders of Gonka and members of the board of directors will host an open Q&A session dedicated to the official launch of the Gonka Foundation.\n\n📅 When: October 30, 2026.\n⏰ Time: 19:00 MSK (16:00 UTC).\n💻 Where: Discord (event link).\n🗣 Language: English.\n⏳ Duration: 1.5 hours.\n\n🎯 What will be discussed:\n— Foundation structure and governance.\n— Funding and development plans.\n— Global market expansion strategy.\n— Answers to community questions.\n\nThis is an opportunity to hear the information first-hand and ask your questions directly to the council members. If you want to understand where the project is heading at the institutional level, this broadcast is worth attending.\n\n🔗 Discord event link https://discord.com/events/1336477374442770503/1565006715311759450\n💻 Zoom: https://us06web.zoom.us/j/82135820519",
+  "tags": [
+   "ama",
+   "foundation",
+   "gonka",
+   "community"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "uid": "gonka-2026-10-30-0d1817a45dc4@gonkadocs.com",
+  "location": null
+ },
+ {
+  "date": "2026-11-12",
+  "category": "community",
+  "type": "ama",
+  "title": "AMA: Эволюция токеномики Gonka | Evolution of Gonka Tokenomics",
+  "url": "https://us06web.zoom.us/s/87876084992",
+  "time": "17:00 UTC",
+  "description": "Присоединяйтесь к нам в этот четверг, 12 ноября, на AMA-сессию о токеномике Gonka и её возможном развитии.\n\n🕣 Четверг, 12 ноября | 9:00 AM PT · 18:00 CET · 21:00 Дубай\n🎙 Гости: Давид Либерман (ко-криэйтор Gonka), Вадим Крутов и Дмитрий Струков (Bitfury)\n🗣 Язык: английский\n💻 Zoom: https://us06web.zoom.us/s/87876084992\n\n---\n\nJoin us this Thursday, November 12, for an AMA session on Gonka tokenomics and its possible evolution.\n\n🕣 Thursday, November 12 | 9:00 AM PT · 18:00 CET · 21:00 Dubai\n🎙 Guests: David Liberman (co-creator of Gonka), Vadim Krutov and Dmitry Strukov (Bitfury)\n🗣 Language: English\n💻 Zoom: https://us06web.zoom.us/s/87876084992",
+  "tags": [
+   "ama",
+   "tokenomics",
+   "gnk",
+   "bitfury",
+   "libermans"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "uid": "gonka-2026-11-12-a90217c4e7d9@gonkadocs.com",
+  "location": "https://us06web.zoom.us/s/87876084992"
+ },
+ {
+  "date": "2026-11-12",
+  "category": "community",
+  "type": "ama",
+  "title": "⚫️ АМА по пропозалу от MillCreek R&D | ⚫️ AMA on the MillCreek R&D Proposal",
+  "url": "https://us06web.zoom.us/j/89408236633",
+  "time": "18:30 UTC",
+  "description": "АМА по пропозалу от MillCreek R&D\n\nРебята ответят на вопросы сообщества о своих планах и предложении о финансировании.\n\nПрисоединяйтесь к AMA в этот четверг, 12 ноября: обсудим предложение MillCreek о финансировании. Встреча сразу после встречи по токеномике!\n\n🕣 Четверг, 12 ноября | 10:30 PT · 18:30 UTC · 21:30 МСК (GMT+3)\n🎙 Гости: Глеб Моргачёв и Анастасия Матвеева\n🗣 Язык: EN\n\n💻 Zoom: https://us06web.zoom.us/j/89408236633\n\n---\n\nAMA on the proposal from MillCreek R&D\n\nThe team will answer the community's questions about their plans and funding proposal.\n\nJoin the AMA this Thursday, November 12: let's discuss the MillCreek funding proposal. The meeting takes place right after the tokenomics meeting!\n\n🕣 Thursday, November 12 | 10:30 PT · 18:30 UTC · 21:30 MSK (GMT+3)\n🎙 Guests: Gleb Morgachev and Anastasia Matveeva\n🗣 Language: EN\n\n💻 Zoom: https://us06web.zoom.us/j/89408236633",
+  "tags": [
+   "ama",
+   "millcreek",
+   "proposal",
+   "funding"
+  ],
+  "is_all_day": false,
+  "duration_minutes": 60,
+  "uid": "gonka-2026-11-12-eb7fc150f810@gonkadocs.com",
+  "location": "https://us06web.zoom.us/j/89408236633"
+ }
 ]

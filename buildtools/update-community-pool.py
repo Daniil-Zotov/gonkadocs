@@ -12,6 +12,7 @@ Usage:
     python3 buildtools/update-community-pool.py
 """
 
+import base64
 import json
 import re
 import sys
@@ -26,8 +27,11 @@ RPC_ENDPOINTS = [
 ]
 
 COMMUNITY_SALE_ADDR = "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2"
+COMMUNITY_POOL_ADDR = "gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa"
 GOV_MODULE_ADDR = "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33"
 USDT_IBC_DENOM = "ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4"
+# Bridged CW20 USDT — "Tether USD", 6 decimals (Ethereum 0xdAC17f958D2ee523a2206206994597C13d831ec7)
+USDT_CW20_ADDR = "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk"
 FILE_PATH = "docs/proposals/community pool.md"
 
 MAX_RETRIES = 3
@@ -239,7 +243,7 @@ def format_balance(amount_str, denom):
         return str(amount_str)
 
 
-def format_balance_line(gnk_val, usdt_val, show_gnk=True, show_usdt=True, gnk_equiv_usdt=None, gnk_color=None):
+def format_balance_line(gnk_val, usdt_val, show_gnk=True, show_usdt=True, gnk_equiv_usdt=None, gnk_color=None, extra_parts=None):
     COMMON = 'font-size:0.95rem;font-weight:600'
     BLUE = f'color:var(--md-accent-fg-color,#5468ff);{COMMON}'
     gnk_style = f'color:{gnk_color};{COMMON}' if gnk_color else BLUE
@@ -251,6 +255,8 @@ def format_balance_line(gnk_val, usdt_val, show_gnk=True, show_usdt=True, gnk_eq
         parts.append(gnk_html)
     if show_usdt and usdt_val:
         parts.append(f'<span style="{BLUE}">{usdt_val} USDT</span>')
+    for extra in (extra_parts or []):
+        parts.append(extra)
     return (
         '<p style="margin:0.2rem 0">\n'
         + "<strong>Current balance:</strong> "
@@ -314,17 +320,46 @@ def fetch_account_balance(address):
     return balances
 
 
+def fetch_cw20_balance(token_addr, holder_addr):
+    """Query CW20 token balance via wasm smart query. Returns raw amount string."""
+    query = {"balance": {"address": holder_addr}}
+    b64 = base64.b64encode(json.dumps(query).encode()).decode()
+    data = fetch_json(f"{{BASE}}/cosmwasm/wasm/v1/contract/{token_addr}/smart/{b64}")
+    if not data:
+        return "0"
+    try:
+        return data.get("data", {}).get("balance", "0")
+    except (AttributeError, TypeError):
+        return "0"
+
+
 # ── Fetch funding history ──────────────────────────────────────
 
-def parse_funding_from_messages(messages):
-    """Extract total GNK and USDT from all message types in a proposal.
-    
-    Returns (gnk_total, usdt_total) as floats.
-    """
-    gnk_total = 0.0
-    usdt_total = 0.0
+def iter_messages(messages):
+    """Yield effective messages, unwrapping cosmos.authz MsgExec envelopes (e.g. #117)."""
+    for m in (messages or []):
+        t = m.get("@type", "")
+        if t.endswith(".MsgExec") and m.get("msgs"):
+            yield from iter_messages(m.get("msgs", []))
+        else:
+            yield m
 
-    for m in messages:
+
+def parse_funding_from_messages(messages):
+    """Extract GNK and USDT amounts from all message types in a proposal.
+
+    Inflows (CW20 send/transfer INTO pool-controlled addresses, e.g. #117
+    Bitfury tranche) and outflows (withdraw_ibc / withdraw_cw20, MsgCommunityPoolSpend,
+    vesting distributions) are netted per denom.
+
+    Returns (gnk_spend, usdt_spend, gnk_inflow, usdt_inflow) — non-negative ints.
+    """
+    gnk_out = 0.0
+    usdt_out = 0.0
+    gnk_in = 0.0
+    usdt_in = 0.0
+
+    for m in iter_messages(messages):
         t = m.get("@type", "")
 
         if "MsgCommunityPoolSpend" in t:
@@ -335,15 +370,23 @@ def parse_funding_from_messages(messages):
                 except (ValueError, TypeError):
                     continue
                 if denom == "ngonka":
-                    gnk_total += amt / 1_000_000_000
+                    gnk_out += amt / 1_000_000_000
                 elif denom == USDT_IBC_DENOM:
-                    usdt_total += amt / 1_000_000
+                    usdt_out += amt / 1_000_000
 
         elif "MsgExecuteContract" in t:
             wi = m.get("msg", {}).get("withdraw_ibc", {})
             if wi and wi.get("denom") == USDT_IBC_DENOM:
                 try:
-                    usdt_total += int(wi.get("amount", "0")) / 1_000_000
+                    usdt_out += int(wi.get("amount", "0")) / 1_000_000
+                except (ValueError, TypeError):
+                    pass
+            # withdraw_cw20 pays out bridged CW20 USDT from the Community Sale
+            # contract (#117 reimbursement, #118 MillCreek fee)
+            wc = m.get("msg", {}).get("withdraw_cw20", {})
+            if wc and wc.get("contract_addr") == USDT_CW20_ADDR:
+                try:
+                    usdt_out += int(wc.get("amount", "0")) / 1_000_000
                 except (ValueError, TypeError):
                     pass
             for c in m.get("funds", []):
@@ -353,7 +396,17 @@ def parse_funding_from_messages(messages):
                 except (ValueError, TypeError):
                     continue
                 if denom == "ngonka":
-                    gnk_total += amt / 1_000_000_000
+                    gnk_out += amt / 1_000_000_000
+            # CW20 send/transfer INTO a pool-controlled address = USDT inflow (#117)
+            inner = m.get("msg", {})
+            if m.get("contract") == USDT_CW20_ADDR:
+                cw_payload = inner.get("send") or inner.get("transfer") or {}
+                recipient = cw_payload.get("contract") or cw_payload.get("recipient") or ""
+                if recipient in (COMMUNITY_SALE_ADDR, COMMUNITY_POOL_ADDR):
+                    try:
+                        usdt_in += int(cw_payload.get("amount", "0")) / 1_000_000
+                    except (ValueError, TypeError):
+                        pass
 
         elif "MsgBatchTransferWithVesting" in t:
             for o in m.get("outputs", []):
@@ -364,9 +417,9 @@ def parse_funding_from_messages(messages):
                     except (ValueError, TypeError):
                         continue
                     if denom == "ngonka":
-                        gnk_total += amt / 1_000_000_000
+                        gnk_out += amt / 1_000_000_000
                     elif denom == USDT_IBC_DENOM:
-                        usdt_total += amt / 1_000_000
+                        usdt_out += amt / 1_000_000
 
         elif "MsgTransferWithVesting" in t:
             for c in m.get("amount", []):
@@ -376,7 +429,7 @@ def parse_funding_from_messages(messages):
                 except (ValueError, TypeError):
                     continue
                 if denom == "ngonka":
-                    gnk_total += amt / 1_000_000_000
+                    gnk_out += amt / 1_000_000_000
 
         elif "MsgMultiSend" in t:
             for inp in m.get("inputs", []):
@@ -387,9 +440,15 @@ def parse_funding_from_messages(messages):
                     except (ValueError, TypeError):
                         continue
                     if denom == "ngonka":
-                        gnk_total += amt / 1_000_000_000
+                        gnk_out += amt / 1_000_000_000
 
-    return int(gnk_total), int(usdt_total)
+    # Net inflows against outflows per denom
+    gnk_spend = max(gnk_out - gnk_in, 0.0)
+    usdt_spend = max(usdt_out - usdt_in, 0.0)
+    gnk_inflow = max(gnk_in - gnk_out, 0.0)
+    usdt_inflow = max(usdt_in - usdt_out, 0.0)
+
+    return int(gnk_spend), int(usdt_spend), int(gnk_inflow), int(usdt_inflow)
 
 
 def determine_source(messages):
@@ -427,9 +486,9 @@ def fetch_funding_history():
         msgs = p.get("messages", [])
         ts = fmt_time_short(p.get("voting_end_time", ""))
 
-        gnk_total, usdt_total = parse_funding_from_messages(msgs)
+        gnk_spend, usdt_spend, gnk_in, usdt_in = parse_funding_from_messages(msgs)
 
-        if gnk_total == 0 and usdt_total == 0:
+        if gnk_spend == 0 and usdt_spend == 0 and gnk_in == 0 and usdt_in == 0:
             continue
 
         submit = p.get("submit_time", "")
@@ -441,30 +500,44 @@ def fetch_funding_history():
             except (ValueError, TypeError):
                 pass
 
-        source = determine_source(msgs)
-
-        funding.append({
+        base = {
             "pid": pid,
             "quarter": q,
             "date": ts,
             "title": short_title(title),
-            "source": source,
-            "gnk": gnk_total,
-            "usdt": usdt_total,
-        })
+        }
+
+        if gnk_spend > 0 or usdt_spend > 0:
+            funding.append({**base, "source": determine_source(msgs), "gnk": gnk_spend, "usdt": usdt_spend, "inflow": False})
+
+        # Net inflow (e.g. #117 — Bitfury Community Sale tranche left +$1,142,750 on the pool)
+        if gnk_in > 0 or usdt_in > 0:
+            funding.append({**base, "source": "Community Pool (inflow)", "gnk": gnk_in, "usdt": usdt_in, "inflow": True})
 
     return funding
 
 
 # ── Generate content ───────────────────────────────────────────
 
-def generate_balance_line(gnk_raw, usdt_raw):
+def _cw20_span(cw20_raw):
+    """HTML span with the CW20 bridged-USDT part of a balance, or None if zero."""
+    try:
+        cw_usdt = int(str(cw20_raw).split(".")[0]) / 1_000_000
+    except (ValueError, TypeError, ZeroDivisionError):
+        return None
+    if cw_usdt <= 0:
+        return None
+    BLUE = 'color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600'
+    return f'<span style="{BLUE}">${cw_usdt:,.0f} USDT (CW20 bridged)</span>'
+
+
+def generate_balance_line(gnk_raw, usdt_raw, extra_parts=None):
     gnk_val = format_balance(gnk_raw, "ngonka") if gnk_raw else ""
     usdt_val = format_balance(usdt_raw, USDT_IBC_DENOM) if usdt_raw else ""
-    return format_balance_line(gnk_val, usdt_val)
+    return format_balance_line(gnk_val, usdt_val, extra_parts=extra_parts)
 
 
-def generate_sale_balance_line(sale_balances):
+def generate_sale_balance_line(sale_balances, sale_cw20_raw="0"):
     gnk = sale_balances.get("ngonka", "0")
     usdt = sale_balances.get(USDT_IBC_DENOM, "0")
     gnk_val = format_balance(gnk, "ngonka")
@@ -475,7 +548,9 @@ def generate_sale_balance_line(sale_balances):
         equiv_str = f"{equiv:,.0f}"
     except (ValueError, TypeError):
         equiv_str = None
-    return format_balance_line(gnk_val, usdt_val, gnk_equiv_usdt=equiv_str, gnk_color="grey")
+    cw20_span = _cw20_span(sale_cw20_raw)
+    return format_balance_line(gnk_val, usdt_val, gnk_equiv_usdt=equiv_str, gnk_color="grey",
+                               extra_parts=[cw20_span] if cw20_span else None)
 
 
 def generate_gov_balance_line(gov_balances):
@@ -496,8 +571,9 @@ def generate_funding_table(funding):
     for f in funding_sorted:
         pid = f["pid"]
         q = f["quarter"]
-        gnk_str = f"{f['gnk']:,}" if f["gnk"] > 0 else "—"
-        usdt_str = f"${f['usdt']:,}" if f["usdt"] > 0 else "—"
+        sign = "+" if f.get("inflow") else ""
+        gnk_str = f"{sign}{f['gnk']:,}" if f["gnk"] > 0 else "—"
+        usdt_str = f"{sign}${f['usdt']:,}" if f["usdt"] > 0 else "—"
         rows.append(
             f"| [#{pid}]({SITE_URL}{PROPOSALS_PREFIX}{q}/{pid}/) "
             f"| {f['date']} "
@@ -525,12 +601,29 @@ def generate_funding_table(funding):
     return "\n".join(rows) + "\n"
 
 
+def _amount_label(f):
+    """Format a funding entry as "X GNK + $Y USDT" (with "+" for inflows)."""
+    parts = []
+    if f["gnk"] > 0:
+        parts.append(f"{f['gnk']:,} GNK")
+    if f["usdt"] > 0:
+        sign = "+" if f.get("inflow") else ""
+        parts.append(f"{sign}${f['usdt']:,} USDT")
+    return " + ".join(parts) if parts else "—"
+
+
 def generate_summary(funding):
-    total_gnk = sum(f["gnk"] for f in funding)
-    total_usdt = sum(f["usdt"] for f in funding)
-    pool_gnk = sum(f["gnk"] for f in funding if "Community Pool" in f["source"])
-    pool_usdt = sum(f["usdt"] for f in funding if "Community Pool" in f["source"])
-    gov_gnk = sum(f["gnk"] for f in funding if "Gov Module" in f["source"])
+    spends = [f for f in funding if not f.get("inflow")]
+    inflows = [f for f in funding if f.get("inflow")]
+    total_gnk = sum(f["gnk"] for f in spends)
+    total_usdt = sum(f["usdt"] for f in spends)
+    pool_gnk = sum(f["gnk"] for f in spends if "Community Pool" in f["source"])
+    pool_usdt = sum(f["usdt"] for f in spends if "Community Pool" in f["source"])
+    gov_gnk = sum(f["gnk"] for f in spends if "Gov Module" in f["source"])
+
+    # Net inflows (e.g. #117 Bitfury Community Sale tranche)
+    inflow_gnk = sum(f["gnk"] for f in inflows)
+    inflow_usdt = sum(f["usdt"] for f in inflows)
 
     # Bounty totals
     bounty_gnk = sum(b["total"] for b in BOUNTY_DISTRIBUTIONS if b["denom"] == "GNK")
@@ -538,23 +631,29 @@ def generate_summary(funding):
     bounty_sale = sum(b["total"] for b in BOUNTY_DISTRIBUTIONS if b["source"] == "Community Sale")
     bounty_gov = sum(b["total"] for b in BOUNTY_DISTRIBUTIONS if b["source"] == "Gov Module")
 
-    largest = max(funding, key=lambda f: f["gnk"]) if funding else None
-    largest_label = f"#{largest['pid']} — {largest['gnk']:,} GNK" if largest else "—"
-    if largest and largest["usdt"] > 0:
-        largest_label += f" + ${largest['usdt']:,} USDT"
+    largest = max(spends, key=lambda f: f["gnk"]) if spends else None
+    largest_label = f"#{largest['pid']} — {_amount_label(largest)}" if largest else "—"
 
     recent = max(funding, key=lambda f: int(f["pid"])) if funding else None
-    recent_label = f"#{recent['pid']} — {recent['gnk']:,} GNK" if recent else "—"
-    if recent and recent["usdt"] > 0:
-        recent_label += f" + ${recent['usdt']:,} USDT"
+    recent_label = f"#{recent['pid']} — {_amount_label(recent)}" if recent else "—"
+
+    n_proposals = len({f["pid"] for f in funding})
+    inflow_row = ""
+    if inflow_gnk > 0 or inflow_usdt > 0:
+        parts = []
+        if inflow_gnk > 0:
+            parts.append(f"+{inflow_gnk:,} GNK")
+        if inflow_usdt > 0:
+            parts.append(f"+${inflow_usdt:,}")
+        inflow_row = f"\n| Community Pool inflows (proposals) | {' + '.join(parts)} |"
 
     return f"""| Metric | Value |
 | :----- | :---- |
-| Total governance proposals | {len(funding)} |
+| Total governance proposals | {n_proposals} |
 | Total GNK approved (proposals) | {total_gnk:,} GNK |
 | Total USDT approved (proposals) | ${total_usdt:,} |
 | From Community Pool | {pool_gnk:,} GNK + ${pool_usdt:,} |
-| From Gov Module | {gov_gnk:,} GNK |
+| From Gov Module | {gov_gnk:,} GNK |{inflow_row}
 | Largest funding | {largest_label} |
 | Most recent | {recent_label} |
 | **Upgrade distributions** | **{len(BOUNTY_DISTRIBUTIONS)}** |
@@ -633,6 +732,7 @@ def update_file():
 
     print("Fetching Community Sale balance...")
     sale_balances = fetch_account_balance(COMMUNITY_SALE_ADDR)
+    sale_cw20 = fetch_cw20_balance(USDT_CW20_ADDR, COMMUNITY_SALE_ADDR)
 
     print("Fetching Gov Module balance...")
     gov_balances = fetch_account_balance(GOV_MODULE_ADDR)
@@ -641,8 +741,11 @@ def update_file():
     funding = fetch_funding_history()
 
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    pool_line = generate_balance_line(gnk_pool, usdt_pool)
-    sale_line = generate_sale_balance_line(sale_balances)
+    pool_cw20 = fetch_cw20_balance(USDT_CW20_ADDR, COMMUNITY_POOL_ADDR)
+    pool_cw20_span = _cw20_span(pool_cw20)
+    pool_line = generate_balance_line(gnk_pool, usdt_pool,
+                                      extra_parts=[pool_cw20_span] if pool_cw20_span else None)
+    sale_line = generate_sale_balance_line(sale_balances, sale_cw20)
     gov_line = generate_gov_balance_line(gov_balances)
     fund_table = generate_funding_table(funding)
     summary = generate_summary(funding) if funding else ""
@@ -684,7 +787,8 @@ def update_file():
     gnk_sale = sale_balances.get("ngonka", "0")
     usdt_s = sale_balances.get(USDT_IBC_DENOM, "0")
     gnk_gov = gov_balances.get("ngonka", "0")
-    print(f"  Community Sale: {format_balance(gnk_sale, 'ngonka')} GNK, {format_balance(usdt_s, USDT_IBC_DENOM)} USDT")
+    cw20_fmt = "{:,.0f}".format(int(sale_cw20) / 1_000_000)
+    print(f"  Community Sale: {format_balance(gnk_sale, 'ngonka')} GNK, {format_balance(usdt_s, USDT_IBC_DENOM)} USDT (IBC), ${cw20_fmt} USDT (CW20 bridged)")
     print(f"  Gov Module: {format_balance(gnk_gov, 'ngonka')} GNK")
     print(f"  Funding: {len(funding)} proposals")
 
