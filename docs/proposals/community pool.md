@@ -10,7 +10,7 @@ hide:
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-11-16 12:04 UTC
+2026-11-16 12:52 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 ---
@@ -173,10 +173,10 @@ All **passed** governance proposals that moved funds through the Community Pool 
 | Community Pool inflows (proposals) | +$1,142,750 |
 | Largest funding | #14 — 20,000,000 GNK |
 | Most recent | #118 — $866,000 USDT |
-| **Upgrade distributions** | **7** |
-| Total GNK distributed (upgrades) | 203,750 GNK |
-| Total USDT distributed (upgrades) | $144,150 |
-| From Community Sale contract | $144,150 USDT |
+| **Bounty distributions** | **8** |
+| Total GNK distributed (bounties) | 203,750 GNK |
+| Total USDT distributed (bounties) | $248,300 |
+| From Community Sale contract | $248,300 USDT |
 | From Gov Module | 203,750 GNK |
 <!-- SPENT_HISTORY_END -->
 
@@ -188,9 +188,12 @@ Bounties are paid through the chain's **upgrade handler** — hardcoded in each 
 
 USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. GNK bounties are distributed from the **Gov Module**.
 
+Exception: the **v0.2.16** bounties were distributed by governance proposal **[#113](/proposals/proposals/2026-q4/113/)** (16 payments, $104,150) — the upgrade handler defines `distributeBountyRewards` for that version but never calls it, so the identical list went through an on-chain vote instead.
+
 <!-- BOUNTY_TABLE_START -->
 | Version | PR | Status | Date | Recipients | Total GNK | Total USDT | Source
 | :------ | :- | :----- | :--- | :--------- | --------: | --------: | :----
+| v0.2.16 | [Proposal #113](https://gonkadocs.com/proposals/proposals/2026-q4/113/) | Passed | 2026-10 | 16 recipients | — | $104,150 | Community Sale |
 | v0.2.15 | [PR #1503](https://github.com/gonka-ai/gonka/pull/1503) | Merged | 2026-07 | 8 recipients | — | $39,825 | Community Sale |
 | v0.2.14 | [PR #1446](https://github.com/gonka-ai/gonka/pull/1446) | Merged | 2026-07 | 17 recipients | — | $50,250 | Community Sale |
 | v0.2.13 | [PR #1168](https://github.com/gonka-ai/gonka/pull/1168) | Merged | 2026-05 | 4 recipients | — | $18,875 | Community Sale |
@@ -203,6 +206,29 @@ USDT bounties are paid from the **Community Sale contract** via `withdraw_ibc`. 
 ### Recipient Details
 
 <!-- BOUNTY_DETAIL_START -->
+### v0.2.16 — [Proposal #113](https://gonkadocs.com/proposals/proposals/2026-q4/113/) (Passed)
+
+| Recipient | Address | Amount | Description |
+| :------- | :------ | ----: | :---------- |
+| kaitaku.ai (@baychak, @clanster) | [`gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp`](https://gonka.gg/address/gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp) | $12,000 USDT | ML-node observability: metrics exporter, DAPI federation endpoint, Grafana dashboards (gonka-grafana) + hosting monitoring.kaitaku.ai |
+| @qdanik | [`gonka1j3f2xkapx8cmczpjqcsrh7cc3peyj3ngkjv4p8`](https://gonka.gg/address/gonka1j3f2xkapx8cmczpjqcsrh7cc3peyj3ngkjv4p8) | $500 USDT | Contribution to the ML-node observability track |
+| kaitaku.ai (@baychak, @clanster) | [`gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp`](https://gonka.gg/address/gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp) | $20,000 USDT | decode-PoC: vLLM port and experiments with reevaluation on all hardware schemes and models |
+| Axel-t | [`gonka1yhdhp4vwsvdsplv4acksntx0zxh8saueq6lj9m`](https://gonka.gg/address/gonka1yhdhp4vwsvdsplv4acksntx0zxh8saueq6lj9m) | $18,000 USDT | CUDA Graph Support for Decode PoC |
+| kaitaku.ai (@baychak, @clanster) | [`gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp`](https://gonka.gg/address/gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp) | $5,000 USDT | gonka-poc as plugin: removes re-porting PoC on every vLLM release |
+| kaitaku.ai (@baychak, @clanster) | [`gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp`](https://gonka.gg/address/gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp) | $5,000 USDT | DeepSeek-V4-Flash: experiments and new model proposal |
+| kaitaku.ai (@baychak, @clanster) | [`gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp`](https://gonka.gg/address/gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp) | $4,000 USDT | GLM-5.3-Flash: experiments and new model proposal |
+| kaitaku.ai (@baychak, @clanster) | [`gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp`](https://gonka.gg/address/gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp) | $2,000 USDT | GLM-5.2: experiments, images for B300/B200/H200 |
+| kaitaku.ai (@baychak, @clanster) | [`gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp`](https://gonka.gg/address/gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp) | $2,000 USDT | Hy3 evaluation experiments |
+| kaitaku.ai (@baychak, @clanster) | [`gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp`](https://gonka.gg/address/gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp) | $9,600 USDT | GPU rental reimbursement for model and PoC experiments since 2026-06-01 (Verda, Vast, Dataoorts, Nebius), at cost |
+| @x0152 | [`gonka18enyz7h6hh5zjveee5wnhkhrcexamfz0zdxxqe`](https://gonka.gg/address/gonka18enyz7h6hh5zjveee5wnhkhrcexamfz0zdxxqe) | $8,000 USDT | Release management: PR reviews, HackerOne report reviews, Trainshards v0 (PR #1350, #1618) |
+| @vitaly-andr | [`gonka1uqt4hue8tljwwgdkvtthyl3n8kkkqtydyns4cm`](https://gonka.gg/address/gonka1uqt4hue8tljwwgdkvtthyl3n8kkkqtydyns4cm) | $5,000 USDT | Chain-halt bug report (Issue #1205) + fix (cosmos-sdk PR #16) |
+| @vitaly-andr | [`gonka1uqt4hue8tljwwgdkvtthyl3n8kkkqtydyns4cm`](https://gonka.gg/address/gonka1uqt4hue8tljwwgdkvtthyl3n8kkkqtydyns4cm) | $1,000 USDT | v0.2.16 upgrade review |
+| @bonujel | [`gonka1zqss46r6jf6dhhyaa777kc2ppvjhn0ufkx4y57`](https://gonka.gg/address/gonka1zqss46r6jf6dhhyaa777kc2ppvjhn0ufkx4y57) | $1,000 USDT | v0.2.16 upgrade review |
+| @staaason / @zpoken | [`gonka1s8zggm642e3kncy48c7vxwmeclt2wxyyd8qtdt`](https://gonka.gg/address/gonka1s8zggm642e3kncy48c7vxwmeclt2wxyyd8qtdt) | $8,050 USDT | HackerOne report reviews + PR #1767, #1552 (landed as PR #1623) |
+| @cyberdelamain | [`gonka15u0r3mf6t7zsfuslusnyt7hsjrq357yumpe8st`](https://gonka.gg/address/gonka15u0r3mf6t7zsfuslusnyt7hsjrq357yumpe8st) | $3,000 USDT | v0.2.16 review and fixes: PR #1828, #1846, #1845, #1859 |
+| **Total** | | **$104,150 USDT** | |
+
+
 ### v0.2.15 — [PR #1503](https://github.com/gonka-ai/gonka/pull/1503) (Merged)
 
 | Recipient | Address | Amount | Description |

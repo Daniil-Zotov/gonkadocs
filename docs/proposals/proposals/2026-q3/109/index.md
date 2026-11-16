@@ -28,6 +28,7 @@ template: proposals-proposals-main.html
 
 **Failed reason:** proposal did not get enough votes to pass
 
+<div class="prop-bounty-line">Bounty Reward из Community Pool: $104,150 USDT · Community Sale · <a href="https://gonkadocs.com/proposals/proposals/2026-q4/113/" target="_blank">Proposal #113</a></div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/109){:target="_blank"}

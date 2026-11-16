@@ -48,6 +48,7 @@ hide:
 </div>
 
 <div class="qs-funding-line">85,000 GNK · $1,041,675 · Community Pool · +$1,142,750 · Community Pool (inflow) · 217,896 GNK · Gov Module</div>
+<div class="qs-bounty-line">$104,150 USDT · Bounty Reward</div>
 
 
 </div>
@@ -163,7 +164,7 @@ hide:
     <span>Voting ends 2026-10-08</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (805,773)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (805,773)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-bounty">$104,150 USDT · Bounty Reward</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>73.3%</strong> (805,773 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span></div>
 </div>
 

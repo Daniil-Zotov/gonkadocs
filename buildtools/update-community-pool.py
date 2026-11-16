@@ -51,6 +51,38 @@ PASSED_STATUSES = {"PROPOSAL_STATUS_PASSED"}
 
 BOUNTY_DISTRIBUTIONS = [
     {
+        "version": "v0.2.16",
+        "pr": None,
+        "link": f"{SITE_URL}{PROPOSALS_PREFIX}2026-q4/113/",
+        "link_label": "Proposal #113",
+        "pr_status": "Passed",
+        "date": "2026-10",
+        "denom": "USDT",
+        "total": 104150,
+        # v0.2.16 bounties were distributed via governance proposal #113
+        # (the upgrade handler defines distributeBountyRewards but never calls it)
+        "gov_proposal": True,
+        "source": "Community Sale",
+        "recipients": [
+            ("kaitaku.ai (@baychak, @clanster)", "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp", 12000, "ML-node observability: metrics exporter, DAPI federation endpoint, Grafana dashboards (gonka-grafana) + hosting monitoring.kaitaku.ai"),
+            ("@qdanik", "gonka1j3f2xkapx8cmczpjqcsrh7cc3peyj3ngkjv4p8", 500, "Contribution to the ML-node observability track"),
+            ("kaitaku.ai (@baychak, @clanster)", "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp", 20000, "decode-PoC: vLLM port and experiments with reevaluation on all hardware schemes and models"),
+            ("Axel-t", "gonka1yhdhp4vwsvdsplv4acksntx0zxh8saueq6lj9m", 18000, "CUDA Graph Support for Decode PoC"),
+            ("kaitaku.ai (@baychak, @clanster)", "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp", 5000, "gonka-poc as plugin: removes re-porting PoC on every vLLM release"),
+            ("kaitaku.ai (@baychak, @clanster)", "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp", 5000, "DeepSeek-V4-Flash: experiments and new model proposal"),
+            ("kaitaku.ai (@baychak, @clanster)", "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp", 4000, "GLM-5.3-Flash: experiments and new model proposal"),
+            ("kaitaku.ai (@baychak, @clanster)", "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp", 2000, "GLM-5.2: experiments, images for B300/B200/H200"),
+            ("kaitaku.ai (@baychak, @clanster)", "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp", 2000, "Hy3 evaluation experiments"),
+            ("kaitaku.ai (@baychak, @clanster)", "gonka1x45hruazmcqxslj3g8a08988hr5fr3wx33drhp", 9600, "GPU rental reimbursement for model and PoC experiments since 2026-06-01 (Verda, Vast, Dataoorts, Nebius), at cost"),
+            ("@x0152", "gonka18enyz7h6hh5zjveee5wnhkhrcexamfz0zdxxqe", 8000, "Release management: PR reviews, HackerOne report reviews, Trainshards v0 (PR #1350, #1618)"),
+            ("@vitaly-andr", "gonka1uqt4hue8tljwwgdkvtthyl3n8kkkqtydyns4cm", 5000, "Chain-halt bug report (Issue #1205) + fix (cosmos-sdk PR #16)"),
+            ("@vitaly-andr", "gonka1uqt4hue8tljwwgdkvtthyl3n8kkkqtydyns4cm", 1000, "v0.2.16 upgrade review"),
+            ("@bonujel", "gonka1zqss46r6jf6dhhyaa777kc2ppvjhn0ufkx4y57", 1000, "v0.2.16 upgrade review"),
+            ("@staaason / @zpoken", "gonka1s8zggm642e3kncy48c7vxwmeclt2wxyyd8qtdt", 8050, "HackerOne report reviews + PR #1767, #1552 (landed as PR #1623)"),
+            ("@cyberdelamain", "gonka15u0r3mf6t7zsfuslusnyt7hsjrq357yumpe8st", 3000, "v0.2.16 review and fixes: PR #1828, #1846, #1845, #1859"),
+        ],
+    },
+    {
         "version": "v0.2.15",
         "pr": 1503,
         "pr_status": "Merged",
@@ -585,6 +617,10 @@ def generate_funding_table(funding):
 
     # Append upgrade-handler bounty distributions
     for b in sorted(BOUNTY_DISTRIBUTIONS, key=lambda x: x["total"], reverse=True):
+        # Distributions made via governance proposals (e.g. v0.2.16 via #113) are
+        # already listed as proposal rows above — skip to avoid double counting.
+        if b.get("gov_proposal"):
+            continue
         src = f"Upgrade Handler ({b['source']})"
         gnk_str = f"{b['total']:,}" if b['denom'] == 'GNK' else "—"
         usdt_str = f"${b['total']:,}" if b['denom'] == 'USDT' else "—"
@@ -656,9 +692,9 @@ def generate_summary(funding):
 | From Gov Module | {gov_gnk:,} GNK |{inflow_row}
 | Largest funding | {largest_label} |
 | Most recent | {recent_label} |
-| **Upgrade distributions** | **{len(BOUNTY_DISTRIBUTIONS)}** |
-| Total GNK distributed (upgrades) | {bounty_gnk:,} GNK |
-| Total USDT distributed (upgrades) | ${bounty_usdt:,} |
+| **Bounty distributions** | **{len(BOUNTY_DISTRIBUTIONS)}** |
+| Total GNK distributed (bounties) | {bounty_gnk:,} GNK |
+| Total USDT distributed (bounties) | ${bounty_usdt:,} |
 | From Community Sale contract | ${bounty_sale:,} USDT |
 | From Gov Module | {bounty_gov:,} GNK |"""
 
@@ -669,13 +705,14 @@ def generate_bounty_table():
         "| :------ | :- | :----- | :--- | :--------- | --------: | --------: | :----",
     ]
     for b in BOUNTY_DISTRIBUTIONS:
-        pr_url = f"https://github.com/gonka-ai/gonka/pull/{b['pr']}"
+        link_url = b.get("link") or f"https://github.com/gonka-ai/gonka/pull/{b['pr']}"
+        link_label = b.get("link_label") or f"PR #{b['pr']}"
         n = len(b["recipients"])
         gnk_str = f"{b['total']:,}" if b['denom'] == 'GNK' else "—"
         usdt_str = f"${b['total']:,}" if b['denom'] == 'USDT' else "—"
         rows.append(
             f"| {b['version']} "
-            f"| [PR #{b['pr']}]({pr_url}) "
+            f"| [{link_label}]({link_url}) "
             f"| {b['pr_status']} "
             f"| {b['date']} "
             f"| {n} recipients "
@@ -690,8 +727,9 @@ def generate_bounty_detail_table():
     """Detailed breakdown of each bounty recipient."""
     parts = []
     for b in BOUNTY_DISTRIBUTIONS:
-        pr_url = f"https://github.com/gonka-ai/gonka/pull/{b['pr']}"
-        parts.append(f"\n### {b['version']} — [PR #{b['pr']}]({pr_url}) ({b['pr_status']})\n")
+        link_url = b.get("link") or f"https://github.com/gonka-ai/gonka/pull/{b['pr']}"
+        link_label = b.get("link_label") or f"PR #{b['pr']}"
+        parts.append(f"\n### {b['version']} — [{link_label}]({link_url}) ({b['pr_status']})\n")
         parts.append("| Recipient | Address | Amount | Description |")
         parts.append("| :------- | :------ | ----: | :---------- |")
         for alias, addr, amt, desc in b["recipients"]:

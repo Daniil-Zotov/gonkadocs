@@ -67,7 +67,7 @@ hide:
     <span>Voting ends 2026-10-02</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>78.2%</strong> (102,985)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.8%</strong> (28,655)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>78.2%</strong> (102,985)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.8%</strong> (28,655)</span><span class="prop-card-bounty prop-card-bounty-rejected">$104,150 USDT · Bounty Reward</span></div>
   <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>24.5%</strong> (131,640 / 537,228) · Quorum <strong>25%</strong> (134,307)</span></div>
 </div>
 

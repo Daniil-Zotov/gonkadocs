@@ -50,7 +50,7 @@ hide:
 </div>
 
 <div class="qs-funding-line">20,387,572 GNK · $2,230,425 · Community Pool · +$1,142,750 · Community Pool (inflow) · 4,909,356 GNK · Gov Module</div>
-<div class="qs-bounty-line">$144,150 USDT · 203,750 GNK · Bounty Reward</div>
+<div class="qs-bounty-line">$248,300 USDT · 203,750 GNK · Bounty Reward</div>
 
 
 </div>
@@ -168,7 +168,7 @@ hide:
     <span>Voting ends 2026-10-08</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node.  Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (805,773)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (805,773)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-bounty">$104,150 USDT · Bounty Reward</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>73.3%</strong> (805,773 / 1,099,580) · Quorum <strong>25%</strong> (274,895)</span></div>
 </div>
 
@@ -216,7 +216,7 @@ hide:
     <span>Voting ends 2026-10-02</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.16  The v0.2.16 upgrade includes protocol changes and bug fixes across the chain and API node. It also pays 104,150 USDT in bounties from community funds.  Trusted Weight. Befor…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>78.2%</strong> (102,985)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.8%</strong> (28,655)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>78.2%</strong> (102,985)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>21.8%</strong> (28,655)</span><span class="prop-card-bounty prop-card-bounty-rejected">$104,150 USDT · Bounty Reward</span></div>
   <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>24.5%</strong> (131,640 / 537,228) · Quorum <strong>25%</strong> (134,307)</span></div>
 </div>
 
@@ -1677,7 +1677,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>118 proposals across 6 quarters. Last updated: 2026-11-16 12:41 UTC</em>
+<em>118 proposals across 6 quarters. Last updated: 2026-11-16 12:54 UTC</em>
 </div>
 
 <script>

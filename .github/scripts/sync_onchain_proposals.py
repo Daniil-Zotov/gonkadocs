@@ -30,6 +30,10 @@ BOUNTY_BY_VERSION = {
     "v0.2.13": {"total": 18875, "denom": "USDT",  "source": "Community Sale",  "pr": 1168, "pr_status": "Merged"},
     "v0.2.14": {"total": 50250, "denom": "USDT",  "source": "Community Sale",  "pr": 1446, "pr_status": "Merged"},
     "v0.2.15": {"total": 39825, "denom": "USDT",  "source": "Community Sale",  "pr": 1503, "pr_status": "Merged"},
+    # v0.2.16 bounties were distributed via governance proposal #113
+    # (the upgrade handler defines distributeBountyRewards but never calls it)
+    "v0.2.16": {"total": 104150, "denom": "USDT", "source": "Community Sale", "pr": None,
+                 "link": "https://gonkadocs.com/proposals/proposals/2026-q4/113/", "link_label": "Proposal #113"},
 }
 
 RPC_ENDPOINTS = [
@@ -669,11 +673,13 @@ template: proposals-proposals-main.html
         b = BOUNTY_BY_VERSION.get(v)
         if b:
             total_str = f"${b['total']:,}" if b["denom"] == "USDT" else f"{b['total']:,}"
+            link_url = b.get("link") or f"https://github.com/gonka-ai/gonka/pull/{b['pr']}"
+            link_label = b.get("link_label") or f"PR #{b['pr']}"
             bounty_html = (
                 f'<div class="prop-bounty-line">'
                 f'Bounty Reward из Community Pool: {total_str} {b["denom"]} · '
                 f'{b["source"]} · '
-                f'<a href="https://github.com/gonka-ai/gonka/pull/{b["pr"]}" target="_blank">PR #{b["pr"]}</a>'
+                f'<a href="{link_url}" target="_blank">{link_label}</a>'
                 f'</div>\n'
             )
     if bounty_html:
