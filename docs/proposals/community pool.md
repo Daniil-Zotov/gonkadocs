@@ -10,7 +10,7 @@ hide:
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-11-16 15:17 UTC
+2026-11-16 17:12 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 ---
@@ -119,13 +119,14 @@ curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka10d07
 
 ## Historical Funding
 
-All **passed** governance proposals that moved funds through the Community Pool, the Community Sale contract, or the Gov Module, sorted by descending proposal number. Rows marked **(inflow)** are net additions to community funds rather than spending — e.g. **#117**, where Bitfury's 1.75M USDT Community Sale tranche minus its 607,250 USDT reimbursement left **+$1,142,750** in the Community Sale contract.
+All **passed** governance proposals that moved funds through the Community Pool, the Community Sale contract, or the Gov Module, sorted by descending proposal number. Amounts are shown **gross** — inflows and payouts are separate rows, never netted together. Rows marked **(inflow)** are deposits into community-controlled addresses rather than spending. Example — **#117**: Bitfury's **1,750,000 USDT** tranche came in, and **607,250 USDT** was immediately paid back out to Bitfury as reimbursement for audit costs, leaving a net of **+$1,142,750** in the Community Sale contract.
 
 <!-- SPENT_HISTORY_START -->
 | Proposal | Date | Description | Source | Amount GNK | Amount USDT |
 | :------ | :--: | :---------- | :---- | ---------: | ---------: |
 | [#118](https://gonkadocs.com/proposals/proposals/2026-q4/118/) | 2026-11-13 | Dev Team Funding | Community Sale | — | $866,000 |
-| [#117](https://gonkadocs.com/proposals/proposals/2026-q4/117/) | 2026-11-13 | Bitfury buys another tranche of GNK for 1.75M USDT as part … | Community Sale (inflow) | — | +$1,142,750 |
+| [#117](https://gonkadocs.com/proposals/proposals/2026-q4/117/) | 2026-11-13 | Bitfury buys another tranche of GNK for 1.75M USDT as part … | Community Sale (inflow) | — | +$1,750,000 |
+| [#117](https://gonkadocs.com/proposals/proposals/2026-q4/117/) | 2026-11-13 | Bitfury buys another tranche of GNK for 1.75M USDT as part … | Community Sale | — | $607,250 |
 | [#116](https://gonkadocs.com/proposals/proposals/2026-q4/116/) | 2026-11-11 | Approve DevShard v6 and distribute bounty rewards | Community Pool + Community Sale + Gov Module | 170,000 | $69,425 |
 | [#113](https://gonkadocs.com/proposals/proposals/2026-q4/113/) | 2026-10-08 | Distribute v0.2.16 bounty rewards | Community Sale | — | $104,150 |
 | [#110](https://gonkadocs.com/proposals/proposals/2026-q4/110/) | 2026-10-03 | GRC Proposal #4 - Restitution | Community Sale + Gov Module | 132,896 | $2,100 |
@@ -167,11 +168,12 @@ All **passed** governance proposals that moved funds through the Community Pool,
 | :----- | :---- |
 | Total governance proposals | 31 |
 | Total GNK approved (proposals) | 25,296,928 GNK |
-| Total USDT approved (proposals) | $2,230,425 |
+| Total USDT approved (proposals) | $2,837,675 |
 | From Community Pool | 20,387,572 GNK + $10,000 |
-| From Community Sale (proposals) | 0 GNK + $2,220,425 |
+| From Community Sale (proposals) | 0 GNK + $2,827,675 |
 | From Gov Module | 4,909,356 GNK |
-| Community Sale inflows (proposals) | +$1,142,750 |
+| Community Sale inflows (proposals) | +$1,750,000 |
+| Community Sale net (deposits − same-source payouts) | +$1,142,750 |
 | Largest funding | #14 — 20,000,000 GNK |
 | Most recent | #118 — $866,000 USDT |
 | **Bounty distributions** | **8** |

@@ -386,11 +386,12 @@ def parse_funding_from_messages(messages):
       (gov-module-authorized USDT payouts from the Community Sale contract)
     - "Gov Module" — vesting distributions (GNK)
 
-    Inflows (CW20 send/transfer INTO pool-controlled addresses, e.g. #117
-    Bitfury tranche) are netted against "Community Sale" outflows per denom.
+    Inflows (CW20 send/transfer INTO community-controlled addresses, e.g. the
+    #117 Bitfury tranche) are reported GROSS and never netted against outflows,
+    so both legs of deposit-then-payout proposals stay visible.
 
-    Returns (sources, inflow): sources maps source name to (gnk, usdt)
-    non-negative ints (zero entries dropped); inflow is (gnk, usdt) net inflow.
+    Returns (sources, inflow_sources): both map source name to (gnk, usdt)
+    non-negative ints (zero entries dropped).
     """
     outflows = {}
     inflows = {}
@@ -486,22 +487,19 @@ def parse_funding_from_messages(messages):
                     if denom == "ngonka":
                         _add(outflows, "Gov Module", gnk=amt / 1_000_000_000)
 
-    # Net inflows against outflows per source and denom
+    # Report inflows and outflows GROSS per source (not netted), so both legs
+    # of deposit-then-payout proposals stay visible (e.g. #117: +1,750,000 in,
+    # 607,250 immediately reimbursed to Bitfury, net +1,142,750).
     sources = {}
     for s, (g_out, u_out) in outflows.items():
-        g_in, u_in = inflows.get(s, [0.0, 0.0])
-        g = max(g_out - g_in, 0.0)
-        u = max(u_out - u_in, 0.0)
-        if g > 0 or u > 0:
-            sources[s] = (int(g), int(u))
-    inflow_g = 0.0
-    inflow_u = 0.0
+        if g_out > 0 or u_out > 0:
+            sources[s] = (int(g_out), int(u_out))
+    inflow_sources = {}
     for s, (g_in, u_in) in inflows.items():
-        g_out, u_out = outflows.get(s, [0.0, 0.0])
-        inflow_g += max(g_in - g_out, 0.0)
-        inflow_u += max(u_in - u_out, 0.0)
+        if g_in > 0 or u_in > 0:
+            inflow_sources[s] = (int(g_in), int(u_in))
 
-    return sources, (int(inflow_g), int(inflow_u))
+    return sources, inflow_sources
 
 
 def determine_source(sources):
@@ -513,16 +511,18 @@ def determine_source(sources):
 def fetch_funding_history():
     """Fetch all passed proposals and aggregate funding amounts.
 
-    Returns (funding, source_totals) where source_totals maps each source name
-    to (gnk, usdt) summed over per-message attribution (accurate for mixed
-    proposals, e.g. #116 = Community Pool + Community Sale + Gov Module).
+    Returns (funding, source_totals, net_totals). source_totals maps each
+    source name (inflow keys keep an "(inflow)" suffix) to (gnk, usdt) summed
+    over per-message attribution; net_totals maps inflow source names to the
+    proposal-level net (deposit − same-source payout).
     """
     data = fetch_json("{BASE}/cosmos/gov/v1/proposals?pagination.limit=200")
     if not data:
-        return [], {}
+        return [], {}, {}
 
     funding = []
     source_totals = {}
+    net_totals = {}
     for p in data.get("proposals", []):
         if p.get("status") not in PASSED_STATUSES:
             continue
@@ -532,9 +532,11 @@ def fetch_funding_history():
         msgs = p.get("messages", [])
         ts = fmt_time_short(p.get("voting_end_time", ""))
 
-        sources, (gnk_in, usdt_in) = parse_funding_from_messages(msgs)
+        sources, inflow_sources = parse_funding_from_messages(msgs)
         gnk_spend = sum(g for g, _ in sources.values())
         usdt_spend = sum(u for _, u in sources.values())
+        gnk_in = sum(g for g, _ in inflow_sources.values())
+        usdt_in = sum(u for _, u in inflow_sources.values())
 
         if gnk_spend == 0 and usdt_spend == 0 and gnk_in == 0 and usdt_in == 0:
             continue
@@ -555,19 +557,32 @@ def fetch_funding_history():
             "title": short_title(title),
         }
 
+        # Deposit legs first (chronological: money in, then paid out — e.g. #117)
+        for s, (g, u) in inflow_sources.items():
+            funding.append({**base, "source": f"{s} (inflow)", "gnk": g, "usdt": u, "inflow": True})
+
         if gnk_spend > 0 or usdt_spend > 0:
             funding.append({**base, "source": determine_source(sources), "gnk": gnk_spend, "usdt": usdt_spend, "inflow": False})
 
-        # Net inflow (e.g. #117 — Bitfury tranche left +$1,142,750 in the Community Sale contract)
-        if gnk_in > 0 or usdt_in > 0:
-            funding.append({**base, "source": "Community Sale (inflow)", "gnk": gnk_in, "usdt": usdt_in, "inflow": True})
-
-        # Accumulate per-source totals for the summary
+        # Accumulate per-source totals for the summary; inflow keys keep the
+        # "(inflow)" suffix so gross deposits and gross payouts stay separate
         for s, (g, u) in sources.items():
             pg, pu = source_totals.get(s, (0, 0))
             source_totals[s] = (pg + g, pu + u)
+        for s, (g, u) in inflow_sources.items():
+            key = f"{s} (inflow)"
+            pg, pu = source_totals.get(key, (0, 0))
+            source_totals[key] = (pg + g, pu + u)
+        # Proposal-level net per source (deposit minus same-source payout, e.g.
+        # #117: 1,750,000 − 607,250 = +1,142,750)
+        for s, (g_in, u_in) in inflow_sources.items():
+            g_out, u_out = sources.get(s, (0, 0))
+            net_g, net_u = g_in - g_out, u_in - u_out
+            if net_g > 0 or net_u > 0:
+                pg, pu = net_totals.get(s, (0, 0))
+                net_totals[s] = (pg + net_g, pu + net_u)
 
-    return funding, source_totals
+    return funding, source_totals, net_totals
 
 
 # ── Generate content ───────────────────────────────────────────
@@ -669,20 +684,24 @@ def _amount_label(f):
     return " + ".join(parts) if parts else "—"
 
 
-def generate_summary(funding, source_totals):
+def generate_summary(funding, source_totals, net_totals):
     spends = [f for f in funding if not f.get("inflow")]
     inflows = [f for f in funding if f.get("inflow")]
     total_gnk = sum(f["gnk"] for f in spends)
     total_usdt = sum(f["usdt"] for f in spends)
     # Per-source totals use per-message attribution (accurate for mixed proposals
-    # like #116 = Community Pool + Community Sale + Gov Module)
+    # like #116 = Community Pool + Community Sale + Gov Module). Inflow keys keep
+    # the "(inflow)" suffix — e.g. "Community Sale (inflow)" = gross deposits (#117).
     pool_gnk, pool_usdt = source_totals.get("Community Pool", (0, 0))
     sale_gnk, sale_usdt = source_totals.get("Community Sale", (0, 0))
     gov_gnk, _ = source_totals.get("Gov Module", (0, 0))
 
-    # Net inflows (e.g. #117 Bitfury tranche into the Community Sale contract)
+    # Gross inflows (e.g. #117 Bitfury tranche into the Community Sale contract)
     inflow_gnk = sum(f["gnk"] for f in inflows)
     inflow_usdt = sum(f["usdt"] for f in inflows)
+    # Proposal-level net per inflow source (deposit minus same-source payout)
+    net_gnk = sum(g for g, _ in net_totals.values())
+    net_usdt = sum(u for _, u in net_totals.values())
 
     # Bounty totals
     bounty_gnk = sum(b["total"] for b in BOUNTY_DISTRIBUTIONS if b["denom"] == "GNK")
@@ -705,6 +724,14 @@ def generate_summary(funding, source_totals):
         if inflow_usdt > 0:
             parts.append(f"+${inflow_usdt:,}")
         inflow_row = f"\n| Community Sale inflows (proposals) | {' + '.join(parts)} |"
+    net_row = ""
+    if net_gnk > 0 or net_usdt > 0:
+        parts = []
+        if net_gnk > 0:
+            parts.append(f"+{net_gnk:,} GNK")
+        if net_usdt > 0:
+            parts.append(f"+${net_usdt:,}")
+        net_row = f"\n| Community Sale net (deposits − same-source payouts) | {' + '.join(parts)} |"
 
     return f"""| Metric | Value |
 | :----- | :---- |
@@ -713,7 +740,7 @@ def generate_summary(funding, source_totals):
 | Total USDT approved (proposals) | ${total_usdt:,} |
 | From Community Pool | {pool_gnk:,} GNK + ${pool_usdt:,} |
 | From Community Sale (proposals) | {sale_gnk:,} GNK + ${sale_usdt:,} |
-| From Gov Module | {gov_gnk:,} GNK |{inflow_row}
+| From Gov Module | {gov_gnk:,} GNK |{inflow_row}{net_row}
 | Largest funding | {largest_label} |
 | Most recent | {recent_label} |
 | **Bounty distributions** | **{len(BOUNTY_DISTRIBUTIONS)}** |
@@ -800,7 +827,7 @@ def update_file():
     gov_balances = fetch_account_balance(GOV_MODULE_ADDR)
 
     print("Fetching funding history from proposals...")
-    funding, source_totals = fetch_funding_history()
+    funding, source_totals, net_totals = fetch_funding_history()
 
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     pool_cw20 = fetch_cw20_balance(USDT_CW20_ADDR, COMMUNITY_POOL_ADDR)
@@ -810,7 +837,7 @@ def update_file():
     sale_line = generate_sale_balance_line(sale_balances, sale_cw20)
     gov_line = generate_gov_balance_line(gov_balances)
     fund_table = generate_funding_table(funding)
-    summary = generate_summary(funding, source_totals) if funding else ""
+    summary = generate_summary(funding, source_totals, net_totals) if funding else ""
 
     content = replace_between_markers(
         content, "<!-- UPDATE_TIMESTAMP -->", "<!-- /UPDATE_TIMESTAMP -->", now_utc

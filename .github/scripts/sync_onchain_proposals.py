@@ -325,14 +325,6 @@ def iter_messages(messages):
             yield m
 
 
-def parse_amounts_from_messages(messages):
-    """Extract GNK and USDT amounts from proposal messages directly (net outflows)."""
-    by_source = parse_amounts_by_source(messages)
-    gnk = sum(v[0] for k, v in by_source.items() if "(inflow)" not in k)
-    usdt = sum(v[1] for k, v in by_source.items() if "(inflow)" not in k)
-    return gnk, usdt
-
-
 def parse_amounts_by_source(messages):
     """Extract GNK and USDT amounts grouped by funding source.
 
@@ -345,13 +337,15 @@ def parse_amounts_by_source(messages):
       (GNK from the Gov Module)
     - cosmos.authz MsgExec envelopes around any of the above (unwrapped)
 
-    Inflows and outflows are netted per source. Returns dict[str, tuple[int, int]]
-    mapping source name to (gnk, usdt):
+    Inflows and outflows are reported GROSS per source (not netted), so both
+    legs of deposit-then-payout proposals stay visible. Returns
+    dict[str, tuple[int, int]] mapping source name to (gnk, usdt):
     - "Community Pool" — MsgCommunityPoolSpend (real distribution-module spends)
-    - "Community Sale" — net USDT payouts from the Community Sale contract
-    - "Community Sale (inflow)" — net inflow, e.g. #117: 1,750,000 USDT in,
-      607,250 USDT reimbursed back to Bitfury → +1,142,750 USDT stays on the
-      community side of the Community Sale contract
+    - "Community Sale" — USDT payouts from the Community Sale contract
+    - "Community Sale (inflow)" — USDT received into community-controlled
+      addresses, e.g. #117: Bitfury paid 1,750,000 USDT for the GNK tranche
+      (607,250 of it was immediately reimbursed back to Bitfury, so the net
+      +1,142,750 stayed on the community side of the sale contract)
     - "Gov Module" — GNK vesting distributions
     """
     outflows = {}
@@ -461,11 +455,13 @@ def parse_amounts_by_source(messages):
     for source in set(list(outflows) + list(inflows)):
         g_out, u_out = outflows.get(source, (0, 0))
         g_in, u_in = inflows.get(source, (0, 0))
-        g_net, u_net = g_in - g_out, u_in - u_out
-        if g_net > 0 or u_net > 0:
-            result[f"{source} (inflow)"] = (int(g_net), int(u_net))
-        if g_net < 0 or u_net < 0:
-            result[source] = (int(max(-g_net, 0)), int(max(-u_net, 0)))
+        # Show gross flows, not nets — e.g. #117 deposits 1,750,000 USDT into
+        # the Community Sale contract and immediately pays 607,250 back out to
+        # Bitfury; both legs stay visible instead of collapsing into +1,142,750.
+        if g_in > 0 or u_in > 0:
+            result[f"{source} (inflow)"] = (int(g_in), int(u_in))
+        if g_out > 0 or u_out > 0:
+            result[source] = (int(g_out), int(u_out))
     # raw micro-denoms → human units (ngonka / 1e9, micro-USDT / 1e6)
     return {
         src: (int(g / 1_000_000_000), int(u / 1_000_000))
@@ -477,10 +473,12 @@ def funding_parts_by_source(amt_by_source):
     """Convert parse_amounts_by_source result to display strings.
 
     Returns list of strings like "100,000 GNK · Community Pool", or
-    "+$1,142,750 · Community Pool (inflow)" for net inflows (#117).
+    "+$1,750,000 · Community Sale (inflow)" for deposits into community-controlled
+    addresses (#117).
     """
     parts = []
-    for source in sorted(amt_by_source.keys()):
+    # inflow parts first — chronological for deposit-then-payout proposals (#117)
+    for source in sorted(amt_by_source.keys(), key=lambda k: (0 if "(inflow)" in k else 1, k)):
         gnk, usdt = amt_by_source[source]
         sign = "+" if "(inflow)" in source else ""
         sub = []

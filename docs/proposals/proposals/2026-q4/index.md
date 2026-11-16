@@ -47,7 +47,7 @@ hide:
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:10%"></span></span><span class="qs-value">1</span></div>
 </div>
 
-<div class="qs-funding-line">85,000 GNK · $10,000 · Community Pool · $1,031,675 · Community Sale · +$1,142,750 · Community Sale (inflow) · 217,896 GNK · Gov Module</div>
+<div class="qs-funding-line">+$1,750,000 · Community Sale (inflow) · 85,000 GNK · $10,000 · Community Pool · $1,638,925 · Community Sale · 217,896 GNK · Gov Module</div>
 
 
 </div>
@@ -93,7 +93,7 @@ hide:
     <span>Voting ends 2026-11-13</span>
   </div>
   <div class="prop-card-desc">Bitfury intends to purchase GNK for 1.75M USDT from the previously approved 12M USDT Community Sale contract at $0.60 per GNK.   Of this amount, 607,250 USDT is returned to Bitfury as reimbursement fo…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">+$1,142,750 · Community Sale (inflow)</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>100.0%</strong> (1,093,860)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding">+$1,750,000 · Community Sale (inflow) · $607,250 · Community Sale</span></div>
   <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>38.2%</strong> (1,093,860 / 2,862,640) · Quorum <strong>25%</strong> (715,660)</span></div>
 </div>
 
