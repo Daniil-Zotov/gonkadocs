@@ -2,7 +2,7 @@
 title: "#589 — Don't send TX if node is behind"
 source: https://github.com/gonka-ai/gonka/issues/589
 issue_number: 589
-synced_at: 2026-11-15T21:56:03Z
+synced_at: 2026-11-16T02:18:05Z
 template: issues-main.html
 ---
 

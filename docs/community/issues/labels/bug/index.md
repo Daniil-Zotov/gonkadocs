@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: Bug
 
 Issues with label **Bug**. Total: **36**.
-Updated: `2026-11-15 21:56 UTC`.
+Updated: `2026-11-16 02:18 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -21,7 +21,7 @@ Updated: `2026-11-15 21:56 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span> <span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 3 days ago</span>
       
     </div>
   </div>

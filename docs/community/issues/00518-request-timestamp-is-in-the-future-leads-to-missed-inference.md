@@ -2,7 +2,7 @@
 title: "#518 — "Request timestamp is in the future" leads to missed inferences for hosts"
 source: https://github.com/gonka-ai/gonka/issues/518
 issue_number: 518
-synced_at: 2026-11-15T21:56:05Z
+synced_at: 2026-11-16T02:18:07Z
 template: issues-main.html
 ---
 
