@@ -1,5 +1,665 @@
 [
   {
+    "id": "evt_20261116222632_e7cf8acf",
+    "timestamp": "2026-11-16T22:26:32.343205+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "A new version of DevShard is now available, bringing** **improvements to network performance, stability, and security.",
+      "url": "/gonka/docs/network-updates/#november-11-2026",
+      "file": "015318275ce4c6ddcce55303ca58da5d9dff5af5df09c297e535d061bccfc680"
+    },
+    "details": {
+      "status": null,
+      "content": "A new version of DevShard is now available, bringing improvements to network performance, stability, and security. What's new in v6 https://github.com/gonka-ai/gonka/releases/tag/devshard%2Fv6.0.0 • 30–50% higher throughput: sustained requests per second (RPS) compared to the previous version, measured in testnet load tests. • Memory usage: lower steady-state memory, and catch-up no longer causes",
+      "date": "2026-11-11",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#november-11-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_2a415683",
+    "timestamp": "2026-11-16T22:26:32.343231+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "PROPOSAL PASSED: Stabilize in-epoch invalid SPRT on small samples",
+      "url": "/gonka/docs/network-updates/#august-21-2026",
+      "file": "03d419753c5cc4755a2cf81a54add84fceffe60aa41478c32f8513201cd88a20"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL PASSED: Stabilize in-epoch invalid SPRT on small samples The on-chain governance vote for proposal id 96 has concluded. The proposal was APPROVED. It adjusts how the invalid-inference check behaves on small samples so it doesn't misfire early in an epoch before there's enough data. Nothing is required from hosts.",
+      "date": "2026-08-21",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#august-21-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_e6f3fa0b",
+    "timestamp": "2026-11-16T22:26:32.343244+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "The devshard v4.1 runtime proposal has entered governance",
+      "url": "/gonka/docs/network-updates/#september-9-2026_1",
+      "file": "053c59fc78356d6b3dc0267383244093b1ceaec9b1e542c545dfc34c862645b0"
+    },
+    "details": {
+      "status": null,
+      "content": "The devshard v4.1 runtime proposal has entered governance Proposal id 100 adds v4.1 to the approved list of devshard versions. This is a devshard-only change. It goes through an on-chain params proposal, not a full chain software upgrade: Cosmovisor is not involved, the chain does not halt, and inference keeps serving. If approved, versiond downloads the binary, verifies its SHA-256 against the va",
+      "date": "2026-09-09",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-9-2026_1"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_8f895db2",
+    "timestamp": "2026-11-16T22:26:32.343253+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Devshard binary update: `v4.0.2`",
+      "url": "/gonka/docs/network-updates/#september-4-2026_1",
+      "file": "07d19f75f1ddd10fe1c3c6c68a04afaf269813bf0385e4f7c14a6a97272e5f2b"
+    },
+    "details": {
+      "status": null,
+      "content": "Devshard binary update: v4.0.2 The v4.0.2 devshard binary is available. Hosts can update the v4 binary manually using the instructions below. An automatic update is not scheduled yet. What changed On restart, v4.0.1 restored every session from nonce 1. Nodes with many stored sessions took hours to become ready, versiond then killed the child on the 60 second ready timeout, and clients saw HTTP 502",
+      "date": "2026-09-04",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-4-2026_1"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_9b5e793e",
+    "timestamp": "2026-11-16T22:26:32.343262+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "PROPOSAL PASSED: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment",
+      "url": "/gonka/docs/network-updates/#september-11-2026",
+      "file": "1cae37a90f0ac7239ad8e75b7b00a116acfecdb652a10e91eee3278203854f4c"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL PASSED: Ratify Quant Mesh Limited as the Ledger Integration Counterparty and Fund the Initial Ledger Integration Payment The on-chain governance vote for proposal id 102 has concluded. The proposal was APPROVED. Quant Mesh Limited is ratified as the legal contracting counterparty for the Gonka-Ledger integration, and 350,350 USDT has been allocated from the Community Pool to gonka1yqj5xf0",
+      "date": "2026-09-11",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-11-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_f6f1a91d",
+    "timestamp": "2026-11-16T22:26:32.343270+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "The devshard v5 proposal has entered governance",
+      "url": "/gonka/docs/network-updates/#september-14-2026",
+      "file": "35d6438423109c3f0397c98a0959f099eb29658b21081cc2f344fa10dda20647"
+    },
+    "details": {
+      "status": null,
+      "content": "The devshard v5 proposal has entered governance Proposal id 104 does two things: it adds v5 to the approved list of devshard versions, and it distributes 91,300 USDT in contributor bounties from the community-sale contract. Devshard v5 This is a devshard-only change. It goes through an on-chain params proposal, not a full chain software upgrade: Cosmovisor is not involved, the chain does not halt,",
+      "date": "2026-09-14",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-14-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_1c840621",
+    "timestamp": "2026-11-16T22:26:32.343279+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "PROPOSAL PASSED: Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026",
+      "url": "/gonka/docs/network-updates/#september-12-2026",
+      "file": "3d6b0f8860820620cc284d5df8002033c6405d724912d6a471a1743c46267b5e"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL PASSED: Reimbursement of Expenses for Daniil and David Liberman's Participation in All-In Summit 2026 The on-chain governance vote for proposal id 103 has concluded. The proposal was APPROVED. 15,500 USDT has been allocated from the Community Pool to reimburse two Attendee Passes for All-In Summit 2026 for Daniil and David Liberman, co-creators of the Gonka protocol. The Summit took place",
+      "date": "2026-09-12",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-12-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_2bdfff17",
+    "timestamp": "2026-11-16T22:26:32.343287+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "#112 Upgrade Proposal: v0.2.16",
+      "url": "/gonka/docs/network-updates/#october-6-2026",
+      "file": "3d88a3089cfa2dc09b37f430c075d37dc86259b6a9b9c055ac990138e00a680e"
+    },
+    "details": {
+      "status": null,
+      "content": "Two proposals are open for voting. From this release the upgrade and the bounty payments go as two separate proposals and are voted on separately. #112 Upgrade Proposal: v0.2.16 Proposal 112, Upgrade Proposal: v0.2.16 https://gonka.gg/network/proposals/112 Trusted Weight. Before v0.2.16, a sudden increase in claimed compute immediately increased a participant's power in governance, BLS and PoC val",
+      "date": "2026-10-06",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#october-6-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_4afb4c1d",
+    "timestamp": "2026-11-16T22:26:32.343294+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "The devshard v5 proposal is back in governance (resubmission of 104)",
+      "url": "/gonka/docs/network-updates/#september-16-2026",
+      "file": "49d1c4e1506dc9025d3403d7d669f1384d54c58347e4c9f1673bee8bdb72390f"
+    },
+    "details": {
+      "status": null,
+      "content": "The devshard v5 proposal is back in governance (resubmission of 104) Proposal id 105 adds v5 to the approved list of devshard versions and distributes 91,300 USDT in contributor bounties from the community-sale contract. Devshard v5 This is a devshard-only change. Cosmovisor is not involved, the chain does not halt, and inference keeps serving. If approved, versiond downloads the binary, verifies",
+      "date": "2026-09-16",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-16-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_09b87bed",
+    "timestamp": "2026-11-16T22:26:32.343302+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "How to read the dashboard",
+      "url": "/gonka/docs/network-updates/#august-18-2026",
+      "file": "4e2e33eb2fa389e584683b9b414af9be31713d3dd75a44d892d52b06c63a3d0c"
+    },
+    "details": {
+      "status": null,
+      "content": "As a major milestone in protocol development, the chain is ready to gradually enable devshard settlement, raising network security and reliability. A stabilized gateway version is currently running on one gateway and will be used for the first settlement stage. Its statistics, representing a portion of total network traffic, are available here: https://tracker.gonka.pro/?view=gateway&epoch=364 htt",
+      "date": "2026-08-18",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#august-18-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_b93cf52f",
+    "timestamp": "2026-11-16T22:26:32.343311+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "MLNode 3.0.16 rollout",
+      "url": "/gonka/docs/network-updates/#august-14-2026_1",
+      "file": "5845cfa8259e5489d8ff74de5c7c6f389438e0fd518174e9a88114b15b78054d"
+    },
+    "details": {
+      "status": null,
+      "content": "MLNode 3.0.16 rollout If all your nodes are already on the new build (3.0.16), you're all set, nothing to do here. If any are still on the old MLNode (the ones serving Kimi or MiniMax, since anything already on DeepSeek is on 3.0.16), please migrate those to 3.0.16 when you get a chance. One ask: roll it out gradually. Please don't switch all your nodes at once. Update a few first, confirm they're",
+      "date": "2026-08-14",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#august-14-2026_1"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_f9dd6fc4",
+    "timestamp": "2026-11-16T22:26:32.343319+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "PROPOSAL REJECTED: Approve devshard v5 and bounty payouts",
+      "url": "/gonka/docs/network-updates/#september-18-2026_1",
+      "file": "5a7dce96b7c5a13427a9b18101da823c177f538185279a5af22f50b19ec7e0ba"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL REJECTED: Approve devshard v5 and bounty payouts The on-chain governance vote for proposal id 104 has concluded. The proposal was REJECTED with failed_reason: proposal did not get enough votes to pass. Final tally: yes 25291, no 0, no_with_veto 0, abstain 0. Nobody voted against it. Turnout was roughly 6% of network weight against a 25% quorum, so the proposal failed on participation alon",
+      "date": "2026-09-18",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-18-2026_1"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_b83c1fc1",
+    "timestamp": "2026-11-16T22:26:32.343326+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Proposal 97 is open for voting: Increase DeepSeek V4 Flash weight_scale_factor to 0.246",
+      "url": "/gonka/docs/network-updates/#august-25-2026_1",
+      "file": "5fe4b5dd7cfd0e32f9a31cf533efa0a8352584fc3f3df1cbb0c63ff6b203f0b0"
+    },
+    "details": {
+      "status": null,
+      "content": "Proposal 97 is open for voting: Increase DeepSeek V4 Flash weight_scale_factor to 0.246 A new on-chain governance proposal (proposal id 97) is open for voting. What it does Increases the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged. Voting Voting ends Aug 27, 03:47 UTC. Please vote if you can. Proposal details",
+      "date": "2026-08-25",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#august-25-2026_1"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_2aa1c310",
+    "timestamp": "2026-11-16T22:26:32.343333+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "PROPOSAL PASSED: Increase DeepSeek V4 Flash weight_scale_factor to 0.246",
+      "url": "/gonka/docs/network-updates/#august-29-2026",
+      "file": "6d354c8353007d4c40a2b9a62243259c858d080b9714a26f8fa26c85380bb023"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL PASSED: Increase DeepSeek V4 Flash weight_scale_factor to 0.246 The on-chain governance vote for proposal id 98 has concluded. The proposal was APPROVED. It increases the weight_scale_factor for deepseek-ai/DeepSeek-V4-Flash-0731 from 0.214 to 0.246. All other model and chain parameters remain unchanged. This is a resubmission of proposal 97. On chain, proposal 97 ended as PROPOSAL_STATUS",
+      "date": "2026-08-29",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#august-29-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_627ac815",
+    "timestamp": "2026-11-16T22:26:32.343341+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "PROPOSAL PASSED: Approve devshard v5 and bounty payouts",
+      "url": "/gonka/docs/network-updates/#september-18-2026",
+      "file": "6ee97013c9ed19057b6cddf49e3b63c6f44b0876aa1d2193c4392082ac8e0497"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL PASSED: Approve devshard v5 and bounty payouts The on-chain governance vote for proposal id 105 has concluded. The proposal was APPROVED with 123,754 yes and no votes against. What it changes DevShard v5 has been added to the approved devshard versions on chain: name    v5 binary  https://github.com/gonka-ai/gonka/releases/download/devshard%2Fv5.0.1/devshardd.zip sha256  e4dcde3990a3af62e",
+      "date": "2026-09-18",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-18-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_d498e655",
+    "timestamp": "2026-11-16T22:26:32.343348+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "`zai-org/GLM-5.3-Flash`",
+      "url": "/gonka/docs/network-updates/#october-15-2026",
+      "file": "77ffd6cb97b25ed20d5842e89574f96a87c7f6135b9162c5274e934da8fe48ba"
+    },
+    "details": {
+      "status": null,
+      "content": "A new governance proposal #115 is open for voting. It proposes expanding the dynamic PoC coefficient ranges for GLM-5.3-Flash and DeepSeek-V4-Flash. zai-org/GLM-5.3-Flash - coeff_max: 0.682 → 1.556470588235 - relative_difficulty: 2.668169014084 → 2.9 - coeff_min: 0.558 (unchanged) deepseek-ai/DeepSeek-V4-Flash-0731 - coeff_max: 0.2706 → 1.2403125 - relative_difficulty: 1.541666666666 → 1.705882352",
+      "date": "2026-10-15",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#october-15-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_5f875335",
+    "timestamp": "2026-11-16T22:26:32.343355+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "UPGRADE EXECUTED: v0.2.16 is now live on mainnet",
+      "url": "/gonka/docs/network-updates/#october-7-2026",
+      "file": "8946fe49920f5ccc85cbc6b120b7efb86edbe5bcd67bca17d2d05c4549be3c29"
+    },
+    "details": {
+      "status": null,
+      "content": "UPGRADE EXECUTED: v0.2.16 is now live on mainnet The on-chain governance vote for Upgrade Proposal v0.2.16 https://github.com/gonka-ai/gonka/blob/136041c81ea8ff38e7620d76af66a7c7fe7eec50/proposals/governance-artifacts/update-v0.2.16/README.md (proposal id 112) has concluded. The proposal was APPROVED, and the upgrade was successfully executed on the mainnet at block 6449400. What changed 1. Truste",
+      "date": "2026-10-07",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#october-7-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_1591458f",
+    "timestamp": "2026-11-16T22:26:32.343362+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "DeepSeek V4 Flash is now active on Gonka network",
+      "url": "/gonka/docs/network-updates/#august-14-2026",
+      "file": "93a4c758ad620e0ab6c587675cb98d0f7d2c339c852d9f531640519ae51ef94c"
+    },
+    "details": {
+      "status": null,
+      "content": "DeepSeek V4 Flash is now active on Gonka network The bootstrap stage announced in proposal 94 https://gonka.ai/docs/network-updates/#august-10-2026 is complete. As of chain epoch 360, deepseek-ai/DeepSeek-V4-Flash-0731 joins MiniMax-M2.7 and Kimi K2.6 as an active model group, and PoC weight earned in the DeepSeek group is now being converted into consensus weight at the calibrated coefficient 0.2",
+      "date": "2026-08-14",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#august-14-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_7fde08d2",
+    "timestamp": "2026-11-16T22:26:32.343369+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "PROPOSAL PASSED: devshard v4.1",
+      "url": "/gonka/docs/network-updates/#september-11-2026_1",
+      "file": "9b00969bbcd899d583ca69d6fe877ced47f7cbe609cd834a5cfa18b160dd27cb"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL PASSED: devshard v4.1 The on-chain governance vote for proposal id 100 has concluded. The proposal was APPROVED, and v4.1 has been added to the approved list of devshard versions. versiond downloads the binary, verifies its SHA-256 against the value stored on-chain, and starts the runtime. No manual host action is required. v4.1 now runs alongside the existing v3 and v4 runtimes, so curre",
+      "date": "2026-09-11",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-11-2026_1"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_aa7d8d35",
+    "timestamp": "2026-11-16T22:26:32.343375+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Proposal #114 is open for voting: DevShard v4.2",
+      "url": "/gonka/docs/network-updates/#october-11-2026",
+      "file": "a1f3014bd72d70e5a76357034b83f012c6994de3ba0a575d3d5eab1cda5fac15"
+    },
+    "details": {
+      "status": null,
+      "content": "Proposal #114 is open for voting: DevShard v4.2 This proposal stabilizes the v4 line with v4.2, removes v5 from the approved DevShard versions, and keeps v4.1 unchanged. The planned next step is to move from v4.* to a stable v6 release. Voting ends October 14 at 04:46 UTC. https://gonka.gg/network/proposals/114 https://gonka.gg/network/proposals/114 Please review the proposal and cast your vote be",
+      "date": "2026-10-11",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#october-11-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_4ba06af2",
+    "timestamp": "2026-11-16T22:26:32.343382+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Proposal 109, Upgrade Proposal: v0.2.16, was rejected.",
+      "url": "/gonka/docs/network-updates/#october-2-2026",
+      "file": "a8ee4047f5456b122a53f91fe6017bddbd3344a6340fae617053e1cefde63536"
+    },
+    "details": {
+      "status": null,
+      "content": "Proposal 109, Upgrade Proposal: v0.2.16, was rejected. The proposal put the v0.2.16 upgrade and 104,150 USDT in bounty payments from community funds to the network as a single vote. It received no votes against and no vetoes. It was rejected because the votes cast did not reach the 25% quorum.",
+      "date": "2026-10-02",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#october-2-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_5684a90f",
+    "timestamp": "2026-11-16T22:26:32.343389+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "PROPOSAL PASSED: DevShard v5.0.2",
+      "url": "/gonka/docs/network-updates/#september-27-2026",
+      "file": "aea5f14b76f5183d23a052f34e392d0502a9209d7408e5df568d46691439be0a"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL PASSED: DevShard v5.0.2 The on-chain governance vote for proposal id 108 has concluded. The proposal was APPROVED. DevShard v5 is updated to v5.0.2, which caps the Postgres payload pools that were exhausting connections and taking nodes down. approved_versions on chain is now: v4.1   release/devshard/v4.1.0 v5     devshard/v5.0.2 v3 and plain v4 have been removed. What is required from ho",
+      "date": "2026-09-27",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-27-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_a444ae31",
+    "timestamp": "2026-11-16T22:26:32.343396+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "The PR for the devshard-only upgrade is now open for review",
+      "url": "/gonka/docs/network-updates/#august-25-2026",
+      "file": "b85f2ef7af8782ab641ba54915ab714a02a505b66a981625aaab1b52e2556644"
+    },
+    "details": {
+      "status": null,
+      "content": "The PR for the devshard-only upgrade is now open for review Devshard upgrades update the devshard runtime independently from the main blockchain. They do not require a coordinated full-node upgrade through Cosmovisor, do not affect mainnet behavior, and are not expected to cause downtime for inference serving. If approved through the governance process, the new devshard v5 runtime will run in para",
+      "date": "2026-08-25",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#august-25-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_608307dd",
+    "timestamp": "2026-11-16T22:26:32.343403+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Proposal 101: add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models",
+      "url": "/gonka/docs/network-updates/#september-9-2026",
+      "file": "b90e374a3ace22d8a751e6d51d0d82f6985ed150cb669dd34f6f26502af7d60f"
+    },
+    "details": {
+      "status": null,
+      "content": "Proposal 101: add GLM-5.3-Flash, remove Kimi-K2.6 and GLM-5.2-FP8 from PoC models Proposal id 101 registers zai-org/GLM-5.3-Flash as a governance-approved model and adds it to the PoC model set. At the same time it removes moonshotai/Kimi-K2.6 and zai-org/GLM-5.2-FP8 from poc_params.models. MiniMaxAI/MiniMax-M2.7 and deepseek-ai/DeepSeek-V4-Flash-0731 are not affected: their PoC parameters and wei",
+      "date": "2026-09-09",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-9-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_94b2ab75",
+    "timestamp": "2026-11-16T22:26:32.343411+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Upgrade v0.2.16: Pre-download binaries",
+      "url": "/gonka/docs/network-updates/#october-7-2026_1",
+      "file": "cd6a1163253256d0257ed7f3349ecffafd89785d26a48d9d14336887c2134937"
+    },
+    "details": {
+      "status": null,
+      "content": "Upgrade v0.2.16: Pre-download binaries The on-chain governance process for the v0.2.16 upgrade proposal is nearing its conclusion. - Voting ends: October 8, 2026 at 02:40 AM UTC - Proposed upgrade height: 6449400 - Estimated upgrade time: October 8, 2026 at ~ 05:48 AM UTC Hosts are encouraged to review the proposal on GitHub https://github.com/gonka-ai/gonka/blob/136041c81ea8ff38e7620d76af66a7c7fe",
+      "date": "2026-10-07",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#october-7-2026_1"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_dd22e6fe",
+    "timestamp": "2026-11-16T22:26:32.343418+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Pull Request Review for Upgrade v0.2.16",
+      "url": "/gonka/docs/network-updates/#september-22-2026",
+      "file": "dba4643fc6df60e82324a59789f6933812efc71bdd5eb5c62720d637f404cf77"
+    },
+    "details": {
+      "status": null,
+      "content": "Pull Request Review for Upgrade v0.2.16 The pull request for the next on-chain software upgrade, v0.2.16, is open for review https://github.com/gonka-ai/gonka/pull/1535 https://github.com/gonka-ai/gonka/pull/1535. Meaningful review contributions, including important comments, bug findings, and security issues, may be eligible for community bounties during the next upgrade cycle. The mainnet chain/",
+      "date": "2026-09-22",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-22-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_b4c0539e",
+    "timestamp": "2026-11-16T22:26:32.343426+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "What is required from hosts",
+      "url": "/gonka/docs/network-updates/#october-14-2026",
+      "file": "e8fd5f54c72448ff940316dc470a71038d1210c7b755a6c21f7a251ea95d7c7b"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL PASSED: DevShard v4.2 The on-chain governance vote for proposal #114 https://gonka.gg/network/proposals/114 has concluded. The proposal was APPROVED. DevShard v4.2 brings production fixes and performance improvements to the v4 runtime. The approved DevShard versions on chain are now: text v4.1   release/devshard/v4.1.0 v4.2   devshard/v4.2.0 v5 has been removed from the approved list. Wha",
+      "date": "2026-10-14",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#october-14-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_29a261af",
+    "timestamp": "2026-11-16T22:26:32.343433+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "PROPOSAL PASSED: Support Gonka's presence at TOKEN2049 Singapore",
+      "url": "/gonka/docs/network-updates/#september-4-2026",
+      "file": "eba4f62b31b9bb5827f5e453deeaf70aba63c5165a5b5afc9cf48c0709e04901"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL PASSED: Support Gonka's presence at TOKEN2049 Singapore The on-chain governance vote for proposal id 99 has concluded. The proposal was APPROVED. It allocates 100,000 USDT from the Community Pool to support Gonka's participation at TOKEN2049 Singapore 2026, taking place on 7-8 October 2026 at Marina Bay Sands. The funds cover the Gold Sponsorship package and related logistics: travel, acc",
+      "date": "2026-09-04",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-4-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_678c19d2",
+    "timestamp": "2026-11-16T22:26:32.343440+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "GLM-5.3-Flash is live",
+      "url": "/gonka/docs/network-updates/#september-16-2026_1",
+      "file": "f132efaaae36b06f896a96ad3b0804b07c5648b208e5fe0577731cd85fbd5e25"
+    },
+    "details": {
+      "status": null,
+      "content": "GLM-5.3-Flash is live As of epoch 395, zai-org/GLM-5.3-Flash is an active model group and is serving inference on mainnet. If you want to host it, you are welcome to join. Declare intent for the model and provision your MLNode during the deploy window, which opens 500 blocks before the next PoC start. Don't forget your participation choice The non-participation penalty for GLM-5.3-Flash has been i",
+      "date": "2026-09-16",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-16-2026_1"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_ab96afe7",
+    "timestamp": "2026-11-16T22:26:32.343448+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Proposal 96 is open for voting: Stabilize in-epoch invalid SPRT on small samples",
+      "url": "/gonka/docs/network-updates/#august-20-2026",
+      "file": "f473e0cad0ccc3f37ced4e46232a1964e826ad890890b1ad673db2e732e6939f"
+    },
+    "details": {
+      "status": null,
+      "content": "Proposal 96 is open for voting: Stabilize in-epoch invalid SPRT on small samples A new on-chain governance proposal (proposal id 96) is open for voting. What it does Early in an epoch there isn't enough data yet, so the invalid-inference check (SPRT) can trip on just a few invalids before the sample is large enough. This proposal stabilizes it: - Raises invalidation_h_threshold to 40 and sets bad_",
+      "date": "2026-08-20",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#august-20-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_94aad6e3",
+    "timestamp": "2026-11-16T22:26:32.343456+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "v0.2.16 Upgrade Proposal Enters Governance",
+      "url": "/gonka/docs/network-updates/#september-30-2026",
+      "file": "f525e28bd3ed2d4be34b9e7c4d9f24e5f23ac679903eb81a4c938055b1957204"
+    },
+    "details": {
+      "status": null,
+      "content": "v0.2.16 Upgrade Proposal Enters Governance The v0.2.16 proposal https://gonkascan.com/?page=governance&proposal_id=109 (proposal id 109) is now on-chain and open for voting. The mainnet chain/API work focuses on trusted weight, dynamic coefficients, transaction fee groups, and PoC Challenge. If the proposal is approved, governance, BLS, and PoC validation power are limited to compute confirmed in",
+      "date": "2026-09-30",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-30-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_09e50c63",
+    "timestamp": "2026-11-16T22:26:32.343463+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "PROPOSAL PASSED: wider ranges for dynamic PoC coefficients",
+      "url": "/gonka/docs/network-updates/#october-17-2026",
+      "file": "fc323a3d1547996047380079784066cfb719aea62e836e138a3c6ec07d40a6b9"
+    },
+    "details": {
+      "status": null,
+      "content": "PROPOSAL PASSED: wider ranges for dynamic PoC coefficients The on-chain vote for proposal #115 https://gonka.gg/network/proposals/115 has passed. The new allowed coefficient ranges are now recorded in the network parameters: - MiniMaxAI/MiniMax-M2.7: fixed at 0.3024 - zai-org/GLM-5.3-Flash: 0.558–1.556470588235 - deepseek-ai/DeepSeek-V4-Flash-0731: 0.2214–1.2403125 The new configuration applies fr",
+      "date": "2026-10-17",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#october-17-2026"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261116222632_6b460be6",
+    "timestamp": "2026-11-16T22:26:32.343470+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Proposal 108 is open for voting: DevShard v5.0.2",
+      "url": "/gonka/docs/network-updates/#september-25-2026",
+      "file": "fd05bf7eaa536f162d4604fa42d266c613b20b4517b9c4b75300f430bd1e2b54"
+    },
+    "details": {
+      "status": null,
+      "content": "Proposal 108 is open for voting: DevShard v5.0.2 An important fix for DevShard node failures. It also retires v3 and v4. Voting closes 27 September, 00:03 UTC. What it fixes Each running DevShard version opened a Postgres pool sized to the host CPU count. A host running several versions on a multicore machine could consume every available connection, and the node failed. v5.0.2 caps payload pools",
+      "date": "2026-09-25",
+      "time": "",
+      "event_type": "network_update",
+      "url": "/gonka/docs/network-updates/#september-25-2026"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261116203933_4cf8efc9",
     "timestamp": "2026-11-16T20:39:33.199333+00:00",
     "section": "issues",
@@ -7562,533 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    ⁠[Bug] OpenAI API compatibility: DeepSeek reasoning output concatenated into content & invalid reasoning_effort validation⁠\n    <span class=\"issues-number\">#1654</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dmrtest\">@dmrtest</a> opened 2026-08-26 15:07 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div"
     },
     "ai_description": "A new bug report has been filed highlighting two issues with our OpenAI API compatibility: DeepSeek reasoning output is being incorrectly merged into the main content field, and the reasoning_effort parameter is not being validated properly. This matters because it affects tooling that relies on clean separation of reasoning and final answers. Please check issue #1654 for details and consider contributing a fix if you've hit this in your workflows."
-  },
-  {
-    "id": "evt_20261022192049_77079cc0",
-    "timestamp": "2026-10-22T19:20:49.449768+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1658 — 413 on large chat payload due to gateway/host request size mismatch",
-      "url": "/community/issues/01658-413-on-large-chat-payload-due-to-gatewayhost-request-size-mi/",
-      "file": "01658-413-on-large-chat-payload-due-to-gatewayhost-request-size-mi.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    413 on large chat payload due to gateway/host request size mismatch\n    <span class=\"issues-number\">#1658</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-08-27 13:02 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-l"
-    },
-    "ai_description": "A new issue has been opened and closed regarding 413 errors on large chat payloads, caused by a mismatch in request size limits between the gateway and host. This is a practical blocker for users sending bigger conversations, so tracking it helps the community understand infrastructure limits. Keep an eye on the two comments for context on the fix or workaround."
-  },
-  {
-    "id": "evt_20261022192049_e82f625c",
-    "timestamp": "2026-10-22T19:20:49.449781+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1659 — Proposal: Repair loop for `escrow_state_root_diverged`",
-      "url": "/community/issues/01659-proposal-repair-loop-for-escrow-state-root-diverged/",
-      "file": "01659-proposal-repair-loop-for-escrow-state-root-diverged.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Proposal: Repair loop for `escrow_state_root_diverged`\n    <span class=\"issues-number\">#1659</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-27 13:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues"
-    },
-    "ai_description": "New proposal #1659 from @a-kuprin is now open, addressing a repair loop for the escrow_state_root_diverged condition. This is a practical step toward improving system resilience when escrow state roots drift out of sync. Jump in with your feedback to help shape the fix. 2 comments so far."
-  },
-  {
-    "id": "evt_20261022192049_67733740",
-    "timestamp": "2026-10-22T19:20:49.449794+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1660 — Large per-host catch-up diff backlog can cause 413 on host transport",
-      "url": "/community/issues/01660-large-per-host-catch-up-diff-backlog-can-cause-413-on-host-t/",
-      "file": "01660-large-per-host-catch-up-diff-backlog-can-cause-413-on-host-t.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Large per-host catch-up diff backlog can cause 413 on host transport\n    <span class=\"issues-number\">#1660</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-08-27 13:24 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-l"
-    },
-    "ai_description": "Issue #1660 has been closed, addressing a bug where large per-host catch-up diff backlogs could trigger 413 errors on the host transport. This fix removes a real bottleneck that could disrupt sync for hosts with heavy pending updates. Thanks to @aikuznetsov for reporting it and helping keep the network stable."
-  },
-  {
-    "id": "evt_20261022192049_4486d94a",
-    "timestamp": "2026-10-22T19:20:49.449806+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1665 — Height-sync: one roundtrip per host, not per slot",
-      "url": "/community/issues/01665-height-sync-one-roundtrip-per-host-not-per-slot/",
-      "file": "01665-height-sync-one-roundtrip-per-host-not-per-slot.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Height-sync: one roundtrip per host, not per slot\n    <span class=\"issues-number\">#1665</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-08-28 12:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issues-labe"
-    },
-    "ai_description": "New issue #1665 proposes optimizing height-sync to require just one roundtrip per host instead of per slot, which should cut down on network chatter and speed up block synchronization across the network. Big win for efficiency if it lands, so keep an eye on it. @a-kuprin opened it for discussion, and it's currently open for community input."
-  },
-  {
-    "id": "evt_20261022192049_2d442f9d",
-    "timestamp": "2026-10-22T19:20:49.449819+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1671 — chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)",
-      "url": "/community/issues/01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-/",
-      "file": "01671-choredeps-rebase-forked-cosmos-sdk-onto-v0538-base-is-v0533-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chore(deps): rebase forked cosmos-sdk onto v0.53.8 (base is v0.53.3, ~5 patch releases behind)\n    <span class=\"issues-number\">#1671</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-28 20:22 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
-    },
-    "ai_description": "A new issue has been opened to rebase the forked cosmos-sdk onto v0.53.8, bringing the base up from v0.53.3 and catching up on roughly five patch releases. This is important for keeping our network aligned with upstream fixes and improvements, which helps with stability and compatibility across the ecosystem."
-  },
-  {
-    "id": "evt_20261022192049_51ee6b9d",
-    "timestamp": "2026-10-22T19:20:49.449834+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1677 — [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error",
-      "url": "/community/issues/01677-bug-gatewaymlnode-agent-sized-prefill-hangs-or-fails-with-no/",
-      "file": "01677-bug-gatewaymlnode-agent-sized-prefill-hangs-or-fails-with-no.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] Gateway/mlnode: agent-sized prefill hangs or fails with no usable error\n    <span class=\"issues-number\">#1677</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-08-29 20:39 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issue"
-    },
-    "ai_description": "Gateway/mlnode prefill issue #1677 has been closed after investigation. The bug caused agent-sized prefill requests to hang or fail without clear diagnostics, and the fix ensures better error reporting for the community. Thanks to @paranjko for flagging this critical infrastructure problem. Check the issue thread for resolution details."
-  },
-  {
-    "id": "evt_20261022192049_bbd1d764",
-    "timestamp": "2026-10-22T19:20:49.449847+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1680 — Kimi-K2.6 non-stream on gateway v4: 502 nonce_finished=false (stream OK)",
-      "url": "/community/issues/01680-kimi-k26-non-stream-on-gateway-v4-502-nonce-finishedfalse-st/",
-      "file": "01680-kimi-k26-non-stream-on-gateway-v4-502-nonce-finishedfalse-st.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Kimi-K2.6 non-stream on gateway v4: 502 nonce_finished=false (stream OK)\n    <span class=\"issues-number\">#1680</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/paranjko\">@paranjko</a> opened 2026-08-30 19:49 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la"
-    },
-    "ai_description": "New issue #1680 reports a 502 error with nonce_finished=false when using Kimi-K2.6 in non-streaming mode on gateway v4, while streaming works fine. The issue is now closed after 3 comments, so check the thread for the resolution if you've hit this error. Thanks to @paranjko for flagging it."
-  },
-  {
-    "id": "evt_20261022192049_04288b56",
-    "timestamp": "2026-10-22T19:20:49.449860+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1688 — Decode PoC: integration support",
-      "url": "/community/issues/01688-decode-poc-integration-support/",
-      "file": "01688-decode-poc-integration-support.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Decode PoC: integration support\n    <span class=\"issues-number\">#1688</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:15 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
-    },
-    "ai_description": "New issue #1688 has been opened by @tcharchian to request integration support for the Decode proof-of-concept. This is a call for the community to help wire the PoC into existing systems, which will be key to moving it from a standalone experiment toward real-world deployment. Jump in with your thoughts or code if you have integration experience."
-  },
-  {
-    "id": "evt_20261022192049_8eb80d6d",
-    "timestamp": "2026-10-22T19:20:49.449872+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1689 — First full MNode image for Decode PoC (MiniMax): testing",
-      "url": "/community/issues/01689-first-full-mnode-image-for-decode-poc-minimax-testing/",
-      "file": "01689-first-full-mnode-image-for-decode-poc-minimax-testing.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (MiniMax): testing\n    <span class=\"issues-number\">#1689</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:20 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
-    },
-    "ai_description": "New issue #1689 is open for the first full MNode image built for the Decode proof-of-concept with MiniMax, now ready for testing. This marks a key milestone in validating the inference stack for that model, so jump in with feedback or results. Check it out and share your findings.New issue #1689 is open for the first full MNode image built for the Decode proof-of-concept with MiniMax, now ready for testing. This marks a key milestone in validating the inference stack for that model, so jump in with feedback or results. Check it out and share your findings."
-  },
-  {
-    "id": "evt_20261022192049_ac50f001",
-    "timestamp": "2026-10-22T19:20:49.449884+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1690 — First full MNode image for Decode PoC (DeepSeek): testing + coefficients",
-      "url": "/community/issues/01690-first-full-mnode-image-for-decode-poc-deepseek-testing-coeff/",
-      "file": "01690-first-full-mnode-image-for-decode-poc-deepseek-testing-coeff.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    First full MNode image for Decode PoC (DeepSeek): testing + coefficients\n    <span class=\"issues-number\">#1690</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:21 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px"
-    },
-    "ai_description": "The first full MNode image for the Decode PoC with DeepSeek is now up for testing, including coefficient tuning. This marks a key step toward validating the decode pipeline in a real environment. Jump in with feedback or test results to help refine the approach. #1690 is open for discussion. 🚀"
-  },
-  {
-    "id": "evt_20261022192049_39a1716d",
-    "timestamp": "2026-10-22T19:20:49.449896+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1691 — GLM 5.3 Flash: vLLM 0.28 image + PoC fix",
-      "url": "/community/issues/01691-glm-53-flash-vllm-028-image-poc-fix/",
-      "file": "01691-glm-53-flash-vllm-028-image-poc-fix.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    GLM 5.3 Flash: vLLM 0.28 image + PoC fix\n    <span class=\"issues-number\">#1691</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:23 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px"
-    },
-    "ai_description": "Issue #1691 has been closed after addressing GLM 5.3 Flash support by providing a vLLM 0.28 image along with a proof-of-concept fix. This resolves the compatibility gap for running this model on the network, so operators can now deploy it with a known working configuration. Thanks to @tcharchian for opening and driving this to completion."
-  },
-  {
-    "id": "evt_20261022192049_c2da7253",
-    "timestamp": "2026-10-22T19:20:49.449908+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1692 — Monitoring: public repository",
-      "url": "/community/issues/01692-monitoring-public-repository/",
-      "file": "01692-monitoring-public-repository.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Monitoring: public repository\n    <span class=\"issues-number\">#1692</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-08-31 20:24 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n<"
-    },
-    "ai_description": "A new issue, #1692, has been added proposing a public repository for monitoring purposes. The proposal, opened by @tcharchian, is now closed after gathering 7 comments from the community. This could be a step toward more transparent oversight of network operations, so keep an eye out for any follow-up actions."
-  },
-  {
-    "id": "evt_20261022192049_fb412546",
-    "timestamp": "2026-10-22T19:20:49.449920+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1695 — Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose",
-      "url": "/community/issues/01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum/",
-      "file": "01695-proxy-rate-limiting-no-exemption-path-for-trusted-high-volum.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose\n    <span class=\"issues-number\">#1695</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span cl"
-    },
-    "ai_description": "New issue #1695 has been opened by @Ryanchen911, highlighting two gaps in the proxy rate limiting setup: there is no exemption path for trusted high-volume clients, and the tuning variables are not being passed through in compose. The issue has already been closed, but it flags important configuration flexibility that the community may want to address in future updates."
-  },
-  {
-    "id": "evt_20261022192049_d13a99a9",
-    "timestamp": "2026-10-22T19:20:49.449935+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1696 — devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503",
-      "url": "/community/issues/01696-devshard-bridgeclassifyqueryerror-has-no-production-callers-/",
-      "file": "01696-devshard-bridgeclassifyqueryerror-has-no-production-callers-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard: bridge.ClassifyQueryError has no production callers, so transient chain-query failures return 500 instead of the intended retryable 503\n    <span class=\"issues-number\">#1696</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-09-01 08:25 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</sp"
-    },
-    "ai_description": "New issue #1696 has been filed by @Ryanchen911, flagging that devshard's bridge.ClassifyQueryError isn't used in production, causing transient chain-query failures to incorrectly return a 500 error instead of the intended retryable 503. The issue is now closed, which means the team has already acknowledged and addressed this bug, improving reliability for the community's inference operations."
-  },
-  {
-    "id": "evt_20261022192049_f74cfa93",
-    "timestamp": "2026-10-22T19:20:49.449947+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1698 — Gateway allowlist request: Axis Ordo",
-      "url": "/community/issues/01698-gateway-allowlist-request-axis-ordo/",
-      "file": "01698-gateway-allowlist-request-axis-ordo.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Axis Ordo\n    <span class=\"issues-number\">#1698</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/leonidkachuliak-eng\">@leonidkachuliak-eng</a> opened 2026-09-01 19:41 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n"
-    },
-    "ai_description": "A new gateway allowlist request has been opened by @leonidkachuliak-eng for Axis Ordo (#1698). The issue is currently open with 3 comments, inviting community discussion on whether this operator should be approved. This is part of the ongoing process to expand and vet the network's gateway infrastructure."
-  },
-  {
-    "id": "evt_20261022192049_262be79a",
-    "timestamp": "2026-10-22T19:20:49.449961+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1708 — chain-halt: ValidatorByConsAddr propagates ErrNoValidatorFound, so the evidence/slashing BeginBlock nil-guards never run",
-      "url": "/community/issues/01708-chain-halt-validatorbyconsaddr-propagates-errnovalidatorfoun/",
-      "file": "01708-chain-halt-validatorbyconsaddr-propagates-errnovalidatorfoun.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    chain-halt: ValidatorByConsAddr propagates ErrNoValidatorFound, so the evidence/slashing BeginBlock nil-guards never run\n    <span class=\"issues-number\">#1708</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-02 17:03 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  "
-    },
-    "ai_description": "New issue #1708 has been opened by @vitaly-andr flagging a potential chain-halt risk where ValidatorByConsAddr returns ErrNoValidatorFound, which prevents the nil-guards in evidence and slashing BeginBlock logic from ever triggering. This is an important finding for network stability, so check it out and weigh in on the discussion."
-  },
-  {
-    "id": "evt_20261022192049_a8919ebe",
-    "timestamp": "2026-10-22T19:20:49.449973+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1714 — `devshard` bind the gateway stream to `MsgFinishInference` with a second hash",
-      "url": "/community/issues/01714-devshard-bind-the-gateway-stream-to-msgfinishinference-with-/",
-      "file": "01714-devshard-bind-the-gateway-stream-to-msgfinishinference-with-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    `devshard` bind the gateway stream to `MsgFinishInference` with a second hash\n    <span class=\"issues-number\">#1714</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-09-03 18:51 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu"
-    },
-    "ai_description": "New issue #1714 from @a-kuprin proposes binding the devshard gateway stream to MsgFinishInference using a second hash, now closed. This change aims to improve stream integrity by linking it directly to the completion signal. Worth reviewing for those working on inference pipelines. The issue is closed with no comments, so the proposal stands as submitted."
-  },
-  {
-    "id": "evt_20261022192049_834d6204",
-    "timestamp": "2026-10-22T19:20:49.449988+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1719 — Harden ECIES primitive: restore curve validation and reject short ciphertexts",
-      "url": "/community/issues/01719-harden-ecies-primitive-restore-curve-validation-and-reject-s/",
-      "file": "01719-harden-ecies-primitive-restore-curve-validation-and-reject-s.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Harden ECIES primitive: restore curve validation and reject short ciphertexts\n    <span class=\"issues-number\">#1719</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-04 23:26 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top:"
-    },
-    "ai_description": "A new issue #1719 has been opened by @tcharchian to harden the ECIES primitive by restoring curve validation and rejecting short ciphertexts. This is an important security hardening step that closes potential edge cases in cryptographic handling. The issue is currently open for community discussion, so check it out if you work with our encryption layer."
-  },
-  {
-    "id": "evt_20261022192049_01056014",
-    "timestamp": "2026-10-22T19:20:49.450001+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1722 — Incomplete HTTP 200 streams are cached and replayed as successful responses",
-      "url": "/community/issues/01722-incomplete-http-200-streams-are-cached-and-replayed-as-succe/",
-      "file": "01722-incomplete-http-200-streams-are-cached-and-replayed-as-succe.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Incomplete HTTP 200 streams are cached and replayed as successful responses\n    <span class=\"issues-number\">#1722</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aleksandr-cstl\">@aleksandr-cstl</a> opened 2026-09-07 11:57 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div c"
-    },
-    "ai_description": "A new issue (#1722) has been filed by @aleksandr-cstl highlighting a critical bug where incomplete HTTP 200 streams get cached and replayed as if they were successful responses. This could lead to corrupted outputs being served to consumers, so the community should prioritize investigating how partial streams are flagged and handled in the cache layer."
-  },
-  {
-    "id": "evt_20261022192049_c4932aa6",
-    "timestamp": "2026-10-22T19:20:49.450013+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1725 — x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty",
-      "url": "/community/issues/01725-xinference-getallmodelcapacities-keys-the-epoch-group-map-wi/",
-      "file": "01725-xinference-getallmodelcapacities-keys-the-epoch-group-map-wi.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: GetAllModelCapacities keys the epoch-group map with a block height, so the query always returns empty\n    <span class=\"issues-number\">#1725</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-07 14:23 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\""
-    },
-    "ai_description": "New issue #1725 flags a bug in the x/inference module where GetAllModelCapacities incorrectly uses a block height as the key for the epoch-group map, causing the query to always return empty results. This is a significant finding for anyone relying on model capacity data, as it means the endpoint silently fails to surface available information. Thanks to @kaileido for spotting this and opening the report."
-  },
-  {
-    "id": "evt_20261022192049_1de7c363",
-    "timestamp": "2026-10-22T19:20:49.450026+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1733 — Extend e2e for HA devshard config with multiple routers and multiple versiond",
-      "url": "/community/issues/01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-/",
-      "file": "01733-extend-e2e-for-ha-devshard-config-with-multiple-routers-and-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Extend e2e for HA devshard config with multiple routers and multiple versiond\n    <span class=\"issues-number\">#1733</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-09-08 16:31 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px"
-    },
-    "ai_description": "New issue #1733 is open, proposed by @a-kuprin, to extend end-to-end testing for high-availability devshard configurations that include multiple routers and multiple versiond instances. This matters because it strengthens coverage for complex, real-world deployment setups, helping catch integration issues before they reach production."
-  },
-  {
-    "id": "evt_20261022192049_26d10a2d",
-    "timestamp": "2026-10-22T19:20:49.450038+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1746 — x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer",
-      "url": "/community/issues/01746-xinference-a-non-active-participants-earned-workcoins-are-cl/",
-      "file": "01746-xinference-a-non-active-participants-earned-workcoins-are-cl.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/inference: a non-ACTIVE participant's earned WorkCoins are cleared at settlement with no claim record and no governance transfer\n    <span class=\"issues-number\">#1746</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 11:45 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n"
-    },
-    "ai_description": "New issue #1746 has been opened by @vitaly-andr highlighting a bug in the x/inference module where WorkCoins earned by participants who are not in ACTIVE status get wiped out during settlement, leaving no claim record or governance transfer. This is an important fairness issue for the community, as it means legitimate contributions could go unrewarded. Please join the discussion to help clarify the expected behavior and find a fix."
-  },
-  {
-    "id": "evt_20261022192049_24f48d61",
-    "timestamp": "2026-10-22T19:20:49.450050+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1749 — x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides",
-      "url": "/community/issues/01749-xbls-hooks-are-never-installed-invokesetblshooks-asks-depinj/",
-      "file": "01749-xbls-hooks-are-never-installed-invokesetblshooks-asks-depinj.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    x/bls hooks are never installed: InvokeSetBlsHooks asks depinject for a pointer the module never provides\n    <span class=\"issues-number\">#1749</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-09-10 14:30 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"is"
-    },
-    "ai_description": "A new issue #1749 has been opened by @vitaly-andr flagging that the x/bls module hooks are never installed, because InvokeSetBlsHooks asks depinject for a pointer the module never actually provides. This is a wiring mismatch that could leave BLS functionality silently uninitialized, so it's worth a look for anyone relying on those hooks."
-  },
-  {
-    "id": "evt_20261022192049_8d2086b1",
-    "timestamp": "2026-10-22T19:20:49.450062+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1762 — devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig",
-      "url": "/community/issues/01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t/",
-      "file": "01762-devshard-host-bridge-drops-escrow-refusal-timeoutexecution-t.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard: host bridge drops escrow refusal_timeout/execution_timeout, so host and gateway can bind different SessionConfig\n    <span class=\"issues-number\">#1762</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-09-13 03:44 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-m"
-    },
-    "ai_description": "New issue #1762 from @kaileido highlights a bug where the host bridge drops escrow refusal and execution timeouts, potentially allowing hosts and gateways to bind different session configs. This closed issue matters because mismatched timeouts could lead to inconsistent session behavior across the network. Worth reviewing the fix to ensure escrow parameters stay aligned end-to-end."
-  },
-  {
-    "id": "evt_20261022192049_c010336b",
-    "timestamp": "2026-10-22T19:20:49.450075+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1769 — Fix warm-key verification across height-sync acknowledgement and repair paths",
-      "url": "/community/issues/01769-fix-warm-key-verification-across-height-sync-acknowledgement/",
-      "file": "01769-fix-warm-key-verification-across-height-sync-acknowledgement.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Fix warm-key verification across height-sync acknowledgement and repair paths\n    <span class=\"issues-number\">#1769</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 01:58 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
-    },
-    "ai_description": "New issue #1769 from @anatoly-kuz-mntn addresses a gap in warm-key verification during height-sync acknowledgement and repair workflows. This fix aims to close a potential security or consistency hole in those sync paths, so it's worth watching for anyone relying on reliable node state recovery. Head over to the issue to weigh in on the approach."
-  },
-  {
-    "id": "evt_20261022192049_2886b253",
-    "timestamp": "2026-10-22T19:20:49.450089+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1770 — Make height-sync heartbeat and cadence safe against DoS, partial persistence, and nonce exhaustion",
-      "url": "/community/issues/01770-make-height-sync-heartbeat-and-cadence-safe-against-dos-part/",
-      "file": "01770-make-height-sync-heartbeat-and-cadence-safe-against-dos-part.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Make height-sync heartbeat and cadence safe against DoS, partial persistence, and nonce exhaustion\n    <span class=\"issues-number\">#1770</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 01:58 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item"
-    },
-    "ai_description": "New issue #1770 by @anatoly-kuz-mntn proposes hardening the height-sync heartbeat and cadence against three attack vectors: DoS, partial persistence, and nonce exhaustion. The issue is already closed, which signals the community has reviewed and resolved the concern. This matters because it directly impacts network reliability under adversarial conditions, keeping the sync protocol robust for all participants."
-  },
-  {
-    "id": "evt_20261022192049_d3810c28",
-    "timestamp": "2026-10-22T19:20:49.450102+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1771 — Restore deterministic height-sync floor and heartbeat causality state from snapshots",
-      "url": "/community/issues/01771-restore-deterministic-height-sync-floor-and-heartbeat-causal/",
-      "file": "01771-restore-deterministic-height-sync-floor-and-heartbeat-causal.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Restore deterministic height-sync floor and heartbeat causality state from snapshots\n    <span class=\"issues-number\">#1771</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 02:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels"
-    },
-    "ai_description": "New issue #1771 opened by @anatoly-kuz-mntn proposes restoring deterministic height-sync floor and heartbeat causality state when loading from snapshots. This matters because it ensures the network can recover a consistent and predictable state after a restart, avoiding subtle synchronization gaps. A solid step toward stronger reliability for the inference network."
-  },
-  {
-    "id": "evt_20261022192049_0492742b",
-    "timestamp": "2026-10-22T19:20:49.450115+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1772 — all back to the direct chain oracle when the Comet tip cache becomes stale",
-      "url": "/community/issues/01772-all-back-to-the-direct-chain-oracle-when-the-comet-tip-cache/",
-      "file": "01772-all-back-to-the-direct-chain-oracle-when-the-comet-tip-cache.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    all back to the direct chain oracle when the Comet tip cache becomes stale\n    <span class=\"issues-number\">#1772</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-15 02:01 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"m"
-    },
-    "ai_description": "New issue #1772 from @anatoly-kuz-mntn proposes a fallback to the direct chain oracle whenever the Comet tip cache goes stale. This is a solid reliability improvement that ensures price data stays accurate even if the cache layer hiccups. Worth a look for anyone running Comet integrations.New issue #1772 from @anatoly-kuz-mntn proposes falling back to the direct chain oracle whenever the Comet tip cache becomes stale. This is a solid reliability fix that keeps price feeds accurate even when cached data lags, which should matter to anyone relying on Comet for timely oracle data."
-  },
-  {
-    "id": "evt_20261022192049_f50f4767",
-    "timestamp": "2026-10-22T19:20:49.450127+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1798 — devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them",
-      "url": "/community/issues/01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream/",
-      "file": "01798-devshard-gateway-inter-chunk-timeout-logs-stalled-sse-stream.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshard gateway: inter-chunk timeout logs stalled SSE streams but does not cancel them\n    <span class=\"issues-number\">#1798</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:37 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style"
-    },
-    "ai_description": "New issue #1798 opened by @aikuznetsov highlights a bug in the devshard gateway: when an inter-chunk timeout occurs, stalled SSE streams are only logged but never actually cancelled, leaving them hanging indefinitely. This matters because it can lead to resource leaks and degraded performance for the network. Worth a look for anyone running gateway nodes."
-  },
-  {
-    "id": "evt_20261022192049_eed328c5",
-    "timestamp": "2026-10-22T19:20:49.450142+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1799 — devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow",
-      "url": "/community/issues/01799-devshard-gateway-request-specific-insufficient-balance-deact/",
-      "file": "01799-devshard-gateway-request-specific-insufficient-balance-deact.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow\n    <span class=\"issues-number\">#1799</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/anatoly-kuz-mntn\">@anatoly-kuz-mntn</a> opened 2026-09-18 02:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"><"
-    },
-    "ai_description": "New issue #1799 from @anatoly-kuz-mntn proposes a fix for the devshard gateway where insufficient balance on a specific request currently deactivates and remints a usable escrow, disrupting ongoing operations. The proposal aims to isolate the balance check per request so a single shortfall doesn't invalidate the entire escrow. This matters because it would prevent unnecessary service interruptions for the community when individual requests hit temporary funding gaps."
-  },
-  {
-    "id": "evt_20261022192049_c528544a",
-    "timestamp": "2026-10-22T19:20:49.450155+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1800 — devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow",
-      "url": "/community/issues/01800-devshard-gateway-request-specific-insufficient-balance-deact/",
-      "file": "01800-devshard-gateway-request-specific-insufficient-balance-deact.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard gateway: request-specific insufficient balance deactivates and remints a usable escrow\n    <span class=\"issues-number\">#1800</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/aikuznetsov\">@aikuznetsov</a> opened 2026-09-18 02:49 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </"
-    },
-    "ai_description": "New issue #1800 from @aikuznetsov proposes a fix for the devshard gateway: when a request hits an insufficient balance, the escrow should be deactivated and reminted as usable, rather than being permanently lost. This addresses a critical edge case that could otherwise trap funds and disrupt inference requests. Worth a look for anyone running gateway infrastructure."
-  },
-  {
-    "id": "evt_20261022192049_d851e204",
-    "timestamp": "2026-10-22T19:20:49.450167+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1801 — Gateway allowlist request: icezoneproject",
-      "url": "/community/issues/01801-gateway-allowlist-request-icezoneproject/",
-      "file": "01801-gateway-allowlist-request-icezoneproject.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: icezoneproject\n    <span class=\"issues-number\">#1801</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/icezoneproject\">@icezoneproject</a> opened 2026-09-18 09:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div c"
-    },
-    "ai_description": "New gateway allowlist request #1801 has been opened by @icezoneproject to join the network. This is the first step in their onboarding, so the community can review and vote on adding them as an approved gateway. Stay tuned for the discussion and decision on their request.New gateway allowlist request #1801 has been opened by @icezoneproject to join the network. This is the first step in their onboarding, so the community can review and vote on adding them as an approved gateway. Stay tuned for the discussion and decision on their request."
-  },
-  {
-    "id": "evt_20261022192049_bb3be615",
-    "timestamp": "2026-10-22T19:20:49.450180+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1804 — gRPC/Connect host transport",
-      "url": "/community/issues/01804-grpcconnect-host-transport/",
-      "file": "01804-grpcconnect-host-transport.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    gRPC/Connect host transport\n    <span class=\"issues-number\">#1804</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-09-18 21:34 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</di"
-    },
-    "ai_description": "New issue #1804 by @tcharchian proposes adding a gRPC/Connect host transport to Gonka, and it has already been closed. This suggests the idea was quickly reviewed and resolved, so check the linked discussion to see what direction the community decided on for expanding transport options. Either way, it is a sign that protocol flexibility remains a live topic for the network."
   }
 ]
