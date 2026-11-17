@@ -17,7 +17,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#november-11-2026"
     },
-    "ai_description": null
+    "ai_description": "A new DevShard v6 release is now on the calendar, bringing real performance gains to the network. Testnet load tests show a 30–50% boost in sustained throughput, plus lower memory usage and smoother catch-up, all while improving stability and security. Check the release notes for the full breakdown."
   },
   {
     "id": "evt_20261116222632_2a415683",
@@ -37,7 +37,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-21-2026"
     },
-    "ai_description": null
+    "ai_description": "The governance vote for proposal id 96 has passed, approving changes to the invalid-inference check on small samples. This adjustment prevents premature misfires early in an epoch when data is still scarce, making the system more stable. No action is required from hosts.The on-chain vote for proposal id 96 has passed, approving changes to how invalid-inference checks behave on small samples. This fix stops the system from misfiring early in an epoch before enough data accumulates, keeping checks more stable. No action needed from hosts."
   },
   {
     "id": "evt_20261116222632_e6f3fa0b",
@@ -57,7 +57,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-9-2026_1"
     },
-    "ai_description": null
+    "ai_description": "The devshard v4.1 runtime proposal has officially entered governance as proposal id 100, adding this version to the approved list. Unlike a full chain upgrade, this is a lightweight on-chain params change that keeps the network running without halts or Cosmovisor involvement. If passed, versiond will verify and download the binary seamlessly, ensuring uninterrupted inference service for the community."
   },
   {
     "id": "evt_20261116222632_8f895db2",
@@ -77,7 +77,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-4-2026_1"
     },
-    "ai_description": null
+    "ai_description": "Devshard v4.0.2 is out now, fixing a critical restart bug where v4.0.1 would reload every stored session from nonce 1, causing long startup delays and 502 errors for clients. Hosts can manually update the binary now, with an automatic rollout planned later. This patch is key for keeping nodes responsive and reliable under heavy session loads."
   },
   {
     "id": "evt_20261116222632_9b5e793e",
@@ -97,7 +97,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-11-2026"
     },
-    "ai_description": null
+    "ai_description": "The on-chain vote for proposal 102 has officially passed, ratifying Quant Mesh Limited as the legal counterparty for the Gonka-Ledger integration. With community approval secured, 350,350 USDT has been allocated from the Community Pool to gonka1yqj5xf0 to fund the initial payment. This marks a key step forward in formalizing our partnership and advancing the Ledger integration."
   },
   {
     "id": "evt_20261116222632_f6f1a91d",
@@ -117,7 +117,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-14-2026"
     },
-    "ai_description": null
+    "ai_description": "The devshard v5 proposal (ID 104) has entered governance, seeking approval for the v5 version and distributing 91,300 USDT in contributor bounties from the community-sale contract. This is a devshard-only update via an on-chain params proposal, meaning no chain halt or Cosmovisor involvement. Community voting now determines whether these funds are unlocked and the new version gets the green light."
   },
   {
     "id": "evt_20261116222632_1c840621",
@@ -137,7 +137,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-12-2026"
     },
-    "ai_description": null
+    "ai_description": "The on-chain vote for proposal 103 has passed, approving 15,500 USDT from the Community Pool to reimburse Daniil and David Liberman for their Attendee Passes at the All-In Summit 2026. This funding supports the co-creators' participation in a major industry event, strengthening Gonka's presence and connections within the broader ecosystem."
   },
   {
     "id": "evt_20261116222632_2bdfff17",
@@ -157,7 +157,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#october-6-2026"
     },
-    "ai_description": null
+    "ai_description": "The network is now voting on upgrade proposal #112 for v0.2.16, which introduces a key change to how governance power is calculated. Under the new rules, a sudden spike in claimed compute will no longer instantly boost a participant's influence in governance, BLS, and PoC validation. This separation of upgrade and bounty votes into distinct proposals is a solid step toward fairer and more stable network control."
   },
   {
     "id": "evt_20261116222632_4afb4c1d",
@@ -177,7 +177,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-16-2026"
     },
-    "ai_description": null
+    "ai_description": "The devshard v5 proposal is back on the governance table as proposal 105, resubmitting the previous 104. If approved, it adds v5 to the approved versions and distributes 91,300 USDT in contributor bounties from the community-sale contract—all without any chain halt or disruption to inference. This is a devshard-only update, so the community can vote with confidence that service stays uninterrupted."
   },
   {
     "id": "evt_20261116222632_09b87bed",
@@ -197,7 +197,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-18-2026"
     },
-    "ai_description": null
+    "ai_description": "The calendar now includes a new event, \"How to read the dashboard,\" marking a major milestone where the chain is ready to roll out devshard settlement. This first stage, powered by a stabilized gateway, will boost network security and reliability, with live traffic stats available at the provided link. Check it out to understand the metrics behind this important step forward."
   },
   {
     "id": "evt_20261116222632_b93cf52f",
@@ -217,7 +217,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-14-2026_1"
     },
-    "ai_description": null
+    "ai_description": "A new calendar entry has been added for the MLNode 3.0.16 rollout. If your nodes are already updated, no action is needed, but those still on older versions serving Kimi or MiniMax should migrate gradually, not all at once, to confirm stability first. This phased approach helps keep the network reliable during the transition."
   },
   {
     "id": "evt_20261116222632_f9dd6fc4",
@@ -237,7 +237,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-18-2026_1"
     },
-    "ai_description": null
+    "ai_description": "The on-chain vote for proposal 104, which sought to approve devshard v5 and bounty payouts, has been rejected. While all 25,291 votes cast were in favor with zero opposition, the proposal failed because turnout was only about 6% of network weight, falling well short of the required 25% quorum. This means the community simply didn't participate enough to pass the measure, highlighting the need for greater engagement in future governance votes."
   },
   {
     "id": "evt_20261116222632_b83c1fc1",
@@ -257,7 +257,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-25-2026_1"
     },
-    "ai_description": null
+    "ai_description": "Proposal 97 is now live for on-chain voting, proposing to raise the weight_scale_factor for DeepSeek V4 Flash from 0.214 to 0.246 while keeping all other parameters intact. Voting closes on Aug 27, 03:47 UTC, so head over and cast your vote to help shape the network's inference configuration."
   },
   {
     "id": "evt_20261116222632_2aa1c310",
@@ -277,7 +277,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-29-2026"
     },
-    "ai_description": null
+    "ai_description": "The on-chain governance vote for proposal id 98 has concluded, and it was approved. This increases the weight_scale_factor for DeepSeek V4 Flash from 0.214 to 0.246, a resubmission of the previously failed proposal 97. This adjustment fine-tunes the model's resource weighting without affecting other parameters, keeping the network's allocation fair and up to date."
   },
   {
     "id": "evt_20261116222632_627ac815",
@@ -297,7 +297,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-18-2026"
     },
-    "ai_description": null
+    "ai_description": "The on-chain vote for proposal id 105 has passed, approving DevShard v5 and its associated bounty payouts with 123,754 votes in favor and none against. This adds the v5 binary to the approved versions on chain, keeping the network aligned with the latest devshard release. A clear win for the community's governance process."
   },
   {
     "id": "evt_20261116222632_d498e655",
@@ -317,7 +317,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#october-15-2026"
     },
-    "ai_description": null
+    "ai_description": "Governance proposal #115 is now open for voting. It seeks to widen the dynamic Proof-of-Correctness coefficient ranges for GLM-5.3-Flash and DeepSeek-V4-Flash, significantly raising their maximum coefficients and relative difficulty levels. This change aims to better calibrate task rewards and alignment with model performance, so head over to the calendar and cast your vote."
   },
   {
     "id": "evt_20261116222632_5f875335",
@@ -337,7 +337,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#october-7-2026"
     },
-    "ai_description": null
+    "ai_description": "The on-chain governance vote for Upgrade Proposal v0.2.16 (proposal id 112) has concluded, and the upgrade is now live on mainnet at block 6449400. This approved update brings important improvements to the network, so check the proposal details to see what changed. Thanks to everyone who participated in the vote!"
   },
   {
     "id": "evt_20261116222632_1591458f",
@@ -357,7 +357,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-14-2026"
     },
-    "ai_description": null
+    "ai_description": "DeepSeek V4 Flash is now live on Gonka, marking the completion of the bootstrap stage from proposal 94. As of chain epoch 360, it joins MiniMax-M2.7 and Kimi K2.6 as an active model group, with PoC weight converting into consensus weight at a calibrated coefficient of 0.2. This expands the network's inference diversity and strengthens the transition from proof-of-concept to full consensus."
   },
   {
     "id": "evt_20261116222632_7fde08d2",
@@ -377,7 +377,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-11-2026_1"
     },
-    "ai_description": null
+    "ai_description": "The on-chain governance vote for proposal id 100 has concluded, and devshard v4.1 has been officially approved and added to the network. This new runtime is now live alongside v3 and v4, with automatic binary verification and deployment — no manual host action required."
   },
   {
     "id": "evt_20261116222632_aa7d8d35",
@@ -397,7 +397,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#october-11-2026"
     },
-    "ai_description": null
+    "ai_description": "Proposal #114 is now open for voting, seeking to stabilize the DevShard v4 line with the v4.2 release while removing v5 from the approved versions and keeping v4.1 unchanged. This paves the way for a future move to a stable v6 release. Head over to the link to review the details and cast your vote before October 14 at 04:46 UTC."
   },
   {
     "id": "evt_20261116222632_4ba06af2",
@@ -417,7 +417,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#october-2-2026"
     },
-    "ai_description": null
+    "ai_description": "Proposal 109, which bundled the v0.2.16 upgrade with 104,150 USDT in bounty payments, was rejected despite zero opposition. The vote failed because turnout didn't hit the required 25% quorum, so the community's silence on this one carried the day. It's a reminder that participation matters, even when a proposal seems uncontroversial."
   },
   {
     "id": "evt_20261116222632_5684a90f",
@@ -437,7 +437,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-27-2026"
     },
-    "ai_description": null
+    "ai_description": "The on-chain vote for proposal 108 has passed, approving DevShard v5.0.2, which fixes a critical issue by capping Postgres payload pools that were causing node outages. The network now supports v4.1 and v5.0.2, with older v3 and v4 versions removed. Operators should update to the latest version to ensure stability and continued participation."
   },
   {
     "id": "evt_20261116222632_a444ae31",
@@ -457,7 +457,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-25-2026"
     },
-    "ai_description": null
+    "ai_description": "The PR for the devshard-only upgrade is now open for review. This upgrade updates the devshard runtime independently from the main blockchain, avoiding full-node coordination and downtime for inference serving, and if approved via governance, the new devshard v5 runtime will run in parallel. A great step for smoother, non-disruptive network improvements!"
   },
   {
     "id": "evt_20261116222632_608307dd",
@@ -477,7 +477,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-9-2026"
     },
-    "ai_description": null
+    "ai_description": "Proposal 101 has been added to the calendar, aiming to refresh the PoC model lineup by adding GLM-5.3-Flash while removing Kimi-K2.6 and GLM-5.2-FP8. This keeps the inference network current with the latest models, while MiniMax-M2.7 and DeepSeek-V4-Flash-0731 remain untouched."
   },
   {
     "id": "evt_20261116222632_94b2ab75",
@@ -497,7 +497,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#october-7-2026_1"
     },
-    "ai_description": null
+    "ai_description": "The Gonka community calendar now marks the v0.2.16 upgrade proposal, with voting closing on October 8, 2026, and the network upgrade expected to go live at block height 6,449,400 shortly after. Hosts should pre-download the new binaries ahead of the estimated 05:48 AM UTC activation to ensure a smooth transition. Check the GitHub link for full proposal details and get ready for the network update."
   },
   {
     "id": "evt_20261116222632_dd22e6fe",
@@ -517,7 +517,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-22-2026"
     },
-    "ai_description": null
+    "ai_description": "The next on-chain software upgrade, v0.2.16, is now open for community review via pull request #1535. Your feedback matters — meaningful comments, bug discoveries, and security findings could earn community bounties in the upcoming upgrade cycle. Head over to the repository to help shape the mainnet's future."
   },
   {
     "id": "evt_20261116222632_b4c0539e",
@@ -537,7 +537,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#october-14-2026"
     },
-    "ai_description": null
+    "ai_description": "The on-chain vote for proposal #114 has passed, approving DevShard v4.2 with production fixes and performance upgrades to the v4 runtime. The approved versions are now v4.1 and v4.2, while v5 has been removed from the list. This keeps the network stable and focused on proven, reliable iterations."
   },
   {
     "id": "evt_20261116222632_29a261af",
@@ -557,7 +557,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-4-2026"
     },
-    "ai_description": null
+    "ai_description": "Proposal 99 has officially passed, approving 100,000 USDT from the Community Pool to fund Gonka's Gold Sponsorship and logistics at TOKEN2049 Singapore in October 2026. This is a major win for our visibility, putting Gonka directly in front of the global Web3 audience at one of the industry's biggest events. Get ready to see us shine on the Marina Bay Sands stage."
   },
   {
     "id": "evt_20261116222632_678c19d2",
@@ -577,7 +577,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-16-2026_1"
     },
-    "ai_description": null
+    "ai_description": "GLM-5.3-Flash is now live on mainnet as an active model group starting at epoch 395, so it's ready for inference serving. If you want to host it, declare your intent and provision your MLNode during the deploy window, which opens 500 blocks before the next PoC start. Note that the non-participation penalty applies, so make your participation choice carefully to avoid penalties."
   },
   {
     "id": "evt_20261116222632_ab96afe7",
@@ -597,7 +597,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#august-20-2026"
     },
-    "ai_description": null
+    "ai_description": "Proposal 96 is now live for on-chain voting, aiming to stabilize the invalid-inference check early in an epoch when sample sizes are still small. By raising the invalidation threshold to 40, it prevents the system from reacting to just a few invalid results before enough data accumulates. Head over to the governance portal to cast your vote and help make the network's quality checks more robust."
   },
   {
     "id": "evt_20261116222632_94aad6e3",
@@ -617,7 +617,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-30-2026"
     },
-    "ai_description": null
+    "ai_description": "The v0.2.16 upgrade proposal (ID 109) is now live on-chain and open for voting. This proposal targets key mainnet improvements including trusted weight, dynamic coefficients, transaction fee groups, and PoC Challenge, with approved changes limiting governance, BLS, and PoC validation power to compute-confirmed operations. Head over to governance and cast your vote to shape the network's next evolution."
   },
   {
     "id": "evt_20261116222632_09e50c63",
@@ -637,7 +637,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#october-17-2026"
     },
-    "ai_description": null
+    "ai_description": "The on-chain vote for proposal #115 has passed, updating the dynamic Proof-of-Contribution coefficient ranges for several models. MiniMax-M2.7 is now fixed at 0.3024, while GLM-5.3-Flash and DeepSeek-V4-Flash-0731 receive wider allowable bounds, giving the network more flexibility in adjusting inference rewards. This change helps optimize resource allocation across the community."
   },
   {
     "id": "evt_20261116222632_6b460be6",
@@ -657,7 +657,7 @@
       "event_type": "network_update",
       "url": "/gonka/docs/network-updates/#september-25-2026"
     },
-    "ai_description": null
+    "ai_description": "Proposal 108 is now open for voting, addressing a critical DevShard node failure caused by excessive Postgres connections on multicore hosts. The v5.0.2 fix caps payload pools and retires v3 and v4, so make sure to cast your vote before 27 September, 00:03 UTC to keep the network stable."
   },
   {
     "id": "evt_20261116203933_4cf8efc9",
