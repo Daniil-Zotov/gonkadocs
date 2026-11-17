@@ -2,7 +2,7 @@
 title: "#1906 — Preserve settlement decision across restart for pending escrows"
 source: https://github.com/gonka-ai/gonka/issues/1906
 issue_number: 1906
-synced_at: 2026-11-17T04:00:35Z
+synced_at: 2026-11-17T13:38:29Z
 template: issues-main.html
 ---
 

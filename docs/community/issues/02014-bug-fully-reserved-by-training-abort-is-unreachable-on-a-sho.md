@@ -2,7 +2,7 @@
 title: "#2014 — [BUG] fully_reserved_by_training abort is unreachable on a short segment"
 source: https://github.com/gonka-ai/gonka/issues/2014
 issue_number: 2014
-synced_at: 2026-11-17T04:00:01Z
+synced_at: 2026-11-17T13:37:53Z
 template: issues-main.html
 ---
 

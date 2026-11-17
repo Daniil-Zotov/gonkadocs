@@ -6,11 +6,26 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **336**.
-Updated: `2026-11-17 04:04 UTC`.
+Updated: `2026-11-17 13:42 UTC`.
 
 [← All Issues](../../index.md)
 
 <ul class="issues-list">
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../02249-devshard-mempool-decoded-message-limits-and-late-gossip-rete/">DevShard mempool: decoded-message limits and late gossip retention</a>
+      <span class="issues-number">#2249</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 8 hours ago</span>
+      
+    </div>
+  </div>
+</li>
 <li class="issues-list-item">
   <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
@@ -21,7 +36,7 @@ Updated: `2026-11-17 04:04 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/yaUrich">@yaUrich</a> opened 9 hours ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/yaUrich">@yaUrich</a> opened 19 hours ago</span>
       
     </div>
   </div>
@@ -51,7 +66,7 @@ Updated: `2026-11-17 04:04 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/jgfb9271-cyber">@jgfb9271-cyber</a> opened 2 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/jgfb9271-cyber">@jgfb9271-cyber</a> opened 3 days ago</span>
       
     </div>
   </div>
@@ -90,28 +105,13 @@ Updated: `2026-11-17 04:04 UTC`.
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
-      <a href="../../02249-devshard-mempool-decoded-message-limits-and-late-gossip-rete/">DevShard mempool: decoded-message limits and late gossip retention</a>
-      <span class="issues-number">#2249</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 8 days ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
       <a href="../../02247-p0-basic-primitives-for-training-stage-3/">[P0] Basic primitives for training: stage 3</a>
       <span class="issues-number">#2247</span>
     </div>
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 8 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 9 days ago</span>
       
     </div>
   </div>
@@ -126,7 +126,7 @@ Updated: `2026-11-17 04:04 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 9 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 10 days ago</span>
       
     </div>
   </div>
@@ -186,7 +186,7 @@ Updated: `2026-11-17 04:04 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 10 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 11 days ago</span>
       
     </div>
   </div>
@@ -231,7 +231,7 @@ Updated: `2026-11-17 04:04 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 11 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 12 days ago</span>
       
     </div>
   </div>
@@ -246,7 +246,7 @@ Updated: `2026-11-17 04:04 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 11 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 12 days ago</span>
       
     </div>
   </div>
@@ -261,7 +261,7 @@ Updated: `2026-11-17 04:04 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 11 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 12 days ago</span>
       
     </div>
   </div>
@@ -276,7 +276,7 @@ Updated: `2026-11-17 04:04 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 11 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 12 days ago</span>
       
     </div>
   </div>
@@ -606,7 +606,7 @@ Updated: `2026-11-17 04:04 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/redstartechno">@redstartechno</a> opened 24 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/redstartechno">@redstartechno</a> opened 25 days ago</span>
       
     </div>
   </div>
@@ -621,7 +621,7 @@ Updated: `2026-11-17 04:04 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 25 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 26 days ago</span>
       
     </div>
   </div>

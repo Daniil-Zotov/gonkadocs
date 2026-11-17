@@ -2,7 +2,7 @@
 title: "#2037 — [BUG, LOW] A failed inline catch-up read leaves a committed Start with funds reserved"
 source: https://github.com/gonka-ai/gonka/issues/2037
 issue_number: 2037
-synced_at: 2026-11-17T03:59:43Z
+synced_at: 2026-11-17T13:37:31Z
 template: issues-main.html
 ---
 

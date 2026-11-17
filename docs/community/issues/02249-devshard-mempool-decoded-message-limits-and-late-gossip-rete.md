@@ -2,7 +2,7 @@
 title: "#2249 — DevShard mempool: decoded-message limits and late gossip retention"
 source: https://github.com/gonka-ai/gonka/issues/2249
 issue_number: 2249
-synced_at: 2026-11-17T03:59:12Z
+synced_at: 2026-11-17T13:36:55Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 2026-11-08 18:38 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-08 18:38 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-17 05:34 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -104,6 +104,24 @@ The historical signature-filtering PR was read but not built, neither a complete
 
 No new public issue or PR has been created, recheck current PR heads before attaching these results, attach both companion tests so the report remains reproducible
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-11-17 05:34 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Follow-up verification (2026-11-17) to help scope any further work: I checked <code>devshard/v7</code> at <code>34ddd777475be05f583945add3c275b490f3cf39</code>, #2226 at <code>237b94ff0392f0bb2210e8fb8d2c8b7abbb42901</code>, and #2042 at <code>ddc0b31a116978f7c520cf9a24d61bd38325ccd7</code>.</p>
+<p>The current production <code>devshardd</code> HostManager <a href="https://github.com/gonka-ai/gonka/blob/34ddd777475be05f583945add3c275b490f3cf39/devshard/cmd/devshardd/session/manager.go#L2287-L2310">leaves gossip unwired</a>. The existing <code>TestRecoverSessions_HappyPath</code> passed and checks that inbound gossip does not populate its mempool. With gossip explicitly wired, my combined signed HTTP RPC → real Server → Host fixture reproduced the already-applied Finish being retained and returned at nonce 20 on the shared branch and #2226, using <strong>v6 session protocol</strong>. With gossip unwired, the same late delivery retained zero entries. This supports the local retention finding; it does not establish that this gossip path is active in a deployed production host.</p>
+<p>There is now partial overlap with #2042, which is still an open draft. In a <strong>v7 session</strong>, its <a href="https://github.com/gonka-ai/gonka/blob/ddc0b31a116978f7c520cf9a24d61bd38325ccd7/devshard/host/mempool_auth.go">logical mempool cleanup</a> removed the genuine late Finish when <code>Host.MempoolTxs()</code> ran: raw count after RPC = 1, after cleanup = 0. That cleanup is protocol-gated; the v6 control still retained the duplicate. This is worth coordinating with before implementing another stale-Finish fix.</p>
+<p>Cumulative retention remains a separate gap in these explicitly wired fixtures. Three batches of 32,768 distinct, slot-owner-signed Finish transactions left 98,304 entries after replay and <code>PruneBelow</code>; on #2042 in v7 mode they also survived authorization/logical cleanup. These referenced <strong>unknown future inference IDs</strong>, not 98,304 completed inferences. #2226 correctly rejected the single-message 65,537-entry control. A follow-up therefore still needs an explicit cumulative admission/retention policy while preserving legitimate pending recovery work.</p>
+<p>Scope: Go 1.25.9, darwin/arm64, local HTTP loopback, actual Attach/signed envelopes and Server membership handling, real Host/state/mempool, stub inference engine and v7 chain-proof oracle. No deployed traffic, OOM, throughput, or retained-memory measurement. These were additional local characterization fixtures, not the companion files listed in the issue.</p>
+  </div>
 </div>
 
 ---

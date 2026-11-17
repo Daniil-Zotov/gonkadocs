@@ -2,7 +2,7 @@
 title: "#2234 — Maintenance window: Review & activation"
 source: https://github.com/gonka-ai/gonka/issues/2234
 issue_number: 2234
-synced_at: 2026-11-17T03:59:06Z
+synced_at: 2026-11-17T13:36:54Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 2026-11-06 06:14 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-16 11:40 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-17 07:53 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #c2e0c6; color: #24292f; border-color: #c2e0c6;">Priority: Low</span></div>
 </div>
@@ -27,7 +27,7 @@ template: issues-main.html
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -86,6 +86,18 @@ template: issues-main.html
 - With <code>signed_blocks_window = 100</code> and <code>min_signed_per_window = 0.5</code>, an outage of up to 50 blocks never jails. A window starts to help above 50 blocks, which is 3 epochs of credit; a full 200-block window (18.7 min) takes 10 epochs. Worth stating in the host docs.
 - Devshard does not know about maintenance: escrow slots are drawn for hosts in a window, and settlement misses are waived only for PoC challenges. <code>GetRandomExecutor</code> and the expiry waiver cover the classic path only. The cost today is small: 200 blocks is 1.3% of an epoch against the 10% reward test, and the median host miss rate in epoch 457 was 1.2%. Still, the gateway could skip hosts in an active window.</p>
 <p>Params and validator sets are from public mainnet RPC; I can share the two scripts. Code was read, not run.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/Ryanchen911">@Ryanchen911</a></span>
+    <span class="issues-meta-item">commented 2026-11-17 05:45 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>I implemented the original maintenance windows in #998. I'll take the DKG overlap fix first, then a separate follow-up for the confirmation PoC exemption, coordinating with #1850 and #2212.</p>
+<p>The DKG PR will cover the full critical interval, boundary and cross-epoch cases, and agreement between the schedulability query and the transaction. The CPoC follow-up will cover maintenance overlapping the event but completed before evaluation, with protection against reactive scheduling and the same-trigger-block case.</p>
+<p>I'll also add activation regressions for preserved weight/collateral during covered downtime and normal duties and penalties after the window ends.</p>
+<p>Update: the DKG fix is in #2275 and the CPoC fix is in #2276. The activation regression also exposed a separate existing slashing-wiring omission: dependency injection copies the keeper into the module before the maintenance checker is attached, so ACTIVE maintenance still accumulates missed signatures. #2278 fixes that application wiring and carries the downtime/recovery regression; the registered-module test reproduces the failure before the fix and passes afterward.</p>
   </div>
 </div>
 
