@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261117223240_108e0698",
+    "timestamp": "2026-11-17T22:32:40.040282+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2281 — [Devshard] cPoC skip protocol (devshard) — proposal",
+      "url": "/community/issues/02281-devshard-cpoc-skip-protocol-devshard-proposal/",
+      "file": "02281-devshard-cpoc-skip-protocol-devshard-proposal.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [Devshard] cPoC skip protocol (devshard) — proposal\n    <span class=\"issues-number\">#2281</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-17 19:41 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"><span class=\"issue"
+    },
+    "ai_description": "A new proposal #2281 by @tcharchian introduces a cPoC skip protocol for devshards, aiming to optimize the inference workflow by allowing certain proof-of-computation checks to be bypassed where appropriate. This could streamline operations and reduce overhead, so the community should review the technical details and share feedback on the open issue."
+  },
+  {
+    "id": "evt_20261117223240_e843f185",
+    "timestamp": "2026-11-17T22:32:40.040308+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2282 — Skip protocol-level inferences for participants in the confirmation PoC phase and revisit the discussion in https://github.com/gonka-ai/gonka/pull/1289",
+      "url": "/community/issues/02282-skip-protocol-level-inferences-for-participants-in-the-confi/",
+      "file": "02282-skip-protocol-level-inferences-for-participants-in-the-confi.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Skip protocol-level inferences for participants in the confirmation PoC phase and revisit the discussion in https://github.com/gonka-ai/gonka/pull/1289\n    <span class=\"issues-number\">#2282</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-11-17 19:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-"
+    },
+    "ai_description": "New issue #2282 has been opened by @tcharchian to propose skipping protocol-level inferences for participants still in the confirmation proof-of-concept phase. The goal is to revisit the discussion from PR #1289 to streamline the network during early testing. This matters because it could reduce unnecessary computational load while the confirmation mechanism is being validated."
+  },
+  {
     "id": "evt_20261117134224_251b9a44",
     "timestamp": "2026-11-17T13:42:24.193227+00:00",
     "section": "issues",
@@ -8190,37 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Personal / Solo-use Inference Gateway — Allowlist Request\n    <span class=\"issues-number\">#1624</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/AndreyVoenkov\">@AndreyVoenkov</a> opened 2026-08-22 11:11 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n"
     },
     "ai_description": "New issue #1624 has been opened by @AndreyVoenkov requesting allowlist approval for a personal, solo-use inference gateway. This matters because it outlines a use case for individual access to the network, which could affect how the community handles dedicated deployments. Feel free to review and share your thoughts on the request."
-  },
-  {
-    "id": "evt_20261022192049_fb096478",
-    "timestamp": "2026-10-22T19:20:49.449689+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1628 — [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models",
-      "url": "/community/issues/01628-bug-public-routers-hangtimeout-on-prompts-75k-tokens-prefill/",
-      "file": "01628-bug-public-routers-hangtimeout-on-prompts-75k-tokens-prefill.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] Public routers hang/timeout on prompts ≥ ~7.5K tokens (prefill); 502 `all_providers_failed`; DeepSeek missing from /v1/models\n    <span class=\"issues-number\">#1628</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/inecro1\">@inecro1</a> opened 2026-08-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div"
-    },
-    "ai_description": "A new bug report has been filed detailing issues with public routers timing out on prompts of roughly 7.5K tokens or more, leading to 502 errors and a missing DeepSeek model from the /v1/models endpoint. This is critical for anyone relying on longer context windows, so please track the issue and share any relevant logs or repro steps to help the team isolate the problem quickly."
-  },
-  {
-    "id": "evt_20261022192049_1796c5a6",
-    "timestamp": "2026-10-22T19:20:49.449703+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1632 — OpenBroker strips provider prompt-cache metadata (prompt_tokens_details is always null)",
-      "url": "/community/issues/01632-openbroker-strips-provider-prompt-cache-metadata-prompt-toke/",
-      "file": "01632-openbroker-strips-provider-prompt-cache-metadata-prompt-toke.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    OpenBroker strips provider prompt-cache metadata (prompt_tokens_details is always null)\n    <span class=\"issues-number\">#1632</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/theaungmyatmoe\">@theaungmyatmoe</a> opened 2026-08-24 06:38 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </d"
-    },
-    "ai_description": "OpenBroker is currently dropping prompt-cache metadata from providers, leaving prompt_tokens_details always null. This issue, now closed, highlights a gap in cache transparency that matters for cost and performance tracking. Thanks to @theaungmyatmoe for flagging it and pushing the network toward clearer token reporting. More accurate cache data means better optimization for everyone running inference jobs."
   }
 ]

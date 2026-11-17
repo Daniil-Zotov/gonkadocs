@@ -2,7 +2,7 @@
 title: "#2049 — Important! ChallengeReceipt memory overflows"
 source: https://github.com/gonka-ai/gonka/issues/2049
 issue_number: 2049
-synced_at: 2026-11-17T13:37:56Z
+synced_at: 2026-11-17T22:29:25Z
 template: issues-main.html
 ---
 
