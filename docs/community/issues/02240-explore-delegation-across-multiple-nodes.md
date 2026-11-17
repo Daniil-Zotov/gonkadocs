@@ -2,7 +2,7 @@
 title: "#2240 — Explore delegation across multiple nodes"
 source: https://github.com/gonka-ai/gonka/issues/2240
 issue_number: 2240
-synced_at: 2026-11-16T20:33:45Z
+synced_at: 2026-11-17T03:59:21Z
 template: issues-main.html
 ---
 
