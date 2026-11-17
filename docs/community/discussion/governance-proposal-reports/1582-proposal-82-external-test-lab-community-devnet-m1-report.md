@@ -3,7 +3,7 @@ title: "#1582 — Proposal #82: External Test Lab & Community DevNet — M1 Rep
 source: https://github.com/gonka-ai/gonka/discussions/1582
 discussion_number: 1582
 category: governance-proposal-reports
-synced_at: 2026-11-17T13:08:49Z
+synced_at: 2026-11-17T22:12:05Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1582](https://github.com/gonka-ai/gonka/discussions/1582) every hour. 
