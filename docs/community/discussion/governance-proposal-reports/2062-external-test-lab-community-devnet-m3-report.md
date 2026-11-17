@@ -3,7 +3,7 @@ title: "#2062 — External Test Lab & Community DevNet — M3 Report"
 source: https://github.com/gonka-ai/gonka/discussions/2062
 discussion_number: 2062
 category: governance-proposal-reports
-synced_at: 2026-11-16T20:19:28Z
+synced_at: 2026-11-17T03:42:39Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2062](https://github.com/gonka-ai/gonka/discussions/2062) every hour. 
