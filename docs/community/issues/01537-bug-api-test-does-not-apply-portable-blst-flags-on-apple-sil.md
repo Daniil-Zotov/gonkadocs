@@ -2,7 +2,7 @@
 title: "#1537 — [BUG] api-test does not apply portable BLST flags on Apple Silicon"
 source: https://github.com/gonka-ai/gonka/issues/1537
 issue_number: 1537
-synced_at: 2026-11-17T22:30:12Z
+synced_at: 2026-11-18T04:33:11Z
 template: issues-main.html
 ---
 
