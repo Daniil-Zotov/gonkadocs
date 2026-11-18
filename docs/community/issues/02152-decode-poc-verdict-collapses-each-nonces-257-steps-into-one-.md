@@ -2,7 +2,7 @@
 title: "#2152 — Decode PoC verdict collapses each nonce's 257 steps into one bit, letting MiniMax hosts commit 8-20% zero-work nonces"
 source: https://github.com/gonka-ai/gonka/issues/2152
 issue_number: 2152
-synced_at: 2026-11-18T04:32:14Z
+synced_at: 2026-11-18T14:16:00Z
 template: issues-main.html
 ---
 
