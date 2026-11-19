@@ -2,7 +2,7 @@
 title: "#596 — Batching for StartInference / FinishInference"
 source: https://github.com/gonka-ai/gonka/issues/596
 issue_number: 596
-synced_at: 2026-11-19T03:44:14Z
+synced_at: 2026-11-19T13:33:24Z
 template: issues-main.html
 ---
 
