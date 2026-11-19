@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-11-18T18:32:24.805066+00:00",
+  "snapshot_time": "2026-11-19T00:53:02.845571+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "eff5f26284735e7ae25d3fbc59f83ac48e954e971af62bd7dc337cf6154a0cb2"
+      "checksum": "1b6fd99a27a507babbbb585974e63f6a9c7067fdf56ce9ae7834189e83973eb3"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -66,7 +66,7 @@
       "title": "Ethereum bridge overview",
       "status": null,
       "content_preview": "# Ethereum bridge overview\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n[View the bridge contract on Etherscan](https://etherscan.io/address/0x972a7a92d92796a98801a8818bcf91f1648f2f68){target=_blank}\n\n!!! important \"This address is also the WGNK token\"\n    The bridge contract **is** the **WGNK** ERC-20 token — they are one and the same contract at this address, not two separate contracts. So the Etherscan page above is simultaneously the bridge and the WGNK token. Wrapped ERC-20 tok",
-      "checksum": "5758b83592a9ef699213fe844d58e705a19c99a8db4756af3d44ad21440cdf2a"
+      "checksum": "e5e8022ff69b96f9b7114a5d8029c76a3dd17dd02bc796bdbd4b0d3e938e06a6"
     },
     "cross-chain-transfers/ethereum-bridge/register-token.md": {
       "title": "Register a bridge token",
@@ -138,7 +138,7 @@
       "title": "Run your own gateway",
       "status": null,
       "content_preview": "# Run your own gateway\n\nThis guide explains how to run a Gonka devshard gateway on **gonka-mainnet** without installing a full chain node. You will deploy the gateway on your own Linux host, fund a dedicated escrow creator address, open an on-chain devshard escrow, send OpenAI-compatible inference requests, and settle the escrow when you are finished.\n\nIf you want to **become a broker** without running your own allow-listed gateway, use **[OpenBroker](https://openbroker.gonka.gg)** - that is the recommended path (see [Developer Quickstart §3](quickstart.md#3-interested-in-operating-a-gateway)). Continue with this guide only when you specifically need a self-hosted on-chain gateway.\n\n### Allowlisted creator address required\n\n> **Prerequisite:** The `gonka1…` address for your devshard escrow",
-      "checksum": "aa1841694f63983f65bfb79834025bef6101b8b449c40be42ae79fda30724040"
+      "checksum": "2f5b24155ce6e67f7e97d0cfb937feb3e6c75448d17b7b8444d12ba37546f345"
     },
     "developer/quickstart.md": {
       "title": "Developer Quickstart",

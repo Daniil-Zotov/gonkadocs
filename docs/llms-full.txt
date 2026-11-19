@@ -58,19 +58,17 @@ GNK is the native coin of the Gonka network. It is used to incentivize participa
 
 Native GNK is **not listed on any centralized exchange (CEX)** yet, so you cannot buy it on a CEX. Follow official announcements on [Twitter](https://x.com/gonka_ai) for any updates regarding listings.
 
-There are, however, two legitimate ways to obtain GNK today:
-
-- **Mine as a Host.** Contribute computational resources to the network and earn GNK directly. See [mine as a Host](https://gonka.ai/host/quickstart/).
-- **Buy WGNK on Ethereum and bridge it back to GNK.** GNK can be bridged to Ethereum as **WGNK** (wrapped GNK), which is a standard ERC-20 that trades on DEXs such as Uniswap. You can buy WGNK there and then [bridge it back to native GNK](cross-chain-transfers/ethereum-bridge/withdraw-gnk.md). See the [Ethereum bridge overview](cross-chain-transfers/ethereum-bridge/overview.md).
+You can obtain GNK by mining as a Host. Contribute computational resources to the network and earn GNK directly. See [mine as a Host](https://gonka.ai/host/quickstart/).
 
 > **Track WGNK price and market data**
 	You can follow WGNK (wrapped GNK) price, market cap, and trading volume on:
 
 	- [CoinGecko](https://www.coingecko.com/en/coins/wrapped-gonka)
 	- [CoinMarketCap](https://coinmarketcap.com/currencies/gonka/)
-	- [Uniswap](https://app.uniswap.org/explore/tokens/ethereum/0x972a7a92d92796a98801a8818bcf91f1648f2f68)
 
-> **Verify the contract address before trading**
+> **Do not trade GNK**
+	The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge or trade GNK until further notice.
+
 	The **only** official Ethereum representation of GNK is **WGNK** at `0x972a7a92d92796a98801a8818bcf91f1648f2f68` — this address is both the bridge contract and the WGNK ERC-20 token. Always confirm any listing or trade resolves to this exact address.
 
 	Fake GNK listings and pages still exist on other trackers and networks: any coin claiming to be GNK on Solana, or on any contract other than the WGNK address above, is **not** an official GNK asset. Always verify information through official channels.
@@ -10255,12 +10253,7 @@ Transfer time depends on the direction:
 
 ## Bridge vs. exchange
 
-The bridge only **locks an asset on one chain and releases it on the other** — it does not swap one asset for another. Trading happens on **separate** contracts:
-
-* On Ethereum, e.g. swap **WGNK ↔ USDC** on a DEX such as Uniswap.
-* On Gonka, swap wrapped tokens via the on-chain liquidity pool.
-
-So a typical "sell GNK on Ethereum" flow is: bridge GNK → WGNK to Ethereum, then trade WGNK for another token on a DEX.
+The bridge only **locks an asset on one chain and releases it on the other** — it does not swap one asset for another. Trading happens on **separate** contracts. On Gonka, wrapped tokens can be swapped via the on-chain liquidity pool.
 
 ## Bridge vs. IBC
 
@@ -11208,9 +11201,9 @@ inferenced query bank balances "$DEVSHARD_CREATOR" \
 
 Send enough **ngonka** to cover the escrow deposit (`5000000000` in the example if that is ≥ `min_amount`), plus create/settle gas and transaction fees. If you will enable automatic escrow rotation ([Escrow lifetime and rotation](#escrow-lifetime-and-rotation)), fund the creator for **several** deposits per epoch—not only the one manual escrow in [§4](#4-create-an-escrow-and-open-api-access).
 
-> **How to get GNK**
+> **Bridge paused**
 
-    GNK is available as WGNK (wrapped GNK) on Ethereum. Acquire WGNK on a DEX or through a peer transfer, then bridge it to Gonka using the [dashboard bridge UI](https://gonka.ai/cross-chain-transfers/ethereum-bridge/dashboard/). The dashboard derives the correct `gonka1…` address from your Ethereum wallet and handles the deposit without CLI tools.
+    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge or trade GNK until further notice.
 
 ---
 
@@ -32990,7 +32983,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-118 proposals across 6 quarters. Last updated: 2026-11-18 22:01 UTC
+118 proposals across 6 quarters. Last updated: 2026-11-19 00:19 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
