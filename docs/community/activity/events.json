@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261119222000_87c823c6",
+    "timestamp": "2026-11-19T22:20:00.072726+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2297 — devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor",
+      "url": "/community/issues/02297-devshardd-a-replay-that-the-validators-own-ml-node-aborts-at/",
+      "file": "02297-devshardd-a-replay-that-the-validators-own-ml-node-aborts-at.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor\n    <span class=\"issues-number\">#2297</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
+    },
+    "ai_description": "A new issue #2297 has been opened by @kaileido highlighting a fairness concern in the devshardd protocol: when a validator's own ML node crashes at the start of a Proof of Computation, the resulting replay is incorrectly voted as invalid against the executor. This matters because it could penalize honest executors for infrastructure failures beyond their control, potentially undermining trust in the network's consensus process. Please review and weigh in on the proposed fix."
+  },
+  {
+    "id": "evt_20261119222000_c307228d",
+    "timestamp": "2026-11-19T22:20:00.072759+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2298 — devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once",
+      "url": "/community/issues/02298-devshardd-nothing-bounds-validations-in-flight-across-escrow/",
+      "file": "02298-devshardd-nothing-bounds-validations-in-flight-across-escrow.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once\n    <span class=\"issues-number\">#2298</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <d"
+    },
+    "ai_description": "A new issue has been opened by @kaileido highlighting a potential vulnerability in devshardd where there's no cap on in-flight validations across escrows, allowing a proof-of-concept start to trigger hundreds of simultaneous replay parses. This is an important scalability and stability concern for the network, as it could lead to resource exhaustion under adversarial conditions. The community should review this carefully to ensure proper bounds are enforced."
+  },
+  {
     "id": "evt_20261117223240_108e0698",
     "timestamp": "2026-11-17T22:32:40.040282+00:00",
     "section": "issues",
@@ -8190,37 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway timeout can orphan client correlation from completed request accounting\n    <span class=\"issues-number\">#1591</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/safal207\">@safal207</a> opened 2026-08-13 13:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
     },
     "ai_description": "New issue #1591 has been opened by @safal207, highlighting a potential bug where a gateway timeout can leave client correlation data detached from completed request accounting. This is an important edge case for the network's reliability, as it could affect how finished requests are tracked and billed. The community should weigh in on this to ensure no accounting or correlation data gets lost under timeout conditions."
-  },
-  {
-    "id": "evt_20261022192049_c12967c3",
-    "timestamp": "2026-10-22T19:20:49.449658+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1593 — Verification note: timeout/retry terminalization depends on protocol-time, not wall-clock time",
-      "url": "/community/issues/01593-verification-note-timeoutretry-terminalization-depends-on-pr/",
-      "file": "01593-verification-note-timeoutretry-terminalization-depends-on-pr.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Verification note: timeout/retry terminalization depends on protocol-time, not wall-clock time\n    <span class=\"issues-number\">#1593</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/safal207\">@safal207</a> opened 2026-08-14 03:59 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
-    },
-    "ai_description": "New issue #1593 has been opened by @safal207 to clarify that timeout and retry terminalization should be measured by protocol-time rather than wall-clock time. This distinction is important for ensuring consistent node behavior across networks with varying clock synchronization. The issue is currently open for community discussion.New issue #1593 from @safal207 clarifies that timeout and retry terminalization must be based on protocol-time, not wall-clock time. This distinction is crucial for keeping node behavior consistent and fair across the network. The issue is open for discussion, so jump in if you have insights."
-  },
-  {
-    "id": "evt_20261022192049_a884bcaf",
-    "timestamp": "2026-10-22T19:20:49.449670+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1624 — Personal / Solo-use Inference Gateway — Allowlist Request",
-      "url": "/community/issues/01624-personal-solo-use-inference-gateway-allowlist-request/",
-      "file": "01624-personal-solo-use-inference-gateway-allowlist-request.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Personal / Solo-use Inference Gateway — Allowlist Request\n    <span class=\"issues-number\">#1624</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/AndreyVoenkov\">@AndreyVoenkov</a> opened 2026-08-22 11:11 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n"
-    },
-    "ai_description": "New issue #1624 has been opened by @AndreyVoenkov requesting allowlist approval for a personal, solo-use inference gateway. This matters because it outlines a use case for individual access to the network, which could affect how the community handles dedicated deployments. Feel free to review and share your thoughts on the request."
   }
 ]

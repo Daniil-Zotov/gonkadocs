@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: Bug
 
 Issues with label **Bug**. Total: **36**.
-Updated: `2026-11-19 13:34 UTC`.
+Updated: `2026-11-19 22:19 UTC`.
 
 [← All Issues](../../index.md)
 
@@ -51,7 +51,7 @@ Updated: `2026-11-19 13:34 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 13 days ago</span>
       
     </div>
   </div>
@@ -66,7 +66,7 @@ Updated: `2026-11-19 13:34 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 13 days ago</span>
       
     </div>
   </div>

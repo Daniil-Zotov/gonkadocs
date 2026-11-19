@@ -2,7 +2,7 @@
 title: "#2241 — perf: gRPC caching"
 source: https://github.com/gonka-ai/gonka/issues/2241
 issue_number: 2241
-synced_at: 2026-11-19T13:28:48Z
+synced_at: 2026-11-19T22:16:25Z
 template: issues-main.html
 ---
 
