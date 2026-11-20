@@ -2,7 +2,7 @@
 title: "#2219 — [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains "/""
 source: https://github.com/gonka-ai/gonka/issues/2219
 issue_number: 2219
-synced_at: 2026-11-20T03:29:34Z
+synced_at: 2026-11-20T13:09:46Z
 template: issues-main.html
 ---
 

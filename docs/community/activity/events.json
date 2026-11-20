@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261120131337_ea83a9d8",
+    "timestamp": "2026-11-20T13:13:37.567871+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2299 — v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain",
+      "url": "/community/issues/02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an/",
+      "file": "02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
+    },
+    "ai_description": "A critical issue has been opened for v0.2.18 where the \"PEX request too soon\" error disconnects isolated validators, potentially halting the entire chain. This is a serious stability concern for the network, and the team is already investigating with three comments on the thread. Validators running this version should track the discussion closely."
+  },
+  {
+    "id": "evt_20261120131337_8c0ca471",
+    "timestamp": "2026-11-20T13:13:37.567897+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2300 — Gas simulation misses ~24k gas on paid MsgVote; --gas-adjustment 1.5 votes fail on v0.2.18",
+      "url": "/community/issues/02300-gas-simulation-misses-24k-gas-on-paid-msgvote-gas-adjustment/",
+      "file": "02300-gas-simulation-misses-24k-gas-on-paid-msgvote-gas-adjustment.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gas simulation misses ~24k gas on paid MsgVote; --gas-adjustment 1.5 votes fail on v0.2.18\n    <span class=\"issues-number\">#2300</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:41 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" s"
+    },
+    "ai_description": "A new issue (#2300) has been opened by @maria-mitina reporting that gas simulation underestimates paid MsgVote transactions by roughly 24k gas, causing votes with the standard --gas-adjustment 1.5 to fail on v0.2.18. This is a critical accuracy problem for validators and delegators relying on default gas settings, and the community should track this closely for a timely fix."
+  },
+  {
     "id": "evt_20261119222000_87c823c6",
     "timestamp": "2026-11-19T22:20:00.072726+00:00",
     "section": "issues",
@@ -8190,37 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] Unauthenticated mlnode /train/start accepts a raw dict, letting a remote attacker control training and inject arbitrary process environment variables on GPU workers\n    <span class=\"issues-number\">#1572</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:15 UTC</span>\n    <span class=\"issues-meta"
     },
     "ai_description": "A new security issue (#1572) has been reported and closed, detailing a critical vulnerability where unauthenticated access to the mlnode /train/start endpoint allows remote attackers to control training and inject arbitrary environment variables on GPU workers. This highlights a serious gap in access control that the community should prioritize reviewing, as it could compromise worker integrity. The issue is now closed, so please check the linked discussion for resolution details and ensure your deployments are patched accordingly."
-  },
-  {
-    "id": "evt_20261022192049_ca876e2f",
-    "timestamp": "2026-10-22T19:20:49.449631+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1573 — [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds",
-      "url": "/community/issues/01573-bug-devshard-executor-can-validate-its-own-challenged-result/",
-      "file": "01573-bug-devshard-executor-can-validate-its-own-challenged-result.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] devshard executor can validate its own challenged result, letting a fraudulent executor push a bad settlement and steal escrowed funds\n    <span class=\"issues-number\">#1573</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/iceiceic3\">@iceiceic3</a> opened 2026-08-10 15:19 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></s"
-    },
-    "ai_description": "A new bug report has been filed by @iceiceic3 highlighting a critical vulnerability in the devshard executor, where a fraudulent executor could validate its own challenged result and push a bad settlement to steal escrowed funds. This is a serious security concern that the community should review closely, as it directly threatens the integrity of the escrow mechanism. The issue is currently open with one comment, so please weigh in if you have insights on the affected logic."
-  },
-  {
-    "id": "evt_20261022192049_0c2c3c5f",
-    "timestamp": "2026-10-22T19:20:49.449645+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1591 — Gateway timeout can orphan client correlation from completed request accounting",
-      "url": "/community/issues/01591-gateway-timeout-can-orphan-client-correlation-from-completed/",
-      "file": "01591-gateway-timeout-can-orphan-client-correlation-from-completed.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway timeout can orphan client correlation from completed request accounting\n    <span class=\"issues-number\">#1591</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/safal207\">@safal207</a> opened 2026-08-13 13:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
-    },
-    "ai_description": "New issue #1591 has been opened by @safal207, highlighting a potential bug where a gateway timeout can leave client correlation data detached from completed request accounting. This is an important edge case for the network's reliability, as it could affect how finished requests are tracked and billed. The community should weigh in on this to ensure no accounting or correlation data gets lost under timeout conditions."
   }
 ]

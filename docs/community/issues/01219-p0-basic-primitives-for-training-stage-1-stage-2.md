@@ -2,7 +2,7 @@
 title: "#1219 — [P0] Basic primitives for training: stage 1 + stage 2"
 source: https://github.com/gonka-ai/gonka/issues/1219
 issue_number: 1219
-synced_at: 2026-11-20T03:29:25Z
+synced_at: 2026-11-20T13:09:36Z
 template: issues-main.html
 ---
 
