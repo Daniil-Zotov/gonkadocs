@@ -2,7 +2,7 @@
 title: "#2282 — Skip protocol-level inferences for participants in the confirmation PoC phase and revisit the discussion in https://github.com/gonka-ai/gonka/pull/1289"
 source: https://github.com/gonka-ai/gonka/issues/2282
 issue_number: 2282
-synced_at: 2026-11-20T13:09:29Z
+synced_at: 2026-11-20T21:16:25Z
 template: issues-main.html
 ---
 
