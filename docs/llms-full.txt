@@ -16556,12 +16556,12 @@ The guide provides instructions for deploying both services on the same machine 
 
 For the Network node, the approximate hardware requirements are:
 
-- 16 cores CPU (amd64)
-- 64+ GB RAM
+- 16-core CPU (amd64)
+- minimum 64+ GB RAM (128 GB RAM preferred)
 - 1TB NVMe SSD
-- 100Mbps minimum netowork connection (1Gbps preffered)
+- 100Mbps minimum network connection (1Gbps preferred)
 
-The final requirements will depend on the number of MLNodes connected and their total throughput.
+The final requirements will depend on the number of MLNodes connected and their total throughput. If you run a large fleet, see [Quickstart](https://gonka.ai/host/quickstart/#proposed-hardware-configuration) on splitting it across several account keys.
 
 Before proceeding, complete the [Quickstart guide](https://gonka.ai/host/quickstart/) through step 3.3, which includes:
 
@@ -17330,11 +17330,14 @@ More details about the optimal deployment configuration can be found [here](http
 The server hosting the Network Node should have:
 
 - 16-core CPU (amd64)
-- 64+ GB RAM
+- minimum 64+ GB RAM (128 GB RAM preferred)
 - 1TB NVMe SSD
 - 100Mbps minimum network connection (1Gbps preferred)
 
 The final requirements will depend on the number of ML Nodes connected and their total throughput.
+
+> **Do not put all your hardware behind one account key**
+    Rewards and penalties apply per participant (account key). A participant that becomes INACTIVE gets no reward for that epoch, however much of its hardware actually failed, and its collateral is slashed for downtime. If you run a large fleet, split your ML Nodes across several participants, each with its own Network Node on a separate server, so one failure costs only that participant's share.
 
 Each server used to deploy an ML Node should have:
 
@@ -32983,7 +32986,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-118 proposals across 6 quarters. Last updated: 2026-11-20 12:47 UTC
+118 proposals across 6 quarters. Last updated: 2026-11-20 15:01 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {

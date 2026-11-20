@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-11-20T07:56:45.660759+00:00",
+  "snapshot_time": "2026-11-20T16:40:32.902250+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -282,7 +282,7 @@
       "title": "Multiple nodes",
       "status": null,
       "content_preview": "# Multiple nodes\n\nIn this setup, you deploy the network node and one or more inference (ML) nodes across multiple servers. To join the network, you need to deploy two services:\n\n- **Network node** – a service consisting of two nodes: a **chain node** and an **API node**. This service handles all communication. The **chain node** connects to the blockchain, while the **API node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML node** to join the network.\n\nThe guide provides instructions for deploying both services on the same machine as well as on different machines. Services are deployed as Docker containers.\n\n## Starting the network and inference node\nThis section describes how to de",
-      "checksum": "960a07a0d0db007083f16ef4d448d831ca4e44ef5482c3c3537db5a9820c86b2"
+      "checksum": "c5fc4510dd98fef7c159205943dfbec2a9e09d69e0b198854f40996f75f6c8bf"
     },
     "host/network-node-api.md": {
       "title": "Network Node API",
@@ -306,7 +306,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "cb02218785d369cd501a217803bb82f326a618e6136aae940b7529f68286ad57"
+      "checksum": "1b601697a64d6c0ee2bc437504f0b7d98cfec7aafd0dd8f68cefc7762f6efb9b"
     },
     "introduction.md": {
       "title": "introduction",
