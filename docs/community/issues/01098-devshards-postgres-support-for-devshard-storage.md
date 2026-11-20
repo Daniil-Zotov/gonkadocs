@@ -2,7 +2,7 @@
 title: "#1098 — `devshards` Postgres support for `devshard` storage"
 source: https://github.com/gonka-ai/gonka/issues/1098
 issue_number: 1098
-synced_at: 2026-11-19T22:18:09Z
+synced_at: 2026-11-20T03:31:18Z
 template: issues-main.html
 ---
 

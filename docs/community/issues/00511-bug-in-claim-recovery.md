@@ -2,7 +2,7 @@
 title: "#511 — Bug in claim recovery"
 source: https://github.com/gonka-ai/gonka/issues/511
 issue_number: 511
-synced_at: 2026-11-19T22:19:49Z
+synced_at: 2026-11-20T03:32:58Z
 template: issues-main.html
 ---
 
