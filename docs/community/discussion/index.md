@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **119**. Обновлено: `2026-11-20 20:00 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **120**. Обновлено: `2026-11-21 01:24 UTC`.
 
 ## 📂 Категории
 
@@ -13,7 +13,7 @@ title: "GitHub Discussions"
 | [:mega: Announcements](announcements/index.md) | 1 |
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 12 |
 | [:speech_balloon: General](general/index.md) | 8 |
-| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 16 |
+| [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 17 |
 | [:gear: Protocol Improvements](protocol-improvements/index.md) | 51 |
 | [:interrobang: Q&A](q-a/index.md) | 5 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 26 |
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [2304](governance-proposal-reports/2304-proposal-74-gonka-labs-monthly-report-no5.md) | [Proposal #74: Gonka Labs - Monthly Report No.5](governance-proposal-reports/2304-proposal-74-gonka-labs-monthly-report-no5.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-11-21 |
 | [2267](protocol-improvements/2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md) | [[Proposal] Lightweight TypeScript CLI for Automated Ethereum Bridge Epoch Synchronization](protocol-improvements/2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md) | :gear: Protocol Improvements | [@kakavaanen](https://github.com/kakavaanen) | 2026-11-14 |
 | [2260](general/2260-proposal-118-dev-team-funding.md) | [Proposal #118: Dev Team Funding](general/2260-proposal-118-dev-team-funding.md) | :speech_balloon: General | [@gmorgachev](https://github.com/gmorgachev) | 2026-11-12 |
 | [2248](protocol-improvements/2248-research-milestones-for-split-delegation-2240-and-optional-l.md) | [Research milestones for split delegation (#2240) and optional launch-time intents (#2243)](protocol-improvements/2248-research-milestones-for-split-delegation-2240-and-optional-l.md) | :gear: Protocol Improvements | [@startupcompliancekit](https://github.com/startupcompliancekit) | 2026-11-08 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [869](protocol-improvements/0869-gip-860-inference-quality-protocol-semantic-inference-optimi.md) | [GiP #860 — Inference Quality Protocol: Semantic Inference Optimization](protocol-improvements/0869-gip-860-inference-quality-protocol-semantic-inference-optimi.md) | :gear: Protocol Improvements | [@Mayveskii](https://github.com/Mayveskii) | 2026-10-20 |
 | [816](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | [Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | :jigsaw: Ecosystem | [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) | 2026-10-20 |
 | [875](ecosystem/0875-automatic-node-provisioning-tool-exists.md) | [Automatic Node Provisioning Tool exists](ecosystem/0875-automatic-node-provisioning-tool-exists.md) | :jigsaw: Ecosystem | [@SegovChik](https://github.com/SegovChik) | 2026-10-20 |
-| [860](protocol-improvements/0860-gip-inference-quality-axis-registry-extending-cachequalitywe.md) | [GiP: Inference Quality Axis Registry — extending CacheQualityWeight toward measurable useful work](protocol-improvements/0860-gip-inference-quality-axis-registry-extending-cachequalitywe.md) | :gear: Protocol Improvements | [@Mayveskii](https://github.com/Mayveskii) | 2026-10-20 |
