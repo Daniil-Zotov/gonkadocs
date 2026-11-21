@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261121180906_bfc5b222",
+    "timestamp": "2026-11-21T18:09:06.457405+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2219 — [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"",
+      "url": "/community/issues/02219-bug-decentralized-api-admin-api-cannot-disable-enable-or-del/",
+      "file": "02219-bug-decentralized-api-admin-api-cannot-disable-enable-or-del.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"\n    <span class=\"issues-number\">#2219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-11-05 10:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"\n    <span class=\"issues-number\">#2219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-11-05 10:40 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
+    },
+    "ai_description": "Issue #2219 got a new comment from the community. The bug report about the decentralized-api admin API failing to disable, enable, or delete nodes with \"/\" in their IDs remains open, but the added discussion likely sheds more light on the problem or suggests a fix. Check the thread to see the latest input and help push this forward."
+  },
+  {
+    "id": "evt_20261121180906_280cbaee",
+    "timestamp": "2026-11-21T18:09:06.457444+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2298 — devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once",
+      "url": "/community/issues/02298-devshardd-nothing-bounds-validations-in-flight-across-escrow/",
+      "file": "02298-devshardd-nothing-bounds-validations-in-flight-across-escrow.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once\n    <span class=\"issues-number\">#2298</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <d",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once\n    <span class=\"issues-number\">#2298</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:47 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <di"
+    },
+    "ai_description": "Issue #2298 now has a new comment from the community. The report highlights a scalability concern in devshardd where there is no cap on concurrent validations across escrows, allowing a single proof-of-concept to trigger hundreds of simultaneous replay parses. This is an important discussion for anyone running validators, as it points to a potential resource exhaustion risk that needs addressing."
+  },
+  {
     "id": "evt_20261121112735_4c9c57ec",
     "timestamp": "2026-11-21T11:27:35.073594+00:00",
     "section": "issues",
@@ -8190,37 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] api-test does not apply portable BLST flags on Apple Silicon\n    <span class=\"issues-number\">#1537</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Parikalp-Bhardwaj\">@Parikalp-Bhardwaj</a> opened 2026-08-03 14:53 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-"
     },
     "ai_description": "A new bug report has been filed for the api-test suite, highlighting that portable BLST flags are not applied on Apple Silicon. This is important because it can lead to inconsistent cryptographic performance or build issues on M-series Macs. We encourage the community to review and contribute fixes to ensure reliable testing across all architectures. #1537 is now open for discussion."
-  },
-  {
-    "id": "evt_20261022192049_3d68107d",
-    "timestamp": "2026-10-22T19:20:49.449569+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1539 — Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)",
-      "url": "/community/issues/01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n/",
-      "file": "01539-hardening-network-duty-fee-bypass-admits-zero-fee-txs-from-n.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Hardening: network-duty fee-bypass admits zero-fee txs from non-participants (no signer authorization at the ante layer)\n    <span class=\"issues-number\">#1539</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-03 19:33 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div c"
-    },
-    "ai_description": "New issue #1539 has been opened by @kaileido highlighting a security hardening concern: the network-duty fee-bypass currently permits zero-fee transactions from non-participants because there's no signer authorization check at the ante layer. This matters because it could let unauthorized actors submit transactions without paying fees, potentially straining network resources. The community should weigh in on this to ensure the fee-bypass mechanism stays limited to legitimate network participants."
-  },
-  {
-    "id": "evt_20261022192049_3b4473c4",
-    "timestamp": "2026-10-22T19:20:49.449582+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1542 — devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)",
-      "url": "/community/issues/01542-devshardctl-parseprotocolversion-rejects-route-v4-noisy-rota/",
-      "file": "01542-devshardctl-parseprotocolversion-rejects-route-v4-noisy-rota.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)\n    <span class=\"issues-number\">#1542</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div "
-    },
-    "ai_description": "devshardctl issue #1542 has been closed: ParseProtocolVersion was rejecting route v4, causing a noisy rotation fallback log. The fix ensures proper protocol version parsing so route v4 is handled cleanly without unnecessary fallback warnings. This tightens up the tooling and reduces log noise for the community."
   }
 ]

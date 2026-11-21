@@ -6,7 +6,7 @@ template: issues-main.html
 # Issues: release-candidate
 
 Issues with label **release-candidate**. Total: **12**.
-Updated: `2026-11-21 11:27 UTC`.
+Updated: `2026-11-21 18:09 UTC`.
 
 [← All Issues](../../index.md)
 

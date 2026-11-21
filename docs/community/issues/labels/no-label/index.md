@@ -6,26 +6,11 @@ template: issues-main.html
 # Issues: no-label
 
 Issues with label **no-label**. Total: **339**.
-Updated: `2026-11-21 11:27 UTC`.
+Updated: `2026-11-21 18:09 UTC`.
 
 [← All Issues](../../index.md)
 
 <ul class="issues-list">
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="../../02297-devshardd-a-replay-that-the-validators-own-ml-node-aborts-at/">devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor</a>
-      <span class="issues-number">#2297</span>
-    </div>
-    
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 6 hours ago</span>
-      
-    </div>
-  </div>
-</li>
 <li class="issues-list-item">
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
@@ -36,7 +21,22 @@ Updated: `2026-11-21 11:27 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 1 day ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 51 minutes ago</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../02297-devshardd-a-replay-that-the-validators-own-ml-node-aborts-at/">devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor</a>
+      <span class="issues-number">#2297</span>
+    </div>
+    
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 12 hours ago</span>
       
     </div>
   </div>
@@ -96,7 +96,7 @@ Updated: `2026-11-21 11:27 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/vadsonvads">@vadsonvads</a> opened 6 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/vadsonvads">@vadsonvads</a> opened 7 days ago</span>
       
     </div>
   </div>
@@ -141,7 +141,7 @@ Updated: `2026-11-21 11:27 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 9 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 10 days ago</span>
       
     </div>
   </div>
@@ -231,7 +231,7 @@ Updated: `2026-11-21 11:27 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 14 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 15 days ago</span>
       
     </div>
   </div>
@@ -381,7 +381,7 @@ Updated: `2026-11-21 11:27 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 17 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 18 days ago</span>
       
     </div>
   </div>
@@ -411,7 +411,7 @@ Updated: `2026-11-21 11:27 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 21 days ago</span>
       
     </div>
   </div>
@@ -456,7 +456,7 @@ Updated: `2026-11-21 11:27 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Aktum1">@Aktum1</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Aktum1">@Aktum1</a> opened 22 days ago</span>
       
     </div>
   </div>
@@ -486,7 +486,7 @@ Updated: `2026-11-21 11:27 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 22 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 23 days ago</span>
       
     </div>
   </div>
@@ -501,7 +501,7 @@ Updated: `2026-11-21 11:27 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 23 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 24 days ago</span>
       
     </div>
   </div>
@@ -651,7 +651,7 @@ Updated: `2026-11-21 11:27 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/redstartechno">@redstartechno</a> opened 28 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/redstartechno">@redstartechno</a> opened 29 days ago</span>
       
     </div>
   </div>

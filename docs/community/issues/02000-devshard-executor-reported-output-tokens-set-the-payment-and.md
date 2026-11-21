@@ -2,7 +2,7 @@
 title: "#2000 — devshard: executor-reported output tokens set the payment and are checked only on sampled replays"
 source: https://github.com/gonka-ai/gonka/issues/2000
 issue_number: 2000
-synced_at: 2026-11-21T11:24:01Z
+synced_at: 2026-11-21T18:06:10Z
 template: issues-main.html
 ---
 

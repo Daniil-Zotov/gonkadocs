@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-21T11:32:37.740404+00:00",
+  "snapshot_time": "2026-11-21T18:12:10.322984+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4597,12 +4597,13 @@
     "02219-bug-decentralized-api-admin-api-cannot-disable-enable-or-del.md": {
       "title": "#2219 — [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"\n    <span class=\"issues-number\">#2219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-11-05 10:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style",
-      "comment_checksum": "7734ffabd5633b37db89a12acfdc26ffa2ca8bd474e70a8ffe36868c0eaf91b4",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"\n    <span class=\"issues-number\">#2219</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yaUrich\">@yaUrich</a> opened 2026-11-05 10:40 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl",
+      "comment_checksum": "09a657bc21c05360d319523985ad18ffc97733911e333a2567f69d9c6568c6f3",
       "comment_bodies": [
-        "@GLiberman I opened #2220 for this. Could you please review it when you have a moment? Thank you!"
+        "@GLiberman I opened #2220 for this. Could you please review it when you have a moment? Thank you!",
+        "@qdanik I checked the mask against mainnet: 192 of 31,445 node ids that hosts report today (36 hosts) have characters outside A-Za-z0-9_-, mostly ., spaces and #. With the mask, those hosts would get a 400 the next time they add such a node through the admin API. Only / actually breaks the :id routes. I tested on Echo v4.15.1: %20 and %23 reach the handler as the right id, %2F doesn't. Would a PR "
       ],
-      "checksum": "9b3852ba1278e607e3258ac098a8befc32b85dff103d79f228d9910c5e3e1af3"
+      "checksum": "090ac31f2af226d923544305c88697f0df562c6c7e0d11ac9d9f35d68887bc05"
     },
     "02221-bug-openbroker-request-bodies-above-14-kib-are-never-read-no.md": {
       "title": "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error",
@@ -4841,10 +4842,12 @@
     "02298-devshardd-nothing-bounds-validations-in-flight-across-escrow.md": {
       "title": "#2298 — devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once\n    <span class=\"issues-number\">#2298</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:47 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <d",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "862fe7e6ae01031060c0dcf0d97308a85fde70880dfa0123ad14c7baeb372757"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once\n    <span class=\"issues-number\">#2298</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:47 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <di",
+      "comment_checksum": "1fccda133327666695aa66964f5934ffab0ed12f6a1b1fb5a25d1414fb16f54e",
+      "comment_bodies": [
+        "@kaileido you mention the change is already prepared. Are you opening the PR yourself? If not, I'm happy to take it. @a-kuprin is #1449 still the plan for v7? It replaces the per-escrow workers and already has an in-flight cap, so if it lands, a slot cap here would only be a stopgap. If it's not coming soon, I'd do the cap as described in the issue: non-blocking, returns ErrValidationDeferred, set"
+      ],
+      "checksum": "ef815e1d0dcfa169c7f2aecd52b6cbf84f05733f14ed54829cac3acaf80300f3"
     },
     "02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an.md": {
       "title": "#2299 — v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain",

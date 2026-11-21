@@ -2,7 +2,7 @@
 title: "#2219 — [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains "/""
 source: https://github.com/gonka-ai/gonka/issues/2219
 issue_number: 2219
-synced_at: 2026-11-21T11:23:51Z
+synced_at: 2026-11-21T18:05:46Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/yaUrich">@yaUrich</a> opened 2026-11-05 10:40 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-11-06 06:25 UTC</span>
+    <span class="issues-meta-item">2 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-21 17:21 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
 </div>
@@ -57,7 +57,7 @@ The same 404 body came from a DevNet host on `v0.2.16-post1`.
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (2)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -66,6 +66,17 @@ The same 404 body came from a DevNet host on `v0.2.16-post1`.
   </div>
   <div class="issues-comment-body issues-content">
     <p>@GLiberman I opened #2220 for this. Could you please review it when you have a moment? Thank you!</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gafrustam">@gafrustam</a></span>
+    <span class="issues-meta-item">commented 2026-11-21 17:21 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@qdanik I checked the mask against mainnet: 192 of 31,445 node ids that hosts report today (36 hosts) have characters outside <code>A-Za-z0-9_-</code>, mostly <code>.</code>, spaces and <code>#</code>. With the mask, those hosts would get a 400 the next time they add such a node through the admin API.</p>
+<p>Only <code>/</code> actually breaks the <code>:id</code> routes. I tested on Echo v4.15.1: <code>%20</code> and <code>%23</code> reach the handler as the right id, <code>%2F</code> doesn't.</p>
+<p>Would a PR that rejects only <code>/</code> on create be OK? It's the same small change as #2220 with a narrower check, plus a test. If you'd still prefer the full mask, I'll leave it.</p>
   </div>
 </div>
 
