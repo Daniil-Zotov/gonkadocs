@@ -3,7 +3,7 @@ title: "#1825 — Proposal #107: Gonka at HSC Asset Management Singapore, 8 Octo
 source: https://github.com/gonka-ai/gonka/discussions/1825
 discussion_number: 1825
 category: ecosystem
-synced_at: 2026-11-21T17:22:35Z
+synced_at: 2026-11-21T23:04:28Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1825](https://github.com/gonka-ai/gonka/discussions/1825) every hour. 
