@@ -2,7 +2,7 @@
 title: "#2066 — Training carry: host PoC weight ratchets down while a node is leased (training_carry.go)"
 source: https://github.com/gonka-ai/gonka/issues/2066
 issue_number: 2066
-synced_at: 2026-11-20T21:17:10Z
+synced_at: 2026-11-21T02:29:30Z
 template: issues-main.html
 ---
 
