@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-21T02:33:22.962710+00:00",
+  "snapshot_time": "2026-11-21T11:32:37.740404+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4831,10 +4831,12 @@
     "02297-devshardd-a-replay-that-the-validators-own-ml-node-aborts-at.md": {
       "title": "#2297 — devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor\n    <span class=\"issues-number\">#2297</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "0611281915244eab27768d109af4e7de4b004fa0dbaf0e701edacadaab6a3df6"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor\n    <span class=\"issues-number\">#2297</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu",
+      "comment_checksum": "170f4079d01edbb6285ca51dc440f6767153d304f17b6fd4fc4e1db1d59971d9",
+      "comment_bodies": [
+        "Starting work, PR in a day or two"
+      ],
+      "checksum": "bd3a6db352391cdd1e831beb4d7bb65d261e885469925e75bc0cb1ec5fa81589"
     },
     "02298-devshardd-nothing-bounds-validations-in-flight-across-escrow.md": {
       "title": "#2298 — devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once",
@@ -4847,14 +4849,15 @@
     "02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an.md": {
       "title": "#2299 — v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma",
-      "comment_checksum": "9d3bfb5e97934ced017d0c92aa646ef8e5b0e0fca71d7b6dccc7cc619c2606ad",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma",
+      "comment_checksum": "0b3162e05652cf8174375926330fea0762a3acdf49a4fbb186707ee4dc979ff0",
       "comment_bodies": [
         "@d-bogdan-engenious fyi",
         "Update (09:42 UTC): the PEX churn hasn't settled since the upgrade. On 18221 it's getting more frequent. Window (UTC) \"PEX request too soon\" drops on 18221 08:58–09:13 8 09:15–09:42 23 (~1 per minute) 18221 drops all four other validators: 18214 ×7, 18226 ×7, 52095 ×6, 18223 ×3 since 09:15. On their side the same disconnects show as Stopping peer for error err=EOF (5–8 per node). Consensus is stil",
-        "Update (10:08 UTC): the PEX churn has escalated to a chain halt on gonka-testnet-4. The chain stopped at height 155452 (last block 10:03:44 UTC), 7 blocks after the epoch 432 set_new_validators (155445). This was the second PoC after the v0.2.18 upgrade. Node Height Peers Voting power (epoch 432) 18214 155449 (behind) 0 3826 18223 155452 0 3694 18221 155452 1 3317 18226 155452 1 3442 52095 155452 "
+        "Update (10:08 UTC): the PEX churn has escalated to a chain halt on gonka-testnet-4. The chain stopped at height 155452 (last block 10:03:44 UTC), 7 blocks after the epoch 432 set_new_validators (155445). This was the second PoC after the v0.2.18 upgrade. Node Height Peers Voting power (epoch 432) 18214 155449 (behind) 0 3826 18223 155452 0 3694 18221 155452 1 3317 18226 155452 1 3442 52095 155452 ",
+        "This looks like a CometBFT regression rather than a config change. CometBFT fixed this error in v0.38.16 (cometbft#4644, backported as #4649): ensurePeers asks a random peer for addresses only when it runs on the timer. v0.2.17 has that fix (v0.38.21). upgrade-v0.2.18-sdk (3a9d741, the commit testnet-4 runs) pins github.com/cometbft/cometbft v0.40.0, and neither 0.39.x nor 0.40.0 carries it. The C"
       ],
-      "checksum": "709e77e908cb8b506117e6ec295eca1d9a042830f7734ba4c024bd418c4d2a19"
+      "checksum": "424edb70aef8445902dfeb63e27562273adc2450c4cda4b62701c1c83addbd46"
     },
     "02300-gas-simulation-misses-24k-gas-on-paid-msgvote-gas-adjustment.md": {
       "title": "#2300 — Gas simulation misses ~24k gas on paid MsgVote; --gas-adjustment 1.5 votes fail on v0.2.18",

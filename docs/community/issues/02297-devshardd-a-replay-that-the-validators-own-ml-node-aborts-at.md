@@ -2,7 +2,7 @@
 title: "#2297 — devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor"
 source: https://github.com/gonka-ai/gonka/issues/2297
 issue_number: 2297
-synced_at: 2026-11-21T02:28:49Z
+synced_at: 2026-11-21T11:23:33Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 2026-11-19 21:46 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-19 21:46 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-21 05:18 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -55,6 +55,20 @@ gonka-ai/gonka-vllm-plugins#34 fixes this at the source by turning an aborted re
 
 Related: #2146 (executor side of the same abort), gonka-ai/gonka-vllm-plugins#34, #1805.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gafrustam">@gafrustam</a></span>
+    <span class="issues-meta-item">commented 2026-11-21 05:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Starting work, PR in a day or two</p>
+  </div>
 </div>
 
 ---

@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261121112735_4c9c57ec",
+    "timestamp": "2026-11-21T11:27:35.073594+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2297 — devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor",
+      "url": "/community/issues/02297-devshardd-a-replay-that-the-validators-own-ml-node-aborts-at/",
+      "file": "02297-devshardd-a-replay-that-the-validators-own-ml-node-aborts-at.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor\n    <span class=\"issues-number\">#2297</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:46 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor\n    <span class=\"issues-number\">#2297</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:46 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issu"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261121112735_42cacd88",
+    "timestamp": "2026-11-21T11:27:35.073641+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2299 — v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain",
+      "url": "/community/issues/02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an/",
+      "file": "02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261121012432_0a085733",
     "timestamp": "2026-11-21T01:24:32.773882+00:00",
     "section": "discussions",
@@ -8190,37 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshardctl: ParseProtocolVersion rejects route v4 (noisy rotation fallback log)\n    <span class=\"issues-number\">#1542</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-08-04 15:58 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div "
     },
     "ai_description": "devshardctl issue #1542 has been closed: ParseProtocolVersion was rejecting route v4, causing a noisy rotation fallback log. The fix ensures proper protocol version parsing so route v4 is handled cleanly without unnecessary fallback warnings. This tightens up the tooling and reduces log noise for the community."
-  },
-  {
-    "id": "evt_20261022192049_bd43ad23",
-    "timestamp": "2026-10-22T19:20:49.449594+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1545 — [BUG] POST /v1/participants returns unclear error for malformed JSON",
-      "url": "/community/issues/01545-bug-post-v1participants-returns-unclear-error-for-malformed-/",
-      "file": "01545-bug-post-v1participants-returns-unclear-error-for-malformed-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] POST /v1/participants returns unclear error for malformed JSON\n    <span class=\"issues-number\">#1545</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Parikalp-Bhardwaj\">@Parikalp-Bhardwaj</a> opened 2026-08-04 19:19 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
-    },
-    "ai_description": "New issue #1545 has been opened by @Parikalp-Bhardwaj, flagging that the POST /v1/participants endpoint returns an unclear error message when receiving malformed JSON. This is a useful bug report that will help improve API error handling and make debugging easier for all integrators. Head over to the issue to share your input or track the fix."
-  },
-  {
-    "id": "evt_20261022192049_33f0260a",
-    "timestamp": "2026-10-22T19:20:49.449606+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1570 — Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)",
-      "url": "/community/issues/01570-devshard-timeout-vote-threshold-unreachable-under-skewed-slo/",
-      "file": "01570-devshard-timeout-vote-threshold-unreachable-under-skewed-slo.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Devshard: timeout-vote threshold unreachable under skewed slot distribution — stranded nonce cannot be resolved (liveness)\n    <span class=\"issues-number\">#1570</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-08-09 16:18 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <di"
-    },
-    "ai_description": "New issue #1570 from @kaileido flags a liveness concern in Devshard: if slot distribution is skewed, the timeout-vote threshold may never be reached, leaving a nonce stranded and unresolvable. This is a critical edge case for network liveness, so the community should weigh in on whether the threshold logic needs adjustment."
   }
 ]

@@ -2,7 +2,7 @@
 title: "#2299 — v0.2.18: "PEX request too soon" disconnects isolate validators and halt the chain"
 source: https://github.com/gonka-ai/gonka/issues/2299
 issue_number: 2299
-synced_at: 2026-11-21T02:28:47Z
+synced_at: 2026-11-21T11:23:33Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>
-    <span class="issues-meta-item">3 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-20 10:12 UTC</span>
+    <span class="issues-meta-item">4 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-21 05:20 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
 </div>
@@ -85,7 +85,7 @@ The v0.2.18 node (SDK 0.55 / CometBFT 0.39) sends PEX address requests faster th
 
 ---
 
-## 💬 Comments (3)
+## 💬 Comments (4)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -187,6 +187,35 @@ The v0.2.18 node (SDK 0.55 / CometBFT 0.39) sends PEX address requests faster th
 4. 18223 followed. With more than 1/3 of the power cut off, the chain halted.</p>
 <p>So this is no longer just log noise. Under v0.2.18, PEX churn plus an empty address book progressively isolates validators until consensus stops. A chain that halts "after the second PoC" may be the same failure.</p>
 <p><strong>Mitigation being considered:</strong> set <code>persistent_peers</code> to the other validators on every node, so connections are redialled regardless of PEX.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gafrustam">@gafrustam</a></span>
+    <span class="issues-meta-item">commented 2026-11-21 05:20 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>This looks like a CometBFT regression rather than a config change. CometBFT fixed this error in v0.38.16 (cometbft#4644, backported as #4649): <code>ensurePeers</code> asks a random peer for addresses only when it runs on the timer. v0.2.17 has that fix (v0.38.21). <code>upgrade-v0.2.18-sdk</code> (3a9d741, the commit testnet-4 runs) pins <code>github.com/cometbft/cometbft v0.40.0</code>, and neither 0.39.x nor 0.40.0 carries it. The <code>CometBFT 0.39.0</code> in the report is consistent with that: v0.40.0 still has <code>TMCoreSemVer = "0.39.0"</code> (<a href="https://github.com/cometbft/cometbft/blob/v0.40.0/version/version.go#L3-L8">version.go</a>).</p>
+<pre><code class="language-go">// v0.38.21, p2p/pex/pex_reactor.go:511
+if peersCount &gt; 0 &amp;&amp; ensurePeersPeriodElapsed {
+    peer := peers[cmtrand.Int()%peersCount]
+    r.RequestAddrs(peer)
+
+// v0.40.0, p2p/pex/pex_reactor.go:509
+peer := r.Switch.Peers().Random()
+if peer != nil {
+    r.RequestAddrs(peer)
+</code></pre>
+<p>This is the only behavioural difference in <code>p2p/pex/pex_reactor.go</code> between v0.38.21 and v0.40.0. v1.0.1 has the guard again (<code>if peer != nil &amp;&amp; ensurePeersPeriodElapsed</code>).</p>
+<p>The untimed call is <code>ensurePeers(false)</code>, and <code>ReceiveAddrs</code> fires it only when the addresses came from a node listed in <code>p2p.seeds</code> (<a href="https://github.com/cometbft/cometbft/blob/v0.40.0/p2p/pex/pex_reactor.go#L375-L385">pex_reactor.go#L375-L385</a>). The response also clears <code>requestsSent</code>, and with fewer than 1000 known addresses <code>NeedMoreAddrs()</code> stays true, so the node at once asks a random peer again. When that peer is the seed again, the seed gets requests a round trip apart. On a new connection it lets the first two through, then drops the peer if a request comes less than <code>ensurePeersPeriod/3</code> = 10 s after the previous one (<a href="https://github.com/cometbft/cometbft/blob/v0.40.0/p2p/pex/pex_reactor.go#L303-L333">pex_reactor.go#L303-L333</a>). In the report's log the dropped request came ~200 ms after the previous one.</p>
+<p>The report doesn't show yet that 18221 is the configured seed of the nodes it drops; in 18214's log it appears as the random peer, which both paths print. Two checks on existing data would settle it:
+- effective <code>p2p.seeds</code> and <code>p2p.persistent_peers</code> on 18214, 18223, 18226 and 52095: the loop needs 18221 (<code>14522a9e…</code>) in <code>p2p.seeds</code>;
+- their logs: the timer runs every 30 s, so two <code>Sending pexRequest to random peer</code> lines less than 30 s apart mean the untimed path ran.</p>
+<p>On the drop the seed also calls <code>MarkBad(src, defaultBanTime)</code>, 24 h. That ban is in memory only: the address moves to <code>badPeers</code> and out of the book, and <code>addrbook.json</code> is written from the book alone (<a href="https://github.com/cometbft/cometbft/blob/v0.40.0/p2p/pex/file.go#L13-L35">file.go#L13-L35</a>), so a restart of the banning node clears it.</p>
+<p>For mainnet it depends on which branch ships v0.2.18 (<code>upgrade-v0.2.18</code> still pins v0.38.21) and on each node's config. A node set up with <code>deploy/join</code> (<code>IS_GENESIS=false</code>) gets one seed from <code>set-seeds</code>, <code>node2.gonka.ai:5000</code> in <code>config.env.template</code>. <code>GENESIS_SEEDS</code> is only used with <code>IS_GENESIS=true</code> (<a href="https://github.com/gonka-ai/gonka/blob/3a9d741784f742af191210662926e41fb887578e/inference-chain/scripts/init-docker.sh#L176-L200">init-docker.sh#L176-L200</a>). If that seed stays connected as a regular peer, the same loop can start, though with many peers the random pick returns to it less often than in a 5-node network.</p>
+<p>Options:
+1. Pin a patched CometBFT the way cosmos-sdk is pinned: <code>replace github.com/cometbft/cometbft =&gt; github.com/gonka-ai/cometbft v0.40.0-gonka.1</code>, with the one-line change <code>if peer != nil &amp;&amp; ensurePeersPeriodElapsed {</code>.
+2. For testnet-4, from the code (not tried): <code>persistent_peers</code> makes the nodes redial, but while the same validators are also in <code>p2p.seeds</code>, their PEX responses keep firing the untimed request. Listing them only in <code>persistent_peers</code> removes that trigger.</p>
   </div>
 </div>
 
