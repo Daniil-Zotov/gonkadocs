@@ -2,7 +2,7 @@
 title: "#2272 — [BUG] PoC v2 vectors of a bf16 KV cache node change with the validation batch, so honest nodes fail validation"
 source: https://github.com/gonka-ai/gonka/issues/2272
 issue_number: 2272
-synced_at: 2026-11-21T18:05:50Z
+synced_at: 2026-11-21T23:27:43Z
 template: issues-main.html
 ---
 
