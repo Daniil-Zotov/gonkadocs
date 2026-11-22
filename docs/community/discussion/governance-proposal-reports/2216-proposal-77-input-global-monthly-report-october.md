@@ -3,7 +3,7 @@ title: "#2216 — Proposal #77: INPUT Global - Monthly Report || October"
 source: https://github.com/gonka-ai/gonka/discussions/2216
 discussion_number: 2216
 category: governance-proposal-reports
-synced_at: 2026-11-22T11:10:28Z
+synced_at: 2026-11-22T19:28:02Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2216](https://github.com/gonka-ai/gonka/discussions/2216) every hour. 
