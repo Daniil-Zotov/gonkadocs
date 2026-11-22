@@ -2,7 +2,7 @@
 title: "#1637 — Gateway allowlist request: Fusion AI Gateway — production wholesale broker (DeepSeek Flash / MiniMax / Kimi)"
 source: https://github.com/gonka-ai/gonka/issues/1637
 issue_number: 1637
-synced_at: 2026-11-21T23:28:48Z
+synced_at: 2026-11-22T07:05:25Z
 template: issues-main.html
 ---
 

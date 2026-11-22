@@ -2,7 +2,7 @@
 title: "#2300 — Gas simulation misses ~24k gas on paid MsgVote; --gas-adjustment 1.5 votes fail on v0.2.18"
 source: https://github.com/gonka-ai/gonka/issues/2300
 issue_number: 2300
-synced_at: 2026-11-21T23:27:40Z
+synced_at: 2026-11-22T07:04:12Z
 template: issues-main.html
 ---
 
