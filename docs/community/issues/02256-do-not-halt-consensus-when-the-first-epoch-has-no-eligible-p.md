@@ -2,7 +2,7 @@
 title: "#2256 — Do not halt consensus when the first epoch has no eligible PoC participants"
 source: https://github.com/gonka-ai/gonka/issues/2256
 issue_number: 2256
-synced_at: 2026-11-22T07:04:19Z
+synced_at: 2026-11-22T15:28:18Z
 template: issues-main.html
 ---
 

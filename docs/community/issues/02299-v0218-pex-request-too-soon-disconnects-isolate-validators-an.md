@@ -2,7 +2,7 @@
 title: "#2299 — v0.2.18: "PEX request too soon" disconnects isolate validators and halt the chain"
 source: https://github.com/gonka-ai/gonka/issues/2299
 issue_number: 2299
-synced_at: 2026-11-22T07:04:10Z
+synced_at: 2026-11-22T15:28:11Z
 template: issues-main.html
 ---
 
