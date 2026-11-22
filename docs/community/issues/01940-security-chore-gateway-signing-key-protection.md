@@ -2,7 +2,7 @@
 title: "#1940 — [Security Chore]: Gateway signing-key protection"
 source: https://github.com/gonka-ai/gonka/issues/1940
 issue_number: 1940
-synced_at: 2026-11-22T15:28:58Z
+synced_at: 2026-11-22T21:54:45Z
 template: issues-main.html
 ---
 
