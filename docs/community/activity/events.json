@@ -13,7 +13,7 @@
       "status": null,
       "content": "> 🔄 **Auto-sync:** from [Discussion #2307](https://github.com/gonka-ai/gonka/discussions/2307) every hour. \n\n# Proposal from Ancapex: Alternative Tokenomics\n\n**Автор:** [@alancapex](https://github.com/alancapex) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-23 13:03 UTC · \n\n---\n\n## 📝 Описание\n\nBitfury has put forward a tokenomics proposal so that hosts' main income comes from inference. We support it as the starting mechanism, and in parallel we want to develop an alternative that is a better fit for a DePIN/DeVIN network.\n\nThe main idea: GNK is the currency used to pay for work in the network, not a share in a company. So emission should depend on how much work the network actually does, and not only on the calendar.\n\nPart of every payment is burned, emission is tie"
     },
-    "ai_description": null
+    "ai_description": "A new protocol discussion from @alancapex proposes alternative tokenomics where GNK acts purely as a payment currency for network work, not a company share. The key idea links emission directly to actual inference workload, with a burn mechanism on payments, rather than a fixed calendar schedule. This matters for hosts as it aims to align their income with real network demand, building on Bitfury's initial framework."
   },
   {
     "id": "evt_20261123211419_b2186c15",
