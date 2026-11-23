@@ -33,7 +33,7 @@ Since the network genesis, the Community Pool has received inflows from the 2% c
 
 *Returned USDT sits in the pool as the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4` until it is spent through a governance vote — e.g. the **$10,000** returned from **[proposal #42](https://gonkadocs.com/proposals/proposals/2026-q2/42/)** after the planned Global Compute Sovereignty Summit was cancelled (see the [return instructions](https://gonkadocs.com/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/)). Note that most USDT payouts to contractors and bounty hunters are funded from the **Community Sale contract** below rather than from the distribution-module pool.*
 
-**Steady inflow:** with inflation disabled, the 2% fee tax adds only fractions of a GNK per day — one-off deposits like the 2026-11-19 ones dominate the pool balance.
+**Steady inflow:** with inflation disabled, the 2% fee tax adds effectively nothing right now (measured: the pool balance stays static over hours — nano-GNK drift at most) — one-off deposits like the 2026-11-19 ones dominate balance movements. Verified on-chain: `inflation = 0`, `annual_provisions = 0` (`curl https://node3.gonka.ai/chain-api/cosmos/mint/v1beta1/inflation`), and the chain wires the standard cosmos-sdk mint module with no custom minting into the pool.
 
 <details style="font-size:0.8rem;opacity:0.7;padding-left:0.5rem;margin:0.2rem 0">
 <summary style="cursor:pointer;font-weight:500;padding-left:2.5em!important">Verify on-chain</summary>
