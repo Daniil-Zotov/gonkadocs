@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-11-23T01:17:55.360801+00:00",
+  "snapshot_time": "2026-11-23T10:07:25.148835+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "1b6fd99a27a507babbbb585974e63f6a9c7067fdf56ce9ae7834189e83973eb3"
+      "checksum": "89148cf59840f97fe5beb78949f1556af6ba2140b551d9e1ff7737028895bc8b"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -24,7 +24,7 @@
       "title": "Bounty program",
       "status": null,
       "content_preview": "# Bounty program\n\nGonka runs two programs:\n\n| Program | What it is | Where |\n|---|---|---|\n| **Bug bounty** | Private vulnerability reports. Paid after triage, by severity. | [HackerOne](report-vulnerability.md) |\n| **Contributor rewards** | Public protocol work: fixes, improvements, tooling. Paid from the community pool after governance. | [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/) |\n\nYou do not need to be a Host.\n\nThis page is a practical guide. It is **not a promise of payout**. For vulnerabilities, the HackerOne program terms are authoritative. For protocol work, Hosts approve amounts on-chain. Both processes can evolve.\n\nPast payouts are public. See [who was paid, for what, and when](#where-payouts-are-recorded).\n\n## Contributor rewards\n\nPublic work on the protocol: discus",
-      "checksum": "90c9b2476165a85db763129c6c65939a1bfd4d22848886b98406a1d0b1fd476f"
+      "checksum": "9f6a85d5a32af3e92defefb5b1e47e72fe3fe6a5a5a1425eaf60f2ccd5689581"
     },
     "cross-chain-transfers/ethereum-bridge/addresses-and-keys.md": {
       "title": "Addresses and keys",
@@ -185,8 +185,8 @@
     "help.md": {
       "title": "Get Support on Discord",
       "status": null,
-      "content_preview": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.\n\nTo contribute code or propose ideas, see the [Bounty program](bounty-program.md). Submit every security vulnerability on [HackerOne](report-vulnerability.md) first. That submission is the one that can be paid. Do not open a public GitHub issue or pull request, and do not post the issue in Discord or other public channels. A fix is optional, and it comes second: after the HackerOne report exists, open **Security and quality → Report vulnerability** on [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/), put the HackerOne report number in the title, then create a private fork from that report and open the fix there.",
-      "checksum": "61e5659af803bef60581f27bb39029f8e7e42255d6938ae78fb8836669c6d10c"
+      "content_preview": "# Get Support on Discord\n\nJoin the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.\n\nTo contribute code or propose ideas, see the [Bounty program](bounty-program.md). Report every security vulnerability privately. Do not open a public GitHub issue or pull request, and do not post the issue in Discord or other public channels. To be eligible for a bounty, submit it on [HackerOne](report-vulnerability.md). That submission is the one that can be paid. If you can't or prefer not to join the bounty program, report privately [on GitHub instead](https://github.com/gonka-ai/gonka/security/advisories/new). Reports submitted this way are not eligible for a bounty. For HackerOne reports, a fix is optional, and it comes second: after the HackerOne report exists, open",
+      "checksum": "e6dac9e2379831086d5e349274e94096be9ad7ec5d8aab358e08cac7dba4e64c"
     },
     "host/README.md": {
       "title": "Redirecting to Hosts Section",
@@ -395,8 +395,8 @@
     "report-vulnerability.md": {
       "title": "Report a Vulnerability",
       "status": null,
-      "content_preview": "# Report a Vulnerability\n\nFound a security issue in Gonka? Submit it on HackerOne first, through the form below. That submission is the one that can be paid. Do not open a public GitHub issue or pull request, and do not post the issue in Discord or other public channels.\n\nReviewers triage the report. A valid report is paid on HackerOne after triage. You do not need a fix to be paid for the report. Rewards depend on severity and are defined by the HackerOne program terms.\n\nA fix is optional, and it comes second. After the HackerOne report exists, open [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/). In the top menu, click **Security and quality**, then **Report vulnerability**. That opens a private page for this one vulnerability. It is not a public issue or pull request. The title m",
-      "checksum": "96cf99a54e9caff8aee760733e61925b4c2dab29968236f05caddb201176859d"
+      "content_preview": "# Report a Vulnerability\n\nFound a security issue in Gonka? Report it privately. Do not open a public GitHub issue or pull request, and do not post the issue in Discord or other public channels.\n\nTo be eligible for a bounty, submit the report on HackerOne through the form below. If you can't or prefer not to join the bounty program, report privately [on GitHub instead](https://github.com/gonka-ai/gonka/security/advisories/new). Reports submitted this way are not eligible for a bounty.\n\nReviewers triage the report. A valid report is paid on HackerOne after triage. You do not need a fix to be paid for the report. Rewards depend on severity and are defined by the HackerOne program terms.\n\nA fix is optional, and it comes second. After the HackerOne report exists, open [`gonka-ai/gonka`](https:/",
+      "checksum": "c050e99e6082e53f6352aed5e993345655e6f8a8c993733ed244cb1ab0b3d020"
     },
     "signup.md": {
       "title": "Sign Up",

@@ -1706,7 +1706,7 @@ There are two complementary tracks:
 
 ### How do I report a security vulnerability?
 
-Submit every security vulnerability on **HackerOne** first, through the form at **[gonka.ai/docs/report-vulnerability](https://gonka.ai/docs/report-vulnerability/)**. That submission is the one that can be paid.
+Report every security vulnerability privately. To be eligible for a bounty, submit it on **HackerOne** through the form at **[gonka.ai/docs/report-vulnerability](https://gonka.ai/docs/report-vulnerability/)**. That submission is the one that can be paid. If you can't or prefer not to join the bounty program, report privately [on GitHub instead](https://github.com/gonka-ai/gonka/security/advisories/new). Reports submitted this way are not eligible for a bounty.
 
 - Do not open a public GitHub issue or pull request, and do not post the issue in Discord or other public channels.
 - A fix is optional, and it comes second. After the HackerOne report exists, open [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/). In the top menu, click **Security and quality**, then **Report vulnerability**. That opens a private page for this one vulnerability. It is not a public issue or pull request. The title must include your HackerOne report number. This copy is not paid.
@@ -2522,7 +2522,9 @@ Guideline only — HackerOne is authoritative:
 
 ### How to report {#how-to-report}
 
-Submit every security vulnerability on HackerOne first, through the [report form](report-vulnerability.md). That submission is the one that can be paid.
+Report every security vulnerability privately. To be eligible for a bounty, submit it on HackerOne through the [report form](report-vulnerability.md). That submission is the one that can be paid.
+
+If you can't or prefer not to join the bounty program, report privately [on GitHub instead](https://github.com/gonka-ai/gonka/security/advisories/new). Reports submitted this way are not eligible for a bounty. The steps below apply to HackerOne reports.
 
 1. Use the [HackerOne report form](report-vulnerability.md). Do not open a public GitHub issue or pull request, and do not post the issue in Discord or other public channels.
 2. A fix is optional, and it comes second. After the HackerOne report exists, open [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/). In the top menu, click **Security and quality**, then **Report vulnerability**. That opens a private page for this one vulnerability. It is not a public issue or pull request. The title must include your HackerOne report number. This copy is not paid.
@@ -3184,7 +3186,7 @@ When referring to “Next PoC” or “PoC phase”, this typically means the ne
 
 Join the Gonka community on [Discord](https://discord.gg/REcpeYc7P7) if you need assistance.
 
-To contribute code or propose ideas, see the [Bounty program](bounty-program.md). Submit every security vulnerability on [HackerOne](report-vulnerability.md) first. That submission is the one that can be paid. Do not open a public GitHub issue or pull request, and do not post the issue in Discord or other public channels. A fix is optional, and it comes second: after the HackerOne report exists, open **Security and quality → Report vulnerability** on [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/), put the HackerOne report number in the title, then create a private fork from that report and open the fix there.
+To contribute code or propose ideas, see the [Bounty program](bounty-program.md). Report every security vulnerability privately. Do not open a public GitHub issue or pull request, and do not post the issue in Discord or other public channels. To be eligible for a bounty, submit it on [HackerOne](report-vulnerability.md). That submission is the one that can be paid. If you can't or prefer not to join the bounty program, report privately [on GitHub instead](https://github.com/gonka-ai/gonka/security/advisories/new). Reports submitted this way are not eligible for a bounty. For HackerOne reports, a fix is optional, and it comes second: after the HackerOne report exists, open **Security and quality → Report vulnerability** on [`gonka-ai/gonka`](https://github.com/gonka-ai/gonka/), put the HackerOne report number in the title, then create a private fork from that report and open the fix there.
 
 ---
 
@@ -8569,7 +8571,9 @@ source config.env && docker compose up api --no-deps --force-recreate -d
 
 # Report a Vulnerability
 
-Found a security issue in Gonka? Submit it on HackerOne first, through the form below. That submission is the one that can be paid. Do not open a public GitHub issue or pull request, and do not post the issue in Discord or other public channels.
+Found a security issue in Gonka? Report it privately. Do not open a public GitHub issue or pull request, and do not post the issue in Discord or other public channels.
+
+To be eligible for a bounty, submit the report on HackerOne through the form below. If you can't or prefer not to join the bounty program, report privately [on GitHub instead](https://github.com/gonka-ai/gonka/security/advisories/new). Reports submitted this way are not eligible for a bounty.
 
 Reviewers triage the report. A valid report is paid on HackerOne after triage. You do not need a fix to be paid for the report. Rewards depend on severity and are defined by the HackerOne program terms.
 
@@ -32988,7 +32992,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-118 proposals across 6 quarters. Last updated: 2026-11-23 08:41 UTC
+118 proposals across 6 quarters. Last updated: 2026-11-23 10:01 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
