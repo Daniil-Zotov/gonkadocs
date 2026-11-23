@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-11-23T00:46:06.996755+00:00",
+  "snapshot_time": "2026-11-23T08:56:34.702509+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -79,6 +79,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2076](https://github.com/gonka-ai/gonka/discussions/2076) every hour. \n\n# DevShard Release Testing Flow\n\n**Автор:** [@aikuznetsov](https://github.com/aikuznetsov) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-10-21 13:28 UTC · \n\n---\n\n## 📝 Описание\n\n## Purpose\n\nDefine a repeatable testing flow for DevShard releases, with clear ownership and handover criteria. The flow covers development testing, parallel independent and internal validation, final sign-off, and release rollout.\n\nParticipants:\n\n- **Dev team:** implements changes, tests new functionality, prepares release candidates, and fixes reported issues.\n- **TestLab:** independently validates release candidates on DevNet, focusing on regression, load, upgrades, and rollbacks.\n- **Internal va",
       "checksum": "e6089d4df6ef6fc7d6a411235e585b9cf3cc6399ad38ddbb9860da5e1253e917"
+    },
+    "ecosystem/2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt.md": {
+      "title": "#2306 — [Draft for discussion] WGNK bridge hack: three compensation options, per-address register, open data",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2306](https://github.com/gonka-ai/gonka/discussions/2306) every hour. \n\n# [Draft for discussion] WGNK bridge hack: three compensation options, per-address register, open data\n\n**Автор:** [@Konyakoff](https://github.com/Konyakoff) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-11-23 08:16 UTC · \n\n---\n\n## 📝 Описание\n\n> [!IMPORTANT]\n> **Draft for community discussion — not an official position of Gonka or its Core Team.** I am Sergey Konyakov, a community member acting in a personal capacity. The research was done with Claude Code (Fable 5.2); I have not yet independently verified every address and amount. **I ask community members and the Core Team to re-check the logic of the calculation and the listed addresses and amounts.** A shared position ",
+      "checksum": "4e941be8f7a614f86335a088f4579079ddf7ef8825e554e5a7264aed8cd3db9a"
     },
     "general/0670-kimi-k25.md": {
       "title": "#670 — Kimi K2.5",

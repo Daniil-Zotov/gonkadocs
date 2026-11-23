@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261123085612_ed768424",
+    "timestamp": "2026-11-23T08:56:12.267304+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#2306 — [Draft for discussion] WGNK bridge hack: three compensation options, per-address register, open data",
+      "url": "/community/discussion/ecosystem/2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt/",
+      "file": "ecosystem/2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #2306](https://github.com/gonka-ai/gonka/discussions/2306) every hour. \n\n# [Draft for discussion] WGNK bridge hack: three compensation options, per-address register, open data\n\n**Автор:** [@Konyakoff](https://github.com/Konyakoff) · **Категория:** :jigsaw: Ecosystem · **Создано:** 2026-11-23 08:16 UTC · \n\n---\n\n## 📝 Описание\n\n> [!IMPORTANT]\n> **Draft for community discussion — not an official position of Gonka or its Core Team.** I am Sergey Konyakov, a community member acting in a personal capacity. The research was done with Claude Code (Fable 5.2); I have not yet independently verified every address and amount. **I ask community members and the Core Team to re-check the logic of the calculation and the listed addresses and amounts.** A shared position "
+    },
+    "ai_description": "A new community draft has been posted for discussion on the WGNK bridge hack, proposing three compensation options with a per-address register and open data. Author Sergey Konyakov is inviting the community and Core Team to independently verify the calculation logic and listed addresses before any official stance is taken. This is a critical step toward transparent and collective decision-making on how affected users should be compensated."
+  },
+  {
     "id": "evt_20261121180906_bfc5b222",
     "timestamp": "2026-11-21T18:09:06.457405+00:00",
     "section": "issues",
@@ -8206,21 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshard v4: epoch prune leaves zombie in-memory Hosts → AppendDiff session not found\n    <span class=\"issues-number\">#1529</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-07-31 11:00 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <"
     },
     "ai_description": "A new issue has been closed regarding devshard v4, where epoch pruning leaves zombie in-memory hosts causing AppendDiff sessions to fail with \"session not found\" errors. This bug matters because it can disrupt data synchronization and compromise the reliability of the inference network. Keep an eye on the resolution to ensure your nodes stay healthy."
-  },
-  {
-    "id": "evt_20261022192049_b524d797",
-    "timestamp": "2026-10-22T19:20:49.449556+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1537 — [BUG] api-test does not apply portable BLST flags on Apple Silicon",
-      "url": "/community/issues/01537-bug-api-test-does-not-apply-portable-blst-flags-on-apple-sil/",
-      "file": "01537-bug-api-test-does-not-apply-portable-blst-flags-on-apple-sil.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] api-test does not apply portable BLST flags on Apple Silicon\n    <span class=\"issues-number\">#1537</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Parikalp-Bhardwaj\">@Parikalp-Bhardwaj</a> opened 2026-08-03 14:53 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-"
-    },
-    "ai_description": "A new bug report has been filed for the api-test suite, highlighting that portable BLST flags are not applied on Apple Silicon. This is important because it can lead to inconsistent cryptographic performance or build issues on M-series Macs. We encourage the community to review and contribute fixes to ensure reliable testing across all architectures. #1537 is now open for discussion."
   }
 ]

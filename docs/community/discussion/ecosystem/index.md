@@ -4,12 +4,13 @@ title: ":jigsaw: Ecosystem"
 
 # :jigsaw: Ecosystem
 
-Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **12**. Обновлено: `2026-11-23 00:46 UTC`.
+Дискуссии в категории **:jigsaw: Ecosystem**. Всего: **13**. Обновлено: `2026-11-23 08:56 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
+| [2306](2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt.md) | [[Draft for discussion] WGNK bridge hack: three compensation options, per-address register, open data](2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt.md) | [@Konyakoff](https://github.com/Konyakoff) | 2026-11-23 |
 | [2076](2076-devshard-release-testing-flow.md) | [DevShard Release Testing Flow](2076-devshard-release-testing-flow.md) | [@aikuznetsov](https://github.com/aikuznetsov) | 2026-10-21 |
 | [2067](2067-fundingscoping-proposal-a-resumable-local-gonka-batch-workbe.md) | [Funding/scoping proposal: a resumable local Gonka batch workbench](2067-fundingscoping-proposal-a-resumable-local-gonka-batch-workbe.md) | [@brodyga45](https://github.com/brodyga45) | 2026-10-20 |
 | [1825](1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md) | [Proposal #107: Gonka at HSC Asset Management Singapore, 8 October 2026](1825-proposal-107-gonka-at-hsc-asset-management-singapore-8-octob.md) | [@JetterHSC](https://github.com/JetterHSC) | 2026-10-20 |
