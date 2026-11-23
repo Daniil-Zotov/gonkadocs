@@ -2,7 +2,7 @@
 title: "#2233 — Participant registration timeout issue (improve UX)"
 source: https://github.com/gonka-ai/gonka/issues/2233
 issue_number: 2233
-synced_at: 2026-11-22T21:54:19Z
+synced_at: 2026-11-23T02:54:28Z
 template: issues-main.html
 ---
 

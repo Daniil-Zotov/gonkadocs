@@ -2,7 +2,7 @@
 title: "#1223 — [P1] Clean up the state"
 source: https://github.com/gonka-ai/gonka/issues/1223
 issue_number: 1223
-synced_at: 2026-11-22T21:55:14Z
+synced_at: 2026-11-23T02:55:23Z
 template: issues-main.html
 ---
 

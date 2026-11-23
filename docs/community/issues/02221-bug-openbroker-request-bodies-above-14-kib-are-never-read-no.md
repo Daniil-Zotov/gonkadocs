@@ -2,7 +2,7 @@
 title: "#2221 — [BUG] OpenBroker: request bodies above ~14 KiB are never read — no response, no error"
 source: https://github.com/gonka-ai/gonka/issues/2221
 issue_number: 2221
-synced_at: 2026-11-22T21:54:12Z
+synced_at: 2026-11-23T02:54:21Z
 template: issues-main.html
 ---
 

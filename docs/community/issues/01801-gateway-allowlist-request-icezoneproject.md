@@ -2,7 +2,7 @@
 title: "#1801 — Gateway allowlist request: icezoneproject"
 source: https://github.com/gonka-ai/gonka/issues/1801
 issue_number: 1801
-synced_at: 2026-11-22T21:55:13Z
+synced_at: 2026-11-23T02:55:23Z
 template: issues-main.html
 ---
 
