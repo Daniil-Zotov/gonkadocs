@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261123131603_1fd44897",
+    "timestamp": "2026-11-23T13:16:03.534490+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2298 — devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once",
+      "url": "/community/issues/02298-devshardd-nothing-bounds-validations-in-flight-across-escrow/",
+      "file": "02298-devshardd-nothing-bounds-validations-in-flight-across-escrow.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once\n    <span class=\"issues-number\">#2298</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:47 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <di",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once\n    <span class=\"issues-number\">#2298</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/kaileido\">@kaileido</a> opened 2026-11-19 21:47 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <d"
+    },
+    "ai_description": "Issue #2298 on devshardd has gained four new comments, bringing the total to five. The discussion is growing around the concern that nothing caps in-flight validations across escrows, letting a single PoC trigger hundreds of concurrent replay parses. Worth tracking if you care about resource limits and DoS resistance in the network."
+  },
+  {
     "id": "evt_20261123100525_12481ee6",
     "timestamp": "2026-11-23T10:05:25.738109+00:00",
     "section": "gonka_docs",
@@ -8206,21 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request - Bagtyyar Kovusov\n    <span class=\"issues-number\">#1510</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/bagtyyarkovusov\">@bagtyyarkovusov</a> opened 2026-07-27 20:18 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<"
     },
     "ai_description": "New gateway allowlist request #1510 has been opened by Bagtyyar Kovusov, seeking approval to join the network as a gateway operator. The request is currently open and under review, so the community will be watching to see if this operator meets the network's standards. Stay tuned for updates on the decision."
-  },
-  {
-    "id": "evt_20261022192049_b8537daf",
-    "timestamp": "2026-10-22T19:20:49.449514+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1513 — Build and attest release binaries in CI instead of uploading them manually",
-      "url": "/community/issues/01513-build-and-attest-release-binaries-in-ci-instead-of-uploading/",
-      "file": "01513-build-and-attest-release-binaries-in-ci-instead-of-uploading.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Build and attest release binaries in CI instead of uploading them manually\n    <span class=\"issues-number\">#1513</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/KTibow\">@KTibow</a> opened 2026-07-28 20:05 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></d"
-    },
-    "ai_description": "A new issue (#1513) has been opened by @KTibow proposing to automate the build and attestation of release binaries directly in CI, replacing the current manual upload process. This would improve supply chain security and reproducibility for the network. Worth a look if you care about release integrity. #1513 is open for discussion with 3 comments so far."
   }
 ]

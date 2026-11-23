@@ -2,7 +2,7 @@
 title: "#2298 — devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once"
 source: https://github.com/gonka-ai/gonka/issues/2298
 issue_number: 2298
-synced_at: 2026-11-23T02:54:14Z
+synced_at: 2026-11-23T13:11:51Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 2026-11-19 21:47 UTC</span>
-    <span class="issues-meta-item">1 comment</span>
-    <span class="issues-meta-item">Updated 2026-11-21 17:17 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-23 12:01 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -57,7 +57,7 @@ Related: #2293 (fewer bytes per validation; it does not bound how many run at on
 
 ---
 
-## 💬 Comments (1)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -68,6 +68,44 @@ Related: #2293 (fewer bytes per validation; it does not bound how many run at on
     <p>@kaileido you mention the change is already prepared. Are you opening the PR yourself? If not, I'm happy to take it.</p>
 <p>@a-kuprin is #1449 still the plan for v7? It replaces the per-escrow workers and already has an in-flight cap, so if it lands, a slot cap here would only be a stopgap. If it's not coming soon, I'd do the cap as described in the issue: non-blocking, returns ErrValidationDeferred, set by an env var, with the default left to you.</p>
 <p>Related: #2305 defers validations whose replay was aborted at PoC start, the same burst from the other side.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/a-kuprin">@a-kuprin</a></span>
+    <span class="issues-meta-item">commented 2026-11-23 09:35 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@gafrustam 
+I think shared pool will no be in v7</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gafrustam">@gafrustam</a></span>
+    <span class="issues-meta-item">commented 2026-11-23 11:18 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Thanks. I'll go ahead with the slot cap for v7 then, as proposed in the issue, and open a PR against devshard/v7 in a day or two.</p>
+<p>@kaileido, if you'd rather open your prepared change yourself, just say so and I'll leave it to you.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-11-23 11:41 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@gafrustam please, don't rush with this issue. </p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/gafrustam">@gafrustam</a></span>
+    <span class="issues-meta-item">commented 2026-11-23 12:01 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Sure, I'll hold off. Let me know when it makes sense to pick it up, or if you'd rather keep it on your side</p>
   </div>
 </div>
 

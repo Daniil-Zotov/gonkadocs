@@ -2,7 +2,7 @@
 title: "#2201 — dapi: final-window StoreCommit can land in the same block as the previous one and is rejected (only one commit per block allowed)"
 source: https://github.com/gonka-ai/gonka/issues/2201
 issue_number: 2201
-synced_at: 2026-11-23T02:54:35Z
+synced_at: 2026-11-23T13:12:17Z
 template: issues-main.html
 ---
 
