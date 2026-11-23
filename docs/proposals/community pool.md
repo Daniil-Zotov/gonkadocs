@@ -10,7 +10,7 @@ hide:
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-11-23 02:08 UTC
+2026-11-23 08:34 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 ---
@@ -25,13 +25,15 @@ The Gonka network maintains three key addresses that collectively manage communi
 </p>
 <!-- BALANCES_END -->
 
-The Community Pool is the protocol-controlled treasury of the Gonka network. It accrues value through a **2% community tax** applied to every inflation reward and network fee. These funds can only be spent through a successful governance vote — no single key controls them.
+The Community Pool is the protocol-controlled treasury of the Gonka network. It accrues value through a **2% community tax** applied to inflation rewards and network fees — although chain inflation is currently **disabled** (mint inflation max/min = 0), so the steady accrual comes only from fees. These funds can only be spent through a successful governance vote — no single key controls them.
 
-Since the network genesis, the Community Pool has received continuous inflows from transaction fees and inflation rewards, funding ecosystem development, marketing initiatives, and community programmes through passed governance proposals.
+Since the network genesis, the Community Pool has received inflows from the 2% community tax (fees and, historically, inflation rewards), funding ecosystem development, marketing initiatives, and community programmes through passed governance proposals.
+
+**Direct deposits:** anyone can fund the pool with `MsgFundCommunityPool`. On **2026-11-19** two deposits landed within minutes of each other — **11,999,999.999 GNK** from [`gonka1qekvfdemp…`](https://gonka.gg/address/gonka1qekvfdempdq5vvqz26sts79zh6zv85su34p6u3) ([tx B879F107…](https://gonka.gg/transactions/B879F1076D8A4C5BDECA0E5EABAFFA21FB0DF1C30A0AA4D6882F0054AC252A6B)) and **900,401.005 GNK** from [`gonka1gk48e8tz9…`](https://gonka.gg/address/gonka1gk48e8tz9y85j9fpeyh6gww3rks98ht2d6s26v) ([tx FA6CBC63…](https://gonka.gg/transactions/FA6CBC63F0950B508AE25A4B92EE85F57777D3A4793328CD56B2978FF5BB2EEA)) — a combined **+12,900,401 GNK**, by far the largest one-day inflow to the pool.
 
 *Returned USDT sits in the pool as the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4` until it is spent through a governance vote — e.g. the **$10,000** returned from **[proposal #42](https://gonkadocs.com/proposals/proposals/2026-q2/42/)** after the planned Global Compute Sovereignty Summit was cancelled (see the [return instructions](https://gonkadocs.com/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/)). Note that most USDT payouts to contractors and bounty hunters are funded from the **Community Sale contract** below rather than from the distribution-module pool.*
 
-**Inflow rate:** ~13,150 GNK/day (varies with block time, fee volume, and staking ratio).
+**Steady inflow:** with inflation disabled, the 2% fee tax adds only fractions of a GNK per day — one-off deposits like the 2026-11-19 ones dominate the pool balance.
 
 <details style="font-size:0.8rem;opacity:0.7;padding-left:0.5rem;margin:0.2rem 0">
 <summary style="cursor:pointer;font-weight:500;padding-left:2.5em!important">Verify on-chain</summary>
