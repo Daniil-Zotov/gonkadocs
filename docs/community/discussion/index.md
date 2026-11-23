@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **121**. Обновлено: `2026-11-23 08:56 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **123**. Обновлено: `2026-11-23 21:14 UTC`.
 
 ## 📂 Категории
 
@@ -14,7 +14,7 @@ title: "GitHub Discussions"
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 13 |
 | [:speech_balloon: General](general/index.md) | 8 |
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 17 |
-| [:gear: Protocol Improvements](protocol-improvements/index.md) | 51 |
+| [:gear: Protocol Improvements](protocol-improvements/index.md) | 53 |
 | [:interrobang: Q&A](q-a/index.md) | 5 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 26 |
 
@@ -22,6 +22,8 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [2307](protocol-improvements/2307-proposal-from-ancapex-alternative-tokenomics.md) | [Proposal from Ancapex: Alternative Tokenomics](protocol-improvements/2307-proposal-from-ancapex-alternative-tokenomics.md) | :gear: Protocol Improvements | [@alancapex](https://github.com/alancapex) | 2026-11-23 |
+| [2308](protocol-improvements/2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | [Proposal from Ancapex: Decision Models for Modest Hardware](protocol-improvements/2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | :gear: Protocol Improvements | [@alancapex](https://github.com/alancapex) | 2026-11-23 |
 | [2306](ecosystem/2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt.md) | [[Draft for discussion] WGNK bridge hack: three compensation options, per-address register, open data](ecosystem/2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt.md) | :jigsaw: Ecosystem | [@Konyakoff](https://github.com/Konyakoff) | 2026-11-23 |
 | [2304](governance-proposal-reports/2304-proposal-74-gonka-labs-monthly-report-no5.md) | [Proposal #74: Gonka Labs - Monthly Report No.5](governance-proposal-reports/2304-proposal-74-gonka-labs-monthly-report-no5.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-11-21 |
 | [2267](protocol-improvements/2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md) | [[Proposal] Lightweight TypeScript CLI for Automated Ethereum Bridge Epoch Synchronization](protocol-improvements/2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md) | :gear: Protocol Improvements | [@kakavaanen](https://github.com/kakavaanen) | 2026-11-14 |
@@ -40,5 +42,3 @@ title: "GitHub Discussions"
 | [837](protocol-improvements/0837-high-availability-fault-tolerance-setup.md) | [High-availability / Fault-tolerance Setup](protocol-improvements/0837-high-availability-fault-tolerance-setup.md) | :gear: Protocol Improvements | [@blizko](https://github.com/blizko) | 2026-10-20 |
 | [802](protocol-improvements/0802-continuous-poc.md) | [Continuous PoC](protocol-improvements/0802-continuous-poc.md) | :gear: Protocol Improvements | [@mtvnastya](https://github.com/mtvnastya) | 2026-10-20 |
 | [798](general/0798-how-can-governance-voting-become-easier-for-hosts.md) | [How can governance voting become easier for Hosts?](general/0798-how-can-governance-voting-become-easier-for-hosts.md) | :speech_balloon: General | [@tcharchian](https://github.com/tcharchian) | 2026-10-20 |
-| [869](protocol-improvements/0869-gip-860-inference-quality-protocol-semantic-inference-optimi.md) | [GiP #860 — Inference Quality Protocol: Semantic Inference Optimization](protocol-improvements/0869-gip-860-inference-quality-protocol-semantic-inference-optimi.md) | :gear: Protocol Improvements | [@Mayveskii](https://github.com/Mayveskii) | 2026-10-20 |
-| [816](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | [Gonka Node Manager — Automated Node Deployment, Updates, and Monitoring](ecosystem/0816-gonka-node-manager-automated-node-deployment-updates-and-mon.md) | :jigsaw: Ecosystem | [@ochenUmnayaKatyshka](https://github.com/ochenUmnayaKatyshka) | 2026-10-20 |
