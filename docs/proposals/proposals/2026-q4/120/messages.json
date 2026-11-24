@@ -1,0 +1,65 @@
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgInstantiateContract2",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "admin": "",
+    "code_id": "107",
+    "label": "quorint-security-milestone-escrow",
+    "msg": {
+      "governance": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+      "payouts": [
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "250000000000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "300000000000000",
+          "unlock_after_days": 45
+        },
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "300000000000000",
+          "unlock_after_days": 90
+        },
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "300000000000000",
+          "unlock_after_days": 135
+        },
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "250000000000000",
+          "unlock_after_days": 180
+        },
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "200000000000000",
+          "unlock_after_days": 210
+        }
+      ],
+      "close_after_days": 270
+    },
+    "funds": [],
+    "salt": "cXVvcmludC1nb25rYS1zZWN1cml0eS0yMDI2",
+    "fix_msg": false
+  },
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1m5gr4pkemg7fyml3jlkecpvxzprrkglfu05jfe8kmm38780ajp5s9qznhg",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "1600000000000000"
+      }
+    ]
+  }
+]

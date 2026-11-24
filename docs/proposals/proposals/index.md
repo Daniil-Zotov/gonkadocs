@@ -34,14 +34,14 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">118</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">81</span><span class="qs-desc">Passed (69%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">36</span><span class="qs-desc">Rejected (31%)</span></div>
+<div class="qs-stat total"><span class="qs-num">119</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">81</span><span class="qs-desc">Passed (68%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">36</span><span class="qs-desc">Rejected (30%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:42%"></span></span><span class="qs-value">50</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:43%"></span></span><span class="qs-value">51</span></div>
 <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:31%"></span></span><span class="qs-value">37</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">20</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:5%"></span></span><span class="qs-value">6</span></div>
@@ -58,7 +58,22 @@ hide:
 <div class="prop-quarter" id="2026-q4" markdown="1">
 ## 2026-Q4
 
-*10 proposals*
+*11 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-26T14:01:24.806179168Z">
+  <div class="prop-card-header">
+    <a href="2026-q4/120/" class="prop-card-title">#120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)</a>
+    <span class="prop-vote-countdown" data-deadline="2026-11-26T14:01:24.806179168Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-11-24</span>
+    <span>Voting ends 2026-11-26</span>
+  </div>
+  <div class="prop-card-desc">Funds a 24-week security engagement with Quorint (<a href="https://quorint.xyz" target="_blank">https://quorint.xyz</a>): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>100.0%</strong> (1)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">1,600,000 GNK · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-veto-text">✗ Turnout <strong>0.0%</strong> (1 / 1,908,722) · Quorum <strong>25%</strong> (477,180)</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-passed">
   <div class="prop-card-header">
@@ -1677,7 +1692,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>118 proposals across 6 quarters. Last updated: 2026-11-24 14:01 UTC</em>
+<em>119 proposals across 6 quarters. Last updated: 2026-11-24 14:22 UTC</em>
 </div>
 
 <script>

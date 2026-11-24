@@ -7,6 +7,14 @@
     <language>en</language>
     <atom:link href="https://gonkadocs.com/proposals/proposals/proposals.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>#120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator &amp; Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)</title>
+      <link>https://gonkadocs.com/proposals/proposals/2026-q4/120/</link>
+      <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/120/</guid>
+      <pubDate>Tue, 24 Nov 2026 14:01:24 +0000</pubDate>
+      <category>Voting</category>
+      <description>Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), an executable attack registry (Track 5 P1), an economic attack simulator (Track 5 P2) and pre-mainnet upgrade audits. Allocates 1,600,000 GNK from the Community Pool (no USDT) to a new instance of the code_id 107 milestone escrow used by Proposal #82 (escrow gonka1m5gr4pkemg7fyml3jlkecpvxzprrkglfu05</description>
+    </item>
+    <item>
       <title>#119 – Community Support for the Gonka Foundation</title>
       <link>https://gonkadocs.com/proposals/proposals/2026-q4/119/</link>
       <guid isPermaLink="true">https://gonkadocs.com/proposals/proposals/2026-q4/119/</guid>
