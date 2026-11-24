@@ -2,7 +2,7 @@
 title: "#1201 — [P0] Training on Gonka"
 source: https://github.com/gonka-ai/gonka/issues/1201
 issue_number: 1201
-synced_at: 2026-11-24T11:07:42Z
+synced_at: 2026-11-24T21:23:12Z
 template: issues-main.html
 ---
 

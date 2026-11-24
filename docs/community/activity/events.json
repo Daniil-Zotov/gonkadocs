@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261124212606_98c37428",
+    "timestamp": "2026-11-24T21:26:06.795697+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2320 — [BUG] v6 gateway: liquidity-starved temp escrows satisfy bridge count and prevent automatic refill",
+      "url": "/community/issues/02320-bug-v6-gateway-liquidity-starved-temp-escrows-satisfy-bridge/",
+      "file": "02320-bug-v6-gateway-liquidity-starved-temp-escrows-satisfy-bridge.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] v6 gateway: liquidity-starved temp escrows satisfy bridge count and prevent automatic refill\n    <span class=\"issues-number\">#2320</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-11-24 11:37 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n"
+    },
+    "ai_description": "A new bug report (#2320) has been filed highlighting an issue in the v6 gateway where liquidity-starved temporary escrows are incorrectly counted as valid bridges, blocking the automatic refill mechanism. This is a critical issue that could lead to stuck transactions and underfunded escrows if left unaddressed. The report is now closed with 5 comments — check the thread for the proposed fix discussion."
+  },
+  {
+    "id": "evt_20261124212606_79e15262",
+    "timestamp": "2026-11-24T21:26:06.795728+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2323 — PoC validation: four large DeepSeek hosts have cast no votes since moving to MLNode 4.0.0 pre-release images",
+      "url": "/community/issues/02323-poc-validation-four-large-deepseek-hosts-have-cast-no-votes-/",
+      "file": "02323-poc-validation-four-large-deepseek-hosts-have-cast-no-votes-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC validation: four large DeepSeek hosts have cast no votes since moving to MLNode 4.0.0 pre-release images\n    <span class=\"issues-number\">#2323</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-24 20:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
+    },
+    "ai_description": "New issue #2323 reports that four large DeepSeek hosts have stopped casting votes after upgrading to MLNode 4.0.0 pre-release images, signaling a potential compatibility problem with the latest node software. This matters because silent vote loss undermines consensus integrity, so the community should prioritize investigating these hosts to confirm whether the issue is isolated or affects the broader network. Please join the discussion to help validate this PoC and ensure the pre-release rollout stays healthy."
+  },
+  {
     "id": "evt_20261124183203_c227ff91",
     "timestamp": "2026-11-24T18:32:03.668154+00:00",
     "section": "gonka_docs",
@@ -8190,37 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1397</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/yuritsin-code\">@yuritsin-code</a> opened 2026-07-04 15:26 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
     },
     "ai_description": "A new issue has been opened by @yuritsin-code requesting to add their gateway to the allowlist. This matters because allowlisted gateways are trusted to relay inference traffic on the network, so community review of new entrants helps keep the system secure. Head over to issue #1397 to weigh in on the request."
-  },
-  {
-    "id": "evt_20261022192049_d79ec3ac",
-    "timestamp": "2026-10-22T19:20:49.449264+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1398 — Gateway allowlist request: niro",
-      "url": "/community/issues/01398-gateway-allowlist-request-niro/",
-      "file": "01398-gateway-allowlist-request-niro.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: niro\n    <span class=\"issues-number\">#1398</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/niro58\">@niro58</a> opened 2026-07-04 20:09 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-content\" mark"
-    },
-    "ai_description": "New gateway allowlist request #1398 is now open from niro58, asking to join the network as a gateway operator. If you have experience with this operator or insights on their reliability, drop a comment to help the community evaluate the request. Your feedback helps keep the network secure and trustworthy.​​​​​​​​​​​​​​​​​​​​"
-  },
-  {
-    "id": "evt_20261022192049_6d587038",
-    "timestamp": "2026-10-22T19:20:49.449276+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1405 — OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319",
-      "url": "/community/issues/01405-openbroker-api-moved-hosts-and-existing-broker-accounts-and-/",
-      "file": "01405-openbroker-api-moved-hosts-and-existing-broker-accounts-and-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319\n    <span class=\"issues-number\">#1405</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dufok\">@dufok</a> opened 2026-07-06 00:16 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n "
-    },
-    "ai_description": "OpenBroker API host migration has wiped out existing broker accounts and balances, with issue #1405 now closed as a follow-up to #1319. If you had funds tied to those accounts, this is a critical reminder to verify your positions and reach out to the team if anything is missing. Stay tuned for updates on recovery or compensation steps."
   }
 ]

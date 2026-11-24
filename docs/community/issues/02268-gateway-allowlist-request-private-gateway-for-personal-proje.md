@@ -2,7 +2,7 @@
 title: "#2268 — Gateway allowlist request — private gateway for personal projects"
 source: https://github.com/gonka-ai/gonka/issues/2268
 issue_number: 2268
-synced_at: 2026-11-24T11:06:05Z
+synced_at: 2026-11-24T21:22:05Z
 template: issues-main.html
 ---
 

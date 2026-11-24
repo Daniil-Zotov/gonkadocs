@@ -2,7 +2,7 @@
 title: "#2310 — [BUG] dapi: the last PoC StoreCommit often misses the deadline block, so the stage keeps a count one block short"
 source: https://github.com/gonka-ai/gonka/issues/2310
 issue_number: 2310
-synced_at: 2026-11-24T11:05:56Z
+synced_at: 2026-11-24T21:21:59Z
 template: issues-main.html
 ---
 
