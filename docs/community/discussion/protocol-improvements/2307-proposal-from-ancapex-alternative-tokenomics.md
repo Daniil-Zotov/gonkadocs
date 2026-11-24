@@ -3,7 +3,7 @@ title: "#2307 — Proposal from Ancapex: Alternative Tokenomics"
 source: https://github.com/gonka-ai/gonka/discussions/2307
 discussion_number: 2307
 category: protocol-improvements
-synced_at: 2026-11-23T21:13:39Z
+synced_at: 2026-11-24T05:55:28Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2307](https://github.com/gonka-ai/gonka/discussions/2307) every hour. 
