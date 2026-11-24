@@ -1,6 +1,6 @@
 {
   "section": "gonka_docs",
-  "snapshot_time": "2026-11-24T06:38:41.628619+00:00",
+  "snapshot_time": "2026-11-24T18:35:18.177221+00:00",
   "files": {
     "Errors.md": {
       "title": "Errors",
@@ -12,7 +12,7 @@
       "title": "FAQ",
       "status": null,
       "content_preview": "# FAQ\n\n## Overview\n\n### What is Gonka?\nGonka is a decentralized network for high‑efficiency AI compute — run by those who run it. It functions as a cost-effective and efficient alternative to centralized cloud services for AI model training and inference. As a protocol, it's not a company or a start-up.\n\n- In terms of Blockchain, Gonka is the foundational ledger and coordination layer (L1) of the decentralized AI network. It records balances, transactions and cryptographic artifacts that prove Hosts have correctly performed AI work, while all actual computations (such as inference and training) happen off-chain.\n- In terms of Network, Gonka is a comprehensive ecosystem of participants, including Hosts and Developers that interact through a decentralized infrastructure. Powered by the Gonka",
-      "checksum": "89148cf59840f97fe5beb78949f1556af6ba2140b551d9e1ff7737028895bc8b"
+      "checksum": "4a534f7b24141a45ecb57073678a831345925524f62566e8b0e65ae40c921da2"
     },
     "architecture.md": {
       "title": "Architecture",
@@ -29,32 +29,32 @@
     "cross-chain-transfers/ethereum-bridge/addresses-and-keys.md": {
       "title": "Addresses and keys",
       "status": null,
-      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Addresses and keys\n\nThis is the single most important page to understand before bridging. **Read it before your first transfer.**\n\n## One key, two addresses\n\nEthereum and Gonka both use the same kind of cryptographic key (a `secp256k1` key pair). A single private key therefore controls an account on **both** chains. The two chains only differ in how they turn the public key into a human-readable address:\n\n| Chain | Address format | ",
-      "checksum": "3fada4d3e77ee68cd83d55856ad285fdddcec160982d8b831dcb0c19d4d34fb2"
+      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Addresses and keys\n\nThis is the single most important page to understand before bridging. **Read it before your first transfer.**\n\n## One key, two addresses\n\nEthereum and Gonka both use the same kind of cryptographic key (a `secp256k1` key pair). A single private key therefore controls an account on **both** chains. The two chains only differ in how they turn the public key into a human-readable address:\n\n| Chain | Address format ",
+      "checksum": "5f1386e0572cf23f6dd2290373beddde0d4c9a889fc4de81cf8c81c61ecbf9c5"
     },
     "cross-chain-transfers/ethereum-bridge/bridge-epoch-update.md": {
       "title": "Bridge epoch update",
       "status": null,
-      "content_preview": "# Bridge epoch update\n\nGonka &rarr; Ethereum transfers use a BLS signature from the current Gonka epoch. The Ethereum bridge contract must know the current epoch's group key before it can verify that signature and release funds on Ethereum.\n\nAt the start of each epoch, about once per day, Gonka creates a new group key. A small Ethereum transaction registers that key on the bridge contract. Usually this is already done, but the bridge can briefly lag behind the Gonka chain just after an epoch change.\n\n## When you need this\n\nYou may need an epoch update if a Gonka &rarr; Ethereum withdrawal or WGNK mint is ready, but Ethereum execution cannot proceed because the bridge is behind the chain.\n\nOn the dashboard, this can appear as:\n\n```text\nA Bridge needs epoch update\nBridge: Epoch 283 | Chain: ",
-      "checksum": "91b6e8c3bf3f3dbb292a19f8acbc15b562ff30aab2bdb419289e0e959ca0443f"
+      "content_preview": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n# Bridge epoch update\n\nGonka &rarr; Ethereum transfers use a BLS signature from the current Gonka epoch. The Ethereum bridge contract must know the current epoch's group key before it can verify that signature and release funds on Ethereum.\n\nAt the start of each epoch, about once per day, Gonka creates a new group key. A small Ethereum transaction registers that key on the bridge contract. Usually this is already done, but the bridge can briefly lag behind the Gonka chain just after an epoch change.\n\n## When you need this\n\nYou may need an epoch update if a Gonka &",
+      "checksum": "db511e5f5f86298bcd23b83a622b083b715c77a9aeed0b4289943349d2e80d36"
     },
     "cross-chain-transfers/ethereum-bridge/dashboard.md": {
       "title": "Bridge via dashboard (UI guide)",
       "status": null,
-      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n## Deposit tokens to Gonka\n\nThis section walks you through depositing tokens to Gonka using the bridge widget. Select the token from the **Token** dropdown — the widget detects the bridge type automatically:\n\n* **ERC-20 tokens** (USDC, USDT, WETH, …) and **GNK** (as WGNK) go through the **Ethereum bridge**.\n* **IBC tokens** (USDT <span class=\"md-tag\">IBC</span>, …) go through **IBC** to a connected Cosmos chain.\n\n### How ETH / GNK bridge d",
-      "checksum": "d62777040987ebe229d85a547f4e3a77e327054fcb8634d5f1ac7718583083f1"
+      "content_preview": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n## Deposit tokens to Gonka\n\nThis section walks you through depositing tokens to Gonka using the bridge widget. Select the token from the **Token** dropdown — the widget detects the bridge type automatically:\n\n* ",
+      "checksum": "67eaa5cadac067d4e57c923dc5244be932af7c5916943f7f26827b65195b67ac"
     },
     "cross-chain-transfers/ethereum-bridge/deposit-gnk.md": {
       "title": "Deposit GNK (Gonka → Ethereum)",
       "status": null,
-      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Deposit GNK (Gonka → Ethereum)\n\nLock GNK on Gonka and receive wrapped GNK (**WGNK**) at your Ethereum address.\n\n### A) Request Minting WGNK on Ethereum\n\nUse CLI to submit a bridge minting request:\n\n```bash\n./inferenced tx inference request-bridge-mint \\\n  <amount> \\\n  \"0xYourEthereumAddr\" \\\n  \"ethereum\" \\\n  --destination-bridge-address 0x972a7a92d92796a98801a8818bcf91f1648f2f68 \\\n  --from <your_key_name> \\\n  --chain-id gonka-mainnet ",
-      "checksum": "ac85afb094ba7935b244e168c6189bb9aecf823a5d46d145347dfa3783765a92"
+      "content_preview": "The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Deposit GNK (Gonka → Ethereum)\n\nLock GNK on Gonka and receive wrapped GNK (**WGNK**) at your Ethereum address.\n\n!!! warning \"Instructions temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. The step-by-step instructions for this flow are temporarily unavailable. Do not use the bridge until further notice. Follow official announcements on [Network updates](../../network-updates.md) and [X](https://x.com/gonka_ai).",
+      "checksum": "f069f408b03486473d1a46fcd528ca0f51a25f7db4aeea01b07246196c8a8d87"
     },
     "cross-chain-transfers/ethereum-bridge/deposit-usdt.md": {
       "title": "Deposit USDT (Ethereum → Gonka)",
       "status": null,
-      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Deposit USDT (Ethereum → Gonka)\n\nTo use an existing Ethereum address that already holds USDT, generate a Gonka address from the same private key. This Gonka address will receive the wrapped token.\n\nIf instead you want to use an existing Gonka address, generate the corresponding Ethereum address from the same private key, acquire USDT on it, and ensure you have enough ETH for gas.\n\n!!! important\n    The wrapped tokens are delivered t",
-      "checksum": "5519be15e28830ae9c357474b4e5e2c8cbfa920e4567165031ef58a03c8b4fec"
+      "content_preview": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Deposit USDT (Ethereum → Gonka)\n\nTo use an existing Ethereum address that already holds USDT, generate a Gonka address from the same private key. This Gonka address will receive the wrapped token.\n\nIf ins",
+      "checksum": "53686cd479fc0805ed4e6b542b1795f2239d68ed612369cecabddd460b3b81b8"
     },
     "cross-chain-transfers/ethereum-bridge/multisig-signer-guide.md": {
       "title": "Multisig signer guide",
@@ -65,32 +65,32 @@
     "cross-chain-transfers/ethereum-bridge/overview.md": {
       "title": "Ethereum bridge overview",
       "status": null,
-      "content_preview": "# Ethereum bridge overview\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n[View the bridge contract on Etherscan](https://etherscan.io/address/0x972a7a92d92796a98801a8818bcf91f1648f2f68){target=_blank}\n\n!!! important \"This address is also the WGNK token\"\n    The bridge contract **is** the **WGNK** ERC-20 token — they are one and the same contract at this address, not two separate contracts. So the Etherscan page above is simultaneously the bridge and the WGNK token. Wrapped ERC-20 tok",
-      "checksum": "e5e8022ff69b96f9b7114a5d8029c76a3dd17dd02bc796bdbd4b0d3e938e06a6"
+      "content_preview": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n# Ethereum bridge overview\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n[View the bridge contract on Etherscan](https://etherscan.io/address/0x972a7a92d92796a98801a8818bcf91f1648f2f68){target=_blank}\n\n!!! important \"This address is also the WGNK token\"\n  ",
+      "checksum": "fff4d56abf38c5b863f9f234496b4c997986c33a9eb894460523f43e03a27bc3"
     },
     "cross-chain-transfers/ethereum-bridge/register-token.md": {
       "title": "Register a bridge token",
       "status": null,
-      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Register a bridge token\n\n!!! important \"Registration is optional\"\n    You do **not** need to register a token to bridge it. Any ERC-20 can be deposited to the bridge, and Gonka will automatically instantiate its wrapped CW-20 contract and mint your balance. Registration is a convenience that:\n\n    * attaches **metadata** (name, symbol, decimals) so the wrapped token displays correctly in wallets, explorers, and the dashboard, and\n  ",
-      "checksum": "8a043a446c86ec861047b79c3fc59a8d1fe10138ff1ad148fdf2b618ee3acfe7"
+      "content_preview": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Register a bridge token\n\n!!! important \"Registration is optional\"\n    You do **not** need to register a token to bridge it. Any ERC-20 can be deposited to the bridge, and Gonka will automatically instanti",
+      "checksum": "963dda2c88e6eb53e08229fefffd926f4828dda418641d7c3d83569079272e27"
     },
     "cross-chain-transfers/ethereum-bridge/tracker-integration.md": {
       "title": "Dashboard & tracker integration",
       "status": null,
-      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Dashboard & tracker integration\n\nThis page is for **dashboard, explorer, and tracker operators** who want to display or integrate Gonka bridge data themselves. All bridge state is readable from the public chain API — no special access is required.\n\nThe examples below use `https://node2.gonka.ai:8443/chain-api/...`; you can point them at any node you trust.\n\n## End-user dashboard\n\nThe hosted dashboard already exposes bridge functiona",
-      "checksum": "bae484f722b48d129b0dfb7e65613de9d86b7eb85b496b0804249067fb3adef9"
+      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Dashboard & tracker integration\n\nThis page is for **dashboard, explorer, and tracker operators** who want to display or integrate Gonka bridge data themselves. All bridge state is readable from the public chain API — no special access is required.\n\nThe examples below use `https://node2.gonka.ai:8443/chain-api/...`; you can point them at any node you trust.\n\n## End-user dashboard\n\nThe hosted dashboard already exposes bridge functio",
+      "checksum": "d88d04dd837ea97113350fe535574e67aff425ecd68f8937bc81f741aaef0f29"
     },
     "cross-chain-transfers/ethereum-bridge/withdraw-gnk.md": {
       "title": "Withdraw GNK (Ethereum → Gonka)",
       "status": null,
-      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw GNK (Ethereum → Gonka)\n\nThis is the reverse of [Deposit GNK (Gonka → Ethereum)](deposit-gnk.md). It burns wrapped GNK (**WGNK**) on Ethereum and releases the equivalent native **GNK** from escrow on Gonka.\n\nNative GNK is released to the Gonka address **derived from the same key that burns the WGNK** on Ethereum. Make sure you control that key on Gonka — see [Addresses and keys](addresses-and-keys.md).\n\n### A) Burn WGNK on Et",
-      "checksum": "bfc55889702fb4222016a274c6c572b821218dc110423620feb464881af500e4"
+      "content_preview": "The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw GNK (Ethereum → Gonka)\n\nThis is the reverse of [Deposit GNK (Gonka → Ethereum)](deposit-gnk.md). It burns wrapped GNK (**WGNK**) on Ethereum and releases the equivalent native **GNK** from escrow on Gonka.\n\nNative GNK is released to the Gonka address **derived from the same key that burns the WGNK** on Ethereum. Make sure you control that key on Gonka — see [Addresses and keys](addresses-and-keys.md).\n\n!!! warning \"Instructions temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. The step-by-step instructions for this flow are temporarily un",
+      "checksum": "ebe86f926eef007c3ec7ae2d4bd1faafe7e896f6dfdee13d487c7f1b4c4ea34b"
     },
     "cross-chain-transfers/ethereum-bridge/withdraw-usdt.md": {
       "title": "Withdraw USDT (Gonka → Ethereum)",
       "status": null,
-      "content_preview": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw USDT (Gonka → Ethereum)\n\n!!! note\n    Withdrawals are released on Ethereum by a BLS signature tied to the **current epoch's group key**, which is refreshed about once per day. A single epoch signature can authorize any number of withdrawals started in that epoch, so this step is normally fast. See [How Gonka → Ethereum is authorized](overview.md#how-gonka-ethereum-is-authorized-the-daily-group-key) for the background.\n\n### A",
-      "checksum": "4c92129d70797446583037c7e3c92ee09789dae4fe03b0ff59be58157388e099"
+      "content_preview": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw USDT (Gonka → Ethereum)\n\n!!! note\n    Withdrawals are released on Ethereum by a BLS signature tied to the **current epoch's group key**, which is refreshed about once per day. A single epoch signa",
+      "checksum": "47d25a005a2becf90d0c331d6b5ef3ff4be0963c30364a86c58d7b49a7de0485"
     },
     "cross-chain-transfers/ibc/withdraw-usdt-via-kava.md": {
       "title": "Withdraw USDT via Kava (Gonka → Ethereum)",
@@ -101,8 +101,8 @@
     "cross-chain-transfers/widget-integration.md": {
       "title": "Technical Integration Guide: Exchange & Bridge Widget",
       "status": null,
-      "content_preview": "# Technical Integration Guide: Exchange & Bridge Widget\n\nThis guide provides technical specifications, architectural designs, and implementation steps for community developers who want to recreate the Exchange & Bridge Widget within their own custom dashboards.\n\n## 2. Deposit Functionality\n\n### A. IBC Deposits (Cosmos to Gonka)\nIBC deposits transfer assets directly from Cosmos source chains (e.g. Osmosis, Cosmos Hub, Injective) to Gonka.\n\n1. **Enable & Connect Source Chain**: Query Keplr for the source chain credentials.\n    ```typescript\n    async function connectSourceChain(chainId: string) {\n      const walletProvider = (window as any).keplr;\n      if (!walletProvider) throw new Error(\"Cosmos wallet extension not found.\");\n      \n      await walletProvider.enable(chainId);\n      const o",
-      "checksum": "49b7e9c20a7704e8bbe35715dcd04e7d4a68d1f188e32dbe5bdce75e1954e03a"
+      "content_preview": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n# Technical Integration Guide: Exchange & Bridge Widget\n\nThis guide provides technical specifications, architectural designs, and implementation steps for community developers who want to recreate the Exchange & Bridge Widget within their own custom dashboards.\n\n## 2. Deposit Functionality\n\n### A. IBC Deposits (Cosmos to Gonka)\nIBC deposits transfer assets directly from Cosmos source chains (e.g. Osmosis, Cosmos Hub, Injective) to Gonka.\n\n1. **Enable & Connect Source Chain**: Query Keplr for the source chain credentials.\n    ```typescript\n    async function connec",
+      "checksum": "db7a22669a52834976bd46e2e008dc64d5cef2fad51a491b62481708cd8539b8"
     },
     "dashboard-maintainer-memo-v0.2.13.md": {
       "title": "Dashboard Maintainer Memo For v0.2.13",
@@ -210,7 +210,7 @@
       "title": "DeepSeek V4 Flash Bootstrap",
       "status": null,
       "content_preview": "# DeepSeek V4 Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`deepseek-ai/DeepSeek-V4-Flash-0731` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 360 ([proposal 94](../network-updates.md#august-10-2026)). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./",
-      "checksum": "a29c64d5fa4963284bfab75506682be0e18de5162dbc49c064789babe5d1a819"
+      "checksum": "25abeef40018b74b0c0a14e979b278ae9e25d1b549e587006971e981a5891153"
     },
     "host/devshard-high-availability.md": {
       "title": "High-availability devshard host setup",
@@ -227,8 +227,8 @@
     "host/glm-bootstrap.md": {
       "title": "GLM-5.3-Flash Bootstrap",
       "status": null,
-      "content_preview": "# GLM-5.3-Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`",
-      "checksum": "e5b4484841fb0cdfc0ac80b8c27e6be549f81408fd51846fdb271a11482c7481"
+      "content_preview": "# GLM-5.3-Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales`, so it produces consensus weight. Its registration `weight_scale_factor` was 0.62; the live coefficient is dynamic and is read from `effective_coefficient`. The timeline and transaction examples below remain useful for understanding how activation worked and for o",
+      "checksum": "d1b8c6f3b781ea4317381f41835e659c734b9774a9a40c2528f7b49125f20b50"
     },
     "host/hardware-specifications.md": {
       "title": "Hardware Specifications",
@@ -258,7 +258,7 @@
       "title": "MiniMax-M2.7 Bootstrap",
       "status": null,
       "content_preview": "# MiniMax-M2.7 Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`MiniMaxAI/MiniMax-M2.7` (FP8) has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 278 (`v0.2.13`). It is the current base model (`delegation_params.initial_model_id`). The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).\n\nFor the wider context of multi-model PoC mechanics, see [Mul",
-      "checksum": "631611f24ff10554b7944e76175f63f32ee89c15564867f4f1d2f1db7e479cfb"
+      "checksum": "2aba30541948a82963f5b9b9dd477e2a58a2cbb0dc79992c283360f96386f976"
     },
     "host/mlnode-management.md": {
       "title": "ML Node Management",
@@ -306,7 +306,7 @@
       "title": "Setting up your chain",
       "status": null,
       "content_preview": "# Setting up your chain \n\n**Host** (**hardware provider** or **node**) contributes computational resources to the network and is rewarded based on the amount and quality of resources they provide.\n\nTo join the network, you need to deploy two services:\n\n- **Network Node** – a service consisting of two nodes: a **Chain Node** and an **API Node**. This service handles all communication. The **Chain Node** connects to the blockchain, while the **API Node** manages user requests.\n- **Inference (ML) node** – a service that performs inference of large language models (LLMs) on GPU(s). You need at least one **ML Node** to join the network.\n\nThe guide describes a scenario in which both services are deployed on the same machine, and each Host has one ML Node. Services are deployed as Docker containe",
-      "checksum": "1b601697a64d6c0ee2bc437504f0b7d98cfec7aafd0dd8f68cefc7762f6efb9b"
+      "checksum": "a2878188e9430710df200fe41a367d9b0b0b2fe30bc61cba54c32fc4977d0d5e"
     },
     "introduction.md": {
       "title": "introduction",

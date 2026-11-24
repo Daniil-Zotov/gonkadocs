@@ -1,5 +1,197 @@
 [
   {
+    "id": "evt_20261124183203_c227ff91",
+    "timestamp": "2026-11-24T18:32:03.668154+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Addresses and keys",
+      "url": "/gonka/docs/cross-chain-transfers/ethereum-bridge/addresses-and-keys/",
+      "file": "cross-chain-transfers/ethereum-bridge/addresses-and-keys.md"
+    },
+    "details": {
+      "content_before": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Addresses and keys\n\nThis is the single most important page to understand before bridging. **Read it before your first transfer.**\n\n## One key, two addresses\n\nEthereum and Gonka both use the same kind of cryptographic key (a `secp256k1` key pair). A single private key therefore controls an account on **both** chains. The two chains only differ in how they turn the public key into a human-readable address:\n\n| Chain | Address format | ",
+      "content_after": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Addresses and keys\n\nThis is the single most important page to understand before bridging. **Read it before your first transfer.**\n\n## One key, two addresses\n\nEthereum and Gonka both use the same kind of cryptographic key (a `secp256k1` key pair). A single private key therefore controls an account on **both** chains. The two chains only differ in how they turn the public key into a human-readable address:\n\n| Chain | Address format "
+    },
+    "ai_description": "Updated the protocol docs to clarify that the Bridge smart contract is now described as \"deployed\" rather than \"active\" on Ethereum. This small wording fix better reflects the contract's permanent, immutable status on-chain. No other changes were made — the critical warning about test transactions and the address format table remain intact."
+  },
+  {
+    "id": "evt_20261124183203_b61d0eb1",
+    "timestamp": "2026-11-24T18:32:03.668211+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Bridge epoch update",
+      "url": "/gonka/docs/cross-chain-transfers/ethereum-bridge/bridge-epoch-update/",
+      "file": "cross-chain-transfers/ethereum-bridge/bridge-epoch-update.md"
+    },
+    "details": {
+      "content_before": "# Bridge epoch update\n\nGonka &rarr; Ethereum transfers use a BLS signature from the current Gonka epoch. The Ethereum bridge contract must know the current epoch's group key before it can verify that signature and release funds on Ethereum.\n\nAt the start of each epoch, about once per day, Gonka creates a new group key. A small Ethereum transaction registers that key on the bridge contract. Usually this is already done, but the bridge can briefly lag behind the Gonka chain just after an epoch change.\n\n## When you need this\n\nYou may need an epoch update if a Gonka &rarr; Ethereum withdrawal or WGNK mint is ready, but Ethereum execution cannot proceed because the bridge is behind the chain.\n\nOn the dashboard, this can appear as:\n\n```text\nA Bridge needs epoch update\nBridge: Epoch 283 | Chain: ",
+      "content_after": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n# Bridge epoch update\n\nGonka &rarr; Ethereum transfers use a BLS signature from the current Gonka epoch. The Ethereum bridge contract must know the current epoch's group key before it can verify that signature and release funds on Ethereum.\n\nAt the start of each epoch, about once per day, Gonka creates a new group key. A small Ethereum transaction registers that key on the bridge contract. Usually this is already done, but the bridge can briefly lag behind the Gonka chain just after an epoch change.\n\n## When you need this\n\nYou may need an epoch update if a Gonka &"
+    },
+    "ai_description": "The bridge epoch update documentation now includes a warning that the Gonka–Ethereum bridge is temporarily paused due to an ongoing incident under investigation. Please do not use the bridge until further notice and follow official announcements for updates. Community members should hold off on any bridge-related actions while the team works through this."
+  },
+  {
+    "id": "evt_20261124183203_b37d0325",
+    "timestamp": "2026-11-24T18:32:03.668236+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Bridge via dashboard (UI guide)",
+      "url": "/gonka/docs/cross-chain-transfers/ethereum-bridge/dashboard/",
+      "file": "cross-chain-transfers/ethereum-bridge/dashboard.md"
+    },
+    "details": {
+      "content_before": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n## Deposit tokens to Gonka\n\nThis section walks you through depositing tokens to Gonka using the bridge widget. Select the token from the **Token** dropdown — the widget detects the bridge type automatically:\n\n* **ERC-20 tokens** (USDC, USDT, WETH, …) and **GNK** (as WGNK) go through the **Ethereum bridge**.\n* **IBC tokens** (USDT <span class=\"md-tag\">IBC</span>, …) go through **IBC** to a connected Cosmos chain.\n\n### How ETH / GNK bridge d",
+      "content_after": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n## Deposit tokens to Gonka\n\nThis section walks you through depositing tokens to Gonka using the bridge widget. Select the token from the **Token** dropdown — the widget detects the bridge type automatically:\n\n* "
+    },
+    "ai_description": "Heads up, Gonka community: the Ethereum bridge is paused right now while an incident is investigated, so please hold off on any bridge transfers until further notice. The docs have been updated with a clear warning to follow official announcements, and the existing advice to test with small amounts before larger moves still stands."
+  },
+  {
+    "id": "evt_20261124183203_6297b77d",
+    "timestamp": "2026-11-24T18:32:03.668251+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Deposit GNK (Gonka → Ethereum)",
+      "url": "/gonka/docs/cross-chain-transfers/ethereum-bridge/deposit-gnk/",
+      "file": "cross-chain-transfers/ethereum-bridge/deposit-gnk.md"
+    },
+    "details": {
+      "content_before": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Deposit GNK (Gonka → Ethereum)\n\nLock GNK on Gonka and receive wrapped GNK (**WGNK**) at your Ethereum address.\n\n### A) Request Minting WGNK on Ethereum\n\nUse CLI to submit a bridge minting request:\n\n```bash\n./inferenced tx inference request-bridge-mint \\\n  <amount> \\\n  \"0xYourEthereumAddr\" \\\n  \"ethereum\" \\\n  --destination-bridge-address 0x972a7a92d92796a98801a8818bcf91f1648f2f68 \\\n  --from <your_key_name> \\\n  --chain-id gonka-mainnet ",
+      "content_after": "The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Deposit GNK (Gonka → Ethereum)\n\nLock GNK on Gonka and receive wrapped GNK (**WGNK**) at your Ethereum address.\n\n!!! warning \"Instructions temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. The step-by-step instructions for this flow are temporarily unavailable. Do not use the bridge until further notice. Follow official announcements on [Network updates](../../network-updates.md) and [X](https://x.com/gonka_ai)."
+    },
+    "ai_description": "The Gonka-Ethereum bridge has been temporarily paused following an incident under investigation, and the deposit instructions have been removed as a precaution. Please do not use the bridge until further notice and monitor official announcements on Network updates and X for the latest information."
+  },
+  {
+    "id": "evt_20261124183203_5a76b8e2",
+    "timestamp": "2026-11-24T18:32:03.668264+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Deposit USDT (Ethereum → Gonka)",
+      "url": "/gonka/docs/cross-chain-transfers/ethereum-bridge/deposit-usdt/",
+      "file": "cross-chain-transfers/ethereum-bridge/deposit-usdt.md"
+    },
+    "details": {
+      "content_before": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Deposit USDT (Ethereum → Gonka)\n\nTo use an existing Ethereum address that already holds USDT, generate a Gonka address from the same private key. This Gonka address will receive the wrapped token.\n\nIf instead you want to use an existing Gonka address, generate the corresponding Ethereum address from the same private key, acquire USDT on it, and ensure you have enough ETH for gas.\n\n!!! important\n    The wrapped tokens are delivered t",
+      "content_after": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Deposit USDT (Ethereum → Gonka)\n\nTo use an existing Ethereum address that already holds USDT, generate a Gonka address from the same private key. This Gonka address will receive the wrapped token.\n\nIf ins"
+    },
+    "ai_description": "The Gonka-Ethereum bridge has been temporarily paused following an incident under investigation, so please hold off on any bridge transfers until further notice. Keep an eye on official announcements for updates before using the deposit flow again."
+  },
+  {
+    "id": "evt_20261124183203_950bcd1f",
+    "timestamp": "2026-11-24T18:32:03.668277+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Ethereum bridge overview",
+      "url": "/gonka/docs/cross-chain-transfers/ethereum-bridge/overview/",
+      "file": "cross-chain-transfers/ethereum-bridge/overview.md"
+    },
+    "details": {
+      "content_before": "# Ethereum bridge overview\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n[View the bridge contract on Etherscan](https://etherscan.io/address/0x972a7a92d92796a98801a8818bcf91f1648f2f68){target=_blank}\n\n!!! important \"This address is also the WGNK token\"\n    The bridge contract **is** the **WGNK** ERC-20 token — they are one and the same contract at this address, not two separate contracts. So the Etherscan page above is simultaneously the bridge and the WGNK token. Wrapped ERC-20 tok",
+      "content_after": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n# Ethereum bridge overview\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n[View the bridge contract on Etherscan](https://etherscan.io/address/0x972a7a92d92796a98801a8818bcf91f1648f2f68){target=_blank}\n\n!!! important \"This address is also the WGNK token\"\n  "
+    },
+    "ai_description": "Heads up, the Gonka-Ethereum bridge has been temporarily paused following an incident that is currently under investigation. Please hold off on any bridge transfers until further notice and keep an eye on official announcements for updates."
+  },
+  {
+    "id": "evt_20261124183203_5481da58",
+    "timestamp": "2026-11-24T18:32:03.668287+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Register a bridge token",
+      "url": "/gonka/docs/cross-chain-transfers/ethereum-bridge/register-token/",
+      "file": "cross-chain-transfers/ethereum-bridge/register-token.md"
+    },
+    "details": {
+      "content_before": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Register a bridge token\n\n!!! important \"Registration is optional\"\n    You do **not** need to register a token to bridge it. Any ERC-20 can be deposited to the bridge, and Gonka will automatically instantiate its wrapped CW-20 contract and mint your balance. Registration is a convenience that:\n\n    * attaches **metadata** (name, symbol, decimals) so the wrapped token displays correctly in wallets, explorers, and the dashboard, and\n  ",
+      "content_after": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Register a bridge token\n\n!!! important \"Registration is optional\"\n    You do **not** need to register a token to bridge it. Any ERC-20 can be deposited to the bridge, and Gonka will automatically instanti"
+    },
+    "ai_description": "The Gonka-Ethereum bridge has been temporarily paused due to an incident currently under investigation, and the docs now carry a clear warning to halt all bridge usage until further notice. This is a critical safety measure to protect community funds while the team investigates, so please follow official announcements before attempting any transfers."
+  },
+  {
+    "id": "evt_20261124183203_7fa963f0",
+    "timestamp": "2026-11-24T18:32:03.668298+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Dashboard & tracker integration",
+      "url": "/gonka/docs/cross-chain-transfers/ethereum-bridge/tracker-integration/",
+      "file": "cross-chain-transfers/ethereum-bridge/tracker-integration.md"
+    },
+    "details": {
+      "content_before": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Dashboard & tracker integration\n\nThis page is for **dashboard, explorer, and tracker operators** who want to display or integrate Gonka bridge data themselves. All bridge state is readable from the public chain API — no special access is required.\n\nThe examples below use `https://node2.gonka.ai:8443/chain-api/...`; you can point them at any node you trust.\n\n## End-user dashboard\n\nThe hosted dashboard already exposes bridge functiona",
+      "content_after": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n\n---\n\n# Dashboard & tracker integration\n\nThis page is for **dashboard, explorer, and tracker operators** who want to display or integrate Gonka bridge data themselves. All bridge state is readable from the public chain API — no special access is required.\n\nThe examples below use `https://node2.gonka.ai:8443/chain-api/...`; you can point them at any node you trust.\n\n## End-user dashboard\n\nThe hosted dashboard already exposes bridge functio"
+    },
+    "ai_description": "The protocol docs were updated to clarify that the Gonka Bridge smart contract is now deployed on Ethereum rather than merely active, which better reflects its permanent and consensus-controlled status. This is a small but meaningful precision fix for integrators relying on the official contract address."
+  },
+  {
+    "id": "evt_20261124183203_40a32621",
+    "timestamp": "2026-11-24T18:32:03.668309+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Withdraw GNK (Ethereum → Gonka)",
+      "url": "/gonka/docs/cross-chain-transfers/ethereum-bridge/withdraw-gnk/",
+      "file": "cross-chain-transfers/ethereum-bridge/withdraw-gnk.md"
+    },
+    "details": {
+      "content_before": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw GNK (Ethereum → Gonka)\n\nThis is the reverse of [Deposit GNK (Gonka → Ethereum)](deposit-gnk.md). It burns wrapped GNK (**WGNK**) on Ethereum and releases the equivalent native **GNK** from escrow on Gonka.\n\nNative GNK is released to the Gonka address **derived from the same key that burns the WGNK** on Ethereum. Make sure you control that key on Gonka — see [Addresses and keys](addresses-and-keys.md).\n\n### A) Burn WGNK on Et",
+      "content_after": "The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw GNK (Ethereum → Gonka)\n\nThis is the reverse of [Deposit GNK (Gonka → Ethereum)](deposit-gnk.md). It burns wrapped GNK (**WGNK**) on Ethereum and releases the equivalent native **GNK** from escrow on Gonka.\n\nNative GNK is released to the Gonka address **derived from the same key that burns the WGNK** on Ethereum. Make sure you control that key on Gonka — see [Addresses and keys](addresses-and-keys.md).\n\n!!! warning \"Instructions temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. The step-by-step instructions for this flow are temporarily un"
+    },
+    "ai_description": "The withdrawal guide for moving GNK from Ethereum to Gonka has been updated to reflect that the bridge is currently paused following an incident under investigation. The step-by-step instructions are temporarily unavailable, but the bridge contract address remains unchanged. Stay tuned for updates as the team works through the review process."
+  },
+  {
+    "id": "evt_20261124183203_f09578ae",
+    "timestamp": "2026-11-24T18:32:03.668320+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Withdraw USDT (Gonka → Ethereum)",
+      "url": "/gonka/docs/cross-chain-transfers/ethereum-bridge/withdraw-usdt/",
+      "file": "cross-chain-transfers/ethereum-bridge/withdraw-usdt.md"
+    },
+    "details": {
+      "content_before": "!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw USDT (Gonka → Ethereum)\n\n!!! note\n    Withdrawals are released on Ethereum by a BLS signature tied to the **current epoch's group key**, which is refreshed about once per day. A single epoch signature can authorize any number of withdrawals started in that epoch, so this step is normally fast. See [How Gonka → Ethereum is authorized](overview.md#how-gonka-ethereum-is-authorized-the-daily-group-key) for the background.\n\n### A",
+      "content_after": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n!!! warning\n    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.\n\nThe dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:\n\n```text\n0x972a7a92d92796a98801a8818bcf91f1648f2f68\n```\n---\n\n# Withdraw USDT (Gonka → Ethereum)\n\n!!! note\n    Withdrawals are released on Ethereum by a BLS signature tied to the **current epoch's group key**, which is refreshed about once per day. A single epoch signa"
+    },
+    "ai_description": "The Gonka–Ethereum bridge is temporarily paused while an incident is investigated, so all withdrawals are on hold until further notice. Please avoid using the bridge and watch for official updates before proceeding with any USDT transfers."
+  },
+  {
+    "id": "evt_20261124183203_0f56f1d1",
+    "timestamp": "2026-11-24T18:32:03.668330+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "Technical Integration Guide: Exchange & Bridge Widget",
+      "url": "/gonka/docs/cross-chain-transfers/widget-integration/",
+      "file": "cross-chain-transfers/widget-integration.md"
+    },
+    "details": {
+      "content_before": "# Technical Integration Guide: Exchange & Bridge Widget\n\nThis guide provides technical specifications, architectural designs, and implementation steps for community developers who want to recreate the Exchange & Bridge Widget within their own custom dashboards.\n\n## 2. Deposit Functionality\n\n### A. IBC Deposits (Cosmos to Gonka)\nIBC deposits transfer assets directly from Cosmos source chains (e.g. Osmosis, Cosmos Hub, Injective) to Gonka.\n\n1. **Enable & Connect Source Chain**: Query Keplr for the source chain credentials.\n    ```typescript\n    async function connectSourceChain(chainId: string) {\n      const walletProvider = (window as any).keplr;\n      if (!walletProvider) throw new Error(\"Cosmos wallet extension not found.\");\n      \n      await walletProvider.enable(chainId);\n      const o",
+      "content_after": "!!! warning \"Bridge temporarily unavailable\"\n    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.\n\n# Technical Integration Guide: Exchange & Bridge Widget\n\nThis guide provides technical specifications, architectural designs, and implementation steps for community developers who want to recreate the Exchange & Bridge Widget within their own custom dashboards.\n\n## 2. Deposit Functionality\n\n### A. IBC Deposits (Cosmos to Gonka)\nIBC deposits transfer assets directly from Cosmos source chains (e.g. Osmosis, Cosmos Hub, Injective) to Gonka.\n\n1. **Enable & Connect Source Chain**: Query Keplr for the source chain credentials.\n    ```typescript\n    async function connec"
+    },
+    "ai_description": "The technical integration guide now carries a prominent warning that the Gonka–Ethereum bridge is temporarily paused due to an incident under investigation. Developers should halt any bridge usage until official updates confirm it is safe, while IBC deposits from Cosmos remain unaffected. This is a critical safety notice for anyone building or using the widget."
+  },
+  {
+    "id": "evt_20261124183203_acc575b3",
+    "timestamp": "2026-11-24T18:32:03.668348+00:00",
+    "section": "gonka_docs",
+    "action": "updated",
+    "item": {
+      "title": "GLM-5.3-Flash Bootstrap",
+      "url": "/gonka/docs/host/glm-bootstrap/",
+      "file": "host/glm-bootstrap.md"
+    },
+    "details": {
+      "content_before": "# GLM-5.3-Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`",
+      "content_after": "# GLM-5.3-Flash Bootstrap\n\n!!! note \"v0.2.16\"\n    The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).\n\n`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales`, so it produces consensus weight. Its registration `weight_scale_factor` was 0.62; the live coefficient is dynamic and is read from `effective_coefficient`. The timeline and transaction examples below remain useful for understanding how activation worked and for o"
+    },
+    "ai_description": "GLM-5.3-Flash's bootstrap docs were updated to clarify that its live reward coefficient is now dynamic, read from effective_coefficient, rather than the static 0.62 registration value. This matters because operators should track the current coefficient for accurate reward expectations on mainnet."
+  },
+  {
     "id": "evt_20261124173139_f04fd12d",
     "timestamp": "2026-11-24T17:31:39.987918+00:00",
     "section": "discussions",
@@ -8030,197 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    OpenBroker API moved hosts and existing broker accounts (and balances) are gone — follow-up to #1319\n    <span class=\"issues-number\">#1405</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dufok\">@dufok</a> opened 2026-07-06 00:16 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n "
     },
     "ai_description": "OpenBroker API host migration has wiped out existing broker accounts and balances, with issue #1405 now closed as a follow-up to #1319. If you had funds tied to those accounts, this is a critical reminder to verify your positions and reach out to the team if anything is missing. Stay tuned for updates on recovery or compensation steps."
-  },
-  {
-    "id": "evt_20261022192049_92de5f12",
-    "timestamp": "2026-10-22T19:20:49.449292+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1407 — Question about project background: Mikhail Chudinov and Natalia",
-      "url": "/community/issues/01407-question-about-project-background-mikhail-chudinov-and-natal/",
-      "file": "01407-question-about-project-background-mikhail-chudinov-and-natal.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Question about project background: Mikhail Chudinov and Natalia\n    <span class=\"issues-number\">#1407</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/phishdestroy\">@phishdestroy</a> opened 2026-07-06 09:23 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></"
-    },
-    "ai_description": "A new issue #1407 has been opened by @phishdestroy asking about the project background of Mikhail Chudinov and Natalia. The question is now open for community discussion, with two comments already added. If you have context on these team members, jump in to help clarify their roles and contributions.A new issue #1407 has been opened by @phishdestroy asking about the project background of Mikhail Chudinov and Natalia. The question is now open for community discussion, with two comments already added. If you have context on these team members, jump in to help clarify their roles and contributions."
-  },
-  {
-    "id": "evt_20261022192049_060ec459",
-    "timestamp": "2026-10-22T19:20:49.449305+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1408 — Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default",
-      "url": "/community/issues/01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-/",
-      "file": "01408-model-lineup-improvement-add-an-accessible-glm-52-candidate-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Model lineup improvement: add an accessible GLM-5.2 candidate and reconsider MiniMax-M2.7 as default\n    <span class=\"issues-number\">#1408</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/enonog\">@enonog</a> opened 2026-07-06 12:31 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" st"
-    },
-    "ai_description": "New issue #1408 proposes adding an accessible GLM-5.2 candidate to the model lineup and re-evaluating MiniMax-M2.7 as the default option. This matters because it could expand model availability and improve performance choices for the community. Check out the discussion if you have thoughts on the proposed lineup changes."
-  },
-  {
-    "id": "evt_20261022192049_70a0fdbc",
-    "timestamp": "2026-10-22T19:20:49.449320+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1431 — Operator name: Khidi — OpenAI-compatible API reseller service",
-      "url": "/community/issues/01431-operator-name-khidi-openai-compatible-api-reseller-service/",
-      "file": "01431-operator-name-khidi-openai-compatible-api-reseller-service.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Operator name: Khidi — OpenAI-compatible API reseller service\n    <span class=\"issues-number\">#1431</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/jack-maguli\">@jack-maguli</a> opened 2026-07-09 12:21 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n"
-    },
-    "ai_description": "New issue #1431 has been opened by @jack-maguli proposing a new operator named Khidi, an OpenAI-compatible API reseller service. The community is invited to review and weigh in on this operator application. If approved, this would expand the network's accessible API options through a reseller model. Check the issue and share your thoughts."
-  },
-  {
-    "id": "evt_20261022192049_b512ecae",
-    "timestamp": "2026-10-22T19:20:49.449332+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1439 — External Visibility",
-      "url": "/community/issues/01439-external-visibility/",
-      "file": "01439-external-visibility.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    External Visibility\n    <span class=\"issues-number\">#1439</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gordonfrost00-cloud\">@gordonfrost00-cloud</a> opened 2026-07-10 06:29 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\">"
-    },
-    "ai_description": "Issue #1439 \"External Visibility\" has been closed after receiving two comments. The proposal aimed to improve how the network surfaces externally, and its closure marks the end of this discussion cycle. Community members can review the full thread for context on the decision.Issue #1439 \"External Visibility\" is now closed after two comments. The discussion centered on improving how the network is perceived externally, and closing it signals the community has reached a resolution. Check the thread for details on the outcome."
-  },
-  {
-    "id": "evt_20261022192049_af4e4c4a",
-    "timestamp": "2026-10-22T19:20:49.449345+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1450 — Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model",
-      "url": "/community/issues/01450-dynamic-pricing-price-pinned-at-min-by-integer-truncation-ca/",
-      "file": "01450-dynamic-pricing-price-pinned-at-min-by-integer-truncation-ca.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Dynamic pricing: price pinned at min by integer truncation; capacity proxy miscalibrated per model\n    <span class=\"issues-number\">#1450</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/len5ky\">@len5ky</a> opened 2026-07-14 18:26 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" styl"
-    },
-    "ai_description": "A new issue (#1450) has been opened by @len5ky, flagging a dynamic pricing bug where prices get stuck at the minimum due to integer truncation, and a capacity proxy that is miscalibrated per model. This is important for the community because it directly affects fair pricing and resource allocation across our inference network. Let's review and help address these technical gaps."
-  },
-  {
-    "id": "evt_20261022192049_74c632f2",
-    "timestamp": "2026-10-22T19:20:49.449357+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1466 — Better devshardd inference handling",
-      "url": "/community/issues/01466-better-devshardd-inference-handling/",
-      "file": "01466-better-devshardd-inference-handling.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Better devshardd inference handling\n    <span class=\"issues-number\">#1466</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/a-kuprin\">@a-kuprin</a> opened 2026-07-17 09:59 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-cont"
-    },
-    "ai_description": "New issue #1466 from @a-kuprin proposes better inference handling for devshardd, aiming to make the dev process more robust and efficient. This is a practical improvement that should help developers working with shards. Check it out and share your thoughts if you have experience with devshardd."
-  },
-  {
-    "id": "evt_20261022192049_1ec9a532",
-    "timestamp": "2026-10-22T19:20:49.449371+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1470 — Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)",
-      "url": "/community/issues/01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r/",
-      "file": "01470-security-residual-ssrf-on-inferenceurl-dnsrebind-validator-r.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Security: Residual SSRF on InferenceUrl — DNS/rebind + validator redirect (incomplete fix after #505/#534)\n    <span class=\"issues-number\">#1470</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-"
-    },
-    "ai_description": "A new security issue has been filed highlighting a residual SSRF vulnerability in the InferenceUrl handling, where DNS rebinding and validator redirects could bypass the earlier fixes from #505 and #534. The issue is now closed, but it serves as an important reminder that edge cases in URL validation still need attention to keep the network safe. Community members are encouraged to review the details and weigh in on whether a more robust mitigation is needed."
-  },
-  {
-    "id": "evt_20261022192049_61760e92",
-    "timestamp": "2026-10-22T19:20:49.449383+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1471 — Security: Admin DAPI unauthenticated — GET /admin/v1/config leaks worker_private key",
-      "url": "/community/issues/01471-security-admin-dapi-unauthenticated-get-adminv1config-leaks-/",
-      "file": "01471-security-admin-dapi-unauthenticated-get-adminv1config-leaks-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Security: Admin DAPI unauthenticated — GET /admin/v1/config leaks worker_private key\n    <span class=\"issues-number\">#1471</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n"
-    },
-    "ai_description": "A new security issue has been reported: the unauthenticated GET /admin/v1/config endpoint exposes the worker_private key, a critical vulnerability that could compromise worker nodes. The issue is now closed, indicating a fix or mitigation has been applied. This highlights the importance of hardening admin API access, and the community should verify their deployments are updated."
-  },
-  {
-    "id": "evt_20261022192049_9df95d90",
-    "timestamp": "2026-10-22T19:20:49.449396+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1472 — Security: ClaimRewards — ClaimValidationEnabled default false; sample RNG uses claim-time block hash",
-      "url": "/community/issues/01472-security-claimrewards-claimvalidationenabled-default-false-s/",
-      "file": "01472-security-claimrewards-claimvalidationenabled-default-false-s.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Security: ClaimRewards — ClaimValidationEnabled default false; sample RNG uses claim-time block hash\n    <span class=\"issues-number\">#1472</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"><"
-    },
-    "ai_description": "New issue #1472 highlights a security concern in ClaimRewards where ClaimValidationEnabled defaults to false, potentially allowing unvalidated claims, and the sample RNG uses the claim-time block hash, which could be predictable. This matters to the community because it flags a potential vulnerability in reward distribution that needs scrutiny before mainnet deployment."
-  },
-  {
-    "id": "evt_20261022192049_f785337a",
-    "timestamp": "2026-10-22T19:20:49.449411+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1473 — Security/hardening: NetworkDuty fee bypass GasCap is 3_000_000_000 — free block-space DoS risk",
-      "url": "/community/issues/01473-securityhardening-networkduty-fee-bypass-gascap-is-3-000-000/",
-      "file": "01473-securityhardening-networkduty-fee-bypass-gascap-is-3-000-000.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Security/hardening: NetworkDuty fee bypass GasCap is 3_000_000_000 — free block-space DoS risk\n    <span class=\"issues-number\">#1473</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>"
-    },
-    "ai_description": "A new security issue was filed by @Aphelios01-sdk highlighting a potential DoS vector where the NetworkDuty fee bypass allows a GasCap of 3 billion, leaving block space vulnerable to free exploitation. The issue is now closed, and the community should review the discussion to understand the assessment and any proposed mitigations."
-  },
-  {
-    "id": "evt_20261022192049_1522ff9f",
-    "timestamp": "2026-10-22T19:20:49.449425+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1474 — Security/hardening: Executor signature verification disabled; token counts self-reported on Finish",
-      "url": "/community/issues/01474-securityhardening-executor-signature-verification-disabled-t/",
-      "file": "01474-securityhardening-executor-signature-verification-disabled-t.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Security/hardening: Executor signature verification disabled; token counts self-reported on Finish\n    <span class=\"issues-number\">#1474</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Aphelios01-sdk\">@Aphelios01-sdk</a> opened 2026-07-18 03:05 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></s"
-    },
-    "ai_description": "A new security issue has been filed highlighting two critical vulnerabilities in the executor validation flow: signature verification is currently disabled, and token counts are self-reported on task completion. This means the network cannot independently confirm that executors are who they claim to be or that reported usage is accurate, opening the door to spoofing and inflated billing. The issue is now closed, so the community should watch for a follow-up patch or discussion on how to restore proper verification without breaking performance."
-  },
-  {
-    "id": "evt_20261022192049_8a13ffc5",
-    "timestamp": "2026-10-22T19:20:49.449437+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1475 — MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it",
-      "url": "/community/issues/01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st/",
-      "file": "01475-minimax-m27-tool-messages-gateway-rejects-standard-openai-st.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it\n    <span class=\"issues-number\">#1475</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-07-18 15:51 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>"
-    },
-    "ai_description": "New issue #1475 reports that MiniMax-M2.7 tool calls fail when the gateway rejects standard OpenAI string content instead of normalizing it into the expected format. This compatibility gap matters because it can break integrations relying on standard OpenAI message structures, so the community should weigh in on the fix. The issue is now closed, awaiting resolution or a follow-up discussion."
   }
 ]

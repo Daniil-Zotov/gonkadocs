@@ -1012,9 +1012,9 @@ Before PoC v2 activation, ensure that:
 
 ## Keys & security
 
-### Which CLI version should be used for warm keys created after the v0.2.9 upgrade?
+### Which `inferenced` CLI version should I use?
 
-For granting permissions to new warm keys created after the v0.2.9 upgrade, the CLI [version v0.2.9](https://github.com/gonka-ai/gonka/releases/tag/release/v0.2.9) should be used.
+Use the build that matches the version the network runs. Check it with `curl -s https://node3.gonka.ai/chain-rpc/abci_info | jq -r .result.response.version` and download `inferenced` from the [GitHub release](https://github.com/gonka-ai/gonka/releases) with that tag. (Right after the v0.2.9 upgrade, granting permissions to new warm keys required CLI v0.2.9 or newer.)
 
 ### Where can I find information on key management?
 You can find a dedicated section on [Key Management](https://gonka.ai/host/key-management/) in the documentation. It outlines the procedures and best practices for securely managing your application's keys on the network.
@@ -1238,102 +1238,115 @@ To mitigate this risk, ensure that admin and management ports are not publicly a
 
 ## Performance & troubleshooting
 
-### How do I protect my node from DDoS attacks using the proxy pre-release (v0.2.8)?
+### How is my node protected from DDoS and excessive requests?
 
-A new proxy version is available with rate limiting and DDoS protection measures.
+The proxy shipped in `deploy/join/docker-compose.yml` already includes these protections, so no separate image is needed:
 
-What’s New:
+- per-route rate limits on the public API and chain endpoints, with a separate, higher limit for inference and devshard routes;
+- the internal `training` and `poc-batches` routes are blocked;
+- `/chain-api`, `/chain-rpc` and `/chain-grpc` are closed by default (`DISABLE_CHAIN_API`, `DISABLE_CHAIN_RPC`, `DISABLE_CHAIN_GRPC` default to `true`);
+- the node's RPC port 26657 is not published externally.
 
-- Rate limiting on API/RPC endpoints, as protection against excessive requests that have been affecting network nodes
-- Blocks resource-intensive internal routes like `training` and `poc-batches`
-- Optional disabling of `/chain-api`, `/chain-rpc`, and `/chain-grpc` endpoints
+If you intentionally serve public chain endpoints, add `export DISABLE_CHAIN_API=false` (and/or `DISABLE_CHAIN_RPC`, `DISABLE_CHAIN_GRPC`) to `config.env`, then run `source config.env && docker compose up -d --force-recreate proxy-policy` from `deploy/join`. Consider serving them from a separate RPC-only node.
 
-**Update instructions**
+To check node status without an external RPC port: `docker exec node wget -qO- http://localhost:26657/status | jq`.
 
-**Step 1**: Update proxy image
-```
-sed -i -E 's|(image:[[:space:]]*ghcr.io/product-science/proxy)(:.*)?$|\1:0.2.8-pre-release-proxy@sha256:6ccb8ac8885e03aab786298858cc763a99f99543b076f2a334b3c67d60fb295f |' docker-compose.yml
-```
-> **Important**
-	Step 2 disables `/chain-api`, `/chain-rpc`, and `/chain-grpc` endpoints on this node. After applying it, this node will no longer serve public RPC traffic. If you operate public RPC endpoints, you must run separate RPC-only nodes (without these restrictions) and keep this node private.
+> ****
 
-**Step 2 (Optional)**: Disable `chain-api`, `chain-rpc`, and `chain-grpc`
+    A new proxy version is available with rate limiting and DDoS protection measures.
 
-If you want to completely disable `/chain-api`, `/chain-rpc`, and `/chain-grpc` endpoints:
-```
-sed -i 's|DASHBOARD_PORT=5173|DASHBOARD_PORT=5173\n      - DISABLE_CHAIN_API=${DISABLE_CHAIN_API:-true}\n      - DISABLE_CHAIN_RPC=${DISABLE_CHAIN_RPC:-true}\n      - DISABLE_CHAIN_GRPC=${DISABLE_CHAIN_GRPC:-true}\n|' docker-compose.yml
-```
-Disable the training URL that was used for recent attacks:
-```
-sed -i -E -e '/GONKA_API_(EXEMPT|BLOCKED)_ROUTES/d' -e 's|(- GONKA_API_PORT=9000)|\1\n      - GONKA_API_EXEMPT_ROUTES=chat inference\n      - GONKA_API_BLOCKED_ROUTES=poc-batches training|' docker-compose.yml
-```
-After this, your proxy configuration should look like:
-```
-proxy:
-    container_name: proxy
-    image: ghcr.io/product-science/proxy:0.2.8-pre-release-proxy@sha256:6ccb8ac8885e03aab786298858cc763a99f99543b076f2a334b3c67d60fb295f
-    ports:
-      - "${API_PORT:-8000}:80"
-      - "${API_SSL_PORT:-8443}:443"
-    environment:
-      - NGINX_MODE=${NGINX_MODE:-http}
-      - SERVER_NAME=${SERVER_NAME:-}
-      - GONKA_API_PORT=9000
-      - GONKA_API_EXEMPT_ROUTES=chat inference
-      - GONKA_API_BLOCKED_ROUTES=poc-batches training
-      - CHAIN_RPC_PORT=26657
-      - CHAIN_API_PORT=1317
-      - CHAIN_GRPC_PORT=9090
-      - DASHBOARD_PORT=5173
-      - DISABLE_CHAIN_API=${DISABLE_CHAIN_API:-true}
-      - DISABLE_CHAIN_RPC=${DISABLE_CHAIN_RPC:-true}
-      - DISABLE_CHAIN_GRPC=${DISABLE_CHAIN_GRPC:-true}
-```
-**Step 3:** Pull and restart proxy
-```
-docker compose -f docker-compose.mlnode.yml -f docker-compose.yml pull proxy
-source ./config.env && docker compose -f docker-compose.mlnode.yml -f docker-compose.yml up -d --no-deps proxy
-```
-**Step 4:** Close External Port 26657
+    What’s New:
 
-You can close port 26657 as an external port.
+    - Rate limiting on API/RPC endpoints, as protection against excessive requests that have been affecting network nodes
+    - Blocks resource-intensive internal routes like `training` and `poc-batches`
+    - Optional disabling of `/chain-api`, `/chain-rpc`, and `/chain-grpc` endpoints
 
-It is optional, but highly recommended:
-```
-sed -i 's|- "26657:26657"|#- "26657:26657"|g' docker-compose.yml
-```
-This will comment out the port mapping in your node container:
-```
-node:
-    container_name: node
-    ...
-    ports:
-      - "5000:26656" #p2p
-      #- "26657:26657" #rpc
-```
-**Step 5:** Restart the node:
-```
-source ./config.env && docker compose -f docker-compose.mlnode.yml -f docker-compose.yml up -d --no-deps node
-```
-**Accessing Node Status After Closing Port 26657**
+    **Update instructions**
 
-If you previously accessed the node status using `curl -s http://localhost:26657/status`, you can now access it from within the containers:
+    **Step 1**: Update proxy image
+    ```
+    sed -i -E 's|(image:[[:space:]]*ghcr.io/product-science/proxy)(:.*)?$|\1:0.2.8-pre-release-proxy@sha256:6ccb8ac8885e03aab786298858cc763a99f99543b076f2a334b3c67d60fb295f |' docker-compose.yml
+    ```
+    !!! note "Important"
+        Step 2 disables `/chain-api`, `/chain-rpc`, and `/chain-grpc` endpoints on this node. After applying it, this node will no longer serve public RPC traffic. If you operate public RPC endpoints, you must run separate RPC-only nodes (without these restrictions) and keep this node private.
 
-=== "Option 1: From the proxy container (using `curl`)"
+    **Step 2 (Optional)**: Disable `chain-api`, `chain-rpc`, and `chain-grpc`
 
-	```
-	docker exec proxy curl -s node:26657/status | jq
-	```
-=== "Option 2: From the node container (using `wget`)"
+    If you want to completely disable `/chain-api`, `/chain-rpc`, and `/chain-grpc` endpoints:
+    ```
+    sed -i 's|DASHBOARD_PORT=5173|DASHBOARD_PORT=5173\n      - DISABLE_CHAIN_API=${DISABLE_CHAIN_API:-true}\n      - DISABLE_CHAIN_RPC=${DISABLE_CHAIN_RPC:-true}\n      - DISABLE_CHAIN_GRPC=${DISABLE_CHAIN_GRPC:-true}\n|' docker-compose.yml
+    ```
+    Disable the training URL that was used for recent attacks:
+    ```
+    sed -i -E -e '/GONKA_API_(EXEMPT|BLOCKED)_ROUTES/d' -e 's|(- GONKA_API_PORT=9000)|\1\n      - GONKA_API_EXEMPT_ROUTES=chat inference\n      - GONKA_API_BLOCKED_ROUTES=poc-batches training|' docker-compose.yml
+    ```
+    After this, your proxy configuration should look like:
+    ```
+    proxy:
+        container_name: proxy
+        image: ghcr.io/product-science/proxy:0.2.8-pre-release-proxy@sha256:6ccb8ac8885e03aab786298858cc763a99f99543b076f2a334b3c67d60fb295f
+        ports:
+          - "${API_PORT:-8000}:80"
+          - "${API_SSL_PORT:-8443}:443"
+        environment:
+          - NGINX_MODE=${NGINX_MODE:-http}
+          - SERVER_NAME=${SERVER_NAME:-}
+          - GONKA_API_PORT=9000
+          - GONKA_API_EXEMPT_ROUTES=chat inference
+          - GONKA_API_BLOCKED_ROUTES=poc-batches training
+          - CHAIN_RPC_PORT=26657
+          - CHAIN_API_PORT=1317
+          - CHAIN_GRPC_PORT=9090
+          - DASHBOARD_PORT=5173
+          - DISABLE_CHAIN_API=${DISABLE_CHAIN_API:-true}
+          - DISABLE_CHAIN_RPC=${DISABLE_CHAIN_RPC:-true}
+          - DISABLE_CHAIN_GRPC=${DISABLE_CHAIN_GRPC:-true}
+    ```
+    **Step 3:** Pull and restart proxy
+    ```
+    docker compose -f docker-compose.mlnode.yml -f docker-compose.yml pull proxy
+    source ./config.env && docker compose -f docker-compose.mlnode.yml -f docker-compose.yml up -d --no-deps proxy
+    ```
+    **Step 4:** Close External Port 26657
 
-	```
-	docker exec node wget -qO- http://localhost:26657/status | jq
-	```
-	
-For continuous monitoring with `watch`:
-```
-watch -n 5 'docker exec node wget -qO- http://localhost:26657/status | jq -r ".result.sync_info | \"Block: \(.latest_block_height) | Time: \(.latest_block_time) | Syncing: \(.catching_up)\""'
-```
+    You can close port 26657 as an external port.
+
+    It is optional, but highly recommended:
+    ```
+    sed -i 's|- "26657:26657"|#- "26657:26657"|g' docker-compose.yml
+    ```
+    This will comment out the port mapping in your node container:
+    ```
+    node:
+        container_name: node
+        ...
+        ports:
+          - "5000:26656" #p2p
+          #- "26657:26657" #rpc
+    ```
+    **Step 5:** Restart the node:
+    ```
+    source ./config.env && docker compose -f docker-compose.mlnode.yml -f docker-compose.yml up -d --no-deps node
+    ```
+    **Accessing Node Status After Closing Port 26657**
+
+    If you previously accessed the node status using `curl -s http://localhost:26657/status`, you can now access it from within the containers:
+
+    === "Option 1: From the proxy container (using `curl`)"
+
+        ```
+        docker exec proxy curl -s node:26657/status | jq
+        ```
+    === "Option 2: From the node container (using `wget`)"
+
+        ```
+        docker exec node wget -qO- http://localhost:26657/status | jq
+        ```
+
+    For continuous monitoring with `watch`:
+    ```
+    watch -n 5 'docker exec node wget -qO- http://localhost:26657/status | jq -r ".result.sync_info | \"Block: \(.latest_block_height) | Time: \(.latest_block_time) | Syncing: \(.catching_up)\""'
+    ```
 
 ### How much free disk space is required for a Cosmovisor update, and how can I safely remove old backups from the `.inference` directory?
 Cosmovisor creates a full backup in the `.inference` state folder whenever it performs an update. For example, you can see a folder like `data-backup-`.
@@ -1578,6 +1591,9 @@ curl http://node2.gonka.ai:8000/chain-api/productscience/inference/inference/epo
 
 ### Upgrade v0.2.14: Pre-upgrade Bridge Update
 
+> **Historical**
+    This step was for the v0.2.14 upgrade, which has completed. The current `deploy/join/docker-compose.yml` ships a newer bridge image. Do not apply the pin below now.
+
 To help keep the Ethereum bridge stable during the mainnet upgrade, update the bridge image to `0.2.14-post3` in advance.
 If you have multiple network nodes, please update them one by one.
 Please make sure to perform this step outside of PoC or cPoC.
@@ -1598,98 +1614,109 @@ Run all commands from **deploy/join** (where `docker-compose.yml` and `.dapi/` a
 source config.env && docker compose up --force-recreate bridge
 ```
 
-### Upgrade v0.2.12: Pre-Upgrade Model Cleanup
+### My node config lists a model that is no longer approved. What happens?
 
-> **Important**
-	This cleanup process **must be completed before the upgrade happens**. If you upgrade before cleaning up the models, your node will be rejected and go offline.
+When a node is registered, the API node drops models that are not in `GET /v1/governance/models` and rejects the node only if no approved model remains. Updating a node through `PUT /admin/v1/nodes/` fails with HTTP 400 if any listed model is not approved. Compare `/admin/v1/config` with the governance list and remove retired models.
 
-Version 0.2.12 removes every governance model that is not on the post-upgrade approved list. On mainnet, only the previously enforced model and Kimi will remain.
+> ****
 
-Each DAPI persists its MLNode configurations locally. On startup, it validates every configured model against the on-chain governance list. If a configuration includes at least one unsupported model, the entire node is rejected and the host goes offline. 
+    !!! note "Important"
+        This cleanup process **must be completed before the upgrade happens**. If you upgrade before cleaning up the models, your node will be rejected and go offline.
 
-Version 0.2.11 masked this problem by trimming the runtime view down to the enforced model, so `/admin/v1/nodes` appeared clean even when the persisted config still contained extra models. Version 0.2.12 stops this trimming, meaning the persisted config is loaded directly.
+    Version 0.2.12 removes every governance model that is not on the post-upgrade approved list. On mainnet, only the previously enforced model and Kimi will remain.
 
-To fix this, the script below finds each node with extra models in `/admin/v1/config` and sends a `PUT` request with a cleaned config to `/admin/v1/nodes/`. These changes are persisted within 60 seconds. The remaining model's arguments, hardware, and ports are preserved exactly. Nodes that do not list the enforced model are skipped and will require manual fixing.
+    Each DAPI persists its MLNode configurations locally. On startup, it validates every configured model against the on-chain governance list. If a configuration includes at least one unsupported model, the entire node is rejected and the host goes offline.
 
-Paste the following script into the host's shell. By default, it will apply the changes. To preview the changes without applying them, set `APPLY=dry` (or any value other than `--apply`).
+    Version 0.2.11 masked this problem by trimming the runtime view down to the enforced model, so `/admin/v1/nodes` appeared clean even when the persisted config still contained extra models. Version 0.2.12 stops this trimming, meaning the persisted config is loaded directly.
 
-Script in the repository: 
+    To fix this, the script below finds each node with extra models in `/admin/v1/config` and sends a `PUT` request with a cleaned config to `/admin/v1/nodes/`. These changes are persisted within 60 seconds. The remaining model's arguments, hardware, and ports are preserved exactly. Nodes that do not list the enforced model are skipped and will require manual fixing.
 
-- [Bash](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.12/proposals/governance-artifacts/update-v0.2.12/cleanup/cleanup_models.sh)
-- [Python](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.12/proposals/governance-artifacts/update-v0.2.12/cleanup/cleanup_models.py).
+    Paste the following script into the host's shell. By default, it will apply the changes. To preview the changes without applying them, set `APPLY=dry` (or any value other than `--apply`).
 
-```bash
-ADMIN=${ADMIN:-http://127.0.0.1:9200}
-KEEP=${KEEP:-Qwen/Qwen3-235B-A22B-Instruct-2507-FP8}
-APPLY=${APPLY:-"--apply"}
+    Script in the repository:
 
-curl -sS "$ADMIN/admin/v1/config" | jq -r --arg k "$KEEP" '
-  .nodes[] | "\(.id): " + (
-    if (.models | has($k) | not) then "skip (\(.models | keys))"
-    elif (.models | length) == 1 then "ok"
-    else "\(.models | keys) -> [\($k)]" end)'
+    - [Bash](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.12/proposals/governance-artifacts/update-v0.2.12/cleanup/cleanup_models.sh)
+    - [Python](https://github.com/gonka-ai/gonka/blob/upgrade-v0.2.12/proposals/governance-artifacts/update-v0.2.12/cleanup/cleanup_models.py).
 
-if [[ "$APPLY" == "--apply" ]]; then
-  curl -sS "$ADMIN/admin/v1/config" \
-    | jq -c --arg k "$KEEP" \
-        '.nodes[] | select((.models | has($k)) and (.models | length > 1)) | .models = {($k): .models[$k]}' \
-    | while IFS= read -r p; do
-        id=$(jq -r .id /dev/null && echo "$id: updated"
-      done
-  echo "done; persisted within 60s"
-else
-  echo "preview only; rerun without APPLY=dry to commit"
-fi
-```
+    ```bash
+    ADMIN=${ADMIN:-http://127.0.0.1:9200}
+    KEEP=${KEEP:-Qwen/Qwen3-235B-A22B-Instruct-2507-FP8}
+    APPLY=${APPLY:-"--apply"}
 
-Wait 60 seconds after running the script to ensure the changes are persisted before triggering the upgrade. Then, verify the configuration:
+    curl -sS "$ADMIN/admin/v1/config" | jq -r --arg k "$KEEP" '
+      .nodes[] | "\(.id): " + (
+        if (.models | has($k) | not) then "skip (\(.models | keys))"
+        elif (.models | length) == 1 then "ok"
+        else "\(.models | keys) -> [\($k)]" end)'
 
-```bash
-curl -sS http://127.0.0.1:9200/admin/v1/config \
-  | jq '.nodes[] | {id, models: (.models | keys)}'
-```
+    if [[ "$APPLY" == "--apply" ]]; then
+      curl -sS "$ADMIN/admin/v1/config" \
+        | jq -c --arg k "$KEEP" \
+            '.nodes[] | select((.models | has($k)) and (.models | length > 1)) | .models = {($k): .models[$k]}' \
+        | while IFS= read -r p; do
+            id=$(jq -r .id /dev/null && echo "$id: updated"
+          done
+      echo "done; persisted within 60s"
+    else
+      echo "preview only; rerun without APPLY=dry to commit"
+    fi
+    ```
 
-Expected output:
-```json
-{
-  "id": "",
-  "models": [
-    "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8"
-  ]
-}
-```
-*(Additional nodes will follow the same format)*
+    Wait 60 seconds after running the script to ensure the changes are persisted before triggering the upgrade. Then, verify the configuration:
 
-### Upgrade v0.2.12: Pre-download binaries
+    ```bash
+    curl -sS http://127.0.0.1:9200/admin/v1/config \
+      | jq '.nodes[] | {id, models: (.models | keys)}'
+    ```
 
-```
-# 1. Create Directories
-sudo mkdir -p .dapi/cosmovisor/upgrades/v0.2.12/bin \
-              .inference/cosmovisor/upgrades/v0.2.12/bin && \
+    Expected output:
+    ```json
+    {
+      "id": "",
+      "models": [
+        "Qwen/Qwen3-235B-A22B-Instruct-2507-FP8"
+      ]
+    }
+    ```
+    *(Additional nodes will follow the same format)*
 
-# 2. DAPI: Download -> Verify -> Unzip directly to bin -> Make Executable
-wget -q -O decentralized-api.zip "https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.12/decentralized-api-amd64.zip" && \
-echo "d0143a95e12e1ada06cfea5e4d3deab13534c3523c967e9a6b87ac9f9bf3247d decentralized-api.zip" | sha256sum --check && \
-sudo unzip -o -j decentralized-api.zip -d .dapi/cosmovisor/upgrades/v0.2.12/bin/ && \
-sudo chmod +x .dapi/cosmovisor/upgrades/v0.2.12/bin/decentralized-api && \
-echo "DAPI Installed and Verified" && \
+### How do I prepare for a network upgrade?
 
-# 3. Inference: Download -> Verify -> Unzip directly to bin -> Make Executable
-sudo rm -rf inferenced.zip .inference/cosmovisor/upgrades/v0.2.12/bin/ && \
-wget -q -O inferenced.zip "https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.12/inferenced-amd64.zip" && \
-echo "df7656503d39f6703767d32d5578d1291e32cb114844d8c1cd0f134d1bf4babd inferenced.zip" | sha256sum --check && \
-sudo unzip -o -j inferenced.zip -d .inference/cosmovisor/upgrades/v0.2.12/bin/ && \
-sudo chmod +x .inference/cosmovisor/upgrades/v0.2.12/bin/inferenced && \
-echo "Inference Installed and Verified" && \
+Chain and API binaries are upgraded through an on-chain software upgrade proposal. Follow the announcement on [Network updates](./network-updates.md) and the GitHub release page for that version: they list any steps hosts need to take, file paths and checksums. Before an upgrade, make sure that:
 
-# 4. Cleanup and Final Check
-rm decentralized-api.zip inferenced.zip && \
-echo "--- Final Verification ---" && \
-sudo ls -l .dapi/cosmovisor/upgrades/v0.2.12/bin/decentralized-api && \
-sudo ls -l .inference/cosmovisor/upgrades/v0.2.12/bin/inferenced && \
-echo "94ce943338d12844028e84fe770106c9d28d866cf0af99f27da30f56d69efa34 .dapi/cosmovisor/upgrades/v0.2.12/bin/decentralized-api" | sudo sha256sum --check && \
-echo "642eb9858cd77d182f3e1c4d44553f5379d615983430e1fd8e85f09632af4271 .inference/cosmovisor/upgrades/v0.2.12/bin/inferenced" | sudo sha256sum --check
-```
+- your cold-to-warm feegrant is valid and the cold account holds enough GNK to cover fees;
+- you apply any manual steps outside PoC and cPoC.
+
+> ****
+
+    ```
+    # 1. Create Directories
+    sudo mkdir -p .dapi/cosmovisor/upgrades/v0.2.12/bin \
+                  .inference/cosmovisor/upgrades/v0.2.12/bin && \
+
+    # 2. DAPI: Download -> Verify -> Unzip directly to bin -> Make Executable
+    wget -q -O decentralized-api.zip "https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.12/decentralized-api-amd64.zip" && \
+    echo "d0143a95e12e1ada06cfea5e4d3deab13534c3523c967e9a6b87ac9f9bf3247d decentralized-api.zip" | sha256sum --check && \
+    sudo unzip -o -j decentralized-api.zip -d .dapi/cosmovisor/upgrades/v0.2.12/bin/ && \
+    sudo chmod +x .dapi/cosmovisor/upgrades/v0.2.12/bin/decentralized-api && \
+    echo "DAPI Installed and Verified" && \
+
+    # 3. Inference: Download -> Verify -> Unzip directly to bin -> Make Executable
+    sudo rm -rf inferenced.zip .inference/cosmovisor/upgrades/v0.2.12/bin/ && \
+    wget -q -O inferenced.zip "https://github.com/gonka-ai/gonka/releases/download/release%2Fv0.2.12/inferenced-amd64.zip" && \
+    echo "df7656503d39f6703767d32d5578d1291e32cb114844d8c1cd0f134d1bf4babd inferenced.zip" | sha256sum --check && \
+    sudo unzip -o -j inferenced.zip -d .inference/cosmovisor/upgrades/v0.2.12/bin/ && \
+    sudo chmod +x .inference/cosmovisor/upgrades/v0.2.12/bin/inferenced && \
+    echo "Inference Installed and Verified" && \
+
+    # 4. Cleanup and Final Check
+    rm decentralized-api.zip inferenced.zip && \
+    echo "--- Final Verification ---" && \
+    sudo ls -l .dapi/cosmovisor/upgrades/v0.2.12/bin/decentralized-api && \
+    sudo ls -l .inference/cosmovisor/upgrades/v0.2.12/bin/inferenced && \
+    echo "94ce943338d12844028e84fe770106c9d28d866cf0af99f27da30f56d69efa34 .dapi/cosmovisor/upgrades/v0.2.12/bin/decentralized-api" | sudo sha256sum --check && \
+    echo "642eb9858cd77d182f3e1c4d44553f5379d615983430e1fd8e85f09632af4271 .inference/cosmovisor/upgrades/v0.2.12/bin/inferenced" | sudo sha256sum --check
+    ```
 
 ## Bounty program
 
@@ -8585,6 +8612,9 @@ Full steps: [How to report](bounty-program.md#how-to-report). For public protoco
 
 ## Technical Integration Guide: Exchange & Bridge Widget
 
+> **Bridge temporarily unavailable**
+    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.
+
 # Technical Integration Guide: Exchange & Bridge Widget
 
 This guide provides technical specifications, architectural designs, and implementation steps for community developers who want to recreate the Exchange & Bridge Widget within their own custom dashboards.
@@ -9399,7 +9429,7 @@ const withdrawableTokens = computed(() => {
 
 Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
 
-The dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:
+The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:
 
 ```text
 0x972a7a92d92796a98801a8818bcf91f1648f2f68
@@ -9497,6 +9527,9 @@ If the bridge transfer is complete but the assets are not in your usual Gonka wa
 
 ## Bridge epoch update
 
+> **Bridge temporarily unavailable**
+    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.
+
 # Bridge epoch update
 
 Gonka &rarr; Ethereum transfers use a BLS signature from the current Gonka epoch. The Ethereum bridge contract must know the current epoch's group key before it can verify that signature and release funds on Ethereum.
@@ -9549,9 +9582,12 @@ HARDHAT_NETWORK=mainnet node submit-epoch-public.js \
 
 ## Bridge via dashboard (UI guide)
 
-Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
+> **Bridge temporarily unavailable**
+    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.
 
-The dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:
+    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
+
+The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:
 
 ```text
 0x972a7a92d92796a98801a8818bcf91f1648f2f68
@@ -9901,9 +9937,7 @@ You can confirm your tokens arrived in several ways:
 
 ## Deposit GNK (Gonka → Ethereum)
 
-Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
-
-The dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:
+The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:
 
 ```text
 0x972a7a92d92796a98801a8818bcf91f1648f2f68
@@ -9914,92 +9948,19 @@ The dedicated Bridge smart contract, controlled by the Gonka consensus, is activ
 
 Lock GNK on Gonka and receive wrapped GNK (**WGNK**) at your Ethereum address.
 
-### A) Request Minting WGNK on Ethereum
-
-Use CLI to submit a bridge minting request:
-
-```bash
-./inferenced tx inference request-bridge-mint \
-   \
-  "0xYourEthereumAddr" \
-  "ethereum" \
-  --destination-bridge-address 0x972a7a92d92796a98801a8818bcf91f1648f2f68 \
-  --from  \
-  --chain-id gonka-mainnet \
-  --gas auto --gas-adjustment 2.0 \
-  -y \
-  --node http://node1.gonka.ai:8000/chain-rpc/
-```
-
-    If `--gas auto` produces an incorrect gas estimation, check the returned status for the required gas limit and explicitly pass it (e.g., `--gas 200000`).
-
-#### Expected Output
-```text
-...
-txhash: 12E8ABCA5A35D73042564FDF6D686424F742414EEC172450AB6EDA34BD1F0805
-```
-
-Allow a couple of blocks to be mined, then check the status:
-
-```bash
-./inferenced query tx 12E8ABCA5A35D73042564FDF6D686424F742414EEC172450AB6EDA34BD1F0805 --node http://node1.gonka.ai:8000/chain-rpc/
-```
-
-Verify that `"code": 0` and extract the base64 `request_id`:
-
-```json
-"request_id": "vSTWiN1pvooxcFoDLzePCEq3x/C5NQ+jFMvfcEozCm4="
-```
-
-Convert the base64 `request_id` to hexadecimal format:
-
-```bash
-echo "vSTWiN1pvooxcFoDLzePCEq3x/C5NQ+jFMvfcEozCm4=" | base64 -d | xxd -p -c 256
-```
-**Example Hex Output:**
-```text
-bd24d688dd69be8a31705a032f378f084ab7c7f0b9350fa314cbdf704a330a6e
-```
-
-### B) Get BLS Signature Status
-
-Query the BLS signature API with your request ID hex:
-
-```bash
-curl "https://node2.gonka.ai:8443/v1/bls/signatures/" \
-  | jq -r '
-    {
-      uncompressed_signature_128: .uncompressed_signature_128,
-      current_epoch_id: .signing_request.current_epoch_id,
-      request_id: .signing_request.request_id
-    }
-  '
-```
-
-> **Bridge epoch update**
-    Before submitting the Ethereum mint transaction, make sure the Ethereum bridge contract is synced to `current_epoch_id`. If the dashboard shows **A Bridge needs epoch update** or the Ethereum execution fails with `InvalidEpoch`, follow [Bridge epoch update](bridge-epoch-update.md).
-
-### C) Submit Mint Command on Ethereum
-
-Submit the mint command to the bridge contract on Ethereum using the [mint-wgnk.js](https://github.com/gonka-ai/gonka/blob/gm/contracts/proposals/ethereum-bridge-contact/mint-wgnk.js) script:
-
-```bash
-HARDHAT_NETWORK=mainnet node mint-wgnk.js \
-  0x972a7a92d92796a98801a8818bcf91f1648f2f68 \
-   \
-   \
-   \
-   \
-  
-```
+> **Instructions temporarily unavailable**
+    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. The step-by-step instructions for this flow are temporarily unavailable. Do not use the bridge until further notice. Follow official announcements on [Network updates](../../network-updates.md) and [X](https://x.com/gonka_ai).
 
 ---
 
 ## Deposit USDT (Ethereum → Gonka)
 
-Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
+> **Bridge temporarily unavailable**
+    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.
 
-The dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:
+    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
+
+The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:
 
 ```text
 0x972a7a92d92796a98801a8818bcf91f1648f2f68
@@ -10157,11 +10118,14 @@ If you are the last person to sign, or if you are tasked with finalizing a trans
 
 ## Ethereum bridge overview
 
+> **Bridge temporarily unavailable**
+    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.
+
 # Ethereum bridge overview
 
     Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
 
-The dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:
+The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:
 
 ```text
 0x972a7a92d92796a98801a8818bcf91f1648f2f68
@@ -10282,9 +10246,12 @@ This bridge connects Gonka directly with **Ethereum**. Gonka also supports **IBC
 
 ## Register a bridge token
 
-Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
+> **Bridge temporarily unavailable**
+    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.
 
-The dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:
+    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
+
+The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:
 
 ```text
 0x972a7a92d92796a98801a8818bcf91f1648f2f68
@@ -10450,7 +10417,7 @@ https://node1.gonka.ai:8443/dashboard/gonka/cosmwasm/105/transactions?contract=
 
 Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
 
-The dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:
+The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:
 
 ```text
 0x972a7a92d92796a98801a8818bcf91f1648f2f68
@@ -10552,9 +10519,7 @@ curl "https://node2.gonka.ai:8443/v1/bridge/addresses?chain=ethereum"
 
 ## Withdraw GNK (Ethereum → Gonka)
 
-Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
-
-The dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:
+The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:
 
 ```text
 0x972a7a92d92796a98801a8818bcf91f1648f2f68
@@ -10567,44 +10532,19 @@ This is the reverse of [Deposit GNK (Gonka → Ethereum)](deposit-gnk.md). It bu
 
 Native GNK is released to the Gonka address **derived from the same key that burns the WGNK** on Ethereum. Make sure you control that key on Gonka — see [Addresses and keys](addresses-and-keys.md).
 
-### A) Burn WGNK on Ethereum
-
-Burning is done by simply transferring WGNK to the bridge contract address. The bridge contract recognizes a transfer to itself as a burn and emits a `WGNKBurned` event.
-
-```javascript
-// WGNK is the bridge contract itself (it is both the bridge and the WGNK ERC-20)
-const tx = await wgnkContract.transfer(
-  "0x972a7a92d92796a98801a8818bcf91f1648f2f68",   // bridge / WGNK address
-  amountBN                                        // BigNumber amount (9 decimals)
-);
-await tx.wait();
-```
-
-    WGNK uses **9 decimals** to match the native GNK token.
-
-### B) Wait for Finalization
-
-The bridge only acts on **finalized** Ethereum blocks (about two epochs). Expect **15–20 minutes** between the burn being mined on Ethereum and the native GNK appearing on Gonka. No further action is required on the Ethereum side — once the burn is finalized, the Gonka consensus validates it and releases the escrowed GNK automatically.
-
-### C) Check Your GNK Balance on Gonka
-
-Query the native balance of the Gonka address derived from your key:
-
-```bash
-inferenced query bank balances  --node http://node1.gonka.ai:8000/chain-rpc/
-```
-
-You should see the released amount in `ngonka` (1 GNK = 10^9 ngonka).
-
-    If the balance does not appear after ~20 minutes, confirm that the burn transaction was finalized on Ethereum and that you are querying the `gonka1…` address derived from the **same** key that signed the burn (not a seed-derived Gonka account — see [Addresses and keys](addresses-and-keys.md)).
+> **Instructions temporarily unavailable**
+    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. The step-by-step instructions for this flow are temporarily unavailable. Do not use the bridge until further notice. Follow official announcements on [Network updates](../../network-updates.md) and [X](https://x.com/gonka_ai).
 
 ---
 
 ## Withdraw USDT (Gonka → Ethereum)
 
-Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
+> **Bridge temporarily unavailable**
+    The Gonka–Ethereum bridge has been paused following an incident that is under investigation. Do not use the bridge until further notice. Follow official announcements for updates.
 
-The dedicated Bridge smart contract, controlled by the Gonka consensus, is active on Ethereum at the address:
+    Always start with a small test transaction. Bridge transfers are irreversible, so before moving large amounts, send a small amount first and confirm it arrives as expected.
+
+The dedicated Bridge smart contract, controlled by the Gonka consensus, is deployed on Ethereum at the address:
 
 ```text
 0x972a7a92d92796a98801a8818bcf91f1648f2f68
@@ -13391,7 +13331,7 @@ Details from the proposal / announcement:
 - Voting ended **August 12, 2026 at 16:05 UTC** / August 12 at 09:05 PDT
 - First bootstrap attempt at **epoch 359**; the model group became active at **epoch 360**
 
-Declare `PoCIntent` **after voting ended** and before the epoch 359 snapshot at `start_poc − deploy_window`. The MLNode image is pinned to 3.0.16 in `deploy/join/docker-compose.mlnode.yml` on the [`vllm-0.25.1-upgrade`](https://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/deploy/join) branch (`main` still pins 3.0.14-post2); use the shipped DeepSeek `node-config-*.json` files.
+Declare `PoCIntent` **after voting ended** and before the epoch 359 snapshot at `start_poc − deploy_window`. The MLNode image is pinned to 3.0.16 in `deploy/join/docker-compose.mlnode.yml` on `main`; use the shipped DeepSeek `node-config-*.json` files.
 
 ## Timeline
 
@@ -13405,7 +13345,7 @@ curl -s "https://node3.gonka.ai/chain-api/productscience/inference/inference/par
 # Decimal fields use {value, exponent}: e.g. {"value":"1","exponent":-1} → 0.1 (10%).
 ```
 
-Confirm the live DeepSeek entry (including `penalty_start_epoch` and `weight_scale_factor`) after the proposal executes:
+Confirm the live DeepSeek entry (including `penalty_start_epoch` and the `coeff_min` / `coeff_max` range) from the chain. From v0.2.16, `weight_scale_factor` in this entry is empty; read the live coefficient from `effective_coefficient` (see [Multi-Model PoC](./multi_model_poc.md)):
 
 ```bash
 curl -s "https://node3.gonka.ai/chain-api/productscience/inference/inference/params" \
@@ -13456,13 +13396,13 @@ If DeepSeek passes both checks, punishment follows the usual scenarios described
 
 ## Hardware and consensus weight
 
-DeepSeek V4 Flash is registered with `v_ram = 280` (about **280 GB of total VRAM** per instance). The live `weight_scale_factor` is **0.246** ([proposal 98](../network-updates.md#august-29-2026); originally 0.214). Relative to an 8×H100 cluster running MiniMax M2.7, the original announcement (at 0.214) estimated:
+DeepSeek V4 Flash is registered with `v_ram = 280` (about **280 GB of total VRAM** per instance). Its `weight_scale_factor` was **0.246** after [proposal 98](../network-updates.md#august-29-2026) (originally 0.214). From v0.2.16 the coefficient is dynamic within the `coeff_min` / `coeff_max` range in `poc_params`; read the live value from `effective_coefficient` (see [Multi-Model PoC](./multi_model_poc.md)). Relative to an 8×H100 cluster running MiniMax M2.7, the original announcement (at 0.214) estimated:
 
 - 8×H200 optimally yields **1.46×** weight running MiniMax M2.7
 - 8×B200 optimally yields **2.96×** weight running Kimi K2.6
 - 8×B300 optimally yields **3.37×** weight running DeepSeek V4 Flash
 
-A model's `weight_scale_factor` only produces consensus weight if that model group is eligible (has voting power). Check `poc_params` and `confirmation_weight_scales`.
+A model's coefficient only produces consensus weight if that model group is eligible (has voting power). Check `poc_params` and `confirmation_weight_scales`.
 
 Practical implications:
 
@@ -13579,7 +13519,7 @@ Merge in the operator flags from the shipped config (tensor parallel size, exper
 
 #### 5. Validate your deployment
 
-Follow the posted MLNode setup notes and the committed golden reference for DeepSeek (`deepseek-ai-deepseek-v4-flash-0731.json` on the [`vllm-0.25.1-upgrade`](https://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/mlnode/packages/benchmarks/scripts/poc_validation/artifacts) branch). The [`gonka` repo](https://github.com/gonka-ai/gonka) ships an agent skill, `mlnode-validate`, that validates a deployed ML Node against pre-computed honest PoC vectors. See [Validate ML Node Deployment](./mlnode-validation.md) and [`skills/mlnode-validate/SKILL.md`](https://github.com/gonka-ai/gonka/blob/vllm-0.25.1-upgrade/skills/mlnode-validate/SKILL.md).
+Follow the posted MLNode setup notes and the committed golden reference for DeepSeek (`deepseek-ai-deepseek-v4-flash-0731.json` on [`main`](https://github.com/gonka-ai/gonka/tree/main/mlnode/packages/benchmarks/scripts/poc_validation/artifacts)). The [`gonka` repo](https://github.com/gonka-ai/gonka) ships an agent skill, `mlnode-validate`, that validates a deployed ML Node against pre-computed honest PoC vectors. See [Validate ML Node Deployment](./mlnode-validation.md) and [`skills/mlnode-validate/SKILL.md`](https://github.com/gonka-ai/gonka/blob/main/skills/mlnode-validate/SKILL.md).
 
 ## Instructions for hosts who are NOT going to deploy DeepSeek V4 Flash
 
@@ -14528,7 +14468,7 @@ For additional support, see the [Quickstart Guide](https://gonka.ai/host/quickst
 > **v0.2.16**
     The coefficients on this page are the scales at registration. From v0.2.16, `poc_params.models[].weight_scale_factor` is empty. The live reward coefficient is `effective_coefficient`. See [Multi-Model PoC](./multi_model_poc.md).
 
-`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales` with `weight_scale_factor` 0.62, so it produces consensus weight. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).
+`zai-org/GLM-5.3-Flash` has **passed bootstrap** and is **active** in Proof of Compute on Gonka mainnet as of chain epoch 395 ([proposal 101](../network-updates.md#proposal-101)). Its `penalty_start_epoch` is **394**. It is in `confirmation_weight_scales`, so it produces consensus weight. Its registration `weight_scale_factor` was 0.62; the live coefficient is dynamic and is read from `effective_coefficient`. The timeline and transaction examples below remain useful for understanding how activation worked and for operations such as delegation; for current deployment defaults (including `node-config.json`), see the [Host Quickstart](./quickstart.md).
 
 For the wider context of multi-model PoC mechanics, see [Multi-Model PoC](./multi_model_poc.md). Other model bootstraps and their mechanics are documented in [MiniMax-M2.7 Bootstrap](./minimax-bootstrap.md), [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md), and [Kimi K2.6 Bootstrap](./kimi-bootstrap.md) (historical).
 
@@ -14616,7 +14556,7 @@ If GLM passes both checks, punishment follows the usual scenarios in [Multi-Mode
 
 ## Hardware and consensus weight
 
-GLM-5.3-Flash is registered with `v_ram = 560` (about **560 GB of total VRAM** per instance). The live `weight_scale_factor` is **0.62**. A model's coefficient only produces consensus weight if that group is eligible (has voting power). Check `poc_params` and `confirmation_weight_scales`.
+GLM-5.3-Flash is registered with `v_ram = 560` (about **560 GB of total VRAM** per instance). The registration `weight_scale_factor` was **0.62**. From v0.2.16 the coefficient is dynamic within the `coeff_min` / `coeff_max` range in `poc_params`; read the live value from `effective_coefficient` (see [Multi-Model PoC](./multi_model_poc.md)). A model's coefficient only produces consensus weight if that group is eligible (has voting power). Check `poc_params` and `confirmation_weight_scales`.
 
 Practical implications (from the proposal calibration; confirm live coefficients):
 
@@ -15377,7 +15317,7 @@ curl -s "https://node3.gonka.ai/chain-api/productscience/inference/inference/par
 # {value, exponent} encodes a decimal: e.g. {"value":"1","exponent":-1} → 0.1 (10%).
 ```
 
-Confirm the live MiniMax entry (including `penalty_start_epoch` and `weight_scale_factor`) from the chain:
+Confirm the live MiniMax entry (including `penalty_start_epoch` and the `coeff_min` / `coeff_max` range) from the chain. From v0.2.16, `weight_scale_factor` in this entry is empty; read the live coefficient from `effective_coefficient` (see [Multi-Model PoC](./multi_model_poc.md)):
 
 ```bash
 curl -s "https://node3.gonka.ai/chain-api/productscience/inference/inference/params" \
@@ -17532,15 +17472,8 @@ git clone https://github.com/gonka-ai/gonka.git -b main && \
 cd gonka/deploy/join
 ```
 
-> **DeepSeek V4 Flash and MLNode 3.0.16**
-    `main` still pins MLNode **3.0.14-post2** and does not ship DeepSeek `node-config-*.json` files. To serve `deepseek-ai/DeepSeek-V4-Flash-0731`, clone [`vllm-0.25.1-upgrade`](https://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/deploy/join) instead:
-
-    ```bash
-    git clone https://github.com/gonka-ai/gonka.git -b vllm-0.25.1-upgrade && \
-    cd gonka/deploy/join
-    ```
-
-    That branch pins `ghcr.io/gonka-ai/mlnode:3.0.16` (use the `3.0.16-cu129` tag if the host is still on CUDA 12.9).
+> **MLNode image on `main`**
+    `main` pins MLNode `ghcr.io/gonka-ai/mlnode:3.0.16` in `docker-compose.mlnode.yml` and ships the MiniMax M2.7 and DeepSeek V4 Flash `node-config-*.json` files. If the host is still on CUDA 12.9, use the `3.0.16-cu129` tag (noted in the same compose file).
 
 > **GLM-5.3-Flash and MLNode 3.1.0**
     GLM-5.3-Flash requires **vLLM 0.28**, a **CUDA 13** driver (580+), and image `ghcr.io/gonka-ai/mlnode:3.1.0-vllm-0.28.0`. Do not use `3.0.17` for GLM. Clone [`feat/glm-5-3-flash-release`](https://github.com/gonka-ai/gonka/tree/feat/glm-5-3-flash-release/deploy/join) for the shipped `node-config-glm53flash-*.json` files ([gonka-ai/gonka#1734](https://github.com/gonka-ai/gonka/pull/1734)):
@@ -18231,7 +18164,7 @@ source config.env
 For more details on the optimal deployment configuration, please refer to [this link](https://gonka.ai/host/benchmark-to-choose-optimal-deployment-config-for-llms/).
 
 > **Validate the deployment**
-    The [`gonka` repo](https://github.com/gonka-ai/gonka) ships an agent skill, `mlnode-validate`, that validates an ML Node against pre-computed honest PoC vectors for a specific model. Use the golden reference that matches the model you deploy (MiniMax-M2.7, DeepSeek V4 Flash on [`vllm-0.25.1-upgrade`](https://github.com/gonka-ai/gonka/tree/vllm-0.25.1-upgrade/mlnode/packages/benchmarks/scripts/poc_validation/artifacts), or GLM-5.3-Flash on [`feat/glm-5-3-flash-release`](https://github.com/gonka-ai/gonka/tree/feat/glm-5-3-flash-release/mlnode/packages/benchmarks/scripts/poc_validation/artifacts)). Qwen3-0.6B / Qwen3-235B artifacts are historical and **not** mainnet models. See [Validate ML Node Deployment](./mlnode-validation.md).
+    The [`gonka` repo](https://github.com/gonka-ai/gonka) ships an agent skill, `mlnode-validate`, that validates an ML Node against pre-computed honest PoC vectors for a specific model. Use the golden reference that matches the model you deploy (MiniMax-M2.7, DeepSeek V4 Flash on [`main`](https://github.com/gonka-ai/gonka/tree/main/mlnode/packages/benchmarks/scripts/poc_validation/artifacts), or GLM-5.3-Flash on [`feat/glm-5-3-flash-release`](https://github.com/gonka-ai/gonka/tree/feat/glm-5-3-flash-release/mlnode/packages/benchmarks/scripts/poc_validation/artifacts)). Qwen3-0.6B / Qwen3-235B artifacts are historical and **not** mainnet models. See [Validate ML Node Deployment](./mlnode-validation.md).
 
 ### [Server] Pre-download Model Weights to Hugging Face Cache (HF_HOME)
 Inference nodes download model weights from Hugging Face.
@@ -18255,7 +18188,7 @@ To make sure the model weights are ready for inference, you should download them
     huggingface-cli download MiniMaxAI/MiniMax-M2.7
     ```
 
-    Model license: see [Model licenses](../model-licenses.md). MiniMax M2.7 requires **MLNode 3.0.14 or newer** (image `ghcr.io/gonka-ai/mlnode:3.0.14-cu129`, pinned in `deploy/join/docker-compose.mlnode.yml`). On A100 hardware also make sure the `VLLM_USE_FLASHINFER_MOE_FP8=0` environment variable is set for the `mlnode-308` service (pre-set in the shipped compose file).
+    Model license: see [Model licenses](../model-licenses.md). MiniMax M2.7 requires **MLNode 3.0.14 or newer**. `deploy/join/docker-compose.mlnode.yml` on `main` pins `ghcr.io/gonka-ai/mlnode:3.0.16` (`3.0.16-cu129` for CUDA 12.9). On A100 hardware also make sure the `VLLM_USE_FLASHINFER_MOE_FP8=0` environment variable is set for the `mlnode-308` service (pre-set in the shipped compose file).
 
 === "DeepSeek V4 Flash"
 
@@ -18264,7 +18197,7 @@ To make sure the model weights are ready for inference, you should download them
     huggingface-cli download deepseek-ai/DeepSeek-V4-Flash-0731 --revision 7872f01b1d1fe23eabc4c98b48bffcef5a386062
     ```
 
-    Model license: see [Model licenses](../model-licenses.md). DeepSeek V4 Flash requires **MLNode 3.0.16 or newer** (image `ghcr.io/gonka-ai/mlnode:3.0.16`, pinned in `deploy/join/docker-compose.mlnode.yml` on the `vllm-0.25.1-upgrade` branch; use the `3.0.16-cu129` tag if the host is still on CUDA 12.9). For operational notes and on-chain options (intent, delegation), see [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md). On Blackwell GPUs, the nvfp4 repack `MJPansa/DeepSeek-V4-Flash-0731-NVFP4` needs API `v0.2.15-post5` — see [Network updates](../network-updates.md).
+    Model license: see [Model licenses](../model-licenses.md). DeepSeek V4 Flash requires **MLNode 3.0.16 or newer** (image `ghcr.io/gonka-ai/mlnode:3.0.16`, pinned in `deploy/join/docker-compose.mlnode.yml` on `main`; use the `3.0.16-cu129` tag if the host is still on CUDA 12.9). For operational notes and on-chain options (intent, delegation), see [DeepSeek V4 Flash Bootstrap](./deepseek-bootstrap.md). On Blackwell GPUs, the nvfp4 repack `MJPansa/DeepSeek-V4-Flash-0731-NVFP4` needs API `v0.2.15-post5` — see [Network updates](../network-updates.md).
 
 === "GLM-5.3-Flash"
 
