@@ -10,7 +10,7 @@ hide:
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 <small>Last updated: <!-- UPDATE_TIMESTAMP -->
-2026-11-24 08:02 UTC
+2026-11-24 19:52 UTC
 <!-- /UPDATE_TIMESTAMP --></small>
 
 ---
@@ -21,7 +21,7 @@ The Gonka network maintains three key addresses that collectively manage communi
 
 <!-- BALANCES_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">115,571,511 GNK</span>
+<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">115,583,511 GNK</span>
 </p>
 <!-- BALANCES_END -->
 
@@ -90,7 +90,7 @@ curl -s "https://node3.gonka.ai/chain-api/cosmwasm/wasm/v1/contract/gonka15ggwj9
 
 <!-- GOV_BALANCE_START -->
 <p style="margin:0.2rem 0">
-<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">8,316,634 GNK</span>
+<strong>Current balance:</strong> <span style="color:var(--md-accent-fg-color,#5468ff);font-size:0.95rem;font-weight:600">8,361,839 GNK</span>
 </p>
 <!-- GOV_BALANCE_END -->
 
