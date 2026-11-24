@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-11-24T12:53:06.555818+00:00",
+  "snapshot_time": "2026-11-24T23:13:11.713500+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2755,6 +2755,15 @@
       "url": "/proposals/proposals/2026-q4/119/",
       "content_preview": "The Gonka Foundation (Gonka Stiftung) is a Swiss foundation based in Zug (CHE-232.447.079), established to support the long-term development, neutrality and resilience of Gonka. The Foundation asks th…",
       "checksum": "a4e8114caf9a54f9ba3aa622a82e6093486a7538854fc94664e85a95309529e9"
+    },
+    "e7e125a1a1dc284584008b81364733498bd1277c845bf78c6d0af1072b8b4437": {
+      "title": "Voting ends: #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)",
+      "date": "2026-11-26",
+      "time": "14:01 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/120/",
+      "content_preview": "Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …",
+      "checksum": "e100c3616e8ff1e8840939673c05ca8bf2738df76dc5d04158dc92e48f5fb421"
     }
   }
 }
