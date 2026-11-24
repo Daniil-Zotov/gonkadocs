@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **123**. Обновлено: `2026-11-24 05:56 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **124**. Обновлено: `2026-11-24 17:31 UTC`.
 
 ## 📂 Категории
 
@@ -14,7 +14,7 @@ title: "GitHub Discussions"
 | [:jigsaw: Ecosystem](ecosystem/index.md) | 13 |
 | [:speech_balloon: General](general/index.md) | 8 |
 | [:bookmark_tabs: Governance Proposal Reports](governance-proposal-reports/index.md) | 17 |
-| [:gear: Protocol Improvements](protocol-improvements/index.md) | 53 |
+| [:gear: Protocol Improvements](protocol-improvements/index.md) | 54 |
 | [:interrobang: Q&A](q-a/index.md) | 5 |
 | [:raised_hands: Show and Tell](show-and-tell/index.md) | 26 |
 
@@ -22,6 +22,7 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [2322](protocol-improvements/2322-proposal-120-quorint-independent-security-review-for-the-bri.md) | [Proposal #120 (Quorint): Independent Security Review for the Bridge Relaunch, plus Attack Registry, Economic Attack Simulator and Upgrade Audits](protocol-improvements/2322-proposal-120-quorint-independent-security-review-for-the-bri.md) | :gear: Protocol Improvements | [@quorint](https://github.com/quorint) | 2026-11-24 |
 | [2307](protocol-improvements/2307-proposal-from-ancapex-alternative-tokenomics.md) | [Proposal from Ancapex: Alternative Tokenomics](protocol-improvements/2307-proposal-from-ancapex-alternative-tokenomics.md) | :gear: Protocol Improvements | [@alancapex](https://github.com/alancapex) | 2026-11-23 |
 | [2308](protocol-improvements/2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | [Proposal from Ancapex: Decision Models for Modest Hardware](protocol-improvements/2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | :gear: Protocol Improvements | [@alancapex](https://github.com/alancapex) | 2026-11-23 |
 | [2306](ecosystem/2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt.md) | [[Draft for discussion] WGNK bridge hack: three compensation options, per-address register, open data](ecosystem/2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt.md) | :jigsaw: Ecosystem | [@Konyakoff](https://github.com/Konyakoff) | 2026-11-23 |
@@ -41,4 +42,3 @@ title: "GitHub Discussions"
 | [801](protocol-improvements/0801-inference-scaling.md) | [Inference Scaling](protocol-improvements/0801-inference-scaling.md) | :gear: Protocol Improvements | [@gmorgachev](https://github.com/gmorgachev) | 2026-10-20 |
 | [837](protocol-improvements/0837-high-availability-fault-tolerance-setup.md) | [High-availability / Fault-tolerance Setup](protocol-improvements/0837-high-availability-fault-tolerance-setup.md) | :gear: Protocol Improvements | [@blizko](https://github.com/blizko) | 2026-10-20 |
 | [802](protocol-improvements/0802-continuous-poc.md) | [Continuous PoC](protocol-improvements/0802-continuous-poc.md) | :gear: Protocol Improvements | [@mtvnastya](https://github.com/mtvnastya) | 2026-10-20 |
-| [798](general/0798-how-can-governance-voting-become-easier-for-hosts.md) | [How can governance voting become easier for Hosts?](general/0798-how-can-governance-voting-become-easier-for-hosts.md) | :speech_balloon: General | [@tcharchian](https://github.com/tcharchian) | 2026-10-20 |

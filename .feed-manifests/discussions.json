@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-11-24T05:56:16.279025+00:00",
+  "snapshot_time": "2026-11-24T17:32:18.247280+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -553,6 +553,12 @@
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2308](https://github.com/gonka-ai/gonka/discussions/2308) every hour. \n\n# Proposal from Ancapex: Decision Models for Modest Hardware\n\n**Автор:** [@alancapex](https://github.com/alancapex) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-23 13:03 UTC · \n\n---\n\n## 📝 Описание\n\nThe network is limited by hardware: powerful GPUs for modern LLMs are scarce. Decision models are a new class of in-demand models that needs only modest hardware, GPUs with 16 to 80 GB of memory.\n\nThey do not write text. They quickly choose one of the given answer options and report how confident they are. They are used for classifying and routing requests, checking the answers of other AI systems, and guardrails. About 6.7 trillion tokens a week already pass throu",
       "checksum": "4eb82fc83c177712b43f0b3f1d8174810b9478d884ef90fdb7f280708402702b"
+    },
+    "protocol-improvements/2322-proposal-120-quorint-independent-security-review-for-the-bri.md": {
+      "title": "#2322 — Proposal #120 (Quorint): Independent Security Review for the Bridge Relaunch, plus Attack Registry, Economic Attack Simulator and Upgrade Audits",
+      "status": null,
+      "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2322](https://github.com/gonka-ai/gonka/discussions/2322) every hour. \n\n# Proposal #120 (Quorint): Independent Security Review for the Bridge Relaunch, plus Attack Registry, Economic Attack Simulator and Upgrade Audits\n\n**Автор:** [@quorint](https://github.com/quorint) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-24 12:50 UTC · \n\n---\n\n## 📝 Описание\n\n**Update, 24 November:** this proposal is now on-chain as [Proposal #120](https://gonka.gg/network/proposals/120). Host voting is open until Thursday 26 November 2026, 14:01 UTC, and hosts can vote on [gonka.vote](https://gonka.vote/governance/120).\n\nQuorint (https://quorint.xyz) proposes an independent security review for the Gonka bridge relaunch, followed by an executable attack re",
+      "checksum": "2d7c34a5bbe40f922282de843fd9ab6f9944ede29e30725c0881902ad492ea57"
     },
     "q-a/0796-are-there-plans-to-add-prompt-level-confidentiality-for-host.md": {
       "title": "#796 — Are there plans to add prompt-level confidentiality for hosts?",

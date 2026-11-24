@@ -31604,12 +31604,12 @@ HardCore Arena позволит протестировать модель на �
 
 ## Overview
 
-118Total Proposals
-81Passed (69%)
-36Rejected (31%)
+119Total Proposals
+81Passed (68%)
+36Rejected (30%)
 1Failed (1%)
 
-Funding / Grants50
+Funding / Grants51
 Governance Parameters37
 Software Upgrade20
 Other6
@@ -31621,7 +31621,20 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q4
 
-*10 proposals*
+*11 proposals*
+
+  
+    #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
+    
+    Voting
+  
+  
+    Submitted 2026-11-24
+    Voting ends 2026-11-26
+  
+  Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …
+  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (511,640) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
+  ✓ Turnout 26.8% (511,640 / 1,908,722) · Quorum 25% (477,180)
 
   
     #119 – Community Support for the Gonka Foundation
@@ -32992,7 +33005,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-118 proposals across 6 quarters. Last updated: 2026-11-24 11:01 UTC
+119 proposals across 6 quarters. Last updated: 2026-11-24 17:22 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82290,11 +82303,11 @@ Contract Details
 
 ## 2026-Q4 Summary
 
-10Total Proposals
-9Passed (90%)
-1Rejected (10%)
+11Total Proposals
+9Passed (82%)
+1Rejected (9%)
 
-Funding / Grants6
+Funding / Grants7
 Other2
 Governance Parameters1
 Software Upgrade1
@@ -82302,7 +82315,20 @@ Software Upgrade1
 +$1,750,000 · Community Sale (inflow) · 85,000 GNK · $10,000 · Community Pool · $1,638,925 · Community Sale · 217,896 GNK · Gov Module
 
 2026-Q4
-10 proposals
+11 proposals
+
+  
+    #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
+    
+    Voting
+  
+  
+    Submitted 2026-11-24
+    Voting ends 2026-11-26
+  
+  Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …
+  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (511,640) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
+  ✓ Turnout 26.8% (511,640 / 1,908,722) · Quorum 25% (477,180)
 
   
     #119 – Community Support for the Gonka Foundation
@@ -84773,6 +84799,139 @@ Contract Details
 
 ```json
 []
+```
+
+---
+
+## #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
+
+# #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
+
+Voting
+
+**Proposal ID:** `120`
+
+**Type:** Community Pool Spend, Instantiate Contract2
+
+**Submit:** 2026-11-24 14:01 UTC
+
+**Voting:** 2026-11-24 14:01 UTC → 2026-11-26 14:01 UTC
+
+**Proposer:** [`gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv`](https://gonka.gg/address/gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv){:target="_blank"}
+
+**Metadata:** [https://github.com/quorint/gonka-security-proposal/blob/dec028b64bd5ec09db2b2a26b858610b1ffd0dfb/README.md](https://github.com/quorint/gonka-security-proposal/blob/dec028b64bd5ec09db2b2a26b858610b1ffd0dfb/README.md)
+
+1,600,000 GNK · Community Pool
+
+[View on gonka.gg](https://gonka.gg/network/proposals/120){:target="_blank"}
+
+Funds a 24-week security engagement with Quorint (): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), an executable attack registry (Track 5 P1), an economic attack simulator (Track 5 P2) and pre-mainnet upgrade audits. Allocates 1,600,000 GNK from the Community Pool (no USDT) to a new instance of the code_id 107 milestone escrow used by Proposal #82 (escrow [gonka1m5gr4pkemg7fyml3jlkecpvxzprrkglfu05jfe8kmm38780ajp5s9qznhg](https://gonka.gg/address/gonka1m5gr4pkemg7fyml3jlkecpvxzprrkglfu05jfe8kmm38780ajp5s9qznhg), no admin, no migration), paying Quorint ([gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv](https://gonka.gg/address/gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv)) in six tranches on days 0, 45, 90, 135, 180 and 210: 250,000 / 300,000 / 300,000 / 300,000 / 250,000 / 200,000 GNK. A public milestone report is due 5 days before each unlock. Governance can claw back everything still in the escrow with one vote; after day 270 anyone can sweep the remainder to the Community Pool. Full commit-pinned proposal: 
+
+---
+
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 0.0% (0)
+    No 0.0% (0)
+    Veto 100.0% (511,640)
+    Abstain 0.0% (0)
+    Total 511,640 votes
+    ✓ Turnout 26.8% (511,640 / 1,908,722) · Quorum 25% (477,180)
+  
+
+Voters
+
+VoterVote
+
+gonka1pdgu7g…9rs7a0No 100.0%
+gonka1nurzpp…9rggstNo_With_Veto 100.0%
+gonka147qfck…4gpvz8No_With_Veto 100.0%
+gonka1kvmerz…lzldumNo_With_Veto 100.0%
+gonka16dgkvx…6j0skkNo_With_Veto 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmwasm.wasm.v1.MsgInstantiateContract2` |
+| 2 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgInstantiateContract2",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "admin": "",
+    "code_id": "107",
+    "label": "quorint-security-milestone-escrow",
+    "msg": {
+      "governance": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+      "payouts": [
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "250000000000000",
+          "unlock_after_days": 0
+        },
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "300000000000000",
+          "unlock_after_days": 45
+        },
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "300000000000000",
+          "unlock_after_days": 90
+        },
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "300000000000000",
+          "unlock_after_days": 135
+        },
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "250000000000000",
+          "unlock_after_days": 180
+        },
+        {
+          "recipient": "gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv",
+          "denom": "ngonka",
+          "amount": "200000000000000",
+          "unlock_after_days": 210
+        }
+      ],
+      "close_after_days": 270
+    },
+    "funds": [],
+    "salt": "cXVvcmludC1nb25rYS1zZWN1cml0eS0yMDI2",
+    "fix_msg": false
+  },
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka1m5gr4pkemg7fyml3jlkecpvxzprrkglfu05jfe8kmm38780ajp5s9qznhg",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "1600000000000000"
+      }
+    ]
+  }
+]
 ```
 
 ---

@@ -20,7 +20,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 ## Community Calendar
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
-- No upcoming events scheduled.
+- 2026-11-26 14:01 UTC — Voting ends: #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2): https://gonkadocs.com/proposals/proposals/2026-q4/120/
 
 ## Protocol Documentation
 
@@ -278,6 +278,7 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#113 – Distribute v0.2.16 bounty rewards](/proposals/proposals/2026-q4/113/): Auto-synced content
 - [#115 – Activate full range Dynamic Coeff](/proposals/proposals/2026-q4/115/): Auto-synced content
 - [#117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit](/proposals/proposals/2026-q4/117/): Auto-synced content
+- [#120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)](/proposals/proposals/2026-q4/120/): Auto-synced content
 - [2026-Q3 Proposals](/proposals/proposals/2026-q3/): Auto-synced content
 - [#91 – Temporarily update BLS signing parameters](/proposals/proposals/2026-q3/91/): Auto-synced content
 - [GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/full-proposal/): Auto-synced content

@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261124173139_f04fd12d",
+    "timestamp": "2026-11-24T17:31:39.987918+00:00",
+    "section": "discussions",
+    "action": "new",
+    "item": {
+      "title": "#2322 — Proposal #120 (Quorint): Independent Security Review for the Bridge Relaunch, plus Attack Registry, Economic Attack Simulator and Upgrade Audits",
+      "url": "/community/discussion/protocol-improvements/2322-proposal-120-quorint-independent-security-review-for-the-bri/",
+      "file": "protocol-improvements/2322-proposal-120-quorint-independent-security-review-for-the-bri.md"
+    },
+    "details": {
+      "status": null,
+      "content": "> 🔄 **Auto-sync:** from [Discussion #2322](https://github.com/gonka-ai/gonka/discussions/2322) every hour. \n\n# Proposal #120 (Quorint): Independent Security Review for the Bridge Relaunch, plus Attack Registry, Economic Attack Simulator and Upgrade Audits\n\n**Автор:** [@quorint](https://github.com/quorint) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-24 12:50 UTC · \n\n---\n\n## 📝 Описание\n\n**Update, 24 November:** this proposal is now on-chain as [Proposal #120](https://gonka.gg/network/proposals/120). Host voting is open until Thursday 26 November 2026, 14:01 UTC, and hosts can vote on [gonka.vote](https://gonka.vote/governance/120).\n\nQuorint (https://quorint.xyz) proposes an independent security review for the Gonka bridge relaunch, followed by an executable attack re"
+    },
+    "ai_description": "Quorint has put forward Proposal #120, calling for an independent security review ahead of the bridge relaunch, along with an attack registry, an economic attack simulator, and upgrade audits. Host voting is now open until Thursday, 26 November, so make your voice heard on gonka.vote."
+  },
+  {
     "id": "evt_20261124010446_da99e8e4",
     "timestamp": "2026-11-24T01:04:46.896096+00:00",
     "section": "issues",
@@ -8206,21 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    MiniMax-M2.7 tool messages: gateway rejects standard OpenAI string content instead of normalizing it\n    <span class=\"issues-number\">#1475</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-07-18 15:51 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>"
     },
     "ai_description": "New issue #1475 reports that MiniMax-M2.7 tool calls fail when the gateway rejects standard OpenAI string content instead of normalizing it into the expected format. This compatibility gap matters because it can break integrations relying on standard OpenAI message structures, so the community should weigh in on the fix. The issue is now closed, awaiting resolution or a follow-up discussion."
-  },
-  {
-    "id": "evt_20261022192049_21486456",
-    "timestamp": "2026-10-22T19:20:49.449450+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1479 — Gateway allowlist request: Knyazev AI high-throughput agent infrastructure",
-      "url": "/community/issues/01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i/",
-      "file": "01479-gateway-allowlist-request-knyazev-ai-high-throughput-agent-i.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Knyazev AI high-throughput agent infrastructure\n    <span class=\"issues-number\">#1479</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/knyazev741\">@knyazev741</a> opened 2026-07-19 06:12 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
-    },
-    "ai_description": "New issue #1479 is open: @knyazev741 requests gateway allowlist access for Knyazev AI high-throughput agent infrastructure. This is a step toward scaling automated agent workloads on the network, so community feedback in the three comments so far matters. Review and weigh in if you have relevant experience."
   }
 ]
