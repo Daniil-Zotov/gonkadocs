@@ -2,7 +2,7 @@
 title: "#2217 — BUG: Severity Low: Non-initial model group cap compares N-1 post-collateral weight against pre-collateral contribution"
 source: https://github.com/gonka-ai/gonka/issues/2217
 issue_number: 2217
-synced_at: 2026-11-23T13:12:11Z
+synced_at: 2026-11-24T01:00:37Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-11-04 19:18 UTC</span>
-    <span class="issues-meta-item">2 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-06 06:24 UTC</span>
+    <span class="issues-meta-item">3 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-23 19:47 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span> <span class="issues-label" style="background-color: #c2e0c6; color: #24292f; border-color: #c2e0c6;">Priority: Low</span></div>
 </div>
@@ -84,7 +84,7 @@ A non-initial group whose members all had zero N-1 weight, for example after eve
 
 ---
 
-## 💬 Comments (2)
+## 💬 Comments (3)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -159,6 +159,17 @@ INF weight_pipeline epoch=881 addr=…2f3a2y modes=7B:DELEGATE,4B:DIRECT consens
 </tbody>
 </table>
 <p>At steady state the 7B cap no longer binds (1770 &lt; 0.75 × 4651).</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/cyberdelamain">@cyberdelamain</a></span>
+    <span class="issues-meta-item">commented 2026-11-23 19:47 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>This already happened on mainnet once, so "Mainnet impact today: None" no longer holds.</p>
+<p>In epoch 451 the GLM-5.3-Flash group held 37% of the epoch's weight and was still cut by the 75% cap: all 8 members got the same 0.917 of their GLM part, so GLM's share of that epoch's rewards fell from 37.4% to 35.4%. Collateral and the 30% cap played no part. The cap came out at about 734k because the N-1 confirmed total was about 978k, half of epoch 450's <code>total_weight</code>.</p>
+<p>It's the only bind in epochs 425–467, but GLM has been close to the cap in most epochs since 456, so I expect it to repeat until both sides of the cap use the same units. To check, compare root weights in <code>epoch_group_data/451</code> with <code>effective_coefficient × weight</code> from <code>epoch_group_data/451?model_id=zai-org/GLM-5.3-Flash</code>.</p>
   </div>
 </div>
 

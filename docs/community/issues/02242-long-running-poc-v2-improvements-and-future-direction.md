@@ -2,7 +2,7 @@
 title: "#2242 — Long-running PoC v2: improvements and future direction"
 source: https://github.com/gonka-ai/gonka/issues/2242
 issue_number: 2242
-synced_at: 2026-11-23T13:12:05Z
+synced_at: 2026-11-24T01:00:52Z
 template: issues-main.html
 ---
 

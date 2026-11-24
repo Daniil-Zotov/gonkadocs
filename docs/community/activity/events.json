@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261124010446_da99e8e4",
+    "timestamp": "2026-11-24T01:04:46.896096+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2310 — [BUG] dapi: the last PoC StoreCommit often misses the deadline block, so the stage keeps a count one block short",
+      "url": "/community/issues/02310-bug-dapi-the-last-poc-storecommit-often-misses-the-deadline-/",
+      "file": "02310-bug-dapi-the-last-poc-storecommit-often-misses-the-deadline-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] dapi: the last PoC StoreCommit often misses the deadline block, so the stage keeps a count one block short\n    <span class=\"issues-number\">#2310</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-23 18:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class="
+    },
+    "ai_description": "A new bug report #2310 has been opened by @gafrustam describing an issue where the last PoC StoreCommit in the dapi stage frequently misses its deadline block, causing the stage to record a count that is one block short. This is worth tracking closely as it could affect consensus accuracy and reward calculations for participants in that stage."
+  },
+  {
+    "id": "evt_20261124010446_96eae143",
+    "timestamp": "2026-11-24T01:04:46.896358+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2217 — BUG: Severity Low: Non-initial model group cap compares N-1 post-collateral weight against pre-collateral contribution",
+      "url": "/community/issues/02217-bug-severity-low-non-initial-model-group-cap-compares-n-1-po/",
+      "file": "02217-bug-severity-low-non-initial-model-group-cap-compares-n-1-po.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    BUG: Severity Low: Non-initial model group cap compares N-1 post-collateral weight against pre-collateral contribution\n    <span class=\"issues-number\">#2217</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-04 19:18 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    BUG: Severity Low: Non-initial model group cap compares N-1 post-collateral weight against pre-collateral contribution\n    <span class=\"issues-number\">#2217</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-04 19:18 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n "
+    },
+    "ai_description": "Issue #2217 on the non-initial model group cap bug now has a third comment. The discussion is growing, so head over to the thread to see the latest input on this low-severity collateral weight comparison issue."
+  },
+  {
     "id": "evt_20261123211419_ee4fb716",
     "timestamp": "2026-11-23T21:14:19.672285+00:00",
     "section": "discussions",
@@ -8190,37 +8222,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Knyazev AI high-throughput agent infrastructure\n    <span class=\"issues-number\">#1479</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/knyazev741\">@knyazev741</a> opened 2026-07-19 06:12 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8"
     },
     "ai_description": "New issue #1479 is open: @knyazev741 requests gateway allowlist access for Knyazev AI high-throughput agent infrastructure. This is a step toward scaling automated agent workloads on the network, so community feedback in the three comments so far matters. Review and weigh in if you have relevant experience."
-  },
-  {
-    "id": "evt_20261022192049_55b4347e",
-    "timestamp": "2026-10-22T19:20:49.449462+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1480 — Gateway allowlist request: Ancapex",
-      "url": "/community/issues/01480-gateway-allowlist-request-ancapex/",
-      "file": "01480-gateway-allowlist-request-ancapex.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway allowlist request: Ancapex\n    <span class=\"issues-number\">#1480</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/alancapex\">@alancapex</a> opened 2026-07-19 21:31 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div class=\"issues-con"
-    },
-    "ai_description": "New issue #1480 is open requesting gateway allowlist access for Ancapex, submitted by @alancapex. This is the first step in the review process for the community to evaluate the request. Keep an eye on the discussion to see how it unfolds.A new request has been opened to add Ancapex to the gateway allowlist, submitted by @alancapex. This is an important step for ensuring trusted operators on the network, and the community will review it shortly. Stay tuned for the outcome of the discussion."
-  },
-  {
-    "id": "evt_20261022192049_b00bdfea",
-    "timestamp": "2026-10-22T19:20:49.449475+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1493 — Request to be added as a Gonka broker (devshard escrow creator allowlist)",
-      "url": "/community/issues/01493-request-to-be-added-as-a-gonka-broker-devshard-escrow-creato/",
-      "file": "01493-request-to-be-added-as-a-gonka-broker-devshard-escrow-creato.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Request to be added as a Gonka broker (devshard escrow creator allowlist)\n    <span class=\"issues-number\">#1493</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/nikshh\">@nikshh</a> opened 2026-07-21 13:07 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></di"
-    },
-    "ai_description": "A new issue #1493 has been opened by @nikshh requesting to be added as a Gonka broker for the devshard escrow creator allowlist. This is a key step in expanding who can facilitate escrow transactions on the network, so please review and weigh in if you have relevant context. The issue is currently open for community discussion."
   }
 ]

@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-23T13:16:38.878201+00:00",
+  "snapshot_time": "2026-11-24T01:05:05.161637+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4586,13 +4586,14 @@
     "02217-bug-severity-low-non-initial-model-group-cap-compares-n-1-po.md": {
       "title": "#2217 — BUG: Severity Low: Non-initial model group cap compares N-1 post-collateral weight against pre-collateral contribution",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    BUG: Severity Low: Non-initial model group cap compares N-1 post-collateral weight against pre-collateral contribution\n    <span class=\"issues-number\">#2217</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-04 19:18 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n ",
-      "comment_checksum": "fb2b85bd5ca9fdcaab7e1da2bf0f2e241a7aea047f4f20c1886b2a9548c517a1",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    BUG: Severity Low: Non-initial model group cap compares N-1 post-collateral weight against pre-collateral contribution\n    <span class=\"issues-number\">#2217</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-04 19:18 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n ",
+      "comment_checksum": "6ac83edcf3bb1b696a5c0d8c1a1066d0f0e79c652c3dc577fe256868591f442e",
       "comment_bodies": [
         "@GLiberman, let's fix it in 0.2.18, please.",
-        "Chain logs from testnet (epoch 881 formation) These are from v0.2.17-testnet-1, and the same pattern repeats in epochs 879, 880 and 882. Addresses are shortened. INF Collateral grace period has ended. Adjusting weights by collateral. current_epoch=881 INF Universal power capping applied to epoch powers originalTotalPower=6943 cappedTotalPower=1714 participantCount=7 INF weight_group epoch=881 mode"
+        "Chain logs from testnet (epoch 881 formation) These are from v0.2.17-testnet-1, and the same pattern repeats in epochs 879, 880 and 882. Addresses are shortened. INF Collateral grace period has ended. Adjusting weights by collateral. current_epoch=881 INF Universal power capping applied to epoch powers originalTotalPower=6943 cappedTotalPower=1714 participantCount=7 INF weight_group epoch=881 mode",
+        "This already happened on mainnet once, so \"Mainnet impact today: None\" no longer holds. In epoch 451 the GLM-5.3-Flash group held 37% of the epoch's weight and was still cut by the 75% cap: all 8 members got the same 0.917 of their GLM part, so GLM's share of that epoch's rewards fell from 37.4% to 35.4%. Collateral and the 30% cap played no part. The cap came out at about 734k because the N-1 con"
       ],
-      "checksum": "8e9f348a8ee7ed4c8d9741f394e8be1a596186f1c757b338a9f5fddf5d1d7b41"
+      "checksum": "1a07e83c7caf066586ac5aa03641cf4632dcc4521344d9ed0078ea2609293918"
     },
     "02219-bug-decentralized-api-admin-api-cannot-disable-enable-or-del.md": {
       "title": "#2219 — [BUG] decentralized-api: admin API cannot disable, enable or delete a node whose id contains \"/\"",
@@ -4875,6 +4876,14 @@
         "@tcharchian fyi, minor"
       ],
       "checksum": "8f0e84aabdc7a1cb21d7e264d8b3e15b80c5c54fc2b2302452c5460793b411f2"
+    },
+    "02310-bug-dapi-the-last-poc-storecommit-often-misses-the-deadline-.md": {
+      "title": "#2310 — [BUG] dapi: the last PoC StoreCommit often misses the deadline block, so the stage keeps a count one block short",
+      "status": null,
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] dapi: the last PoC StoreCommit often misses the deadline block, so the stage keeps a count one block short\n    <span class=\"issues-number\">#2310</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-23 18:00 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=",
+      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "comment_bodies": [],
+      "checksum": "15f531db9214755f168534c07b325946672de8db13d5b49341f7119c2d778fc7"
     }
   }
 }

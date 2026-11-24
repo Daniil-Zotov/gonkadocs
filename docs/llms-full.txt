@@ -21937,7 +21937,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-11-23 11:40 UTC
+2026-11-23 23:16 UTC
 
 ---
 
@@ -21945,7 +21945,7 @@ Last updated:
 
 **Address:** [`gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa`](https://gonka.gg/address/gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa)
 
-Current balance: 115,520,511 GNK
+Current balance: 115,522,511 GNK
 
 The Community Pool is the protocol-controlled treasury of the Gonka network. It accrues value through a **2% community tax** applied to inflation rewards and network fees — although chain inflation is currently **disabled** (mint inflation max/min = 0), so the steady accrual comes only from fees. These funds can only be spent through a successful governance vote — no single key controls them.
 
@@ -32992,7 +32992,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-118 proposals across 6 quarters. Last updated: 2026-11-23 21:21 UTC
+118 proposals across 6 quarters. Last updated: 2026-11-24 00:03 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
