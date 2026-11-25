@@ -3,7 +3,7 @@ title: "#2308 — Proposal from Ancapex: Decision Models for Modest Hardware"
 source: https://github.com/gonka-ai/gonka/discussions/2308
 discussion_number: 2308
 category: protocol-improvements
-synced_at: 2026-11-25T02:17:55Z
+synced_at: 2026-11-25T12:38:28Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2308](https://github.com/gonka-ai/gonka/discussions/2308) every hour. 
