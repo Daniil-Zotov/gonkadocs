@@ -40,16 +40,16 @@ Funds a 24-week security engagement with Quorint (<https://quorint.xyz>): an ind
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:26.8%"></div>
+    <div class="prop-tally-veto" style="width:41.0%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (511,640)</span>
+    <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (782,698)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 511,640 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>26.8%</strong> (511,640 / 1,908,722) · Quorum <strong>25%</strong> (477,180)</span>
+    <span class="prop-tally-total-text">Total 782,698 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>41.0%</strong> (782,698 / 1,908,722) · Quorum <strong>25%</strong> (477,180)</span>
   </div>
 </div>
 
@@ -66,6 +66,7 @@ Funds a 24-week security engagement with Quorint (<https://quorint.xyz>): an ind
 <tr><td><a href="https://gonka.gg/address/gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8" target="_blank" class="prop-voter-addr">gonka147qfck…4gpvz8</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum" target="_blank" class="prop-voter-addr">gonka1kvmerz…lzldum</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk" target="_blank" class="prop-voter-addr">gonka16dgkvx…6j0skk</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1u7s3mpw4654l30vwzlzsxkhfrmscl6p4p80asy" target="_blank" class="prop-voter-addr">gonka1u7s3mp…p80asy</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 </tbody>
 </table>
 </div>
