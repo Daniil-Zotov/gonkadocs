@@ -3,7 +3,7 @@ title: "#2306 — [Draft for discussion] WGNK bridge hack: three compensation op
 source: https://github.com/gonka-ai/gonka/discussions/2306
 discussion_number: 2306
 category: ecosystem
-synced_at: 2026-11-24T17:30:55Z
+synced_at: 2026-11-25T02:17:55Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2306](https://github.com/gonka-ai/gonka/discussions/2306) every hour. 
