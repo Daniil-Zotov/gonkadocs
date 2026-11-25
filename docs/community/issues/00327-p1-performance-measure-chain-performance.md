@@ -2,7 +2,7 @@
 title: "#327 — [P1] Performance: Measure chain performance"
 source: https://github.com/gonka-ai/gonka/issues/327
 issue_number: 327
-synced_at: 2026-11-24T21:25:21Z
+synced_at: 2026-11-25T04:24:11Z
 template: issues-main.html
 ---
 

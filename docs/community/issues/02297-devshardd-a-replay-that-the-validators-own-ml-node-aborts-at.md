@@ -2,7 +2,7 @@
 title: "#2297 — devshardd: a replay that the validator's own ML node aborts at PoC start is voted invalid against the executor"
 source: https://github.com/gonka-ai/gonka/issues/2297
 issue_number: 2297
-synced_at: 2026-11-24T21:22:02Z
+synced_at: 2026-11-25T04:20:29Z
 template: issues-main.html
 ---
 
