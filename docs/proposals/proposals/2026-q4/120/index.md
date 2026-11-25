@@ -40,16 +40,16 @@ Funds a 24-week security engagement with Quorint (<https://quorint.xyz>): an ind
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:41.4%"></div>
+    <div class="prop-tally-veto" style="width:41.2%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (782,698)</span>
+    <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (746,338)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 782,698 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>41.4%</strong> (782,698 / 1,888,849) · Quorum <strong>25%</strong> (472,212)</span>
+    <span class="prop-tally-total-text">Total 746,338 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>41.2%</strong> (746,338 / 1,812,336) · Quorum <strong>25%</strong> (453,084)</span>
   </div>
 </div>
 
