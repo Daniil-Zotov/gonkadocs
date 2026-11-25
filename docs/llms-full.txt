@@ -22302,12 +22302,12 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 ## 🟢 Active Proposals
 
 1Active
-0Votes
+1Votes
 0Total Bid
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Quorint: Bridge Relaunch Security Review, Attack Registry and Upgrade Audits](./e81cd79e-b001-47bd-a8ab-3dc8be2f32b2/) | Quorint | 0 | 0.00 GNK | 2026-12-08 |
+| 🟢 | [Quorint: Bridge Relaunch Security Review, Attack Registry and Upgrade Audits](./e81cd79e-b001-47bd-a8ab-3dc8be2f32b2/) | Quorint | 1 | 0.00 GNK | 2026-12-08 |
 
 ---
 
@@ -22367,7 +22367,7 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-11-25 12:41 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-11-25 22:27 UTC*
 
 ---
 
@@ -29523,7 +29523,7 @@ Work does not end after the first deposit. The user continues to receive support
 **Created:** 2026-11-24 13:13 UTC
 **Closes:** 2026-12-08 13:13 UTC
 **Language:** EN
-**Votes:** 0
+**Votes:** 1
 **Avg. Bid:** 0.00 GNK
 
 Independent security review gating the bridge relaunch, then an attack registry, economic attack simulator and upgrade audits. 24 weeks, 1.6M GNK in escrow.

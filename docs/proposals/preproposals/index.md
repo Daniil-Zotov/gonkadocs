@@ -14,14 +14,14 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 <div class="quarter-summary" markdown="1">
 <div class="qs-stats">
 <div class="qs-stat passed"><span class="qs-num">1</span><span class="qs-desc">Active</span></div>
-<div class="qs-stat"><span class="qs-num">0</span><span class="qs-desc">Votes</span></div>
+<div class="qs-stat"><span class="qs-num">1</span><span class="qs-desc">Votes</span></div>
 <div class="qs-stat"><span class="qs-num">0</span><span class="qs-desc">Total Bid</span></div>
 </div>
 </div>
 
 | Status | Title | Author | Votes | Avg. Bid | Closes |
 | :----- | :----- | :----- | ----: | -------: | :----- |
-| 🟢 | [Quorint: Bridge Relaunch Security Review, Attack Registry and Upgrade Audits](./e81cd79e-b001-47bd-a8ab-3dc8be2f32b2/) | Quorint | 0 | 0.00 GNK | 2026-12-08 |
+| 🟢 | [Quorint: Bridge Relaunch Security Review, Attack Registry and Upgrade Audits](./e81cd79e-b001-47bd-a8ab-3dc8be2f32b2/) | Quorint | 1 | 0.00 GNK | 2026-12-08 |
 
 
 ---
@@ -87,4 +87,4 @@ Community proposals from [gonka.vote](https://gonka.vote). These are off-chain i
 
 ---
 
-*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-11-25 12:41 UTC*
+*Data synced from [gonka.vote](https://gonka.vote). Last updated: 2026-11-25 22:27 UTC*
