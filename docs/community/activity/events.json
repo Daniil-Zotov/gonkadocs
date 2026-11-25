@@ -17,7 +17,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q4/120/"
     },
-    "ai_description": "Voting is now open for proposal #120, which funds a 24-week security engagement with Quorint to independently review the Gonka-Ethereum bridge relaunch following the 18 November incident. The scope also covers a 6-month attack registry, an economic attack simulator, and upgrade audits across multiple roadmap tracks. This is a critical step toward restoring trust in the bridge, so make sure your vote counts."
+    "ai_description": "Voting is now open for proposal #120, a 24-week security engagement with Quorint to independently review the Gonka-Ethereum bridge relaunch following the 18 November incident. This covers the attack registry, economic simulator, and upgrade audits across two roadmap tracks, so your vote directly shapes how we harden the network."
   },
   {
     "id": "evt_20261124212606_98c37428",
