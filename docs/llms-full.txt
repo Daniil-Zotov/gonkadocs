@@ -31761,8 +31761,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-26
   
   Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …
-  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (511,640) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
-  ✓ Turnout 26.8% (511,640 / 1,908,722) · Quorum 25% (477,180)
+  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (782,698) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
+  ✓ Turnout 41.0% (782,698 / 1,908,722) · Quorum 25% (477,180)
 
   
     #119 – Community Support for the Gonka Foundation
@@ -33133,7 +33133,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-119 proposals across 6 quarters. Last updated: 2026-11-24 20:23 UTC
+119 proposals across 6 quarters. Last updated: 2026-11-25 02:49 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82455,8 +82455,8 @@ Software Upgrade1
     Voting ends 2026-11-26
   
   Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …
-  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (511,640) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
-  ✓ Turnout 26.8% (511,640 / 1,908,722) · Quorum 25% (477,180)
+  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (782,698) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
+  ✓ Turnout 41.0% (782,698 / 1,908,722) · Quorum 25% (477,180)
 
   
     #119 – Community Support for the Gonka Foundation
@@ -84968,10 +84968,10 @@ Funds a 24-week security engagement with Quorint (): an independent security rev
   
     Yes 0.0% (0)
     No 0.0% (0)
-    Veto 100.0% (511,640)
+    Veto 100.0% (782,698)
     Abstain 0.0% (0)
-    Total 511,640 votes
-    ✓ Turnout 26.8% (511,640 / 1,908,722) · Quorum 25% (477,180)
+    Total 782,698 votes
+    ✓ Turnout 41.0% (782,698 / 1,908,722) · Quorum 25% (477,180)
   
 
 Voters
@@ -84983,6 +84983,7 @@ gonka1nurzpp…9rggstNo_With_Veto 100.0%
 gonka147qfck…4gpvz8No_With_Veto 100.0%
 gonka1kvmerz…lzldumNo_With_Veto 100.0%
 gonka16dgkvx…6j0skkNo_With_Veto 100.0%
+gonka1u7s3mp…p80asyNo_With_Veto 100.0%
 
 ---
 ## Messages
