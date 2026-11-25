@@ -2,7 +2,7 @@
 title: "#2320 — [BUG] v6 gateway: liquidity-starved temp escrows satisfy bridge count and prevent automatic refill"
 source: https://github.com/gonka-ai/gonka/issues/2320
 issue_number: 2320
-synced_at: 2026-11-25T04:20:25Z
+synced_at: 2026-11-25T23:41:36Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2026-11-24 11:37 UTC</span>
-    <span class="issues-meta-item">6 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-25 03:47 UTC</span>
+    <span class="issues-meta-item">7 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-25 06:33 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
 </div>
@@ -118,7 +118,7 @@ Suggested regression cases:
 
 ---
 
-## 💬 Comments (6)
+## 💬 Comments (7)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -175,6 +175,15 @@ Suggested regression cases:
   </div>
   <div class="issues-comment-body issues-content">
     <p>@Ryanchen911 https://github.com/gonka-ai/gonka/pull/2333 - please, review</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-11-25 06:33 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@Ryanchen911 I've built a new version ghcr.io/gonka-ai/devshard-gateway:mainnet-v0.2.16-v6.0.2. Please, verify this one.</p>
   </div>
 </div>
 

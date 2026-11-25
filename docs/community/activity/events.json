@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt_20261125234811_1a989fd0",
+    "timestamp": "2026-11-25T23:48:11.384783+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2299 — v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain",
+      "url": "/community/issues/02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an/",
+      "file": "02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div"
+    },
+    "ai_description": "Issue #2299 has been closed after being resolved. The bug causing \"PEX request too soon\" disconnects that isolated validators and halted the chain in v0.2.18 is now fixed, so the network should stay stable under those conditions. Thanks to everyone who helped investigate and push this through."
+  },
+  {
+    "id": "evt_20261125234811_eab29b0c",
+    "timestamp": "2026-11-25T23:48:11.384832+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2320 — [BUG] v6 gateway: liquidity-starved temp escrows satisfy bridge count and prevent automatic refill",
+      "url": "/community/issues/02320-bug-v6-gateway-liquidity-starved-temp-escrows-satisfy-bridge/",
+      "file": "02320-bug-v6-gateway-liquidity-starved-temp-escrows-satisfy-bridge.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] v6 gateway: liquidity-starved temp escrows satisfy bridge count and prevent automatic refill\n    <span class=\"issues-number\">#2320</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-11-24 11:37 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] v6 gateway: liquidity-starved temp escrows satisfy bridge count and prevent automatic refill\n    <span class=\"issues-number\">#2320</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-11-24 11:37 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la"
+    },
+    "ai_description": "Issue #2320 on the v6 gateway now has a seventh comment, adding to the ongoing discussion about how liquidity-starved temp escrows can mistakenly satisfy the bridge count and block automatic refills. This is a critical bug to track as it directly impacts network efficiency and fund management, so community input is valuable. Check the thread for the latest insights from the contributors."
+  },
+  {
+    "id": "evt_20261125234811_54903885",
+    "timestamp": "2026-11-25T23:48:11.384853+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2323 — PoC validation: four large DeepSeek hosts have cast no votes since moving to MLNode 4.0.0 pre-release images",
+      "url": "/community/issues/02323-poc-validation-four-large-deepseek-hosts-have-cast-no-votes-/",
+      "file": "02323-poc-validation-four-large-deepseek-hosts-have-cast-no-votes-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC validation: four large DeepSeek hosts have cast no votes since moving to MLNode 4.0.0 pre-release images\n    <span class=\"issues-number\">#2323</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-24 20:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC validation: four large DeepSeek hosts have cast no votes since moving to MLNode 4.0.0 pre-release images\n    <span class=\"issues-number\">#2323</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-24 20:16 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
+    },
+    "ai_description": "Issue #2323 on PoC validation has been updated with two new comments. The discussion around four large DeepSeek hosts that stopped voting after switching to MLNode 4.0.0 pre-release images is gaining traction, so check the thread if you are tracking this deployment issue."
+  },
+  {
     "id": "evt_20261125042502_09e270f2",
     "timestamp": "2026-11-25T04:25:02.583085+00:00",
     "section": "issues",
@@ -8178,53 +8226,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)\n    <span class=\"issues-number\">#1370</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-28 07:37 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></"
     },
     "ai_description": "New issue #1370 documents a bridge failure scenario where inbound USDT gets stuck in BRIDGE_PENDING after a coordinated halt on a 4-validator testnet. The report, opened by @maria-mitina, highlights a potential resilience gap in the bridge's recovery logic under multi-node disruptions. Worth a look for anyone testing bridge reliability."
-  },
-  {
-    "id": "evt_20261022192049_9d3823a9",
-    "timestamp": "2026-10-22T19:20:49.449203+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1371 — Request for DevShards creator allowlist access",
-      "url": "/community/issues/01371-request-for-devshards-creator-allowlist-access/",
-      "file": "01371-request-for-devshards-creator-allowlist-access.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Request for DevShards creator allowlist access\n    <span class=\"issues-number\">#1371</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/GERAunits\">@GERAunits</a> opened 2026-06-28 11:40 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
-    },
-    "ai_description": "A new issue has been opened by @GERAunits requesting allowlist access for the DevShards creator program. The request has already been closed, so check the comments for the team's decision on this onboarding path. This matters for creators looking to understand how to get approved for DevShards access. The issue is now closed, meaning the request has been resolved or denied."
-  },
-  {
-    "id": "evt_20261022192049_9a748b45",
-    "timestamp": "2026-10-22T19:20:49.449215+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1385 — Gateway allowlist request - dev server personal gateway",
-      "url": "/community/issues/01385-gateway-allowlist-request-dev-server-personal-gateway/",
-      "file": "01385-gateway-allowlist-request-dev-server-personal-gateway.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request - dev server personal gateway\n    <span class=\"issues-number\">#1385</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/scodeit\">@scodeit</a> opened 2026-07-01 16:41 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin"
-    },
-    "ai_description": "Issue #1385 has been closed after a gateway allowlist request from @scodeit for a personal dev server gateway. The request was approved, meaning the community can now route inference through this additional gateway for development purposes. Thanks to everyone who weighed in on the discussion.Issue #1385 requesting a gateway allowlist for a personal dev server has been closed after review. This approval expands the network's available gateways for development and testing, giving the community more flexibility in how they route inference tasks."
-  },
-  {
-    "id": "evt_20261022192049_3bf690a1",
-    "timestamp": "2026-10-22T19:20:49.449227+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1387 — Gateway in-flight long chat during validator halt: client success vs request outcome failed",
-      "url": "/community/issues/01387-gateway-in-flight-long-chat-during-validator-halt-client-suc/",
-      "file": "01387-gateway-in-flight-long-chat-during-validator-halt-client-suc.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway in-flight long chat during validator halt: client success vs request outcome failed\n    <span class=\"issues-number\">#1387</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-07-02 15:00 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\""
-    },
-    "ai_description": "New issue #1387 opened by @maria-mitina highlights a tricky edge case: when a validator halts mid-request, long chat sessions can return success to the client while the actual request outcome is marked failed. This discrepancy matters for reliability, so please weigh in with your observations or suggested fixes. Let’s make sure our gateway handles these interruptions transparently."
   }
 ]

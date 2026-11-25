@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-25T04:25:18.825293+00:00",
+  "snapshot_time": "2026-11-25T23:50:30.883801+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4857,7 +4857,7 @@
     "02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an.md": {
       "title": "#2299 — v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div",
       "comment_checksum": "0b3162e05652cf8174375926330fea0762a3acdf49a4fbb186707ee4dc979ff0",
       "comment_bodies": [
         "@d-bogdan-engenious fyi",
@@ -4865,7 +4865,7 @@
         "Update (10:08 UTC): the PEX churn has escalated to a chain halt on gonka-testnet-4. The chain stopped at height 155452 (last block 10:03:44 UTC), 7 blocks after the epoch 432 set_new_validators (155445). This was the second PoC after the v0.2.18 upgrade. Node Height Peers Voting power (epoch 432) 18214 155449 (behind) 0 3826 18223 155452 0 3694 18221 155452 1 3317 18226 155452 1 3442 52095 155452 ",
         "This looks like a CometBFT regression rather than a config change. CometBFT fixed this error in v0.38.16 (cometbft#4644, backported as #4649): ensurePeers asks a random peer for addresses only when it runs on the timer. v0.2.17 has that fix (v0.38.21). upgrade-v0.2.18-sdk (3a9d741, the commit testnet-4 runs) pins github.com/cometbft/cometbft v0.40.0, and neither 0.39.x nor 0.40.0 carries it. The C"
       ],
-      "checksum": "424edb70aef8445902dfeb63e27562273adc2450c4cda4b62701c1c83addbd46"
+      "checksum": "9a40774c155f4cfbe3d9d56c4dde2859047d84a7a0659c9db0f87f7c02bd78e7"
     },
     "02300-gas-simulation-misses-24k-gas-on-paid-msgvote-gas-adjustment.md": {
       "title": "#2300 — Gas simulation misses ~24k gas on paid MsgVote; --gas-adjustment 1.5 votes fail on v0.2.18",
@@ -4888,25 +4888,30 @@
     "02320-bug-v6-gateway-liquidity-starved-temp-escrows-satisfy-bridge.md": {
       "title": "#2320 — [BUG] v6 gateway: liquidity-starved temp escrows satisfy bridge count and prevent automatic refill",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] v6 gateway: liquidity-starved temp escrows satisfy bridge count and prevent automatic refill\n    <span class=\"issues-number\">#2320</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-11-24 11:37 UTC</span>\n    <span class=\"issues-meta-item\">6 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la",
-      "comment_checksum": "4d357b341fe632d4b5ec69f14e66663670738a33fba27e574b5b4f0c6b49c625",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG] v6 gateway: liquidity-starved temp escrows satisfy bridge count and prevent automatic refill\n    <span class=\"issues-number\">#2320</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-11-24 11:37 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-la",
+      "comment_checksum": "484928c3233ae44f51404c326c799280cc5df2102b026801734869d6236ee28c",
       "comment_bodies": [
         "Submitted a fix in #2321 against devshard/gateway/v6.0.0. It refills the current bridge's liquidity even when active temp count is already satisfied, while keeping existing temps and their in-flight work. Refill uses the existing funding shortfalls, create rate limit and budget checks, and accounts for returning funds and pending/unread escrows. The new integrated regression reproduces the insuffi",
         "ghcr.io/gonka-ai/devshard-gateway:mainnet-v0.2.16-v6.0.1-latest Could you please check this one? RC6 is already outdated. The issue is valid, but it can be fixed by amount value.",
         "Hi thanks for answer, about the amount value and the temp_count of escrows, do you have any recommendations about this?",
         "Target count 8, reserve count 1, temp count 4 and 2.5 GNK usually works good",
         "got it thanks a lot!",
-        "@Ryanchen911 https://github.com/gonka-ai/gonka/pull/2333 - please, review"
+        "@Ryanchen911 https://github.com/gonka-ai/gonka/pull/2333 - please, review",
+        "@Ryanchen911 I've built a new version ghcr.io/gonka-ai/devshard-gateway:mainnet-v0.2.16-v6.0.2. Please, verify this one."
       ],
-      "checksum": "4ba6d1b1811d1ef0cc805cf4c86c54a500ebc643e5c6a8fc77081fb7bf3056ef"
+      "checksum": "135dd19ad7bdf7feb7442b71fe5c02fb3e400151ed0102cb795d3305570e2b43"
     },
     "02323-poc-validation-four-large-deepseek-hosts-have-cast-no-votes-.md": {
       "title": "#2323 — PoC validation: four large DeepSeek hosts have cast no votes since moving to MLNode 4.0.0 pre-release images",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC validation: four large DeepSeek hosts have cast no votes since moving to MLNode 4.0.0 pre-release images\n    <span class=\"issues-number\">#2323</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-24 20:16 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "257c7e80919568cb8fcf6a9f4a09efd85244e05f7c7679774f3ebf26ce5b5301"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    PoC validation: four large DeepSeek hosts have cast no votes since moving to MLNode 4.0.0 pre-release images\n    <span class=\"issues-number\">#2323</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-24 20:16 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss",
+      "comment_checksum": "8dee3e497e9454e6b7e98e414220dcf99b82e92a34546b7aa75c57556b9a0940",
+      "comment_bodies": [
+        "Update: corrections and new data. 1. My weights were wrong. I used the epoch subgroups' voting_power. The chain decides with the stage snapshot (poc_validation_snapshot, threshold against its total_network_weight). By the snapshot: PoC silent share of DeepSeek power worst pass, any model 465 18.5% 95.1% 466 25.3% 74.7% 467 23.8% 72.9% 468 16.6% (…yfezmhjk, …j4vh7v62 have 0 power) 67.6% (MiniMax) T",
+        "Thanks for the detailed report. We checked epoch 469 (stage 7229734): 11 of 15 DeepSeek hosts voted, and the same four did not. node1–3.gonka.ai run 4.0.0-sigma3 and voted on all 15 commits, so we don't see this on that image. We can confirm two gaps in the code: a validation job that throws on the ML node sends no callback, and DAPI does not re-dispatch a job that was accepted but never answered.",
+        "Thanks for checking. 11 of 15 with the same four silent matches what I see in the stage snapshots. Through the community I found the operator behind these hosts (it looks like one person) and reached him directly. He is looking into it and promised to send ML node logs from a validation window. I'll post them here when I get them. I'm starting a PR for the DAPI side: after a timeout, re-dispatch a"
+      ],
+      "checksum": "90f8684fece74f9d2cac9c2eae6b0a702ada14a4691db74741619409e263d00e"
     }
   }
 }
