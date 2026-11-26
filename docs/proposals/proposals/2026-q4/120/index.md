@@ -8,7 +8,7 @@ template: proposals-proposals-main.html
 
 <div class="prop-detail-header" markdown="1">
 
-<div class="prop-badge-row"><span class="prop-badge prop-voting">Voting</span><span class="prop-vote-countdown prop-vote-countdown-detail" data-deadline="2026-11-26T14:01:24.806179168Z"></span></div>
+<span class="prop-badge prop-rejected">Rejected</span>
 
 **Proposal ID:** `120`
 
@@ -22,7 +22,9 @@ template: proposals-proposals-main.html
 
 **Metadata:** [https://github.com/quorint/gonka-security-proposal/blob/dec028b64bd5ec09db2b2a26b858610b1ffd0dfb/README.md](https://github.com/quorint/gonka-security-proposal/blob/dec028b64bd5ec09db2b2a26b858610b1ffd0dfb/README.md)
 
-<div class="prop-funding-line prop-funding-line-voting">1,600,000 GNK · Community Pool</div>
+**Failed reason:** proposal did not get enough votes to pass
+
+<div class="prop-funding-line prop-funding-line-rejected">1,600,000 GNK · Community Pool</div>
 
 
 [View on gonka.gg](https://gonka.gg/network/proposals/120){:target="_blank"}

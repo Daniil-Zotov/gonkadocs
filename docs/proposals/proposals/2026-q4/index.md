@@ -36,7 +36,7 @@ hide:
 <div class="qs-stats">
 <div class="qs-stat total"><span class="qs-num">11</span><span class="qs-desc">Total Proposals</span></div>
 <div class="qs-stat passed"><span class="qs-num">9</span><span class="qs-desc">Passed (82%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">1</span><span class="qs-desc">Rejected (9%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">2</span><span class="qs-desc">Rejected (18%)</span></div>
 
 </div>
 
@@ -55,19 +55,16 @@ hide:
 <div class="prop-quarter">
 <h2>2026-Q4</h2>
 <p>11 proposals</p>
-<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-26T14:01:24.806179168Z">
+<div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="120/" class="prop-card-title">#120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)</a>
-    <span class="prop-vote-countdown" data-deadline="2026-11-26T14:01:24.806179168Z"></span>
-    <span class="prop-badge prop-voting">Voting</span>
+    <span class="prop-badge prop-rejected">Rejected</span>
   </div>
   <div class="prop-card-meta">
     <span>Submitted 2026-11-24</span>
     <span>Voting ends 2026-11-26</span>
   </div>
   <div class="prop-card-desc">Funds a 24-week security engagement with Quorint (<a href="https://quorint.xyz" target="_blank">https://quorint.xyz</a>): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (673,310)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">1,600,000 GNK · Community Pool</span></div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>36.2%</strong> (673,310 / 1,858,277) · Quorum <strong>25%</strong> (464,569)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
