@@ -1606,5 +1606,29 @@
     "tags": [
       "rejected"
     ]
+  },
+  {
+    "date": "2026-11-28",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK",
+    "url": "/proposals/proposals/2026-q4/122/",
+    "time": "17:39 UTC",
+    "description": "Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, te…",
+    "tags": [
+      "voting"
+    ]
+  },
+  {
+    "date": "2026-11-28",
+    "category": "governance",
+    "type": "proposal_vote_end",
+    "title": "Voting ends: #121 – Ancapex: Decision Models for Modest Hardware",
+    "url": "/proposals/proposals/2026-q4/121/",
+    "time": "17:38 UTC",
+    "description": "Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request an…",
+    "tags": [
+      "voting"
+    ]
   }
 ]

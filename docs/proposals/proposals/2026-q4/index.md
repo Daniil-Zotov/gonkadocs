@@ -34,17 +34,17 @@ hide:
 ## 2026-Q4 Summary
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">11</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">9</span><span class="qs-desc">Passed (82%)</span></div>
-<div class="qs-stat rejected"><span class="qs-num">2</span><span class="qs-desc">Rejected (18%)</span></div>
+<div class="qs-stat total"><span class="qs-num">13</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">9</span><span class="qs-desc">Passed (69%)</span></div>
+<div class="qs-stat rejected"><span class="qs-num">2</span><span class="qs-desc">Rejected (15%)</span></div>
 
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:64%"></span></span><span class="qs-value">7</span></div>
-<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:18%"></span></span><span class="qs-value">2</span></div>
-<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:9%"></span></span><span class="qs-value">1</span></div>
-<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:9%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:69%"></span></span><span class="qs-value">9</span></div>
+<div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:15%"></span></span><span class="qs-value">2</span></div>
+<div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:8%"></span></span><span class="qs-value">1</span></div>
+<div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:8%"></span></span><span class="qs-value">1</span></div>
 </div>
 
 <div class="qs-funding-line">+$1,750,000 · Community Sale (inflow) · 85,000 GNK · $10,000 · Community Pool · $1,638,925 · Community Sale · 217,896 GNK · Gov Module</div>
@@ -54,7 +54,35 @@ hide:
 
 <div class="prop-quarter">
 <h2>2026-Q4</h2>
-<p>11 proposals</p>
+<p>13 proposals</p>
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-28T17:39:10.476229810Z">
+  <div class="prop-card-header">
+    <a href="122/" class="prop-card-title">#122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK</a>
+    <span class="prop-vote-countdown" data-deadline="2026-11-28T17:39:10.476229810Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-11-26</span>
+    <span>Voting ends 2026-11-28</span>
+  </div>
+  <div class="prop-card-desc">Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, te…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">200,000 GNK · Community Pool · $50,000 · Community Sale</span></div>
+</div>
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-28T17:38:37.076052013Z">
+  <div class="prop-card-header">
+    <a href="121/" class="prop-card-title">#121 – Ancapex: Decision Models for Modest Hardware</a>
+    <span class="prop-vote-countdown" data-deadline="2026-11-28T17:38:37.076052013Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-11-26</span>
+    <span>Voting ends 2026-11-28</span>
+  </div>
+  <div class="prop-card-desc">Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request an…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">150,000 GNK · Community Pool · $40,000 · Community Sale</span></div>
+</div>
+
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
     <a href="120/" class="prop-card-title">#120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)</a>

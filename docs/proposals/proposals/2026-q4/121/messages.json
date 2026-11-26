@@ -1,0 +1,26 @@
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "150000000000000"
+      }
+    ]
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_cw20": {
+        "contract_addr": "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk",
+        "amount": "40000000000",
+        "recipient": "gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09"
+      }
+    },
+    "funds": []
+  }
+]

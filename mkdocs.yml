@@ -76,6 +76,8 @@ nav:
       - On-Chain Governance: proposals/proposals/index.md
       - 2026-Q4:
         - Overview: proposals/proposals/2026-q4/index.md
+        - "#122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK": proposals/proposals/2026-q4/122/index.md
+        - "#121 – Ancapex: Decision Models for Modest Hardware": proposals/proposals/2026-q4/121/index.md
         - "#120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)": proposals/proposals/2026-q4/120/index.md
         - "#119 – Community Support for the Gonka Foundation": proposals/proposals/2026-q4/119/index.md
         - "#118 – Dev Team Funding": proposals/proposals/2026-q4/118/index.md

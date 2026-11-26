@@ -34,18 +34,18 @@ hide:
 ## Overview
 
 <div class="qs-stats">
-<div class="qs-stat total"><span class="qs-num">119</span><span class="qs-desc">Total Proposals</span></div>
-<div class="qs-stat passed"><span class="qs-num">81</span><span class="qs-desc">Passed (68%)</span></div>
+<div class="qs-stat total"><span class="qs-num">121</span><span class="qs-desc">Total Proposals</span></div>
+<div class="qs-stat passed"><span class="qs-num">81</span><span class="qs-desc">Passed (67%)</span></div>
 <div class="qs-stat rejected"><span class="qs-num">37</span><span class="qs-desc">Rejected (31%)</span></div>
 <div class="qs-stat failed"><span class="qs-num">1</span><span class="qs-desc">Failed (1%)</span></div>
 </div>
 
 <div class="qs-categories">
-<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:43%"></span></span><span class="qs-value">51</span></div>
+<div class="qs-row"><span class="qs-label">Funding / Grants</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:44%"></span></span><span class="qs-value">53</span></div>
 <div class="qs-row"><span class="qs-label">Governance Parameters</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:31%"></span></span><span class="qs-value">37</span></div>
 <div class="qs-row"><span class="qs-label">Software Upgrade</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:17%"></span></span><span class="qs-value">20</span></div>
 <div class="qs-row"><span class="qs-label">Other</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:5%"></span></span><span class="qs-value">6</span></div>
-<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:3%"></span></span><span class="qs-value">3</span></div>
+<div class="qs-row"><span class="qs-label">GRC / Restitution</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">3</span></div>
 <div class="qs-row"><span class="qs-label">Models / IBC</span><span class="qs-bar-wrap"><span class="qs-bar" style="width:2%"></span></span><span class="qs-value">2</span></div>
 </div>
 
@@ -58,7 +58,35 @@ hide:
 <div class="prop-quarter" id="2026-q4" markdown="1">
 ## 2026-Q4
 
-*11 proposals*
+*13 proposals*
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-28T17:39:10.476229810Z">
+  <div class="prop-card-header">
+    <a href="2026-q4/122/" class="prop-card-title">#122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK</a>
+    <span class="prop-vote-countdown" data-deadline="2026-11-28T17:39:10.476229810Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-11-26</span>
+    <span>Voting ends 2026-11-28</span>
+  </div>
+  <div class="prop-card-desc">Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, te…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">200,000 GNK · Community Pool · $50,000 · Community Sale</span></div>
+</div>
+
+<div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-28T17:38:37.076052013Z">
+  <div class="prop-card-header">
+    <a href="2026-q4/121/" class="prop-card-title">#121 – Ancapex: Decision Models for Modest Hardware</a>
+    <span class="prop-vote-countdown" data-deadline="2026-11-28T17:38:37.076052013Z"></span>
+    <span class="prop-badge prop-voting">Voting</span>
+  </div>
+  <div class="prop-card-meta">
+    <span>Submitted 2026-11-26</span>
+    <span>Voting ends 2026-11-28</span>
+  </div>
+  <div class="prop-card-desc">Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request an…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">150,000 GNK · Community Pool · $40,000 · Community Sale</span></div>
+</div>
 
 <div class="prop-card" data-status="prop-rejected">
   <div class="prop-card-header">
@@ -1689,7 +1717,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>119 proposals across 6 quarters. Last updated: 2026-11-26 17:01 UTC</em>
+<em>121 proposals across 6 quarters. Last updated: 2026-11-26 23:04 UTC</em>
 </div>
 
 <script>
