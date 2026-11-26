@@ -31761,8 +31761,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-26
   
   Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …
-  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (746,338) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
-  ✓ Turnout 42.0% (746,338 / 1,775,715) · Quorum 25% (443,928)
+  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (673,310) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
+  ✓ Turnout 36.2% (673,310 / 1,858,277) · Quorum 25% (464,569)
 
   
     #119 – Community Support for the Gonka Foundation
@@ -33133,7 +33133,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-119 proposals across 6 quarters. Last updated: 2026-11-26 07:22 UTC
+119 proposals across 6 quarters. Last updated: 2026-11-26 12:02 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82455,8 +82455,8 @@ Software Upgrade1
     Voting ends 2026-11-26
   
   Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …
-  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (746,338) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
-  ✓ Turnout 42.0% (746,338 / 1,775,715) · Quorum 25% (443,928)
+  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (673,310) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
+  ✓ Turnout 36.2% (673,310 / 1,858,277) · Quorum 25% (464,569)
 
   
     #119 – Community Support for the Gonka Foundation
@@ -84968,10 +84968,10 @@ Funds a 24-week security engagement with Quorint (): an independent security rev
   
     Yes 0.0% (0)
     No 0.0% (0)
-    Veto 100.0% (746,338)
+    Veto 100.0% (673,310)
     Abstain 0.0% (0)
-    Total 746,338 votes
-    ✓ Turnout 42.0% (746,338 / 1,775,715) · Quorum 25% (443,928)
+    Total 673,310 votes
+    ✓ Turnout 36.2% (673,310 / 1,858,277) · Quorum 25% (464,569)
   
 
 Voters
