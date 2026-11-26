@@ -2,7 +2,7 @@
 title: "#2281 — [Devshard] cPoC skip protocol (devshard) — proposal"
 source: https://github.com/gonka-ai/gonka/issues/2281
 issue_number: 2281
-synced_at: 2026-11-26T08:36:07Z
+synced_at: 2026-11-26T19:08:09Z
 template: issues-main.html
 ---
 

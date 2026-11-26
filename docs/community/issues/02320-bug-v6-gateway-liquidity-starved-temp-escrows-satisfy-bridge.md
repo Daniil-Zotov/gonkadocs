@@ -2,7 +2,7 @@
 title: "#2320 — [BUG] v6 gateway: liquidity-starved temp escrows satisfy bridge count and prevent automatic refill"
 source: https://github.com/gonka-ai/gonka/issues/2320
 issue_number: 2320
-synced_at: 2026-11-26T08:36:02Z
+synced_at: 2026-11-26T19:08:04Z
 template: issues-main.html
 ---
 
