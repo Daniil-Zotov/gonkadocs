@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt_20261126015439_f616ea7d",
+    "timestamp": "2026-11-26T01:54:39.829324+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 1 events — Voting ends: #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)",
+          "date": "2026-11-26",
+          "time": "14:01 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q4/120/"
+        }
+      ],
+      "count": 1
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261125234811_1a989fd0",
     "timestamp": "2026-11-25T23:48:11.384783+00:00",
     "section": "issues",
@@ -8210,21 +8234,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING\n    <span class=\"issues-number\">#1358</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-22 17:39 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>"
     },
     "ai_description": "A new issue has been opened by @maria-mitina reporting that inbound bridge votes are lost during node upgrades, leaving deposits stuck in BRIDGE_PENDING with no retry mechanism. This highlights a critical reliability gap in the bridge's upgrade handling that the community should monitor closely. The issue is already closed, suggesting a fix may be in progress or the team is prioritizing it."
-  },
-  {
-    "id": "evt_20261022192049_b23bb89c",
-    "timestamp": "2026-10-22T19:20:49.449190+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1370 — Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)",
-      "url": "/community/issues/01370-bridge-scenario-a-inbound-usdt-stuck-bridge-pending-after-co/",
-      "file": "01370-bridge-scenario-a-inbound-usdt-stuck-bridge-pending-after-co.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Bridge Scenario A: inbound USDT stuck BRIDGE_PENDING after coordinated node halt (4-validator testnet)\n    <span class=\"issues-number\">#1370</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-28 07:37 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></"
-    },
-    "ai_description": "New issue #1370 documents a bridge failure scenario where inbound USDT gets stuck in BRIDGE_PENDING after a coordinated halt on a 4-validator testnet. The report, opened by @maria-mitina, highlights a potential resilience gap in the bridge's recovery logic under multi-node disruptions. Worth a look for anyone testing bridge reliability."
   }
 ]
