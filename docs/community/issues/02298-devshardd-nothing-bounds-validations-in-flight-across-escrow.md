@@ -2,7 +2,7 @@
 title: "#2298 — devshardd: nothing bounds validations in flight across escrows, so a PoC start makes hundreds of them parse replays at once"
 source: https://github.com/gonka-ai/gonka/issues/2298
 issue_number: 2298
-synced_at: 2026-11-25T23:41:39Z
+synced_at: 2026-11-26T08:36:04Z
 template: issues-main.html
 ---
 

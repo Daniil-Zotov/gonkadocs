@@ -2,7 +2,7 @@
 title: "#2299 — v0.2.18: "PEX request too soon" disconnects isolate validators and halt the chain"
 source: https://github.com/gonka-ai/gonka/issues/2299
 issue_number: 2299
-synced_at: 2026-11-25T23:41:35Z
+synced_at: 2026-11-26T08:36:00Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>
-    <span class="issues-meta-item">4 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-25 11:39 UTC</span>
+    <span class="issues-meta-item">5 comments</span>
+    <span class="issues-meta-item">Updated 2026-11-26 01:01 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
 </div>
@@ -85,7 +85,7 @@ The v0.2.18 node (SDK 0.55 / CometBFT 0.39) sends PEX address requests faster th
 
 ---
 
-## 💬 Comments (4)
+## 💬 Comments (5)
 
 <div class="issues-comment">
   <div class="issues-comment-header">
@@ -216,6 +216,31 @@ if peer != nil {
 <p>Options:
 1. Pin a patched CometBFT the way cosmos-sdk is pinned: <code>replace github.com/cometbft/cometbft =&gt; github.com/gonka-ai/cometbft v0.40.0-gonka.1</code>, with the one-line change <code>if peer != nil &amp;&amp; ensurePeersPeriodElapsed {</code>.
 2. For testnet-4, from the code (not tried): <code>persistent_peers</code> makes the nodes redial, but while the same validators are also in <code>p2p.seeds</code>, their PEX responses keep firing the untimed request. Listing them only in <code>persistent_peers</code> removes that trigger.</p>
+  </div>
+</div>
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/orvionx">@orvionx</a></span>
+    <span class="issues-meta-item">commented 2026-11-26 01:01 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>Thanks for closing this out. A few follow-ups so the fix is traceable before mainnet:</p>
+<ol>
+<li>Which fix landed: the CometBFT guard patch (replace directive) suggested by
+   @gafrustam, the persistent_peers / p2p.seeds config change, or something else?
+   Could you link the PR or commit?</li>
+<li>Which CometBFT version will mainnet v0.2.18 ship with? The analysis above noted that
+   <code>upgrade-v0.2.18</code> pins v0.38.21 while the testnet-4 commit pins v0.40.0.</li>
+<li>Was the halt at height 155452 confirmed to come from this PEX loop, or is that
+   still the working theory?</li>
+<li>Do mainnet nodes deployed via <code>deploy/join</code> rely on a single seed? If so, the
+   same isolation pattern could happen there.</li>
+</ol>
+<p>Happy to help prevent a regression: I can add a testermint/local-test-net scenario
+that upgrades a multi-validator network from v0.2.17 to v0.2.18, checks for
+"PEX request too soon" disconnects, and checks that the chain keeps producing
+blocks through an epoch validator switch. Let me know if that's welcome and
+I'll open a PR.</p>
   </div>
 </div>
 

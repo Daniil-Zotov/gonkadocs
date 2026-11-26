@@ -2,7 +2,7 @@
 title: "#714 — Bug Report: New Nodes Fail to Sign Transactions (Keyring Backend Mismatch)"
 source: https://github.com/gonka-ai/gonka/issues/714
 issue_number: 714
-synced_at: 2026-11-25T23:46:41Z
+synced_at: 2026-11-26T08:40:29Z
 template: issues-main.html
 ---
 

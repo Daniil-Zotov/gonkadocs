@@ -1,5 +1,37 @@
 [
   {
+    "id": "evt_20261126084150_84ec3a69",
+    "timestamp": "2026-11-26T08:41:50.753213+00:00",
+    "section": "issues",
+    "action": "new",
+    "item": {
+      "title": "#2341 — Downtime test runs before an epoch's devshard escrows can be settled: in epochs 455–468 it saw 11% of requests, and 5 of its 12 penalties hit hosts below the threshold",
+      "url": "/community/issues/02341-downtime-test-runs-before-an-epochs-devshard-escrows-can-be-/",
+      "file": "02341-downtime-test-runs-before-an-epochs-devshard-escrows-can-be-.md"
+    },
+    "details": {
+      "status": null,
+      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Downtime test runs before an epoch's devshard escrows can be settled: in epochs 455–468 it saw 11% of requests, and 5 of its 12 penalties hit hosts below the threshold\n    <span class=\"issues-number\">#2341</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-26 07:10 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span "
+    },
+    "ai_description": "New issue #2341 has been opened by @gafrustam highlighting a reliability concern in the downtime test system. The issue reports that between epochs 455 and 468, the test handled 11% of requests but issued 5 penalties to hosts that were actually below the threshold, suggesting the test may be unfairly punishing valid participants. This matters because it could affect escrow settlement fairness and host reputation, so the community should review the test's accuracy before it impacts future epochs."
+  },
+  {
+    "id": "evt_20261126084150_65a1f754",
+    "timestamp": "2026-11-26T08:41:50.753390+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2299 — v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain",
+      "url": "/community/issues/02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an/",
+      "file": "02299-v0218-pex-request-too-soon-disconnects-isolate-validators-an.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    v0.2.18: \"PEX request too soon\" disconnects isolate validators and halt the chain\n    <span class=\"issues-number\">#2299</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-11-20 09:20 UTC</span>\n    <span class=\"issues-meta-item\">5 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261126015439_f616ea7d",
     "timestamp": "2026-11-26T01:54:39.829324+00:00",
     "section": "calendar",
@@ -8202,37 +8234,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1342</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/appgencore\">@appgencore</a> opened 2026-06-13 07:39 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>"
     },
     "ai_description": "A new issue has been submitted requesting gateway allowlist access, and it has already been closed. This matters because gateway allowlisting helps secure the network by controlling which services can route inference traffic. Community members should check the details to understand the outcome and next steps.A new gateway allowlist request has been submitted and closed, signaling a review decision on network access control. This matters because gateway allowlisting helps secure inference traffic by determining which services can route requests. Community members should review the issue for context on the decision and any next steps."
-  },
-  {
-    "id": "evt_20261022192049_8e3e41c6",
-    "timestamp": "2026-10-22T19:20:49.449165+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1352 — Bridge: auto-refund does not run when BLS signing expires (EXPIRED)",
-      "url": "/community/issues/01352-bridge-auto-refund-does-not-run-when-bls-signing-expires-exp/",
-      "file": "01352-bridge-auto-refund-does-not-run-when-bls-signing-expires-exp.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: auto-refund does not run when BLS signing expires (EXPIRED)\n    <span class=\"issues-number\">#1352</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-19 16:47 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;"
-    },
-    "ai_description": "New issue #1352 flags a bridge bug where auto-refund fails to trigger when BLS signing expires, potentially stranding user funds. This is critical for the community because the bridge is where value moves, and a missed refund path undermines trust in the system. Thanks to @maria-mitina for surfacing this — let's get eyes on it."
-  },
-  {
-    "id": "evt_20261022192049_ad153c9e",
-    "timestamp": "2026-10-22T19:20:49.449178+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1358 — Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING",
-      "url": "/community/issues/01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav/",
-      "file": "01358-inbound-bridge-votes-lost-after-upgrade-simulation-node-unav.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Inbound bridge votes lost after upgrade simulation (node unavailable for some minutes for upgrade) — no retry, deposits stuck BRIDGE_PENDING\n    <span class=\"issues-number\">#1358</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-06-22 17:39 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>"
-    },
-    "ai_description": "A new issue has been opened by @maria-mitina reporting that inbound bridge votes are lost during node upgrades, leaving deposits stuck in BRIDGE_PENDING with no retry mechanism. This highlights a critical reliability gap in the bridge's upgrade handling that the community should monitor closely. The issue is already closed, suggesting a fix may be in progress or the team is prioritizing it."
   }
 ]

@@ -2,7 +2,7 @@
 title: "#2247 — [P0] Basic primitives for training: stage 3"
 source: https://github.com/gonka-ai/gonka/issues/2247
 issue_number: 2247
-synced_at: 2026-11-25T23:41:54Z
+synced_at: 2026-11-26T08:36:16Z
 template: issues-main.html
 ---
 
