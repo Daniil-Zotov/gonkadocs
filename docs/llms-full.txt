@@ -21870,7 +21870,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-11-26 14:39 UTC
+2026-11-26 23:26 UTC
 
 ---
 
@@ -21933,7 +21933,7 @@ curl -s "https://node3.gonka.ai/chain-api/cosmwasm/wasm/v1/contract/gonka15ggwj9
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 8,409,264 GNK
+Current balance: 8,410,264 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -31732,12 +31732,12 @@ HardCore Arena позволит протестировать модель на �
 
 ## Overview
 
-119Total Proposals
-81Passed (68%)
+121Total Proposals
+81Passed (67%)
 37Rejected (31%)
 1Failed (1%)
 
-Funding / Grants51
+Funding / Grants53
 Governance Parameters37
 Software Upgrade20
 Other6
@@ -31749,7 +31749,31 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
 ## 2026-Q4
 
-*11 proposals*
+*13 proposals*
+
+  
+    #122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK
+    
+    Voting
+  
+  
+    Submitted 2026-11-26
+    Voting ends 2026-11-28
+  
+  Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, te…
+  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)200,000 GNK · Community Pool · $50,000 · Community Sale
+
+  
+    #121 – Ancapex: Decision Models for Modest Hardware
+    
+    Voting
+  
+  
+    Submitted 2026-11-26
+    Voting ends 2026-11-28
+  
+  Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request an…
+  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)150,000 GNK · Community Pool · $40,000 · Community Sale
 
   
     #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
@@ -33130,7 +33154,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-119 proposals across 6 quarters. Last updated: 2026-11-26 17:01 UTC
+121 proposals across 6 quarters. Last updated: 2026-11-26 23:04 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82428,11 +82452,11 @@ Contract Details
 
 ## 2026-Q4 Summary
 
-11Total Proposals
-9Passed (82%)
-2Rejected (18%)
+13Total Proposals
+9Passed (69%)
+2Rejected (15%)
 
-Funding / Grants7
+Funding / Grants9
 Other2
 Governance Parameters1
 Software Upgrade1
@@ -82440,7 +82464,31 @@ Software Upgrade1
 +$1,750,000 · Community Sale (inflow) · 85,000 GNK · $10,000 · Community Pool · $1,638,925 · Community Sale · 217,896 GNK · Gov Module
 
 2026-Q4
-11 proposals
+13 proposals
+
+  
+    #122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK
+    
+    Voting
+  
+  
+    Submitted 2026-11-26
+    Voting ends 2026-11-28
+  
+  Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, te…
+  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)200,000 GNK · Community Pool · $50,000 · Community Sale
+
+  
+    #121 – Ancapex: Decision Models for Modest Hardware
+    
+    Voting
+  
+  
+    Submitted 2026-11-26
+    Voting ends 2026-11-28
+  
+  Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request an…
+  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)150,000 GNK · Community Pool · $40,000 · Community Sale
 
   
     #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
@@ -85055,6 +85103,154 @@ Contract Details
         "amount": "1600000000000000"
       }
     ]
+  }
+]
+```
+
+---
+
+## #121 – Ancapex: Decision Models for Modest Hardware
+
+# #121 – Ancapex: Decision Models for Modest Hardware
+
+Voting
+
+**Proposal ID:** `121`
+
+**Type:** Community Pool Spend, Execute Contract
+
+**Submit:** 2026-11-26 17:38 UTC
+
+**Voting:** 2026-11-26 17:38 UTC → 2026-11-28 17:38 UTC
+
+**Proposer:** [`gonka12kq9vvlm658wjx8hmsh56w8u4w46mu44de6lmk`](https://gonka.gg/address/gonka12kq9vvlm658wjx8hmsh56w8u4w46mu44de6lmk){:target="_blank"}
+
+**Metadata:** [https://github.com/alancapex/gonka/blob/0f7926833be2de01a7dee092cfbfa75d2f99de75/proposals/decision-models/README.md](https://github.com/alancapex/gonka/blob/0f7926833be2de01a7dee092cfbfa75d2f99de75/proposals/decision-models/README.md)
+
+150,000 GNK · Community Pool · $40,000 · Community Sale
+
+[View on gonka.gg](https://gonka.gg/network/proposals/121){:target="_blank"}
+
+Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request and a testnet launch, and a reference training scheme. A draft is published as a pull request after one month and the final solution after two. The goal is to get this work done quickly without overloading the core team. The fee is 40,000 USDT and 150,000 GNK, paid in a single transfer. No network parameters change with this vote. The full text is in the proposal metadata.
+
+---
+
+Voters
+
+VoterVote
+
+gonka1sk6fh7…7pfvyvNo_With_Veto 100.0%
+gonka1u7s3mp…p80asyNo_With_Veto 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+| 2 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "150000000000000"
+      }
+    ]
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_cw20": {
+        "contract_addr": "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk",
+        "amount": "40000000000",
+        "recipient": "gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09"
+      }
+    },
+    "funds": []
+  }
+]
+```
+
+---
+
+## #122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK
+
+# #122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK
+
+Voting
+
+**Proposal ID:** `122`
+
+**Type:** Community Pool Spend, Execute Contract
+
+**Submit:** 2026-11-26 17:39 UTC
+
+**Voting:** 2026-11-26 17:39 UTC → 2026-11-28 17:39 UTC
+
+**Proposer:** [`gonka12kq9vvlm658wjx8hmsh56w8u4w46mu44de6lmk`](https://gonka.gg/address/gonka12kq9vvlm658wjx8hmsh56w8u4w46mu44de6lmk){:target="_blank"}
+
+**Metadata:** [https://github.com/alancapex/gonka/blob/0c1ec638ba7a79827141b57e11ebaa6f3d635cf0/proposals/depin-tokenomics-mechanism/README.md](https://github.com/alancapex/gonka/blob/0c1ec638ba7a79827141b57e11ebaa6f3d635cf0/proposals/depin-tokenomics-mechanism/README.md)
+
+200,000 GNK · Community Pool · $50,000 · Community Sale
+
+[View on gonka.gg](https://gonka.gg/network/proposals/122){:target="_blank"}
+
+Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, tested protection against fake work, and an open network model with stress tests. A draft is published as a pull request after one month and the final version after two. The goal is to get this work done quickly without overloading the core team. The fee is 50,000 USDT and 200,000 GNK, paid in a single transfer. No network parameters change with this vote. The full text is in the proposal metadata.
+
+---
+
+Voters
+
+VoterVote
+
+gonka1sk6fh7…7pfvyvNo_With_Veto 100.0%
+gonka1u7s3mp…p80asyNo_With_Veto 100.0%
+
+---
+## Messages
+
+| # | Type |
+| :- | :--- |
+| 1 | `/cosmos.distribution.v1beta1.MsgCommunityPoolSpend` |
+| 2 | `/cosmwasm.wasm.v1.MsgExecuteContract` |
+
+Contract Details
+
+```json
+[
+  {
+    "@type": "/cosmos.distribution.v1beta1.MsgCommunityPoolSpend",
+    "authority": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "recipient": "gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09",
+    "amount": [
+      {
+        "denom": "ngonka",
+        "amount": "200000000000000"
+      }
+    ]
+  },
+  {
+    "@type": "/cosmwasm.wasm.v1.MsgExecuteContract",
+    "sender": "gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33",
+    "contract": "gonka18pkq9mwxxlmyq7kr5txhm060wemg2s4u94wvsfd9w2kdc0u99d6spk8pz2",
+    "msg": {
+      "withdraw_cw20": {
+        "contract_addr": "gonka15ggwj9un6qrmu4nj5ev6l7kpdcr00td03ff2mmj4cyhl8u8vjd2qnl3hgk",
+        "amount": "50000000000",
+        "recipient": "gonka10mmdjau4dnj8krs7sh7t7635ttnmq9u3vqgz09"
+      }
+    },
+    "funds": []
   }
 ]
 ```

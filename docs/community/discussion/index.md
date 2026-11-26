@@ -4,7 +4,7 @@ title: "GitHub Discussions"
 
 # GitHub Discussions — `gonka-ai/gonka`
 
-Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **124**. Обновлено: `2026-11-26 15:01 UTC`.
+Срез всех обсуждений из репозитория [gonka-ai/gonka](https://github.com/gonka-ai/gonka/discussions). Всего: **124**. Обновлено: `2026-11-26 23:45 UTC`.
 
 ## 📂 Категории
 
@@ -22,9 +22,9 @@ title: "GitHub Discussions"
 
 | # | Заголовок | Категория | Автор | Обновлено |
 |---:|---|---|---|---|
+| [2307](protocol-improvements/2307-proposal-from-ancapex-alternative-tokenomics.md) | [Proposal from Ancapex: Alternative Tokenomics](protocol-improvements/2307-proposal-from-ancapex-alternative-tokenomics.md) | :gear: Protocol Improvements | [@alancapex](https://github.com/alancapex) | 2026-11-26 |
+| [2308](protocol-improvements/2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | [Proposal from Ancapex: Decision Models for Modest Hardware](protocol-improvements/2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | :gear: Protocol Improvements | [@alancapex](https://github.com/alancapex) | 2026-11-26 |
 | [2322](protocol-improvements/2322-proposal-120-quorint-independent-security-review-for-the-bri.md) | [Proposal #120 (Quorint): Independent Security Review for the Bridge Relaunch, plus Attack Registry, Economic Attack Simulator and Upgrade Audits](protocol-improvements/2322-proposal-120-quorint-independent-security-review-for-the-bri.md) | :gear: Protocol Improvements | [@quorint](https://github.com/quorint) | 2026-11-24 |
-| [2307](protocol-improvements/2307-proposal-from-ancapex-alternative-tokenomics.md) | [Proposal from Ancapex: Alternative Tokenomics](protocol-improvements/2307-proposal-from-ancapex-alternative-tokenomics.md) | :gear: Protocol Improvements | [@alancapex](https://github.com/alancapex) | 2026-11-23 |
-| [2308](protocol-improvements/2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | [Proposal from Ancapex: Decision Models for Modest Hardware](protocol-improvements/2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | :gear: Protocol Improvements | [@alancapex](https://github.com/alancapex) | 2026-11-23 |
 | [2306](ecosystem/2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt.md) | [[Draft for discussion] WGNK bridge hack: three compensation options, per-address register, open data](ecosystem/2306-draft-for-discussion-wgnk-bridge-hack-three-compensation-opt.md) | :jigsaw: Ecosystem | [@Konyakoff](https://github.com/Konyakoff) | 2026-11-23 |
 | [2304](governance-proposal-reports/2304-proposal-74-gonka-labs-monthly-report-no5.md) | [Proposal #74: Gonka Labs - Monthly Report No.5](governance-proposal-reports/2304-proposal-74-gonka-labs-monthly-report-no5.md) | :bookmark_tabs: Governance Proposal Reports | [@gonkalabs](https://github.com/gonkalabs) | 2026-11-21 |
 | [2267](protocol-improvements/2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md) | [[Proposal] Lightweight TypeScript CLI for Automated Ethereum Bridge Epoch Synchronization](protocol-improvements/2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md) | :gear: Protocol Improvements | [@kakavaanen](https://github.com/kakavaanen) | 2026-11-14 |

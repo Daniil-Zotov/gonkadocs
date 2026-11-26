@@ -21,6 +21,8 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 
 - [All Calendar Events](/community/calendar/events/): Every event (AMAs, committee calls, proposal milestones, network updates) — machine-readable page, also indexed by search
 - 2026-11-26 14:01 UTC — Rejected: #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2): https://gonkadocs.com/proposals/proposals/2026-q4/120/
+- 2026-11-28 17:38 UTC — Voting ends: #121 – Ancapex: Decision Models for Modest Hardware: https://gonkadocs.com/proposals/proposals/2026-q4/121/
+- 2026-11-28 17:39 UTC — Voting ends: #122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK: https://gonkadocs.com/proposals/proposals/2026-q4/122/
 
 ## Protocol Documentation
 
@@ -279,6 +281,8 @@ Key facts: Gonka uses Proof of Compute (PoC) consensus where ~100% of compute go
 - [#115 – Activate full range Dynamic Coeff](/proposals/proposals/2026-q4/115/): Auto-synced content
 - [#117 – Bitfury buys another tranche of GNK for 1.75M USDT as part of previously approved 12M USDT smart contract: 1.14M to Community Pool, 0.6M reimbursement of expenditures paid by Bitfury directly to vendors for bug bounty program and security audit](/proposals/proposals/2026-q4/117/): Auto-synced content
 - [#120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)](/proposals/proposals/2026-q4/120/): Auto-synced content
+- [#121 – Ancapex: Decision Models for Modest Hardware](/proposals/proposals/2026-q4/121/): Auto-synced content
+- [#122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK](/proposals/proposals/2026-q4/122/): Auto-synced content
 - [2026-Q3 Proposals](/proposals/proposals/2026-q3/): Auto-synced content
 - [#91 – Temporarily update BLS signing parameters](/proposals/proposals/2026-q3/91/): Auto-synced content
 - [GRC Proposal #3 - Restitution](/proposals/proposals/2026-q3/80/full-proposal/): Auto-synced content
