@@ -21870,7 +21870,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-11-26 04:39 UTC
+2026-11-26 14:39 UTC
 
 ---
 
@@ -21933,7 +21933,7 @@ curl -s "https://node3.gonka.ai/chain-api/cosmwasm/wasm/v1/contract/gonka15ggwj9
 
 **Address:** [`gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33`](https://gonka.gg/address/gonka10d07y265gmmuvt4z0w9aw880jnsr700j2h5m33)
 
-Current balance: 8,370,130 GNK
+Current balance: 8,409,264 GNK
 
 The Gov Module authority is the only address permitted to execute `MsgCommunityPoolSpend` transfers from the Community Pool. When a governance proposal passes, this address signs and sends the requested funds to the specified recipient.
 
@@ -31734,7 +31734,7 @@ HardCore Arena позволит протестировать модель на �
 
 119Total Proposals
 81Passed (68%)
-36Rejected (30%)
+37Rejected (31%)
 1Failed (1%)
 
 Funding / Grants51
@@ -31753,16 +31753,13 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
 
   
     #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-11-24
     Voting ends 2026-11-26
   
   Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …
-  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (673,310) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
-  ✓ Turnout 36.2% (673,310 / 1,858,277) · Quorum 25% (464,569)
 
   
     #119 – Community Support for the Gonka Foundation
@@ -33133,7 +33130,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-119 proposals across 6 quarters. Last updated: 2026-11-26 12:02 UTC
+119 proposals across 6 quarters. Last updated: 2026-11-26 14:41 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82433,7 +82430,7 @@ Contract Details
 
 11Total Proposals
 9Passed (82%)
-1Rejected (9%)
+2Rejected (18%)
 
 Funding / Grants7
 Other2
@@ -82447,16 +82444,13 @@ Software Upgrade1
 
   
     #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
-    
-    Voting
+    Rejected
   
   
     Submitted 2026-11-24
     Voting ends 2026-11-26
   
   Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …
-  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (673,310) · Abstain 0.0% (0)1,600,000 GNK · Community Pool
-  ✓ Turnout 36.2% (673,310 / 1,858,277) · Quorum 25% (464,569)
 
   
     #119 – Community Support for the Gonka Foundation
@@ -84935,7 +84929,7 @@ Contract Details
 
 # #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
 
-Voting
+Rejected
 
 **Proposal ID:** `120`
 
@@ -84948,6 +84942,8 @@ Voting
 **Proposer:** [`gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv`](https://gonka.gg/address/gonka1ggt0d4jqmztnmh86na3m99c9d3q7s6h2dkd2qv){:target="_blank"}
 
 **Metadata:** [https://github.com/quorint/gonka-security-proposal/blob/dec028b64bd5ec09db2b2a26b858610b1ffd0dfb/README.md](https://github.com/quorint/gonka-security-proposal/blob/dec028b64bd5ec09db2b2a26b858610b1ffd0dfb/README.md)
+
+**Failed reason:** proposal did not get enough votes to pass
 
 1,600,000 GNK · Community Pool
 
