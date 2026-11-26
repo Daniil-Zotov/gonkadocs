@@ -3,7 +3,7 @@ title: "#2260 — Proposal #118: Dev Team Funding"
 source: https://github.com/gonka-ai/gonka/discussions/2260
 discussion_number: 2260
 category: general
-synced_at: 2026-11-25T22:25:11Z
+synced_at: 2026-11-26T04:56:09Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2260](https://github.com/gonka-ai/gonka/discussions/2260) every hour. 
