@@ -17,7 +17,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q4/121/"
     },
-    "ai_description": null
+    "ai_description": "Voting for proposal #121, \"Ancapex: Decision Models for Modest Hardware,\" is now closed. This initiative funds two months of work to integrate decision models into Gonka, including validation, tokenomics, and a pull request, bringing lightweight AI capabilities to modest hardware."
   },
   {
     "id": "evt_20261127030937_79f50446",
@@ -37,7 +37,7 @@
       "event_type": "proposal_vote_end",
       "url": "/proposals/proposals/2026-q4/122/"
     },
-    "ai_description": null
+    "ai_description": "Voting for proposal #122, which explores a DePIN-native tokenomics model for GNK, is now open and ends soon. The plan funds two months of work on an alternative mechanism featuring burn-at-settlement and emission tied to network work. Head over to the calendar to make sure your voice is counted before the deadline."
   },
   {
     "id": "evt_20261127022136_839be5e9",
