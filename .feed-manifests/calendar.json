@@ -1,6 +1,6 @@
 {
   "section": "calendar",
-  "snapshot_time": "2026-11-26T20:27:13.080212+00:00",
+  "snapshot_time": "2026-11-27T03:09:37.122885+00:00",
   "files": {
     "1b608f38bcf9c2f73348e483c535a7b3f0d6bda283a50d79dbdc278ec8e7bdbe": {
       "title": "AMA: Работа маркетинг-комитета",
@@ -2764,6 +2764,24 @@
       "url": "/proposals/proposals/2026-q4/120/",
       "content_preview": "Funds a 24-week security engagement with Quorint (https://quorint.xyz): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …",
       "checksum": "4d85cf541b97cebad94bbf6f39303078cf51cdb91992c6ee51463b18f86aef0f"
+    },
+    "94dc774dd43598bbe90034f0410d31e1252e873c2f021c9987a8a9e076da2a6a": {
+      "title": "Voting ends: #122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK",
+      "date": "2026-11-28",
+      "time": "17:39 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/122/",
+      "content_preview": "Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, te…",
+      "checksum": "b697410d8eb25ed342f4ca056deb605c485447f45aa6461f1a39870950533fd2"
+    },
+    "58f0e98f7f3c81c18b7f0f3b1015a18886092cf06d7e0aa565c85d4ed16aeef3": {
+      "title": "Voting ends: #121 – Ancapex: Decision Models for Modest Hardware",
+      "date": "2026-11-28",
+      "time": "17:38 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/121/",
+      "content_preview": "Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request an…",
+      "checksum": "1c3c5c81468fa59cec878d763b707aed2cd40aa065744b63748932f19be72876"
     }
   }
 }

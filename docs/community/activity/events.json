@@ -1,5 +1,45 @@
 [
   {
+    "id": "evt_20261127030937_b97c1e9f",
+    "timestamp": "2026-11-27T03:09:37.093985+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #121 – Ancapex: Decision Models for Modest Hardware",
+      "url": "/proposals/proposals/2026-q4/121/",
+      "file": "58f0e98f7f3c81c18b7f0f3b1015a18886092cf06d7e0aa565c85d4ed16aeef3"
+    },
+    "details": {
+      "status": null,
+      "content": "Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request an…",
+      "date": "2026-11-28",
+      "time": "17:38 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/121/"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261127030937_79f50446",
+    "timestamp": "2026-11-27T03:09:37.094023+00:00",
+    "section": "calendar",
+    "action": "new",
+    "item": {
+      "title": "Voting ends: #122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK",
+      "url": "/proposals/proposals/2026-q4/122/",
+      "file": "94dc774dd43598bbe90034f0410d31e1252e873c2f021c9987a8a9e076da2a6a"
+    },
+    "details": {
+      "status": null,
+      "content": "Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, te…",
+      "date": "2026-11-28",
+      "time": "17:39 UTC",
+      "event_type": "proposal_vote_end",
+      "url": "/proposals/proposals/2026-q4/122/"
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261127022136_839be5e9",
     "timestamp": "2026-11-27T02:21:36.429010+00:00",
     "section": "issues",
@@ -8206,37 +8246,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1321</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/bruev\">@bruev</a> opened 2026-06-08 14:26 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cla"
     },
     "ai_description": "Issue #1321 \"Gateway allowlist request\" was added by @bruev and has already been closed, meaning the request was processed. This matters for the community because it tracks who gets access to the network's gateways, ensuring transparency in the allowlist process. Keep an eye on similar issues to understand access changes."
-  },
-  {
-    "id": "evt_20261022192049_425fcfe0",
-    "timestamp": "2026-10-22T19:20:49.449107+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1322 — Gateway allowlist request",
-      "url": "/community/issues/01322-gateway-allowlist-request/",
-      "file": "01322-gateway-allowlist-request.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1322</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Puyre\">@Puyre</a> opened 2026-06-08 15:13 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cla"
-    },
-    "ai_description": "New issue #1322 from @Puyre requests gateway allowlisting and is now closed. This matters because approved gateways help expand network access and reliability for all inference participants. Check the issue details to see the final resolution. 1 comment was left before closure, so review the thread for context. 1 comment was left before closure, so review the thread for context."
-  },
-  {
-    "id": "evt_20261022192049_7f6cbb50",
-    "timestamp": "2026-10-22T19:20:49.449123+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1331 — How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?",
-      "url": "/community/issues/01331-how-to-obtain-a-broker-api-key-for-node4-or-documentation-on/",
-      "file": "01331-how-to-obtain-a-broker-api-key-for-node4-or-documentation-on.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?\n    <span class=\"issues-number\">#1331</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Puyre\">@Puyre</a> opened 2026-06-10 15:34 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div cl"
-    },
-    "ai_description": "A new issue has been opened asking for clear documentation on how to obtain a broker API key for node4 and the overall broker onboarding process. The issue is now closed, which suggests the question has been addressed or resolved, but community members are encouraged to review it for any lingering gaps in the documentation. This highlights the need for better onboarding guides to help new brokers get started smoothly."
   }
 ]
