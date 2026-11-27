@@ -2,7 +2,7 @@
 title: "#1680 — Kimi-K2.6 non-stream on gateway v4: 502 nonce_finished=false (stream OK)"
 source: https://github.com/gonka-ai/gonka/issues/1680
 issue_number: 1680
-synced_at: 2026-11-26T19:09:32Z
+synced_at: 2026-11-27T02:18:38Z
 template: issues-main.html
 ---
 

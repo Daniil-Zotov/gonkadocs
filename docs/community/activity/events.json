@@ -1,5 +1,21 @@
 [
   {
+    "id": "evt_20261127022136_839be5e9",
+    "timestamp": "2026-11-27T02:21:36.429010+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2085 — [BUG: minor] devshard-gateway healthcheck uses curl, which the image does not contain → container permanently unhealthy",
+      "url": "/community/issues/02085-bug-minor-devshard-gateway-healthcheck-uses-curl-which-the-i/",
+      "file": "02085-bug-minor-devshard-gateway-healthcheck-uses-curl-which-the-i.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    [BUG: minor] devshard-gateway healthcheck uses curl, which the image does not contain → container permanently unhealthy\n    <span class=\"issues-number\">#2085</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-22 11:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG: minor] devshard-gateway healthcheck uses curl, which the image does not contain → container permanently unhealthy\n    <span class=\"issues-number\">#2085</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-22 11:17 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issu"
+    },
+    "ai_description": "Issue #2085 on the devshard-gateway healthcheck bug has been closed. The problem was that the container's healthcheck relied on curl, which isn't included in the image, leaving it permanently unhealthy. With the issue now resolved, the gateway should properly report its status, keeping our network monitoring accurate and reliable."
+  },
+  {
     "id": "evt_20261126202713_8df05582",
     "timestamp": "2026-11-26T20:27:13.049242+00:00",
     "section": "calendar",
@@ -8222,21 +8238,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    How to obtain a broker API key for node4 (or documentation on the broker onboarding process)?\n    <span class=\"issues-number\">#1331</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Puyre\">@Puyre</a> opened 2026-06-10 15:34 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div cl"
     },
     "ai_description": "A new issue has been opened asking for clear documentation on how to obtain a broker API key for node4 and the overall broker onboarding process. The issue is now closed, which suggests the question has been addressed or resolved, but community members are encouraged to review it for any lingering gaps in the documentation. This highlights the need for better onboarding guides to help new brokers get started smoothly."
-  },
-  {
-    "id": "evt_20261022192049_e8f3b9a3",
-    "timestamp": "2026-10-22T19:20:49.449139+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1341 — [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)",
-      "url": "/community/issues/01341-bug-devshard-data-race-on-inflight-receipttime-between-send-/",
-      "file": "01341-bug-devshard-data-race-on-inflight-receipttime-between-send-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    [BUG] devshard: data race on inflight receiptTime between send goroutine and escalation scheduler (go test -race fails on main)\n    <span class=\"issues-number\">#1341</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/redstartechno\">@redstartechno</a> opened 2026-06-12 20:05 UTC</span>\n    <span class=\"issues-meta-item\">3 comments</span>\n    <span "
-    },
-    "ai_description": "Issue #1341 has been closed after reporting a data race in devshard where the send goroutine and escalation scheduler both accessed inflight receiptTime without synchronization, causing go test -race to fail on main. The fix resolves this concurrency bug, which is critical for ensuring reliable test runs and stable shard operations. Thanks to @redstartechno for flagging it and to everyone involved in the discussion."
   }
 ]

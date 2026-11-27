@@ -2,7 +2,7 @@
 title: "#653 — Deep dive into node container"
 source: https://github.com/gonka-ai/gonka/issues/653
 issue_number: 653
-synced_at: 2026-11-26T19:11:13Z
+synced_at: 2026-11-27T02:20:33Z
 template: issues-main.html
 ---
 
