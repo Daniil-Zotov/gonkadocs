@@ -40,16 +40,16 @@ Funds two months of work by the Ancapex Team to bring decision models to Gonka: 
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:29.9%"></div>
+    <div class="prop-tally-veto" style="width:28.9%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (556,416)</span>
+    <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (492,724)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 556,416 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>29.9%</strong> (556,416 / 1,858,277) · Quorum <strong>25%</strong> (464,569)</span>
+    <span class="prop-tally-total-text">Total 492,724 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>28.9%</strong> (492,724 / 1,703,115) · Quorum <strong>25%</strong> (425,778)</span>
   </div>
 </div>
 

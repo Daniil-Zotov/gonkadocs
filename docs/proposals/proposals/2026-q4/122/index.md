@@ -40,16 +40,16 @@ Funds two months of work by the Ancapex Team on the design of an alternative GNK
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:29.9%"></div>
+    <div class="prop-tally-veto" style="width:28.9%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
     <span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (556,416)</span>
+    <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (492,724)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
-    <span class="prop-tally-total-text">Total 556,416 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>29.9%</strong> (556,416 / 1,858,277) · Quorum <strong>25%</strong> (464,569)</span>
+    <span class="prop-tally-total-text">Total 492,724 votes</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>28.9%</strong> (492,724 / 1,703,115) · Quorum <strong>25%</strong> (425,778)</span>
   </div>
 </div>
 
@@ -61,6 +61,7 @@ Funds two months of work by the Ancapex Team on the design of an alternative GNK
 <table class="prop-voters">
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
+<tr><td><a href="https://gonka.gg/address/gonka1sdzydavcpyytpnf7n6y5axa3g3psmqex22y2uv" target="_blank" class="prop-voter-addr">gonka1sdzyda…22y2uv</a></td><td><span class="prop-voter-option prop-vote-abstain">Abstain 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1sk6fh7mm74w6hn5wq0667zca00lt3cpr7pfvyv" target="_blank" class="prop-voter-addr">gonka1sk6fh7…7pfvyv</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1ue6k3pcgdg2g962l2n0g8hpg3r4vf827a4hpgh" target="_blank" class="prop-voter-addr">gonka1ue6k3p…a4hpgh</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1u7s3mpw4654l30vwzlzsxkhfrmscl6p4p80asy" target="_blank" class="prop-voter-addr">gonka1u7s3mp…p80asy</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
