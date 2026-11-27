@@ -12,6 +12,50 @@
   },
   {
     "proposal_id": "121",
+    "voter": "gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst",
+    "options": [
+      {
+        "option": "VOTE_OPTION_NO_WITH_VETO",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "121",
+    "voter": "gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8",
+    "options": [
+      {
+        "option": "VOTE_OPTION_NO_WITH_VETO",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "121",
+    "voter": "gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum",
+    "options": [
+      {
+        "option": "VOTE_OPTION_NO_WITH_VETO",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "121",
+    "voter": "gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk",
+    "options": [
+      {
+        "option": "VOTE_OPTION_NO_WITH_VETO",
+        "weight": "1.000000000000000000"
+      }
+    ],
+    "metadata": ""
+  },
+  {
+    "proposal_id": "121",
     "voter": "gonka1ue6k3pcgdg2g962l2n0g8hpg3r4vf827a4hpgh",
     "options": [
       {
