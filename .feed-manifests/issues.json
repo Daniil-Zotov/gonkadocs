@@ -1,6 +1,6 @@
 {
   "section": "issues",
-  "snapshot_time": "2026-11-27T02:23:11.823271+00:00",
+  "snapshot_time": "2026-11-27T11:12:17.025849+00:00",
   "files": {
     "00310-bug-1-preserved-node-disabling.md": {
       "title": "#310 — BUG-1: Preserved node disabling",
@@ -4373,28 +4373,33 @@
     "02103-devshardctl-primary-unresponsive-hedging-trips-on-a-single-w.md": {
       "title": "#2103 — devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)\n    <span class=\"issues-number\">#2103</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"i",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "55445672cd4358d3d0f26b55ed821cb6ecdc68af90aeeb7cf33b58d5fe18afd0"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)\n    <span class=\"issues-number\">#2103</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:17 UTC</span>\n    <span class=\"issues-meta-item\">1 co",
+      "comment_checksum": "42f9e2036320524119aa60ed0d2007f5fd2f5a0b874999c501bcf8b9fa643b92",
+      "comment_bodies": [
+        "@maria-mitina devshardctl will be removed in v7 and new gateway doesn't support this feature."
+      ],
+      "checksum": "75a61d7ddb9685962ff10b1b260a4f240116004555b92604dabbb01baecc22ea"
     },
     "02104-devshardctl-winner-served-without-finish-records-a-not-finis.md": {
       "title": "#2104 — devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later\n    <span class=\"issues-number\">#2104</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></spa",
-      "comment_checksum": "7f58fd493ae03b064fbf456808af27d86dcb5c42ed62bfb2675acc237b8f7873",
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later\n    <span class=\"issues-number\">#2104</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <sp",
+      "comment_checksum": "4058ce713ba86490ab69bd7dd0b49d3dd7590e0ad08ea661995bfbe2071e531d",
       "comment_bodies": [
-        "@qdanik I also reproduced this behavior in the devnet using version ghcr.io/gonka-ai/devshard-gateway:mainnet-v0.2.16-v6.0.0-rc1 and applied the workaround redundancy.unresponsive_threshold=0.8 suggested in #2103"
+        "@qdanik I also reproduced this behavior in the devnet using version ghcr.io/gonka-ai/devshard-gateway:mainnet-v0.2.16-v6.0.0-rc1 and applied the workaround redundancy.unresponsive_threshold=0.8 suggested in #2103",
+        "@maria-mitina this one is fixed in new gateway."
       ],
-      "checksum": "a7fb2b3edc4d8895a7a20e770851a86242bf2f1a2519752631e4af50e7bb1cad"
+      "checksum": "86c6941509e3b6d725c60bd18377677165eec1d4b525f0f4781f31936f1f67f2"
     },
     "02105-devshardctl-speed-up-hedging-on-a-mixed-latency-escrow-group.md": {
       "title": "#2105 — devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers\n    <span class=\"issues-number\">#2105</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"iss",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "1ace4214c3c2756a7dbba10fb905870a487e5f5c8b3b97486c002b7457ff5fd4"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers\n    <span class=\"issues-number\">#2105</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comm",
+      "comment_checksum": "00d4cf2a4a9a79e2a3f9429d31ae852885a16002d90ff28521009be0e534fb75",
+      "comment_bodies": [
+        "@maria-mitina devsharctl only issue, new gateway lacks this logic entirely. In the new gateway a second attempt is triggered only via \"slow hedging\", when the first host is late in delivering its initial token relative to the entire fleet (specifically, no sooner than 1.5 seconds, and no sooner than the fleet median plus 2.33σ)."
+      ],
+      "checksum": "c457caea6b6f59e627fd79d5284d8068332c0c04c7fddd8245a8944594074d05"
     },
     "02106-preserved-nodes-carry-stale-weight-indefinitely-and-ignore-n.md": {
       "title": "#2106 — Preserved nodes carry stale weight indefinitely and ignore node changes (v0.2.17)",
@@ -4472,10 +4477,12 @@
     "02173-gateway-admin-api-silently-ignores-eof-failure-threshold-upd.md": {
       "title": "#2173 — Gateway admin API silently ignores EOF failure threshold updates",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway admin API silently ignores EOF failure threshold updates\n    <span class=\"issues-number\">#2173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-29 16:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "29cb3bd5357bcbf1cc0ec04c29b405cf63d2d5bc2295b7c137c0141703c4543f"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway admin API silently ignores EOF failure threshold updates\n    <span class=\"issues-number\">#2173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-29 16:14 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma",
+      "comment_checksum": "02777dfac8264dbf695f1fb969c919973abfc61f0949b01e18d138f20850868c",
+      "comment_bodies": [
+        "@ilyar devshardctl (removed in #2339) only issue."
+      ],
+      "checksum": "01b225e7c2471d79ffd4fe6fe8a16fb4f359310e756303372f50af7519e54719"
     },
     "02176-tbd-fee-schedule-defaults-for-the-next-upgrade.md": {
       "title": "#2176 — TBD: Fee schedule defaults for the next upgrade",
@@ -4919,10 +4926,12 @@
     "02341-downtime-test-runs-before-an-epochs-devshard-escrows-can-be-.md": {
       "title": "#2341 — Downtime test runs before an epoch's devshard escrows can be settled: in epochs 455–468 it saw 11% of requests, and 5 of its 12 penalties hit hosts below the threshold",
       "status": null,
-      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Downtime test runs before an epoch's devshard escrows can be settled: in epochs 455–468 it saw 11% of requests, and 5 of its 12 penalties hit hosts below the threshold\n    <span class=\"issues-number\">#2341</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-26 07:10 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span ",
-      "comment_checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "comment_bodies": [],
-      "checksum": "760ff78315a1b0be0f92d8f392baf07679eaddc3c8b0c5123e4b5fdacc8ff157"
+      "content_preview": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Downtime test runs before an epoch's devshard escrows can be settled: in epochs 455–468 it saw 11% of requests, and 5 of its 12 penalties hit hosts below the threshold\n    <span class=\"issues-number\">#2341</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-26 07:10 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span c",
+      "comment_checksum": "48c595a0a0af91150d339af6e836af1e31391ed080e3b6e8325656d97c617550",
+      "comment_bodies": [
+        "@gafrustam Thanks for the detailed analysis! This behaviour is intended. Devshard settlements count toward an epoch's stats only while that epoch is current (#1069), and settlements that land later are deliberately kept out of it (#1087). When an escrow of epoch N is settled is up to the gateway operator; whatever is not settled in time is settled in the next epoch or pruned, so nothing is lost, i"
+      ],
+      "checksum": "61e3005d201c39c212eb7d3f285db96e11e269369af95e0e6b2205b8a9fbda8e"
     }
   }
 }

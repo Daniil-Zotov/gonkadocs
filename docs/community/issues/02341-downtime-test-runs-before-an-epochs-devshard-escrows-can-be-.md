@@ -2,7 +2,7 @@
 title: "#2341 — Downtime test runs before an epoch's devshard escrows can be settled: in epochs 455–468 it saw 11% of requests, and 5 of its 12 penalties hit hosts below the threshold"
 source: https://github.com/gonka-ai/gonka/issues/2341
 issue_number: 2341
-synced_at: 2026-11-27T02:16:58Z
+synced_at: 2026-11-27T10:59:59Z
 template: issues-main.html
 ---
 
@@ -15,8 +15,8 @@ template: issues-main.html
   <div class="issues-detail-meta">
     <span class="issues-meta-item">Open</span>
     <span class="issues-meta-item"><a href="https://github.com/gafrustam">@gafrustam</a> opened 2026-11-26 07:10 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-26 07:10 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-27 02:28 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -96,6 +96,21 @@ I can open a PR for either once you pick one.
 - `devshard_host_epoch_stats/466/gonka12jurnq3mlwgnfd7ssrmr9p9nl3dltfc9rcu3rp` with `x-cosmos-block-height: 7214342` → `missed` 17279. All escrows of the epoch give this host 315,061 assigned requests.
 - CometBFT `/validators?height=7207000` (epoch 467) has no validator for …c9rcu3rp, …mkxkvu25 or …mh4v49fm. `height=7192000` (466) and `height=7222000` (468) have all three.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-11-27 02:28 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@gafrustam Thanks for the detailed analysis!</p>
+<p>This behaviour is intended. Devshard settlements count toward an epoch's stats only while that epoch is current (#1069), and settlements that land later are deliberately kept out of it (#1087). When an escrow of epoch N is settled is up to the gateway operator; whatever is not settled in time is settled in the next epoch or pruned, so nothing is lost, it just does not affect a downtime test that has already run. There are no plans to change how the downtime test is computed at the moment.</p>
+  </div>
 </div>
 
 ---

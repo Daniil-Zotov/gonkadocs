@@ -6,21 +6,96 @@ template: issues-main.html
 # GitHub Issues — `gonka-ai/gonka`
 
 All issues from [gonka-ai/gonka](https://github.com/gonka-ai/gonka/issues).
-Total: **479** (🟢 open: **174**, 🔴 closed: **305**).
-Updated: `2026-11-27 02:21 UTC`.
+Total: **479** (🟢 open: **170**, 🔴 closed: **309**).
+Updated: `2026-11-27 11:05 UTC`.
 
 <ul class="issues-list">
 <li class="issues-list-item">
   <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
-      <a href="02085-bug-minor-devshard-gateway-healthcheck-uses-curl-which-the-i/">[BUG: minor] devshard-gateway healthcheck uses curl, which the image does not contain → container permanently unhealthy</a>
-      <span class="issues-number">#2085</span>
+      <a href="02173-gateway-admin-api-silently-ignores-eof-failure-threshold-upd/">Gateway admin API silently ignores EOF failure threshold updates</a>
+      <span class="issues-number">#2173</span>
     </div>
-    <p class="issues-desc">**Summary**  `deploy/join/docker-compose.devshard-gateway.yml` defines the gateway healthcheck as  ```yaml healthcheck:   test: ["CMD", "curl", "-f", "http://localhost:8080/v1/status"] ```  but the im...</p>
+    <p class="issues-desc">Gateway settings expose `participant_throttle.eof_transport_failure_threshold` on GET, but POST silently leaves it unchanged  Observed with `ghcr.io/gonka-ai/devshard-gateway:mainnet-v0.2.16-v6.0.0-rc...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 31 minutes ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 3 hours ago</span>
+      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="02225-devshard-gateway-validate-that-reasoning-is-enabled-on-hosts/">`devshard` / `gateway`: validate that reasoning is enabled on hosts</a>
+      <span class="issues-number">#2225</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 3 hours ago</span>
+      
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="02105-devshardctl-speed-up-hedging-on-a-mixed-latency-escrow-group/">devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers</a>
+      <span class="issues-number">#2105</span>
+    </div>
+    <p class="issues-desc">## Summary  On an escrow group whose hosts have very different network distance to the gateway, the primary host for a request is fixed by the nonce stream (nonce → slot → host), not by expected speed...</p>
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 3 hours ago</span>
+      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="02104-devshardctl-winner-served-without-finish-records-a-not-finis/">devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later</a>
+      <span class="issues-number">#2104</span>
+    </div>
+    <p class="issues-desc">## Summary  When a winning attempt's stream ends before the gateway has seen the nonce's finish marker, the race-settlement path takes the `errWinnerIncomplete && deliveredWholeAnswer` branch: the cal...</p>
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 3 hours ago</span>
+      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 2</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="02103-devshardctl-primary-unresponsive-hedging-trips-on-a-single-w/">devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)</a>
+      <span class="issues-number">#2103</span>
+    </div>
+    <p class="issues-desc">## Summary  `Decide()` Rule 1 (`primary_unresponsive`) starts an immediate parallel attempt on another host whenever `perf.IsUnresponsiveParticipant(primary)` is true. With the default `UnresponsiveTh...</p>
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 3 hours ago</span>
+      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="02082-devshard-gateway-polls-v1versions-and-v1epochs-at-12min-but-/">devshard gateway polls /v1/versions and /v1/epochs/* at 12/min, but default proxy api_zone allows 10/min → permanent 503s after ~5 h</a>
+      <span class="issues-number">#2082</span>
+    </div>
+    <p class="issues-desc">**Summary**  `devshardctl gateway` polls public API endpoints on a hardcoded 5 s ticker. The default nginx proxy puts those endpoints in `api_zone` (10 r/min per client IP, burst 600, `nodelay`). 12 r...</p>
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 3 hours ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -35,8 +110,23 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">#1069 made devshard settlements feed `CurrentEpochStats`, because without it devshard work did not reach the stats "which are critical for accurate network performance tracking, rewards, and voting po...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gafrustam">@gafrustam</a> opened 19 hours ago</span>
-      
+      <span class="issues-meta-item"><a href="https://github.com/gafrustam">@gafrustam</a> opened 8 hours ago</span>
+      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
+    </div>
+  </div>
+</li>
+<li class="issues-list-item">
+  <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="02085-bug-minor-devshard-gateway-healthcheck-uses-curl-which-the-i/">[BUG: minor] devshard-gateway healthcheck uses curl, which the image does not contain → container permanently unhealthy</a>
+      <span class="issues-number">#2085</span>
+    </div>
+    <p class="issues-desc">**Summary**  `deploy/join/docker-compose.devshard-gateway.yml` defines the gateway healthcheck as  ```yaml healthcheck:   test: ["CMD", "curl", "-f", "http://localhost:8080/v1/status"] ```  but the im...</p>
+    <div class="issues-labels"></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 9 hours ago</span>
+      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
 </li>
@@ -80,7 +170,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">## Summary  During the epoch bridge window, the deployed v6 gateway can keep the configured number of active temporary escrows while none has enough available balance to serve incoming requests. Rotat...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 1 day ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/Ryanchen911">@Ryanchen911</a> opened 2 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 7</span>
     </div>
   </div>
@@ -95,7 +185,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">On mainnet the last StoreCommit of a PoC stage often doesn't count, and the stage keeps the count committed a block earlier, about 3% below what the host had generated by then. In regular PoC that cou...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/gafrustam">@gafrustam</a> opened 2 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/gafrustam">@gafrustam</a> opened 3 days ago</span>
       
     </div>
   </div>
@@ -155,7 +245,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">### What happens  When the validator's ML node starts PoC generation, every replay still running on it ends early. If the replay comes back as a complete stream (usage chunk and `[DONE]`) with fewer o...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 5 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 6 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -170,7 +260,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">## Summary  `--gas auto` underestimates a paid `MsgVote` by a fixed ~24,072 gas. With `--gas-adjustment 1.5`, votes passed only by a 0.07% margin before v0.2.18. v0.2.18 lowered the vote's base cost b...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 6 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 7 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -215,7 +305,7 @@ Updated: `2026-11-27 02:21 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #c2e0c6; color: #24292f; border-color: #c2e0c6;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 9 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 10 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 4</span>
     </div>
   </div>
@@ -230,7 +320,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">Local tests reproduce the retention behaviour reported in [issue #1899, item 3](https://github.com/gonka-ai/gonka/issues/1899), including a genuine Finish transaction received again after its signed d...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 9 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 10 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -275,7 +365,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">Operator: jgfb9271-cyber.  Public contact: https://github.com/jgfb9271-cyber  Creator address: `gonka1sz6nmkhmafq654r27mh382glue8m448kad593p`  We request consideration for adding this dedicated...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/jgfb9271-cyber">@jgfb9271-cyber</a> opened 12 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/jgfb9271-cyber">@jgfb9271-cyber</a> opened 13 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -380,7 +470,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">The framing is simple: you can prepare any container, it will run across different GPUs in the network, a protocol layer will coordinate interaction between nodes, they will perform training, and then...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 18 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 19 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>
@@ -395,7 +485,7 @@ Updated: `2026-11-27 02:21 UTC`.
     
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 18 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 19 days ago</span>
       
     </div>
   </div>
@@ -425,7 +515,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">## Summary  Our forked cosmos-sdk (`github.com/gonka-ai/cosmos-sdk`, currently `v0.53.3-ps19-observability`, referenced by both `inference-chain` and `decentralized-api` via `go.mod` replace) is based...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 19 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 20 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -590,7 +680,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">``` ~ # inferenced register-new-participant \ "$DAPI_API__PUBLIC_URL"    "$ACCOUNT_PUBKEY"    --node-address "$DAPI_CHAIN_NODE__SEED_API_URL" No consensus key provided, attempting to auto-fetch from c...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #c2e0c6; color: #24292f; border-color: #c2e0c6;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -605,7 +695,7 @@ Updated: `2026-11-27 02:21 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
       
     </div>
   </div>
@@ -620,7 +710,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">projected activation: 2026-11-18</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #f86c7a; color: #24292f; border-color: #f86c7a;">Priority: High</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
       
     </div>
   </div>
@@ -635,23 +725,8 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">## Summary  The Ethereum bridge is non-functional on testnet-4 (all 4 validators): Prysm inside `ghcr.io/product-science/bridge:0.2.15` crash-loops on checkpoint sync because Sepolia activated **Glams...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 21 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="02225-devshard-gateway-validate-that-reasoning-is-enabled-on-hosts/">`devshard` / `gateway`: validate that reasoning is enabled on hosts</a>
-      <span class="issues-number">#2225</span>
-    </div>
-    
-    <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 20 days ago</span>
-      
     </div>
   </div>
 </li>
@@ -665,7 +740,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">ongoing task</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
       
     </div>
   </div>
@@ -680,7 +755,7 @@ Updated: `2026-11-27 02:21 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
       
     </div>
   </div>
@@ -695,7 +770,7 @@ Updated: `2026-11-27 02:21 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #c2e0c6; color: #24292f; border-color: #c2e0c6;">Priority: Low</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
       
     </div>
   </div>
@@ -734,58 +809,13 @@ Updated: `2026-11-27 02:21 UTC`.
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
-      <a href="02105-devshardctl-speed-up-hedging-on-a-mixed-latency-escrow-group/">devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers</a>
-      <span class="issues-number">#2105</span>
-    </div>
-    <p class="issues-desc">## Summary  On an escrow group whose hosts have very different network distance to the gateway, the primary host for a request is fixed by the nonce stream (nonce → slot → host), not by expected speed...</p>
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 21 days ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="02104-devshardctl-winner-served-without-finish-records-a-not-finis/">devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later</a>
-      <span class="issues-number">#2104</span>
-    </div>
-    <p class="issues-desc">## Summary  When a winning attempt's stream ends before the gateway has seen the nonce's finish marker, the race-settlement path takes the `errWinnerIncomplete && deliveredWholeAnswer` branch: the cal...</p>
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 21 days ago</span>
-      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="02103-devshardctl-primary-unresponsive-hedging-trips-on-a-single-w/">devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)</a>
-      <span class="issues-number">#2103</span>
-    </div>
-    <p class="issues-desc">## Summary  `Decide()` Rule 1 (`primary_unresponsive`) starts an immediate parallel attempt on another host whenever `perf.IsUnresponsiveParticipant(primary)` is true. With the default `UnresponsiveTh...</p>
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 21 days ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
       <a href="01506-gateway-host-health-deadlock-mass-quarantine-all-hosts-stuck/">Gateway host-health deadlock: mass quarantine → all hosts stuck as no-winner/suspicious</a>
       <span class="issues-number">#1506</span>
     </div>
     <p class="issues-desc">## Summary  I managed to get all hosts into a kind of deadlock on testnet.  ### How everyone entered quarantine  I created an escrow with the wrong owner (CLI key ≠ `DEVSHARD_PRIVATE_KEY` the gateway...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 22 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -800,7 +830,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">## Problem  `poc_params.validation_sample_size` has no bound in param validation, while the proof endpoint every participant serves accepts at most 500 leaf indices per request. A governance update to...</p>
     <div class="issues-labels"></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 21 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 22 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -890,7 +920,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc"># Issue: hosts behind at finalize must pull the missing diffs  **Milestone:** Devshard v7  **Follows:** [#1785](https://github.com/gonka-ai/gonka/pull/1785) (`fix/devshard-finalize-resume-v6`)  ## Sum...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #a2eeef; color: #24292f; border-color: #a2eeef;">enhancement</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 26 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/a-kuprin">@a-kuprin</a> opened 27 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
     </div>
   </div>
@@ -905,7 +935,7 @@ Updated: `2026-11-27 02:21 UTC`.
     <p class="issues-desc">## Summary Every inference request runs with `min_tokens >= 64` (`EnforceTokenBudgetFloor`, #1391), and `stop_token_ids` are stripped. This masks every stop token, including end-of-turn and tool-call...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 26 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/KTibow">@KTibow</a> opened 27 days ago</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 3</span>
     </div>
   </div>
@@ -986,21 +1016,6 @@ Updated: `2026-11-27 02:21 UTC`.
   </div>
 </li>
 <li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
-      <a href="02173-gateway-admin-api-silently-ignores-eof-failure-threshold-upd/">Gateway admin API silently ignores EOF failure threshold updates</a>
-      <span class="issues-number">#2173</span>
-    </div>
-    <p class="issues-desc">Gateway settings expose `participant_throttle.eof_transport_failure_threshold` on GET, but POST silently leaves it unchanged  Observed with `ghcr.io/gonka-ai/devshard-gateway:mainnet-v0.2.16-v6.0.0-rc...</p>
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/ilyar">@ilyar</a> opened 28 days ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
   <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
@@ -1049,28 +1064,13 @@ Updated: `2026-11-27 02:21 UTC`.
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
-      <a href="02082-devshard-gateway-polls-v1versions-and-v1epochs-at-12min-but-/">devshard gateway polls /v1/versions and /v1/epochs/* at 12/min, but default proxy api_zone allows 10/min → permanent 503s after ~5 h</a>
-      <span class="issues-number">#2082</span>
-    </div>
-    <p class="issues-desc">**Summary**  `devshardctl gateway` polls public API endpoints on a hardcoded 5 s ticker. The default nginx proxy puts those endpoints in `api_zone` (10 r/min per client IP, burst 600, `nodelay`). 12 r...</p>
-    <div class="issues-labels"></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 29 days ago</span>
-      <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 1</span>
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
       <a href="01726-xinference-collateralparamsdowntimemissedpercentagethreshold/">x/inference: CollateralParams.DowntimeMissedPercentageThreshold is governance-settable but read by nothing, and SlashForDowntime's comment describes a check it does not perform</a>
       <span class="issues-number">#1726</span>
     </div>
     <p class="issues-desc">`CollateralParams.DowntimeMissedPercentageThreshold` is declared, defaulted, validated, registered as a governance-settable param and live on chain at `0.05` — and no code reads it. A governance vote...</p>
     <div class="issues-labels"><span class="issues-label" style="background-color: #F9EDEA; color: #24292f; border-color: #F9EDEA;">Bug</span> <span class="issues-label" style="background-color: #ebe335; color: #24292f; border-color: #ebe335;">release-candidate</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 29 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/kaileido">@kaileido</a> opened 2026-10-28</span>
       <span class="issues-meta-item"><svg viewBox="0 0 16 16"><path d="M1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0 1 13.25 12H9.06l-2.573 2.573A1.458 1.458 0 0 1 4 13.543V12H2.75A1.75 1.75 0 0 1 1 10.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h4.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg> 6</span>
     </div>
   </div>

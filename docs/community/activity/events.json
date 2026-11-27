@@ -1,5 +1,85 @@
 [
   {
+    "id": "evt_20261127110546_50c5e046",
+    "timestamp": "2026-11-27T11:05:46.820610+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2103 — devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)",
+      "url": "/community/issues/02103-devshardctl-primary-unresponsive-hedging-trips-on-a-single-w/",
+      "file": "02103-devshardctl-primary-unresponsive-hedging-trips-on-a-single-w.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)\n    <span class=\"issues-number\">#2103</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:17 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"i",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)\n    <span class=\"issues-number\">#2103</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:17 UTC</span>\n    <span class=\"issues-meta-item\">1 co"
+    },
+    "ai_description": "Issue #2103 on devshardctl was closed after being resolved. The problem was that the primary_unresponsive hedging logic would trip based on just a single winner_served_without_finish sample, since it lacked a minimum sample guard and used a threshold of 1.0 over a 1-hour window. Closing this issue means the fix is now in place, so the hedging mechanism should be far less prone to false alarms."
+  },
+  {
+    "id": "evt_20261127110546_a436a21a",
+    "timestamp": "2026-11-27T11:05:46.820698+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2104 — devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later",
+      "url": "/community/issues/02104-devshardctl-winner-served-without-finish-records-a-not-finis/",
+      "file": "02104-devshardctl-winner-served-without-finish-records-a-not-finis.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later\n    <span class=\"issues-number\">#2104</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></spa",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshardctl: winner_served_without_finish records a not_finished host strike at stream end although the nonce finishes seconds later\n    <span class=\"issues-number\">#2104</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <sp"
+    },
+    "ai_description": "Issue #2104 on devshardctl has been closed after accumulating a second comment. The report flagged a fairness bug where a host received a not_finished strike at stream end even though the winning nonce completed seconds later, which could wrongly penalize valid hosts. Closing this out means the community has addressed or resolved the concern, keeping host reputation scoring accurate."
+  },
+  {
+    "id": "evt_20261127110546_f6206554",
+    "timestamp": "2026-11-27T11:05:46.820713+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2105 — devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers",
+      "url": "/community/issues/02105-devshardctl-speed-up-hedging-on-a-mixed-latency-escrow-group/",
+      "file": "02105-devshardctl-speed-up-hedging-on-a-mixed-latency-escrow-group.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers\n    <span class=\"issues-number\">#2105</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"iss",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers\n    <span class=\"issues-number\">#2105</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/maria-mitina\">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>\n    <span class=\"issues-meta-item\">1 comm"
+    },
+    "ai_description": null
+  },
+  {
+    "id": "evt_20261127110546_4ea981a4",
+    "timestamp": "2026-11-27T11:05:46.820772+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2173 — Gateway admin API silently ignores EOF failure threshold updates",
+      "url": "/community/issues/02173-gateway-admin-api-silently-ignores-eof-failure-threshold-upd/",
+      "file": "02173-gateway-admin-api-silently-ignores-eof-failure-threshold-upd.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Gateway admin API silently ignores EOF failure threshold updates\n    <span class=\"issues-number\">#2173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-29 16:14 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway admin API silently ignores EOF failure threshold updates\n    <span class=\"issues-number\">#2173</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/ilyar\">@ilyar</a> opened 2026-10-29 16:14 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"ma"
+    },
+    "ai_description": "Issue #2173 on the Gateway admin API has been closed after receiving its first comment. The issue, which reported that EOF failure threshold updates were being silently ignored, is now resolved, marking an important fix for configuration reliability in the network."
+  },
+  {
+    "id": "evt_20261127110546_4be6525c",
+    "timestamp": "2026-11-27T11:05:46.820818+00:00",
+    "section": "issues",
+    "action": "updated",
+    "item": {
+      "title": "#2341 — Downtime test runs before an epoch's devshard escrows can be settled: in epochs 455–468 it saw 11% of requests, and 5 of its 12 penalties hit hosts below the threshold",
+      "url": "/community/issues/02341-downtime-test-runs-before-an-epochs-devshard-escrows-can-be-/",
+      "file": "02341-downtime-test-runs-before-an-epochs-devshard-escrows-can-be-.md"
+    },
+    "details": {
+      "content_before": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Downtime test runs before an epoch's devshard escrows can be settled: in epochs 455–468 it saw 11% of requests, and 5 of its 12 penalties hit hosts below the threshold\n    <span class=\"issues-number\">#2341</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-26 07:10 UTC</span>\n    <span class=\"issues-meta-item\">0 comments</span>\n    <span ",
+      "content_after": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Downtime test runs before an epoch's devshard escrows can be settled: in epochs 455–468 it saw 11% of requests, and 5 of its 12 penalties hit hosts below the threshold\n    <span class=\"issues-number\">#2341</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/gafrustam\">@gafrustam</a> opened 2026-11-26 07:10 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span c"
+    },
+    "ai_description": "Issue #2341 on downtime test runs before devshard escrow settlement has received its first comment. The discussion is now open to the community, so check it out if you have insights on the 11% request share and the penalties affecting hosts below the threshold."
+  },
+  {
     "id": "evt_20261127030937_b97c1e9f",
     "timestamp": "2026-11-27T03:09:37.093985+00:00",
     "section": "calendar",
@@ -8166,85 +8246,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    x/inference: asymmetric debit in refundInvalidatedInference — design clarification\n    <span class=\"issues-number\">#1273</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-28 19:14 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div "
     },
     "ai_description": "Issue #1273 has been opened and closed regarding an asymmetric debit in the refundInvalidatedInference function within the x/inference module. The author @vitaly-andr raised a design clarification, and the issue is now resolved with two comments. This matters because it helps ensure fair and correct refund handling in inference transactions."
-  },
-  {
-    "id": "evt_20261022192049_6aeeef61",
-    "timestamp": "2026-10-22T19:20:49.449040+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1274 — Run Gonka documentation translation on Gonka",
-      "url": "/community/issues/01274-run-gonka-documentation-translation-on-gonka/",
-      "file": "01274-run-gonka-documentation-translation-on-gonka.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Run Gonka documentation translation on Gonka\n    <span class=\"issues-number\">#1274</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/tcharchian\">@tcharchian</a> opened 2026-05-29 00:59 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: "
-    },
-    "ai_description": "Gonka's own documentation translation now runs on the Gonka network, a fitting dogfooding milestone. This closed issue was opened by @tcharchian and drew one comment, signaling community support for using our decentralized infrastructure to handle its own localization. It matters because it proves the network can handle real-world workloads beyond inference, strengthening our case for broader adoption."
-  },
-  {
-    "id": "evt_20261022192049_54dda5bb",
-    "timestamp": "2026-10-22T19:20:49.449053+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1285 — Bridge: merge ETH README messageHash quickfix into v0.2.14",
-      "url": "/community/issues/01285-bridge-merge-eth-readme-messagehash-quickfix-into-v0214/",
-      "file": "01285-bridge-merge-eth-readme-messagehash-quickfix-into-v0214.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: merge ETH README messageHash quickfix into v0.2.14\n    <span class=\"issues-number\">#1285</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-06-01 02:34 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</"
-    },
-    "ai_description": "New issue #1285 has been opened by @Ryanchen911 to fold the ETH README messageHash quickfix into the v0.2.14 bridge release. This is a targeted cleanup that ensures the documentation fix ships with the upcoming version, keeping the bridge update consistent. Worth tracking if you rely on the ETH bridge docs."
-  },
-  {
-    "id": "evt_20261022192049_672c6aaf",
-    "timestamp": "2026-10-22T19:20:49.449065+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1286 — Bridge: add retry cap or monitoring for stale refund cleanup retries",
-      "url": "/community/issues/01286-bridge-add-retry-cap-or-monitoring-for-stale-refund-cleanup-/",
-      "file": "01286-bridge-add-retry-cap-or-monitoring-for-stale-refund-cleanup-.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-open\"><svg viewBox=\"0 0 16 16\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z\"/><path d=\"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z\"/></svg></span>\n    Bridge: add retry cap or monitoring for stale refund cleanup retries\n    <span class=\"issues-number\">#1286</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Open</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/Ryanchen911\">@Ryanchen911</a> opened 2026-06-01 02:34 UTC</span>\n    <span class=\"issues-meta-item\">4 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\""
-    },
-    "ai_description": "New issue #1286 from @Ryanchen911 proposes adding a retry cap or monitoring for the bridge's stale refund cleanup process. This addresses a potential risk where retries could loop indefinitely without proper safeguards, so the community should weigh in on whether a hard limit or observability is the better fix. Check it out and share your thoughts if you've hit similar issues."
-  },
-  {
-    "id": "evt_20261022192049_5cdb0b9c",
-    "timestamp": "2026-10-22T19:20:49.449078+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1319 — Self-serve (no-broker) flow is documented as working but returns 401 \"model requires an API key\" — I want to spend my own GNK directly",
-      "url": "/community/issues/01319-self-serve-no-broker-flow-is-documented-as-working-but-retur/",
-      "file": "01319-self-serve-no-broker-flow-is-documented-as-working-but-retur.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Self-serve (no-broker) flow is documented as working but returns 401 \"model requires an API key\" — I want to spend my own GNK directly\n    <span class=\"issues-number\">#1319</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/dufok\">@dufok</a> opened 2026-06-07 22:20 UTC</span>\n    <span class=\"issues-meta-item\">7 comments</span>\n    <span class=\"is"
-    },
-    "ai_description": "New issue #1319 reports that the self-serve (no-broker) flow, which should let users spend their own GNK directly, is returning a 401 error saying the model requires an API key. This is a critical bug for anyone wanting to bypass brokers and pay with their own tokens, so please check the thread and chime in if you've hit the same wall."
-  },
-  {
-    "id": "evt_20261022192049_2b0fd6dd",
-    "timestamp": "2026-10-22T19:20:49.449092+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1321 — Gateway allowlist request",
-      "url": "/community/issues/01321-gateway-allowlist-request/",
-      "file": "01321-gateway-allowlist-request.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    Gateway allowlist request\n    <span class=\"issues-number\">#1321</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/bruev\">@bruev</a> opened 2026-06-08 14:26 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"issues-labels\" style=\"margin-top: 8px;\"></div>\n</div>\n\n<div cla"
-    },
-    "ai_description": "Issue #1321 \"Gateway allowlist request\" was added by @bruev and has already been closed, meaning the request was processed. This matters for the community because it tracks who gets access to the network's gateways, ensuring transparency in the allowlist process. Keep an eye on similar issues to understand access changes."
   }
 ]

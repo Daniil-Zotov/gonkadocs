@@ -2,21 +2,21 @@
 title: "#2103 — devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)"
 source: https://github.com/gonka-ai/gonka/issues/2103
 issue_number: 2103
-synced_at: 2026-11-27T02:17:28Z
+synced_at: 2026-11-27T10:59:57Z
 template: issues-main.html
 ---
 
 <div class="issues-detail-header">
   <h1 class="issues-detail-title">
-    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
     devshardctl: primary_unresponsive hedging trips on a single winner_served_without_finish sample (threshold 1.0, no min-sample guard, 1 h tumbling window)
     <span class="issues-number">#2103</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-23 12:17 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-05 07:18 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-27 07:25 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -124,6 +124,20 @@ PUT /v1/admin/settings  {"redundancy":{"unresponsive_threshold":0.8}}
 With `n=37` one strike gives 0.973 and no longer trips Rule 1. Trade-off: a host that genuinely fails ~15 % of requests is no longer hedged pre-emptively (it is still covered by `receipt_timeout` at 5 s and by the pairwise policies).
 
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-11-27 07:25 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@maria-mitina devshardctl will be removed in v7 and new gateway doesn't support this feature. </p>
+  </div>
 </div>
 
 ---

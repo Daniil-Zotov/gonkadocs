@@ -2,21 +2,21 @@
 title: "#2105 — devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers"
 source: https://github.com/gonka-ai/gonka/issues/2105
 issue_number: 2105
-synced_at: 2026-11-27T02:17:27Z
+synced_at: 2026-11-27T10:59:56Z
 template: issues-main.html
 ---
 
 <div class="issues-detail-header">
   <h1 class="issues-detail-title">
-    <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+    <span class="issues-status issues-status-closed"><svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg></span>
     devshardctl: speed-up hedging on a mixed-latency escrow group doubles GPU work — remote primaries lose 67–82 % of races and finish as suppressed losers
     <span class="issues-number">#2105</span>
   </h1>
   <div class="issues-detail-meta">
-    <span class="issues-meta-item">Open</span>
+    <span class="issues-meta-item">Closed</span>
     <span class="issues-meta-item"><a href="https://github.com/maria-mitina">@maria-mitina</a> opened 2026-10-23 12:28 UTC</span>
-    <span class="issues-meta-item">0 comments</span>
-    <span class="issues-meta-item">Updated 2026-11-05 07:22 UTC</span>
+    <span class="issues-meta-item">1 comment</span>
+    <span class="issues-meta-item">Updated 2026-11-27 07:34 UTC</span>
   </div>
   <div class="issues-labels" style="margin-top: 8px;"></div>
 </div>
@@ -82,6 +82,20 @@ Across both runs the perf model's own numbers show the outcome was predictable b
 4. **Bound A/B sampling by cost.** `pairwise_ab_sample` fired 26× in 10 minutes on pairs whose ratio was already well established; sampling should back off once the estimate's confidence is high, and should not sample on very long prompts/outputs.
 5. Expose the predicted ratio and confidence in `decision_made` so operators can see why a parallel attempt was started.
 
+</div>
+
+---
+
+## 💬 Comments (1)
+
+<div class="issues-comment">
+  <div class="issues-comment-header">
+    <span><a href="https://github.com/qdanik">@qdanik</a></span>
+    <span class="issues-meta-item">commented 2026-11-27 07:34 UTC</span>
+  </div>
+  <div class="issues-comment-body issues-content">
+    <p>@maria-mitina devsharctl only issue, new gateway lacks this logic entirely. In the new gateway a second attempt is triggered only via "slow hedging", when the first host is late in delivering its initial token relative to the entire fleet (specifically, no sooner than 1.5 seconds, and no sooner than the fleet median plus 2.33σ).</p>
+  </div>
 </div>
 
 ---

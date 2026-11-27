@@ -6,11 +6,26 @@ template: issues-main.html
 # Issues: devshards
 
 Issues with label **devshards**. Total: **19**.
-Updated: `2026-11-27 02:21 UTC`.
+Updated: `2026-11-27 11:05 UTC`.
 
 [← All Issues](../../index.md)
 
 <ul class="issues-list">
+<li class="issues-list-item">
+  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
+  <div class="issues-body">
+    <div class="issues-title">
+      <a href="../../02225-devshard-gateway-validate-that-reasoning-is-enabled-on-hosts/">`devshard` / `gateway`: validate that reasoning is enabled on hosts</a>
+      <span class="issues-number">#2225</span>
+    </div>
+    
+    <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
+    <div class="issues-meta">
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 3 hours ago</span>
+      
+    </div>
+  </div>
+</li>
 <li class="issues-list-item">
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
@@ -30,28 +45,13 @@ Updated: `2026-11-27 02:21 UTC`.
   <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
   <div class="issues-body">
     <div class="issues-title">
-      <a href="../../02225-devshard-gateway-validate-that-reasoning-is-enabled-on-hosts/">`devshard` / `gateway`: validate that reasoning is enabled on hosts</a>
-      <span class="issues-number">#2225</span>
-    </div>
-    
-    <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
-    <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 20 days ago</span>
-      
-    </div>
-  </div>
-</li>
-<li class="issues-list-item">
-  <span class="issues-status issues-status-open"><svg viewBox="0 0 16 16"><path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"/><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/></svg></span>
-  <div class="issues-body">
-    <div class="issues-title">
       <a href="../../02228-devshard-endpoint-cleanup-if-needed/">`devshard`: endpoint cleanup, if needed</a>
       <span class="issues-number">#2228</span>
     </div>
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
       
     </div>
   </div>
@@ -66,7 +66,7 @@ Updated: `2026-11-27 02:21 UTC`.
     
     <div class="issues-labels"><span class="issues-label" style="background-color: #d3d3d3; color: #24292f; border-color: #d3d3d3;">devshards</span></div>
     <div class="issues-meta">
-      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 20 days ago</span>
+      <span class="issues-meta-item"><a href="https://github.com/tcharchian">@tcharchian</a> opened 21 days ago</span>
       
     </div>
   </div>
