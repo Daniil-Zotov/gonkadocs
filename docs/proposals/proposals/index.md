@@ -71,7 +71,8 @@ hide:
     <span>Voting ends 2026-11-28</span>
   </div>
   <div class="prop-card-desc">Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, te…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">200,000 GNK · Community Pool · $50,000 · Community Sale</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (556,416)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">200,000 GNK · Community Pool · $50,000 · Community Sale</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>29.9%</strong> (556,416 / 1,858,277) · Quorum <strong>25%</strong> (464,569)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-voting" data-voting-end="2026-11-28T17:38:37.076052013Z">
@@ -85,7 +86,8 @@ hide:
     <span>Voting ends 2026-11-28</span>
   </div>
   <div class="prop-card-desc">Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request an…</div>
-  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>0.0%</strong> (0)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">150,000 GNK · Community Pool · $40,000 · Community Sale</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (556,416)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-voting">150,000 GNK · Community Pool · $40,000 · Community Sale</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>29.9%</strong> (556,416 / 1,858,277) · Quorum <strong>25%</strong> (464,569)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-rejected">
@@ -1717,7 +1719,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>121 proposals across 6 quarters. Last updated: 2026-11-26 23:04 UTC</em>
+<em>121 proposals across 6 quarters. Last updated: 2026-11-27 04:59 UTC</em>
 </div>
 
 <script>
