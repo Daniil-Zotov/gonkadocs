@@ -4,15 +4,15 @@ title: ":gear: Protocol Improvements"
 
 # :gear: Protocol Improvements
 
-Дискуссии в категории **:gear: Protocol Improvements**. Всего: **54**. Обновлено: `2026-11-27 08:11 UTC`.
+Дискуссии в категории **:gear: Protocol Improvements**. Всего: **54**. Обновлено: `2026-11-27 18:52 UTC`.
 
 [← ко всем категориям](../index.md)
 
 | # | Заголовок | Автор | Обновлено |
 |---:|---|---|---|
 | [2322](2322-proposal-120-quorint-independent-security-review-for-the-bri.md) | [Proposal #120 (Quorint): Independent Security Review for the Bridge Relaunch, plus Attack Registry, Economic Attack Simulator and Upgrade Audits](2322-proposal-120-quorint-independent-security-review-for-the-bri.md) | [@quorint](https://github.com/quorint) | 2026-11-24 |
-| [2308](2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | [Proposal from Ancapex: Decision Models for Modest Hardware](2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | [@alancapex](https://github.com/alancapex) | 2026-11-26 |
-| [2307](2307-proposal-from-ancapex-alternative-tokenomics.md) | [Proposal from Ancapex: Alternative Tokenomics](2307-proposal-from-ancapex-alternative-tokenomics.md) | [@alancapex](https://github.com/alancapex) | 2026-11-26 |
+| [2308](2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | [Proposal from Ancapex: Decision Models for Modest Hardware](2308-proposal-from-ancapex-decision-models-for-modest-hardware.md) | [@alancapex](https://github.com/alancapex) | 2026-11-27 |
+| [2307](2307-proposal-from-ancapex-alternative-tokenomics.md) | [Proposal from Ancapex: Alternative Tokenomics](2307-proposal-from-ancapex-alternative-tokenomics.md) | [@alancapex](https://github.com/alancapex) | 2026-11-27 |
 | [2267](2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md) | [[Proposal] Lightweight TypeScript CLI for Automated Ethereum Bridge Epoch Synchronization](2267-proposal-lightweight-typescript-cli-for-automated-ethereum-b.md) | [@kakavaanen](https://github.com/kakavaanen) | 2026-11-14 |
 | [2248](2248-research-milestones-for-split-delegation-2240-and-optional-l.md) | [Research milestones for split delegation (#2240) and optional launch-time intents (#2243)](2248-research-milestones-for-split-delegation-2240-and-optional-l.md) | [@startupcompliancekit](https://github.com/startupcompliancekit) | 2026-11-08 |
 | [1990](1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md) | [BioFi / DeSci Core: A Universal Protocol for Exchanging Tokens of Protected Data](1990-biofi-desci-core-a-universal-protocol-for-exchanging-tokens-.md) | [@nikolay2828](https://github.com/nikolay2828) | 2026-10-13 |

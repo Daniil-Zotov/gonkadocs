@@ -1,6 +1,6 @@
 {
   "section": "discussions",
-  "snapshot_time": "2026-11-27T08:11:05.563913+00:00",
+  "snapshot_time": "2026-11-27T18:52:40.200309+00:00",
   "files": {
     "announcements/0805-welcome-to-gonka-discussions.md": {
       "title": "#805 — Welcome to Gonka Discussions 👋",
@@ -546,13 +546,13 @@
       "title": "#2307 — Proposal from Ancapex: Alternative Tokenomics",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2307](https://github.com/gonka-ai/gonka/discussions/2307) every hour. \n\n# Proposal from Ancapex: Alternative Tokenomics\n\n**Автор:** [@alancapex](https://github.com/alancapex) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-23 13:03 UTC · \n\n---\n\n## 📝 Описание\n\nBitfury has put forward a tokenomics proposal so that hosts' main income comes from inference. We support it as the starting mechanism, and in parallel we want to develop an alternative that is a better fit for a DePIN/DeVIN network.\n\nThe main idea: GNK is the currency used to pay for work in the network, not a share in a company. So emission should depend on how much work the network actually does, and not only on the calendar.\n\nPart of every payment is burned, emission is tie",
-      "checksum": "394e1457c5f7c3067e2d113ef24eae4eaf9fe3937cf0cfcb39b4cc72d64ec465"
+      "checksum": "0804450e0389581bc63cbf7cc6ff8e01b1bb02d261d53856fbab16d19dcafc28"
     },
     "protocol-improvements/2308-proposal-from-ancapex-decision-models-for-modest-hardware.md": {
       "title": "#2308 — Proposal from Ancapex: Decision Models for Modest Hardware",
       "status": null,
       "content_preview": "> 🔄 **Auto-sync:** from [Discussion #2308](https://github.com/gonka-ai/gonka/discussions/2308) every hour. \n\n# Proposal from Ancapex: Decision Models for Modest Hardware\n\n**Автор:** [@alancapex](https://github.com/alancapex) · **Категория:** :gear: Protocol Improvements · **Создано:** 2026-11-23 13:03 UTC · \n\n---\n\n## 📝 Описание\n\nThe network is limited by hardware: powerful GPUs for modern LLMs are scarce. Decision models are a new class of in-demand models that needs only modest hardware, GPUs with 16 to 80 GB of memory.\n\nThey do not write text. They quickly choose one of the given answer options and report how confident they are. They are used for classifying and routing requests, checking the answers of other AI systems, and guardrails. About 6.7 trillion tokens a week already pass throu",
-      "checksum": "8c6cfe824881a140af3898bb484d14f43443007380c50e4391663b5f30b02aec"
+      "checksum": "13cc8e5de0cd778b23c40cc05767e33ed3ade3b346846ccdbd220a87f7598431"
     },
     "protocol-improvements/2322-proposal-120-quorint-independent-security-review-for-the-bri.md": {
       "title": "#2322 — Proposal #120 (Quorint): Independent Security Review for the Bridge Relaunch, plus Attack Registry, Economic Attack Simulator and Upgrade Audits",
