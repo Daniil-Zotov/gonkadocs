@@ -3,7 +3,7 @@ title: "#1095 — Gonka AI x Kilo"
 source: https://github.com/gonka-ai/gonka/discussions/1095
 discussion_number: 1095
 category: show-and-tell
-synced_at: 2026-11-26T23:45:10Z
+synced_at: 2026-11-27T08:10:50Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1095](https://github.com/gonka-ai/gonka/discussions/1095) every hour. 

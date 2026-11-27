@@ -3,7 +3,7 @@ title: "#1747 — Proposal: Reimbursement of Expenses for Daniil and David Liber
 source: https://github.com/gonka-ai/gonka/discussions/1747
 discussion_number: 1747
 category: general
-synced_at: 2026-11-26T23:44:53Z
+synced_at: 2026-11-27T08:10:29Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #1747](https://github.com/gonka-ai/gonka/discussions/1747) every hour. 

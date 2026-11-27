@@ -21870,7 +21870,7 @@ decentralized mixture-of-experts."
 The Gonka network maintains three key addresses that collectively manage community funds. This page documents their current balances, how funds flow between them, and every passed governance proposal that has received funding.
 
 Last updated: 
-2026-11-26 23:26 UTC
+2026-11-27 06:22 UTC
 
 ---
 
@@ -31761,7 +31761,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-28
   
   Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, te…
-  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)200,000 GNK · Community Pool · $50,000 · Community Sale
+  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (492,724) · Abstain 0.0% (0)200,000 GNK · Community Pool · $50,000 · Community Sale
+  ✓ Turnout 28.9% (492,724 / 1,703,115) · Quorum 25% (425,778)
 
   
     #121 – Ancapex: Decision Models for Modest Hardware
@@ -31773,7 +31774,8 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
     Voting ends 2026-11-28
   
   Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request an…
-  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)150,000 GNK · Community Pool · $40,000 · Community Sale
+  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (492,724) · Abstain 0.0% (0)150,000 GNK · Community Pool · $40,000 · Community Sale
+  ✓ Turnout 28.9% (492,724 / 1,703,115) · Quorum 25% (425,778)
 
   
     #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
@@ -33154,7 +33156,7 @@ $144,150 USDT · 203,750 GNK · Bounty Reward
   Proposal updates epoch_length and restrictions length according to real block length in seconds.
   Yes 100.0% (74,474) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)
 
-121 proposals across 6 quarters. Last updated: 2026-11-26 23:04 UTC
+121 proposals across 6 quarters. Last updated: 2026-11-27 08:02 UTC
 
 function _ovInit() {
   document.querySelectorAll('.prop-vote-countdown').forEach(function(el) {
@@ -82476,7 +82478,8 @@ Software Upgrade1
     Voting ends 2026-11-28
   
   Funds two months of work by the Ancapex Team on the design of an alternative GNK tokenomics mechanism: a burn at settlement and emission tied to the work the network does, pricing beyond inference, te…
-  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)200,000 GNK · Community Pool · $50,000 · Community Sale
+  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (492,724) · Abstain 0.0% (0)200,000 GNK · Community Pool · $50,000 · Community Sale
+  ✓ Turnout 28.9% (492,724 / 1,703,115) · Quorum 25% (425,778)
 
   
     #121 – Ancapex: Decision Models for Modest Hardware
@@ -82488,7 +82491,8 @@ Software Upgrade1
     Voting ends 2026-11-28
   
   Funds two months of work by the Ancapex Team to bring decision models to Gonka: integration into confirmation PoC, validation and tokenomics, a choice of two open-weight base models, a pull request an…
-  Yes 0.0% (0) · No 0.0% (0) · Veto 0.0% (0) · Abstain 0.0% (0)150,000 GNK · Community Pool · $40,000 · Community Sale
+  Yes 0.0% (0) · No 0.0% (0) · Veto 100.0% (492,724) · Abstain 0.0% (0)150,000 GNK · Community Pool · $40,000 · Community Sale
+  ✓ Turnout 28.9% (492,724 / 1,703,115) · Quorum 25% (425,778)
 
   
     #120 – Quorint: Bridge Relaunch Security Review + 6-Month Attack Registry, Economic Attack Simulator & Upgrade Audits (Roadmap Track 6 P3, Track 5 P1/P2)
@@ -85135,11 +85139,29 @@ Funds two months of work by the Ancapex Team to bring decision models to Gonka: 
 
 ---
 
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 0.0% (0)
+    No 0.0% (0)
+    Veto 100.0% (492,724)
+    Abstain 0.0% (0)
+    Total 492,724 votes
+    ✓ Turnout 28.9% (492,724 / 1,703,115) · Quorum 25% (425,778)
+  
+
 Voters
 
 VoterVote
 
 gonka1sk6fh7…7pfvyvNo_With_Veto 100.0%
+gonka1ue6k3p…a4hpghNo 100.0%
 gonka1u7s3mp…p80asyNo_With_Veto 100.0%
 
 ---
@@ -85209,11 +85231,30 @@ Funds two months of work by the Ancapex Team on the design of an alternative GNK
 
 ---
 
+## Final Tally
+
+  
+    
+    
+    
+    
+  
+  
+    Yes 0.0% (0)
+    No 0.0% (0)
+    Veto 100.0% (492,724)
+    Abstain 0.0% (0)
+    Total 492,724 votes
+    ✓ Turnout 28.9% (492,724 / 1,703,115) · Quorum 25% (425,778)
+  
+
 Voters
 
 VoterVote
 
+gonka1sdzyda…22y2uvAbstain 100.0%
 gonka1sk6fh7…7pfvyvNo_With_Veto 100.0%
+gonka1ue6k3p…a4hpghYes 100.0%
 gonka1u7s3mp…p80asyNo_With_Veto 100.0%
 
 ---
