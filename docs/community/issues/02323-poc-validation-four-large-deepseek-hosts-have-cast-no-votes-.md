@@ -2,7 +2,7 @@
 title: "#2323 — PoC validation: four large DeepSeek hosts have cast no votes since moving to MLNode 4.0.0 pre-release images"
 source: https://github.com/gonka-ai/gonka/issues/2323
 issue_number: 2323
-synced_at: 2026-11-27T11:00:01Z
+synced_at: 2026-11-27T20:02:30Z
 template: issues-main.html
 ---
 

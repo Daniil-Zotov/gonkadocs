@@ -2,7 +2,7 @@
 title: "#1841 — `devshard`: stream chunks signature and empty stream detection"
 source: https://github.com/gonka-ai/gonka/issues/1841
 issue_number: 1841
-synced_at: 2026-11-27T11:01:24Z
+synced_at: 2026-11-27T20:03:28Z
 template: issues-main.html
 ---
 
