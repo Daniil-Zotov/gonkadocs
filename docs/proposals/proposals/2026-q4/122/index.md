@@ -62,6 +62,7 @@ Funds two months of work by the Ancapex Team on the design of an alternative GNK
 <thead><tr><th>Voter</th><th>Vote</th></tr></thead>
 <tbody>
 <tr><td><a href="https://gonka.gg/address/gonka1sk6fh7mm74w6hn5wq0667zca00lt3cpr7pfvyv" target="_blank" class="prop-voter-addr">gonka1sk6fh7…7pfvyv</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
+<tr><td><a href="https://gonka.gg/address/gonka1ue6k3pcgdg2g962l2n0g8hpg3r4vf827a4hpgh" target="_blank" class="prop-voter-addr">gonka1ue6k3p…a4hpgh</a></td><td><span class="prop-voter-option prop-vote-yes">Yes 100.0%</span></td></tr>
 <tr><td><a href="https://gonka.gg/address/gonka1u7s3mpw4654l30vwzlzsxkhfrmscl6p4p80asy" target="_blank" class="prop-voter-addr">gonka1u7s3mp…p80asy</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
 </tbody>
 </table>
