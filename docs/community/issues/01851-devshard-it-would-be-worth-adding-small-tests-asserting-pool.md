@@ -2,7 +2,7 @@
 title: "#1851 — `devshard`: It would be worth adding small tests asserting `pool.Config().MaxConns` for both payload storage constructors. `ConfigureMaxConns` itself is well tested, but the current tests wouldn’t catch the helper being accidentally removed from either constructor."
 source: https://github.com/gonka-ai/gonka/issues/1851
 issue_number: 1851
-synced_at: 2026-11-28T02:48:46Z
+synced_at: 2026-11-28T12:00:32Z
 template: issues-main.html
 ---
 

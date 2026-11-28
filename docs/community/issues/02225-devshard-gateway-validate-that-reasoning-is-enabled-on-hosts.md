@@ -2,7 +2,7 @@
 title: "#2225 — `devshard` / `gateway`: validate that reasoning is enabled on hosts"
 source: https://github.com/gonka-ai/gonka/issues/2225
 issue_number: 2225
-synced_at: 2026-11-28T02:47:28Z
+synced_at: 2026-11-28T11:59:26Z
 template: issues-main.html
 ---
 

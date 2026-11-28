@@ -2,7 +2,7 @@
 title: "#348 — [P0]: Add SSL (https) for our dashboard and API (we need it to add us to wallets)"
 source: https://github.com/gonka-ai/gonka/issues/348
 issue_number: 348
-synced_at: 2026-11-28T02:52:09Z
+synced_at: 2026-11-28T12:03:25Z
 template: issues-main.html
 ---
 

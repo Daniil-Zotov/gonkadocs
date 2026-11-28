@@ -2,7 +2,7 @@
 title: "#2146 — devshard: requests in flight or queued when a PoC / cPoC starts on a non-preserved host become invalids and misses for a pause the protocol orders"
 source: https://github.com/gonka-ai/gonka/issues/2146
 issue_number: 2146
-synced_at: 2026-11-28T02:48:26Z
+synced_at: 2026-11-28T12:00:15Z
 template: issues-main.html
 ---
 

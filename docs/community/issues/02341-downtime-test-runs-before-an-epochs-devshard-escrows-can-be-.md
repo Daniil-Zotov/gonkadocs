@@ -2,7 +2,7 @@
 title: "#2341 — Downtime test runs before an epoch's devshard escrows can be settled: in epochs 455–468 it saw 11% of requests, and 5 of its 12 penalties hit hosts below the threshold"
 source: https://github.com/gonka-ai/gonka/issues/2341
 issue_number: 2341
-synced_at: 2026-11-28T02:47:32Z
+synced_at: 2026-11-28T11:59:29Z
 template: issues-main.html
 ---
 
