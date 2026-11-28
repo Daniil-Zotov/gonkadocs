@@ -2,7 +2,7 @@
 title: "#1695 — Proxy rate limiting: no exemption path for trusted high-volume clients, and the tuning variables are not passed through in compose"
 source: https://github.com/gonka-ai/gonka/issues/1695
 issue_number: 1695
-synced_at: 2026-11-27T20:03:45Z
+synced_at: 2026-11-28T02:49:22Z
 template: issues-main.html
 ---
 

@@ -2,7 +2,7 @@
 title: "#1813 — `devshard`: Inter-chunk silence as QoS (input/output throughput)"
 source: https://github.com/gonka-ai/gonka/issues/1813
 issue_number: 1813
-synced_at: 2026-11-27T20:03:24Z
+synced_at: 2026-11-28T02:48:52Z
 template: issues-main.html
 ---
 
