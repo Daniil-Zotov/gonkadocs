@@ -1,5 +1,36 @@
 [
   {
+    "id": "evt_20261128040811_01a9e03f",
+    "timestamp": "2026-11-28T04:08:11.576470+00:00",
+    "section": "calendar",
+    "action": "daily_reminder",
+    "item": {
+      "title": "Today: 2 events — Voting ends: #121 – Ancapex: Decision Models for Modest Hardware, Voting ends: #122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK",
+      "url": "/community/calendar/",
+      "file": null
+    },
+    "details": {
+      "today": [
+        {
+          "title": "Voting ends: #121 – Ancapex: Decision Models for Modest Hardware",
+          "date": "2026-11-28",
+          "time": "17:38 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q4/121/"
+        },
+        {
+          "title": "Voting ends: #122 – Ancapex: A DePIN-Native Tokenomics Mechanism for GNK",
+          "date": "2026-11-28",
+          "time": "17:39 UTC",
+          "event_type": "proposal_vote_end",
+          "url": "/proposals/proposals/2026-q4/122/"
+        }
+      ],
+      "count": 2
+    },
+    "ai_description": null
+  },
+  {
     "id": "evt_20261127110546_50c5e046",
     "timestamp": "2026-11-27T11:05:46.820610+00:00",
     "section": "issues",
@@ -8230,21 +8261,5 @@
       "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    x/inference: revalidation vote fails when voter absent from epoch x/group\n    <span class=\"issues-number\">#1269</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-28 12:45 UTC</span>\n    <span class=\"issues-meta-item\">1 comment</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div class=\"iss"
     },
     "ai_description": "A new issue has been filed by @vitaly-andr describing a bug in the x/inference module where revalidation votes fail if the voter is not part of the current epoch's group. This is important because it could block legitimate voting in certain scenarios, and the issue is now closed, suggesting a fix or resolution is already on the way. Keep an eye on the release notes to see how this improves the reliability of the inference voting process."
-  },
-  {
-    "id": "evt_20261022192049_d66b6dc7",
-    "timestamp": "2026-10-22T19:20:49.449025+00:00",
-    "section": "issues",
-    "action": "new",
-    "item": {
-      "title": "#1273 — x/inference: asymmetric debit in refundInvalidatedInference — design clarification",
-      "url": "/community/issues/01273-xinference-asymmetric-debit-in-refundinvalidatedinference-de/",
-      "file": "01273-xinference-asymmetric-debit-in-refundinvalidatedinference-de.md"
-    },
-    "details": {
-      "status": null,
-      "content": "<div class=\"issues-detail-header\">\n  <h1 class=\"issues-detail-title\">\n    <span class=\"issues-status issues-status-closed\"><svg viewBox=\"0 0 16 16\"><path d=\"M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z\"/></svg></span>\n    x/inference: asymmetric debit in refundInvalidatedInference — design clarification\n    <span class=\"issues-number\">#1273</span>\n  </h1>\n  <div class=\"issues-detail-meta\">\n    <span class=\"issues-meta-item\">Closed</span>\n    <span class=\"issues-meta-item\"><a href=\"https://github.com/vitaly-andr\">@vitaly-andr</a> opened 2026-05-28 19:14 UTC</span>\n    <span class=\"issues-meta-item\">2 comments</span>\n    <span class=\"issues-meta-item\"></span>\n  </div>\n  <div "
-    },
-    "ai_description": "Issue #1273 has been opened and closed regarding an asymmetric debit in the refundInvalidatedInference function within the x/inference module. The author @vitaly-andr raised a design clarification, and the issue is now resolved with two comments. This matters because it helps ensure fair and correct refund handling in inference transactions."
   }
 ]
