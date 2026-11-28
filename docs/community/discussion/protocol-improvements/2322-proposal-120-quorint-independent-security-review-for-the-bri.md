@@ -3,7 +3,7 @@ title: "#2322 — Proposal #120 (Quorint): Independent Security Review for the B
 source: https://github.com/gonka-ai/gonka/discussions/2322
 discussion_number: 2322
 category: protocol-improvements
-synced_at: 2026-11-28T01:53:17Z
+synced_at: 2026-11-28T10:12:48Z
 ---
 
 > 🔄 **Auto-sync:** from [Discussion #2322](https://github.com/gonka-ai/gonka/discussions/2322) every hour. 
