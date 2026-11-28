@@ -31,6 +31,8 @@ Since the network genesis, the Community Pool has received inflows from the 2% c
 
 **Direct deposits:** anyone can fund the pool with `MsgFundCommunityPool`. On **2026-11-19** two deposits landed within minutes of each other — **11,999,999.999 GNK** from [`gonka1qekvfdemp…`](https://gonka.gg/address/gonka1qekvfdempdq5vvqz26sts79zh6zv85su34p6u3) ([tx B879F107…](https://gonka.gg/transactions/B879F1076D8A4C5BDECA0E5EABAFFA21FB0DF1C30A0AA4D6882F0054AC252A6B)) and **900,401.005 GNK** from [`gonka1gk48e8tz9…`](https://gonka.gg/address/gonka1gk48e8tz9y85j9fpeyh6gww3rks98ht2d6s26v) ([tx FA6CBC63…](https://gonka.gg/transactions/FA6CBC63F0950B508AE25A4B92EE85F57777D3A4793328CD56B2978FF5BB2EEA)) — a combined **+12,900,401 GNK**, by far the largest one-day inflow to the pool.
 
+**Tracked vs held:** the module address holds **118,256,030 GNK** in the bank (checked 2026-11-28), while the distribution module's community-pool accounting tracks **115,620,110 GNK** — the remaining **~2,635,920 GNK** arrived via direct bank transfers that bypass the pool accounting. It is still spendable through governance votes (`MsgCommunityPoolSpend` draws from the module account balance). The tracked pool also received a further **+99,599 GNK** since 2026-11-19 (a direct deposit; the chain's tx-search is unavailable, so the exact transaction could not be attributed).
+
 *Returned USDT sits in the pool as the IBC denom `ibc/115F68FBA220A028C6F6ED08EA0C1A9C8C52798B14FB66E6C89D5D8C06A524D4` until it is spent through a governance vote — e.g. the **$10,000** returned from **[proposal #42](https://gonkadocs.com/proposals/proposals/2026-q2/42/)** after the planned Global Compute Sovereignty Summit was cancelled (see the [return instructions](https://gonkadocs.com/community/discussion/show-and-tell/1390-how-to-return-funds-to-the-community-pool-ibc-usdt/)). Note that most USDT payouts to contractors and bounty hunters are funded from the **Community Sale contract** below rather than from the distribution-module pool.*
 
 **Steady inflow:** with inflation disabled, the 2% fee tax adds effectively nothing right now (measured: the pool balance stays static over hours — nano-GNK drift at most) — one-off deposits like the 2026-11-19 ones dominate balance movements. Verified on-chain: `inflation = 0`, `annual_provisions = 0` (`curl https://node3.gonka.ai/chain-api/cosmos/mint/v1beta1/inflation`), and the chain wires the standard cosmos-sdk mint module with no custom minting into the pool.
@@ -40,6 +42,7 @@ Since the network genesis, the Community Pool has received inflows from the 2% c
 
 ```
 curl -s https://node3.gonka.ai/chain-api/cosmos/distribution/v1beta1/community_pool
+curl -s https://node3.gonka.ai/chain-api/cosmos/bank/v1beta1/balances/gonka1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8h2rzwa  # module address may hold more than the tracked pool (direct bank transfers)
 ```
 
 </details>
