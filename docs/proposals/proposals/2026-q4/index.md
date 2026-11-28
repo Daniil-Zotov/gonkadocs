@@ -95,6 +95,8 @@ hide:
     <span>Voting ends 2026-11-26</span>
   </div>
   <div class="prop-card-desc">Funds a 24-week security engagement with Quorint (<a href="https://quorint.xyz" target="_blank">https://quorint.xyz</a>): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (673,310)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-rejected">1,600,000 GNK · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>49.7%</strong> (673,310 / 1,354,053) · Quorum <strong>25%</strong> (338,513)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

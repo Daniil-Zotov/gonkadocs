@@ -129,6 +129,7 @@ hide:
     <span>Voting ends 2026-06-15</span>
   </div>
   <div class="prop-card-desc">IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (313,499)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-rejected">$300,000 · Community Sale</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -248,6 +249,7 @@ hide:
     <span>Voting ends 2026-06-05</span>
   </div>
   <div class="prop-card-desc">test proposal - 测试方案</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (579,377)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-rejected">$1,000,000 · Community Sale</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">

@@ -42,7 +42,7 @@ Funds a 24-week security engagement with Quorint (<https://quorint.xyz>): an ind
   <div class="prop-tally-bar">
     <div class="prop-tally-yes" style="width:0.0%"></div>
     <div class="prop-tally-no" style="width:0.0%"></div>
-    <div class="prop-tally-veto" style="width:36.2%"></div>
+    <div class="prop-tally-veto" style="width:49.7%"></div>
     <div class="prop-tally-abstain" style="width:0.0%"></div>
   </div>
   <div class="prop-tally-stats">
@@ -51,29 +51,11 @@ Funds a 24-week security engagement with Quorint (<https://quorint.xyz>): an ind
     <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (673,310)</span>
     <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span>
     <span class="prop-tally-total-text">Total 673,310 votes</span>
-    <span class="prop-tally-yes-text">✓ Turnout <strong>36.2%</strong> (673,310 / 1,858,277) · Quorum <strong>25%</strong> (464,569)</span>
+    <span class="prop-tally-yes-text">✓ Turnout <strong>49.7%</strong> (673,310 / 1,354,053) · Quorum <strong>25%</strong> (338,513)</span>
   </div>
 </div>
 
 
-
-<h2 id="voters">Voters</h2>
-
-<div class="prop-voters-wrap">
-<table class="prop-voters">
-<thead><tr><th>Voter</th><th>Vote</th></tr></thead>
-<tbody>
-<tr><td><a href="https://gonka.gg/address/gonka1pdgu7gmuc2w36enw2fag3n24xxhgmfgx9rs7a0" target="_blank" class="prop-voter-addr">gonka1pdgu7g…9rs7a0</a></td><td><span class="prop-voter-option prop-vote-no">No 100.0%</span></td></tr>
-<tr><td><a href="https://gonka.gg/address/gonka1nurzpppvn0lxg20v2c3gf8zfltpdpz599rggst" target="_blank" class="prop-voter-addr">gonka1nurzpp…9rggst</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
-<tr><td><a href="https://gonka.gg/address/gonka147qfckm9hpdzd9dgfvfj2r5rsv0eeunj4gpvz8" target="_blank" class="prop-voter-addr">gonka147qfck…4gpvz8</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
-<tr><td><a href="https://gonka.gg/address/gonka1kvmerzu64094dt9t62ea0cp75larh39ulzldum" target="_blank" class="prop-voter-addr">gonka1kvmerz…lzldum</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
-<tr><td><a href="https://gonka.gg/address/gonka16dgkvx7mh609ntkzknckwaskgq9lcdp86j0skk" target="_blank" class="prop-voter-addr">gonka16dgkvx…6j0skk</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
-<tr><td><a href="https://gonka.gg/address/gonka1u7s3mpw4654l30vwzlzsxkhfrmscl6p4p80asy" target="_blank" class="prop-voter-addr">gonka1u7s3mp…p80asy</a></td><td><span class="prop-voter-option prop-vote-veto">No_With_Veto 100.0%</span></td></tr>
-</tbody>
-</table>
-</div>
-
----
 ## Messages
 
 | # | Type |

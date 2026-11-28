@@ -100,6 +100,8 @@ hide:
     <span>Voting ends 2026-11-26</span>
   </div>
   <div class="prop-card-desc">Funds a 24-week security engagement with Quorint (<a href="https://quorint.xyz" target="_blank">https://quorint.xyz</a>): an independent security review for the Gonka-Ethereum bridge relaunch after the 18 November 2026 incident (Roadmap Track 6 P3), …</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (673,310)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-rejected">1,600,000 GNK · Community Pool</span></div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">✓ Turnout <strong>49.7%</strong> (673,310 / 1,354,053) · Quorum <strong>25%</strong> (338,513)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -746,6 +748,7 @@ hide:
     <span>Voting ends 2026-06-15</span>
   </div>
   <div class="prop-card-desc">IMPORTANT: Below is a condensed version of the proposal. It highlights only the key points and does not disclose all details of the initiative, implementation mechanics, KPIs, or terms. It is strongly…</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (313,499)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-rejected">$300,000 · Community Sale</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -865,6 +868,7 @@ hide:
     <span>Voting ends 2026-06-05</span>
   </div>
   <div class="prop-card-desc">test proposal - 测试方案</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (579,377)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span><span class="prop-card-funding prop-card-funding-rejected">$1,000,000 · Community Sale</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1417,6 +1421,7 @@ hide:
     <span>Voting ends 2026-01-29</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.8</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (3,775,640)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
@@ -1719,7 +1724,7 @@ hide:
 
 </div>
 <div class="prop-oview-stats">
-<em>121 proposals across 6 quarters. Last updated: 2026-11-28 10:42 UTC</em>
+<em>121 proposals across 6 quarters. Last updated: 2026-11-28 10:54 UTC</em>
 </div>
 
 <script>

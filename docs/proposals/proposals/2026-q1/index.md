@@ -208,6 +208,7 @@ hide:
     <span>Voting ends 2026-01-29</span>
   </div>
   <div class="prop-card-desc">Upgrade Proposal: v0.2.8</div>
+  <div class="prop-card-tally"><span class="prop-tally-yes-text">Yes <strong>0.0%</strong> (0)</span> · <span class="prop-tally-no-text">No <strong>0.0%</strong> (0)</span> · <span class="prop-tally-veto-text">Veto <strong>100.0%</strong> (3,775,640)</span> · <span class="prop-tally-abstain-text">Abstain <strong>0.0%</strong> (0)</span></div>
 </div>
 
 <div class="prop-card" data-status="prop-passed">
