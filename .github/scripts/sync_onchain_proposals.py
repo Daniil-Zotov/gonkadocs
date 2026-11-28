@@ -917,10 +917,12 @@ hide:
             if short_summary:
                 md += f'  <div class="prop-card-desc">{linkify(escape_md(short_summary))}</div>\n'
 
-            if yes_c + no_c > 0 or status_css_cls in ("prop-passed", "prop-voting"):
-                veto_c = int(tally.get("no_with_veto_count", 0))
-                abstain_c = int(tally.get("abstain_count", 0))
-                total_t = yes_c + no_c + veto_c + abstain_c
+            veto_c = int(tally.get("no_with_veto_count", 0))
+            abstain_c = int(tally.get("abstain_count", 0))
+            total_t = yes_c + no_c + veto_c + abstain_c
+            # Show the tally plate whenever ANY votes exist — including proposals
+            # rejected purely by veto (yes = no = 0, e.g. #120).
+            if total_t > 0 or status_css_cls in ("prop-passed", "prop-voting"):
                 _pct = lambda v: f"{v / total_t * 100:.1f}%" if total_t > 0 else "0.0%"
                 _tally_line = f'<span class="prop-tally-yes-text">Yes <strong>{_pct(yes_c)}</strong> ({yes_c:,})</span> · <span class="prop-tally-no-text">No <strong>{_pct(no_c)}</strong> ({no_c:,})</span> · <span class="prop-tally-veto-text">Veto <strong>{_pct(veto_c)}</strong> ({veto_c:,})</span> · <span class="prop-tally-abstain-text">Abstain <strong>{_pct(abstain_c)}</strong> ({abstain_c:,})</span>'
 
@@ -1132,10 +1134,12 @@ hide:
 '''
         if short_summary:
             md += f'  <div class="prop-card-desc">{linkify(escape_md(short_summary))}</div>\n'
-        if yes_c + no_c > 0 or status_css_cls in ("prop-passed", "prop-voting"):
-            veto_c = int(tally.get("no_with_veto_count", 0))
-            abstain_c = int(tally.get("abstain_count", 0))
-            total_t = yes_c + no_c + veto_c + abstain_c
+        veto_c = int(tally.get("no_with_veto_count", 0))
+        abstain_c = int(tally.get("abstain_count", 0))
+        total_t = yes_c + no_c + veto_c + abstain_c
+        # Show the tally plate whenever ANY votes exist — including proposals
+        # rejected purely by veto (yes = no = 0, e.g. #120).
+        if total_t > 0 or status_css_cls in ("prop-passed", "prop-voting"):
             _pct = lambda v: f"{v / total_t * 100:.1f}%" if total_t > 0 else "0.0%"
             _tally_line = f'<span class="prop-tally-yes-text">Yes <strong>{_pct(yes_c)}</strong> ({yes_c:,})</span> · <span class="prop-tally-no-text">No <strong>{_pct(no_c)}</strong> ({no_c:,})</span> · <span class="prop-tally-veto-text">Veto <strong>{_pct(veto_c)}</strong> ({veto_c:,})</span> · <span class="prop-tally-abstain-text">Abstain <strong>{_pct(abstain_c)}</strong> ({abstain_c:,})</span>'
 
